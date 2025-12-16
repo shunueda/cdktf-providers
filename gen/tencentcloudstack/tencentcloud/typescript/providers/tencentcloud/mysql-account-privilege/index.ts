@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MysqlAccountPrivilegeConfig extends cdktf.TerraformMetaArgument
   /**
   * Account host, default is `%`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#account_host MysqlAccountPrivilege#account_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#account_host MysqlAccountPrivilege#account_host}
   */
   readonly accountHost?: string;
   /**
   * Account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#account_name MysqlAccountPrivilege#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#account_name MysqlAccountPrivilege#account_name}
   */
   readonly accountName: string;
   /**
   * List of specified database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#database_names MysqlAccountPrivilege#database_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#database_names MysqlAccountPrivilege#database_names}
   */
   readonly databaseNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#id MysqlAccountPrivilege#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#id MysqlAccountPrivilege#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface MysqlAccountPrivilegeConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#mysql_id MysqlAccountPrivilege#mysql_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#mysql_id MysqlAccountPrivilege#mysql_id}
   */
   readonly mysqlId: string;
   /**
   * Database permissions. Valid values: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE`, `DROP`, `REFERENCES`, `INDEX`, `ALTER`, `CREATE TEMPORARY TABLES`, `LOCK TABLES`, `EXECUTE`, `CREATE VIEW`, `SHOW VIEW`, `CREATE ROUTINE`, `ALTER ROUTINE`, `EVENT` and `TRIGGER``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#privileges MysqlAccountPrivilege#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#privileges MysqlAccountPrivilege#privileges}
   */
   readonly privileges?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege tencentcloud_mysql_account_privilege}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege tencentcloud_mysql_account_privilege}
 */
 export class MysqlAccountPrivilege extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class MysqlAccountPrivilege extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlAccountPrivilege resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlAccountPrivilege to import
-  * @param importFromId The id of the existing MysqlAccountPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlAccountPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlAccountPrivilege to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class MysqlAccountPrivilege extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_account_privilege tencentcloud_mysql_account_privilege} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_account_privilege tencentcloud_mysql_account_privilege} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class MysqlAccountPrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_account_privilege',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

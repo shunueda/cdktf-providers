@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyHostTransportNodeCollectionConfig extends cdktf.Terraform
   /**
   * Compute collection id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#compute_collection_id PolicyHostTransportNodeCollection#compute_collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#compute_collection_id PolicyHostTransportNodeCollection#compute_collection_id}
   */
   readonly computeCollectionId: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#description PolicyHostTransportNodeCollection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#description PolicyHostTransportNodeCollection#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#display_name PolicyHostTransportNodeCollection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#display_name PolicyHostTransportNodeCollection#display_name}
   */
   readonly displayName: string;
   /**
   * If this is set to true, NSX on DVPG will be enabled on the Transport Node Collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#enable_nsx_on_dvpg PolicyHostTransportNodeCollection#enable_nsx_on_dvpg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#enable_nsx_on_dvpg PolicyHostTransportNodeCollection#enable_nsx_on_dvpg}
   */
   readonly enableNsxOnDvpg?: boolean | cdktf.IResolvable;
   /**
   * ID of the enforcement point this resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#enforcement_point PolicyHostTransportNodeCollection#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#enforcement_point PolicyHostTransportNodeCollection#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#id PolicyHostTransportNodeCollection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#id PolicyHostTransportNodeCollection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface PolicyHostTransportNodeCollectionConfig extends cdktf.Terraform
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#nsx_id PolicyHostTransportNodeCollection#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#nsx_id PolicyHostTransportNodeCollection#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Indicate whether NSX service should be removed from hypervisors during resource deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#remove_nsx_on_destroy PolicyHostTransportNodeCollection#remove_nsx_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#remove_nsx_on_destroy PolicyHostTransportNodeCollection#remove_nsx_on_destroy}
   */
   readonly removeNsxOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Path to the site this resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#site_path PolicyHostTransportNodeCollection#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#site_path PolicyHostTransportNodeCollection#site_path}
   */
   readonly sitePath?: string;
   /**
   * Transport Node Profile Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#transport_node_profile_path PolicyHostTransportNodeCollection#transport_node_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#transport_node_profile_path PolicyHostTransportNodeCollection#transport_node_profile_path}
   */
   readonly transportNodeProfilePath?: string;
   /**
   * sub_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#sub_cluster_config PolicyHostTransportNodeCollection#sub_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#sub_cluster_config PolicyHostTransportNodeCollection#sub_cluster_config}
   */
   readonly subClusterConfig?: PolicyHostTransportNodeCollectionSubClusterConfig[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#tag PolicyHostTransportNodeCollection#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#tag PolicyHostTransportNodeCollection#tag}
   */
   readonly tag?: PolicyHostTransportNodeCollectionTag[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface PolicyHostTransportNodeCollectionSubClusterConfigHostSwitchConf
   /**
   * HostSwitch Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#host_switch_id PolicyHostTransportNodeCollection#host_switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#host_switch_id PolicyHostTransportNodeCollection#host_switch_id}
   */
   readonly hostSwitchId: string;
   /**
   * Name of the TransportNodeProfile sub configuration to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#transport_node_profile_sub_config_name PolicyHostTransportNodeCollection#transport_node_profile_sub_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#transport_node_profile_sub_config_name PolicyHostTransportNodeCollection#transport_node_profile_sub_config_name}
   */
   readonly transportNodeProfileSubConfigName: string;
 }
@@ -232,19 +232,19 @@ export interface PolicyHostTransportNodeCollectionSubClusterConfig {
   /**
   * sub-cluster Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#sub_cluster_id PolicyHostTransportNodeCollection#sub_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#sub_cluster_id PolicyHostTransportNodeCollection#sub_cluster_id}
   */
   readonly subClusterId?: string;
   /**
   * sub-cluster path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#sub_cluster_path PolicyHostTransportNodeCollection#sub_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#sub_cluster_path PolicyHostTransportNodeCollection#sub_cluster_path}
   */
   readonly subClusterPath?: string;
   /**
   * host_switch_config_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#host_switch_config_source PolicyHostTransportNodeCollection#host_switch_config_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#host_switch_config_source PolicyHostTransportNodeCollection#host_switch_config_source}
   */
   readonly hostSwitchConfigSource: PolicyHostTransportNodeCollectionSubClusterConfigHostSwitchConfigSource[] | cdktf.IResolvable;
 }
@@ -415,11 +415,11 @@ export class PolicyHostTransportNodeCollectionSubClusterConfigList extends cdktf
 }
 export interface PolicyHostTransportNodeCollectionTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#scope PolicyHostTransportNodeCollection#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#scope PolicyHostTransportNodeCollection#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#tag PolicyHostTransportNodeCollection#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#tag PolicyHostTransportNodeCollection#tag}
   */
   readonly tag?: string;
 }
@@ -564,7 +564,7 @@ export class PolicyHostTransportNodeCollectionTagList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection nsxt_policy_host_transport_node_collection}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection nsxt_policy_host_transport_node_collection}
 */
 export class PolicyHostTransportNodeCollection extends cdktf.TerraformResource {
 
@@ -580,7 +580,7 @@ export class PolicyHostTransportNodeCollection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyHostTransportNodeCollection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyHostTransportNodeCollection to import
-  * @param importFromId The id of the existing PolicyHostTransportNodeCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyHostTransportNodeCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyHostTransportNodeCollection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class PolicyHostTransportNodeCollection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node_collection nsxt_policy_host_transport_node_collection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node_collection nsxt_policy_host_transport_node_collection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class PolicyHostTransportNodeCollection extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_host_transport_node_collection',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

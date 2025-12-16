@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCamListEntitiesForPolicyConfig extends cdktf.Te
   /**
   * Can take values of &amp;amp;#39;All&amp;amp;#39;, &amp;amp;#39;User&amp;amp;#39;, &amp;amp;#39;Group&amp;amp;#39;, and &amp;amp;#39;Role&amp;amp;#39;. &amp;amp;#39;All&amp;amp;#39; represents obtaining all entity types, &amp;amp;#39;User&amp;amp;#39; represents only obtaining sub accounts, &amp;amp;#39;Group&amp;amp;#39; represents only obtaining user groups, and &amp;amp;#39;Role&amp;amp;#39; represents only obtaining roles. The default value is&amp;amp;#39; All &amp;amp;#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy#entity_filter DataTencentcloudCamListEntitiesForPolicy#entity_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy#entity_filter DataTencentcloudCamListEntitiesForPolicy#entity_filter}
   */
   readonly entityFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy#id DataTencentcloudCamListEntitiesForPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy#id DataTencentcloudCamListEntitiesForPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudCamListEntitiesForPolicyConfig extends cdktf.Te
   /**
   * Policy Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy#policy_id DataTencentcloudCamListEntitiesForPolicy#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy#policy_id DataTencentcloudCamListEntitiesForPolicy#policy_id}
   */
   readonly policyId: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy#result_output_file DataTencentcloudCamListEntitiesForPolicy#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy#result_output_file DataTencentcloudCamListEntitiesForPolicy#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Per page size, default value is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy#rp DataTencentcloudCamListEntitiesForPolicy#rp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy#rp DataTencentcloudCamListEntitiesForPolicy#rp}
   */
   readonly rp?: number;
 }
@@ -136,7 +136,7 @@ export class DataTencentcloudCamListEntitiesForPolicyListStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy tencentcloud_cam_list_entities_for_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy tencentcloud_cam_list_entities_for_policy}
 */
 export class DataTencentcloudCamListEntitiesForPolicy extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataTencentcloudCamListEntitiesForPolicy extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudCamListEntitiesForPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamListEntitiesForPolicy to import
-  * @param importFromId The id of the existing DataTencentcloudCamListEntitiesForPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamListEntitiesForPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamListEntitiesForPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataTencentcloudCamListEntitiesForPolicy extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cam_list_entities_for_policy tencentcloud_cam_list_entities_for_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cam_list_entities_for_policy tencentcloud_cam_list_entities_for_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class DataTencentcloudCamListEntitiesForPolicy extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_cam_list_entities_for_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

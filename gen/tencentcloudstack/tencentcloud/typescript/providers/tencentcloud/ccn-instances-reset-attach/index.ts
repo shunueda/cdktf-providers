@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CcnInstancesResetAttachConfig extends cdktf.TerraformMetaArgume
   /**
   * CCN Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#ccn_id CcnInstancesResetAttach#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#ccn_id CcnInstancesResetAttach#ccn_id}
   */
   readonly ccnId: string;
   /**
   * CCN Uin (root account).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#ccn_uin CcnInstancesResetAttach#ccn_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#ccn_uin CcnInstancesResetAttach#ccn_uin}
   */
   readonly ccnUin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#id CcnInstancesResetAttach#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#id CcnInstancesResetAttach#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface CcnInstancesResetAttachConfig extends cdktf.TerraformMetaArgume
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#instances CcnInstancesResetAttach#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#instances CcnInstancesResetAttach#instances}
   */
   readonly instances: CcnInstancesResetAttachInstances[] | cdktf.IResolvable;
 }
@@ -37,31 +37,31 @@ export interface CcnInstancesResetAttachInstances {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#description CcnInstancesResetAttach#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#description CcnInstancesResetAttach#description}
   */
   readonly description?: string;
   /**
   * Attachment Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#instance_id CcnInstancesResetAttach#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#instance_id CcnInstancesResetAttach#instance_id}
   */
   readonly instanceId: string;
   /**
   * Instance Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#instance_region CcnInstancesResetAttach#instance_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#instance_region CcnInstancesResetAttach#instance_region}
   */
   readonly instanceRegion: string;
   /**
   * InstanceType: `VPC`, `DIRECTCONNECT`, `BMVPC`, `VPNGW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#instance_type CcnInstancesResetAttach#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#instance_type CcnInstancesResetAttach#instance_type}
   */
   readonly instanceType?: string;
   /**
   * ID of the routing table associated with the instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#route_table_id CcnInstancesResetAttach#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#route_table_id CcnInstancesResetAttach#route_table_id}
   */
   readonly routeTableId?: string;
 }
@@ -287,7 +287,7 @@ export class CcnInstancesResetAttachInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach tencentcloud_ccn_instances_reset_attach}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach tencentcloud_ccn_instances_reset_attach}
 */
 export class CcnInstancesResetAttach extends cdktf.TerraformResource {
 
@@ -303,7 +303,7 @@ export class CcnInstancesResetAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CcnInstancesResetAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CcnInstancesResetAttach to import
-  * @param importFromId The id of the existing CcnInstancesResetAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CcnInstancesResetAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CcnInstancesResetAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -315,7 +315,7 @@ export class CcnInstancesResetAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ccn_instances_reset_attach tencentcloud_ccn_instances_reset_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ccn_instances_reset_attach tencentcloud_ccn_instances_reset_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -326,8 +326,8 @@ export class CcnInstancesResetAttach extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ccn_instances_reset_attach',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

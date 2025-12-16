@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MonitorTmpTkeConfigConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#cluster_id MonitorTmpTkeConfig#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#cluster_id MonitorTmpTkeConfig#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Type of cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#cluster_type MonitorTmpTkeConfig#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#cluster_type MonitorTmpTkeConfig#cluster_type}
   */
   readonly clusterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#id MonitorTmpTkeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#id MonitorTmpTkeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface MonitorTmpTkeConfigConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#instance_id MonitorTmpTkeConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#instance_id MonitorTmpTkeConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * pod_monitors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#pod_monitors MonitorTmpTkeConfig#pod_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#pod_monitors MonitorTmpTkeConfig#pod_monitors}
   */
   readonly podMonitors?: MonitorTmpTkeConfigPodMonitors[] | cdktf.IResolvable;
   /**
   * raw_jobs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#raw_jobs MonitorTmpTkeConfig#raw_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#raw_jobs MonitorTmpTkeConfig#raw_jobs}
   */
   readonly rawJobs?: MonitorTmpTkeConfigRawJobs[] | cdktf.IResolvable;
   /**
   * service_monitors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#service_monitors MonitorTmpTkeConfig#service_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#service_monitors MonitorTmpTkeConfig#service_monitors}
   */
   readonly serviceMonitors?: MonitorTmpTkeConfigServiceMonitors[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface MonitorTmpTkeConfigPodMonitors {
   /**
   * Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#config MonitorTmpTkeConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#config MonitorTmpTkeConfig#config}
   */
   readonly config: string;
   /**
   * Name. The naming rule is: namespace/name. If you don't have any namespace, use the default namespace: kube-system, otherwise use the specified one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#name MonitorTmpTkeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#name MonitorTmpTkeConfig#name}
   */
   readonly name: string;
   /**
   * Used for output parameters, if the configuration comes from a template, it is the template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#template_id MonitorTmpTkeConfig#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#template_id MonitorTmpTkeConfig#template_id}
   */
   readonly templateId?: string;
 }
@@ -237,19 +237,19 @@ export interface MonitorTmpTkeConfigRawJobs {
   /**
   * Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#config MonitorTmpTkeConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#config MonitorTmpTkeConfig#config}
   */
   readonly config: string;
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#name MonitorTmpTkeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#name MonitorTmpTkeConfig#name}
   */
   readonly name: string;
   /**
   * Used for output parameters, if the configuration comes from a template, it is the template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#template_id MonitorTmpTkeConfig#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#template_id MonitorTmpTkeConfig#template_id}
   */
   readonly templateId?: string;
 }
@@ -419,19 +419,19 @@ export interface MonitorTmpTkeConfigServiceMonitors {
   /**
   * Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#config MonitorTmpTkeConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#config MonitorTmpTkeConfig#config}
   */
   readonly config: string;
   /**
   * Name. The naming rule is: namespace/name. If you don't have any namespace, use the default namespace: kube-system, otherwise use the specified one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#name MonitorTmpTkeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#name MonitorTmpTkeConfig#name}
   */
   readonly name: string;
   /**
   * Used for output parameters, if the configuration comes from a template, it is the template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#template_id MonitorTmpTkeConfig#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#template_id MonitorTmpTkeConfig#template_id}
   */
   readonly templateId?: string;
 }
@@ -599,7 +599,7 @@ export class MonitorTmpTkeConfigServiceMonitorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config tencentcloud_monitor_tmp_tke_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config tencentcloud_monitor_tmp_tke_config}
 */
 export class MonitorTmpTkeConfig extends cdktf.TerraformResource {
 
@@ -615,7 +615,7 @@ export class MonitorTmpTkeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpTkeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpTkeConfig to import
-  * @param importFromId The id of the existing MonitorTmpTkeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpTkeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpTkeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +627,7 @@ export class MonitorTmpTkeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_tke_config tencentcloud_monitor_tmp_tke_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_tke_config tencentcloud_monitor_tmp_tke_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +638,8 @@ export class MonitorTmpTkeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_tke_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

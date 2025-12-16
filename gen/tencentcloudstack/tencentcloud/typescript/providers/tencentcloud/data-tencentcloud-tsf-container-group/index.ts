@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudTsfContainerGroupConfig extends cdktf.Terraform
   /**
   * ApplicationId, required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#application_id DataTencentcloudTsfContainerGroup#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#application_id DataTencentcloudTsfContainerGroup#application_id}
   */
   readonly applicationId?: string;
   /**
   * Cluster Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#cluster_id DataTencentcloudTsfContainerGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#cluster_id DataTencentcloudTsfContainerGroup#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#id DataTencentcloudTsfContainerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#id DataTencentcloudTsfContainerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataTencentcloudTsfContainerGroupConfig extends cdktf.Terraform
   /**
   * Namespace Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#namespace_id DataTencentcloudTsfContainerGroup#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#namespace_id DataTencentcloudTsfContainerGroup#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * The sorting field. By default, it is the createTime field. Supports id, name, createTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#order_by DataTencentcloudTsfContainerGroup#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#order_by DataTencentcloudTsfContainerGroup#order_by}
   */
   readonly orderBy?: string;
   /**
   * The sorting order. By default, it is 1, indicating descending order. 0 indicates ascending order, and 1 indicates descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#order_type DataTencentcloudTsfContainerGroup#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#order_type DataTencentcloudTsfContainerGroup#order_type}
   */
   readonly orderType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#result_output_file DataTencentcloudTsfContainerGroup#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#result_output_file DataTencentcloudTsfContainerGroup#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * search word, support group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#search_word DataTencentcloudTsfContainerGroup#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#search_word DataTencentcloudTsfContainerGroup#search_word}
   */
   readonly searchWord?: string;
 }
@@ -295,7 +295,7 @@ export class DataTencentcloudTsfContainerGroupResultList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group tencentcloud_tsf_container_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group tencentcloud_tsf_container_group}
 */
 export class DataTencentcloudTsfContainerGroup extends cdktf.TerraformDataSource {
 
@@ -311,7 +311,7 @@ export class DataTencentcloudTsfContainerGroup extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudTsfContainerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfContainerGroup to import
-  * @param importFromId The id of the existing DataTencentcloudTsfContainerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfContainerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfContainerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class DataTencentcloudTsfContainerGroup extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_container_group tencentcloud_tsf_container_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_container_group tencentcloud_tsf_container_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class DataTencentcloudTsfContainerGroup extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_tsf_container_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

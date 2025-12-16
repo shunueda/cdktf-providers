@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtVpcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#description DataNsxtVpcSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#description DataNsxtVpcSubnet#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#display_name DataNsxtVpcSubnet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#display_name DataNsxtVpcSubnet#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#id DataNsxtVpcSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#id DataNsxtVpcSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface DataNsxtVpcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#context DataNsxtVpcSubnet#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#context DataNsxtVpcSubnet#context}
   */
   readonly context: DataNsxtVpcSubnetContext;
 }
@@ -39,13 +39,13 @@ export interface DataNsxtVpcSubnetContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#project_id DataNsxtVpcSubnet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#project_id DataNsxtVpcSubnet#project_id}
   */
   readonly projectId: string;
   /**
   * Id of the VPC which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#vpc_id DataNsxtVpcSubnet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#vpc_id DataNsxtVpcSubnet#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -152,7 +152,7 @@ export class DataNsxtVpcSubnetContextOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet nsxt_vpc_subnet}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet nsxt_vpc_subnet}
 */
 export class DataNsxtVpcSubnet extends cdktf.TerraformDataSource {
 
@@ -168,7 +168,7 @@ export class DataNsxtVpcSubnet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtVpcSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtVpcSubnet to import
-  * @param importFromId The id of the existing DataNsxtVpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtVpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtVpcSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -180,7 +180,7 @@ export class DataNsxtVpcSubnet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_subnet nsxt_vpc_subnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_subnet nsxt_vpc_subnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -191,8 +191,8 @@ export class DataNsxtVpcSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_vpc_subnet',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

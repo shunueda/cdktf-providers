@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface EdgeHighAvailabilityProfileConfig extends cdktf.TerraformMetaAr
   /**
   * BFD allowed hops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#bfd_allowed_hops EdgeHighAvailabilityProfile#bfd_allowed_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#bfd_allowed_hops EdgeHighAvailabilityProfile#bfd_allowed_hops}
   */
   readonly bfdAllowedHops?: number;
   /**
   * Number of times a packet is missed before BFD declares the neighbor down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#bfd_declare_dead_multiple EdgeHighAvailabilityProfile#bfd_declare_dead_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#bfd_declare_dead_multiple EdgeHighAvailabilityProfile#bfd_declare_dead_multiple}
   */
   readonly bfdDeclareDeadMultiple?: number;
   /**
   * the time interval (in millisecond) between probe packets for heartbeat purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#bfd_probe_interval EdgeHighAvailabilityProfile#bfd_probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#bfd_probe_interval EdgeHighAvailabilityProfile#bfd_probe_interval}
   */
   readonly bfdProbeInterval?: number;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#description EdgeHighAvailabilityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#description EdgeHighAvailabilityProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#display_name EdgeHighAvailabilityProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#display_name EdgeHighAvailabilityProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#id EdgeHighAvailabilityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#id EdgeHighAvailabilityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,23 +47,23 @@ export interface EdgeHighAvailabilityProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Standby service context relocation wait time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#standby_relocation_threshold EdgeHighAvailabilityProfile#standby_relocation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#standby_relocation_threshold EdgeHighAvailabilityProfile#standby_relocation_threshold}
   */
   readonly standbyRelocationThreshold?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#tag EdgeHighAvailabilityProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#tag EdgeHighAvailabilityProfile#tag}
   */
   readonly tag?: EdgeHighAvailabilityProfileTag[] | cdktf.IResolvable;
 }
 export interface EdgeHighAvailabilityProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#scope EdgeHighAvailabilityProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#scope EdgeHighAvailabilityProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#tag EdgeHighAvailabilityProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#tag EdgeHighAvailabilityProfile#tag}
   */
   readonly tag?: string;
 }
@@ -208,7 +208,7 @@ export class EdgeHighAvailabilityProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile nsxt_edge_high_availability_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile nsxt_edge_high_availability_profile}
 */
 export class EdgeHighAvailabilityProfile extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class EdgeHighAvailabilityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeHighAvailabilityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeHighAvailabilityProfile to import
-  * @param importFromId The id of the existing EdgeHighAvailabilityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeHighAvailabilityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeHighAvailabilityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class EdgeHighAvailabilityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_high_availability_profile nsxt_edge_high_availability_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_high_availability_profile nsxt_edge_high_availability_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class EdgeHighAvailabilityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_edge_high_availability_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

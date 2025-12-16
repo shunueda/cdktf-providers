@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MysqlDbImportJobOperationConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the imported target database, if it is not passed, it means that no database is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#cos_url MysqlDbImportJobOperation#cos_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#cos_url MysqlDbImportJobOperation#cos_url}
   */
   readonly cosUrl?: string;
   /**
   * The name of the imported target database, if it is not passed, it means that no database is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#db_name MysqlDbImportJobOperation#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#db_name MysqlDbImportJobOperation#db_name}
   */
   readonly dbName?: string;
   /**
   * file name. This file refers to the file that the user has uploaded to Tencent Cloud, and only .sql files are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#file_name MysqlDbImportJobOperation#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#file_name MysqlDbImportJobOperation#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#id MysqlDbImportJobOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#id MysqlDbImportJobOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface MysqlDbImportJobOperationConfig extends cdktf.TerraformMetaArgu
   /**
   * The instance ID, in the format: cdb-c1nl9rpv, is the same as the instance ID displayed on the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#instance_id MysqlDbImportJobOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#instance_id MysqlDbImportJobOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * The password of the user account of the cloud database instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#password MysqlDbImportJobOperation#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#password MysqlDbImportJobOperation#password}
   */
   readonly password?: string;
   /**
   * The username of the cloud database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#user MysqlDbImportJobOperation#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#user MysqlDbImportJobOperation#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation tencentcloud_mysql_db_import_job_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation tencentcloud_mysql_db_import_job_operation}
 */
 export class MysqlDbImportJobOperation extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class MysqlDbImportJobOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlDbImportJobOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlDbImportJobOperation to import
-  * @param importFromId The id of the existing MysqlDbImportJobOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlDbImportJobOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlDbImportJobOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class MysqlDbImportJobOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mysql_db_import_job_operation tencentcloud_mysql_db_import_job_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_db_import_job_operation tencentcloud_mysql_db_import_job_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class MysqlDbImportJobOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_db_import_job_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

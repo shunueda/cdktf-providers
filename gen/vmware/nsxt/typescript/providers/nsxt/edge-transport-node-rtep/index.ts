@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EdgeTransportNodeRtepConfig extends cdktf.TerraformMetaArgument
   /**
   * Edge ID to associate with remote tunnel endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#edge_id EdgeTransportNodeRtep#edge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#edge_id EdgeTransportNodeRtep#edge_id}
   */
   readonly edgeId: string;
   /**
   * The host switch name to be used for the remote tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#host_switch_name EdgeTransportNodeRtep#host_switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#host_switch_name EdgeTransportNodeRtep#host_switch_name}
   */
   readonly hostSwitchName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#id EdgeTransportNodeRtep#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#id EdgeTransportNodeRtep#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface EdgeTransportNodeRtepConfig extends cdktf.TerraformMetaArgument
   /**
   * The named teaming policy to be used by the remote tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#named_teaming_policy EdgeTransportNodeRtep#named_teaming_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#named_teaming_policy EdgeTransportNodeRtep#named_teaming_policy}
   */
   readonly namedTeamingPolicy?: string;
   /**
   * VLAN id for remote tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#rtep_vlan EdgeTransportNodeRtep#rtep_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#rtep_vlan EdgeTransportNodeRtep#rtep_vlan}
   */
   readonly rtepVlan: number;
   /**
   * ip_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#ip_assignment EdgeTransportNodeRtep#ip_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#ip_assignment EdgeTransportNodeRtep#ip_assignment}
   */
   readonly ipAssignment: EdgeTransportNodeRtepIpAssignment;
 }
@@ -49,19 +49,19 @@ export interface EdgeTransportNodeRtepIpAssignmentStaticIp {
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#default_gateway EdgeTransportNodeRtep#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#default_gateway EdgeTransportNodeRtep#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPs for transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#ip_addresses EdgeTransportNodeRtep#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#ip_addresses EdgeTransportNodeRtep#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#subnet_mask EdgeTransportNodeRtep#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#subnet_mask EdgeTransportNodeRtep#subnet_mask}
   */
   readonly subnetMask: string;
 }
@@ -196,13 +196,13 @@ export interface EdgeTransportNodeRtepIpAssignmentStaticIpMacIpMacPair {
   /**
   * A single IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#ip_address EdgeTransportNodeRtep#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#ip_address EdgeTransportNodeRtep#ip_address}
   */
   readonly ipAddress: string;
   /**
   * A single MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#mac_address EdgeTransportNodeRtep#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#mac_address EdgeTransportNodeRtep#mac_address}
   */
   readonly macAddress: string;
 }
@@ -343,19 +343,19 @@ export interface EdgeTransportNodeRtepIpAssignmentStaticIpMac {
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#default_gateway EdgeTransportNodeRtep#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#default_gateway EdgeTransportNodeRtep#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#subnet_mask EdgeTransportNodeRtep#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#subnet_mask EdgeTransportNodeRtep#subnet_mask}
   */
   readonly subnetMask: string;
   /**
   * ip_mac_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#ip_mac_pair EdgeTransportNodeRtep#ip_mac_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#ip_mac_pair EdgeTransportNodeRtep#ip_mac_pair}
   */
   readonly ipMacPair: EdgeTransportNodeRtepIpAssignmentStaticIpMacIpMacPair[] | cdktf.IResolvable;
 }
@@ -490,31 +490,31 @@ export interface EdgeTransportNodeRtepIpAssignment {
   /**
   * Enables DHCP assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#assigned_by_dhcp EdgeTransportNodeRtep#assigned_by_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#assigned_by_dhcp EdgeTransportNodeRtep#assigned_by_dhcp}
   */
   readonly assignedByDhcp?: boolean | cdktf.IResolvable;
   /**
   * No IPv4 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#no_ipv4 EdgeTransportNodeRtep#no_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#no_ipv4 EdgeTransportNodeRtep#no_ipv4}
   */
   readonly noIpv4?: boolean | cdktf.IResolvable;
   /**
   * IP assignment specification for Static IP Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#static_ip_pool EdgeTransportNodeRtep#static_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#static_ip_pool EdgeTransportNodeRtep#static_ip_pool}
   */
   readonly staticIpPool?: string;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#static_ip EdgeTransportNodeRtep#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#static_ip EdgeTransportNodeRtep#static_ip}
   */
   readonly staticIp?: EdgeTransportNodeRtepIpAssignmentStaticIp;
   /**
   * static_ip_mac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#static_ip_mac EdgeTransportNodeRtep#static_ip_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#static_ip_mac EdgeTransportNodeRtep#static_ip_mac}
   */
   readonly staticIpMac?: EdgeTransportNodeRtepIpAssignmentStaticIpMac;
 }
@@ -714,7 +714,7 @@ export class EdgeTransportNodeRtepIpAssignmentOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep nsxt_edge_transport_node_rtep}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep nsxt_edge_transport_node_rtep}
 */
 export class EdgeTransportNodeRtep extends cdktf.TerraformResource {
 
@@ -730,7 +730,7 @@ export class EdgeTransportNodeRtep extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeTransportNodeRtep resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeTransportNodeRtep to import
-  * @param importFromId The id of the existing EdgeTransportNodeRtep that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeTransportNodeRtep that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeTransportNodeRtep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -742,7 +742,7 @@ export class EdgeTransportNodeRtep extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/edge_transport_node_rtep nsxt_edge_transport_node_rtep} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/edge_transport_node_rtep nsxt_edge_transport_node_rtep} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -753,8 +753,8 @@ export class EdgeTransportNodeRtep extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_edge_transport_node_rtep',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

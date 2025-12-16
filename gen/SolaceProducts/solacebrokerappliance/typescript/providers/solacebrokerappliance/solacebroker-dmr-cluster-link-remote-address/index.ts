@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerDmrClusterLinkRemoteAddressConfig extends cdktf.Ter
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#dmr_cluster_name SolacebrokerDmrClusterLinkRemoteAddress#dmr_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#dmr_cluster_name SolacebrokerDmrClusterLinkRemoteAddress#dmr_cluster_name}
   */
   readonly dmrClusterName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerDmrClusterLinkRemoteAddressConfig extends cdktf.Ter
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#remote_address SolacebrokerDmrClusterLinkRemoteAddress#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#remote_address SolacebrokerDmrClusterLinkRemoteAddress#remote_address}
   */
   readonly remoteAddress: string;
   /**
@@ -28,13 +28,13 @@ export interface SolacebrokerDmrClusterLinkRemoteAddressConfig extends cdktf.Ter
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#remote_node_name SolacebrokerDmrClusterLinkRemoteAddress#remote_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#remote_node_name SolacebrokerDmrClusterLinkRemoteAddress#remote_node_name}
   */
   readonly remoteNodeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address solacebroker_dmr_cluster_link_remote_address}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address solacebroker_dmr_cluster_link_remote_address}
 */
 export class SolacebrokerDmrClusterLinkRemoteAddress extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SolacebrokerDmrClusterLinkRemoteAddress extends cdktf.TerraformReso
   * Generates CDKTF code for importing a SolacebrokerDmrClusterLinkRemoteAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerDmrClusterLinkRemoteAddress to import
-  * @param importFromId The id of the existing SolacebrokerDmrClusterLinkRemoteAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerDmrClusterLinkRemoteAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerDmrClusterLinkRemoteAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SolacebrokerDmrClusterLinkRemoteAddress extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_remote_address solacebroker_dmr_cluster_link_remote_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_remote_address solacebroker_dmr_cluster_link_remote_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SolacebrokerDmrClusterLinkRemoteAddress extends cdktf.TerraformReso
       terraformResourceType: 'solacebroker_dmr_cluster_link_remote_address',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

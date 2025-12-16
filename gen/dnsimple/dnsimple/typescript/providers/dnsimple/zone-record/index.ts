@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record
+// https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface ZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#name ZoneRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#name ZoneRecord#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#priority ZoneRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#priority ZoneRecord#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#regions ZoneRecord#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#regions ZoneRecord#regions}
   */
   readonly regions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#ttl ZoneRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#ttl ZoneRecord#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#type ZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#type ZoneRecord#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#value ZoneRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#value ZoneRecord#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#zone_name ZoneRecord#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#zone_name ZoneRecord#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record dnsimple_zone_record}
+* Represents a {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record dnsimple_zone_record}
 */
 export class ZoneRecord extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class ZoneRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZoneRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZoneRecord to import
-  * @param importFromId The id of the existing ZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZoneRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class ZoneRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/zone_record dnsimple_zone_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/zone_record dnsimple_zone_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class ZoneRecord extends cdktf.TerraformResource {
       terraformResourceType: 'dnsimple_zone_record',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0',
-        providerVersionConstraint: '1.10.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

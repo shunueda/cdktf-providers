@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#client_profile_name SolacebrokerMsgVpnRestDeliveryPoint#client_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#client_profile_name SolacebrokerMsgVpnRestDeliveryPoint#client_profile_name}
   */
   readonly clientProfileName?: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#enabled SolacebrokerMsgVpnRestDeliveryPoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#enabled SolacebrokerMsgVpnRestDeliveryPoint#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#msg_vpn_name SolacebrokerMsgVpnRestDeliveryPoint#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#msg_vpn_name SolacebrokerMsgVpnRestDeliveryPoint#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#rest_delivery_point_name SolacebrokerMsgVpnRestDeliveryPoint#rest_delivery_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#rest_delivery_point_name SolacebrokerMsgVpnRestDeliveryPoint#rest_delivery_point_name}
   */
   readonly restDeliveryPointName: string;
   /**
@@ -44,7 +44,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#service SolacebrokerMsgVpnRestDeliveryPoint#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#service SolacebrokerMsgVpnRestDeliveryPoint#service}
   */
   readonly service?: string;
   /**
@@ -52,13 +52,13 @@ export interface SolacebrokerMsgVpnRestDeliveryPointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#vendor SolacebrokerMsgVpnRestDeliveryPoint#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#vendor SolacebrokerMsgVpnRestDeliveryPoint#vendor}
   */
   readonly vendor?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point solacebroker_msg_vpn_rest_delivery_point}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point solacebroker_msg_vpn_rest_delivery_point}
 */
 export class SolacebrokerMsgVpnRestDeliveryPoint extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class SolacebrokerMsgVpnRestDeliveryPoint extends cdktf.TerraformResource
   * Generates CDKTF code for importing a SolacebrokerMsgVpnRestDeliveryPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnRestDeliveryPoint to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnRestDeliveryPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnRestDeliveryPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnRestDeliveryPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class SolacebrokerMsgVpnRestDeliveryPoint extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point solacebroker_msg_vpn_rest_delivery_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point solacebroker_msg_vpn_rest_delivery_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class SolacebrokerMsgVpnRestDeliveryPoint extends cdktf.TerraformResource
       terraformResourceType: 'solacebroker_msg_vpn_rest_delivery_point',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

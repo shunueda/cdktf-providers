@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyGatewayFloodProtectionProfileConfig extends cdktf.Terrafo
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#description PolicyGatewayFloodProtectionProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#description PolicyGatewayFloodProtectionProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#display_name PolicyGatewayFloodProtectionProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#display_name PolicyGatewayFloodProtectionProfile#display_name}
   */
   readonly displayName: string;
   /**
   * Active ICMP connections limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#icmp_active_flow_limit PolicyGatewayFloodProtectionProfile#icmp_active_flow_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#icmp_active_flow_limit PolicyGatewayFloodProtectionProfile#icmp_active_flow_limit}
   */
   readonly icmpActiveFlowLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#id PolicyGatewayFloodProtectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#id PolicyGatewayFloodProtectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface PolicyGatewayFloodProtectionProfileConfig extends cdktf.Terrafo
   /**
   * Maximum limit of active NAT connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#nat_active_conn_limit PolicyGatewayFloodProtectionProfile#nat_active_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#nat_active_conn_limit PolicyGatewayFloodProtectionProfile#nat_active_conn_limit}
   */
   readonly natActiveConnLimit?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#nsx_id PolicyGatewayFloodProtectionProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#nsx_id PolicyGatewayFloodProtectionProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Timeout after first TN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#other_active_conn_limit PolicyGatewayFloodProtectionProfile#other_active_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#other_active_conn_limit PolicyGatewayFloodProtectionProfile#other_active_conn_limit}
   */
   readonly otherActiveConnLimit?: number;
   /**
   * Active half open TCP connections limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#tcp_half_open_conn_limit PolicyGatewayFloodProtectionProfile#tcp_half_open_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#tcp_half_open_conn_limit PolicyGatewayFloodProtectionProfile#tcp_half_open_conn_limit}
   */
   readonly tcpHalfOpenConnLimit?: number;
   /**
   * Active UDP connections limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#udp_active_flow_limit PolicyGatewayFloodProtectionProfile#udp_active_flow_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#udp_active_flow_limit PolicyGatewayFloodProtectionProfile#udp_active_flow_limit}
   */
   readonly udpActiveFlowLimit?: number;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#context PolicyGatewayFloodProtectionProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#context PolicyGatewayFloodProtectionProfile#context}
   */
   readonly context?: PolicyGatewayFloodProtectionProfileContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#tag PolicyGatewayFloodProtectionProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#tag PolicyGatewayFloodProtectionProfile#tag}
   */
   readonly tag?: PolicyGatewayFloodProtectionProfileTag[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface PolicyGatewayFloodProtectionProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#project_id PolicyGatewayFloodProtectionProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#project_id PolicyGatewayFloodProtectionProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -160,11 +160,11 @@ export class PolicyGatewayFloodProtectionProfileContextOutputReference extends c
 }
 export interface PolicyGatewayFloodProtectionProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#scope PolicyGatewayFloodProtectionProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#scope PolicyGatewayFloodProtectionProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#tag PolicyGatewayFloodProtectionProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#tag PolicyGatewayFloodProtectionProfile#tag}
   */
   readonly tag?: string;
 }
@@ -309,7 +309,7 @@ export class PolicyGatewayFloodProtectionProfileTagList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile nsxt_policy_gateway_flood_protection_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile nsxt_policy_gateway_flood_protection_profile}
 */
 export class PolicyGatewayFloodProtectionProfile extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class PolicyGatewayFloodProtectionProfile extends cdktf.TerraformResource
   * Generates CDKTF code for importing a PolicyGatewayFloodProtectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayFloodProtectionProfile to import
-  * @param importFromId The id of the existing PolicyGatewayFloodProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayFloodProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayFloodProtectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class PolicyGatewayFloodProtectionProfile extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile nsxt_policy_gateway_flood_protection_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile nsxt_policy_gateway_flood_protection_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class PolicyGatewayFloodProtectionProfile extends cdktf.TerraformResource
       terraformResourceType: 'nsxt_policy_gateway_flood_protection_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

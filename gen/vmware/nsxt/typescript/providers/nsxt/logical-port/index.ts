@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LogicalPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Represents Desired state of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#admin_state LogicalPort#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#admin_state LogicalPort#admin_state}
   */
   readonly adminState?: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#description LogicalPort#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#description LogicalPort#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#display_name LogicalPort#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#display_name LogicalPort#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#id LogicalPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#id LogicalPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface LogicalPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of the Logical switch that this port belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#logical_switch_id LogicalPort#logical_switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#logical_switch_id LogicalPort#logical_switch_id}
   */
   readonly logicalSwitchId: string;
   /**
   * switching_profile_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#switching_profile_id LogicalPort#switching_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#switching_profile_id LogicalPort#switching_profile_id}
   */
   readonly switchingProfileId?: LogicalPortSwitchingProfileId[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#tag LogicalPort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#tag LogicalPort#tag}
   */
   readonly tag?: LogicalPortTag[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface LogicalPortSwitchingProfileId {
   /**
   * The resource type of this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#key LogicalPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#key LogicalPort#key}
   */
   readonly key: string;
   /**
   * The ID of this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#value LogicalPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#value LogicalPort#value}
   */
   readonly value: string;
 }
@@ -200,11 +200,11 @@ export class LogicalPortSwitchingProfileIdList extends cdktf.ComplexList {
 }
 export interface LogicalPortTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#scope LogicalPort#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#scope LogicalPort#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#tag LogicalPort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#tag LogicalPort#tag}
   */
   readonly tag?: string;
 }
@@ -349,7 +349,7 @@ export class LogicalPortTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port nsxt_logical_port}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port nsxt_logical_port}
 */
 export class LogicalPort extends cdktf.TerraformResource {
 
@@ -365,7 +365,7 @@ export class LogicalPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalPort to import
-  * @param importFromId The id of the existing LogicalPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class LogicalPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_port nsxt_logical_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_port nsxt_logical_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,8 +388,8 @@ export class LogicalPort extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_logical_port',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

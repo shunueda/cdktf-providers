@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CwpLicenseBindAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment#id CwpLicenseBindAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment#id CwpLicenseBindAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface CwpLicenseBindAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * License ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment#license_id CwpLicenseBindAttachment#license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment#license_id CwpLicenseBindAttachment#license_id}
   */
   readonly licenseId: number;
   /**
   * LicenseType, 0 CWP Pro - Pay as you go, 1 CWP Pro - Monthly subscription, 2 CWP Ultimate - Monthly subscription. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment#license_type CwpLicenseBindAttachment#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment#license_type CwpLicenseBindAttachment#license_type}
   */
   readonly licenseType: number;
   /**
   * Machine quota that needs to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment#quuid CwpLicenseBindAttachment#quuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment#quuid CwpLicenseBindAttachment#quuid}
   */
   readonly quuid: string;
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment#resource_id CwpLicenseBindAttachment#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment#resource_id CwpLicenseBindAttachment#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment tencentcloud_cwp_license_bind_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment tencentcloud_cwp_license_bind_attachment}
 */
 export class CwpLicenseBindAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CwpLicenseBindAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CwpLicenseBindAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CwpLicenseBindAttachment to import
-  * @param importFromId The id of the existing CwpLicenseBindAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CwpLicenseBindAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CwpLicenseBindAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CwpLicenseBindAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cwp_license_bind_attachment tencentcloud_cwp_license_bind_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cwp_license_bind_attachment tencentcloud_cwp_license_bind_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CwpLicenseBindAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cwp_license_bind_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

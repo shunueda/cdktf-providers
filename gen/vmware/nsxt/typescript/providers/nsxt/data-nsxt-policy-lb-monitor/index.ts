@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtPolicyLbMonitorConfig extends cdktf.TerraformMetaArgume
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor#description DataNsxtPolicyLbMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor#description DataNsxtPolicyLbMonitor#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor#display_name DataNsxtPolicyLbMonitor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor#display_name DataNsxtPolicyLbMonitor#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor#id DataNsxtPolicyLbMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor#id DataNsxtPolicyLbMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataNsxtPolicyLbMonitorConfig extends cdktf.TerraformMetaArgume
   /**
   * Load Balancer Monitor Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor#type DataNsxtPolicyLbMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor#type DataNsxtPolicyLbMonitor#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor nsxt_policy_lb_monitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor nsxt_policy_lb_monitor}
 */
 export class DataNsxtPolicyLbMonitor extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataNsxtPolicyLbMonitor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyLbMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyLbMonitor to import
-  * @param importFromId The id of the existing DataNsxtPolicyLbMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyLbMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyLbMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataNsxtPolicyLbMonitor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_lb_monitor nsxt_policy_lb_monitor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_lb_monitor nsxt_policy_lb_monitor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataNsxtPolicyLbMonitor extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_lb_monitor',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

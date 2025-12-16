@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyUplinkHostSwitchProfileConfig extends cdktf.TerraformMeta
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#description PolicyUplinkHostSwitchProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#description PolicyUplinkHostSwitchProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#display_name PolicyUplinkHostSwitchProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#display_name PolicyUplinkHostSwitchProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#id PolicyUplinkHostSwitchProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#id PolicyUplinkHostSwitchProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface PolicyUplinkHostSwitchProfileConfig extends cdktf.TerraformMeta
   /**
   * Maximum Transmission Unit used for uplinks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#mtu PolicyUplinkHostSwitchProfile#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#mtu PolicyUplinkHostSwitchProfile#mtu}
   */
   readonly mtu?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#nsx_id PolicyUplinkHostSwitchProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#nsx_id PolicyUplinkHostSwitchProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The protocol used to encapsulate overlay traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#overlay_encap PolicyUplinkHostSwitchProfile#overlay_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#overlay_encap PolicyUplinkHostSwitchProfile#overlay_encap}
   */
   readonly overlayEncap?: string;
   /**
   * VLAN used for tagging Overlay traffic of associated HostSwitch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#transport_vlan PolicyUplinkHostSwitchProfile#transport_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#transport_vlan PolicyUplinkHostSwitchProfile#transport_vlan}
   */
   readonly transportVlan?: number;
   /**
   * lag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#lag PolicyUplinkHostSwitchProfile#lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#lag PolicyUplinkHostSwitchProfile#lag}
   */
   readonly lag?: PolicyUplinkHostSwitchProfileLag[] | cdktf.IResolvable;
   /**
   * named_teaming block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#named_teaming PolicyUplinkHostSwitchProfile#named_teaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#named_teaming PolicyUplinkHostSwitchProfile#named_teaming}
   */
   readonly namedTeaming?: PolicyUplinkHostSwitchProfileNamedTeaming[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#tag PolicyUplinkHostSwitchProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#tag PolicyUplinkHostSwitchProfile#tag}
   */
   readonly tag?: PolicyUplinkHostSwitchProfileTag[] | cdktf.IResolvable;
   /**
   * teaming block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#teaming PolicyUplinkHostSwitchProfile#teaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#teaming PolicyUplinkHostSwitchProfile#teaming}
   */
   readonly teaming: PolicyUplinkHostSwitchProfileTeaming;
 }
@@ -159,31 +159,31 @@ export interface PolicyUplinkHostSwitchProfileLag {
   /**
   * LACP load balance Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#load_balance_algorithm PolicyUplinkHostSwitchProfile#load_balance_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#load_balance_algorithm PolicyUplinkHostSwitchProfile#load_balance_algorithm}
   */
   readonly loadBalanceAlgorithm: string;
   /**
   * LACP group mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#mode PolicyUplinkHostSwitchProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#mode PolicyUplinkHostSwitchProfile#mode}
   */
   readonly mode: string;
   /**
   * Lag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#name PolicyUplinkHostSwitchProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#name PolicyUplinkHostSwitchProfile#name}
   */
   readonly name: string;
   /**
   * Number of uplinks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#number_of_uplinks PolicyUplinkHostSwitchProfile#number_of_uplinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#number_of_uplinks PolicyUplinkHostSwitchProfile#number_of_uplinks}
   */
   readonly numberOfUplinks: number;
   /**
   * LACP timeout type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#timeout_type PolicyUplinkHostSwitchProfile#timeout_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#timeout_type PolicyUplinkHostSwitchProfile#timeout_type}
   */
   readonly timeoutType?: string;
 }
@@ -416,13 +416,13 @@ export interface PolicyUplinkHostSwitchProfileNamedTeamingActive {
   /**
   * Name of this uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
   */
   readonly uplinkName: string;
   /**
   * Type of the uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
   */
   readonly uplinkType: string;
 }
@@ -563,13 +563,13 @@ export interface PolicyUplinkHostSwitchProfileNamedTeamingStandby {
   /**
   * Name of this uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
   */
   readonly uplinkName: string;
   /**
   * Type of the uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
   */
   readonly uplinkType: string;
 }
@@ -710,25 +710,25 @@ export interface PolicyUplinkHostSwitchProfileNamedTeaming {
   /**
   * The name of the uplink teaming policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#name PolicyUplinkHostSwitchProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#name PolicyUplinkHostSwitchProfile#name}
   */
   readonly name: string;
   /**
   * Teaming policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#policy PolicyUplinkHostSwitchProfile#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#policy PolicyUplinkHostSwitchProfile#policy}
   */
   readonly policy: string;
   /**
   * active block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#active PolicyUplinkHostSwitchProfile#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#active PolicyUplinkHostSwitchProfile#active}
   */
   readonly active: PolicyUplinkHostSwitchProfileNamedTeamingActive[] | cdktf.IResolvable;
   /**
   * standby block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#standby PolicyUplinkHostSwitchProfile#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#standby PolicyUplinkHostSwitchProfile#standby}
   */
   readonly standby?: PolicyUplinkHostSwitchProfileNamedTeamingStandby[] | cdktf.IResolvable;
 }
@@ -922,11 +922,11 @@ export class PolicyUplinkHostSwitchProfileNamedTeamingList extends cdktf.Complex
 }
 export interface PolicyUplinkHostSwitchProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#scope PolicyUplinkHostSwitchProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#scope PolicyUplinkHostSwitchProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#tag PolicyUplinkHostSwitchProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#tag PolicyUplinkHostSwitchProfile#tag}
   */
   readonly tag?: string;
 }
@@ -1073,13 +1073,13 @@ export interface PolicyUplinkHostSwitchProfileTeamingActive {
   /**
   * Name of this uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
   */
   readonly uplinkName: string;
   /**
   * Type of the uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
   */
   readonly uplinkType: string;
 }
@@ -1220,13 +1220,13 @@ export interface PolicyUplinkHostSwitchProfileTeamingStandby {
   /**
   * Name of this uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_name PolicyUplinkHostSwitchProfile#uplink_name}
   */
   readonly uplinkName: string;
   /**
   * Type of the uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#uplink_type PolicyUplinkHostSwitchProfile#uplink_type}
   */
   readonly uplinkType: string;
 }
@@ -1367,19 +1367,19 @@ export interface PolicyUplinkHostSwitchProfileTeaming {
   /**
   * Teaming policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#policy PolicyUplinkHostSwitchProfile#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#policy PolicyUplinkHostSwitchProfile#policy}
   */
   readonly policy: string;
   /**
   * active block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#active PolicyUplinkHostSwitchProfile#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#active PolicyUplinkHostSwitchProfile#active}
   */
   readonly active: PolicyUplinkHostSwitchProfileTeamingActive[] | cdktf.IResolvable;
   /**
   * standby block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#standby PolicyUplinkHostSwitchProfile#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#standby PolicyUplinkHostSwitchProfile#standby}
   */
   readonly standby?: PolicyUplinkHostSwitchProfileTeamingStandby[] | cdktf.IResolvable;
 }
@@ -1515,7 +1515,7 @@ export class PolicyUplinkHostSwitchProfileTeamingOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile nsxt_policy_uplink_host_switch_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile nsxt_policy_uplink_host_switch_profile}
 */
 export class PolicyUplinkHostSwitchProfile extends cdktf.TerraformResource {
 
@@ -1531,7 +1531,7 @@ export class PolicyUplinkHostSwitchProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyUplinkHostSwitchProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyUplinkHostSwitchProfile to import
-  * @param importFromId The id of the existing PolicyUplinkHostSwitchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyUplinkHostSwitchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyUplinkHostSwitchProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1543,7 +1543,7 @@ export class PolicyUplinkHostSwitchProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_uplink_host_switch_profile nsxt_policy_uplink_host_switch_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_uplink_host_switch_profile nsxt_policy_uplink_host_switch_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1554,8 +1554,8 @@ export class PolicyUplinkHostSwitchProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_uplink_host_switch_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

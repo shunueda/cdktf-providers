@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ComputeManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies access level to NSX from the compute manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#access_level_for_oidc ComputeManager#access_level_for_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#access_level_for_oidc ComputeManager#access_level_for_oidc}
   */
   readonly accessLevelForOidc?: string;
   /**
   * Specifies whether service account is created or not on compute manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#create_service_account ComputeManager#create_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#create_service_account ComputeManager#create_service_account}
   */
   readonly createServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#description ComputeManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#description ComputeManager#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#display_name ComputeManager#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#display_name ComputeManager#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#id ComputeManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#id ComputeManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface ComputeManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether multi nsx feature is enabled for compute manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#multi_nsx ComputeManager#multi_nsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#multi_nsx ComputeManager#multi_nsx}
   */
   readonly multiNsx?: boolean | cdktf.IResolvable;
   /**
   * Compute manager type like vCenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#origin_type ComputeManager#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#origin_type ComputeManager#origin_type}
   */
   readonly originType?: string;
   /**
   * Proxy https port of compute manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#reverse_proxy_https_port ComputeManager#reverse_proxy_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#reverse_proxy_https_port ComputeManager#reverse_proxy_https_port}
   */
   readonly reverseProxyHttpsPort?: number;
   /**
   * IP address or hostname of compute manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#server ComputeManager#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#server ComputeManager#server}
   */
   readonly server: string;
   /**
   * Specifies whether compute manager has been set as OIDC provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#set_as_oidc_provider ComputeManager#set_as_oidc_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#set_as_oidc_provider ComputeManager#set_as_oidc_provider}
   */
   readonly setAsOidcProvider?: boolean | cdktf.IResolvable;
   /**
   * credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#credential ComputeManager#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#credential ComputeManager#credential}
   */
   readonly credential: ComputeManagerCredential;
   /**
   * extension_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#extension_certificate ComputeManager#extension_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#extension_certificate ComputeManager#extension_certificate}
   */
   readonly extensionCertificate?: ComputeManagerExtensionCertificate;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#tag ComputeManager#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#tag ComputeManager#tag}
   */
   readonly tag?: ComputeManagerTag[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface ComputeManagerCredentialSamlLogin {
   /**
   * Thumbprint of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#thumbprint ComputeManager#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#thumbprint ComputeManager#thumbprint}
   */
   readonly thumbprint: string;
   /**
   * The saml token to login to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#token ComputeManager#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#token ComputeManager#token}
   */
   readonly token: string;
 }
@@ -206,13 +206,13 @@ export interface ComputeManagerCredentialSessionLogin {
   /**
   * The session_id to login to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#session_id ComputeManager#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#session_id ComputeManager#session_id}
   */
   readonly sessionId: string;
   /**
   * Thumbprint of the login server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#thumbprint ComputeManager#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#thumbprint ComputeManager#thumbprint}
   */
   readonly thumbprint: string;
 }
@@ -321,19 +321,19 @@ export interface ComputeManagerCredentialUsernamePasswordLogin {
   /**
   * The authentication password for login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#password ComputeManager#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#password ComputeManager#password}
   */
   readonly password: string;
   /**
   * Thumbprint of the login server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#thumbprint ComputeManager#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#thumbprint ComputeManager#thumbprint}
   */
   readonly thumbprint: string;
   /**
   * The username for login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#username ComputeManager#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#username ComputeManager#username}
   */
   readonly username: string;
 }
@@ -468,19 +468,19 @@ export interface ComputeManagerCredentialVerifiableAsymmetricLogin {
   /**
   * Asymmetric login credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#asymmetric_credential ComputeManager#asymmetric_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#asymmetric_credential ComputeManager#asymmetric_credential}
   */
   readonly asymmetricCredential: string;
   /**
   * Credential key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#credential_key ComputeManager#credential_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#credential_key ComputeManager#credential_key}
   */
   readonly credentialKey: string;
   /**
   * Credential verifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#credential_verifier ComputeManager#credential_verifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#credential_verifier ComputeManager#credential_verifier}
   */
   readonly credentialVerifier: string;
 }
@@ -615,25 +615,25 @@ export interface ComputeManagerCredential {
   /**
   * saml_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#saml_login ComputeManager#saml_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#saml_login ComputeManager#saml_login}
   */
   readonly samlLogin?: ComputeManagerCredentialSamlLogin;
   /**
   * session_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#session_login ComputeManager#session_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#session_login ComputeManager#session_login}
   */
   readonly sessionLogin?: ComputeManagerCredentialSessionLogin;
   /**
   * username_password_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#username_password_login ComputeManager#username_password_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#username_password_login ComputeManager#username_password_login}
   */
   readonly usernamePasswordLogin?: ComputeManagerCredentialUsernamePasswordLogin;
   /**
   * verifiable_asymmetric_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#verifiable_asymmetric_login ComputeManager#verifiable_asymmetric_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#verifiable_asymmetric_login ComputeManager#verifiable_asymmetric_login}
   */
   readonly verifiableAsymmetricLogin?: ComputeManagerCredentialVerifiableAsymmetricLogin;
 }
@@ -806,13 +806,13 @@ export interface ComputeManagerExtensionCertificate {
   /**
   * PEM encoded certificate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#pem_encoded ComputeManager#pem_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#pem_encoded ComputeManager#pem_encoded}
   */
   readonly pemEncoded: string;
   /**
   * Private key of certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#private_key ComputeManager#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#private_key ComputeManager#private_key}
   */
   readonly privateKey: string;
 }
@@ -919,11 +919,11 @@ export class ComputeManagerExtensionCertificateOutputReference extends cdktf.Com
 }
 export interface ComputeManagerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#scope ComputeManager#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#scope ComputeManager#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#tag ComputeManager#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#tag ComputeManager#tag}
   */
   readonly tag?: string;
 }
@@ -1068,7 +1068,7 @@ export class ComputeManagerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager nsxt_compute_manager}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager nsxt_compute_manager}
 */
 export class ComputeManager extends cdktf.TerraformResource {
 
@@ -1084,7 +1084,7 @@ export class ComputeManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeManager to import
-  * @param importFromId The id of the existing ComputeManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1096,7 +1096,7 @@ export class ComputeManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/compute_manager nsxt_compute_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/compute_manager nsxt_compute_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1107,8 +1107,8 @@ export class ComputeManager extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_compute_manager',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

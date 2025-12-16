@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WafAttackWhiteRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#domain WafAttackWhiteRule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#domain WafAttackWhiteRule#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#id WafAttackWhiteRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#id WafAttackWhiteRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface WafAttackWhiteRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * 0: Whiten according to a specific rule ID, 1: Whiten according to the rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#mode WafAttackWhiteRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#mode WafAttackWhiteRule#mode}
   */
   readonly mode?: number;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#name WafAttackWhiteRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#name WafAttackWhiteRule#name}
   */
   readonly name?: string;
   /**
   * Whitelist of rule IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#signature_ids WafAttackWhiteRule#signature_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#signature_ids WafAttackWhiteRule#signature_ids}
   */
   readonly signatureIds?: string[];
   /**
   * Rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#status WafAttackWhiteRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#status WafAttackWhiteRule#status}
   */
   readonly status: number;
   /**
   * The whitened category rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#type_ids WafAttackWhiteRule#type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#type_ids WafAttackWhiteRule#type_ids}
   */
   readonly typeIds?: string[];
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#rules WafAttackWhiteRule#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#rules WafAttackWhiteRule#rules}
   */
   readonly rules: WafAttackWhiteRuleRules[] | cdktf.IResolvable;
 }
@@ -61,25 +61,25 @@ export interface WafAttackWhiteRuleRules {
   /**
   * Matching content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#match_content WafAttackWhiteRule#match_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#match_content WafAttackWhiteRule#match_content}
   */
   readonly matchContent: string;
   /**
   * Matching domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#match_field WafAttackWhiteRule#match_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#match_field WafAttackWhiteRule#match_field}
   */
   readonly matchField: string;
   /**
   * Matching method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#match_method WafAttackWhiteRule#match_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#match_method WafAttackWhiteRule#match_method}
   */
   readonly matchMethod: string;
   /**
   * Matching params.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#match_params WafAttackWhiteRule#match_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#match_params WafAttackWhiteRule#match_params}
   */
   readonly matchParams?: string;
 }
@@ -273,7 +273,7 @@ export class WafAttackWhiteRuleRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule tencentcloud_waf_attack_white_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule tencentcloud_waf_attack_white_rule}
 */
 export class WafAttackWhiteRule extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class WafAttackWhiteRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafAttackWhiteRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafAttackWhiteRule to import
-  * @param importFromId The id of the existing WafAttackWhiteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafAttackWhiteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafAttackWhiteRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class WafAttackWhiteRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_attack_white_rule tencentcloud_waf_attack_white_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_attack_white_rule tencentcloud_waf_attack_white_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class WafAttackWhiteRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_attack_white_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyDistributedFloodProtectionProfileBindingConfig extends cd
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#description PolicyDistributedFloodProtectionProfileBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#description PolicyDistributedFloodProtectionProfileBinding#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#display_name PolicyDistributedFloodProtectionProfileBinding#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#display_name PolicyDistributedFloodProtectionProfileBinding#display_name}
   */
   readonly displayName: string;
   /**
   * The path of the group to bind with the flood protection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#group_path PolicyDistributedFloodProtectionProfileBinding#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#group_path PolicyDistributedFloodProtectionProfileBinding#group_path}
   */
   readonly groupPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#id PolicyDistributedFloodProtectionProfileBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#id PolicyDistributedFloodProtectionProfileBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PolicyDistributedFloodProtectionProfileBindingConfig extends cd
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#nsx_id PolicyDistributedFloodProtectionProfileBinding#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#nsx_id PolicyDistributedFloodProtectionProfileBinding#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The path of the flood protection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#profile_path PolicyDistributedFloodProtectionProfileBinding#profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#profile_path PolicyDistributedFloodProtectionProfileBinding#profile_path}
   */
   readonly profilePath: string;
   /**
   * Sequence number of this profile binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#sequence_number PolicyDistributedFloodProtectionProfileBinding#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#sequence_number PolicyDistributedFloodProtectionProfileBinding#sequence_number}
   */
   readonly sequenceNumber: number;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#context PolicyDistributedFloodProtectionProfileBinding#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#context PolicyDistributedFloodProtectionProfileBinding#context}
   */
   readonly context?: PolicyDistributedFloodProtectionProfileBindingContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#tag PolicyDistributedFloodProtectionProfileBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#tag PolicyDistributedFloodProtectionProfileBinding#tag}
   */
   readonly tag?: PolicyDistributedFloodProtectionProfileBindingTag[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface PolicyDistributedFloodProtectionProfileBindingContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#project_id PolicyDistributedFloodProtectionProfileBinding#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#project_id PolicyDistributedFloodProtectionProfileBinding#project_id}
   */
   readonly projectId: string;
 }
@@ -148,11 +148,11 @@ export class PolicyDistributedFloodProtectionProfileBindingContextOutputReferenc
 }
 export interface PolicyDistributedFloodProtectionProfileBindingTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#scope PolicyDistributedFloodProtectionProfileBinding#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#scope PolicyDistributedFloodProtectionProfileBinding#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#tag PolicyDistributedFloodProtectionProfileBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#tag PolicyDistributedFloodProtectionProfileBinding#tag}
   */
   readonly tag?: string;
 }
@@ -297,7 +297,7 @@ export class PolicyDistributedFloodProtectionProfileBindingTagList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding nsxt_policy_distributed_flood_protection_profile_binding}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding nsxt_policy_distributed_flood_protection_profile_binding}
 */
 export class PolicyDistributedFloodProtectionProfileBinding extends cdktf.TerraformResource {
 
@@ -313,7 +313,7 @@ export class PolicyDistributedFloodProtectionProfileBinding extends cdktf.Terraf
   * Generates CDKTF code for importing a PolicyDistributedFloodProtectionProfileBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyDistributedFloodProtectionProfileBinding to import
-  * @param importFromId The id of the existing PolicyDistributedFloodProtectionProfileBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyDistributedFloodProtectionProfileBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyDistributedFloodProtectionProfileBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class PolicyDistributedFloodProtectionProfileBinding extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_flood_protection_profile_binding nsxt_policy_distributed_flood_protection_profile_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_flood_protection_profile_binding nsxt_policy_distributed_flood_protection_profile_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class PolicyDistributedFloodProtectionProfileBinding extends cdktf.Terraf
       terraformResourceType: 'nsxt_policy_distributed_flood_protection_profile_binding',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

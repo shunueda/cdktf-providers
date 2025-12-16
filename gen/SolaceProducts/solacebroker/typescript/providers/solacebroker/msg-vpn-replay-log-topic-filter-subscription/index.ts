@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnReplayLogTopicFilterSubscriptionConfig extends cdktf.Terr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#msg_vpn_name MsgVpnReplayLogTopicFilterSubscription#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#msg_vpn_name MsgVpnReplayLogTopicFilterSubscription#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnReplayLogTopicFilterSubscriptionConfig extends cdktf.Terr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#replay_log_name MsgVpnReplayLogTopicFilterSubscription#replay_log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#replay_log_name MsgVpnReplayLogTopicFilterSubscription#replay_log_name}
   */
   readonly replayLogName: string;
   /**
@@ -28,13 +28,13 @@ export interface MsgVpnReplayLogTopicFilterSubscriptionConfig extends cdktf.Terr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#topic_filter_subscription MsgVpnReplayLogTopicFilterSubscription#topic_filter_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#topic_filter_subscription MsgVpnReplayLogTopicFilterSubscription#topic_filter_subscription}
   */
   readonly topicFilterSubscription: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription solacebroker_msg_vpn_replay_log_topic_filter_subscription}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription solacebroker_msg_vpn_replay_log_topic_filter_subscription}
 */
 export class MsgVpnReplayLogTopicFilterSubscription extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class MsgVpnReplayLogTopicFilterSubscription extends cdktf.TerraformResou
   * Generates CDKTF code for importing a MsgVpnReplayLogTopicFilterSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnReplayLogTopicFilterSubscription to import
-  * @param importFromId The id of the existing MsgVpnReplayLogTopicFilterSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnReplayLogTopicFilterSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnReplayLogTopicFilterSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class MsgVpnReplayLogTopicFilterSubscription extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription solacebroker_msg_vpn_replay_log_topic_filter_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log_topic_filter_subscription solacebroker_msg_vpn_replay_log_topic_filter_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class MsgVpnReplayLogTopicFilterSubscription extends cdktf.TerraformResou
       terraformResourceType: 'solacebroker_msg_vpn_replay_log_topic_filter_subscription',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

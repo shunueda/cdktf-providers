@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WafBotSceneUcbRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#domain WafBotSceneUcbRule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#domain WafBotSceneUcbRule#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#id WafBotSceneUcbRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#id WafBotSceneUcbRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface WafBotSceneUcbRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * When calling at the BOT global whitelist, pass `global`; When configuring BOT scenarios, transmit the specific scenario ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#scene_id WafBotSceneUcbRule#scene_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#scene_id WafBotSceneUcbRule#scene_id}
   */
   readonly sceneId: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#rule WafBotSceneUcbRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#rule WafBotSceneUcbRule#rule}
   */
   readonly rule?: WafBotSceneUcbRuleRule;
 }
@@ -37,13 +37,13 @@ export interface WafBotSceneUcbRuleRuleActionListStruct {
   /**
   * Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#action WafBotSceneUcbRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#action WafBotSceneUcbRule#action}
   */
   readonly action?: string;
   /**
   * Proportion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#proportion WafBotSceneUcbRule#proportion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#proportion WafBotSceneUcbRule#proportion}
   */
   readonly proportion?: number;
 }
@@ -190,25 +190,25 @@ export interface WafBotSceneUcbRuleRuleJobDateTimeCron {
   /**
   * On what day of each month is it executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#days WafBotSceneUcbRule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#days WafBotSceneUcbRule#days}
   */
   readonly days?: number[];
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#end_time WafBotSceneUcbRule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#end_time WafBotSceneUcbRule#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#start_time WafBotSceneUcbRule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#start_time WafBotSceneUcbRule#start_time}
   */
   readonly startTime?: string;
   /**
   * What day of the week is executed each week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#w_days WafBotSceneUcbRule#w_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#w_days WafBotSceneUcbRule#w_days}
   */
   readonly wDays?: number[];
 }
@@ -413,13 +413,13 @@ export interface WafBotSceneUcbRuleRuleJobDateTimeTimed {
   /**
   * End timestamp, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#end_date_time WafBotSceneUcbRule#end_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#end_date_time WafBotSceneUcbRule#end_date_time}
   */
   readonly endDateTime?: number;
   /**
   * Start timestamp, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#start_date_time WafBotSceneUcbRule#start_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#start_date_time WafBotSceneUcbRule#start_date_time}
   */
   readonly startDateTime?: number;
 }
@@ -566,19 +566,19 @@ export interface WafBotSceneUcbRuleRuleJobDateTime {
   /**
   * Time zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#time_t_zone WafBotSceneUcbRule#time_t_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#time_t_zone WafBotSceneUcbRule#time_t_zone}
   */
   readonly timeTZone?: string;
   /**
   * cron block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#cron WafBotSceneUcbRule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#cron WafBotSceneUcbRule#cron}
   */
   readonly cron?: WafBotSceneUcbRuleRuleJobDateTimeCron[] | cdktf.IResolvable;
   /**
   * timed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#timed WafBotSceneUcbRule#timed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#timed WafBotSceneUcbRule#timed}
   */
   readonly timed?: WafBotSceneUcbRuleRuleJobDateTimeTimed[] | cdktf.IResolvable;
 }
@@ -722,19 +722,19 @@ export interface WafBotSceneUcbRuleRuleRuleAreas {
   /**
   * City.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#city WafBotSceneUcbRule#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#city WafBotSceneUcbRule#city}
   */
   readonly city?: string;
   /**
   * In addition to standard countries, the country also supports two special identifiers: domestic and foreign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#country WafBotSceneUcbRule#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#country WafBotSceneUcbRule#country}
   */
   readonly country: string;
   /**
   * Province.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#region WafBotSceneUcbRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#region WafBotSceneUcbRule#region}
   */
   readonly region?: string;
 }
@@ -907,31 +907,31 @@ export interface WafBotSceneUcbRuleRuleRuleValue {
   /**
   * String type value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#basic_value WafBotSceneUcbRule#basic_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#basic_value WafBotSceneUcbRule#basic_value}
   */
   readonly basicValue?: string;
   /**
   * String array type value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#belong_value WafBotSceneUcbRule#belong_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#belong_value WafBotSceneUcbRule#belong_value}
   */
   readonly belongValue?: string[];
   /**
   * Bool type value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#logic_value WafBotSceneUcbRule#logic_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#logic_value WafBotSceneUcbRule#logic_value}
   */
   readonly logicValue?: boolean | cdktf.IResolvable;
   /**
   * String array type value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#multi_value WafBotSceneUcbRule#multi_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#multi_value WafBotSceneUcbRule#multi_value}
   */
   readonly multiValue?: string[];
   /**
   * Indicate valid fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#valid_key WafBotSceneUcbRule#valid_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#valid_key WafBotSceneUcbRule#valid_key}
   */
   readonly validKey?: string;
 }
@@ -1133,55 +1133,55 @@ export interface WafBotSceneUcbRuleRuleRule {
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#key WafBotSceneUcbRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#key WafBotSceneUcbRule#key}
   */
   readonly key?: string;
   /**
   * Language environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#lang WafBotSceneUcbRule#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#lang WafBotSceneUcbRule#lang}
   */
   readonly lang?: string;
   /**
   * When using header parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#name WafBotSceneUcbRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#name WafBotSceneUcbRule#name}
   */
   readonly name?: string;
   /**
   * Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#op WafBotSceneUcbRule#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#op WafBotSceneUcbRule#op}
   */
   readonly op?: string;
   /**
   * Optional supplementary parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#op_arg WafBotSceneUcbRule#op_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#op_arg WafBotSceneUcbRule#op_arg}
   */
   readonly opArg?: string[];
   /**
   * Optional Supplementary Operators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#op_op WafBotSceneUcbRule#op_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#op_op WafBotSceneUcbRule#op_op}
   */
   readonly opOp?: string;
   /**
   * Optional supplementary values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#op_value WafBotSceneUcbRule#op_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#op_value WafBotSceneUcbRule#op_value}
   */
   readonly opValue?: number;
   /**
   * areas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#areas WafBotSceneUcbRule#areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#areas WafBotSceneUcbRule#areas}
   */
   readonly areas?: WafBotSceneUcbRuleRuleRuleAreas[] | cdktf.IResolvable;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#value WafBotSceneUcbRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#value WafBotSceneUcbRule#value}
   */
   readonly value?: WafBotSceneUcbRuleRuleRuleValue;
 }
@@ -1531,49 +1531,49 @@ export interface WafBotSceneUcbRuleRule {
   /**
   * Disposal action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#action WafBotSceneUcbRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#action WafBotSceneUcbRule#action}
   */
   readonly action: string;
   /**
   * Additional parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#addition_arg WafBotSceneUcbRule#addition_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#addition_arg WafBotSceneUcbRule#addition_arg}
   */
   readonly additionArg?: string;
   /**
   * Appid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#appid WafBotSceneUcbRule#appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#appid WafBotSceneUcbRule#appid}
   */
   readonly appid?: number;
   /**
   * Customize interception page ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#block_page_id WafBotSceneUcbRule#block_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#block_page_id WafBotSceneUcbRule#block_page_id}
   */
   readonly blockPageId?: number;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#desc WafBotSceneUcbRule#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#desc WafBotSceneUcbRule#desc}
   */
   readonly desc?: string;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#domain WafBotSceneUcbRule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#domain WafBotSceneUcbRule#domain}
   */
   readonly domain: string;
   /**
   * Effective deadline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#expire_time WafBotSceneUcbRule#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#expire_time WafBotSceneUcbRule#expire_time}
   */
   readonly expireTime?: number;
   /**
   * Entry ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#id WafBotSceneUcbRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#id WafBotSceneUcbRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1582,79 +1582,79 @@ export interface WafBotSceneUcbRuleRule {
   /**
   * Scheduled task type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#job_type WafBotSceneUcbRule#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#job_type WafBotSceneUcbRule#job_type}
   */
   readonly jobType?: string;
   /**
   * Label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#label WafBotSceneUcbRule#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#label WafBotSceneUcbRule#label}
   */
   readonly label: string;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#name WafBotSceneUcbRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#name WafBotSceneUcbRule#name}
   */
   readonly name: string;
   /**
   * Rule switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#on_off WafBotSceneUcbRule#on_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#on_off WafBotSceneUcbRule#on_off}
   */
   readonly onOff: string;
   /**
   * True - System preset rules False - Custom rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#pre_define WafBotSceneUcbRule#pre_define}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#pre_define WafBotSceneUcbRule#pre_define}
   */
   readonly preDefine?: boolean | cdktf.IResolvable;
   /**
   * Rule priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#prior WafBotSceneUcbRule#prior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#prior WafBotSceneUcbRule#prior}
   */
   readonly prior: number;
   /**
   * Rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#rule_type WafBotSceneUcbRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#rule_type WafBotSceneUcbRule#rule_type}
   */
   readonly ruleType: number;
   /**
   * Scene ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#scene_id WafBotSceneUcbRule#scene_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#scene_id WafBotSceneUcbRule#scene_id}
   */
   readonly sceneId?: string;
   /**
   * Effective -1, Invalid -0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#valid_status WafBotSceneUcbRule#valid_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#valid_status WafBotSceneUcbRule#valid_status}
   */
   readonly validStatus?: number;
   /**
   * Valid time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#valid_time WafBotSceneUcbRule#valid_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#valid_time WafBotSceneUcbRule#valid_time}
   */
   readonly validTime?: number;
   /**
   * action_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#action_list WafBotSceneUcbRule#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#action_list WafBotSceneUcbRule#action_list}
   */
   readonly actionList?: WafBotSceneUcbRuleRuleActionListStruct[] | cdktf.IResolvable;
   /**
   * job_date_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#job_date_time WafBotSceneUcbRule#job_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#job_date_time WafBotSceneUcbRule#job_date_time}
   */
   readonly jobDateTime?: WafBotSceneUcbRuleRuleJobDateTime;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#rule WafBotSceneUcbRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#rule WafBotSceneUcbRule#rule}
   */
   readonly rule: WafBotSceneUcbRuleRuleRule[] | cdktf.IResolvable;
 }
@@ -2294,7 +2294,7 @@ export class WafBotSceneUcbRuleRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule tencentcloud_waf_bot_scene_ucb_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule tencentcloud_waf_bot_scene_ucb_rule}
 */
 export class WafBotSceneUcbRule extends cdktf.TerraformResource {
 
@@ -2310,7 +2310,7 @@ export class WafBotSceneUcbRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafBotSceneUcbRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafBotSceneUcbRule to import
-  * @param importFromId The id of the existing WafBotSceneUcbRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafBotSceneUcbRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafBotSceneUcbRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2322,7 +2322,7 @@ export class WafBotSceneUcbRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_bot_scene_ucb_rule tencentcloud_waf_bot_scene_ucb_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_bot_scene_ucb_rule tencentcloud_waf_bot_scene_ucb_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2333,8 +2333,8 @@ export class WafBotSceneUcbRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_bot_scene_ucb_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

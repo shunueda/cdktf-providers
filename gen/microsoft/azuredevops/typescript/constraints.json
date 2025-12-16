@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "azuredevops": "1.12.1"
+    "azuredevops": "1.12.2"
   }
 }

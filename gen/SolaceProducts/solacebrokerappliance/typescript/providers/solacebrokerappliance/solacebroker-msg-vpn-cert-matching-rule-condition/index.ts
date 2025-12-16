@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleConditionConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The default value is `""`. Note that this attribute requires replacement of the resource when updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#attribute SolacebrokerMsgVpnCertMatchingRuleCondition#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#attribute SolacebrokerMsgVpnCertMatchingRuleCondition#attribute}
   */
   readonly attribute?: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleConditionConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The default value is `""`. Note that this attribute requires replacement of the resource when updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#expression SolacebrokerMsgVpnCertMatchingRuleCondition#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#expression SolacebrokerMsgVpnCertMatchingRuleCondition#expression}
   */
   readonly expression?: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleConditionConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#msg_vpn_name SolacebrokerMsgVpnCertMatchingRuleCondition#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#msg_vpn_name SolacebrokerMsgVpnCertMatchingRuleCondition#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleConditionConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#rule_name SolacebrokerMsgVpnCertMatchingRuleCondition#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#rule_name SolacebrokerMsgVpnCertMatchingRuleCondition#rule_name}
   */
   readonly ruleName: string;
   /**
@@ -61,13 +61,13 @@ export interface SolacebrokerMsgVpnCertMatchingRuleConditionConfig extends cdktf
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#source SolacebrokerMsgVpnCertMatchingRuleCondition#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#source SolacebrokerMsgVpnCertMatchingRuleCondition#source}
   */
   readonly source: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition solacebroker_msg_vpn_cert_matching_rule_condition}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition solacebroker_msg_vpn_cert_matching_rule_condition}
 */
 export class SolacebrokerMsgVpnCertMatchingRuleCondition extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class SolacebrokerMsgVpnCertMatchingRuleCondition extends cdktf.Terraform
   * Generates CDKTF code for importing a SolacebrokerMsgVpnCertMatchingRuleCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnCertMatchingRuleCondition to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnCertMatchingRuleCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnCertMatchingRuleCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnCertMatchingRuleCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class SolacebrokerMsgVpnCertMatchingRuleCondition extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition solacebroker_msg_vpn_cert_matching_rule_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_condition solacebroker_msg_vpn_cert_matching_rule_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class SolacebrokerMsgVpnCertMatchingRuleCondition extends cdktf.Terraform
       terraformResourceType: 'solacebroker_msg_vpn_cert_matching_rule_condition',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

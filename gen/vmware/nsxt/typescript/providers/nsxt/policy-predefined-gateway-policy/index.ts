@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PolicyPredefinedGatewayPolicyConfig extends cdktf.TerraformMeta
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#id PolicyPredefinedGatewayPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#id PolicyPredefinedGatewayPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface PolicyPredefinedGatewayPolicyConfig extends cdktf.TerraformMeta
   /**
   * Path for this Gateway Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#path PolicyPredefinedGatewayPolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#path PolicyPredefinedGatewayPolicy#path}
   */
   readonly path: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#context PolicyPredefinedGatewayPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#context PolicyPredefinedGatewayPolicy#context}
   */
   readonly context?: PolicyPredefinedGatewayPolicyContext;
   /**
   * default_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#default_rule PolicyPredefinedGatewayPolicy#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#default_rule PolicyPredefinedGatewayPolicy#default_rule}
   */
   readonly defaultRule?: PolicyPredefinedGatewayPolicyDefaultRule[] | cdktf.IResolvable;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#rule PolicyPredefinedGatewayPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#rule PolicyPredefinedGatewayPolicy#rule}
   */
   readonly rule?: PolicyPredefinedGatewayPolicyRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
   */
   readonly tag?: PolicyPredefinedGatewayPolicyTag[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface PolicyPredefinedGatewayPolicyContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#project_id PolicyPredefinedGatewayPolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#project_id PolicyPredefinedGatewayPolicy#project_id}
   */
   readonly projectId: string;
 }
@@ -136,11 +136,11 @@ export class PolicyPredefinedGatewayPolicyContextOutputReference extends cdktf.C
 }
 export interface PolicyPredefinedGatewayPolicyDefaultRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
   */
   readonly tag?: string;
 }
@@ -287,37 +287,37 @@ export interface PolicyPredefinedGatewayPolicyDefaultRule {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#action PolicyPredefinedGatewayPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#action PolicyPredefinedGatewayPolicy#action}
   */
   readonly action?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * Additional information (string) which will be propagated to the rule syslog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#log_label PolicyPredefinedGatewayPolicy#log_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#log_label PolicyPredefinedGatewayPolicy#log_label}
   */
   readonly logLabel?: string;
   /**
   * Flag to enable packet logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#logged PolicyPredefinedGatewayPolicy#logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#logged PolicyPredefinedGatewayPolicy#logged}
   */
   readonly logged?: boolean | cdktf.IResolvable;
   /**
   * Scope for this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
   */
   readonly scope: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
   */
   readonly tag?: PolicyPredefinedGatewayPolicyDefaultRuleTag[] | cdktf.IResolvable;
 }
@@ -597,31 +597,31 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntriesAlgorithmEntry {
   /**
   * Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#algorithm PolicyPredefinedGatewayPolicy#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#algorithm PolicyPredefinedGatewayPolicy#algorithm}
   */
   readonly algorithm: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * A single destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#destination_port PolicyPredefinedGatewayPolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#destination_port PolicyPredefinedGatewayPolicy#destination_port}
   */
   readonly destinationPort: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Set of source ports or ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#source_ports PolicyPredefinedGatewayPolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#source_ports PolicyPredefinedGatewayPolicy#source_ports}
   */
   readonly sourcePorts?: string[];
 }
@@ -849,19 +849,19 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntriesEtherTypeEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Type of the encapsulated protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#ether_type PolicyPredefinedGatewayPolicy#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#ether_type PolicyPredefinedGatewayPolicy#ether_type}
   */
   readonly etherType: number;
 }
@@ -1034,31 +1034,31 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntriesIcmpEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * ICMP message code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#icmp_code PolicyPredefinedGatewayPolicy#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#icmp_code PolicyPredefinedGatewayPolicy#icmp_code}
   */
   readonly icmpCode?: string;
   /**
   * ICMP message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#icmp_type PolicyPredefinedGatewayPolicy#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#icmp_type PolicyPredefinedGatewayPolicy#icmp_type}
   */
   readonly icmpType?: string;
   /**
   * Version of ICMP protocol (ICMPv4/ICMPv6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#protocol PolicyPredefinedGatewayPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#protocol PolicyPredefinedGatewayPolicy#protocol}
   */
   readonly protocol: string;
 }
@@ -1289,13 +1289,13 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntriesIgmpEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName?: string;
 }
@@ -1442,19 +1442,19 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntriesIpProtocolEntry 
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * IP protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#protocol PolicyPredefinedGatewayPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#protocol PolicyPredefinedGatewayPolicy#protocol}
   */
   readonly protocol: number;
 }
@@ -1627,31 +1627,31 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntriesL4PortSetEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * Set of destination ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#destination_ports PolicyPredefinedGatewayPolicy#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#destination_ports PolicyPredefinedGatewayPolicy#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * L4 Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#protocol PolicyPredefinedGatewayPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#protocol PolicyPredefinedGatewayPolicy#protocol}
   */
   readonly protocol: string;
   /**
   * Set of source ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#source_ports PolicyPredefinedGatewayPolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#source_ports PolicyPredefinedGatewayPolicy#source_ports}
   */
   readonly sourcePorts?: string[];
 }
@@ -1882,37 +1882,37 @@ export interface PolicyPredefinedGatewayPolicyRuleServiceEntries {
   /**
   * algorithm_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#algorithm_entry PolicyPredefinedGatewayPolicy#algorithm_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#algorithm_entry PolicyPredefinedGatewayPolicy#algorithm_entry}
   */
   readonly algorithmEntry?: PolicyPredefinedGatewayPolicyRuleServiceEntriesAlgorithmEntry[] | cdktf.IResolvable;
   /**
   * ether_type_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#ether_type_entry PolicyPredefinedGatewayPolicy#ether_type_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#ether_type_entry PolicyPredefinedGatewayPolicy#ether_type_entry}
   */
   readonly etherTypeEntry?: PolicyPredefinedGatewayPolicyRuleServiceEntriesEtherTypeEntry[] | cdktf.IResolvable;
   /**
   * icmp_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#icmp_entry PolicyPredefinedGatewayPolicy#icmp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#icmp_entry PolicyPredefinedGatewayPolicy#icmp_entry}
   */
   readonly icmpEntry?: PolicyPredefinedGatewayPolicyRuleServiceEntriesIcmpEntry[] | cdktf.IResolvable;
   /**
   * igmp_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#igmp_entry PolicyPredefinedGatewayPolicy#igmp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#igmp_entry PolicyPredefinedGatewayPolicy#igmp_entry}
   */
   readonly igmpEntry?: PolicyPredefinedGatewayPolicyRuleServiceEntriesIgmpEntry[] | cdktf.IResolvable;
   /**
   * ip_protocol_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#ip_protocol_entry PolicyPredefinedGatewayPolicy#ip_protocol_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#ip_protocol_entry PolicyPredefinedGatewayPolicy#ip_protocol_entry}
   */
   readonly ipProtocolEntry?: PolicyPredefinedGatewayPolicyRuleServiceEntriesIpProtocolEntry[] | cdktf.IResolvable;
   /**
   * l4_port_set_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#l4_port_set_entry PolicyPredefinedGatewayPolicy#l4_port_set_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#l4_port_set_entry PolicyPredefinedGatewayPolicy#l4_port_set_entry}
   */
   readonly l4PortSetEntry?: PolicyPredefinedGatewayPolicyRuleServiceEntriesL4PortSetEntry[] | cdktf.IResolvable;
 }
@@ -2141,11 +2141,11 @@ export class PolicyPredefinedGatewayPolicyRuleServiceEntriesOutputReference exte
 }
 export interface PolicyPredefinedGatewayPolicyRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
   */
   readonly tag?: string;
 }
@@ -2292,121 +2292,121 @@ export interface PolicyPredefinedGatewayPolicyRule {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#action PolicyPredefinedGatewayPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#action PolicyPredefinedGatewayPolicy#action}
   */
   readonly action?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#description PolicyPredefinedGatewayPolicy#description}
   */
   readonly description?: string;
   /**
   * List of destination groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#destination_groups PolicyPredefinedGatewayPolicy#destination_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#destination_groups PolicyPredefinedGatewayPolicy#destination_groups}
   */
   readonly destinationGroups?: string[];
   /**
   * Negation of destination groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#destinations_excluded PolicyPredefinedGatewayPolicy#destinations_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#destinations_excluded PolicyPredefinedGatewayPolicy#destinations_excluded}
   */
   readonly destinationsExcluded?: boolean | cdktf.IResolvable;
   /**
   * Traffic direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#direction PolicyPredefinedGatewayPolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#direction PolicyPredefinedGatewayPolicy#direction}
   */
   readonly direction?: string;
   /**
   * Flag to disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#disabled PolicyPredefinedGatewayPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#disabled PolicyPredefinedGatewayPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#display_name PolicyPredefinedGatewayPolicy#display_name}
   */
   readonly displayName: string;
   /**
   * IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#ip_version PolicyPredefinedGatewayPolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#ip_version PolicyPredefinedGatewayPolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Additional information (string) which will be propagated to the rule syslog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#log_label PolicyPredefinedGatewayPolicy#log_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#log_label PolicyPredefinedGatewayPolicy#log_label}
   */
   readonly logLabel?: string;
   /**
   * Flag to enable packet logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#logged PolicyPredefinedGatewayPolicy#logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#logged PolicyPredefinedGatewayPolicy#logged}
   */
   readonly logged?: boolean | cdktf.IResolvable;
   /**
   * Text for additional notes on changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#notes PolicyPredefinedGatewayPolicy#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#notes PolicyPredefinedGatewayPolicy#notes}
   */
   readonly notes?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#nsx_id PolicyPredefinedGatewayPolicy#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#nsx_id PolicyPredefinedGatewayPolicy#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * List of profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#profiles PolicyPredefinedGatewayPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#profiles PolicyPredefinedGatewayPolicy#profiles}
   */
   readonly profiles?: string[];
   /**
   * List of policy paths where the rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
   */
   readonly scope: string[];
   /**
   * Sequence number of the this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#sequence_number PolicyPredefinedGatewayPolicy#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#sequence_number PolicyPredefinedGatewayPolicy#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * List of services to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#services PolicyPredefinedGatewayPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#services PolicyPredefinedGatewayPolicy#services}
   */
   readonly services?: string[];
   /**
   * List of source groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#source_groups PolicyPredefinedGatewayPolicy#source_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#source_groups PolicyPredefinedGatewayPolicy#source_groups}
   */
   readonly sourceGroups?: string[];
   /**
   * Negation of source groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#sources_excluded PolicyPredefinedGatewayPolicy#sources_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#sources_excluded PolicyPredefinedGatewayPolicy#sources_excluded}
   */
   readonly sourcesExcluded?: boolean | cdktf.IResolvable;
   /**
   * service_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#service_entries PolicyPredefinedGatewayPolicy#service_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#service_entries PolicyPredefinedGatewayPolicy#service_entries}
   */
   readonly serviceEntries?: PolicyPredefinedGatewayPolicyRuleServiceEntries;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
   */
   readonly tag?: PolicyPredefinedGatewayPolicyRuleTag[] | cdktf.IResolvable;
 }
@@ -3082,11 +3082,11 @@ export class PolicyPredefinedGatewayPolicyRuleList extends cdktf.ComplexList {
 }
 export interface PolicyPredefinedGatewayPolicyTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#scope PolicyPredefinedGatewayPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#tag PolicyPredefinedGatewayPolicy#tag}
   */
   readonly tag?: string;
 }
@@ -3231,7 +3231,7 @@ export class PolicyPredefinedGatewayPolicyTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy nsxt_policy_predefined_gateway_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy nsxt_policy_predefined_gateway_policy}
 */
 export class PolicyPredefinedGatewayPolicy extends cdktf.TerraformResource {
 
@@ -3247,7 +3247,7 @@ export class PolicyPredefinedGatewayPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyPredefinedGatewayPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyPredefinedGatewayPolicy to import
-  * @param importFromId The id of the existing PolicyPredefinedGatewayPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyPredefinedGatewayPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyPredefinedGatewayPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3259,7 +3259,7 @@ export class PolicyPredefinedGatewayPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_predefined_gateway_policy nsxt_policy_predefined_gateway_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_predefined_gateway_policy nsxt_policy_predefined_gateway_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3270,8 +3270,8 @@ export class PolicyPredefinedGatewayPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_predefined_gateway_policy',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3361,7 +3361,7 @@ export class PolicyPredefinedGatewayPolicy extends cdktf.TerraformResource {
   }
 
   // default_rule - computed: false, optional: true, required: false
-  private _defaultRule = new PolicyPredefinedGatewayPolicyDefaultRuleList(this, "default_rule", false);
+  private _defaultRule = new PolicyPredefinedGatewayPolicyDefaultRuleList(this, "default_rule", true);
   public get defaultRule() {
     return this._defaultRule;
   }
@@ -3453,7 +3453,7 @@ export class PolicyPredefinedGatewayPolicy extends cdktf.TerraformResource {
       default_rule: {
         value: cdktf.listMapperHcl(policyPredefinedGatewayPolicyDefaultRuleToHclTerraform, true)(this._defaultRule.internalValue),
         isBlock: true,
-        type: "list",
+        type: "set",
         storageClassType: "PolicyPredefinedGatewayPolicyDefaultRuleList",
       },
       rule: {

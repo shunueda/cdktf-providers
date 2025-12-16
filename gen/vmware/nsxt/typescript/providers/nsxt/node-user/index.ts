@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NodeUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Boolean value that states if the user account is activated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#active NodeUser#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#active NodeUser#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Full name for the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#full_name NodeUser#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#full_name NodeUser#full_name}
   */
   readonly fullName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#id NodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#id NodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface NodeUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password for the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#password NodeUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#password NodeUser#password}
   */
   readonly password?: string;
   /**
   * Number of days password is valid before it must be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#password_change_frequency NodeUser#password_change_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#password_change_frequency NodeUser#password_change_frequency}
   */
   readonly passwordChangeFrequency?: number;
   /**
   * Number of days before user receives warning message of password expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#password_change_warning NodeUser#password_change_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#password_change_warning NodeUser#password_change_warning}
   */
   readonly passwordChangeWarning?: number;
   /**
   * User login name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#username NodeUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#username NodeUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user nsxt_node_user}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user nsxt_node_user}
 */
 export class NodeUser extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class NodeUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodeUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodeUser to import
-  * @param importFromId The id of the existing NodeUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodeUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodeUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class NodeUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/node_user nsxt_node_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/node_user nsxt_node_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class NodeUser extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_node_user',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

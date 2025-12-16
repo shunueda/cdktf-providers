@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig extends c
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#gateway_replace_target_authority_enabled SolacebrokerMsgVpnRestDeliveryPointQueueBinding#gateway_replace_target_authority_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#gateway_replace_target_authority_enabled SolacebrokerMsgVpnRestDeliveryPointQueueBinding#gateway_replace_target_authority_enabled}
   */
   readonly gatewayReplaceTargetAuthorityEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig extends c
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#msg_vpn_name SolacebrokerMsgVpnRestDeliveryPointQueueBinding#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#msg_vpn_name SolacebrokerMsgVpnRestDeliveryPointQueueBinding#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig extends c
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#post_request_target SolacebrokerMsgVpnRestDeliveryPointQueueBinding#post_request_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#post_request_target SolacebrokerMsgVpnRestDeliveryPointQueueBinding#post_request_target}
   */
   readonly postRequestTarget?: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig extends c
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#queue_binding_name SolacebrokerMsgVpnRestDeliveryPointQueueBinding#queue_binding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#queue_binding_name SolacebrokerMsgVpnRestDeliveryPointQueueBinding#queue_binding_name}
   */
   readonly queueBindingName: string;
   /**
@@ -50,7 +50,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig extends c
   * </pre>
   *  Available since SEMP API version 2.23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#request_target_evaluation SolacebrokerMsgVpnRestDeliveryPointQueueBinding#request_target_evaluation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#request_target_evaluation SolacebrokerMsgVpnRestDeliveryPointQueueBinding#request_target_evaluation}
   */
   readonly requestTargetEvaluation?: string;
   /**
@@ -58,13 +58,13 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig extends c
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#rest_delivery_point_name SolacebrokerMsgVpnRestDeliveryPointQueueBinding#rest_delivery_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#rest_delivery_point_name SolacebrokerMsgVpnRestDeliveryPointQueueBinding#rest_delivery_point_name}
   */
   readonly restDeliveryPointName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding}
 */
 export class SolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class SolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.Terra
   * Generates CDKTF code for importing a SolacebrokerMsgVpnRestDeliveryPointQueueBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnRestDeliveryPointQueueBinding to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnRestDeliveryPointQueueBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnRestDeliveryPointQueueBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnRestDeliveryPointQueueBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class SolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class SolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.Terra
       terraformResourceType: 'solacebroker_msg_vpn_rest_delivery_point_queue_binding',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

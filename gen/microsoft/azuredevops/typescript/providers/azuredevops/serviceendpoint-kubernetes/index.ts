@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface ServiceendpointKubernetesConfig extends cdktf.TerraformMetaArgu
   /**
   * URL to Kubernete's API-Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#apiserver_url ServiceendpointKubernetes#apiserver_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#apiserver_url ServiceendpointKubernetes#apiserver_url}
   */
   readonly apiserverUrl: string;
   /**
   * Type of credentials to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#authorization_type ServiceendpointKubernetes#authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#authorization_type ServiceendpointKubernetes#authorization_type}
   */
   readonly authorizationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#description ServiceendpointKubernetes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#description ServiceendpointKubernetes#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#id ServiceendpointKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#id ServiceendpointKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#project_id ServiceendpointKubernetes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#project_id ServiceendpointKubernetes#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#service_endpoint_name ServiceendpointKubernetes#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#service_endpoint_name ServiceendpointKubernetes#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * azure_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#azure_subscription ServiceendpointKubernetes#azure_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#azure_subscription ServiceendpointKubernetes#azure_subscription}
   */
   readonly azureSubscription?: ServiceendpointKubernetesAzureSubscription[] | cdktf.IResolvable;
   /**
   * kubeconfig block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#kubeconfig ServiceendpointKubernetes#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#kubeconfig ServiceendpointKubernetes#kubeconfig}
   */
   readonly kubeconfig?: ServiceendpointKubernetesKubeconfig;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#service_account ServiceendpointKubernetes#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#service_account ServiceendpointKubernetes#service_account}
   */
   readonly serviceAccount?: ServiceendpointKubernetesServiceAccount;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#timeouts ServiceendpointKubernetes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#timeouts ServiceendpointKubernetes#timeouts}
   */
   readonly timeouts?: ServiceendpointKubernetesTimeouts;
 }
@@ -67,49 +67,49 @@ export interface ServiceendpointKubernetesAzureSubscription {
   /**
   * type of azure cloud: AzureCloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#azure_environment ServiceendpointKubernetes#azure_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#azure_environment ServiceendpointKubernetes#azure_environment}
   */
   readonly azureEnvironment?: string;
   /**
   * Enable Cluster Admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#cluster_admin ServiceendpointKubernetes#cluster_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#cluster_admin ServiceendpointKubernetes#cluster_admin}
   */
   readonly clusterAdmin?: boolean | cdktf.IResolvable;
   /**
   * name of aks-resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#cluster_name ServiceendpointKubernetes#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#cluster_name ServiceendpointKubernetes#cluster_name}
   */
   readonly clusterName: string;
   /**
   * accessed namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#namespace ServiceendpointKubernetes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#namespace ServiceendpointKubernetes#namespace}
   */
   readonly namespace?: string;
   /**
   * id of resourcegroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#resourcegroup_id ServiceendpointKubernetes#resourcegroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#resourcegroup_id ServiceendpointKubernetes#resourcegroup_id}
   */
   readonly resourcegroupId: string;
   /**
   * id of azure subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#subscription_id ServiceendpointKubernetes#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#subscription_id ServiceendpointKubernetes#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * name of azure subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#subscription_name ServiceendpointKubernetes#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#subscription_name ServiceendpointKubernetes#subscription_name}
   */
   readonly subscriptionName: string;
   /**
   * id of aad-tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#tenant_id ServiceendpointKubernetes#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#tenant_id ServiceendpointKubernetes#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -415,19 +415,19 @@ export interface ServiceendpointKubernetesKubeconfig {
   /**
   * Enable this if your authentication uses untrusted certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
   */
   readonly acceptUntrustedCerts?: boolean | cdktf.IResolvable;
   /**
   * Context of your cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#cluster_context ServiceendpointKubernetes#cluster_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#cluster_context ServiceendpointKubernetes#cluster_context}
   */
   readonly clusterContext?: string;
   /**
   * Content of the kubeconfig file. The configuration information in your kubeconfig file allows Kubernetes clients to talk to your Kubernetes API servers. This file is used by kubectl and all supported Kubernetes clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#kube_config ServiceendpointKubernetes#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#kube_config ServiceendpointKubernetes#kube_config}
   */
   readonly kubeConfig: string;
 }
@@ -566,19 +566,19 @@ export class ServiceendpointKubernetesKubeconfigOutputReference extends cdktf.Co
 }
 export interface ServiceendpointKubernetesServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
   */
   readonly acceptUntrustedCerts?: boolean | cdktf.IResolvable;
   /**
   * Secret cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#ca_cert ServiceendpointKubernetes#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#ca_cert ServiceendpointKubernetes#ca_cert}
   */
   readonly caCert: string;
   /**
   * Secret token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#token ServiceendpointKubernetes#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#token ServiceendpointKubernetes#token}
   */
   readonly token: string;
 }
@@ -714,19 +714,19 @@ export class ServiceendpointKubernetesServiceAccountOutputReference extends cdkt
 }
 export interface ServiceendpointKubernetesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#create ServiceendpointKubernetes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#create ServiceendpointKubernetes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#delete ServiceendpointKubernetes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#delete ServiceendpointKubernetes#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#read ServiceendpointKubernetes#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#read ServiceendpointKubernetes#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#update ServiceendpointKubernetes#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#update ServiceendpointKubernetes#update}
   */
   readonly update?: string;
 }
@@ -907,7 +907,7 @@ export class ServiceendpointKubernetesTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes azuredevops_serviceendpoint_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes azuredevops_serviceendpoint_kubernetes}
 */
 export class ServiceendpointKubernetes extends cdktf.TerraformResource {
 
@@ -923,7 +923,7 @@ export class ServiceendpointKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointKubernetes to import
-  * @param importFromId The id of the existing ServiceendpointKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class ServiceendpointKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_kubernetes azuredevops_serviceendpoint_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_kubernetes azuredevops_serviceendpoint_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,8 +946,8 @@ export class ServiceendpointKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

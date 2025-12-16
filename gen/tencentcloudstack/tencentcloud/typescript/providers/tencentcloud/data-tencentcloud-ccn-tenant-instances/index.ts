@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCcnTenantInstancesConfig extends cdktf.Terrafor
   /**
   * filter by ccn ids, like: ['ccn-12345678'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances#ccn_ids DataTencentcloudCcnTenantInstances#ccn_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances#ccn_ids DataTencentcloudCcnTenantInstances#ccn_ids}
   */
   readonly ccnIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances#id DataTencentcloudCcnTenantInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances#id DataTencentcloudCcnTenantInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudCcnTenantInstancesConfig extends cdktf.Terrafor
   /**
   * filter by locked, like ['true'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances#is_security_lock DataTencentcloudCcnTenantInstances#is_security_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances#is_security_lock DataTencentcloudCcnTenantInstances#is_security_lock}
   */
   readonly isSecurityLock?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances#result_output_file DataTencentcloudCcnTenantInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances#result_output_file DataTencentcloudCcnTenantInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filter by ccn ids, like: ['12345678'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances#user_account_id DataTencentcloudCcnTenantInstances#user_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances#user_account_id DataTencentcloudCcnTenantInstances#user_account_id}
   */
   readonly userAccountId?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances tencentcloud_ccn_tenant_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances tencentcloud_ccn_tenant_instances}
 */
 export class DataTencentcloudCcnTenantInstances extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataTencentcloudCcnTenantInstances extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudCcnTenantInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCcnTenantInstances to import
-  * @param importFromId The id of the existing DataTencentcloudCcnTenantInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCcnTenantInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCcnTenantInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataTencentcloudCcnTenantInstances extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_tenant_instances tencentcloud_ccn_tenant_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_tenant_instances tencentcloud_ccn_tenant_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataTencentcloudCcnTenantInstances extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_ccn_tenant_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

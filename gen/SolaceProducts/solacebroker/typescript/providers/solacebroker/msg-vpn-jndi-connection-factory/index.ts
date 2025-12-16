@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#allow_duplicate_client_id_enabled MsgVpnJndiConnectionFactory#allow_duplicate_client_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#allow_duplicate_client_id_enabled MsgVpnJndiConnectionFactory#allow_duplicate_client_id_enabled}
   */
   readonly allowDuplicateClientIdEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#client_description MsgVpnJndiConnectionFactory#client_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#client_description MsgVpnJndiConnectionFactory#client_description}
   */
   readonly clientDescription?: string;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#client_id MsgVpnJndiConnectionFactory#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#client_id MsgVpnJndiConnectionFactory#client_id}
   */
   readonly clientId?: string;
   /**
@@ -36,7 +36,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#connection_factory_name MsgVpnJndiConnectionFactory#connection_factory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#connection_factory_name MsgVpnJndiConnectionFactory#connection_factory_name}
   */
   readonly connectionFactoryName: string;
   /**
@@ -44,7 +44,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#dto_receive_override_enabled MsgVpnJndiConnectionFactory#dto_receive_override_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#dto_receive_override_enabled MsgVpnJndiConnectionFactory#dto_receive_override_enabled}
   */
   readonly dtoReceiveOverrideEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -52,7 +52,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#dto_receive_subscriber_local_priority MsgVpnJndiConnectionFactory#dto_receive_subscriber_local_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#dto_receive_subscriber_local_priority MsgVpnJndiConnectionFactory#dto_receive_subscriber_local_priority}
   */
   readonly dtoReceiveSubscriberLocalPriority?: number;
   /**
@@ -60,7 +60,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#dto_receive_subscriber_network_priority MsgVpnJndiConnectionFactory#dto_receive_subscriber_network_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#dto_receive_subscriber_network_priority MsgVpnJndiConnectionFactory#dto_receive_subscriber_network_priority}
   */
   readonly dtoReceiveSubscriberNetworkPriority?: number;
   /**
@@ -68,7 +68,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#dto_send_enabled MsgVpnJndiConnectionFactory#dto_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#dto_send_enabled MsgVpnJndiConnectionFactory#dto_send_enabled}
   */
   readonly dtoSendEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -76,7 +76,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#dynamic_endpoint_create_durable_enabled MsgVpnJndiConnectionFactory#dynamic_endpoint_create_durable_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#dynamic_endpoint_create_durable_enabled MsgVpnJndiConnectionFactory#dynamic_endpoint_create_durable_enabled}
   */
   readonly dynamicEndpointCreateDurableEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -84,7 +84,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#dynamic_endpoint_respect_ttl_enabled MsgVpnJndiConnectionFactory#dynamic_endpoint_respect_ttl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#dynamic_endpoint_respect_ttl_enabled MsgVpnJndiConnectionFactory#dynamic_endpoint_respect_ttl_enabled}
   */
   readonly dynamicEndpointRespectTtlEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -92,7 +92,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_ack_timeout MsgVpnJndiConnectionFactory#guaranteed_receive_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_ack_timeout MsgVpnJndiConnectionFactory#guaranteed_receive_ack_timeout}
   */
   readonly guaranteedReceiveAckTimeout?: number;
   /**
@@ -100,7 +100,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `-1`. Available since SEMP API version 2.14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_reconnect_retry_count MsgVpnJndiConnectionFactory#guaranteed_receive_reconnect_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_reconnect_retry_count MsgVpnJndiConnectionFactory#guaranteed_receive_reconnect_retry_count}
   */
   readonly guaranteedReceiveReconnectRetryCount?: number;
   /**
@@ -108,7 +108,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3000`. Available since SEMP API version 2.14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_reconnect_retry_wait MsgVpnJndiConnectionFactory#guaranteed_receive_reconnect_retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_reconnect_retry_wait MsgVpnJndiConnectionFactory#guaranteed_receive_reconnect_retry_wait}
   */
   readonly guaranteedReceiveReconnectRetryWait?: number;
   /**
@@ -116,7 +116,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `18`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_window_size MsgVpnJndiConnectionFactory#guaranteed_receive_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_window_size MsgVpnJndiConnectionFactory#guaranteed_receive_window_size}
   */
   readonly guaranteedReceiveWindowSize?: number;
   /**
@@ -124,7 +124,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_window_size_ack_threshold MsgVpnJndiConnectionFactory#guaranteed_receive_window_size_ack_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_receive_window_size_ack_threshold MsgVpnJndiConnectionFactory#guaranteed_receive_window_size_ack_threshold}
   */
   readonly guaranteedReceiveWindowSizeAckThreshold?: number;
   /**
@@ -132,7 +132,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `2000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_send_ack_timeout MsgVpnJndiConnectionFactory#guaranteed_send_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_send_ack_timeout MsgVpnJndiConnectionFactory#guaranteed_send_ack_timeout}
   */
   readonly guaranteedSendAckTimeout?: number;
   /**
@@ -140,7 +140,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `255`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_send_window_size MsgVpnJndiConnectionFactory#guaranteed_send_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#guaranteed_send_window_size MsgVpnJndiConnectionFactory#guaranteed_send_window_size}
   */
   readonly guaranteedSendWindowSize?: number;
   /**
@@ -154,7 +154,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_default_delivery_mode MsgVpnJndiConnectionFactory#messaging_default_delivery_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_default_delivery_mode MsgVpnJndiConnectionFactory#messaging_default_delivery_mode}
   */
   readonly messagingDefaultDeliveryMode?: string;
   /**
@@ -162,7 +162,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_default_dmq_eligible_enabled MsgVpnJndiConnectionFactory#messaging_default_dmq_eligible_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_default_dmq_eligible_enabled MsgVpnJndiConnectionFactory#messaging_default_dmq_eligible_enabled}
   */
   readonly messagingDefaultDmqEligibleEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -170,7 +170,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_default_eliding_eligible_enabled MsgVpnJndiConnectionFactory#messaging_default_eliding_eligible_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_default_eliding_eligible_enabled MsgVpnJndiConnectionFactory#messaging_default_eliding_eligible_enabled}
   */
   readonly messagingDefaultElidingEligibleEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -178,7 +178,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_jmsx_user_id_enabled MsgVpnJndiConnectionFactory#messaging_jmsx_user_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_jmsx_user_id_enabled MsgVpnJndiConnectionFactory#messaging_jmsx_user_id_enabled}
   */
   readonly messagingJmsxUserIdEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -186,7 +186,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`. Available since SEMP API version 2.42.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_payload_compression_level MsgVpnJndiConnectionFactory#messaging_payload_compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_payload_compression_level MsgVpnJndiConnectionFactory#messaging_payload_compression_level}
   */
   readonly messagingPayloadCompressionLevel?: number;
   /**
@@ -194,7 +194,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_text_in_xml_payload_enabled MsgVpnJndiConnectionFactory#messaging_text_in_xml_payload_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#messaging_text_in_xml_payload_enabled MsgVpnJndiConnectionFactory#messaging_text_in_xml_payload_enabled}
   */
   readonly messagingTextInXmlPayloadEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -202,7 +202,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#msg_vpn_name MsgVpnJndiConnectionFactory#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#msg_vpn_name MsgVpnJndiConnectionFactory#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -210,7 +210,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_compression_level MsgVpnJndiConnectionFactory#transport_compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_compression_level MsgVpnJndiConnectionFactory#transport_compression_level}
   */
   readonly transportCompressionLevel?: number;
   /**
@@ -218,7 +218,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_connect_retry_count MsgVpnJndiConnectionFactory#transport_connect_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_connect_retry_count MsgVpnJndiConnectionFactory#transport_connect_retry_count}
   */
   readonly transportConnectRetryCount?: number;
   /**
@@ -226,7 +226,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_connect_retry_per_host_count MsgVpnJndiConnectionFactory#transport_connect_retry_per_host_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_connect_retry_per_host_count MsgVpnJndiConnectionFactory#transport_connect_retry_per_host_count}
   */
   readonly transportConnectRetryPerHostCount?: number;
   /**
@@ -234,7 +234,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `30000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_connect_timeout MsgVpnJndiConnectionFactory#transport_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_connect_timeout MsgVpnJndiConnectionFactory#transport_connect_timeout}
   */
   readonly transportConnectTimeout?: number;
   /**
@@ -242,7 +242,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_direct_transport_enabled MsgVpnJndiConnectionFactory#transport_direct_transport_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_direct_transport_enabled MsgVpnJndiConnectionFactory#transport_direct_transport_enabled}
   */
   readonly transportDirectTransportEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -250,7 +250,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_keepalive_count MsgVpnJndiConnectionFactory#transport_keepalive_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_keepalive_count MsgVpnJndiConnectionFactory#transport_keepalive_count}
   */
   readonly transportKeepaliveCount?: number;
   /**
@@ -258,7 +258,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_keepalive_enabled MsgVpnJndiConnectionFactory#transport_keepalive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_keepalive_enabled MsgVpnJndiConnectionFactory#transport_keepalive_enabled}
   */
   readonly transportKeepaliveEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -266,7 +266,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_keepalive_interval MsgVpnJndiConnectionFactory#transport_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_keepalive_interval MsgVpnJndiConnectionFactory#transport_keepalive_interval}
   */
   readonly transportKeepaliveInterval?: number;
   /**
@@ -274,7 +274,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_msg_callback_on_io_thread_enabled MsgVpnJndiConnectionFactory#transport_msg_callback_on_io_thread_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_msg_callback_on_io_thread_enabled MsgVpnJndiConnectionFactory#transport_msg_callback_on_io_thread_enabled}
   */
   readonly transportMsgCallbackOnIoThreadEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -282,7 +282,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_optimize_direct_enabled MsgVpnJndiConnectionFactory#transport_optimize_direct_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_optimize_direct_enabled MsgVpnJndiConnectionFactory#transport_optimize_direct_enabled}
   */
   readonly transportOptimizeDirectEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -290,7 +290,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_port MsgVpnJndiConnectionFactory#transport_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_port MsgVpnJndiConnectionFactory#transport_port}
   */
   readonly transportPort?: number;
   /**
@@ -298,7 +298,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_read_timeout MsgVpnJndiConnectionFactory#transport_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_read_timeout MsgVpnJndiConnectionFactory#transport_read_timeout}
   */
   readonly transportReadTimeout?: number;
   /**
@@ -306,7 +306,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `65536`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_receive_buffer_size MsgVpnJndiConnectionFactory#transport_receive_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_receive_buffer_size MsgVpnJndiConnectionFactory#transport_receive_buffer_size}
   */
   readonly transportReceiveBufferSize?: number;
   /**
@@ -314,7 +314,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_reconnect_retry_count MsgVpnJndiConnectionFactory#transport_reconnect_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_reconnect_retry_count MsgVpnJndiConnectionFactory#transport_reconnect_retry_count}
   */
   readonly transportReconnectRetryCount?: number;
   /**
@@ -322,7 +322,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_reconnect_retry_wait MsgVpnJndiConnectionFactory#transport_reconnect_retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_reconnect_retry_wait MsgVpnJndiConnectionFactory#transport_reconnect_retry_wait}
   */
   readonly transportReconnectRetryWait?: number;
   /**
@@ -330,7 +330,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `65536`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_send_buffer_size MsgVpnJndiConnectionFactory#transport_send_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_send_buffer_size MsgVpnJndiConnectionFactory#transport_send_buffer_size}
   */
   readonly transportSendBufferSize?: number;
   /**
@@ -338,7 +338,7 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#transport_tcp_no_delay_enabled MsgVpnJndiConnectionFactory#transport_tcp_no_delay_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#transport_tcp_no_delay_enabled MsgVpnJndiConnectionFactory#transport_tcp_no_delay_enabled}
   */
   readonly transportTcpNoDelayEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -346,13 +346,13 @@ export interface MsgVpnJndiConnectionFactoryConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#xa_enabled MsgVpnJndiConnectionFactory#xa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#xa_enabled MsgVpnJndiConnectionFactory#xa_enabled}
   */
   readonly xaEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory}
 */
 export class MsgVpnJndiConnectionFactory extends cdktf.TerraformResource {
 
@@ -368,7 +368,7 @@ export class MsgVpnJndiConnectionFactory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnJndiConnectionFactory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnJndiConnectionFactory to import
-  * @param importFromId The id of the existing MsgVpnJndiConnectionFactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnJndiConnectionFactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnJndiConnectionFactory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class MsgVpnJndiConnectionFactory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class MsgVpnJndiConnectionFactory extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_jndi_connection_factory',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

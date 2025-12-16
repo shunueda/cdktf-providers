@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation
+// https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface OperationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The payload for the `Create`/`Update` call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#body Operation#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#body Operation#body}
   */
   readonly body?: { [key: string]: any };
   /**
   * The payload for the `Delete` call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#delete_body Operation#delete_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#delete_body Operation#delete_body}
   */
   readonly deleteBody?: { [key: string]: any };
   /**
   * The header parameters that are applied to each delete request. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#delete_header Operation#delete_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#delete_header Operation#delete_header}
   */
   readonly deleteHeader?: { [key: string]: string };
   /**
   * The method for the `Delete` call. Possible values are `POST`, `PUT`, `PATCH` and `DELETE`. If this is not specified, no `Delete` call will occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#delete_method Operation#delete_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#delete_method Operation#delete_method}
   */
   readonly deleteMethod?: string;
   /**
   * The path for the `Delete` call, relative to the `base_url` of the provider. The `path` is used instead if `delete_path` is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#delete_path Operation#delete_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#delete_path Operation#delete_path}
   */
   readonly deletePath?: string;
   /**
   * The query parameters that are applied to each delete request. This overrides the `query` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#delete_query Operation#delete_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#delete_query Operation#delete_query}
   */
   readonly deleteQuery?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The ephemeral (write-only) properties of the resource. This will be merge-patched to the `body` to construct the actual request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#ephemeral_body Operation#ephemeral_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#ephemeral_body Operation#ephemeral_body}
   */
   readonly ephemeralBody?: { [key: string]: any };
   /**
   * The header parameters that are applied to each request. This overrides the `header` set in the provider block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#header Operation#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#header Operation#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The pattern used to build the `id`. The `path` is used as the `id` instead if absent.This can be a string literal, or combined by following params: path param: `$(path)` expanded to `path`, body param: `$(body.x.y.z)` expands to the `x.y.z` property of the API body. Especially for the body param, it can add a chain of functions (applied from left to right), in the form of `$f1.f2(body)`. Supported functions include: `escape` (URL path escape, by default applied), `unescape` (URL path unescape), `query_escape` (URL query escape), `query_unescape` (URL query unescape), `base` (filepath base), `url_path` (path segment of a URL), `trim_path` (trim `path`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#id_builder Operation#id_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#id_builder Operation#id_builder}
   */
   readonly idBuilder?: string;
   /**
   * The HTTP method for the `Create`/`Update` call. Possible values are `GET`, `PUT`, `POST`, `PATCH` and `DELETE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#method Operation#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#method Operation#method}
   */
   readonly method: string;
   /**
   * The header parameters that are applied to each operation request. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#operation_header Operation#operation_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#operation_header Operation#operation_header}
   */
   readonly operationHeader?: { [key: string]: string };
   /**
   * The query parameters that are applied to each operation request. This overrides the `query` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#operation_query Operation#operation_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#operation_query Operation#operation_query}
   */
   readonly operationQuery?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * A set of `output` attribute paths (in [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md)) that will be exported in the `output`. If this is not specified, all attributes will be exported by `output`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#output_attrs Operation#output_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#output_attrs Operation#output_attrs}
   */
   readonly outputAttrs?: string[];
   /**
   * The path for the `Create`/`Update` call, relative to the `base_url` of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#path Operation#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#path Operation#path}
   */
   readonly path: string;
   /**
   * The polling option for the "`Create`/`Update`" operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#poll Operation#poll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#poll Operation#poll}
   */
   readonly poll?: OperationPoll;
   /**
   * The polling option for the "`Delete`" operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#poll_delete Operation#poll_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#poll_delete Operation#poll_delete}
   */
   readonly pollDelete?: OperationPollDelete;
   /**
   * An array of prechecks that need to pass prior to the "`Create`/`Update`" operation. Exactly one of `mutex` or `api` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#precheck Operation#precheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#precheck Operation#precheck}
   */
   readonly precheck?: OperationPrecheck[] | cdktf.IResolvable;
   /**
   * An array of prechecks that need to pass prior to the "`Delete`" operation. Exactly one of `mutex` or `api` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#precheck_delete Operation#precheck_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#precheck_delete Operation#precheck_delete}
   */
   readonly precheckDelete?: OperationPrecheckDelete[] | cdktf.IResolvable;
   /**
   * The query parameters that are applied to each request. This overrides the `query` set in the provider block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#query Operation#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#query Operation#query}
   */
   readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Whether to use `sensitive_output` instead of `output`. When true, the response will be stored in `sensitive_output` (which is marked as sensitive). Defaults to `false`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#use_sensitive_output Operation#use_sensitive_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#use_sensitive_output Operation#use_sensitive_output}
   */
   readonly useSensitiveOutput?: boolean | cdktf.IResolvable;
 }
@@ -132,13 +132,13 @@ export interface OperationPollStatus {
   /**
   * The expected status sentinels for pending status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#pending Operation#pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#pending Operation#pending}
   */
   readonly pending?: string[];
   /**
   * The expected status sentinel for suceess status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#success Operation#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#success Operation#success}
   */
   readonly success: string;
 }
@@ -260,31 +260,31 @@ export interface OperationPoll {
   /**
   * The interval between two pollings if there is no `Retry-After` in the response header, in second. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
   */
   readonly defaultDelaySec?: number;
   /**
   * The header parameters. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#header Operation#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#header Operation#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The expected status sentinels for each polling state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status Operation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status Operation#status}
   */
   readonly status: OperationPollStatus;
   /**
   * Specifies how to discover the status property. The format is either `code` or `scope.path`, where `scope` can be either `header` or `body`, and the `path` is using the [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md). The `path` can contain `$(body.x.y.z)` parameter that reference property from either the response body (for `Create`, after selector), or `state.output` (for `Read`/`Update`/`Delete`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status_locator Operation#status_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status_locator Operation#status_locator}
   */
   readonly statusLocator: string;
   /**
   * Specifies how to discover the polling url. The format can be one of `header.path` (use the property at `path` in response header), `body.path` (use the property at `path` in response body) or `exact.value` (use the exact `value`). When absent, the current operation's URL is used for polling, execpt `Create` where it fallbacks to use the path constructed by the `read_path` as the polling URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#url_locator Operation#url_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#url_locator Operation#url_locator}
   */
   readonly urlLocator?: string;
 }
@@ -490,13 +490,13 @@ export interface OperationPollDeleteStatus {
   /**
   * The expected status sentinels for pending status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#pending Operation#pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#pending Operation#pending}
   */
   readonly pending?: string[];
   /**
   * The expected status sentinel for suceess status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#success Operation#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#success Operation#success}
   */
   readonly success: string;
 }
@@ -618,31 +618,31 @@ export interface OperationPollDelete {
   /**
   * The interval between two pollings if there is no `Retry-After` in the response header, in second. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
   */
   readonly defaultDelaySec?: number;
   /**
   * The header parameters. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#header Operation#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#header Operation#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The expected status sentinels for each polling state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status Operation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status Operation#status}
   */
   readonly status: OperationPollDeleteStatus;
   /**
   * Specifies how to discover the status property. The format is either `code` or `scope.path`, where `scope` can be either `header` or `body`, and the `path` is using the [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md). The `path` can contain `$(body.x.y.z)` parameter that reference property from either the response body (for `Create`, after selector), or `state.output` (for `Read`/`Update`/`Delete`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status_locator Operation#status_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status_locator Operation#status_locator}
   */
   readonly statusLocator: string;
   /**
   * Specifies how to discover the polling url. The format can be one of `header.path` (use the property at `path` in response header), `body.path` (use the property at `path` in response body) or `exact.value` (use the exact `value`). When absent, the current operation's URL is used for polling, execpt `Create` where it fallbacks to use the path constructed by the `read_path` as the polling URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#url_locator Operation#url_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#url_locator Operation#url_locator}
   */
   readonly urlLocator?: string;
 }
@@ -848,13 +848,13 @@ export interface OperationPrecheckApiStatus {
   /**
   * The expected status sentinels for pending status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#pending Operation#pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#pending Operation#pending}
   */
   readonly pending?: string[];
   /**
   * The expected status sentinel for suceess status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#success Operation#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#success Operation#success}
   */
   readonly success: string;
 }
@@ -976,37 +976,37 @@ export interface OperationPrecheckApi {
   /**
   * The interval between two pollings if there is no `Retry-After` in the response header, in second. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
   */
   readonly defaultDelaySec?: number;
   /**
   * The header parameters. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#header Operation#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#header Operation#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The path used to query readiness, relative to the `base_url` of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#path Operation#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#path Operation#path}
   */
   readonly path: string;
   /**
   * The query parameters. This overrides the `query` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#query Operation#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#query Operation#query}
   */
   readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The expected status sentinels for each polling state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status Operation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status Operation#status}
   */
   readonly status: OperationPrecheckApiStatus;
   /**
   * Specifies how to discover the status property. The format is either `code` or `scope.path`, where `scope` can be either `header` or `body`, and the `path` is using the [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status_locator Operation#status_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status_locator Operation#status_locator}
   */
   readonly statusLocator: string;
 }
@@ -1238,13 +1238,13 @@ export interface OperationPrecheck {
   /**
   * Keeps waiting until the specified API meets the success status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#api Operation#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#api Operation#api}
   */
   readonly api?: OperationPrecheckApi;
   /**
   * The name of the mutex, which implies the resource will keep waiting until this mutex is held
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#mutex Operation#mutex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#mutex Operation#mutex}
   */
   readonly mutex?: string;
 }
@@ -1391,13 +1391,13 @@ export interface OperationPrecheckDeleteApiStatus {
   /**
   * The expected status sentinels for pending status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#pending Operation#pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#pending Operation#pending}
   */
   readonly pending?: string[];
   /**
   * The expected status sentinel for suceess status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#success Operation#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#success Operation#success}
   */
   readonly success: string;
 }
@@ -1519,37 +1519,37 @@ export interface OperationPrecheckDeleteApi {
   /**
   * The interval between two pollings if there is no `Retry-After` in the response header, in second. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#default_delay_sec Operation#default_delay_sec}
   */
   readonly defaultDelaySec?: number;
   /**
   * The header parameters. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#header Operation#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#header Operation#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The path used to query readiness, relative to the `base_url` of the provider. By default, the `path` of this resource is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#path Operation#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#path Operation#path}
   */
   readonly path?: string;
   /**
   * The query parameters. This overrides the `query` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#query Operation#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#query Operation#query}
   */
   readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The expected status sentinels for each polling state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status Operation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status Operation#status}
   */
   readonly status: OperationPrecheckDeleteApiStatus;
   /**
   * Specifies how to discover the status property. The format is either `code` or `scope.path`, where `scope` can be either `header` or `body`, and the `path` is using the [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md). The `path` can contain `$(body.x.y.z)` parameter that reference property from the `state.output`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#status_locator Operation#status_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#status_locator Operation#status_locator}
   */
   readonly statusLocator: string;
 }
@@ -1784,13 +1784,13 @@ export interface OperationPrecheckDelete {
   /**
   * Keeps waiting until the specified API meets the success status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#api Operation#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#api Operation#api}
   */
   readonly api?: OperationPrecheckDeleteApi;
   /**
   * The name of the mutex, which implies the resource will keep waiting until this mutex is held
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#mutex Operation#mutex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#mutex Operation#mutex}
   */
   readonly mutex?: string;
 }
@@ -1935,7 +1935,7 @@ export class OperationPrecheckDeleteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation restful_operation}
+* Represents a {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation restful_operation}
 */
 export class Operation extends cdktf.TerraformResource {
 
@@ -1951,7 +1951,7 @@ export class Operation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Operation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Operation to import
-  * @param importFromId The id of the existing Operation that should be imported. Refer to the {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Operation that should be imported. Refer to the {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Operation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1963,7 +1963,7 @@ export class Operation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/resources/operation restful_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/resources/operation restful_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1974,8 +1974,8 @@ export class Operation extends cdktf.TerraformResource {
       terraformResourceType: 'restful_operation',
       terraformGeneratorMetadata: {
         providerName: 'restful',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.25.1',
+        providerVersionConstraint: '0.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

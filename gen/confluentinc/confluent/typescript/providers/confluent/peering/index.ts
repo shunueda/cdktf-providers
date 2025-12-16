@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering
+// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PeeringConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Peering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#display_name Peering#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#display_name Peering#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#id Peering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#id Peering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PeeringConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#aws Peering#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#aws Peering#aws}
   */
   readonly aws?: PeeringAws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#azure Peering#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#azure Peering#azure}
   */
   readonly azure?: PeeringAzure;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#environment Peering#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#environment Peering#environment}
   */
   readonly environment: PeeringEnvironment;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#gcp Peering#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#gcp Peering#gcp}
   */
   readonly gcp?: PeeringGcp;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#network Peering#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#network Peering#network}
   */
   readonly network: PeeringNetwork;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#timeouts Peering#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#timeouts Peering#timeouts}
   */
   readonly timeouts?: PeeringTimeouts;
 }
@@ -61,25 +61,25 @@ export interface PeeringAws {
   /**
   * AWS account for VPC to peer with the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#account Peering#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#account Peering#account}
   */
   readonly account: string;
   /**
   * Region of customer VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#customer_region Peering#customer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#customer_region Peering#customer_region}
   */
   readonly customerRegion: string;
   /**
   * List of routes for the peering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#routes Peering#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#routes Peering#routes}
   */
   readonly routes: string[];
   /**
   * The id of the AWS VPC to peer with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#vpc Peering#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#vpc Peering#vpc}
   */
   readonly vpc: string;
 }
@@ -240,19 +240,19 @@ export interface PeeringAzure {
   /**
   * Region of customer VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#customer_region Peering#customer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#customer_region Peering#customer_region}
   */
   readonly customerRegion: string;
   /**
   * Customer Azure tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#tenant Peering#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#tenant Peering#tenant}
   */
   readonly tenant: string;
   /**
   * Customer VNet to peer with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#vnet Peering#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#vnet Peering#vnet}
   */
   readonly vnet: string;
 }
@@ -387,7 +387,7 @@ export interface PeeringEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#id Peering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#id Peering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -473,19 +473,19 @@ export interface PeeringGcp {
   /**
   * Enable customer route import. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#import_custom_routes Peering#import_custom_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#import_custom_routes Peering#import_custom_routes}
   */
   readonly importCustomRoutes?: boolean | cdktf.IResolvable;
   /**
   * The name of the GCP project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#project Peering#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#project Peering#project}
   */
   readonly project: string;
   /**
   * The name of the GCP VPC network to peer with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#vpc_network Peering#vpc_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#vpc_network Peering#vpc_network}
   */
   readonly vpcNetwork: string;
 }
@@ -623,7 +623,7 @@ export interface PeeringNetwork {
   /**
   * The unique identifier for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#id Peering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#id Peering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -707,11 +707,11 @@ export class PeeringNetworkOutputReference extends cdktf.ComplexObject {
 }
 export interface PeeringTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#create Peering#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#create Peering#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#delete Peering#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#delete Peering#delete}
   */
   readonly delete?: string;
 }
@@ -834,7 +834,7 @@ export class PeeringTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering confluent_peering}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering confluent_peering}
 */
 export class Peering extends cdktf.TerraformResource {
 
@@ -850,7 +850,7 @@ export class Peering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Peering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Peering to import
-  * @param importFromId The id of the existing Peering that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Peering that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Peering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -862,7 +862,7 @@ export class Peering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/peering confluent_peering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/peering confluent_peering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -873,8 +873,8 @@ export class Peering extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_peering',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.55.0',
-        providerVersionConstraint: '2.55.0'
+        providerVersion: '2.56.0',
+        providerVersionConstraint: '2.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

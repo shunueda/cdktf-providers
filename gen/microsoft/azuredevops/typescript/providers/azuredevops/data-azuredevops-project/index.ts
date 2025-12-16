@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project#id DataAzuredevopsProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project#id DataAzuredevopsProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project#name DataAzuredevopsProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project#name DataAzuredevopsProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project#project_id DataAzuredevopsProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project#project_id DataAzuredevopsProject#project_id}
   */
   readonly projectId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project#timeouts DataAzuredevopsProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project#timeouts DataAzuredevopsProject#timeouts}
   */
   readonly timeouts?: DataAzuredevopsProjectTimeouts;
 }
 export interface DataAzuredevopsProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project#read DataAzuredevopsProject#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project#read DataAzuredevopsProject#read}
   */
   readonly read?: string;
 }
@@ -125,7 +125,7 @@ export class DataAzuredevopsProjectTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project azuredevops_project}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project azuredevops_project}
 */
 export class DataAzuredevopsProject extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataAzuredevopsProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsProject to import
-  * @param importFromId The id of the existing DataAzuredevopsProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataAzuredevopsProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/project azuredevops_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/project azuredevops_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataAzuredevopsProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_project',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

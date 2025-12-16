@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequest
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#header_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#header_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#header_name}
   */
   readonly headerName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequest
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#header_value SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#header_value SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#header_value}
   */
   readonly headerValue?: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequest
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#msg_vpn_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#msg_vpn_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequest
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#queue_binding_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#queue_binding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#queue_binding_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#queue_binding_name}
   */
   readonly queueBindingName: string;
   /**
@@ -44,13 +44,13 @@ export interface SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequest
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#rest_delivery_point_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#rest_delivery_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#rest_delivery_point_name SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader#rest_delivery_point_name}
   */
   readonly restDeliveryPointName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header}
 */
 export class SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHead
   * Generates CDKTF code for importing a SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHeader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHead
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class SolacebrokerMsgVpnRestDeliveryPointQueueBindingProtectedRequestHead
       terraformResourceType: 'solacebroker_msg_vpn_rest_delivery_point_queue_binding_protected_request_header',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface PolicyIpsecVpnSessionConfig extends cdktf.TerraformMetaArgument
   /**
   * Peer authentication mode. PSK - In this mode a secret key shared between local and peer sites is to be used for authentication. The secret key can be a string with a maximum length of 128 characters. CERTIFICATE - In this mode a certificate defined at the global level is to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#authentication_mode PolicyIpsecVpnSession#authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#authentication_mode PolicyIpsecVpnSession#authentication_mode}
   */
   readonly authenticationMode?: string;
   /**
   * Compliance suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#compliance_suite PolicyIpsecVpnSession#compliance_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#compliance_suite PolicyIpsecVpnSession#compliance_suite}
   */
   readonly complianceSuite?: string;
   /**
   * Connection initiation mode used by local endpoint to establish ike connection with peer site. INITIATOR - In this mode local endpoint initiates tunnel setup and will also respond to incoming tunnel setup requests from peer gateway. RESPOND_ONLY - In this mode, local endpoint shall only respond to incoming tunnel setup requests. It shall not initiate the tunnel setup. ON_DEMAND - In this mode local endpoint will initiate tunnel creation once first packet matching the policy rule is received and will also respond to incoming initiation request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#connection_initiation_mode PolicyIpsecVpnSession#connection_initiation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#connection_initiation_mode PolicyIpsecVpnSession#connection_initiation_mode}
   */
   readonly connectionInitiationMode?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#description PolicyIpsecVpnSession#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#description PolicyIpsecVpnSession#description}
   */
   readonly description?: string;
   /**
   * The traffic direction apply to the MSS clamping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#direction PolicyIpsecVpnSession#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#direction PolicyIpsecVpnSession#direction}
   */
   readonly direction?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#display_name PolicyIpsecVpnSession#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#display_name PolicyIpsecVpnSession#display_name}
   */
   readonly displayName: string;
   /**
   * Policy path referencing dpd profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#dpd_profile_path PolicyIpsecVpnSession#dpd_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#dpd_profile_path PolicyIpsecVpnSession#dpd_profile_path}
   */
   readonly dpdProfilePath?: string;
   /**
   * Enable/Disable IPSec VPN session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#enabled PolicyIpsecVpnSession#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#enabled PolicyIpsecVpnSession#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#id PolicyIpsecVpnSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#id PolicyIpsecVpnSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,85 +65,85 @@ export interface PolicyIpsecVpnSessionConfig extends cdktf.TerraformMetaArgument
   /**
   * Policy path referencing Ike profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#ike_profile_path PolicyIpsecVpnSession#ike_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#ike_profile_path PolicyIpsecVpnSession#ike_profile_path}
   */
   readonly ikeProfilePath?: string;
   /**
   * IP Tunnel interface (commonly referred as VTI) ip addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#ip_addresses PolicyIpsecVpnSession#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#ip_addresses PolicyIpsecVpnSession#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Policy path referencing Local endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#local_endpoint_path PolicyIpsecVpnSession#local_endpoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#local_endpoint_path PolicyIpsecVpnSession#local_endpoint_path}
   */
   readonly localEndpointPath: string;
   /**
   * Maximum amount of data the host will accept in a Tcp segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#max_segment_size PolicyIpsecVpnSession#max_segment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#max_segment_size PolicyIpsecVpnSession#max_segment_size}
   */
   readonly maxSegmentSize?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#nsx_id PolicyIpsecVpnSession#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#nsx_id PolicyIpsecVpnSession#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Public IPv4/v6 address of the remote device terminating the VPN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#peer_address PolicyIpsecVpnSession#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#peer_address PolicyIpsecVpnSession#peer_address}
   */
   readonly peerAddress: string;
   /**
   * Peer ID to uniquely identify the peer site. The peer ID is the public IP address of the remote device terminating the VPN tunnel. When NAT is configured for the peer, enter the private IP address of the peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#peer_id PolicyIpsecVpnSession#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#peer_id PolicyIpsecVpnSession#peer_id}
   */
   readonly peerId: string;
   /**
   * Subnet Prefix Length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#prefix_length PolicyIpsecVpnSession#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#prefix_length PolicyIpsecVpnSession#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * IPSec Pre-shared key. Maximum length of this field is 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#psk PolicyIpsecVpnSession#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#psk PolicyIpsecVpnSession#psk}
   */
   readonly psk?: string;
   /**
   * Policy path for IPSec VPN service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#service_path PolicyIpsecVpnSession#service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#service_path PolicyIpsecVpnSession#service_path}
   */
   readonly servicePath: string;
   /**
   * Policy path referencing tunnel profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#tunnel_profile_path PolicyIpsecVpnSession#tunnel_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#tunnel_profile_path PolicyIpsecVpnSession#tunnel_profile_path}
   */
   readonly tunnelProfilePath?: string;
   /**
   * A Policy Based VPN requires to define protect rules that match local and peer subnets. IPSec security associations is negotiated for each pair of local and peer subnet. A Route Based VPN is more flexible, more powerful and recommended over policy based VPN. IP Tunnel port is created and all traffic routed via tunnel port is protected. Routes can be configured statically or can be learned through BGP. A route based VPN is must for establishing redundant VPN session to remote site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#vpn_type PolicyIpsecVpnSession#vpn_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#vpn_type PolicyIpsecVpnSession#vpn_type}
   */
   readonly vpnType: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#rule PolicyIpsecVpnSession#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#rule PolicyIpsecVpnSession#rule}
   */
   readonly rule?: PolicyIpsecVpnSessionRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#tag PolicyIpsecVpnSession#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#tag PolicyIpsecVpnSession#tag}
   */
   readonly tag?: PolicyIpsecVpnSessionTag[] | cdktf.IResolvable;
 }
@@ -151,19 +151,19 @@ export interface PolicyIpsecVpnSessionRule {
   /**
   * PROTECT - Protect rules are defined per policy based IPSec VPN session. BYPASS - Bypass rules are defined per IPSec VPN service and affects all policy based IPSec VPN sessions. Bypass rules are prioritized over protect rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#action PolicyIpsecVpnSession#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#action PolicyIpsecVpnSession#action}
   */
   readonly action?: string;
   /**
   * List of remote subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#destinations PolicyIpsecVpnSession#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#destinations PolicyIpsecVpnSession#destinations}
   */
   readonly destinations?: string[];
   /**
   * List of local subnets. Specifying no value is interpreted as 0.0.0.0/0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#sources PolicyIpsecVpnSession#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#sources PolicyIpsecVpnSession#sources}
   */
   readonly sources?: string[];
 }
@@ -342,11 +342,11 @@ export class PolicyIpsecVpnSessionRuleList extends cdktf.ComplexList {
 }
 export interface PolicyIpsecVpnSessionTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#scope PolicyIpsecVpnSession#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#scope PolicyIpsecVpnSession#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#tag PolicyIpsecVpnSession#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#tag PolicyIpsecVpnSession#tag}
   */
   readonly tag?: string;
 }
@@ -491,7 +491,7 @@ export class PolicyIpsecVpnSessionTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session nsxt_policy_ipsec_vpn_session}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session nsxt_policy_ipsec_vpn_session}
 */
 export class PolicyIpsecVpnSession extends cdktf.TerraformResource {
 
@@ -507,7 +507,7 @@ export class PolicyIpsecVpnSession extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpsecVpnSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpsecVpnSession to import
-  * @param importFromId The id of the existing PolicyIpsecVpnSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpsecVpnSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpsecVpnSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -519,7 +519,7 @@ export class PolicyIpsecVpnSession extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_session nsxt_policy_ipsec_vpn_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_session nsxt_policy_ipsec_vpn_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -530,8 +530,8 @@ export class PolicyIpsecVpnSession extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ipsec_vpn_session',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

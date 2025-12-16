@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#description VpcAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#description VpcAttachment#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#display_name VpcAttachment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#display_name VpcAttachment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#id VpcAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#id VpcAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,33 +29,33 @@ export interface VpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#nsx_id VpcAttachment#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#nsx_id VpcAttachment#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path of the parent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#parent_path VpcAttachment#parent_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#parent_path VpcAttachment#parent_path}
   */
   readonly parentPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#vpc_connectivity_profile VpcAttachment#vpc_connectivity_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#vpc_connectivity_profile VpcAttachment#vpc_connectivity_profile}
   */
   readonly vpcConnectivityProfile: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#tag VpcAttachment#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#tag VpcAttachment#tag}
   */
   readonly tag?: VpcAttachmentTag[] | cdktf.IResolvable;
 }
 export interface VpcAttachmentTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#scope VpcAttachment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#scope VpcAttachment#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#tag VpcAttachment#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#tag VpcAttachment#tag}
   */
   readonly tag?: string;
 }
@@ -200,7 +200,7 @@ export class VpcAttachmentTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment nsxt_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment nsxt_vpc_attachment}
 */
 export class VpcAttachment extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class VpcAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcAttachment to import
-  * @param importFromId The id of the existing VpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class VpcAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_attachment nsxt_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_attachment nsxt_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class VpcAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

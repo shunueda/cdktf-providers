@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface PolicyEdgeTransportNodeConfig extends cdktf.TerraformMetaArgume
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#description PolicyEdgeTransportNode#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#description PolicyEdgeTransportNode#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#display_name PolicyEdgeTransportNode#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#display_name PolicyEdgeTransportNode#display_name}
   */
   readonly displayName: string;
   /**
   * ID of the enforcement point this Edge Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#enforcement_point PolicyEdgeTransportNode#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#enforcement_point PolicyEdgeTransportNode#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
   * Path of the failure domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#failure_domain_path PolicyEdgeTransportNode#failure_domain_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#failure_domain_path PolicyEdgeTransportNode#failure_domain_path}
   */
   readonly failureDomainPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#form_factor PolicyEdgeTransportNode#form_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#form_factor PolicyEdgeTransportNode#form_factor}
   */
   readonly formFactor?: string;
   /**
   * Host name or FQDN for edge node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#hostname PolicyEdgeTransportNode#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#hostname PolicyEdgeTransportNode#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#id PolicyEdgeTransportNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#id PolicyEdgeTransportNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,71 +51,71 @@ export interface PolicyEdgeTransportNodeConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique Id of the fabric node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#node_id PolicyEdgeTransportNode#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#node_id PolicyEdgeTransportNode#node_id}
   */
   readonly nodeId?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#nsx_id PolicyEdgeTransportNode#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#nsx_id PolicyEdgeTransportNode#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Path to the site this Edge Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#site_path PolicyEdgeTransportNode#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#site_path PolicyEdgeTransportNode#site_path}
   */
   readonly sitePath?: string;
   /**
   * advanced_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#advanced_configuration PolicyEdgeTransportNode#advanced_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#advanced_configuration PolicyEdgeTransportNode#advanced_configuration}
   */
   readonly advancedConfiguration?: PolicyEdgeTransportNodeAdvancedConfiguration[] | cdktf.IResolvable;
   /**
   * appliance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#appliance_config PolicyEdgeTransportNode#appliance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#appliance_config PolicyEdgeTransportNode#appliance_config}
   */
   readonly applianceConfig?: PolicyEdgeTransportNodeApplianceConfig;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#credentials PolicyEdgeTransportNode#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#credentials PolicyEdgeTransportNode#credentials}
   */
   readonly credentials?: PolicyEdgeTransportNodeCredentials;
   /**
   * management_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#management_interface PolicyEdgeTransportNode#management_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#management_interface PolicyEdgeTransportNode#management_interface}
   */
   readonly managementInterface?: PolicyEdgeTransportNodeManagementInterface;
   /**
   * switch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#switch PolicyEdgeTransportNode#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#switch PolicyEdgeTransportNode#switch}
   */
   readonly switch: PolicyEdgeTransportNodeSwitch[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#tag PolicyEdgeTransportNode#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#tag PolicyEdgeTransportNode#tag}
   */
   readonly tag?: PolicyEdgeTransportNodeTag[] | cdktf.IResolvable;
   /**
   * vm_deployment_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#vm_deployment_config PolicyEdgeTransportNode#vm_deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#vm_deployment_config PolicyEdgeTransportNode#vm_deployment_config}
   */
   readonly vmDeploymentConfig?: PolicyEdgeTransportNodeVmDeploymentConfig;
 }
 export interface PolicyEdgeTransportNodeAdvancedConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#key PolicyEdgeTransportNode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#key PolicyEdgeTransportNode#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#value PolicyEdgeTransportNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#value PolicyEdgeTransportNode#value}
   */
   readonly value: string;
 }
@@ -256,25 +256,25 @@ export interface PolicyEdgeTransportNodeApplianceConfigSyslogServer {
   /**
   * Log level to be redirected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#log_level PolicyEdgeTransportNode#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#log_level PolicyEdgeTransportNode#log_level}
   */
   readonly logLevel?: string;
   /**
   * Syslog server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#port PolicyEdgeTransportNode#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#port PolicyEdgeTransportNode#port}
   */
   readonly port?: string;
   /**
   * Syslog protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#protocol PolicyEdgeTransportNode#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#protocol PolicyEdgeTransportNode#protocol}
   */
   readonly protocol?: string;
   /**
   * Server IP or fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#server PolicyEdgeTransportNode#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#server PolicyEdgeTransportNode#server}
   */
   readonly server: string;
 }
@@ -476,31 +476,31 @@ export interface PolicyEdgeTransportNodeApplianceConfig {
   /**
   * Allow root SSH logins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#allow_ssh_root_login PolicyEdgeTransportNode#allow_ssh_root_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#allow_ssh_root_login PolicyEdgeTransportNode#allow_ssh_root_login}
   */
   readonly allowSshRootLogin?: boolean | cdktf.IResolvable;
   /**
   * DNS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#dns_servers PolicyEdgeTransportNode#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#dns_servers PolicyEdgeTransportNode#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Enable SSH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#enable_ssh PolicyEdgeTransportNode#enable_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#enable_ssh PolicyEdgeTransportNode#enable_ssh}
   */
   readonly enableSsh?: boolean | cdktf.IResolvable;
   /**
   * Enable Uniform Passthrough mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#enable_upt_mode PolicyEdgeTransportNode#enable_upt_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#enable_upt_mode PolicyEdgeTransportNode#enable_upt_mode}
   */
   readonly enableUptMode?: boolean | cdktf.IResolvable;
   /**
   * syslog_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#syslog_server PolicyEdgeTransportNode#syslog_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#syslog_server PolicyEdgeTransportNode#syslog_server}
   */
   readonly syslogServer?: PolicyEdgeTransportNodeApplianceConfigSyslogServer[] | cdktf.IResolvable;
 }
@@ -702,31 +702,31 @@ export interface PolicyEdgeTransportNodeCredentials {
   /**
   * Node audit user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#audit_password PolicyEdgeTransportNode#audit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#audit_password PolicyEdgeTransportNode#audit_password}
   */
   readonly auditPassword?: string;
   /**
   * CLI "audit" username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#audit_username PolicyEdgeTransportNode#audit_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#audit_username PolicyEdgeTransportNode#audit_username}
   */
   readonly auditUsername?: string;
   /**
   * Node cli password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#cli_password PolicyEdgeTransportNode#cli_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#cli_password PolicyEdgeTransportNode#cli_password}
   */
   readonly cliPassword: string;
   /**
   * CLI "admin" username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#cli_username PolicyEdgeTransportNode#cli_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#cli_username PolicyEdgeTransportNode#cli_username}
   */
   readonly cliUsername?: string;
   /**
   * Node root user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#root_password PolicyEdgeTransportNode#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#root_password PolicyEdgeTransportNode#root_password}
   */
   readonly rootPassword: string;
 }
@@ -922,13 +922,13 @@ export interface PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv
   /**
   * IPv4 Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet Prefix Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#prefix_length PolicyEdgeTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#prefix_length PolicyEdgeTransportNode#prefix_length}
   */
   readonly prefixLength: number;
 }
@@ -1037,13 +1037,13 @@ export interface PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv
   /**
   * Default IPv4 gateway for the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * management_port_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#management_port_subnet PolicyEdgeTransportNode#management_port_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#management_port_subnet PolicyEdgeTransportNode#management_port_subnet}
   */
   readonly managementPortSubnet: PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv4ManagementPortSubnet;
 }
@@ -1152,13 +1152,13 @@ export interface PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv
   /**
   * IPv6 Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet Prefix Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#prefix_length PolicyEdgeTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#prefix_length PolicyEdgeTransportNode#prefix_length}
   */
   readonly prefixLength: number;
 }
@@ -1267,13 +1267,13 @@ export interface PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv
   /**
   * Default IPv6 gateway for the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * management_port_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#management_port_subnet PolicyEdgeTransportNode#management_port_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#management_port_subnet PolicyEdgeTransportNode#management_port_subnet}
   */
   readonly managementPortSubnet: PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv6ManagementPortSubnet;
 }
@@ -1385,19 +1385,19 @@ export interface PolicyEdgeTransportNodeManagementInterfaceIpAssignment {
   /**
   * Enable DHCP based IPv4 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#dhcp_v4 PolicyEdgeTransportNode#dhcp_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#dhcp_v4 PolicyEdgeTransportNode#dhcp_v4}
   */
   readonly dhcpV4?: boolean | cdktf.IResolvable;
   /**
   * static_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#static_ipv4 PolicyEdgeTransportNode#static_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#static_ipv4 PolicyEdgeTransportNode#static_ipv4}
   */
   readonly staticIpv4?: PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv4;
   /**
   * static_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#static_ipv6 PolicyEdgeTransportNode#static_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#static_ipv6 PolicyEdgeTransportNode#static_ipv6}
   */
   readonly staticIpv6?: PolicyEdgeTransportNodeManagementInterfaceIpAssignmentStaticIpv6;
 }
@@ -1573,13 +1573,13 @@ export interface PolicyEdgeTransportNodeManagementInterface {
   /**
   * Portgroup, logical switch identifier or segment path for management network connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#network_id PolicyEdgeTransportNode#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#network_id PolicyEdgeTransportNode#network_id}
   */
   readonly networkId: string;
   /**
   * ip_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#ip_assignment PolicyEdgeTransportNode#ip_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#ip_assignment PolicyEdgeTransportNode#ip_assignment}
   */
   readonly ipAssignment: PolicyEdgeTransportNodeManagementInterfaceIpAssignment[] | cdktf.IResolvable;
 }
@@ -1688,19 +1688,19 @@ export interface PolicyEdgeTransportNodeSwitchPnic {
   /**
   * A portgroup, logical switch identifier or segment path for datapath connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#datapath_network_id PolicyEdgeTransportNode#datapath_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#datapath_network_id PolicyEdgeTransportNode#datapath_network_id}
   */
   readonly datapathNetworkId?: string;
   /**
   * Device name or key e.g. fp-eth0, fp-eth1 etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#device_name PolicyEdgeTransportNode#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#device_name PolicyEdgeTransportNode#device_name}
   */
   readonly deviceName: string;
   /**
   * Uplink name for this Pnic. This name will be used to reference this Pnic in other configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#uplink_name PolicyEdgeTransportNode#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#uplink_name PolicyEdgeTransportNode#uplink_name}
   */
   readonly uplinkName: string;
 }
@@ -1870,19 +1870,19 @@ export interface PolicyEdgeTransportNodeSwitchTunnelEndpointIpAssignmentStaticIp
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPV4 addresses for edge transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#subnet_mask PolicyEdgeTransportNode#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#subnet_mask PolicyEdgeTransportNode#subnet_mask}
   */
   readonly subnetMask: string;
 }
@@ -2017,19 +2017,19 @@ export interface PolicyEdgeTransportNodeSwitchTunnelEndpointIpAssignmentStaticIp
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#default_gateway PolicyEdgeTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPv6 IPs for edge transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#ip_addresses PolicyEdgeTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Prefix Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#prefix_length PolicyEdgeTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#prefix_length PolicyEdgeTransportNode#prefix_length}
   */
   readonly prefixLength: number;
 }
@@ -2164,37 +2164,37 @@ export interface PolicyEdgeTransportNodeSwitchTunnelEndpointIpAssignment {
   /**
   * Enable DHCP based IPv4 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#dhcp_v4 PolicyEdgeTransportNode#dhcp_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#dhcp_v4 PolicyEdgeTransportNode#dhcp_v4}
   */
   readonly dhcpV4?: boolean | cdktf.IResolvable;
   /**
   * Enable DHCP based IPv6 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#dhcp_v6 PolicyEdgeTransportNode#dhcp_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#dhcp_v6 PolicyEdgeTransportNode#dhcp_v6}
   */
   readonly dhcpV6?: boolean | cdktf.IResolvable;
   /**
   * IP assignment specification for Static IPv4 Pool. Input should be the policy path of IP pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#static_ipv4_pool PolicyEdgeTransportNode#static_ipv4_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#static_ipv4_pool PolicyEdgeTransportNode#static_ipv4_pool}
   */
   readonly staticIpv4Pool?: string;
   /**
   * IP assignment specification for Static IPv6 Pool. Input should be the policy path of IP pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#static_ipv6_pool PolicyEdgeTransportNode#static_ipv6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#static_ipv6_pool PolicyEdgeTransportNode#static_ipv6_pool}
   */
   readonly staticIpv6Pool?: string;
   /**
   * static_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#static_ipv4_list PolicyEdgeTransportNode#static_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#static_ipv4_list PolicyEdgeTransportNode#static_ipv4_list}
   */
   readonly staticIpv4List?: PolicyEdgeTransportNodeSwitchTunnelEndpointIpAssignmentStaticIpv4ListStruct;
   /**
   * static_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#static_ipv6_list PolicyEdgeTransportNode#static_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#static_ipv6_list PolicyEdgeTransportNode#static_ipv6_list}
   */
   readonly staticIpv6List?: PolicyEdgeTransportNodeSwitchTunnelEndpointIpAssignmentStaticIpv6ListStruct;
 }
@@ -2425,13 +2425,13 @@ export interface PolicyEdgeTransportNodeSwitchTunnelEndpoint {
   /**
   * VLAN ID for tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#vlan PolicyEdgeTransportNode#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#vlan PolicyEdgeTransportNode#vlan}
   */
   readonly vlan?: number;
   /**
   * ip_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#ip_assignment PolicyEdgeTransportNode#ip_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#ip_assignment PolicyEdgeTransportNode#ip_assignment}
   */
   readonly ipAssignment: PolicyEdgeTransportNodeSwitchTunnelEndpointIpAssignment;
 }
@@ -2543,43 +2543,43 @@ export interface PolicyEdgeTransportNodeSwitch {
   /**
   * LLDP Host Switch Profile Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#lldp_host_switch_profile_path PolicyEdgeTransportNode#lldp_host_switch_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#lldp_host_switch_profile_path PolicyEdgeTransportNode#lldp_host_switch_profile_path}
   */
   readonly lldpHostSwitchProfilePath?: string;
   /**
   * An overlay TransportZone path that is associated with the specified edge TN switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#overlay_transport_zone_path PolicyEdgeTransportNode#overlay_transport_zone_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#overlay_transport_zone_path PolicyEdgeTransportNode#overlay_transport_zone_path}
   */
   readonly overlayTransportZonePath?: string;
   /**
   * Edge Tn switch name. This name will be used to reference an edge TN switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#switch_name PolicyEdgeTransportNode#switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#switch_name PolicyEdgeTransportNode#switch_name}
   */
   readonly switchName?: string;
   /**
   * Uplink Host Switch Profile Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#uplink_host_switch_profile_path PolicyEdgeTransportNode#uplink_host_switch_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#uplink_host_switch_profile_path PolicyEdgeTransportNode#uplink_host_switch_profile_path}
   */
   readonly uplinkHostSwitchProfilePath?: string;
   /**
   * List of Vlan TransportZone paths that are to be associated with specified edge TN switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#vlan_transport_zone_paths PolicyEdgeTransportNode#vlan_transport_zone_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#vlan_transport_zone_paths PolicyEdgeTransportNode#vlan_transport_zone_paths}
   */
   readonly vlanTransportZonePaths?: string[];
   /**
   * pnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#pnic PolicyEdgeTransportNode#pnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#pnic PolicyEdgeTransportNode#pnic}
   */
   readonly pnic: PolicyEdgeTransportNodeSwitchPnic[] | cdktf.IResolvable;
   /**
   * tunnel_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#tunnel_endpoint PolicyEdgeTransportNode#tunnel_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#tunnel_endpoint PolicyEdgeTransportNode#tunnel_endpoint}
   */
   readonly tunnelEndpoint?: PolicyEdgeTransportNodeSwitchTunnelEndpoint;
 }
@@ -2866,11 +2866,11 @@ export class PolicyEdgeTransportNodeSwitchList extends cdktf.ComplexList {
 }
 export interface PolicyEdgeTransportNodeTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#scope PolicyEdgeTransportNode#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#scope PolicyEdgeTransportNode#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#tag PolicyEdgeTransportNode#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#tag PolicyEdgeTransportNode#tag}
   */
   readonly tag?: string;
 }
@@ -3017,7 +3017,7 @@ export interface PolicyEdgeTransportNodeVmDeploymentConfigEdgeHostAffinityConfig
   /**
   * Host group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#host_group_name PolicyEdgeTransportNode#host_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#host_group_name PolicyEdgeTransportNode#host_group_name}
   */
   readonly hostGroupName: string;
 }
@@ -3100,19 +3100,19 @@ export interface PolicyEdgeTransportNodeVmDeploymentConfigReservationInfo {
   /**
   * CPU reservation in MHz
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#cpu_reservation_in_mhz PolicyEdgeTransportNode#cpu_reservation_in_mhz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#cpu_reservation_in_mhz PolicyEdgeTransportNode#cpu_reservation_in_mhz}
   */
   readonly cpuReservationInMhz?: number;
   /**
   * CPU reservation in shares
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#cpu_reservation_in_shares PolicyEdgeTransportNode#cpu_reservation_in_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#cpu_reservation_in_shares PolicyEdgeTransportNode#cpu_reservation_in_shares}
   */
   readonly cpuReservationInShares?: string;
   /**
   * Memory reservation percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#memory_reservation_percentage PolicyEdgeTransportNode#memory_reservation_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#memory_reservation_percentage PolicyEdgeTransportNode#memory_reservation_percentage}
   */
   readonly memoryReservationPercentage?: number;
 }
@@ -3256,43 +3256,43 @@ export interface PolicyEdgeTransportNodeVmDeploymentConfig {
   /**
   * Compute folder identifier in the specified vcenter server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#compute_folder_id PolicyEdgeTransportNode#compute_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#compute_folder_id PolicyEdgeTransportNode#compute_folder_id}
   */
   readonly computeFolderId?: string;
   /**
   * Cluster identifier for specified vcenter server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#compute_id PolicyEdgeTransportNode#compute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#compute_id PolicyEdgeTransportNode#compute_id}
   */
   readonly computeId: string;
   /**
   * Vsphere compute identifier for identifying the vcenter server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#compute_manager_id PolicyEdgeTransportNode#compute_manager_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#compute_manager_id PolicyEdgeTransportNode#compute_manager_id}
   */
   readonly computeManagerId: string;
   /**
   * Host identifier in the specified vcenter server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#host_id PolicyEdgeTransportNode#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#host_id PolicyEdgeTransportNode#host_id}
   */
   readonly hostId?: string;
   /**
   * Storage/datastore identifier in the specified vcenter server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#storage_id PolicyEdgeTransportNode#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#storage_id PolicyEdgeTransportNode#storage_id}
   */
   readonly storageId: string;
   /**
   * edge_host_affinity_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#edge_host_affinity_config PolicyEdgeTransportNode#edge_host_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#edge_host_affinity_config PolicyEdgeTransportNode#edge_host_affinity_config}
   */
   readonly edgeHostAffinityConfig?: PolicyEdgeTransportNodeVmDeploymentConfigEdgeHostAffinityConfig;
   /**
   * reservation_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#reservation_info PolicyEdgeTransportNode#reservation_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#reservation_info PolicyEdgeTransportNode#reservation_info}
   */
   readonly reservationInfo?: PolicyEdgeTransportNodeVmDeploymentConfigReservationInfo;
 }
@@ -3541,7 +3541,7 @@ export class PolicyEdgeTransportNodeVmDeploymentConfigOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node nsxt_policy_edge_transport_node}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node nsxt_policy_edge_transport_node}
 */
 export class PolicyEdgeTransportNode extends cdktf.TerraformResource {
 
@@ -3557,7 +3557,7 @@ export class PolicyEdgeTransportNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEdgeTransportNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEdgeTransportNode to import
-  * @param importFromId The id of the existing PolicyEdgeTransportNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEdgeTransportNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEdgeTransportNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3569,7 +3569,7 @@ export class PolicyEdgeTransportNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_transport_node nsxt_policy_edge_transport_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_transport_node nsxt_policy_edge_transport_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3580,8 +3580,8 @@ export class PolicyEdgeTransportNode extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_edge_transport_node',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

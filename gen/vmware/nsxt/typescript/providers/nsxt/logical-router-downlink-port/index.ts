@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LogicalRouterDownlinkPortConfig extends cdktf.TerraformMetaArgu
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#description LogicalRouterDownlinkPort#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#description LogicalRouterDownlinkPort#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#display_name LogicalRouterDownlinkPort#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#display_name LogicalRouterDownlinkPort#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#id LogicalRouterDownlinkPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#id LogicalRouterDownlinkPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface LogicalRouterDownlinkPortConfig extends cdktf.TerraformMetaArgu
   /**
   * Logical router port subnet (ipAddress / prefix length)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#ip_address LogicalRouterDownlinkPort#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#ip_address LogicalRouterDownlinkPort#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Identifier for port on logical switch to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#linked_logical_switch_port_id LogicalRouterDownlinkPort#linked_logical_switch_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#linked_logical_switch_port_id LogicalRouterDownlinkPort#linked_logical_switch_port_id}
   */
   readonly linkedLogicalSwitchPortId: string;
   /**
   * Identifier for logical router on which this port is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#logical_router_id LogicalRouterDownlinkPort#logical_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#logical_router_id LogicalRouterDownlinkPort#logical_router_id}
   */
   readonly logicalRouterId: string;
   /**
   * Unicast Reverse Path Forwarding mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#urpf_mode LogicalRouterDownlinkPort#urpf_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#urpf_mode LogicalRouterDownlinkPort#urpf_mode}
   */
   readonly urpfMode?: string;
   /**
   * service_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#service_binding LogicalRouterDownlinkPort#service_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#service_binding LogicalRouterDownlinkPort#service_binding}
   */
   readonly serviceBinding?: LogicalRouterDownlinkPortServiceBinding[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#tag LogicalRouterDownlinkPort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#tag LogicalRouterDownlinkPort#tag}
   */
   readonly tag?: LogicalRouterDownlinkPortTag[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface LogicalRouterDownlinkPortServiceBinding {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#target_id LogicalRouterDownlinkPort#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#target_id LogicalRouterDownlinkPort#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#target_type LogicalRouterDownlinkPort#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#target_type LogicalRouterDownlinkPort#target_type}
   */
   readonly targetType?: string;
 }
@@ -228,11 +228,11 @@ export class LogicalRouterDownlinkPortServiceBindingList extends cdktf.ComplexLi
 }
 export interface LogicalRouterDownlinkPortTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#scope LogicalRouterDownlinkPort#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#scope LogicalRouterDownlinkPort#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#tag LogicalRouterDownlinkPort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#tag LogicalRouterDownlinkPort#tag}
   */
   readonly tag?: string;
 }
@@ -377,7 +377,7 @@ export class LogicalRouterDownlinkPortTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port nsxt_logical_router_downlink_port}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port nsxt_logical_router_downlink_port}
 */
 export class LogicalRouterDownlinkPort extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class LogicalRouterDownlinkPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalRouterDownlinkPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalRouterDownlinkPort to import
-  * @param importFromId The id of the existing LogicalRouterDownlinkPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalRouterDownlinkPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalRouterDownlinkPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class LogicalRouterDownlinkPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_downlink_port nsxt_logical_router_downlink_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_downlink_port nsxt_logical_router_downlink_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class LogicalRouterDownlinkPort extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_logical_router_downlink_port',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTsfDeliveryConfigsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs#id DataTencentcloudTsfDeliveryConfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs#id DataTencentcloudTsfDeliveryConfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudTsfDeliveryConfigsConfig extends cdktf.Terrafor
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs#result_output_file DataTencentcloudTsfDeliveryConfigs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs#result_output_file DataTencentcloudTsfDeliveryConfigs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * search word.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs#search_word DataTencentcloudTsfDeliveryConfigs#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs#search_word DataTencentcloudTsfDeliveryConfigs#search_word}
   */
   readonly searchWord?: string;
 }
@@ -457,7 +457,7 @@ export class DataTencentcloudTsfDeliveryConfigsResultList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs tencentcloud_tsf_delivery_configs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs tencentcloud_tsf_delivery_configs}
 */
 export class DataTencentcloudTsfDeliveryConfigs extends cdktf.TerraformDataSource {
 
@@ -473,7 +473,7 @@ export class DataTencentcloudTsfDeliveryConfigs extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudTsfDeliveryConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfDeliveryConfigs to import
-  * @param importFromId The id of the existing DataTencentcloudTsfDeliveryConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfDeliveryConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfDeliveryConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -485,7 +485,7 @@ export class DataTencentcloudTsfDeliveryConfigs extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tsf_delivery_configs tencentcloud_tsf_delivery_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_delivery_configs tencentcloud_tsf_delivery_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -496,8 +496,8 @@ export class DataTencentcloudTsfDeliveryConfigs extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_tsf_delivery_configs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#activate_default_dfw_rules PolicyProject#activate_default_dfw_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#activate_default_dfw_rules PolicyProject#activate_default_dfw_rules}
   */
   readonly activateDefaultDfwRules?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#description PolicyProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#description PolicyProject#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#display_name PolicyProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#display_name PolicyProject#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#external_ipv4_blocks PolicyProject#external_ipv4_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#external_ipv4_blocks PolicyProject#external_ipv4_blocks}
   */
   readonly externalIpv4Blocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#id PolicyProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#id PolicyProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,43 +37,43 @@ export interface PolicyProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#nsx_id PolicyProject#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#nsx_id PolicyProject#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#short_id PolicyProject#short_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#short_id PolicyProject#short_id}
   */
   readonly shortId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#tgw_external_connections PolicyProject#tgw_external_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#tgw_external_connections PolicyProject#tgw_external_connections}
   */
   readonly tgwExternalConnections?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#tier0_gateway_paths PolicyProject#tier0_gateway_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#tier0_gateway_paths PolicyProject#tier0_gateway_paths}
   */
   readonly tier0GatewayPaths?: string[];
   /**
   * Flag to specify whether the DVPGs created for project segments are grouped under a folder on the VC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#vc_folder PolicyProject#vc_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#vc_folder PolicyProject#vc_folder}
   */
   readonly vcFolder?: boolean | cdktf.IResolvable;
   /**
   * default_security_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#default_security_profile PolicyProject#default_security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#default_security_profile PolicyProject#default_security_profile}
   */
   readonly defaultSecurityProfile?: PolicyProjectDefaultSecurityProfile;
   /**
   * site_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#site_info PolicyProject#site_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#site_info PolicyProject#site_info}
   */
   readonly siteInfo?: PolicyProjectSiteInfo[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#tag PolicyProject#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#tag PolicyProject#tag}
   */
   readonly tag?: PolicyProjectTag[] | cdktf.IResolvable;
 }
@@ -81,7 +81,7 @@ export interface PolicyProjectDefaultSecurityProfileNorthSouthFirewall {
   /**
   * Flag that indicates whether north-south firewall (Gateway Firewall) is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#enabled PolicyProject#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#enabled PolicyProject#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -164,7 +164,7 @@ export interface PolicyProjectDefaultSecurityProfile {
   /**
   * north_south_firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#north_south_firewall PolicyProject#north_south_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#north_south_firewall PolicyProject#north_south_firewall}
   */
   readonly northSouthFirewall: PolicyProjectDefaultSecurityProfileNorthSouthFirewall;
 }
@@ -245,11 +245,11 @@ export class PolicyProjectDefaultSecurityProfileOutputReference extends cdktf.Co
 }
 export interface PolicyProjectSiteInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#edge_cluster_paths PolicyProject#edge_cluster_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#edge_cluster_paths PolicyProject#edge_cluster_paths}
   */
   readonly edgeClusterPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#site_path PolicyProject#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#site_path PolicyProject#site_path}
   */
   readonly sitePath?: string;
 }
@@ -394,11 +394,11 @@ export class PolicyProjectSiteInfoList extends cdktf.ComplexList {
 }
 export interface PolicyProjectTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#scope PolicyProject#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#scope PolicyProject#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#tag PolicyProject#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#tag PolicyProject#tag}
   */
   readonly tag?: string;
 }
@@ -543,7 +543,7 @@ export class PolicyProjectTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project nsxt_policy_project}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project nsxt_policy_project}
 */
 export class PolicyProject extends cdktf.TerraformResource {
 
@@ -559,7 +559,7 @@ export class PolicyProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyProject to import
-  * @param importFromId The id of the existing PolicyProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +571,7 @@ export class PolicyProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_project nsxt_policy_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_project nsxt_policy_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +582,8 @@ export class PolicyProject extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_project',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

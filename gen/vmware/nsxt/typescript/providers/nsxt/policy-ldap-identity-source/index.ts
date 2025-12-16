@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyLdapIdentitySourceConfig extends cdktf.TerraformMetaArgum
   /**
   * Additional domains to be directed to this identity source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#alternative_domain_names PolicyLdapIdentitySource#alternative_domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#alternative_domain_names PolicyLdapIdentitySource#alternative_domain_names}
   */
   readonly alternativeDomainNames?: string[];
   /**
   * DN of subtree for user and group searches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#base_dn PolicyLdapIdentitySource#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#base_dn PolicyLdapIdentitySource#base_dn}
   */
   readonly baseDn: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#description PolicyLdapIdentitySource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#description PolicyLdapIdentitySource#description}
   */
   readonly description?: string;
   /**
   * Authentication domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#domain_name PolicyLdapIdentitySource#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#domain_name PolicyLdapIdentitySource#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#id PolicyLdapIdentitySource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#id PolicyLdapIdentitySource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface PolicyLdapIdentitySourceConfig extends cdktf.TerraformMetaArgum
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#nsx_id PolicyLdapIdentitySource#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#nsx_id PolicyLdapIdentitySource#nsx_id}
   */
   readonly nsxId: string;
   /**
   * Indicates the type of LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#type PolicyLdapIdentitySource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#type PolicyLdapIdentitySource#type}
   */
   readonly type: string;
   /**
   * ldap_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#ldap_server PolicyLdapIdentitySource#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#ldap_server PolicyLdapIdentitySource#ldap_server}
   */
   readonly ldapServer: PolicyLdapIdentitySourceLdapServer;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#tag PolicyLdapIdentitySource#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#tag PolicyLdapIdentitySource#tag}
   */
   readonly tag?: PolicyLdapIdentitySourceTag[] | cdktf.IResolvable;
 }
@@ -67,37 +67,37 @@ export interface PolicyLdapIdentitySourceLdapServer {
   /**
   * Username or DN for LDAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#bind_identity PolicyLdapIdentitySource#bind_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#bind_identity PolicyLdapIdentitySource#bind_identity}
   */
   readonly bindIdentity?: string;
   /**
   * TLS certificate(s) for LDAP server(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#certificates PolicyLdapIdentitySource#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#certificates PolicyLdapIdentitySource#certificates}
   */
   readonly certificates?: string[];
   /**
   * If true, this LDAP server is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#enabled PolicyLdapIdentitySource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#enabled PolicyLdapIdentitySource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The authentication password for login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#password PolicyLdapIdentitySource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#password PolicyLdapIdentitySource#password}
   */
   readonly password?: string;
   /**
   * The URL for the LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#url PolicyLdapIdentitySource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#url PolicyLdapIdentitySource#url}
   */
   readonly url: string;
   /**
   * Enable/disable StartTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#use_starttls PolicyLdapIdentitySource#use_starttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#use_starttls PolicyLdapIdentitySource#use_starttls}
   */
   readonly useStarttls?: boolean | cdktf.IResolvable;
 }
@@ -323,11 +323,11 @@ export class PolicyLdapIdentitySourceLdapServerOutputReference extends cdktf.Com
 }
 export interface PolicyLdapIdentitySourceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#scope PolicyLdapIdentitySource#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#scope PolicyLdapIdentitySource#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#tag PolicyLdapIdentitySource#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#tag PolicyLdapIdentitySource#tag}
   */
   readonly tag?: string;
 }
@@ -472,7 +472,7 @@ export class PolicyLdapIdentitySourceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source nsxt_policy_ldap_identity_source}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source nsxt_policy_ldap_identity_source}
 */
 export class PolicyLdapIdentitySource extends cdktf.TerraformResource {
 
@@ -488,7 +488,7 @@ export class PolicyLdapIdentitySource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLdapIdentitySource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLdapIdentitySource to import
-  * @param importFromId The id of the existing PolicyLdapIdentitySource that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLdapIdentitySource that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLdapIdentitySource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class PolicyLdapIdentitySource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ldap_identity_source nsxt_policy_ldap_identity_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ldap_identity_source nsxt_policy_ldap_identity_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class PolicyLdapIdentitySource extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ldap_identity_source',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

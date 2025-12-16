@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SgRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule status. `0` is off, `1` is on. This parameter is not required or is 1 when creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#enable SgRule#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#enable SgRule#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#id SgRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#id SgRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface SgRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#data SgRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#data SgRule#data}
   */
   readonly data: SgRuleData;
 }
@@ -31,55 +31,55 @@ export interface SgRuleData {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#description SgRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#description SgRule#description}
   */
   readonly description: string;
   /**
   * Destination example: `net`: IP/CIDR (192.168.0.2); `template`: parameter template (ipm-dyodhpby); `instance`: asset instance (ins-123456); `resourcegroup`: asset group (/all groups/group 1/subgroup 1); `tag`: resource tag ({"Key":"tag key","Value":"tag value"}); `region`: region (ap-gaungzhou).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#dest_content SgRule#dest_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#dest_content SgRule#dest_content}
   */
   readonly destContent: string;
   /**
   * Access destination type. Valid values: net|template|instance|resourcegroup|tag|region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#dest_type SgRule#dest_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#dest_type SgRule#dest_type}
   */
   readonly destType: string;
   /**
   * The port to apply access control rules. Valid values: `-1/-1`: all ports, `80`: port 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#port SgRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#port SgRule#port}
   */
   readonly port?: string;
   /**
   * Protocol. TCP/UDP/ICMP/ANY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#protocol SgRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#protocol SgRule#protocol}
   */
   readonly protocol?: string;
   /**
   * The action that Cloud Firewall performs on the traffic. Valid values: `accept`: allow, `drop`: deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#rule_action SgRule#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#rule_action SgRule#rule_action}
   */
   readonly ruleAction: string;
   /**
   * Parameter template ID of port and protocol type; mutually exclusive with Protocol and Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#service_template_id SgRule#service_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#service_template_id SgRule#service_template_id}
   */
   readonly serviceTemplateId?: string;
   /**
   * Source example: `net`: IP/CIDR (192.168.0.2); `template`: parameter template (ipm-dyodhpby); `instance`: asset instance (ins-123456); `resourcegroup`: asset group (/all groups/group 1/subgroup 1); `tag`: resource tag ({"Key":"tag key","Value":"tag value"}); `region`: region (ap-gaungzhou).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#source_content SgRule#source_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#source_content SgRule#source_content}
   */
   readonly sourceContent: string;
   /**
   * Access source type. Valid values: net|template|instance|resourcegroup|tag|region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#source_type SgRule#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#source_type SgRule#source_type}
   */
   readonly sourceType: string;
 }
@@ -382,7 +382,7 @@ export class SgRuleDataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule tencentcloud_sg_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule tencentcloud_sg_rule}
 */
 export class SgRule extends cdktf.TerraformResource {
 
@@ -398,7 +398,7 @@ export class SgRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SgRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SgRule to import
-  * @param importFromId The id of the existing SgRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SgRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SgRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +410,7 @@ export class SgRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sg_rule tencentcloud_sg_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sg_rule tencentcloud_sg_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +421,8 @@ export class SgRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sg_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

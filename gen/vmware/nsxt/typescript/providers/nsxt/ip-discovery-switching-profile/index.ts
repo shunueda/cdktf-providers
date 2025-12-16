@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface IpDiscoverySwitchingProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Limit for the amount of ARP bindings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#arp_bindings_limit IpDiscoverySwitchingProfile#arp_bindings_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#arp_bindings_limit IpDiscoverySwitchingProfile#arp_bindings_limit}
   */
   readonly arpBindingsLimit?: number;
   /**
   * Indicates whether ARP snooping is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#arp_snooping_enabled IpDiscoverySwitchingProfile#arp_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#arp_snooping_enabled IpDiscoverySwitchingProfile#arp_snooping_enabled}
   */
   readonly arpSnoopingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#description IpDiscoverySwitchingProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#description IpDiscoverySwitchingProfile#description}
   */
   readonly description?: string;
   /**
   * Indicates whether DHCP snooping is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#dhcp_snooping_enabled IpDiscoverySwitchingProfile#dhcp_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#dhcp_snooping_enabled IpDiscoverySwitchingProfile#dhcp_snooping_enabled}
   */
   readonly dhcpSnoopingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#display_name IpDiscoverySwitchingProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#display_name IpDiscoverySwitchingProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#id IpDiscoverySwitchingProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#id IpDiscoverySwitchingProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,23 +47,23 @@ export interface IpDiscoverySwitchingProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Indicating whether VM tools will be enabled. This option is only supported on ESX where vm-tools is installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#vm_tools_enabled IpDiscoverySwitchingProfile#vm_tools_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#vm_tools_enabled IpDiscoverySwitchingProfile#vm_tools_enabled}
   */
   readonly vmToolsEnabled?: boolean | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#tag IpDiscoverySwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#tag IpDiscoverySwitchingProfile#tag}
   */
   readonly tag?: IpDiscoverySwitchingProfileTag[] | cdktf.IResolvable;
 }
 export interface IpDiscoverySwitchingProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#scope IpDiscoverySwitchingProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#scope IpDiscoverySwitchingProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#tag IpDiscoverySwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#tag IpDiscoverySwitchingProfile#tag}
   */
   readonly tag?: string;
 }
@@ -208,7 +208,7 @@ export class IpDiscoverySwitchingProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile nsxt_ip_discovery_switching_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile nsxt_ip_discovery_switching_profile}
 */
 export class IpDiscoverySwitchingProfile extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class IpDiscoverySwitchingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDiscoverySwitchingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDiscoverySwitchingProfile to import
-  * @param importFromId The id of the existing IpDiscoverySwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDiscoverySwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDiscoverySwitchingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class IpDiscoverySwitchingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_discovery_switching_profile nsxt_ip_discovery_switching_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_discovery_switching_profile nsxt_ip_discovery_switching_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class IpDiscoverySwitchingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_ip_discovery_switching_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

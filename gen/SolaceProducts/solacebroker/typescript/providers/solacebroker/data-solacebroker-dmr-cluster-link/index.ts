@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_link
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerDmrClusterLinkConfig extends cdktf.TerraformMet
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_link#dmr_cluster_name DataSolacebrokerDmrClusterLink#dmr_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_link#dmr_cluster_name DataSolacebrokerDmrClusterLink#dmr_cluster_name}
   */
   readonly dmrClusterName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerDmrClusterLinkConfig extends cdktf.TerraformMet
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_link#remote_node_name DataSolacebrokerDmrClusterLink#remote_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_link#remote_node_name DataSolacebrokerDmrClusterLink#remote_node_name}
   */
   readonly remoteNodeName: string;
 }
@@ -95,7 +95,7 @@ export class DataSolacebrokerDmrClusterLinkQueueEventSpoolUsageThresholdOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_link solacebroker_dmr_cluster_link}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_link solacebroker_dmr_cluster_link}
 */
 export class DataSolacebrokerDmrClusterLink extends cdktf.TerraformDataSource {
 
@@ -111,7 +111,7 @@ export class DataSolacebrokerDmrClusterLink extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolacebrokerDmrClusterLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerDmrClusterLink to import
-  * @param importFromId The id of the existing DataSolacebrokerDmrClusterLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerDmrClusterLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerDmrClusterLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class DataSolacebrokerDmrClusterLink extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_link solacebroker_dmr_cluster_link} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_link solacebroker_dmr_cluster_link} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class DataSolacebrokerDmrClusterLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_dmr_cluster_link',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -310,6 +310,11 @@ export class DataSolacebrokerDmrClusterLink extends cdktf.TerraformDataSource {
   // queue_reject_msg_to_sender_on_discard_behavior - computed: true, optional: false, required: false
   public get queueRejectMsgToSenderOnDiscardBehavior() {
     return this.getStringAttribute('queue_reject_msg_to_sender_on_discard_behavior');
+  }
+
+  // queue_respect_dmq_eligible_enabled - computed: true, optional: false, required: false
+  public get queueRespectDmqEligibleEnabled() {
+    return this.getBooleanAttribute('queue_respect_dmq_eligible_enabled');
   }
 
   // queue_respect_ttl_enabled - computed: true, optional: false, required: false

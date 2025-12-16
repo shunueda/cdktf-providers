@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AsScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The desired number of CVM instances that should be running in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#desired_capacity AsSchedule#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#desired_capacity AsSchedule#desired_capacity}
   */
   readonly desiredCapacity: number;
   /**
   * The time for this action to end, in "YYYY-MM-DDThh:mm:ss+08:00" format (UTC+8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#end_time AsSchedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#end_time AsSchedule#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#id AsSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#id AsSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface AsScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum size for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#max_size AsSchedule#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#max_size AsSchedule#max_size}
   */
   readonly maxSize: number;
   /**
   * The minimum size for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#min_size AsSchedule#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#min_size AsSchedule#min_size}
   */
   readonly minSize: number;
   /**
   * The time when recurring future actions will start. Start time is specified by the user following the Unix cron syntax format. And this argument should be set with end_time together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#recurrence AsSchedule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#recurrence AsSchedule#recurrence}
   */
   readonly recurrence?: string;
   /**
   * ID of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#scaling_group_id AsSchedule#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#scaling_group_id AsSchedule#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
   * The name of this scaling action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#schedule_action_name AsSchedule#schedule_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#schedule_action_name AsSchedule#schedule_action_name}
   */
   readonly scheduleActionName: string;
   /**
   * The time for this action to start, in "YYYY-MM-DDThh:mm:ss+08:00" format (UTC+8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#start_time AsSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#start_time AsSchedule#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule tencentcloud_as_schedule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule tencentcloud_as_schedule}
 */
 export class AsSchedule extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class AsSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsSchedule to import
-  * @param importFromId The id of the existing AsSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class AsSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/as_schedule tencentcloud_as_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_schedule tencentcloud_as_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class AsSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

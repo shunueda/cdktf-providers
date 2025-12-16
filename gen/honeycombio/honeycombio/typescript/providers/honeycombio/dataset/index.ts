@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatasetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The current delete protection status of the Dataset. Cannot be set to false on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset#delete_protected Dataset#delete_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset#delete_protected Dataset#delete_protected}
   */
   readonly deleteProtected?: boolean | cdktf.IResolvable;
   /**
   * The Dataset's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset#description Dataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset#description Dataset#description}
   */
   readonly description?: string;
   /**
   * The maximum unpacking depth of nested JSON fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset#expand_json_depth Dataset#expand_json_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset#expand_json_depth Dataset#expand_json_depth}
   */
   readonly expandJsonDepth?: number;
   /**
   * The name of the Dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset#name Dataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset#name Dataset#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset honeycombio_dataset}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset honeycombio_dataset}
 */
 export class Dataset extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Dataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dataset to import
-  * @param importFromId The id of the existing Dataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Dataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/dataset honeycombio_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/dataset honeycombio_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Dataset extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_dataset',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

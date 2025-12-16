@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FirewallConfig extends cdktf.TerraformMetaArguments {
   /**
   * The firewall name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#name Firewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#name Firewall#name}
   */
   readonly name: string;
   /**
   * The project id or slug. If not set, falls back to provider's project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#project Firewall#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#project Firewall#project}
   */
   readonly project?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#rules Firewall#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#rules Firewall#rules}
   */
   readonly rules?: FirewallRules[] | cdktf.IResolvable;
 }
@@ -30,25 +30,25 @@ export interface FirewallRules {
   /**
   * Source IP or range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#from Firewall#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#from Firewall#from}
   */
   readonly from: string;
   /**
   * Port or port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#port Firewall#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#port Firewall#port}
   */
   readonly port: string;
   /**
   * Protocol (TCP, UDP, ICMP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#protocol Firewall#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#protocol Firewall#protocol}
   */
   readonly protocol: string;
   /**
   * Destination IP or range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#to Firewall#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#to Firewall#to}
   */
   readonly to: string;
 }
@@ -239,7 +239,7 @@ export class FirewallRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall latitudesh_firewall}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall latitudesh_firewall}
 */
 export class Firewall extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class Firewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Firewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Firewall to import
-  * @param importFromId The id of the existing Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Firewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class Firewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/firewall latitudesh_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall latitudesh_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class Firewall extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_firewall',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.4',
-        providerVersionConstraint: '2.8.4'
+        providerVersion: '2.8.6',
+        providerVersionConstraint: '2.8.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

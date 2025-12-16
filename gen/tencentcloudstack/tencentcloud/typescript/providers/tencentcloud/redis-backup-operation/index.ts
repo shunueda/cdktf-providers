@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RedisBackupOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation#id RedisBackupOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation#id RedisBackupOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface RedisBackupOperationConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation#instance_id RedisBackupOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation#instance_id RedisBackupOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Notes information for the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation#remark RedisBackupOperation#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation#remark RedisBackupOperation#remark}
   */
   readonly remark?: string;
   /**
   * Number of days to store.0 specifies the default retention time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation#storage_days RedisBackupOperation#storage_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation#storage_days RedisBackupOperation#storage_days}
   */
   readonly storageDays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation tencentcloud_redis_backup_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation tencentcloud_redis_backup_operation}
 */
 export class RedisBackupOperation extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class RedisBackupOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisBackupOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisBackupOperation to import
-  * @param importFromId The id of the existing RedisBackupOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisBackupOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisBackupOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class RedisBackupOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_backup_operation tencentcloud_redis_backup_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/redis_backup_operation tencentcloud_redis_backup_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class RedisBackupOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_backup_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

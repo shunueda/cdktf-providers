@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LbTcpVirtualServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether access log is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#access_log_enabled LbTcpVirtualServer#access_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#access_log_enabled LbTcpVirtualServer#access_log_enabled}
   */
   readonly accessLogEnabled?: boolean | cdktf.IResolvable;
   /**
   * The tcp application profile defines the application protocol characteristics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#application_profile_id LbTcpVirtualServer#application_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#application_profile_id LbTcpVirtualServer#application_profile_id}
   */
   readonly applicationProfileId: string;
   /**
   * Default pool member ports or port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#default_pool_member_ports LbTcpVirtualServer#default_pool_member_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#default_pool_member_ports LbTcpVirtualServer#default_pool_member_ports}
   */
   readonly defaultPoolMemberPorts?: string[];
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#description LbTcpVirtualServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#description LbTcpVirtualServer#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#display_name LbTcpVirtualServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#display_name LbTcpVirtualServer#display_name}
   */
   readonly displayName?: string;
   /**
   * whether the virtual server is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#enabled LbTcpVirtualServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#enabled LbTcpVirtualServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#id LbTcpVirtualServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#id LbTcpVirtualServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,59 +53,59 @@ export interface LbTcpVirtualServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * virtual server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#ip_address LbTcpVirtualServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#ip_address LbTcpVirtualServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * If not specified, connections are unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#max_concurrent_connections LbTcpVirtualServer#max_concurrent_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#max_concurrent_connections LbTcpVirtualServer#max_concurrent_connections}
   */
   readonly maxConcurrentConnections?: number;
   /**
   * If not specified, connection rate is unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#max_new_connection_rate LbTcpVirtualServer#max_new_connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#max_new_connection_rate LbTcpVirtualServer#max_new_connection_rate}
   */
   readonly maxNewConnectionRate?: number;
   /**
   * Persistence profile is used to allow related client connections to be sent to the same backend server. Source ip persistence is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#persistence_profile_id LbTcpVirtualServer#persistence_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#persistence_profile_id LbTcpVirtualServer#persistence_profile_id}
   */
   readonly persistenceProfileId?: string;
   /**
   * Server pool for backend connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#pool_id LbTcpVirtualServer#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#pool_id LbTcpVirtualServer#pool_id}
   */
   readonly poolId?: string;
   /**
   * Single port, multiple ports or port ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#ports LbTcpVirtualServer#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#ports LbTcpVirtualServer#ports}
   */
   readonly ports: string[];
   /**
   * When load balancer can not select a backend server to serve the request in default pool, the request would be served by sorry server pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#sorry_pool_id LbTcpVirtualServer#sorry_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#sorry_pool_id LbTcpVirtualServer#sorry_pool_id}
   */
   readonly sorryPoolId?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#tag LbTcpVirtualServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#tag LbTcpVirtualServer#tag}
   */
   readonly tag?: LbTcpVirtualServerTag[] | cdktf.IResolvable;
 }
 export interface LbTcpVirtualServerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#scope LbTcpVirtualServer#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#scope LbTcpVirtualServer#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#tag LbTcpVirtualServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#tag LbTcpVirtualServer#tag}
   */
   readonly tag?: string;
 }
@@ -250,7 +250,7 @@ export class LbTcpVirtualServerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server nsxt_lb_tcp_virtual_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server nsxt_lb_tcp_virtual_server}
 */
 export class LbTcpVirtualServer extends cdktf.TerraformResource {
 
@@ -266,7 +266,7 @@ export class LbTcpVirtualServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbTcpVirtualServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbTcpVirtualServer to import
-  * @param importFromId The id of the existing LbTcpVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbTcpVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbTcpVirtualServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class LbTcpVirtualServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_virtual_server nsxt_lb_tcp_virtual_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_virtual_server nsxt_lb_tcp_virtual_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class LbTcpVirtualServer extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_tcp_virtual_server',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

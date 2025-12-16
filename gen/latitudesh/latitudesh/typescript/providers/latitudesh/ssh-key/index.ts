@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SshKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The SSH key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key#name SshKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key#name SshKey#name}
   */
   readonly name: string;
   /**
   * The SSH public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key#public_key SshKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key#public_key SshKey#public_key}
   */
   readonly publicKey: string;
   /**
   * List of SSH key tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key#tags SshKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key#tags SshKey#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key latitudesh_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key latitudesh_ssh_key}
 */
 export class SshKey extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SshKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshKey to import
-  * @param importFromId The id of the existing SshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SshKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key latitudesh_ssh_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key latitudesh_ssh_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SshKey extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.4',
-        providerVersionConstraint: '2.8.4'
+        providerVersion: '2.8.6',
+        providerVersionConstraint: '2.8.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

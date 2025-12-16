@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter
+// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IpFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A human readable name for an IP Filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#filter_name IpFilter#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#filter_name IpFilter#filter_name}
   */
   readonly filterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#id IpFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#id IpFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface IpFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of IP Groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#ip_groups IpFilter#ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#ip_groups IpFilter#ip_groups}
   */
   readonly ipGroups: string[];
   /**
   * Scope of resources covered by this IP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#operation_groups IpFilter#operation_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#operation_groups IpFilter#operation_groups}
   */
   readonly operationGroups?: string[];
   /**
   * Scope of resources covered by this IP filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#resource_group IpFilter#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#resource_group IpFilter#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * A CRN that specifies the scope of the ip filter, specifically the organization or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#resource_scope IpFilter#resource_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#resource_scope IpFilter#resource_scope}
   */
   readonly resourceScope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter confluent_ip_filter}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter confluent_ip_filter}
 */
 export class IpFilter extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class IpFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpFilter to import
-  * @param importFromId The id of the existing IpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class IpFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/ip_filter confluent_ip_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ip_filter confluent_ip_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class IpFilter extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_ip_filter',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.55.0',
-        providerVersionConstraint: '2.55.0'
+        providerVersion: '2.56.0',
+        providerVersionConstraint: '2.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

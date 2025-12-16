@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OrganizationOrgManagePolicyConfig extends cdktf.TerraformMetaAr
   /**
   * Policy content. Refer to the CAM policy syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy#content OrganizationOrgManagePolicy#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy#content OrganizationOrgManagePolicy#content}
   */
   readonly content: string;
   /**
   * Policy description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy#description OrganizationOrgManagePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy#description OrganizationOrgManagePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy#id OrganizationOrgManagePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy#id OrganizationOrgManagePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ export interface OrganizationOrgManagePolicyConfig extends cdktf.TerraformMetaAr
   * Policy name.
   * The length is 1~128 characters, which can include Chinese characters, English letters, numbers, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy#name OrganizationOrgManagePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy#name OrganizationOrgManagePolicy#name}
   */
   readonly name: string;
   /**
@@ -39,13 +39,13 @@ export interface OrganizationOrgManagePolicyConfig extends cdktf.TerraformMetaAr
   *   - `SERVICE_CONTROL_POLICY`: Service control policy.
   *   - `TAG_POLICY`: Tag policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy#type OrganizationOrgManagePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy#type OrganizationOrgManagePolicy#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy tencentcloud_organization_org_manage_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy tencentcloud_organization_org_manage_policy}
 */
 export class OrganizationOrgManagePolicy extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class OrganizationOrgManagePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationOrgManagePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationOrgManagePolicy to import
-  * @param importFromId The id of the existing OrganizationOrgManagePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationOrgManagePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationOrgManagePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class OrganizationOrgManagePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/organization_org_manage_policy tencentcloud_organization_org_manage_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/organization_org_manage_policy tencentcloud_organization_org_manage_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class OrganizationOrgManagePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_organization_org_manage_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

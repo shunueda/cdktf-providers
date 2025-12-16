@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyHostTransportNodeConfig extends cdktf.TerraformMetaArgume
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#description PolicyHostTransportNode#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#description PolicyHostTransportNode#description}
   */
   readonly description?: string;
   /**
   * Discovered node id to create Host Transport Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#discovered_node_id PolicyHostTransportNode#discovered_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#discovered_node_id PolicyHostTransportNode#discovered_node_id}
   */
   readonly discoveredNodeId: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#display_name PolicyHostTransportNode#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#display_name PolicyHostTransportNode#display_name}
   */
   readonly displayName: string;
   /**
   * ID of the enforcement point this Host Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#enforcement_point PolicyHostTransportNode#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#enforcement_point PolicyHostTransportNode#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#id PolicyHostTransportNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#id PolicyHostTransportNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface PolicyHostTransportNodeConfig extends cdktf.TerraformMetaArgume
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#nsx_id PolicyHostTransportNode#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#nsx_id PolicyHostTransportNode#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Indicate whether NSX service should be removed from hypervisor during resource deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#remove_nsx_on_destroy PolicyHostTransportNode#remove_nsx_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#remove_nsx_on_destroy PolicyHostTransportNode#remove_nsx_on_destroy}
   */
   readonly removeNsxOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Path to the site this Host Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#site_path PolicyHostTransportNode#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#site_path PolicyHostTransportNode#site_path}
   */
   readonly sitePath?: string;
   /**
   * standard_host_switch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#standard_host_switch PolicyHostTransportNode#standard_host_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#standard_host_switch PolicyHostTransportNode#standard_host_switch}
   */
   readonly standardHostSwitch: PolicyHostTransportNodeStandardHostSwitch[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#tag PolicyHostTransportNode#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#tag PolicyHostTransportNode#tag}
   */
   readonly tag?: PolicyHostTransportNodeTag[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchCpuConfig {
   /**
   * Number of Logical cpu cores (Lcores) to be placed on a specified NUMA node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#num_lcores PolicyHostTransportNode#num_lcores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#num_lcores PolicyHostTransportNode#num_lcores}
   */
   readonly numLcores: number;
   /**
   * Unique index of the Non Uniform Memory Access (NUMA) node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#numa_node_index PolicyHostTransportNode#numa_node_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#numa_node_index PolicyHostTransportNode#numa_node_index}
   */
   readonly numaNodeIndex: number;
 }
@@ -220,19 +220,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpAssignmentStaticIp {
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPs for transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
   */
   readonly subnetMask: string;
 }
@@ -367,13 +367,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpAssignmentStaticIpMa
   /**
   * A single IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
   */
   readonly ipAddress: string;
   /**
   * A single MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
   */
   readonly macAddress: string;
 }
@@ -514,19 +514,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpAssignmentStaticIpMa
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
   */
   readonly subnetMask: string;
   /**
   * ip_mac_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
   */
   readonly ipMacPair: PolicyHostTransportNodeStandardHostSwitchIpAssignmentStaticIpMacIpMacPair[] | cdktf.IResolvable;
 }
@@ -661,31 +661,31 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpAssignment {
   /**
   * Enables DHCP assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#assigned_by_dhcp PolicyHostTransportNode#assigned_by_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#assigned_by_dhcp PolicyHostTransportNode#assigned_by_dhcp}
   */
   readonly assignedByDhcp?: boolean | cdktf.IResolvable;
   /**
   * No IPv4 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#no_ipv4 PolicyHostTransportNode#no_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#no_ipv4 PolicyHostTransportNode#no_ipv4}
   */
   readonly noIpv4?: boolean | cdktf.IResolvable;
   /**
   * IP assignment specification for Static IP Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
   */
   readonly staticIpPool?: string;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
   */
   readonly staticIp?: PolicyHostTransportNodeStandardHostSwitchIpAssignmentStaticIp;
   /**
   * static_ip_mac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
   */
   readonly staticIpMac?: PolicyHostTransportNodeStandardHostSwitchIpAssignmentStaticIpMac;
 }
@@ -887,19 +887,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpv6AssignmentStaticIp
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPs for transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
   */
   readonly prefixLength: string;
 }
@@ -1034,13 +1034,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpv6AssignmentStaticIp
   /**
   * A single IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
   */
   readonly ipAddress: string;
   /**
   * A single MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
   */
   readonly macAddress: string;
 }
@@ -1181,19 +1181,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpv6AssignmentStaticIp
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * Prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
   */
   readonly prefixLength: string;
   /**
   * ip_mac_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
   */
   readonly ipMacPair: PolicyHostTransportNodeStandardHostSwitchIpv6AssignmentStaticIpMacIpMacPair[] | cdktf.IResolvable;
 }
@@ -1328,37 +1328,37 @@ export interface PolicyHostTransportNodeStandardHostSwitchIpv6Assignment {
   /**
   * Enables autoconf assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#assigned_by_autoconf PolicyHostTransportNode#assigned_by_autoconf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#assigned_by_autoconf PolicyHostTransportNode#assigned_by_autoconf}
   */
   readonly assignedByAutoconf?: boolean | cdktf.IResolvable;
   /**
   * Enables DHCPv6 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#assigned_by_dhcpv6 PolicyHostTransportNode#assigned_by_dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#assigned_by_dhcpv6 PolicyHostTransportNode#assigned_by_dhcpv6}
   */
   readonly assignedByDhcpv6?: boolean | cdktf.IResolvable;
   /**
   * No IPv6 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#no_ipv6 PolicyHostTransportNode#no_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#no_ipv6 PolicyHostTransportNode#no_ipv6}
   */
   readonly noIpv6?: boolean | cdktf.IResolvable;
   /**
   * IP assignment specification for Static IP Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
   */
   readonly staticIpPool?: string;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
   */
   readonly staticIp?: PolicyHostTransportNodeStandardHostSwitchIpv6AssignmentStaticIp;
   /**
   * static_ip_mac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
   */
   readonly staticIpMac?: PolicyHostTransportNodeStandardHostSwitchIpv6AssignmentStaticIpMac;
 }
@@ -1589,13 +1589,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchPnic {
   /**
   * Device name or key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#device_name PolicyHostTransportNode#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#device_name PolicyHostTransportNode#device_name}
   */
   readonly deviceName: string;
   /**
   * Uplink name for this Pnic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink_name PolicyHostTransportNode#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink_name PolicyHostTransportNode#uplink_name}
   */
   readonly uplinkName: string;
 }
@@ -1736,19 +1736,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPs for transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
   */
   readonly subnetMask: string;
 }
@@ -1883,13 +1883,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * A single IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
   */
   readonly ipAddress: string;
   /**
   * A single MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
   */
   readonly macAddress: string;
 }
@@ -2030,19 +2030,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#subnet_mask PolicyHostTransportNode#subnet_mask}
   */
   readonly subnetMask: string;
   /**
   * ip_mac_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
   */
   readonly ipMacPair: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpAssignmentStaticIpMacIpMacPair[] | cdktf.IResolvable;
 }
@@ -2177,31 +2177,31 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Enables DHCP assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#assigned_by_dhcp PolicyHostTransportNode#assigned_by_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#assigned_by_dhcp PolicyHostTransportNode#assigned_by_dhcp}
   */
   readonly assignedByDhcp?: boolean | cdktf.IResolvable;
   /**
   * No IPv4 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#no_ipv4 PolicyHostTransportNode#no_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#no_ipv4 PolicyHostTransportNode#no_ipv4}
   */
   readonly noIpv4?: boolean | cdktf.IResolvable;
   /**
   * IP assignment specification for Static IP Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
   */
   readonly staticIpPool?: string;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
   */
   readonly staticIp?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpAssignmentStaticIp;
   /**
   * static_ip_mac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
   */
   readonly staticIpMac?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpAssignmentStaticIpMac;
 }
@@ -2403,19 +2403,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * List of IPs for transport node host switch virtual tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_addresses PolicyHostTransportNode#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
   */
   readonly prefixLength: string;
 }
@@ -2550,13 +2550,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * A single IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_address PolicyHostTransportNode#ip_address}
   */
   readonly ipAddress: string;
   /**
   * A single MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#mac_address PolicyHostTransportNode#mac_address}
   */
   readonly macAddress: string;
 }
@@ -2697,19 +2697,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#default_gateway PolicyHostTransportNode#default_gateway}
   */
   readonly defaultGateway: string;
   /**
   * Prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#prefix_length PolicyHostTransportNode#prefix_length}
   */
   readonly prefixLength: string;
   /**
   * ip_mac_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_mac_pair PolicyHostTransportNode#ip_mac_pair}
   */
   readonly ipMacPair: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpv6AssignmentStaticIpMacIpMacPair[] | cdktf.IResolvable;
 }
@@ -2844,37 +2844,37 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Enables autoconf assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#assigned_by_autoconf PolicyHostTransportNode#assigned_by_autoconf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#assigned_by_autoconf PolicyHostTransportNode#assigned_by_autoconf}
   */
   readonly assignedByAutoconf?: boolean | cdktf.IResolvable;
   /**
   * Enables DHCPv6 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#assigned_by_dhcpv6 PolicyHostTransportNode#assigned_by_dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#assigned_by_dhcpv6 PolicyHostTransportNode#assigned_by_dhcpv6}
   */
   readonly assignedByDhcpv6?: boolean | cdktf.IResolvable;
   /**
   * No IPv6 assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#no_ipv6 PolicyHostTransportNode#no_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#no_ipv6 PolicyHostTransportNode#no_ipv6}
   */
   readonly noIpv6?: boolean | cdktf.IResolvable;
   /**
   * IP assignment specification for Static IP Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_pool PolicyHostTransportNode#static_ip_pool}
   */
   readonly staticIpPool?: string;
   /**
   * static_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip PolicyHostTransportNode#static_ip}
   */
   readonly staticIp?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpv6AssignmentStaticIp;
   /**
   * static_ip_mac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#static_ip_mac PolicyHostTransportNode#static_ip_mac}
   */
   readonly staticIpMac?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpv6AssignmentStaticIpMac;
 }
@@ -3105,19 +3105,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Uplink name from UplinkHostSwitch profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink_name PolicyHostTransportNode#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink_name PolicyHostTransportNode#uplink_name}
   */
   readonly uplinkName: string;
   /**
   * Link Aggregation Group (LAG) name of Virtual Distributed Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vds_lag_name PolicyHostTransportNode#vds_lag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vds_lag_name PolicyHostTransportNode#vds_lag_name}
   */
   readonly vdsLagName?: string;
   /**
   * Uplink name of VMware vSphere Distributed Switch (VDS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vds_uplink_name PolicyHostTransportNode#vds_uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vds_uplink_name PolicyHostTransportNode#vds_uplink_name}
   */
   readonly vdsUplinkName?: string;
 }
@@ -3290,43 +3290,43 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * The host switch id. This ID will be used to reference a host switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_id PolicyHostTransportNode#host_switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_id PolicyHostTransportNode#host_switch_id}
   */
   readonly hostSwitchId?: string;
   /**
   * Identifiers of host switch profiles to be associated with this host switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_profile PolicyHostTransportNode#host_switch_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_profile PolicyHostTransportNode#host_switch_profile}
   */
   readonly hostSwitchProfile?: string[];
   /**
   * Host switch uplink profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink_profile PolicyHostTransportNode#uplink_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink_profile PolicyHostTransportNode#uplink_profile}
   */
   readonly uplinkProfile?: string;
   /**
   * Host switch high availability profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vtep_ha_profile PolicyHostTransportNode#vtep_ha_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vtep_ha_profile PolicyHostTransportNode#vtep_ha_profile}
   */
   readonly vtepHaProfile?: string;
   /**
   * ip_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_assignment PolicyHostTransportNode#ip_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_assignment PolicyHostTransportNode#ip_assignment}
   */
   readonly ipAssignment?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpAssignment;
   /**
   * ipv6_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ipv6_assignment PolicyHostTransportNode#ipv6_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ipv6_assignment PolicyHostTransportNode#ipv6_assignment}
   */
   readonly ipv6Assignment?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionIpv6Assignment;
   /**
   * uplink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink PolicyHostTransportNode#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink PolicyHostTransportNode#uplink}
   */
   readonly uplink?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOptionUplink[] | cdktf.IResolvable;
 }
@@ -3586,13 +3586,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSu
   /**
   * Name of the transport node profile config option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#name PolicyHostTransportNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#name PolicyHostTransportNode#name}
   */
   readonly name: string;
   /**
   * host_switch_config_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_config_option PolicyHostTransportNode#host_switch_config_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_config_option PolicyHostTransportNode#host_switch_config_option}
   */
   readonly hostSwitchConfigOption: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfigHostSwitchConfigOption;
 }
@@ -3733,13 +3733,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchTransportZoneEndpoint 
   /**
   * Unique ID identifying the transport zone for this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#transport_zone PolicyHostTransportNode#transport_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#transport_zone PolicyHostTransportNode#transport_zone}
   */
   readonly transportZone: string;
   /**
   * Identifiers of the transport zone profiles associated with this transport zone endpoint on this transport node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#transport_zone_profiles PolicyHostTransportNode#transport_zone_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#transport_zone_profiles PolicyHostTransportNode#transport_zone_profiles}
   */
   readonly transportZoneProfiles?: string[];
 }
@@ -3883,19 +3883,19 @@ export interface PolicyHostTransportNodeStandardHostSwitchUplink {
   /**
   * Uplink name from UplinkHostSwitch profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink_name PolicyHostTransportNode#uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink_name PolicyHostTransportNode#uplink_name}
   */
   readonly uplinkName: string;
   /**
   * Link Aggregation Group (LAG) name of Virtual Distributed Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vds_lag_name PolicyHostTransportNode#vds_lag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vds_lag_name PolicyHostTransportNode#vds_lag_name}
   */
   readonly vdsLagName?: string;
   /**
   * Uplink name of VMware vSphere Distributed Switch (VDS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vds_uplink_name PolicyHostTransportNode#vds_uplink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vds_uplink_name PolicyHostTransportNode#vds_uplink_name}
   */
   readonly vdsUplinkName?: string;
 }
@@ -4068,13 +4068,13 @@ export interface PolicyHostTransportNodeStandardHostSwitchVmkInstallMigration {
   /**
   * The network id to which the ESX vmk interface will be migrated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#destination_network PolicyHostTransportNode#destination_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#destination_network PolicyHostTransportNode#destination_network}
   */
   readonly destinationNetwork: string;
   /**
   * ESX vmk interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#device_name PolicyHostTransportNode#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#device_name PolicyHostTransportNode#device_name}
   */
   readonly deviceName: string;
 }
@@ -4215,91 +4215,91 @@ export interface PolicyHostTransportNodeStandardHostSwitch {
   /**
   * The host switch id. This ID will be used to reference a host switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_id PolicyHostTransportNode#host_switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_id PolicyHostTransportNode#host_switch_id}
   */
   readonly hostSwitchId?: string;
   /**
   * Operational mode of a HostSwitch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_mode PolicyHostTransportNode#host_switch_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_mode PolicyHostTransportNode#host_switch_mode}
   */
   readonly hostSwitchMode?: string;
   /**
   * Host switch name. This name will be used to reference a host switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_name PolicyHostTransportNode#host_switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_name PolicyHostTransportNode#host_switch_name}
   */
   readonly hostSwitchName?: string;
   /**
   * Identifiers of host switch profiles to be associated with this host switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#host_switch_profile PolicyHostTransportNode#host_switch_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#host_switch_profile PolicyHostTransportNode#host_switch_profile}
   */
   readonly hostSwitchProfile?: string[];
   /**
   * Migrate any pnics which are in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#is_migrate_pnics PolicyHostTransportNode#is_migrate_pnics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#is_migrate_pnics PolicyHostTransportNode#is_migrate_pnics}
   */
   readonly isMigratePnics?: boolean | cdktf.IResolvable;
   /**
   * Host switch uplink profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink_profile PolicyHostTransportNode#uplink_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink_profile PolicyHostTransportNode#uplink_profile}
   */
   readonly uplinkProfile?: string;
   /**
   * Host switch high availability profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vtep_ha_profile PolicyHostTransportNode#vtep_ha_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vtep_ha_profile PolicyHostTransportNode#vtep_ha_profile}
   */
   readonly vtepHaProfile?: string;
   /**
   * cpu_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#cpu_config PolicyHostTransportNode#cpu_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#cpu_config PolicyHostTransportNode#cpu_config}
   */
   readonly cpuConfig?: PolicyHostTransportNodeStandardHostSwitchCpuConfig[] | cdktf.IResolvable;
   /**
   * ip_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ip_assignment PolicyHostTransportNode#ip_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ip_assignment PolicyHostTransportNode#ip_assignment}
   */
   readonly ipAssignment?: PolicyHostTransportNodeStandardHostSwitchIpAssignment;
   /**
   * ipv6_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#ipv6_assignment PolicyHostTransportNode#ipv6_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#ipv6_assignment PolicyHostTransportNode#ipv6_assignment}
   */
   readonly ipv6Assignment?: PolicyHostTransportNodeStandardHostSwitchIpv6Assignment;
   /**
   * pnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#pnic PolicyHostTransportNode#pnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#pnic PolicyHostTransportNode#pnic}
   */
   readonly pnic?: PolicyHostTransportNodeStandardHostSwitchPnic[] | cdktf.IResolvable;
   /**
   * transport_node_profile_sub_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#transport_node_profile_sub_config PolicyHostTransportNode#transport_node_profile_sub_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#transport_node_profile_sub_config PolicyHostTransportNode#transport_node_profile_sub_config}
   */
   readonly transportNodeProfileSubConfig?: PolicyHostTransportNodeStandardHostSwitchTransportNodeProfileSubConfig[] | cdktf.IResolvable;
   /**
   * transport_zone_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#transport_zone_endpoint PolicyHostTransportNode#transport_zone_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#transport_zone_endpoint PolicyHostTransportNode#transport_zone_endpoint}
   */
   readonly transportZoneEndpoint?: PolicyHostTransportNodeStandardHostSwitchTransportZoneEndpoint[] | cdktf.IResolvable;
   /**
   * uplink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#uplink PolicyHostTransportNode#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#uplink PolicyHostTransportNode#uplink}
   */
   readonly uplink?: PolicyHostTransportNodeStandardHostSwitchUplink[] | cdktf.IResolvable;
   /**
   * vmk_install_migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#vmk_install_migration PolicyHostTransportNode#vmk_install_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#vmk_install_migration PolicyHostTransportNode#vmk_install_migration}
   */
   readonly vmkInstallMigration?: PolicyHostTransportNodeStandardHostSwitchVmkInstallMigration[] | cdktf.IResolvable;
 }
@@ -4821,11 +4821,11 @@ export class PolicyHostTransportNodeStandardHostSwitchList extends cdktf.Complex
 }
 export interface PolicyHostTransportNodeTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#scope PolicyHostTransportNode#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#scope PolicyHostTransportNode#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#tag PolicyHostTransportNode#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#tag PolicyHostTransportNode#tag}
   */
   readonly tag?: string;
 }
@@ -4970,7 +4970,7 @@ export class PolicyHostTransportNodeTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node nsxt_policy_host_transport_node}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node nsxt_policy_host_transport_node}
 */
 export class PolicyHostTransportNode extends cdktf.TerraformResource {
 
@@ -4986,7 +4986,7 @@ export class PolicyHostTransportNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyHostTransportNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyHostTransportNode to import
-  * @param importFromId The id of the existing PolicyHostTransportNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyHostTransportNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyHostTransportNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4998,7 +4998,7 @@ export class PolicyHostTransportNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_host_transport_node nsxt_policy_host_transport_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_host_transport_node nsxt_policy_host_transport_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5009,8 +5009,8 @@ export class PolicyHostTransportNode extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_host_transport_node',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

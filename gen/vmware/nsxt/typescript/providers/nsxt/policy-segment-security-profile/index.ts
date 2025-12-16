@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface PolicySegmentSecurityProfileAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#bpdu_filter_allow PolicySegmentSecurityProfileA#bpdu_filter_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#bpdu_filter_allow PolicySegmentSecurityProfileA#bpdu_filter_allow}
   */
   readonly bpduFilterAllow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#bpdu_filter_enable PolicySegmentSecurityProfileA#bpdu_filter_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#bpdu_filter_enable PolicySegmentSecurityProfileA#bpdu_filter_enable}
   */
   readonly bpduFilterEnable?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#description PolicySegmentSecurityProfileA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#description PolicySegmentSecurityProfileA#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#dhcp_client_block_enabled PolicySegmentSecurityProfileA#dhcp_client_block_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#dhcp_client_block_enabled PolicySegmentSecurityProfileA#dhcp_client_block_enabled}
   */
   readonly dhcpClientBlockEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#dhcp_client_block_v6_enabled PolicySegmentSecurityProfileA#dhcp_client_block_v6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#dhcp_client_block_v6_enabled PolicySegmentSecurityProfileA#dhcp_client_block_v6_enabled}
   */
   readonly dhcpClientBlockV6Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#dhcp_server_block_enabled PolicySegmentSecurityProfileA#dhcp_server_block_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#dhcp_server_block_enabled PolicySegmentSecurityProfileA#dhcp_server_block_enabled}
   */
   readonly dhcpServerBlockEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#dhcp_server_block_v6_enabled PolicySegmentSecurityProfileA#dhcp_server_block_v6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#dhcp_server_block_v6_enabled PolicySegmentSecurityProfileA#dhcp_server_block_v6_enabled}
   */
   readonly dhcpServerBlockV6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#display_name PolicySegmentSecurityProfileA#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#display_name PolicySegmentSecurityProfileA#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#id PolicySegmentSecurityProfileA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#id PolicySegmentSecurityProfileA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#non_ip_traffic_block_enabled PolicySegmentSecurityProfileA#non_ip_traffic_block_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#non_ip_traffic_block_enabled PolicySegmentSecurityProfileA#non_ip_traffic_block_enabled}
   */
   readonly nonIpTrafficBlockEnabled?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#nsx_id PolicySegmentSecurityProfileA#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#nsx_id PolicySegmentSecurityProfileA#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#ra_guard_enabled PolicySegmentSecurityProfileA#ra_guard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#ra_guard_enabled PolicySegmentSecurityProfileA#ra_guard_enabled}
   */
   readonly raGuardEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#rate_limits_enabled PolicySegmentSecurityProfileA#rate_limits_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#rate_limits_enabled PolicySegmentSecurityProfileA#rate_limits_enabled}
   */
   readonly rateLimitsEnabled?: boolean | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#context PolicySegmentSecurityProfileA#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#context PolicySegmentSecurityProfileA#context}
   */
   readonly context?: PolicySegmentSecurityProfileContext;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#rate_limit PolicySegmentSecurityProfileA#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#rate_limit PolicySegmentSecurityProfileA#rate_limit}
   */
   readonly rateLimit?: PolicySegmentSecurityProfileRateLimit[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#tag PolicySegmentSecurityProfileA#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#tag PolicySegmentSecurityProfileA#tag}
   */
   readonly tag?: PolicySegmentSecurityProfileTag[] | cdktf.IResolvable;
 }
@@ -91,7 +91,7 @@ export interface PolicySegmentSecurityProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#project_id PolicySegmentSecurityProfileA#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#project_id PolicySegmentSecurityProfileA#project_id}
   */
   readonly projectId: string;
 }
@@ -172,19 +172,19 @@ export class PolicySegmentSecurityProfileContextOutputReference extends cdktf.Co
 }
 export interface PolicySegmentSecurityProfileRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#rx_broadcast PolicySegmentSecurityProfileA#rx_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#rx_broadcast PolicySegmentSecurityProfileA#rx_broadcast}
   */
   readonly rxBroadcast?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#rx_multicast PolicySegmentSecurityProfileA#rx_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#rx_multicast PolicySegmentSecurityProfileA#rx_multicast}
   */
   readonly rxMulticast?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#tx_broadcast PolicySegmentSecurityProfileA#tx_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#tx_broadcast PolicySegmentSecurityProfileA#tx_broadcast}
   */
   readonly txBroadcast?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#tx_multicast PolicySegmentSecurityProfileA#tx_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#tx_multicast PolicySegmentSecurityProfileA#tx_multicast}
   */
   readonly txMulticast?: number;
 }
@@ -387,11 +387,11 @@ export class PolicySegmentSecurityProfileRateLimitList extends cdktf.ComplexList
 }
 export interface PolicySegmentSecurityProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#scope PolicySegmentSecurityProfileA#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#scope PolicySegmentSecurityProfileA#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#tag PolicySegmentSecurityProfileA#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#tag PolicySegmentSecurityProfileA#tag}
   */
   readonly tag?: string;
 }
@@ -536,7 +536,7 @@ export class PolicySegmentSecurityProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile nsxt_policy_segment_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile nsxt_policy_segment_security_profile}
 */
 export class PolicySegmentSecurityProfileA extends cdktf.TerraformResource {
 
@@ -552,7 +552,7 @@ export class PolicySegmentSecurityProfileA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicySegmentSecurityProfileA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicySegmentSecurityProfileA to import
-  * @param importFromId The id of the existing PolicySegmentSecurityProfileA that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicySegmentSecurityProfileA that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicySegmentSecurityProfileA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class PolicySegmentSecurityProfileA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_segment_security_profile nsxt_policy_segment_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_segment_security_profile nsxt_policy_segment_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class PolicySegmentSecurityProfileA extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_segment_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

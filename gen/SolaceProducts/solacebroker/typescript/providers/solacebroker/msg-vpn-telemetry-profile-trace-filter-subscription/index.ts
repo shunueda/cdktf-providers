@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnTelemetryProfileTraceFilterSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#msg_vpn_name MsgVpnTelemetryProfileTraceFilterSubscription#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#msg_vpn_name MsgVpnTelemetryProfileTraceFilterSubscription#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnTelemetryProfileTraceFilterSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#subscription MsgVpnTelemetryProfileTraceFilterSubscription#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#subscription MsgVpnTelemetryProfileTraceFilterSubscription#subscription}
   */
   readonly subscription: string;
   /**
@@ -34,7 +34,7 @@ export interface MsgVpnTelemetryProfileTraceFilterSubscriptionConfig extends cdk
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#subscription_syntax MsgVpnTelemetryProfileTraceFilterSubscription#subscription_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#subscription_syntax MsgVpnTelemetryProfileTraceFilterSubscription#subscription_syntax}
   */
   readonly subscriptionSyntax: string;
   /**
@@ -42,7 +42,7 @@ export interface MsgVpnTelemetryProfileTraceFilterSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#telemetry_profile_name MsgVpnTelemetryProfileTraceFilterSubscription#telemetry_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#telemetry_profile_name MsgVpnTelemetryProfileTraceFilterSubscription#telemetry_profile_name}
   */
   readonly telemetryProfileName: string;
   /**
@@ -50,13 +50,13 @@ export interface MsgVpnTelemetryProfileTraceFilterSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#trace_filter_name MsgVpnTelemetryProfileTraceFilterSubscription#trace_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#trace_filter_name MsgVpnTelemetryProfileTraceFilterSubscription#trace_filter_name}
   */
   readonly traceFilterName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription solacebroker_msg_vpn_telemetry_profile_trace_filter_subscription}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription solacebroker_msg_vpn_telemetry_profile_trace_filter_subscription}
 */
 export class MsgVpnTelemetryProfileTraceFilterSubscription extends cdktf.TerraformResource {
 
@@ -72,7 +72,7 @@ export class MsgVpnTelemetryProfileTraceFilterSubscription extends cdktf.Terrafo
   * Generates CDKTF code for importing a MsgVpnTelemetryProfileTraceFilterSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnTelemetryProfileTraceFilterSubscription to import
-  * @param importFromId The id of the existing MsgVpnTelemetryProfileTraceFilterSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnTelemetryProfileTraceFilterSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnTelemetryProfileTraceFilterSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -84,7 +84,7 @@ export class MsgVpnTelemetryProfileTraceFilterSubscription extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription solacebroker_msg_vpn_telemetry_profile_trace_filter_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_telemetry_profile_trace_filter_subscription solacebroker_msg_vpn_telemetry_profile_trace_filter_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -95,8 +95,8 @@ export class MsgVpnTelemetryProfileTraceFilterSubscription extends cdktf.Terrafo
       terraformResourceType: 'solacebroker_msg_vpn_telemetry_profile_trace_filter_subscription',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

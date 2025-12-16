@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbFastUdpApplicationProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#description LbFastUdpApplicationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#description LbFastUdpApplicationProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#display_name LbFastUdpApplicationProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#display_name LbFastUdpApplicationProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * A boolean flag which reflects whether flow mirroring is enabled, and all the flows to the bounded virtual server are mirrored to the standby node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#ha_flow_mirroring LbFastUdpApplicationProfile#ha_flow_mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#ha_flow_mirroring LbFastUdpApplicationProfile#ha_flow_mirroring}
   */
   readonly haFlowMirroring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#id LbFastUdpApplicationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#id LbFastUdpApplicationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,23 +35,23 @@ export interface LbFastUdpApplicationProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Timeout in seconds to specify how long an idle UDP connection in ESTABLISHED state should be kept for this application before cleaning up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#idle_timeout LbFastUdpApplicationProfile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#idle_timeout LbFastUdpApplicationProfile#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#tag LbFastUdpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#tag LbFastUdpApplicationProfile#tag}
   */
   readonly tag?: LbFastUdpApplicationProfileTag[] | cdktf.IResolvable;
 }
 export interface LbFastUdpApplicationProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#scope LbFastUdpApplicationProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#scope LbFastUdpApplicationProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#tag LbFastUdpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#tag LbFastUdpApplicationProfile#tag}
   */
   readonly tag?: string;
 }
@@ -196,7 +196,7 @@ export class LbFastUdpApplicationProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile nsxt_lb_fast_udp_application_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile nsxt_lb_fast_udp_application_profile}
 */
 export class LbFastUdpApplicationProfile extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class LbFastUdpApplicationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbFastUdpApplicationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbFastUdpApplicationProfile to import
-  * @param importFromId The id of the existing LbFastUdpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbFastUdpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbFastUdpApplicationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class LbFastUdpApplicationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_udp_application_profile nsxt_lb_fast_udp_application_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_udp_application_profile nsxt_lb_fast_udp_application_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class LbFastUdpApplicationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_fast_udp_application_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

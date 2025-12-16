@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyEvpnConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#description PolicyEvpnConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#description PolicyEvpnConfig#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#display_name PolicyEvpnConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#display_name PolicyEvpnConfig#display_name}
   */
   readonly displayName: string;
   /**
   * Policy path for EVPN Tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#evpn_tenant_path PolicyEvpnConfig#evpn_tenant_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#evpn_tenant_path PolicyEvpnConfig#evpn_tenant_path}
   */
   readonly evpnTenantPath?: string;
   /**
   * Policy path for the Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#gateway_path PolicyEvpnConfig#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#gateway_path PolicyEvpnConfig#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#id PolicyEvpnConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#id PolicyEvpnConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,29 +41,29 @@ export interface PolicyEvpnConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * EVPN Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#mode PolicyEvpnConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#mode PolicyEvpnConfig#mode}
   */
   readonly mode: string;
   /**
   * Policy path for VNI Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#vni_pool_path PolicyEvpnConfig#vni_pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#vni_pool_path PolicyEvpnConfig#vni_pool_path}
   */
   readonly vniPoolPath?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#tag PolicyEvpnConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#tag PolicyEvpnConfig#tag}
   */
   readonly tag?: PolicyEvpnConfigTag[] | cdktf.IResolvable;
 }
 export interface PolicyEvpnConfigTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#scope PolicyEvpnConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#scope PolicyEvpnConfig#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#tag PolicyEvpnConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#tag PolicyEvpnConfig#tag}
   */
   readonly tag?: string;
 }
@@ -208,7 +208,7 @@ export class PolicyEvpnConfigTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config nsxt_policy_evpn_config}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config nsxt_policy_evpn_config}
 */
 export class PolicyEvpnConfig extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class PolicyEvpnConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEvpnConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEvpnConfig to import
-  * @param importFromId The id of the existing PolicyEvpnConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEvpnConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEvpnConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class PolicyEvpnConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_config nsxt_policy_evpn_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_config nsxt_policy_evpn_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class PolicyEvpnConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_evpn_config',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

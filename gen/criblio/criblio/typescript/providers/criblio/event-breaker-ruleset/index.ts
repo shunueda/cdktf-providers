@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface EventBreakerRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#description EventBreakerRuleset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#description EventBreakerRuleset#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#group_id EventBreakerRuleset#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#group_id EventBreakerRuleset#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#id EventBreakerRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#id EventBreakerRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface EventBreakerRulesetConfig extends cdktf.TerraformMetaArguments 
   /**
   * Default: "custom"; must be one of ["custom", "cribl-custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#lib EventBreakerRuleset#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#lib EventBreakerRuleset#lib}
   */
   readonly lib?: string;
   /**
   * The  minimum number of characters in _raw to determine which rule to use. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#min_raw_length EventBreakerRuleset#min_raw_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#min_raw_length EventBreakerRuleset#min_raw_length}
   */
   readonly minRawLength?: number;
   /**
   * A list of rules that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#rules EventBreakerRuleset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#rules EventBreakerRuleset#rules}
   */
   readonly rules?: EventBreakerRulesetRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#tags EventBreakerRuleset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#tags EventBreakerRuleset#tags}
   */
   readonly tags?: string;
 }
 export interface EventBreakerRulesetRulesFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#name EventBreakerRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#name EventBreakerRuleset#name}
   */
   readonly name?: string;
   /**
   * The JavaScript expression used to compute the field's value (can be constant)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#value EventBreakerRuleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#value EventBreakerRuleset#value}
   */
   readonly value: string;
 }
@@ -199,19 +199,19 @@ export class EventBreakerRulesetRulesFieldsList extends cdktf.ComplexList {
 }
 export interface EventBreakerRulesetRulesTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#format EventBreakerRuleset#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#format EventBreakerRuleset#format}
   */
   readonly format?: string;
   /**
   * Default: 150
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#length EventBreakerRuleset#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#length EventBreakerRuleset#length}
   */
   readonly length?: number;
   /**
   * Default: "auto"; must be one of ["auto", "format", "current"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#type EventBreakerRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#type EventBreakerRuleset#type}
   */
   readonly type?: string;
 }
@@ -365,83 +365,83 @@ export interface EventBreakerRulesetRules {
   /**
   * JavaScript expression applied to the beginning of a file or object, to determine whether the rule applies to all contained events. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#condition EventBreakerRuleset#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#condition EventBreakerRuleset#condition}
   */
   readonly condition?: string;
   /**
   * Disable this breaker rule (enabled by default). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#disabled EventBreakerRuleset#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#disabled EventBreakerRuleset#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The regex to match before attempting event breaker extraction. Use $ (end-of-string anchor) to prevent extraction. Default: "/[\\\\n\\\\r]+(?!\\\\s)/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#event_breaker_regex EventBreakerRuleset#event_breaker_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#event_breaker_regex EventBreakerRuleset#event_breaker_regex}
   */
   readonly eventBreakerRegex?: string;
   /**
   * Key-value pairs to be added to each event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#fields EventBreakerRuleset#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#fields EventBreakerRuleset#fields}
   */
   readonly fields?: EventBreakerRulesetRulesFields[] | cdktf.IResolvable;
   /**
   * The maximum number of bytes in an event before it is flushed to the pipelines. Default: 51200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#max_event_bytes EventBreakerRuleset#max_event_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#max_event_bytes EventBreakerRuleset#max_event_bytes}
   */
   readonly maxEventBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#name EventBreakerRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#name EventBreakerRuleset#name}
   */
   readonly name: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#parser_enabled EventBreakerRuleset#parser_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#parser_enabled EventBreakerRuleset#parser_enabled}
   */
   readonly parserEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable to set an internal field on events indicating that the field in the data called _raw should be used. This can be useful for post processors that want to use that field for event._raw, instead of replacing it with the actual raw event. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#should_use_data_raw EventBreakerRuleset#should_use_data_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#should_use_data_raw EventBreakerRuleset#should_use_data_raw}
   */
   readonly shouldUseDataRaw?: boolean | cdktf.IResolvable;
   /**
   * Auto, manual format (strptime), or current time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#timestamp EventBreakerRuleset#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#timestamp EventBreakerRuleset#timestamp}
   */
   readonly timestamp: EventBreakerRulesetRulesTimestamp;
   /**
   * The regex to match before attempting timestamp extraction. Use $ (end-of-string anchor) to prevent extraction. Default: "/^/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#timestamp_anchor_regex EventBreakerRuleset#timestamp_anchor_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#timestamp_anchor_regex EventBreakerRuleset#timestamp_anchor_regex}
   */
   readonly timestampAnchorRegex?: string;
   /**
   * The earliest timestamp value allowed relative to now. Example: -42years. Parsed values prior to this date will be set to current time. Default: "-420weeks"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#timestamp_earliest EventBreakerRuleset#timestamp_earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#timestamp_earliest EventBreakerRuleset#timestamp_earliest}
   */
   readonly timestampEarliest?: string;
   /**
   * The latest timestamp value allowed relative to now. Example: +42days. Parsed values after this date will be set to current time. Default: "+1week"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#timestamp_latest EventBreakerRuleset#timestamp_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#timestamp_latest EventBreakerRuleset#timestamp_latest}
   */
   readonly timestampLatest?: string;
   /**
   * Timezone to assign to timestamps without timezone info. Default: "local"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#timestamp_timezone EventBreakerRuleset#timestamp_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#timestamp_timezone EventBreakerRuleset#timestamp_timezone}
   */
   readonly timestampTimezone?: string;
   /**
   * Default: "regex"; must be one of ["regex", "json", "json_array", "header", "timestamp", "csv", "aws_cloudtrail", "aws_vpcflow"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#type EventBreakerRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#type EventBreakerRuleset#type}
   */
   readonly type?: string;
 }
@@ -928,7 +928,7 @@ export class EventBreakerRulesetRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset criblio_event_breaker_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset criblio_event_breaker_ruleset}
 */
 export class EventBreakerRuleset extends cdktf.TerraformResource {
 
@@ -944,7 +944,7 @@ export class EventBreakerRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventBreakerRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventBreakerRuleset to import
-  * @param importFromId The id of the existing EventBreakerRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventBreakerRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventBreakerRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -956,7 +956,7 @@ export class EventBreakerRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/event_breaker_ruleset criblio_event_breaker_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/event_breaker_ruleset criblio_event_breaker_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -967,8 +967,8 @@ export class EventBreakerRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_event_breaker_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.60',
-        providerVersionConstraint: '1.20.60'
+        providerVersion: '1.20.62',
+        providerVersionConstraint: '1.20.62'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

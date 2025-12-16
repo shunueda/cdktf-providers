@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtPolicyRealizationInfoConfig extends cdktf.TerraformMeta
   /**
   * Initial delay to start realization checks in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#delay DataNsxtPolicyRealizationInfo#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#delay DataNsxtPolicyRealizationInfo#delay}
   */
   readonly delay?: number;
   /**
   * The entity type of the realized resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#entity_type DataNsxtPolicyRealizationInfo#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#entity_type DataNsxtPolicyRealizationInfo#entity_type}
   */
   readonly entityType?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#id DataNsxtPolicyRealizationInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#id DataNsxtPolicyRealizationInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,25 +31,25 @@ export interface DataNsxtPolicyRealizationInfoConfig extends cdktf.TerraformMeta
   /**
   * The path for the policy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#path DataNsxtPolicyRealizationInfo#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#path DataNsxtPolicyRealizationInfo#path}
   */
   readonly path: string;
   /**
   * Path of the site this resource belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#site_path DataNsxtPolicyRealizationInfo#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#site_path DataNsxtPolicyRealizationInfo#site_path}
   */
   readonly sitePath?: string;
   /**
   * Realization timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#timeout DataNsxtPolicyRealizationInfo#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#timeout DataNsxtPolicyRealizationInfo#timeout}
   */
   readonly timeout?: number;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#context DataNsxtPolicyRealizationInfo#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#context DataNsxtPolicyRealizationInfo#context}
   */
   readonly context?: DataNsxtPolicyRealizationInfoContext;
 }
@@ -57,7 +57,7 @@ export interface DataNsxtPolicyRealizationInfoContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#project_id DataNsxtPolicyRealizationInfo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#project_id DataNsxtPolicyRealizationInfo#project_id}
   */
   readonly projectId: string;
 }
@@ -138,7 +138,7 @@ export class DataNsxtPolicyRealizationInfoContextOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info nsxt_policy_realization_info}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info nsxt_policy_realization_info}
 */
 export class DataNsxtPolicyRealizationInfo extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataNsxtPolicyRealizationInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyRealizationInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyRealizationInfo to import
-  * @param importFromId The id of the existing DataNsxtPolicyRealizationInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyRealizationInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyRealizationInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataNsxtPolicyRealizationInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_realization_info nsxt_policy_realization_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_realization_info nsxt_policy_realization_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataNsxtPolicyRealizationInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_realization_info',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

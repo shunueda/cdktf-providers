@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointSonarcloudConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#description ServiceendpointSonarcloud#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#description ServiceendpointSonarcloud#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#id ServiceendpointSonarcloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#id ServiceendpointSonarcloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#project_id ServiceendpointSonarcloud#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#project_id ServiceendpointSonarcloud#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#service_endpoint_name ServiceendpointSonarcloud#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#service_endpoint_name ServiceendpointSonarcloud#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * Authentication Token generated through SonarCloud (go to My Account > Security > Generate Tokens)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#token ServiceendpointSonarcloud#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#token ServiceendpointSonarcloud#token}
   */
   readonly token: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#timeouts ServiceendpointSonarcloud#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#timeouts ServiceendpointSonarcloud#timeouts}
   */
   readonly timeouts?: ServiceendpointSonarcloudTimeouts;
 }
 export interface ServiceendpointSonarcloudTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#create ServiceendpointSonarcloud#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#create ServiceendpointSonarcloud#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#delete ServiceendpointSonarcloud#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#delete ServiceendpointSonarcloud#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#read ServiceendpointSonarcloud#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#read ServiceendpointSonarcloud#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#update ServiceendpointSonarcloud#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#update ServiceendpointSonarcloud#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class ServiceendpointSonarcloudTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud azuredevops_serviceendpoint_sonarcloud}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud azuredevops_serviceendpoint_sonarcloud}
 */
 export class ServiceendpointSonarcloud extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class ServiceendpointSonarcloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointSonarcloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointSonarcloud to import
-  * @param importFromId The id of the existing ServiceendpointSonarcloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointSonarcloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointSonarcloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class ServiceendpointSonarcloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_sonarcloud azuredevops_serviceendpoint_sonarcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_sonarcloud azuredevops_serviceendpoint_sonarcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class ServiceendpointSonarcloud extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_sonarcloud',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

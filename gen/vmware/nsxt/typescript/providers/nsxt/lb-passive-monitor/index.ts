@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LbPassiveMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#description LbPassiveMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#description LbPassiveMonitor#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#display_name LbPassiveMonitor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#display_name LbPassiveMonitor#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#id LbPassiveMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#id LbPassiveMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface LbPassiveMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * When the consecutive failures reach this value, then the member is considered temporarily unavailable for a configurable period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#max_fails LbPassiveMonitor#max_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#max_fails LbPassiveMonitor#max_fails}
   */
   readonly maxFails?: number;
   /**
   * After this timeout period, the member is tried again for a new connection to see if it is available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#timeout LbPassiveMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#timeout LbPassiveMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#tag LbPassiveMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#tag LbPassiveMonitor#tag}
   */
   readonly tag?: LbPassiveMonitorTag[] | cdktf.IResolvable;
 }
 export interface LbPassiveMonitorTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#scope LbPassiveMonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#scope LbPassiveMonitor#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#tag LbPassiveMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#tag LbPassiveMonitor#tag}
   */
   readonly tag?: string;
 }
@@ -196,7 +196,7 @@ export class LbPassiveMonitorTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor nsxt_lb_passive_monitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor nsxt_lb_passive_monitor}
 */
 export class LbPassiveMonitor extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class LbPassiveMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbPassiveMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbPassiveMonitor to import
-  * @param importFromId The id of the existing LbPassiveMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbPassiveMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbPassiveMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class LbPassiveMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_passive_monitor nsxt_lb_passive_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_passive_monitor nsxt_lb_passive_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class LbPassiveMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_passive_monitor',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

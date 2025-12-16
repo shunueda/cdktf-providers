@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyLbHttpApplicationProfileConfig extends cdktf.TerraformMet
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#description PolicyLbHttpApplicationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#description PolicyLbHttpApplicationProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#display_name PolicyLbHttpApplicationProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#display_name PolicyLbHttpApplicationProfile#display_name}
   */
   readonly displayName: string;
   /**
   * A URL that incoming requests for that virtual server can be temporarily redirected to, If a website is temporarily down or has moved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#http_redirect_to PolicyLbHttpApplicationProfile#http_redirect_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#http_redirect_to PolicyLbHttpApplicationProfile#http_redirect_to}
   */
   readonly httpRedirectTo?: string;
   /**
   * A boolean flag which reflects whether the client will automatically be redirected to use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#http_redirect_to_https PolicyLbHttpApplicationProfile#http_redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#http_redirect_to_https PolicyLbHttpApplicationProfile#http_redirect_to_https}
   */
   readonly httpRedirectToHttps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#id PolicyLbHttpApplicationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#id PolicyLbHttpApplicationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,71 +41,71 @@ export interface PolicyLbHttpApplicationProfileConfig extends cdktf.TerraformMet
   /**
   * Timeout in seconds to specify how long an HTTP application can remain idle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#idle_timeout PolicyLbHttpApplicationProfile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#idle_timeout PolicyLbHttpApplicationProfile#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#nsx_id PolicyLbHttpApplicationProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#nsx_id PolicyLbHttpApplicationProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Maximum request body size in bytes (Unlimited if not specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#request_body_size PolicyLbHttpApplicationProfile#request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#request_body_size PolicyLbHttpApplicationProfile#request_body_size}
   */
   readonly requestBodySize?: number;
   /**
   * Maximum request header size in bytes. Requests with larger header size will be processed as best effort whereas a request with header below this specified size is guaranteed to be processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#request_header_size PolicyLbHttpApplicationProfile#request_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#request_header_size PolicyLbHttpApplicationProfile#request_header_size}
   */
   readonly requestHeaderSize?: number;
   /**
   * A boolean flag indicating whether the response received by LB from the backend will be saved into the buffers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#response_buffering PolicyLbHttpApplicationProfile#response_buffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#response_buffering PolicyLbHttpApplicationProfile#response_buffering}
   */
   readonly responseBuffering?: boolean | cdktf.IResolvable;
   /**
   * Maximum request header size in bytes. Requests with larger header size will be processed as best effort whereas a request with header below this specified size is guaranteed to be processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#response_header_size PolicyLbHttpApplicationProfile#response_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#response_header_size PolicyLbHttpApplicationProfile#response_header_size}
   */
   readonly responseHeaderSize?: number;
   /**
   * Number of seconds waiting for the server response before the connection is closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#response_timeout PolicyLbHttpApplicationProfile#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#response_timeout PolicyLbHttpApplicationProfile#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * A boolean flag indicating whether the backend connection will be kept alive for client connection. If server_keep_alive is true, it means the backend connection will keep alive for the client connection. Every client connection is tied 1:1 with the corresponding server-side connection. If server_keep_alive is false, it means the backend connection won't keep alive for the client connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#server_keep_alive PolicyLbHttpApplicationProfile#server_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#server_keep_alive PolicyLbHttpApplicationProfile#server_keep_alive}
   */
   readonly serverKeepAlive?: boolean | cdktf.IResolvable;
   /**
   * When X-Forwareded-For is configured, X-Forwarded-Proto and X-Forwarded-Port information is added automatically into request header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#x_forwarded_for PolicyLbHttpApplicationProfile#x_forwarded_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#x_forwarded_for PolicyLbHttpApplicationProfile#x_forwarded_for}
   */
   readonly xForwardedFor?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#tag PolicyLbHttpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#tag PolicyLbHttpApplicationProfile#tag}
   */
   readonly tag?: PolicyLbHttpApplicationProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyLbHttpApplicationProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#scope PolicyLbHttpApplicationProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#scope PolicyLbHttpApplicationProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#tag PolicyLbHttpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#tag PolicyLbHttpApplicationProfile#tag}
   */
   readonly tag?: string;
 }
@@ -250,7 +250,7 @@ export class PolicyLbHttpApplicationProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile nsxt_policy_lb_http_application_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile nsxt_policy_lb_http_application_profile}
 */
 export class PolicyLbHttpApplicationProfile extends cdktf.TerraformResource {
 
@@ -266,7 +266,7 @@ export class PolicyLbHttpApplicationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbHttpApplicationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbHttpApplicationProfile to import
-  * @param importFromId The id of the existing PolicyLbHttpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbHttpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbHttpApplicationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class PolicyLbHttpApplicationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_application_profile nsxt_policy_lb_http_application_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_application_profile nsxt_policy_lb_http_application_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class PolicyLbHttpApplicationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_http_application_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

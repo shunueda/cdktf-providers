@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase
+// https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppConnectionSupabaseConfig extends cdktf.TerraformMetaArgument
   /**
   * The credentials for the Supabase App Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#credentials AppConnectionSupabase#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#credentials AppConnectionSupabase#credentials}
   */
   readonly credentials: AppConnectionSupabaseCredentials;
   /**
   * An optional description for the Supabase App Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#description AppConnectionSupabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#description AppConnectionSupabase#description}
   */
   readonly description?: string;
   /**
   * The method used to authenticate with Supabase. Possible values are: access-token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#method AppConnectionSupabase#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#method AppConnectionSupabase#method}
   */
   readonly method: string;
   /**
   * The name of the Supabase App Connection to create. Must be slug-friendly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#name AppConnectionSupabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#name AppConnectionSupabase#name}
   */
   readonly name: string;
 }
@@ -36,13 +36,13 @@ export interface AppConnectionSupabaseCredentials {
   /**
   * The Supabase access key for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#access_key AppConnectionSupabase#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#access_key AppConnectionSupabase#access_key}
   */
   readonly accessKey: string;
   /**
   * The Supabase instance URL (e.g., https://your-domain.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#instance_url AppConnectionSupabase#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#instance_url AppConnectionSupabase#instance_url}
   */
   readonly instanceUrl?: string;
 }
@@ -162,7 +162,7 @@ export class AppConnectionSupabaseCredentialsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase infisical_app_connection_supabase}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase infisical_app_connection_supabase}
 */
 export class AppConnectionSupabase extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class AppConnectionSupabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectionSupabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectionSupabase to import
-  * @param importFromId The id of the existing AppConnectionSupabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectionSupabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectionSupabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class AppConnectionSupabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/app_connection_supabase infisical_app_connection_supabase} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/app_connection_supabase infisical_app_connection_supabase} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class AppConnectionSupabase extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_app_connection_supabase',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.54',
-        providerVersionConstraint: '0.15.54'
+        providerVersion: '0.15.55',
+        providerVersionConstraint: '0.15.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

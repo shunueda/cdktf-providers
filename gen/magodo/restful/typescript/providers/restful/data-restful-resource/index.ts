@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource
+// https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataRestfulResourceConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether to throw error if the data source being queried doesn't exist (i.e. status code is 404). Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#allow_not_exist DataRestfulResource#allow_not_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#allow_not_exist DataRestfulResource#allow_not_exist}
   */
   readonly allowNotExist?: boolean | cdktf.IResolvable;
   /**
   * The request body that is sent when using `POST` method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#body DataRestfulResource#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#body DataRestfulResource#body}
   */
   readonly body?: { [key: string]: any };
   /**
   * The header parameters that are applied to each request. This overrides the `header` set in the provider block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#header DataRestfulResource#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#header DataRestfulResource#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The ID of the Resource, i.e. The path of the data source, relative to the `base_url` of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#id DataRestfulResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#id DataRestfulResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,37 +37,37 @@ export interface DataRestfulResourceConfig extends cdktf.TerraformMetaArguments 
   /**
   * The HTTP Method for the request. Allowed methods are a subset of methods defined in [RFC7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3) namely, `GET`, `HEAD`, and `POST`. `POST` support is only intended for read-only URLs, such as submitting a search. Defaults to `GET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#method DataRestfulResource#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#method DataRestfulResource#method}
   */
   readonly method?: string;
   /**
   * A set of `output` attribute paths (in [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md)) that will be exported in the `output`. If this is not specified, all attributes will be exported by `output`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#output_attrs DataRestfulResource#output_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#output_attrs DataRestfulResource#output_attrs}
   */
   readonly outputAttrs?: string[];
   /**
   * An array of prechecks that need to pass prior to the "Read" operation. Exactly one of `mutex` or `api` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#precheck DataRestfulResource#precheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#precheck DataRestfulResource#precheck}
   */
   readonly precheck?: DataRestfulResourcePrecheck[] | cdktf.IResolvable;
   /**
   * The query parameters that are applied to each request. This overrides the `query` set in the provider block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#query DataRestfulResource#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#query DataRestfulResource#query}
   */
   readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * A selector in [gjson query syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md#queries), that is used when `id` represents a collection of resources, to select exactly one member resource of from it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#selector DataRestfulResource#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#selector DataRestfulResource#selector}
   */
   readonly selector?: string;
   /**
   * Whether to use `sensitive_output` instead of `output`. When true, the response will be stored in `sensitive_output` (which is marked as sensitive). Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#use_sensitive_output DataRestfulResource#use_sensitive_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#use_sensitive_output DataRestfulResource#use_sensitive_output}
   */
   readonly useSensitiveOutput?: boolean | cdktf.IResolvable;
 }
@@ -75,13 +75,13 @@ export interface DataRestfulResourcePrecheckApiStatus {
   /**
   * The expected status sentinels for pending status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#pending DataRestfulResource#pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#pending DataRestfulResource#pending}
   */
   readonly pending?: string[];
   /**
   * The expected status sentinel for suceess status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#success DataRestfulResource#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#success DataRestfulResource#success}
   */
   readonly success: string;
 }
@@ -203,37 +203,37 @@ export interface DataRestfulResourcePrecheckApi {
   /**
   * The interval between two pollings if there is no `Retry-After` in the response header, in second. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#default_delay_sec DataRestfulResource#default_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#default_delay_sec DataRestfulResource#default_delay_sec}
   */
   readonly defaultDelaySec?: number;
   /**
   * The header parameters. This overrides the `header` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#header DataRestfulResource#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#header DataRestfulResource#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * The path used to query readiness, relative to the `base_url` of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#path DataRestfulResource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#path DataRestfulResource#path}
   */
   readonly path: string;
   /**
   * The query parameters. This overrides the `query` set in the resource block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#query DataRestfulResource#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#query DataRestfulResource#query}
   */
   readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The expected status sentinels for each polling state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#status DataRestfulResource#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#status DataRestfulResource#status}
   */
   readonly status: DataRestfulResourcePrecheckApiStatus;
   /**
   * Specifies how to discover the status property. The format is either `code` or `scope.path`, where `scope` can be either `header` or `body`, and the `path` is using the [gjson syntax](https://github.com/tidwall/gjson/blob/master/SYNTAX.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#status_locator DataRestfulResource#status_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#status_locator DataRestfulResource#status_locator}
   */
   readonly statusLocator: string;
 }
@@ -465,13 +465,13 @@ export interface DataRestfulResourcePrecheck {
   /**
   * Keeps waiting until the specified API meets the success status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#api DataRestfulResource#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#api DataRestfulResource#api}
   */
   readonly api?: DataRestfulResourcePrecheckApi;
   /**
   * The name of the mutex, which implies the resource will keep waiting until this mutex is held
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#mutex DataRestfulResource#mutex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#mutex DataRestfulResource#mutex}
   */
   readonly mutex?: string;
 }
@@ -616,7 +616,7 @@ export class DataRestfulResourcePrecheckList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource restful_resource}
+* Represents a {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource restful_resource}
 */
 export class DataRestfulResource extends cdktf.TerraformDataSource {
 
@@ -632,7 +632,7 @@ export class DataRestfulResource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRestfulResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRestfulResource to import
-  * @param importFromId The id of the existing DataRestfulResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRestfulResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRestfulResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -644,7 +644,7 @@ export class DataRestfulResource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs/data-sources/resource restful_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magodo/restful/0.25.1/docs/data-sources/resource restful_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -655,8 +655,8 @@ export class DataRestfulResource extends cdktf.TerraformDataSource {
       terraformResourceType: 'restful_resource',
       terraformGeneratorMetadata: {
         providerName: 'restful',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.25.1',
+        providerVersionConstraint: '0.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

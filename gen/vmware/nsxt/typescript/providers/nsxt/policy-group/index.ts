@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#description PolicyGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#description PolicyGroup#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#display_name PolicyGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#display_name PolicyGroup#display_name}
   */
   readonly displayName: string;
   /**
   * The domain name to use for resources. If not specified 'default' is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#domain PolicyGroup#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#domain PolicyGroup#domain}
   */
   readonly domain?: string;
   /**
   * Indicates the group type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#group_type PolicyGroup#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#group_type PolicyGroup#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#id PolicyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#id PolicyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface PolicyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#nsx_id PolicyGroup#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#nsx_id PolicyGroup#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * conjunction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#conjunction PolicyGroup#conjunction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#conjunction PolicyGroup#conjunction}
   */
   readonly conjunction?: PolicyGroupConjunction[] | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#context PolicyGroup#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#context PolicyGroup#context}
   */
   readonly context?: PolicyGroupContext;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#criteria PolicyGroup#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#criteria PolicyGroup#criteria}
   */
   readonly criteria?: PolicyGroupCriteria[] | cdktf.IResolvable;
   /**
   * extended_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#extended_criteria PolicyGroup#extended_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#extended_criteria PolicyGroup#extended_criteria}
   */
   readonly extendedCriteria?: PolicyGroupExtendedCriteria;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#tag PolicyGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#tag PolicyGroup#tag}
   */
   readonly tag?: PolicyGroupTag[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface PolicyGroupConjunction {
   /**
   * The conjunction operator; either OR or AND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#operator PolicyGroup#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#operator PolicyGroup#operator}
   */
   readonly operator: string;
 }
@@ -194,7 +194,7 @@ export interface PolicyGroupContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#project_id PolicyGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#project_id PolicyGroup#project_id}
   */
   readonly projectId: string;
 }
@@ -277,25 +277,25 @@ export interface PolicyGroupCriteriaCondition {
   /**
   * The resource key attribute to apply the condition to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#key PolicyGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#key PolicyGroup#key}
   */
   readonly key: string;
   /**
   * The NSX member to apply the condition to. Can be one of; IPSet, LogicalPort, LogicalSwitch, Segment, SegmentPort or VirtualMachine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#member_type PolicyGroup#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#member_type PolicyGroup#member_type}
   */
   readonly memberType: string;
   /**
   * The operator to use for the condition. Can be one of; CONTAINS, ENDSWITH, EQUALS, NOTEQUALS or STARTSWITH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#operator PolicyGroup#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#operator PolicyGroup#operator}
   */
   readonly operator: string;
   /**
   * The value to check for in the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#value PolicyGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#value PolicyGroup#value}
   */
   readonly value: string;
 }
@@ -488,13 +488,13 @@ export interface PolicyGroupCriteriaExternalIdExpression {
   /**
   * List of external IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#external_ids PolicyGroup#external_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#external_ids PolicyGroup#external_ids}
   */
   readonly externalIds: string[];
   /**
   * External ID member type, default to virtual machine if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#member_type PolicyGroup#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#member_type PolicyGroup#member_type}
   */
   readonly memberType?: string;
 }
@@ -638,7 +638,7 @@ export interface PolicyGroupCriteriaIpaddressExpression {
   /**
   * List of single IP addresses, IP address ranges or Subnets. Cannot mix IPv4 and IPv6 in a single list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#ip_addresses PolicyGroup#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#ip_addresses PolicyGroup#ip_addresses}
   */
   readonly ipAddresses: string[];
 }
@@ -721,7 +721,7 @@ export interface PolicyGroupCriteriaMacaddressExpression {
   /**
   * List of Mac Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#mac_addresses PolicyGroup#mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#mac_addresses PolicyGroup#mac_addresses}
   */
   readonly macAddresses: string[];
 }
@@ -804,7 +804,7 @@ export interface PolicyGroupCriteriaPathExpression {
   /**
   * List of policy paths of direct group members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#member_paths PolicyGroup#member_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#member_paths PolicyGroup#member_paths}
   */
   readonly memberPaths: string[];
 }
@@ -887,31 +887,31 @@ export interface PolicyGroupCriteria {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#condition PolicyGroup#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#condition PolicyGroup#condition}
   */
   readonly condition?: PolicyGroupCriteriaCondition[] | cdktf.IResolvable;
   /**
   * external_id_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#external_id_expression PolicyGroup#external_id_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#external_id_expression PolicyGroup#external_id_expression}
   */
   readonly externalIdExpression?: PolicyGroupCriteriaExternalIdExpression[] | cdktf.IResolvable;
   /**
   * ipaddress_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#ipaddress_expression PolicyGroup#ipaddress_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#ipaddress_expression PolicyGroup#ipaddress_expression}
   */
   readonly ipaddressExpression?: PolicyGroupCriteriaIpaddressExpression;
   /**
   * macaddress_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#macaddress_expression PolicyGroup#macaddress_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#macaddress_expression PolicyGroup#macaddress_expression}
   */
   readonly macaddressExpression?: PolicyGroupCriteriaMacaddressExpression;
   /**
   * path_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#path_expression PolicyGroup#path_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#path_expression PolicyGroup#path_expression}
   */
   readonly pathExpression?: PolicyGroupCriteriaPathExpression;
 }
@@ -1145,19 +1145,19 @@ export interface PolicyGroupExtendedCriteriaIdentityGroup {
   /**
   * LDAP distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#distinguished_name PolicyGroup#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#distinguished_name PolicyGroup#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
   * Identity (Directory) domain base distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#domain_base_distinguished_name PolicyGroup#domain_base_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#domain_base_distinguished_name PolicyGroup#domain_base_distinguished_name}
   */
   readonly domainBaseDistinguishedName?: string;
   /**
   * Identity (Directory) Group SID (security identifier)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#sid PolicyGroup#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#sid PolicyGroup#sid}
   */
   readonly sid?: string;
 }
@@ -1333,7 +1333,7 @@ export interface PolicyGroupExtendedCriteria {
   /**
   * identity_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#identity_group PolicyGroup#identity_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#identity_group PolicyGroup#identity_group}
   */
   readonly identityGroup: PolicyGroupExtendedCriteriaIdentityGroup[] | cdktf.IResolvable;
 }
@@ -1414,11 +1414,11 @@ export class PolicyGroupExtendedCriteriaOutputReference extends cdktf.ComplexObj
 }
 export interface PolicyGroupTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#scope PolicyGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#scope PolicyGroup#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#tag PolicyGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#tag PolicyGroup#tag}
   */
   readonly tag?: string;
 }
@@ -1563,7 +1563,7 @@ export class PolicyGroupTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group nsxt_policy_group}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group nsxt_policy_group}
 */
 export class PolicyGroup extends cdktf.TerraformResource {
 
@@ -1579,7 +1579,7 @@ export class PolicyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGroup to import
-  * @param importFromId The id of the existing PolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1591,7 +1591,7 @@ export class PolicyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_group nsxt_policy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_group nsxt_policy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1602,8 +1602,8 @@ export class PolicyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_group',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

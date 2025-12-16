@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,46 @@ export interface DataHoneycombioEnvironmentsConfig extends cdktf.TerraformMetaAr
   /**
   * detail_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments#detail_filter DataHoneycombioEnvironments#detail_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments#detail_filter DataHoneycombioEnvironments#detail_filter}
   */
   readonly detailFilter?: DataHoneycombioEnvironmentsDetailFilter[] | cdktf.IResolvable;
 }
 export interface DataHoneycombioEnvironmentsDetailFilter {
   /**
-  * The field to filter by (e.g., 'name', 'id', 'description', etc.).
+  * The name of the detail field to filter by. This must match a schema attribute of the resource (e.g., `name`, `description`, `id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments#name DataHoneycombioEnvironments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments#name DataHoneycombioEnvironments#name}
   */
   readonly name: string;
   /**
-  * The comparison operator. The default is 'equals'.
+  * The comparison operator to use for filtering. Defaults to `equals`. Valid operators include:
+  *   * `equals`, `=`, `eq` - Exact match comparison
+  *   * `not-equals`, `!=`, `ne` - Inverse exact match comparison
+  *   * `contains`, `in` - Substring inclusion check
+  *   * `does-not-contain`, `not-in` - Inverse substring inclusion check
+  *   * `starts-with` - Prefix matching
+  *   * `does-not-start-with` - Inverse prefix matching
+  *   * `ends-with` - Suffix matching
+  *   * `does-not-end-with` - Inverse suffix matching
+  *   * `>`, `gt` - Numeric greater than comparison
+  *   * `>=`, `ge` - Numeric greater than or equal comparison
+  *   * `<`, `lt` - Numeric less than comparison
+  *   * `<=`, `le` - Numeric less than or equal comparison
+  *   * `does-not-exist` - Field absence check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments#operator DataHoneycombioEnvironments#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments#operator DataHoneycombioEnvironments#operator}
   */
   readonly operator?: string;
   /**
-  * The value of the detail field to match on.
+  * The value of the detail field to match on. Required unless `value_regex` is set or `operator` is `does-not-exist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments#value DataHoneycombioEnvironments#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments#value DataHoneycombioEnvironments#value}
   */
   readonly value?: string;
   /**
-  * A regular expression string to apply to the value of the detail field to match on.
+  * A regular expression string to apply to the value of the detail field to match on. Required unless `value` is set or `operator` is `does-not-exist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments#value_regex DataHoneycombioEnvironments#value_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments#value_regex DataHoneycombioEnvironments#value_regex}
   */
   readonly valueRegex?: string;
 }
@@ -236,7 +249,7 @@ export class DataHoneycombioEnvironmentsDetailFilterList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments honeycombio_environments}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments honeycombio_environments}
 */
 export class DataHoneycombioEnvironments extends cdktf.TerraformDataSource {
 
@@ -252,7 +265,7 @@ export class DataHoneycombioEnvironments extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHoneycombioEnvironments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHoneycombioEnvironments to import
-  * @param importFromId The id of the existing DataHoneycombioEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHoneycombioEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHoneycombioEnvironments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +277,7 @@ export class DataHoneycombioEnvironments extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/data-sources/environments honeycombio_environments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/data-sources/environments honeycombio_environments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +288,8 @@ export class DataHoneycombioEnvironments extends cdktf.TerraformDataSource {
       terraformResourceType: 'honeycombio_environments',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

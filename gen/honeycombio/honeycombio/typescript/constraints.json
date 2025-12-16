@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "honeycombio": "0.43.0"
+    "honeycombio": "0.44.0"
   }
 }

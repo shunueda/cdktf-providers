@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DtsMigrateJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * The automatic retry time period can be set from 5 to 720 minutes, with 0 indicating no retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#auto_retry_time_range_minutes DtsMigrateJob#auto_retry_time_range_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#auto_retry_time_range_minutes DtsMigrateJob#auto_retry_time_range_minutes}
   */
   readonly autoRetryTimeRangeMinutes?: number;
   /**
   * Expected start time in the format of `2006-01-02 15:04:05`, which is required if RunMode is timed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#expect_run_time DtsMigrateJob#expect_run_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#expect_run_time DtsMigrateJob#expect_run_time}
   */
   readonly expectRunTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#id DtsMigrateJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#id DtsMigrateJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DtsMigrateJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Running mode. Valid values: immediate, timed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#run_mode DtsMigrateJob#run_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#run_mode DtsMigrateJob#run_mode}
   */
   readonly runMode: string;
   /**
   * Migrate service Id from `tencentcloud_dts_migrate_service`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#service_id DtsMigrateJob#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#service_id DtsMigrateJob#service_id}
   */
   readonly serviceId: string;
   /**
   * dst_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#dst_info DtsMigrateJob#dst_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#dst_info DtsMigrateJob#dst_info}
   */
   readonly dstInfo: DtsMigrateJobDstInfo;
   /**
   * migrate_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#migrate_option DtsMigrateJob#migrate_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#migrate_option DtsMigrateJob#migrate_option}
   */
   readonly migrateOption: DtsMigrateJobMigrateOption;
   /**
   * src_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#src_info DtsMigrateJob#src_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#src_info DtsMigrateJob#src_info}
   */
   readonly srcInfo: DtsMigrateJobSrcInfo;
 }
@@ -61,13 +61,13 @@ export interface DtsMigrateJobDstInfoExtraAttr {
   /**
   * Option key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#key DtsMigrateJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#key DtsMigrateJob#key}
   */
   readonly key?: string;
   /**
   * Option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#value DtsMigrateJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#value DtsMigrateJob#value}
   */
   readonly value?: string;
 }
@@ -214,121 +214,121 @@ export interface DtsMigrateJobDstInfoInfo {
   /**
   * Instance account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#account DtsMigrateJob#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#account DtsMigrateJob#account}
   */
   readonly account?: string;
   /**
   * The account to which the resource belongs. Valid values: empty or self (the current account); other (another account).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#account_mode DtsMigrateJob#account_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#account_mode DtsMigrateJob#account_mode}
   */
   readonly accountMode?: string;
   /**
   * The role used for cross-account migration, which can contain [a-zA-Z0-9-_]+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#account_role DtsMigrateJob#account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#account_role DtsMigrateJob#account_role}
   */
   readonly accountRole?: string;
   /**
   * CCN instance ID such as ccn-afp6kltc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#ccn_gw_id DtsMigrateJob#ccn_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#ccn_gw_id DtsMigrateJob#ccn_gw_id}
   */
   readonly ccnGwId?: string;
   /**
   * Short CVM instance ID in the format of ins-olgl39y8, which is required if the access type is cvm. It is the same as the instance ID displayed in the CVM console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#cvm_instance_id DtsMigrateJob#cvm_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#cvm_instance_id DtsMigrateJob#cvm_instance_id}
   */
   readonly cvmInstanceId?: string;
   /**
   * Kernel version, such as the different kernel versions of MariaDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#db_kernel DtsMigrateJob#db_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#db_kernel DtsMigrateJob#db_kernel}
   */
   readonly dbKernel?: string;
   /**
   * Database version in the format of 5.6 or 5.7, which takes effect only if the instance is an RDS instance. Default value: 5.6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#engine_version DtsMigrateJob#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#engine_version DtsMigrateJob#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Instance IP address, which is required for the following access types: public network, Direct Connect, VPN, CCN, intranet, and VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#host DtsMigrateJob#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#host DtsMigrateJob#host}
   */
   readonly host?: string;
   /**
   * Database instance ID in the format of cdb-powiqx8q, which is required if the access type is cdb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#instance_id DtsMigrateJob#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#instance_id DtsMigrateJob#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Instance password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#password DtsMigrateJob#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#password DtsMigrateJob#password}
   */
   readonly password?: string;
   /**
   * Instance port, which is required for the following access types: public network, self-build on CVM, Direct Connect, VPN, CCN, intranet, and VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#port DtsMigrateJob#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#port DtsMigrateJob#port}
   */
   readonly port?: number;
   /**
   * Node role in a distributed database, such as the mongos node in MongoDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#role DtsMigrateJob#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#role DtsMigrateJob#role}
   */
   readonly role?: string;
   /**
   * ID of the subnet in the VPC in the format of subnet-3paxmkdz, which is required if the access type is vpc, vpncloud, ccn, or dcg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#subnet_id DtsMigrateJob#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#subnet_id DtsMigrateJob#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Temporary SecretId, you can obtain the temporary key by GetFederationToken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_secret_id DtsMigrateJob#tmp_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_secret_id DtsMigrateJob#tmp_secret_id}
   */
   readonly tmpSecretId?: string;
   /**
   * Temporary SecretKey, you can obtain the temporary key by GetFederationToken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_secret_key DtsMigrateJob#tmp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_secret_key DtsMigrateJob#tmp_secret_key}
   */
   readonly tmpSecretKey?: string;
   /**
   * Temporary token, you can obtain the temporary key by GetFederationToken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_token DtsMigrateJob#tmp_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_token DtsMigrateJob#tmp_token}
   */
   readonly tmpToken?: string;
   /**
   * Direct Connect gateway ID in the format of dcg-0rxtqqxb, which is required if the access type is dcg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#uniq_dcg_id DtsMigrateJob#uniq_dcg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#uniq_dcg_id DtsMigrateJob#uniq_dcg_id}
   */
   readonly uniqDcgId?: string;
   /**
   * VPN gateway ID in the format of vpngw-9ghexg7q, which is required if the access type is vpncloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#uniq_vpn_gw_id DtsMigrateJob#uniq_vpn_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#uniq_vpn_gw_id DtsMigrateJob#uniq_vpn_gw_id}
   */
   readonly uniqVpnGwId?: string;
   /**
   * Instance username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#user DtsMigrateJob#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#user DtsMigrateJob#user}
   */
   readonly user?: string;
   /**
   * VPC ID in the format of vpc-92jblxto, which is required if the access type is vpc, vpncloud, ccn, or dcg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#vpc_id DtsMigrateJob#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#vpc_id DtsMigrateJob#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -997,43 +997,43 @@ export interface DtsMigrateJobDstInfo {
   /**
   * Instances network access type. Valid values: extranet (public network); ipv6 (public IPv6); cvm (self-build on CVM); dcg (Direct Connect); vpncloud (VPN access); cdb (database); ccn (CCN); intranet (intranet); vpc (VPC). Note that the valid values are subject to the current link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#access_type DtsMigrateJob#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#access_type DtsMigrateJob#access_type}
   */
   readonly accessType: string;
   /**
   * Database type, such as mysql, redis, mongodb, postgresql, mariadb, and percona.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#database_type DtsMigrateJob#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#database_type DtsMigrateJob#database_type}
   */
   readonly databaseType: string;
   /**
   * Node type, empty or simple indicates a general node, cluster indicates a cluster node; for mongo services, valid values: replicaset (mongodb replica set), standalone (mongodb single node), cluster (mongodb cluster); for redis instances, valid values: empty or simple (single node), cluster (cluster), cluster-cache (cache cluster), cluster-proxy (proxy cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#node_type DtsMigrateJob#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#node_type DtsMigrateJob#node_type}
   */
   readonly nodeType: string;
   /**
   * Instance region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#region DtsMigrateJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#region DtsMigrateJob#region}
   */
   readonly region: string;
   /**
   * Instance service provider, such as `aliyun` and `others`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#supplier DtsMigrateJob#supplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#supplier DtsMigrateJob#supplier}
   */
   readonly supplier?: string;
   /**
   * extra_attr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#extra_attr DtsMigrateJob#extra_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#extra_attr DtsMigrateJob#extra_attr}
   */
   readonly extraAttr?: DtsMigrateJobDstInfoExtraAttr[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#info DtsMigrateJob#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#info DtsMigrateJob#info}
   */
   readonly info: DtsMigrateJobDstInfoInfo[] | cdktf.IResolvable;
 }
@@ -1278,7 +1278,7 @@ export interface DtsMigrateJobMigrateOptionConsistency {
   /**
   * Data consistency check type. Valid values: full, noCheck, notConfigured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#mode DtsMigrateJob#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#mode DtsMigrateJob#mode}
   */
   readonly mode?: string;
 }
@@ -1364,13 +1364,13 @@ export interface DtsMigrateJobMigrateOptionDatabaseTableDatabasesRoles {
   /**
   * Role name after migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#new_role_name DtsMigrateJob#new_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#new_role_name DtsMigrateJob#new_role_name}
   */
   readonly newRoleName?: string;
   /**
   * Role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#role_name DtsMigrateJob#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#role_name DtsMigrateJob#role_name}
   */
   readonly roleName?: string;
 }
@@ -1517,25 +1517,25 @@ export interface DtsMigrateJobMigrateOptionDatabaseTableDatabasesTables {
   /**
   * New name of the migrated table. This parameter is required when TableEditMode is rename. It is mutually exclusive with TmpTables..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#new_table_name DtsMigrateJob#new_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#new_table_name DtsMigrateJob#new_table_name}
   */
   readonly newTableName?: string;
   /**
   * Table editing type. Valid values: rename (table mapping); pt (additional table sync).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#table_edit_mode DtsMigrateJob#table_edit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#table_edit_mode DtsMigrateJob#table_edit_mode}
   */
   readonly tableEditMode?: string;
   /**
   * Name of the migrated table, which is case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#table_name DtsMigrateJob#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#table_name DtsMigrateJob#table_name}
   */
   readonly tableName?: string;
   /**
   * The temp tables to be migrated. This parameter is mutually exclusive with NewTableName. It is valid only when the configured migration objects are table-level ones and TableEditMode is pt. To migrate temp tables generated when pt-osc or other tools are used during the migration process, you must configure this parameter first. For example, if you want to perform the pt-osc operation on a table named 't1', configure this parameter as ['_t1_new','_t1_old']; to perform the gh-ost operation on t1, configure it as ['_t1_ghc','_t1_gho','_t1_del']. Temp tables generated by pt-osc and gh-ost operations can be configured at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_tables DtsMigrateJob#tmp_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_tables DtsMigrateJob#tmp_tables}
   */
   readonly tmpTables?: string[];
 }
@@ -1740,13 +1740,13 @@ export interface DtsMigrateJobMigrateOptionDatabaseTableDatabasesViews {
   /**
   * View name after migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#new_view_name DtsMigrateJob#new_view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#new_view_name DtsMigrateJob#new_view_name}
   */
   readonly newViewName?: string;
   /**
   * View name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#view_name DtsMigrateJob#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#view_name DtsMigrateJob#view_name}
   */
   readonly viewName?: string;
 }
@@ -1893,121 +1893,121 @@ export interface DtsMigrateJobMigrateOptionDatabaseTableDatabases {
   /**
   * Database selection mode, which is required if ObjectMode is partial. Valid values: all, partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#db_mode DtsMigrateJob#db_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#db_mode DtsMigrateJob#db_mode}
   */
   readonly dbMode?: string;
   /**
   * Name of the database to be migrated or synced, which is required if ObjectMode is partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#db_name DtsMigrateJob#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#db_name DtsMigrateJob#db_name}
   */
   readonly dbName?: string;
   /**
   * Sync mode. Valid values: partial, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#event_mode DtsMigrateJob#event_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#event_mode DtsMigrateJob#event_mode}
   */
   readonly eventMode?: string;
   /**
   * This parameter is required if EventMode is partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#events DtsMigrateJob#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#events DtsMigrateJob#events}
   */
   readonly events?: string[];
   /**
   * Sync mode. Valid values: partial, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#function_mode DtsMigrateJob#function_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#function_mode DtsMigrateJob#function_mode}
   */
   readonly functionMode?: string;
   /**
   * This parameter is required if FunctionMode is partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#functions DtsMigrateJob#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#functions DtsMigrateJob#functions}
   */
   readonly functions?: string[];
   /**
   * Name of the database after migration or sync, which is the same as the source database name by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#new_db_name DtsMigrateJob#new_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#new_db_name DtsMigrateJob#new_db_name}
   */
   readonly newDbName?: string;
   /**
   * Name of the schema after migration or sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#new_schema_name DtsMigrateJob#new_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#new_schema_name DtsMigrateJob#new_schema_name}
   */
   readonly newSchemaName?: string;
   /**
   * Sync mode. Valid values: partial, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#procedure_mode DtsMigrateJob#procedure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#procedure_mode DtsMigrateJob#procedure_mode}
   */
   readonly procedureMode?: string;
   /**
   * This parameter is required if ProcedureMode is partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#procedures DtsMigrateJob#procedures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#procedures DtsMigrateJob#procedures}
   */
   readonly procedures?: string[];
   /**
   * Role selection mode, which is exclusive to PostgreSQL. Valid values: all, partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#role_mode DtsMigrateJob#role_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#role_mode DtsMigrateJob#role_mode}
   */
   readonly roleMode?: string;
   /**
   * Schema selection mode. Valid values: all, partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#schema_mode DtsMigrateJob#schema_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#schema_mode DtsMigrateJob#schema_mode}
   */
   readonly schemaMode?: string;
   /**
   * The schema to be migrated or synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#schema_name DtsMigrateJob#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#schema_name DtsMigrateJob#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Table selection mode, which is required if DBMode is partial. Valid values: all, partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#table_mode DtsMigrateJob#table_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#table_mode DtsMigrateJob#table_mode}
   */
   readonly tableMode?: string;
   /**
   * Sync mode. Valid values: partial, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#trigger_mode DtsMigrateJob#trigger_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#trigger_mode DtsMigrateJob#trigger_mode}
   */
   readonly triggerMode?: string;
   /**
   * This parameter is required if TriggerMode is partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#triggers DtsMigrateJob#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#triggers DtsMigrateJob#triggers}
   */
   readonly triggers?: string[];
   /**
   * View selection mode. Valid values: all, partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#view_mode DtsMigrateJob#view_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#view_mode DtsMigrateJob#view_mode}
   */
   readonly viewMode?: string;
   /**
   * roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#roles DtsMigrateJob#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#roles DtsMigrateJob#roles}
   */
   readonly roles?: DtsMigrateJobMigrateOptionDatabaseTableDatabasesRoles[] | cdktf.IResolvable;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tables DtsMigrateJob#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tables DtsMigrateJob#tables}
   */
   readonly tables?: DtsMigrateJobMigrateOptionDatabaseTableDatabasesTables[] | cdktf.IResolvable;
   /**
   * views block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#views DtsMigrateJob#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#views DtsMigrateJob#views}
   */
   readonly views?: DtsMigrateJobMigrateOptionDatabaseTableDatabasesViews[] | cdktf.IResolvable;
 }
@@ -2676,19 +2676,19 @@ export interface DtsMigrateJobMigrateOptionDatabaseTable {
   /**
   * Advanced object types, such as trigger, function, procedure, event. Note: If you want to migrate and synchronize advanced objects, the corresponding advanced object type should be included in this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#advanced_objects DtsMigrateJob#advanced_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#advanced_objects DtsMigrateJob#advanced_objects}
   */
   readonly advancedObjects?: string[];
   /**
   * Migration object type. Valid values: all, partial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#object_mode DtsMigrateJob#object_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#object_mode DtsMigrateJob#object_mode}
   */
   readonly objectMode: string;
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#databases DtsMigrateJob#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#databases DtsMigrateJob#databases}
   */
   readonly databases?: DtsMigrateJobMigrateOptionDatabaseTableDatabases[] | cdktf.IResolvable;
 }
@@ -2829,13 +2829,13 @@ export interface DtsMigrateJobMigrateOptionExtraAttr {
   /**
   * Option key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#key DtsMigrateJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#key DtsMigrateJob#key}
   */
   readonly key?: string;
   /**
   * Option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#value DtsMigrateJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#value DtsMigrateJob#value}
   */
   readonly value?: string;
 }
@@ -2982,43 +2982,43 @@ export interface DtsMigrateJobMigrateOption {
   /**
   * Whether to set the target database to read-only during migration, which takes effect only for MySQL databases. Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#is_dst_read_only DtsMigrateJob#is_dst_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#is_dst_read_only DtsMigrateJob#is_dst_read_only}
   */
   readonly isDstReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Whether to migrate accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#is_migrate_account DtsMigrateJob#is_migrate_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#is_migrate_account DtsMigrateJob#is_migrate_account}
   */
   readonly isMigrateAccount?: boolean | cdktf.IResolvable;
   /**
   * Whether to use the Root account in the source database to overwrite that in the target database. Valid values: false, true. For database/table or structural migration, you should specify false. Note that this parameter takes effect only for OldDTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#is_override_root DtsMigrateJob#is_override_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#is_override_root DtsMigrateJob#is_override_root}
   */
   readonly isOverrideRoot?: boolean | cdktf.IResolvable;
   /**
   * Migration type. Valid values: full, structure, fullAndIncrement. Default value: fullAndIncrement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#migrate_type DtsMigrateJob#migrate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#migrate_type DtsMigrateJob#migrate_type}
   */
   readonly migrateType?: string;
   /**
   * consistency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#consistency DtsMigrateJob#consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#consistency DtsMigrateJob#consistency}
   */
   readonly consistency?: DtsMigrateJobMigrateOptionConsistency;
   /**
   * database_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#database_table DtsMigrateJob#database_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#database_table DtsMigrateJob#database_table}
   */
   readonly databaseTable: DtsMigrateJobMigrateOptionDatabaseTable;
   /**
   * extra_attr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#extra_attr DtsMigrateJob#extra_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#extra_attr DtsMigrateJob#extra_attr}
   */
   readonly extraAttr?: DtsMigrateJobMigrateOptionExtraAttr[] | cdktf.IResolvable;
 }
@@ -3275,13 +3275,13 @@ export interface DtsMigrateJobSrcInfoExtraAttr {
   /**
   * Option key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#key DtsMigrateJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#key DtsMigrateJob#key}
   */
   readonly key?: string;
   /**
   * Option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#value DtsMigrateJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#value DtsMigrateJob#value}
   */
   readonly value?: string;
 }
@@ -3428,121 +3428,121 @@ export interface DtsMigrateJobSrcInfoInfo {
   /**
   * Instance account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#account DtsMigrateJob#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#account DtsMigrateJob#account}
   */
   readonly account?: string;
   /**
   * The account to which the resource belongs. Valid values: empty or self (the current account); other (another account).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#account_mode DtsMigrateJob#account_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#account_mode DtsMigrateJob#account_mode}
   */
   readonly accountMode?: string;
   /**
   * The role used for cross-account migration, which can contain [a-zA-Z0-9-_]+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#account_role DtsMigrateJob#account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#account_role DtsMigrateJob#account_role}
   */
   readonly accountRole?: string;
   /**
   * CCN instance ID such as ccn-afp6kltc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#ccn_gw_id DtsMigrateJob#ccn_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#ccn_gw_id DtsMigrateJob#ccn_gw_id}
   */
   readonly ccnGwId?: string;
   /**
   * Short CVM instance ID in the format of ins-olgl39y8, which is required if the access type is cvm. It is the same as the instance ID displayed in the CVM console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#cvm_instance_id DtsMigrateJob#cvm_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#cvm_instance_id DtsMigrateJob#cvm_instance_id}
   */
   readonly cvmInstanceId?: string;
   /**
   * Kernel version, such as the different kernel versions of MariaDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#db_kernel DtsMigrateJob#db_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#db_kernel DtsMigrateJob#db_kernel}
   */
   readonly dbKernel?: string;
   /**
   * Database version in the format of 5.6 or 5.7, which takes effect only if the instance is an RDS instance. Default value: 5.6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#engine_version DtsMigrateJob#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#engine_version DtsMigrateJob#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Instance IP address, which is required for the following access types: public network, Direct Connect, VPN, CCN, intranet, and VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#host DtsMigrateJob#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#host DtsMigrateJob#host}
   */
   readonly host?: string;
   /**
   * Database instance ID in the format of cdb-powiqx8q, which is required if the access type is cdb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#instance_id DtsMigrateJob#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#instance_id DtsMigrateJob#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Instance password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#password DtsMigrateJob#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#password DtsMigrateJob#password}
   */
   readonly password?: string;
   /**
   * Instance port, which is required for the following access types: public network, self-build on CVM, Direct Connect, VPN, CCN, intranet, and VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#port DtsMigrateJob#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#port DtsMigrateJob#port}
   */
   readonly port?: number;
   /**
   * Node role in a distributed database, such as the mongos node in MongoDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#role DtsMigrateJob#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#role DtsMigrateJob#role}
   */
   readonly role?: string;
   /**
   * ID of the subnet in the VPC in the format of subnet-3paxmkdz, which is required if the access type is vpc, vpncloud, ccn, or dcg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#subnet_id DtsMigrateJob#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#subnet_id DtsMigrateJob#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Temporary SecretId, you can obtain the temporary key by GetFederationToken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_secret_id DtsMigrateJob#tmp_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_secret_id DtsMigrateJob#tmp_secret_id}
   */
   readonly tmpSecretId?: string;
   /**
   * Temporary SecretKey, you can obtain the temporary key by GetFederationToken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_secret_key DtsMigrateJob#tmp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_secret_key DtsMigrateJob#tmp_secret_key}
   */
   readonly tmpSecretKey?: string;
   /**
   * Temporary token, you can obtain the temporary key by GetFederationToken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#tmp_token DtsMigrateJob#tmp_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#tmp_token DtsMigrateJob#tmp_token}
   */
   readonly tmpToken?: string;
   /**
   * Direct Connect gateway ID in the format of dcg-0rxtqqxb, which is required if the access type is dcg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#uniq_dcg_id DtsMigrateJob#uniq_dcg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#uniq_dcg_id DtsMigrateJob#uniq_dcg_id}
   */
   readonly uniqDcgId?: string;
   /**
   * VPN gateway ID in the format of vpngw-9ghexg7q, which is required if the access type is vpncloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#uniq_vpn_gw_id DtsMigrateJob#uniq_vpn_gw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#uniq_vpn_gw_id DtsMigrateJob#uniq_vpn_gw_id}
   */
   readonly uniqVpnGwId?: string;
   /**
   * Instance username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#user DtsMigrateJob#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#user DtsMigrateJob#user}
   */
   readonly user?: string;
   /**
   * VPC ID in the format of vpc-92jblxto, which is required if the access type is vpc, vpncloud, ccn, or dcg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#vpc_id DtsMigrateJob#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#vpc_id DtsMigrateJob#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -4211,43 +4211,43 @@ export interface DtsMigrateJobSrcInfo {
   /**
   * Instances network access type. Valid values: extranet (public network); ipv6 (public IPv6); cvm (self-build on CVM); dcg (Direct Connect); vpncloud (VPN access); cdb (database); ccn (CCN); intranet (intranet); vpc (VPC). Note that the valid values are subject to the current link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#access_type DtsMigrateJob#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#access_type DtsMigrateJob#access_type}
   */
   readonly accessType: string;
   /**
   * Database type, such as mysql, redis, mongodb, postgresql, mariadb, and percona.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#database_type DtsMigrateJob#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#database_type DtsMigrateJob#database_type}
   */
   readonly databaseType: string;
   /**
   * Node type, empty or simple indicates a general node, cluster indicates a cluster node; for mongo services, valid values: replicaset (mongodb replica set), standalone (mongodb single node), cluster (mongodb cluster); for redis instances, valid values: empty or simple (single node), cluster (cluster), cluster-cache (cache cluster), cluster-proxy (proxy cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#node_type DtsMigrateJob#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#node_type DtsMigrateJob#node_type}
   */
   readonly nodeType: string;
   /**
   * Instance region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#region DtsMigrateJob#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#region DtsMigrateJob#region}
   */
   readonly region: string;
   /**
   * Instance service provider, such as `aliyun` and `others`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#supplier DtsMigrateJob#supplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#supplier DtsMigrateJob#supplier}
   */
   readonly supplier?: string;
   /**
   * extra_attr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#extra_attr DtsMigrateJob#extra_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#extra_attr DtsMigrateJob#extra_attr}
   */
   readonly extraAttr?: DtsMigrateJobSrcInfoExtraAttr[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#info DtsMigrateJob#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#info DtsMigrateJob#info}
   */
   readonly info: DtsMigrateJobSrcInfoInfo[] | cdktf.IResolvable;
 }
@@ -4490,7 +4490,7 @@ export class DtsMigrateJobSrcInfoOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job tencentcloud_dts_migrate_job}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job tencentcloud_dts_migrate_job}
 */
 export class DtsMigrateJob extends cdktf.TerraformResource {
 
@@ -4506,7 +4506,7 @@ export class DtsMigrateJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsMigrateJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsMigrateJob to import
-  * @param importFromId The id of the existing DtsMigrateJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsMigrateJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsMigrateJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4518,7 +4518,7 @@ export class DtsMigrateJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dts_migrate_job tencentcloud_dts_migrate_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dts_migrate_job tencentcloud_dts_migrate_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4529,8 +4529,8 @@ export class DtsMigrateJob extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dts_migrate_job',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

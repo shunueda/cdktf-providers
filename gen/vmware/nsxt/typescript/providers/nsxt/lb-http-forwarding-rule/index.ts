@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LbHttpForwardingRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#description LbHttpForwardingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#description LbHttpForwardingRule#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#display_name LbHttpForwardingRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#display_name LbHttpForwardingRule#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#id LbHttpForwardingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#id LbHttpForwardingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface LbHttpForwardingRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * Strategy when multiple match conditions are specified in one rule (ANY vs ALL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#match_strategy LbHttpForwardingRule#match_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#match_strategy LbHttpForwardingRule#match_strategy}
   */
   readonly matchStrategy?: string;
   /**
   * body_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#body_condition LbHttpForwardingRule#body_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#body_condition LbHttpForwardingRule#body_condition}
   */
   readonly bodyCondition?: LbHttpForwardingRuleBodyCondition[] | cdktf.IResolvable;
   /**
   * cookie_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#cookie_condition LbHttpForwardingRule#cookie_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#cookie_condition LbHttpForwardingRule#cookie_condition}
   */
   readonly cookieCondition?: LbHttpForwardingRuleCookieCondition[] | cdktf.IResolvable;
   /**
   * header_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#header_condition LbHttpForwardingRule#header_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#header_condition LbHttpForwardingRule#header_condition}
   */
   readonly headerCondition?: LbHttpForwardingRuleHeaderCondition[] | cdktf.IResolvable;
   /**
   * http_redirect_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#http_redirect_action LbHttpForwardingRule#http_redirect_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#http_redirect_action LbHttpForwardingRule#http_redirect_action}
   */
   readonly httpRedirectAction?: LbHttpForwardingRuleHttpRedirectAction;
   /**
   * http_reject_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#http_reject_action LbHttpForwardingRule#http_reject_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#http_reject_action LbHttpForwardingRule#http_reject_action}
   */
   readonly httpRejectAction?: LbHttpForwardingRuleHttpRejectAction;
   /**
   * ip_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#ip_condition LbHttpForwardingRule#ip_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#ip_condition LbHttpForwardingRule#ip_condition}
   */
   readonly ipCondition?: LbHttpForwardingRuleIpCondition[] | cdktf.IResolvable;
   /**
   * method_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#method_condition LbHttpForwardingRule#method_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#method_condition LbHttpForwardingRule#method_condition}
   */
   readonly methodCondition?: LbHttpForwardingRuleMethodCondition[] | cdktf.IResolvable;
   /**
   * select_pool_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#select_pool_action LbHttpForwardingRule#select_pool_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#select_pool_action LbHttpForwardingRule#select_pool_action}
   */
   readonly selectPoolAction?: LbHttpForwardingRuleSelectPoolAction;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#tag LbHttpForwardingRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#tag LbHttpForwardingRule#tag}
   */
   readonly tag?: LbHttpForwardingRuleTag[] | cdktf.IResolvable;
   /**
   * tcp_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#tcp_condition LbHttpForwardingRule#tcp_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#tcp_condition LbHttpForwardingRule#tcp_condition}
   */
   readonly tcpCondition?: LbHttpForwardingRuleTcpCondition[] | cdktf.IResolvable;
   /**
   * uri_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#uri_condition LbHttpForwardingRule#uri_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#uri_condition LbHttpForwardingRule#uri_condition}
   */
   readonly uriCondition?: LbHttpForwardingRuleUriCondition[] | cdktf.IResolvable;
   /**
   * version_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#version_condition LbHttpForwardingRule#version_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#version_condition LbHttpForwardingRule#version_condition}
   */
   readonly versionCondition?: LbHttpForwardingRuleVersionCondition;
 }
@@ -109,23 +109,23 @@ export interface LbHttpForwardingRuleBodyCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#value LbHttpForwardingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#value LbHttpForwardingRule#value}
   */
   readonly value: string;
 }
@@ -324,27 +324,27 @@ export interface LbHttpForwardingRuleCookieCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#name LbHttpForwardingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#name LbHttpForwardingRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#value LbHttpForwardingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#value LbHttpForwardingRule#value}
   */
   readonly value: string;
 }
@@ -569,27 +569,27 @@ export interface LbHttpForwardingRuleHeaderCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#name LbHttpForwardingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#name LbHttpForwardingRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#value LbHttpForwardingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#value LbHttpForwardingRule#value}
   */
   readonly value: string;
 }
@@ -812,11 +812,11 @@ export class LbHttpForwardingRuleHeaderConditionList extends cdktf.ComplexList {
 }
 export interface LbHttpForwardingRuleHttpRedirectAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#redirect_status LbHttpForwardingRule#redirect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#redirect_status LbHttpForwardingRule#redirect_status}
   */
   readonly redirectStatus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#redirect_url LbHttpForwardingRule#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#redirect_url LbHttpForwardingRule#redirect_url}
   */
   readonly redirectUrl: string;
 }
@@ -923,11 +923,11 @@ export class LbHttpForwardingRuleHttpRedirectActionOutputReference extends cdktf
 }
 export interface LbHttpForwardingRuleHttpRejectAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#reply_message LbHttpForwardingRule#reply_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#reply_message LbHttpForwardingRule#reply_message}
   */
   readonly replyMessage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#reply_status LbHttpForwardingRule#reply_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#reply_status LbHttpForwardingRule#reply_status}
   */
   readonly replyStatus: string;
 }
@@ -1036,11 +1036,11 @@ export interface LbHttpForwardingRuleIpCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#source_address LbHttpForwardingRule#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#source_address LbHttpForwardingRule#source_address}
   */
   readonly sourceAddress: string;
 }
@@ -1184,11 +1184,11 @@ export interface LbHttpForwardingRuleMethodCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#method LbHttpForwardingRule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#method LbHttpForwardingRule#method}
   */
   readonly method: string;
 }
@@ -1330,7 +1330,7 @@ export class LbHttpForwardingRuleMethodConditionList extends cdktf.ComplexList {
 }
 export interface LbHttpForwardingRuleSelectPoolAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#pool_id LbHttpForwardingRule#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#pool_id LbHttpForwardingRule#pool_id}
   */
   readonly poolId: string;
 }
@@ -1411,11 +1411,11 @@ export class LbHttpForwardingRuleSelectPoolActionOutputReference extends cdktf.C
 }
 export interface LbHttpForwardingRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#scope LbHttpForwardingRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#scope LbHttpForwardingRule#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#tag LbHttpForwardingRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#tag LbHttpForwardingRule#tag}
   */
   readonly tag?: string;
 }
@@ -1562,11 +1562,11 @@ export interface LbHttpForwardingRuleTcpCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#source_port LbHttpForwardingRule#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#source_port LbHttpForwardingRule#source_port}
   */
   readonly sourcePort: string;
 }
@@ -1710,23 +1710,23 @@ export interface LbHttpForwardingRuleUriCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#case_sensitive LbHttpForwardingRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#match_type LbHttpForwardingRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#uri LbHttpForwardingRule#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#uri LbHttpForwardingRule#uri}
   */
   readonly uri: string;
 }
@@ -1925,11 +1925,11 @@ export interface LbHttpForwardingRuleVersionCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#inverse LbHttpForwardingRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#version LbHttpForwardingRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#version LbHttpForwardingRule#version}
   */
   readonly version: string;
 }
@@ -2039,7 +2039,7 @@ export class LbHttpForwardingRuleVersionConditionOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule nsxt_lb_http_forwarding_rule}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule nsxt_lb_http_forwarding_rule}
 */
 export class LbHttpForwardingRule extends cdktf.TerraformResource {
 
@@ -2055,7 +2055,7 @@ export class LbHttpForwardingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbHttpForwardingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbHttpForwardingRule to import
-  * @param importFromId The id of the existing LbHttpForwardingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbHttpForwardingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbHttpForwardingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2067,7 +2067,7 @@ export class LbHttpForwardingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_forwarding_rule nsxt_lb_http_forwarding_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_forwarding_rule nsxt_lb_http_forwarding_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2078,8 +2078,8 @@ export class LbHttpForwardingRule extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_http_forwarding_rule',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

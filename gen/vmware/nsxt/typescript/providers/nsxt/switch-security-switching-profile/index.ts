@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface SwitchSecuritySwitchingProfileConfig extends cdktf.TerraformMet
   /**
   * Indicates whether DHCP client blocking is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#block_client_dhcp SwitchSecuritySwitchingProfile#block_client_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#block_client_dhcp SwitchSecuritySwitchingProfile#block_client_dhcp}
   */
   readonly blockClientDhcp?: boolean | cdktf.IResolvable;
   /**
   * Block all traffic except IP/(G)ARP/BPDU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#block_non_ip SwitchSecuritySwitchingProfile#block_non_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#block_non_ip SwitchSecuritySwitchingProfile#block_non_ip}
   */
   readonly blockNonIp?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether DHCP server blocking is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#block_server_dhcp SwitchSecuritySwitchingProfile#block_server_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#block_server_dhcp SwitchSecuritySwitchingProfile#block_server_dhcp}
   */
   readonly blockServerDhcp?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether BPDU filter is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#bpdu_filter_enabled SwitchSecuritySwitchingProfile#bpdu_filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#bpdu_filter_enabled SwitchSecuritySwitchingProfile#bpdu_filter_enabled}
   */
   readonly bpduFilterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Set of allowed MAC addresses to be excluded from BPDU filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#bpdu_filter_whitelist SwitchSecuritySwitchingProfile#bpdu_filter_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#bpdu_filter_whitelist SwitchSecuritySwitchingProfile#bpdu_filter_whitelist}
   */
   readonly bpduFilterWhitelist?: string[];
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#description SwitchSecuritySwitchingProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#description SwitchSecuritySwitchingProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#display_name SwitchSecuritySwitchingProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#display_name SwitchSecuritySwitchingProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#id SwitchSecuritySwitchingProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#id SwitchSecuritySwitchingProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,13 +59,13 @@ export interface SwitchSecuritySwitchingProfileConfig extends cdktf.TerraformMet
   /**
   * rate_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#rate_limits SwitchSecuritySwitchingProfile#rate_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#rate_limits SwitchSecuritySwitchingProfile#rate_limits}
   */
   readonly rateLimits?: SwitchSecuritySwitchingProfileRateLimits;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#tag SwitchSecuritySwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#tag SwitchSecuritySwitchingProfile#tag}
   */
   readonly tag?: SwitchSecuritySwitchingProfileTag[] | cdktf.IResolvable;
 }
@@ -73,31 +73,31 @@ export interface SwitchSecuritySwitchingProfileRateLimits {
   /**
   * Whether rate limiting is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#enabled SwitchSecuritySwitchingProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#enabled SwitchSecuritySwitchingProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Incoming broadcast traffic limit in packets per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#rx_broadcast SwitchSecuritySwitchingProfile#rx_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#rx_broadcast SwitchSecuritySwitchingProfile#rx_broadcast}
   */
   readonly rxBroadcast?: number;
   /**
   * Incoming multicast traffic limit in packets per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#rx_multicast SwitchSecuritySwitchingProfile#rx_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#rx_multicast SwitchSecuritySwitchingProfile#rx_multicast}
   */
   readonly rxMulticast?: number;
   /**
   * Outgoing broadcast traffic limit in packets per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#tx_broadcast SwitchSecuritySwitchingProfile#tx_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#tx_broadcast SwitchSecuritySwitchingProfile#tx_broadcast}
   */
   readonly txBroadcast?: number;
   /**
   * Outgoing multicast traffic limit in packets per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#tx_multicast SwitchSecuritySwitchingProfile#tx_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#tx_multicast SwitchSecuritySwitchingProfile#tx_multicast}
   */
   readonly txMulticast?: number;
 }
@@ -297,11 +297,11 @@ export class SwitchSecuritySwitchingProfileRateLimitsOutputReference extends cdk
 }
 export interface SwitchSecuritySwitchingProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#scope SwitchSecuritySwitchingProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#scope SwitchSecuritySwitchingProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#tag SwitchSecuritySwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#tag SwitchSecuritySwitchingProfile#tag}
   */
   readonly tag?: string;
 }
@@ -446,7 +446,7 @@ export class SwitchSecuritySwitchingProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile nsxt_switch_security_switching_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile nsxt_switch_security_switching_profile}
 */
 export class SwitchSecuritySwitchingProfile extends cdktf.TerraformResource {
 
@@ -462,7 +462,7 @@ export class SwitchSecuritySwitchingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchSecuritySwitchingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchSecuritySwitchingProfile to import
-  * @param importFromId The id of the existing SwitchSecuritySwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchSecuritySwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchSecuritySwitchingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class SwitchSecuritySwitchingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/switch_security_switching_profile nsxt_switch_security_switching_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/switch_security_switching_profile nsxt_switch_security_switching_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class SwitchSecuritySwitchingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_switch_security_switching_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

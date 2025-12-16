@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#cert_authority_name SolacebrokerClientCertAuthority#cert_authority_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#cert_authority_name SolacebrokerClientCertAuthority#cert_authority_name}
   */
   readonly certAuthorityName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#cert_content SolacebrokerClientCertAuthority#cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#cert_content SolacebrokerClientCertAuthority#cert_content}
   */
   readonly certContent?: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"daily"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#crl_day_list SolacebrokerClientCertAuthority#crl_day_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#crl_day_list SolacebrokerClientCertAuthority#crl_day_list}
   */
   readonly crlDayList?: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"3:00"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#crl_time_list SolacebrokerClientCertAuthority#crl_time_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#crl_time_list SolacebrokerClientCertAuthority#crl_time_list}
   */
   readonly crlTimeList?: string;
   /**
@@ -44,7 +44,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as revocation_check_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#crl_url SolacebrokerClientCertAuthority#crl_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#crl_url SolacebrokerClientCertAuthority#crl_url}
   */
   readonly crlUrl?: string;
   /**
@@ -52,7 +52,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#ocsp_non_responder_cert_enabled SolacebrokerClientCertAuthority#ocsp_non_responder_cert_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#ocsp_non_responder_cert_enabled SolacebrokerClientCertAuthority#ocsp_non_responder_cert_enabled}
   */
   readonly ocspNonResponderCertEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -60,7 +60,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#ocsp_override_url SolacebrokerClientCertAuthority#ocsp_override_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#ocsp_override_url SolacebrokerClientCertAuthority#ocsp_override_url}
   */
   readonly ocspOverrideUrl?: string;
   /**
@@ -68,7 +68,7 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#ocsp_timeout SolacebrokerClientCertAuthority#ocsp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#ocsp_timeout SolacebrokerClientCertAuthority#ocsp_timeout}
   */
   readonly ocspTimeout?: number;
   /**
@@ -76,13 +76,13 @@ export interface SolacebrokerClientCertAuthorityConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#revocation_check_enabled SolacebrokerClientCertAuthority#revocation_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#revocation_check_enabled SolacebrokerClientCertAuthority#revocation_check_enabled}
   */
   readonly revocationCheckEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority solacebroker_client_cert_authority}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority solacebroker_client_cert_authority}
 */
 export class SolacebrokerClientCertAuthority extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class SolacebrokerClientCertAuthority extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerClientCertAuthority resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerClientCertAuthority to import
-  * @param importFromId The id of the existing SolacebrokerClientCertAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerClientCertAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerClientCertAuthority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class SolacebrokerClientCertAuthority extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_client_cert_authority solacebroker_client_cert_authority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_client_cert_authority solacebroker_client_cert_authority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class SolacebrokerClientCertAuthority extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_client_cert_authority',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

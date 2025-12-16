@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SavedFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * VQL Query used for this saved filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter#filter SavedFilter#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter#filter SavedFilter#filter}
   */
   readonly filter?: string;
   /**
   * Title of the Saved Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter#title SavedFilter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter#title SavedFilter#title}
   */
   readonly title: string;
   /**
   * Workspace token to add the saved filter into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter#workspace_token SavedFilter#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter#workspace_token SavedFilter#workspace_token}
   */
   readonly workspaceToken: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter vantage_saved_filter}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter vantage_saved_filter}
 */
 export class SavedFilter extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SavedFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SavedFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SavedFilter to import
-  * @param importFromId The id of the existing SavedFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SavedFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SavedFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SavedFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/saved_filter vantage_saved_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/saved_filter vantage_saved_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SavedFilter extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_saved_filter',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

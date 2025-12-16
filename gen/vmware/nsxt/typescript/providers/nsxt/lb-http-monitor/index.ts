@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbHttpMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#description LbHttpMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#description LbHttpMonitor#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#display_name LbHttpMonitor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#display_name LbHttpMonitor#display_name}
   */
   readonly displayName?: string;
   /**
   * Number of consecutive checks that must fail before marking it down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#fall_count LbHttpMonitor#fall_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#fall_count LbHttpMonitor#fall_count}
   */
   readonly fallCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#id LbHttpMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#id LbHttpMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface LbHttpMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The frequency at which the system issues the monitor check (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#interval LbHttpMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#interval LbHttpMonitor#interval}
   */
   readonly interval?: number;
   /**
   * If the monitor port is specified, it would override pool member port setting for healthcheck. A port range is not supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#monitor_port LbHttpMonitor#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#monitor_port LbHttpMonitor#monitor_port}
   */
   readonly monitorPort?: string;
   /**
   * String to send as HTTP health check request body. Valid only for certain HTTP methods like POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#request_body LbHttpMonitor#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#request_body LbHttpMonitor#request_body}
   */
   readonly requestBody?: string;
   /**
   * Health check method for HTTP monitor type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#request_method LbHttpMonitor#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#request_method LbHttpMonitor#request_method}
   */
   readonly requestMethod?: string;
   /**
   * URL used for HTTP monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#request_url LbHttpMonitor#request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#request_url LbHttpMonitor#request_url}
   */
   readonly requestUrl?: string;
   /**
   * HTTP request version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#request_version LbHttpMonitor#request_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#request_version LbHttpMonitor#request_version}
   */
   readonly requestVersion?: string;
   /**
   * If HTTP specified, healthcheck HTTP response body is matched against the specified string (regular expressions not supported), and succeeds only if there is a match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#response_body LbHttpMonitor#response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#response_body LbHttpMonitor#response_body}
   */
   readonly responseBody?: string;
   /**
   * The HTTP response status code should be a valid HTTP status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#response_status_codes LbHttpMonitor#response_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#response_status_codes LbHttpMonitor#response_status_codes}
   */
   readonly responseStatusCodes?: number[];
   /**
   * Number of consecutive checks that must pass before marking it up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#rise_count LbHttpMonitor#rise_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#rise_count LbHttpMonitor#rise_count}
   */
   readonly riseCount?: number;
   /**
   * Number of seconds the target has to respond to the monitor request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#timeout LbHttpMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#timeout LbHttpMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#request_header LbHttpMonitor#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#request_header LbHttpMonitor#request_header}
   */
   readonly requestHeader?: LbHttpMonitorRequestHeader[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#tag LbHttpMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#tag LbHttpMonitor#tag}
   */
   readonly tag?: LbHttpMonitorTag[] | cdktf.IResolvable;
 }
@@ -109,13 +109,13 @@ export interface LbHttpMonitorRequestHeader {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#name LbHttpMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#name LbHttpMonitor#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#value LbHttpMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#value LbHttpMonitor#value}
   */
   readonly value: string;
 }
@@ -254,11 +254,11 @@ export class LbHttpMonitorRequestHeaderList extends cdktf.ComplexList {
 }
 export interface LbHttpMonitorTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#scope LbHttpMonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#scope LbHttpMonitor#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#tag LbHttpMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#tag LbHttpMonitor#tag}
   */
   readonly tag?: string;
 }
@@ -403,7 +403,7 @@ export class LbHttpMonitorTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor nsxt_lb_http_monitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor nsxt_lb_http_monitor}
 */
 export class LbHttpMonitor extends cdktf.TerraformResource {
 
@@ -419,7 +419,7 @@ export class LbHttpMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbHttpMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbHttpMonitor to import
-  * @param importFromId The id of the existing LbHttpMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbHttpMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbHttpMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -431,7 +431,7 @@ export class LbHttpMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_monitor nsxt_lb_http_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_monitor nsxt_lb_http_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -442,8 +442,8 @@ export class LbHttpMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_http_monitor',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TdmqTopicWithFullIdConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Dedicated Cluster Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#cluster_id TdmqTopicWithFullId#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#cluster_id TdmqTopicWithFullId#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of tdmq namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#environ_id TdmqTopicWithFullId#environ_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#environ_id TdmqTopicWithFullId#environ_id}
   */
   readonly environId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#id TdmqTopicWithFullId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#id TdmqTopicWithFullId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface TdmqTopicWithFullIdConfig extends cdktf.TerraformMetaArguments 
   /**
   * The partitions of topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#partitions TdmqTopicWithFullId#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#partitions TdmqTopicWithFullId#partitions}
   */
   readonly partitions: number;
   /**
   * Pulsar Topic Type 0: Non-persistent non-partitioned 1: Non-persistent partitioned 2: Persistent non-partitioned 3: Persistent partitioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#pulsar_topic_type TdmqTopicWithFullId#pulsar_topic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#pulsar_topic_type TdmqTopicWithFullId#pulsar_topic_type}
   */
   readonly pulsarTopicType?: number;
   /**
   * Description of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#remark TdmqTopicWithFullId#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#remark TdmqTopicWithFullId#remark}
   */
   readonly remark?: string;
   /**
   * The name of topic to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#topic_name TdmqTopicWithFullId#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#topic_name TdmqTopicWithFullId#topic_name}
   */
   readonly topicName: string;
   /**
   * The type of topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#topic_type TdmqTopicWithFullId#topic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#topic_type TdmqTopicWithFullId#topic_type}
   */
   readonly topicType?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id tencentcloud_tdmq_topic_with_full_id}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id tencentcloud_tdmq_topic_with_full_id}
 */
 export class TdmqTopicWithFullId extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TdmqTopicWithFullId extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqTopicWithFullId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqTopicWithFullId to import
-  * @param importFromId The id of the existing TdmqTopicWithFullId that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqTopicWithFullId that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqTopicWithFullId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TdmqTopicWithFullId extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_topic_with_full_id tencentcloud_tdmq_topic_with_full_id} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_topic_with_full_id tencentcloud_tdmq_topic_with_full_id} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TdmqTopicWithFullId extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_topic_with_full_id',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

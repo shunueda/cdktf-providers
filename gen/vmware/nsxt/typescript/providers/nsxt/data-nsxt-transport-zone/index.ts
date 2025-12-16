@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNsxtTransportZoneConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone#description DataNsxtTransportZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone#description DataNsxtTransportZone#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone#display_name DataNsxtTransportZone#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone#display_name DataNsxtTransportZone#display_name}
   */
   readonly displayName?: string;
   /**
   * Name of the host switch on all transport nodes in this transport zone that will be used to run NSX network traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone#host_switch_name DataNsxtTransportZone#host_switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone#host_switch_name DataNsxtTransportZone#host_switch_name}
   */
   readonly hostSwitchName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone#id DataNsxtTransportZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone#id DataNsxtTransportZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,13 +37,13 @@ export interface DataNsxtTransportZoneConfig extends cdktf.TerraformMetaArgument
   /**
   * The transport type of this transport zone (OVERLAY or VLAN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone#transport_type DataNsxtTransportZone#transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone#transport_type DataNsxtTransportZone#transport_type}
   */
   readonly transportType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone nsxt_transport_zone}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone nsxt_transport_zone}
 */
 export class DataNsxtTransportZone extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataNsxtTransportZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtTransportZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtTransportZone to import
-  * @param importFromId The id of the existing DataNsxtTransportZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtTransportZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtTransportZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataNsxtTransportZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/transport_zone nsxt_transport_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/transport_zone nsxt_transport_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataNsxtTransportZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_transport_zone',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

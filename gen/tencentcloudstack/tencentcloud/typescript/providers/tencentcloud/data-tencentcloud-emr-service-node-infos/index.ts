@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudEmrServiceNodeInfosConfig extends cdktf.Terrafo
   /**
   * Configuration Status, -2: Configuration Failed, -1: Configuration Expired, 1: Synchronized, -99 All.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#conf_status DataTencentcloudEmrServiceNodeInfos#conf_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#conf_status DataTencentcloudEmrServiceNodeInfos#conf_status}
   */
   readonly confStatus?: number;
   /**
   * Filter Condition: Whether DN is in Maintenance Mode - 0 represents all statuses, 1 represents in maintenance mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#data_node_maintenance_id DataTencentcloudEmrServiceNodeInfos#data_node_maintenance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#data_node_maintenance_id DataTencentcloudEmrServiceNodeInfos#data_node_maintenance_id}
   */
   readonly dataNodeMaintenanceId?: number;
   /**
   * Filter Conditions: Health Status, 0 represents unavailable, 1 represents good, -2 represents unknown, -99 represents all, -3 represents potential risks, -4 represents not detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#health_state_id DataTencentcloudEmrServiceNodeInfos#health_state_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#health_state_id DataTencentcloudEmrServiceNodeInfos#health_state_id}
   */
   readonly healthStateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#id DataTencentcloudEmrServiceNodeInfos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#id DataTencentcloudEmrServiceNodeInfos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface DataTencentcloudEmrServiceNodeInfosConfig extends cdktf.Terrafo
   /**
   * EMR Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#instance_id DataTencentcloudEmrServiceNodeInfos#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#instance_id DataTencentcloudEmrServiceNodeInfos#instance_id}
   */
   readonly instanceId: string;
   /**
   * Number of Items per Page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#limit DataTencentcloudEmrServiceNodeInfos#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#limit DataTencentcloudEmrServiceNodeInfos#limit}
   */
   readonly limit?: number;
   /**
   * Filter Condition: Maintenance Status - 0 represents all statuses, 1 represents normal mode, 2 represents maintenance mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#maintain_state_id DataTencentcloudEmrServiceNodeInfos#maintain_state_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#maintain_state_id DataTencentcloudEmrServiceNodeInfos#maintain_state_id}
   */
   readonly maintainStateId?: number;
   /**
   * Node Names: master, core, task, common, router, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#node_type_name DataTencentcloudEmrServiceNodeInfos#node_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#node_type_name DataTencentcloudEmrServiceNodeInfos#node_type_name}
   */
   readonly nodeTypeName?: string;
   /**
   * Page Number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#offset DataTencentcloudEmrServiceNodeInfos#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#offset DataTencentcloudEmrServiceNodeInfos#offset}
   */
   readonly offset?: number;
   /**
   * Filter Condition: Operation Status - 0 represents all statuses, 1 represents started, 2 represents stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#operator_state_id DataTencentcloudEmrServiceNodeInfos#operator_state_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#operator_state_id DataTencentcloudEmrServiceNodeInfos#operator_state_id}
   */
   readonly operatorStateId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#result_output_file DataTencentcloudEmrServiceNodeInfos#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#result_output_file DataTencentcloudEmrServiceNodeInfos#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Search Field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#search_text DataTencentcloudEmrServiceNodeInfos#search_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#search_text DataTencentcloudEmrServiceNodeInfos#search_text}
   */
   readonly searchText?: string;
   /**
   * Service Component Name, all in uppercase, e.g., YARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#service_name DataTencentcloudEmrServiceNodeInfos#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#service_name DataTencentcloudEmrServiceNodeInfos#service_name}
   */
   readonly serviceName?: string;
   /**
   * search_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#search_fields DataTencentcloudEmrServiceNodeInfos#search_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#search_fields DataTencentcloudEmrServiceNodeInfos#search_fields}
   */
   readonly searchFields?: DataTencentcloudEmrServiceNodeInfosSearchFields[] | cdktf.IResolvable;
 }
@@ -545,13 +545,13 @@ export interface DataTencentcloudEmrServiceNodeInfosSearchFields {
   /**
   * Types Supported for Search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#search_type DataTencentcloudEmrServiceNodeInfos#search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#search_type DataTencentcloudEmrServiceNodeInfos#search_type}
   */
   readonly searchType: string;
   /**
   * Values Supported for Search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#search_value DataTencentcloudEmrServiceNodeInfos#search_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#search_value DataTencentcloudEmrServiceNodeInfos#search_value}
   */
   readonly searchValue: string;
 }
@@ -690,7 +690,7 @@ export class DataTencentcloudEmrServiceNodeInfosSearchFieldsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos tencentcloud_emr_service_node_infos}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos tencentcloud_emr_service_node_infos}
 */
 export class DataTencentcloudEmrServiceNodeInfos extends cdktf.TerraformDataSource {
 
@@ -706,7 +706,7 @@ export class DataTencentcloudEmrServiceNodeInfos extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudEmrServiceNodeInfos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEmrServiceNodeInfos to import
-  * @param importFromId The id of the existing DataTencentcloudEmrServiceNodeInfos that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEmrServiceNodeInfos that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEmrServiceNodeInfos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -718,7 +718,7 @@ export class DataTencentcloudEmrServiceNodeInfos extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/emr_service_node_infos tencentcloud_emr_service_node_infos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/emr_service_node_infos tencentcloud_emr_service_node_infos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -729,8 +729,8 @@ export class DataTencentcloudEmrServiceNodeInfos extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_emr_service_node_infos',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

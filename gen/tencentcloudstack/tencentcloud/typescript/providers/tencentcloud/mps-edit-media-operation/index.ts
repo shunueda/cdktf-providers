@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MpsEditMediaOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#id MpsEditMediaOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#id MpsEditMediaOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface MpsEditMediaOperationConfig extends cdktf.TerraformMetaArgument
   /**
   * The path to save the media processing output file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#output_object_path MpsEditMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#output_object_path MpsEditMediaOperation#output_object_path}
   */
   readonly outputObjectPath: string;
   /**
   * The source context which is used to pass through the user request information. The task flow status change callback will return the value of this field. It can contain up to 1,000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#session_context MpsEditMediaOperation#session_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#session_context MpsEditMediaOperation#session_context}
   */
   readonly sessionContext?: string;
   /**
   * The ID used for deduplication. If there was a request with the same ID in the last three days, the current request will return an error. The ID can contain up to 50 characters. If this parameter is left empty or an empty string is entered, no deduplication will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#session_id MpsEditMediaOperation#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#session_id MpsEditMediaOperation#session_id}
   */
   readonly sessionId?: string;
   /**
   * Task priority. The higher the value, the higher the priority. Value range: [-10,10]. If this parameter is left empty, 0 will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#tasks_priority MpsEditMediaOperation#tasks_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#tasks_priority MpsEditMediaOperation#tasks_priority}
   */
   readonly tasksPriority?: number;
   /**
   * file_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#file_infos MpsEditMediaOperation#file_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#file_infos MpsEditMediaOperation#file_infos}
   */
   readonly fileInfos: MpsEditMediaOperationFileInfos[] | cdktf.IResolvable;
   /**
   * output_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#output_config MpsEditMediaOperation#output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#output_config MpsEditMediaOperation#output_config}
   */
   readonly outputConfig?: MpsEditMediaOperationOutputConfig;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#output_storage MpsEditMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#output_storage MpsEditMediaOperation#output_storage}
   */
   readonly outputStorage: MpsEditMediaOperationOutputStorage;
   /**
   * task_notify_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#task_notify_config MpsEditMediaOperation#task_notify_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#task_notify_config MpsEditMediaOperation#task_notify_config}
   */
   readonly taskNotifyConfig?: MpsEditMediaOperationTaskNotifyConfig;
 }
@@ -67,19 +67,19 @@ export interface MpsEditMediaOperationFileInfosInputInfoCosInputInfo {
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#bucket MpsEditMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#bucket MpsEditMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#object MpsEditMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#object MpsEditMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#region MpsEditMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#region MpsEditMediaOperation#region}
   */
   readonly region: string;
 }
@@ -214,31 +214,31 @@ export interface MpsEditMediaOperationFileInfosInputInfoS3InputInfo {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_bucket MpsEditMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_bucket MpsEditMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_object MpsEditMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_object MpsEditMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_region MpsEditMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_region MpsEditMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_secret_id MpsEditMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_secret_id MpsEditMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_secret_key MpsEditMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_secret_key MpsEditMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -431,7 +431,7 @@ export interface MpsEditMediaOperationFileInfosInputInfoUrlInputInfo {
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#url MpsEditMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#url MpsEditMediaOperation#url}
   */
   readonly url: string;
 }
@@ -514,25 +514,25 @@ export interface MpsEditMediaOperationFileInfosInputInfo {
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#type MpsEditMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#type MpsEditMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#cos_input_info MpsEditMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#cos_input_info MpsEditMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsEditMediaOperationFileInfosInputInfoCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_input_info MpsEditMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_input_info MpsEditMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsEditMediaOperationFileInfosInputInfoS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#url_input_info MpsEditMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#url_input_info MpsEditMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsEditMediaOperationFileInfosInputInfoUrlInputInfo;
 }
@@ -702,19 +702,19 @@ export interface MpsEditMediaOperationFileInfos {
   /**
   * End time offset of video clipping in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#end_time_offset MpsEditMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#end_time_offset MpsEditMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of video clipping in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#start_time_offset MpsEditMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#start_time_offset MpsEditMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#input_info MpsEditMediaOperation#input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#input_info MpsEditMediaOperation#input_info}
   */
   readonly inputInfo: MpsEditMediaOperationFileInfosInputInfo;
 }
@@ -887,13 +887,13 @@ export interface MpsEditMediaOperationOutputConfig {
   /**
   * Format. Valid values: `mp4` (default), `hls`, `mov`, `flv`, `avi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#container MpsEditMediaOperation#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#container MpsEditMediaOperation#container}
   */
   readonly container?: string;
   /**
   * The editing mode. Valid values are `normal` and `fast`. The default is `normal`, which indicates precise editing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#type MpsEditMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#type MpsEditMediaOperation#type}
   */
   readonly type?: string;
 }
@@ -1008,13 +1008,13 @@ export interface MpsEditMediaOperationOutputStorageCosOutputStorage {
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#bucket MpsEditMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#bucket MpsEditMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#region MpsEditMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#region MpsEditMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -1129,25 +1129,25 @@ export interface MpsEditMediaOperationOutputStorageS3OutputStorage {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_bucket MpsEditMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_bucket MpsEditMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_region MpsEditMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_region MpsEditMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_secret_id MpsEditMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_secret_id MpsEditMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_secret_key MpsEditMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_secret_key MpsEditMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -1314,19 +1314,19 @@ export interface MpsEditMediaOperationOutputStorage {
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS. `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#type MpsEditMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#type MpsEditMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#cos_output_storage MpsEditMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#cos_output_storage MpsEditMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsEditMediaOperationOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_output_storage MpsEditMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_output_storage MpsEditMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsEditMediaOperationOutputStorageS3OutputStorage;
 }
@@ -1467,25 +1467,25 @@ export interface MpsEditMediaOperationTaskNotifyConfigAwsSqs {
   /**
   * The key ID required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_secret_id MpsEditMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_secret_id MpsEditMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#s3_secret_key MpsEditMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#s3_secret_key MpsEditMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * The name of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#sqs_queue_name MpsEditMediaOperation#sqs_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#sqs_queue_name MpsEditMediaOperation#sqs_queue_name}
   */
   readonly sqsQueueName: string;
   /**
   * The region of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#sqs_region MpsEditMediaOperation#sqs_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#sqs_region MpsEditMediaOperation#sqs_region}
   */
   readonly sqsRegion: string;
 }
@@ -1652,49 +1652,49 @@ export interface MpsEditMediaOperationTaskNotifyConfig {
   /**
   * The CMQ or TDMQ-CMQ model. Valid values: Queue, Topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#cmq_model MpsEditMediaOperation#cmq_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#cmq_model MpsEditMediaOperation#cmq_model}
   */
   readonly cmqModel?: string;
   /**
   * The CMQ or TDMQ-CMQ region, such as `sh` (Shanghai) or `bj` (Beijing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#cmq_region MpsEditMediaOperation#cmq_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#cmq_region MpsEditMediaOperation#cmq_region}
   */
   readonly cmqRegion?: string;
   /**
   * Workflow notification method. Valid values: Finish, Change. If this parameter is left empty, `Finish` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#notify_mode MpsEditMediaOperation#notify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#notify_mode MpsEditMediaOperation#notify_mode}
   */
   readonly notifyMode?: string;
   /**
   * The notification type. Valid values: `CMQ`: This value is no longer used. Please use `TDMQ-CMQ` instead. `TDMQ-CMQ`: Message queue. `URL`: If `NotifyType` is set to `URL`, HTTP callbacks are sent to the URL specified by `NotifyUrl`. HTTP and JSON are used for the callbacks. The packet contains the response parameters of the `ParseNotification` API. `SCF`: This notification type is not recommended. You need to configure it in the SCF console. `AWS-SQS`: AWS queue. This type is only supported for AWS tasks, and the queue must be in the same region as the AWS bucket. If you do not pass this parameter or pass in an empty string, `CMQ` will be used. To use a different notification type, specify this parameter accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#notify_type MpsEditMediaOperation#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#notify_type MpsEditMediaOperation#notify_type}
   */
   readonly notifyType?: string;
   /**
   * HTTP callback URL, required if `NotifyType` is set to `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#notify_url MpsEditMediaOperation#notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#notify_url MpsEditMediaOperation#notify_url}
   */
   readonly notifyUrl?: string;
   /**
   * The CMQ or TDMQ-CMQ queue to receive notifications. This parameter is valid when `CmqModel` is `Queue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#queue_name MpsEditMediaOperation#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#queue_name MpsEditMediaOperation#queue_name}
   */
   readonly queueName?: string;
   /**
   * The CMQ or TDMQ-CMQ topic to receive notifications. This parameter is valid when `CmqModel` is `Topic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#topic_name MpsEditMediaOperation#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#topic_name MpsEditMediaOperation#topic_name}
   */
   readonly topicName?: string;
   /**
   * aws_sqs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#aws_sqs MpsEditMediaOperation#aws_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#aws_sqs MpsEditMediaOperation#aws_sqs}
   */
   readonly awsSqs?: MpsEditMediaOperationTaskNotifyConfigAwsSqs;
 }
@@ -1981,7 +1981,7 @@ export class MpsEditMediaOperationTaskNotifyConfigOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation tencentcloud_mps_edit_media_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation tencentcloud_mps_edit_media_operation}
 */
 export class MpsEditMediaOperation extends cdktf.TerraformResource {
 
@@ -1997,7 +1997,7 @@ export class MpsEditMediaOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsEditMediaOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsEditMediaOperation to import
-  * @param importFromId The id of the existing MpsEditMediaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsEditMediaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsEditMediaOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2009,7 +2009,7 @@ export class MpsEditMediaOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_edit_media_operation tencentcloud_mps_edit_media_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_edit_media_operation tencentcloud_mps_edit_media_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2020,8 +2020,8 @@ export class MpsEditMediaOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_edit_media_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

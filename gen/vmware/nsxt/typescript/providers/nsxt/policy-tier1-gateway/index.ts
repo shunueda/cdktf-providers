@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface PolicyTier1GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default rule logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#default_rule_logging PolicyTier1Gateway#default_rule_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#default_rule_logging PolicyTier1Gateway#default_rule_logging}
   */
   readonly defaultRuleLogging?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#description PolicyTier1Gateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#description PolicyTier1Gateway#description}
   */
   readonly description?: string;
   /**
   * Policy path to DHCP server or relay configuration to use for this Tier1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#dhcp_config_path PolicyTier1Gateway#dhcp_config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#dhcp_config_path PolicyTier1Gateway#dhcp_config_path}
   */
   readonly dhcpConfigPath?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#display_name PolicyTier1Gateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#display_name PolicyTier1Gateway#display_name}
   */
   readonly displayName: string;
   /**
   * The path of the edge cluster connected to this gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#edge_cluster_path PolicyTier1Gateway#edge_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#edge_cluster_path PolicyTier1Gateway#edge_cluster_path}
   */
   readonly edgeClusterPath?: string;
   /**
   * Policy path to gateway QoS profile in egress direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#egress_qos_profile_path PolicyTier1Gateway#egress_qos_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#egress_qos_profile_path PolicyTier1Gateway#egress_qos_profile_path}
   */
   readonly egressQosProfilePath?: string;
   /**
   * Enable edge firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#enable_firewall PolicyTier1Gateway#enable_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#enable_firewall PolicyTier1Gateway#enable_firewall}
   */
   readonly enableFirewall?: boolean | cdktf.IResolvable;
   /**
   * Enable standby relocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#enable_standby_relocation PolicyTier1Gateway#enable_standby_relocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#enable_standby_relocation PolicyTier1Gateway#enable_standby_relocation}
   */
   readonly enableStandbyRelocation?: boolean | cdktf.IResolvable;
   /**
   * Failover mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#failover_mode PolicyTier1Gateway#failover_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#failover_mode PolicyTier1Gateway#failover_mode}
   */
   readonly failoverMode?: string;
   /**
   * Force whitelisting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#force_whitelisting PolicyTier1Gateway#force_whitelisting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#force_whitelisting PolicyTier1Gateway#force_whitelisting}
   */
   readonly forceWhitelisting?: boolean | cdktf.IResolvable;
   /**
   * High-availability Mode for Tier-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#ha_mode PolicyTier1Gateway#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#ha_mode PolicyTier1Gateway#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#id PolicyTier1Gateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#id PolicyTier1Gateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,79 +83,79 @@ export interface PolicyTier1GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy path to gateway QoS profile in ingress direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#ingress_qos_profile_path PolicyTier1Gateway#ingress_qos_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#ingress_qos_profile_path PolicyTier1Gateway#ingress_qos_profile_path}
   */
   readonly ingressQosProfilePath?: string;
   /**
   * The path of an IPv6 DAD profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#ipv6_dad_profile_path PolicyTier1Gateway#ipv6_dad_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#ipv6_dad_profile_path PolicyTier1Gateway#ipv6_dad_profile_path}
   */
   readonly ipv6DadProfilePath?: string;
   /**
   * The path of an IPv6 NDRA profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#ipv6_ndra_profile_path PolicyTier1Gateway#ipv6_ndra_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#ipv6_ndra_profile_path PolicyTier1Gateway#ipv6_ndra_profile_path}
   */
   readonly ipv6NdraProfilePath?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#nsx_id PolicyTier1Gateway#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#nsx_id PolicyTier1Gateway#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Edge node allocation at different sizes for routing and load balancer service to meet performance and scalability requirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#pool_allocation PolicyTier1Gateway#pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#pool_allocation PolicyTier1Gateway#pool_allocation}
   */
   readonly poolAllocation?: string;
   /**
   * Enable different types of route advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#route_advertisement_types PolicyTier1Gateway#route_advertisement_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#route_advertisement_types PolicyTier1Gateway#route_advertisement_types}
   */
   readonly routeAdvertisementTypes?: string[];
   /**
   * The path of the connected Tier0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#tier0_path PolicyTier1Gateway#tier0_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#tier0_path PolicyTier1Gateway#tier0_path}
   */
   readonly tier0Path?: string;
   /**
   * Tier-1 Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#type PolicyTier1Gateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#type PolicyTier1Gateway#type}
   */
   readonly type?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#context PolicyTier1Gateway#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#context PolicyTier1Gateway#context}
   */
   readonly context?: PolicyTier1GatewayContext;
   /**
   * intersite_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#intersite_config PolicyTier1Gateway#intersite_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#intersite_config PolicyTier1Gateway#intersite_config}
   */
   readonly intersiteConfig?: PolicyTier1GatewayIntersiteConfig;
   /**
   * locale_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#locale_service PolicyTier1Gateway#locale_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#locale_service PolicyTier1Gateway#locale_service}
   */
   readonly localeService?: PolicyTier1GatewayLocaleService[] | cdktf.IResolvable;
   /**
   * route_advertisement_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#route_advertisement_rule PolicyTier1Gateway#route_advertisement_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#route_advertisement_rule PolicyTier1Gateway#route_advertisement_rule}
   */
   readonly routeAdvertisementRule?: PolicyTier1GatewayRouteAdvertisementRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#tag PolicyTier1Gateway#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#tag PolicyTier1Gateway#tag}
   */
   readonly tag?: PolicyTier1GatewayTag[] | cdktf.IResolvable;
 }
@@ -163,7 +163,7 @@ export interface PolicyTier1GatewayContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#project_id PolicyTier1Gateway#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#project_id PolicyTier1Gateway#project_id}
   */
   readonly projectId: string;
 }
@@ -246,19 +246,19 @@ export interface PolicyTier1GatewayIntersiteConfig {
   /**
   * Fallback sites to be used as new primary site on current primary site failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#fallback_site_paths PolicyTier1Gateway#fallback_site_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#fallback_site_paths PolicyTier1Gateway#fallback_site_paths}
   */
   readonly fallbackSitePaths?: string[];
   /**
   * Primary egress site for gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#primary_site_path PolicyTier1Gateway#primary_site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#primary_site_path PolicyTier1Gateway#primary_site_path}
   */
   readonly primarySitePath?: string;
   /**
   * IPv4 subnet for inter-site transit segment connecting service routers across sites for stretched gateway. For IPv6 link local subnet is auto configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#transit_subnet PolicyTier1Gateway#transit_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#transit_subnet PolicyTier1Gateway#transit_subnet}
   */
   readonly transitSubnet?: string;
 }
@@ -402,19 +402,19 @@ export interface PolicyTier1GatewayLocaleService {
   /**
   * The path of the edge cluster connected to this gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#edge_cluster_path PolicyTier1Gateway#edge_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#edge_cluster_path PolicyTier1Gateway#edge_cluster_path}
   */
   readonly edgeClusterPath: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#nsx_id PolicyTier1Gateway#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#nsx_id PolicyTier1Gateway#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Paths of specific edge nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#preferred_edge_paths PolicyTier1Gateway#preferred_edge_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#preferred_edge_paths PolicyTier1Gateway#preferred_edge_paths}
   */
   readonly preferredEdgePaths?: string[];
 }
@@ -602,31 +602,31 @@ export interface PolicyTier1GatewayRouteAdvertisementRule {
   /**
   * Action to advertise filtered routes to the connected Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#action PolicyTier1Gateway#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#action PolicyTier1Gateway#action}
   */
   readonly action?: string;
   /**
   * Name of this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#name PolicyTier1Gateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#name PolicyTier1Gateway#name}
   */
   readonly name: string;
   /**
   * Prefix operator to apply on networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#prefix_operator PolicyTier1Gateway#prefix_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#prefix_operator PolicyTier1Gateway#prefix_operator}
   */
   readonly prefixOperator?: string;
   /**
   * Enable different types of route advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#route_advertisement_types PolicyTier1Gateway#route_advertisement_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#route_advertisement_types PolicyTier1Gateway#route_advertisement_types}
   */
   readonly routeAdvertisementTypes?: string[];
   /**
   * List of network CIDRs to be routed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#subnets PolicyTier1Gateway#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#subnets PolicyTier1Gateway#subnets}
   */
   readonly subnets: string[];
 }
@@ -852,11 +852,11 @@ export class PolicyTier1GatewayRouteAdvertisementRuleList extends cdktf.ComplexL
 }
 export interface PolicyTier1GatewayTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#scope PolicyTier1Gateway#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#scope PolicyTier1Gateway#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#tag PolicyTier1Gateway#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#tag PolicyTier1Gateway#tag}
   */
   readonly tag?: string;
 }
@@ -1001,7 +1001,7 @@ export class PolicyTier1GatewayTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway nsxt_policy_tier1_gateway}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway nsxt_policy_tier1_gateway}
 */
 export class PolicyTier1Gateway extends cdktf.TerraformResource {
 
@@ -1017,7 +1017,7 @@ export class PolicyTier1Gateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyTier1Gateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyTier1Gateway to import
-  * @param importFromId The id of the existing PolicyTier1Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyTier1Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyTier1Gateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1029,7 +1029,7 @@ export class PolicyTier1Gateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier1_gateway nsxt_policy_tier1_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier1_gateway nsxt_policy_tier1_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1040,8 +1040,8 @@ export class PolicyTier1Gateway extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_tier1_gateway',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

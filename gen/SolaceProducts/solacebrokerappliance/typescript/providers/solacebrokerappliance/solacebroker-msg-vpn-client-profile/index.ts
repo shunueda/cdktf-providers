@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_bridge_connections_enabled SolacebrokerMsgVpnClientProfile#allow_bridge_connections_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_bridge_connections_enabled SolacebrokerMsgVpnClientProfile#allow_bridge_connections_enabled}
   */
   readonly allowBridgeConnectionsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -27,7 +27,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * </pre>
   *  Available since SEMP API version 2.14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_endpoint_create_durability SolacebrokerMsgVpnClientProfile#allow_guaranteed_endpoint_create_durability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_endpoint_create_durability SolacebrokerMsgVpnClientProfile#allow_guaranteed_endpoint_create_durability}
   */
   readonly allowGuaranteedEndpointCreateDurability?: string;
   /**
@@ -35,7 +35,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_endpoint_create_enabled SolacebrokerMsgVpnClientProfile#allow_guaranteed_endpoint_create_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_endpoint_create_enabled SolacebrokerMsgVpnClientProfile#allow_guaranteed_endpoint_create_enabled}
   */
   readonly allowGuaranteedEndpointCreateEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -43,7 +43,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_msg_receive_enabled SolacebrokerMsgVpnClientProfile#allow_guaranteed_msg_receive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_msg_receive_enabled SolacebrokerMsgVpnClientProfile#allow_guaranteed_msg_receive_enabled}
   */
   readonly allowGuaranteedMsgReceiveEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -51,7 +51,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_msg_send_enabled SolacebrokerMsgVpnClientProfile#allow_guaranteed_msg_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_guaranteed_msg_send_enabled SolacebrokerMsgVpnClientProfile#allow_guaranteed_msg_send_enabled}
   */
   readonly allowGuaranteedMsgSendEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -59,7 +59,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.11.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_shared_subscriptions_enabled SolacebrokerMsgVpnClientProfile#allow_shared_subscriptions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_shared_subscriptions_enabled SolacebrokerMsgVpnClientProfile#allow_shared_subscriptions_enabled}
   */
   readonly allowSharedSubscriptionsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -67,7 +67,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_transacted_sessions_enabled SolacebrokerMsgVpnClientProfile#allow_transacted_sessions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#allow_transacted_sessions_enabled SolacebrokerMsgVpnClientProfile#allow_transacted_sessions_enabled}
   */
   readonly allowTransactedSessionsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -75,7 +75,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#api_queue_management_copy_from_on_create_template_name SolacebrokerMsgVpnClientProfile#api_queue_management_copy_from_on_create_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#api_queue_management_copy_from_on_create_template_name SolacebrokerMsgVpnClientProfile#api_queue_management_copy_from_on_create_template_name}
   */
   readonly apiQueueManagementCopyFromOnCreateTemplateName?: string;
   /**
@@ -83,7 +83,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#api_topic_endpoint_management_copy_from_on_create_template_name SolacebrokerMsgVpnClientProfile#api_topic_endpoint_management_copy_from_on_create_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#api_topic_endpoint_management_copy_from_on_create_template_name SolacebrokerMsgVpnClientProfile#api_topic_endpoint_management_copy_from_on_create_template_name}
   */
   readonly apiTopicEndpointManagementCopyFromOnCreateTemplateName?: string;
   /**
@@ -91,7 +91,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#client_profile_name SolacebrokerMsgVpnClientProfile#client_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#client_profile_name SolacebrokerMsgVpnClientProfile#client_profile_name}
   */
   readonly clientProfileName: string;
   /**
@@ -99,7 +99,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`. Available since SEMP API version 2.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#compression_enabled SolacebrokerMsgVpnClientProfile#compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#compression_enabled SolacebrokerMsgVpnClientProfile#compression_enabled}
   */
   readonly compressionEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -107,7 +107,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#eliding_delay SolacebrokerMsgVpnClientProfile#eliding_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#eliding_delay SolacebrokerMsgVpnClientProfile#eliding_delay}
   */
   readonly elidingDelay?: number;
   /**
@@ -115,7 +115,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#eliding_enabled SolacebrokerMsgVpnClientProfile#eliding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#eliding_enabled SolacebrokerMsgVpnClientProfile#eliding_enabled}
   */
   readonly elidingEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -123,67 +123,67 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#eliding_max_topic_count SolacebrokerMsgVpnClientProfile#eliding_max_topic_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#eliding_max_topic_count SolacebrokerMsgVpnClientProfile#eliding_max_topic_count}
   */
   readonly elidingMaxTopicCount?: number;
   /**
   * The thresholds for the message spool usage event of Queues and Topic Endpoints provisioned by clients, relative to `max_msg_spool_usage` for these Queues and Topic Endpoints. Changing these values during operation does not affect existing sessions. For provisioned durable Queues and Topic Endpoints, this value applies when initially provisioned, but can then be changed afterwards by configuring the Queue or Topic Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_client_provisioned_endpoint_spool_usage_threshold SolacebrokerMsgVpnClientProfile#event_client_provisioned_endpoint_spool_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_client_provisioned_endpoint_spool_usage_threshold SolacebrokerMsgVpnClientProfile#event_client_provisioned_endpoint_spool_usage_threshold}
   */
   readonly eventClientProvisionedEndpointSpoolUsageThreshold?: SolacebrokerMsgVpnClientProfileEventClientProvisionedEndpointSpoolUsageThreshold;
   /**
   * The thresholds for the Client Username connection count event of the Client Profile, relative to `max_connection_count_per_client_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_connection_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_connection_count_per_client_username_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_connection_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_connection_count_per_client_username_threshold}
   */
   readonly eventConnectionCountPerClientUsernameThreshold?: SolacebrokerMsgVpnClientProfileEventConnectionCountPerClientUsernameThreshold;
   /**
   * The thresholds for the transmit flow count event of the Client Profile, relative to `max_egress_flow_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_egress_flow_count_threshold SolacebrokerMsgVpnClientProfile#event_egress_flow_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_egress_flow_count_threshold SolacebrokerMsgVpnClientProfile#event_egress_flow_count_threshold}
   */
   readonly eventEgressFlowCountThreshold?: SolacebrokerMsgVpnClientProfileEventEgressFlowCountThreshold;
   /**
   * The thresholds for the Client Username endpoint count event of the Client Profile, relative to `max_endpoint_count_per_client_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_endpoint_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_endpoint_count_per_client_username_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_endpoint_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_endpoint_count_per_client_username_threshold}
   */
   readonly eventEndpointCountPerClientUsernameThreshold?: SolacebrokerMsgVpnClientProfileEventEndpointCountPerClientUsernameThreshold;
   /**
   * The thresholds for the receive flow count event of the Client Profile, relative to `max_ingress_flow_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_ingress_flow_count_threshold SolacebrokerMsgVpnClientProfile#event_ingress_flow_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_ingress_flow_count_threshold SolacebrokerMsgVpnClientProfile#event_ingress_flow_count_threshold}
   */
   readonly eventIngressFlowCountThreshold?: SolacebrokerMsgVpnClientProfileEventIngressFlowCountThreshold;
   /**
   * The thresholds for the client username SMF connection count event of the Client Profile, relative to `service_smf_max_connection_count_per_client_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_service_smf_connection_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_service_smf_connection_count_per_client_username_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_service_smf_connection_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_service_smf_connection_count_per_client_username_threshold}
   */
   readonly eventServiceSmfConnectionCountPerClientUsernameThreshold?: SolacebrokerMsgVpnClientProfileEventServiceSmfConnectionCountPerClientUsernameThreshold;
   /**
   * The thresholds for the Client Username Web Transport connection count event of the Client Profile, relative to `service_web_max_connection_count_per_client_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_service_web_connection_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_service_web_connection_count_per_client_username_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_service_web_connection_count_per_client_username_threshold SolacebrokerMsgVpnClientProfile#event_service_web_connection_count_per_client_username_threshold}
   */
   readonly eventServiceWebConnectionCountPerClientUsernameThreshold?: SolacebrokerMsgVpnClientProfileEventServiceWebConnectionCountPerClientUsernameThreshold;
   /**
   * The thresholds for the subscription count event of the Client Profile, relative to `max_subscription_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_subscription_count_threshold SolacebrokerMsgVpnClientProfile#event_subscription_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_subscription_count_threshold SolacebrokerMsgVpnClientProfile#event_subscription_count_threshold}
   */
   readonly eventSubscriptionCountThreshold?: SolacebrokerMsgVpnClientProfileEventSubscriptionCountThreshold;
   /**
   * The thresholds for the transacted session count event of the Client Profile, relative to `max_transacted_session_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_transacted_session_count_threshold SolacebrokerMsgVpnClientProfile#event_transacted_session_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_transacted_session_count_threshold SolacebrokerMsgVpnClientProfile#event_transacted_session_count_threshold}
   */
   readonly eventTransactedSessionCountThreshold?: SolacebrokerMsgVpnClientProfileEventTransactedSessionCountThreshold;
   /**
   * The thresholds for the transaction count event of the Client Profile, relative to `max_transaction_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#event_transaction_count_threshold SolacebrokerMsgVpnClientProfile#event_transaction_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#event_transaction_count_threshold SolacebrokerMsgVpnClientProfile#event_transaction_count_threshold}
   */
   readonly eventTransactionCountThreshold?: SolacebrokerMsgVpnClientProfileEventTransactionCountThreshold;
   /**
@@ -191,7 +191,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `146625`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_amqp_link_count SolacebrokerMsgVpnClientProfile#max_amqp_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_amqp_link_count SolacebrokerMsgVpnClientProfile#max_amqp_link_count}
   */
   readonly maxAmqpLinkCount?: number;
   /**
@@ -199,7 +199,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is the maximum value supported by the platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_connection_count_per_client_username SolacebrokerMsgVpnClientProfile#max_connection_count_per_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_connection_count_per_client_username SolacebrokerMsgVpnClientProfile#max_connection_count_per_client_username}
   */
   readonly maxConnectionCountPerClientUsername?: number;
   /**
@@ -207,7 +207,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `16000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_egress_flow_count SolacebrokerMsgVpnClientProfile#max_egress_flow_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_egress_flow_count SolacebrokerMsgVpnClientProfile#max_egress_flow_count}
   */
   readonly maxEgressFlowCount?: number;
   /**
@@ -215,7 +215,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `16000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_endpoint_count_per_client_username SolacebrokerMsgVpnClientProfile#max_endpoint_count_per_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_endpoint_count_per_client_username SolacebrokerMsgVpnClientProfile#max_endpoint_count_per_client_username}
   */
   readonly maxEndpointCountPerClientUsername?: number;
   /**
@@ -223,7 +223,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `16000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_ingress_flow_count SolacebrokerMsgVpnClientProfile#max_ingress_flow_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_ingress_flow_count SolacebrokerMsgVpnClientProfile#max_ingress_flow_count}
   */
   readonly maxIngressFlowCount?: number;
   /**
@@ -231,7 +231,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `256`. Available since SEMP API version 2.20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_msgs_per_transaction SolacebrokerMsgVpnClientProfile#max_msgs_per_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_msgs_per_transaction SolacebrokerMsgVpnClientProfile#max_msgs_per_transaction}
   */
   readonly maxMsgsPerTransaction?: number;
   /**
@@ -239,7 +239,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default varies by platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_subscription_count SolacebrokerMsgVpnClientProfile#max_subscription_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_subscription_count SolacebrokerMsgVpnClientProfile#max_subscription_count}
   */
   readonly maxSubscriptionCount?: number;
   /**
@@ -247,7 +247,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_transacted_session_count SolacebrokerMsgVpnClientProfile#max_transacted_session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_transacted_session_count SolacebrokerMsgVpnClientProfile#max_transacted_session_count}
   */
   readonly maxTransactedSessionCount?: number;
   /**
@@ -255,7 +255,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default varies by platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#max_transaction_count SolacebrokerMsgVpnClientProfile#max_transaction_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#max_transaction_count SolacebrokerMsgVpnClientProfile#max_transaction_count}
   */
   readonly maxTransactionCount?: number;
   /**
@@ -263,7 +263,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#msg_vpn_name SolacebrokerMsgVpnClientProfile#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#msg_vpn_name SolacebrokerMsgVpnClientProfile#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -271,7 +271,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_control1_max_depth SolacebrokerMsgVpnClientProfile#queue_control1_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_control1_max_depth SolacebrokerMsgVpnClientProfile#queue_control1_max_depth}
   */
   readonly queueControl1MaxDepth?: number;
   /**
@@ -279,7 +279,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_control1_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_control1_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_control1_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_control1_min_msg_burst}
   */
   readonly queueControl1MinMsgBurst?: number;
   /**
@@ -287,7 +287,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct1_max_depth SolacebrokerMsgVpnClientProfile#queue_direct1_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct1_max_depth SolacebrokerMsgVpnClientProfile#queue_direct1_max_depth}
   */
   readonly queueDirect1MaxDepth?: number;
   /**
@@ -295,7 +295,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct1_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_direct1_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct1_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_direct1_min_msg_burst}
   */
   readonly queueDirect1MinMsgBurst?: number;
   /**
@@ -303,7 +303,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct2_max_depth SolacebrokerMsgVpnClientProfile#queue_direct2_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct2_max_depth SolacebrokerMsgVpnClientProfile#queue_direct2_max_depth}
   */
   readonly queueDirect2MaxDepth?: number;
   /**
@@ -311,7 +311,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct2_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_direct2_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct2_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_direct2_min_msg_burst}
   */
   readonly queueDirect2MinMsgBurst?: number;
   /**
@@ -319,7 +319,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct3_max_depth SolacebrokerMsgVpnClientProfile#queue_direct3_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct3_max_depth SolacebrokerMsgVpnClientProfile#queue_direct3_max_depth}
   */
   readonly queueDirect3MaxDepth?: number;
   /**
@@ -327,7 +327,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct3_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_direct3_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_direct3_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_direct3_min_msg_burst}
   */
   readonly queueDirect3MinMsgBurst?: number;
   /**
@@ -335,7 +335,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_guaranteed1_max_depth SolacebrokerMsgVpnClientProfile#queue_guaranteed1_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_guaranteed1_max_depth SolacebrokerMsgVpnClientProfile#queue_guaranteed1_max_depth}
   */
   readonly queueGuaranteed1MaxDepth?: number;
   /**
@@ -343,7 +343,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `255`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_guaranteed1_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_guaranteed1_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#queue_guaranteed1_min_msg_burst SolacebrokerMsgVpnClientProfile#queue_guaranteed1_min_msg_burst}
   */
   readonly queueGuaranteed1MinMsgBurst?: number;
   /**
@@ -351,7 +351,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#reject_msg_to_sender_on_no_subscription_match_enabled SolacebrokerMsgVpnClientProfile#reject_msg_to_sender_on_no_subscription_match_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#reject_msg_to_sender_on_no_subscription_match_enabled SolacebrokerMsgVpnClientProfile#reject_msg_to_sender_on_no_subscription_match_enabled}
   */
   readonly rejectMsgToSenderOnNoSubscriptionMatchEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -359,7 +359,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#replication_allow_client_connect_when_standby_enabled SolacebrokerMsgVpnClientProfile#replication_allow_client_connect_when_standby_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#replication_allow_client_connect_when_standby_enabled SolacebrokerMsgVpnClientProfile#replication_allow_client_connect_when_standby_enabled}
   */
   readonly replicationAllowClientConnectWhenStandbyEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -367,7 +367,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `30`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#service_min_keepalive_timeout SolacebrokerMsgVpnClientProfile#service_min_keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#service_min_keepalive_timeout SolacebrokerMsgVpnClientProfile#service_min_keepalive_timeout}
   */
   readonly serviceMinKeepaliveTimeout?: number;
   /**
@@ -375,7 +375,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is the maximum value supported by the platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#service_smf_max_connection_count_per_client_username SolacebrokerMsgVpnClientProfile#service_smf_max_connection_count_per_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#service_smf_max_connection_count_per_client_username SolacebrokerMsgVpnClientProfile#service_smf_max_connection_count_per_client_username}
   */
   readonly serviceSmfMaxConnectionCountPerClientUsername?: number;
   /**
@@ -383,7 +383,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#service_smf_min_keepalive_enabled SolacebrokerMsgVpnClientProfile#service_smf_min_keepalive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#service_smf_min_keepalive_enabled SolacebrokerMsgVpnClientProfile#service_smf_min_keepalive_enabled}
   */
   readonly serviceSmfMinKeepaliveEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -391,7 +391,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#service_web_inactive_timeout SolacebrokerMsgVpnClientProfile#service_web_inactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#service_web_inactive_timeout SolacebrokerMsgVpnClientProfile#service_web_inactive_timeout}
   */
   readonly serviceWebInactiveTimeout?: number;
   /**
@@ -399,7 +399,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is the maximum value supported by the platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#service_web_max_connection_count_per_client_username SolacebrokerMsgVpnClientProfile#service_web_max_connection_count_per_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#service_web_max_connection_count_per_client_username SolacebrokerMsgVpnClientProfile#service_web_max_connection_count_per_client_username}
   */
   readonly serviceWebMaxConnectionCountPerClientUsername?: number;
   /**
@@ -407,7 +407,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#service_web_max_payload SolacebrokerMsgVpnClientProfile#service_web_max_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#service_web_max_payload SolacebrokerMsgVpnClientProfile#service_web_max_payload}
   */
   readonly serviceWebMaxPayload?: number;
   /**
@@ -415,7 +415,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_congestion_window_size SolacebrokerMsgVpnClientProfile#tcp_congestion_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_congestion_window_size SolacebrokerMsgVpnClientProfile#tcp_congestion_window_size}
   */
   readonly tcpCongestionWindowSize?: number;
   /**
@@ -423,7 +423,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_keepalive_count SolacebrokerMsgVpnClientProfile#tcp_keepalive_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_keepalive_count SolacebrokerMsgVpnClientProfile#tcp_keepalive_count}
   */
   readonly tcpKeepaliveCount?: number;
   /**
@@ -431,7 +431,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_keepalive_idle_time SolacebrokerMsgVpnClientProfile#tcp_keepalive_idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_keepalive_idle_time SolacebrokerMsgVpnClientProfile#tcp_keepalive_idle_time}
   */
   readonly tcpKeepaliveIdleTime?: number;
   /**
@@ -439,7 +439,7 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_keepalive_interval SolacebrokerMsgVpnClientProfile#tcp_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_keepalive_interval SolacebrokerMsgVpnClientProfile#tcp_keepalive_interval}
   */
   readonly tcpKeepaliveInterval?: number;
   /**
@@ -447,23 +447,31 @@ export interface SolacebrokerMsgVpnClientProfileConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1460`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_max_segment_size SolacebrokerMsgVpnClientProfile#tcp_max_segment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_max_segment_size SolacebrokerMsgVpnClientProfile#tcp_max_segment_size}
   */
   readonly tcpMaxSegmentSize?: number;
   /**
-  * The TCP maximum window size for clients using the Client Profile, in kilobytes. Changes are applied to all existing connections. This setting is ignored on the software broker.
+  * The TCP maximum window size for clients using the Client Profile, in kilobytes. Changes are applied to all existing connections.
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_max_window_size SolacebrokerMsgVpnClientProfile#tcp_max_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_max_window_size SolacebrokerMsgVpnClientProfile#tcp_max_window_size}
   */
   readonly tcpMaxWindowSize?: number;
+  /**
+  * Enable or disable whether TCP should revert to slow-start after an idle period, as recommended by RFC 5681 s4.1. Changes are applied to all existing connections.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`. Available since SEMP API version 2.48.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tcp_slow_start_after_idle_enabled SolacebrokerMsgVpnClientProfile#tcp_slow_start_after_idle_enabled}
+  */
+  readonly tcpSlowStartAfterIdleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable allowing a client using the Client Profile to downgrade an encrypted connection to plain text.
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`. Available since SEMP API version 2.8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#tls_allow_downgrade_to_plain_text_enabled SolacebrokerMsgVpnClientProfile#tls_allow_downgrade_to_plain_text_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#tls_allow_downgrade_to_plain_text_enabled SolacebrokerMsgVpnClientProfile#tls_allow_downgrade_to_plain_text_enabled}
   */
   readonly tlsAllowDowngradeToPlainTextEnabled?: boolean | cdktf.IResolvable;
 }
@@ -473,7 +481,7 @@ export interface SolacebrokerMsgVpnClientProfileEventClientProvisionedEndpointSp
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `18`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -481,7 +489,7 @@ export interface SolacebrokerMsgVpnClientProfileEventClientProvisionedEndpointSp
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -608,7 +616,7 @@ export interface SolacebrokerMsgVpnClientProfileEventConnectionCountPerClientUse
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -616,7 +624,7 @@ export interface SolacebrokerMsgVpnClientProfileEventConnectionCountPerClientUse
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -624,7 +632,7 @@ export interface SolacebrokerMsgVpnClientProfileEventConnectionCountPerClientUse
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -632,7 +640,7 @@ export interface SolacebrokerMsgVpnClientProfileEventConnectionCountPerClientUse
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -817,7 +825,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -825,7 +833,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -833,7 +841,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -841,7 +849,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -1026,7 +1034,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEndpointCountPerClientUsern
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1034,7 +1042,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEndpointCountPerClientUsern
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1042,7 +1050,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEndpointCountPerClientUsern
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1050,7 +1058,7 @@ export interface SolacebrokerMsgVpnClientProfileEventEndpointCountPerClientUsern
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -1235,7 +1243,7 @@ export interface SolacebrokerMsgVpnClientProfileEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1243,7 +1251,7 @@ export interface SolacebrokerMsgVpnClientProfileEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1251,7 +1259,7 @@ export interface SolacebrokerMsgVpnClientProfileEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1259,7 +1267,7 @@ export interface SolacebrokerMsgVpnClientProfileEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -1444,7 +1452,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceSmfConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1452,7 +1460,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceSmfConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1460,7 +1468,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceSmfConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1468,7 +1476,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceSmfConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -1653,7 +1661,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceWebConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1661,7 +1669,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceWebConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1669,7 +1677,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceWebConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1677,7 +1685,7 @@ export interface SolacebrokerMsgVpnClientProfileEventServiceWebConnectionCountPe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -1862,7 +1870,7 @@ export interface SolacebrokerMsgVpnClientProfileEventSubscriptionCountThreshold 
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1870,7 +1878,7 @@ export interface SolacebrokerMsgVpnClientProfileEventSubscriptionCountThreshold 
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1878,7 +1886,7 @@ export interface SolacebrokerMsgVpnClientProfileEventSubscriptionCountThreshold 
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1886,7 +1894,7 @@ export interface SolacebrokerMsgVpnClientProfileEventSubscriptionCountThreshold 
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -2071,7 +2079,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactedSessionCountThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2079,7 +2087,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactedSessionCountThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -2087,7 +2095,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactedSessionCountThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -2095,7 +2103,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactedSessionCountThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -2280,7 +2288,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_percent SolacebrokerMsgVpnClientProfile#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2288,7 +2296,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#clear_value SolacebrokerMsgVpnClientProfile#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -2296,7 +2304,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_percent SolacebrokerMsgVpnClientProfile#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -2304,7 +2312,7 @@ export interface SolacebrokerMsgVpnClientProfileEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#set_value SolacebrokerMsgVpnClientProfile#set_value}
   */
   readonly setValue?: number;
 }
@@ -2485,7 +2493,7 @@ export class SolacebrokerMsgVpnClientProfileEventTransactionCountThresholdOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile solacebroker_msg_vpn_client_profile}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile solacebroker_msg_vpn_client_profile}
 */
 export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
 
@@ -2501,7 +2509,7 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerMsgVpnClientProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnClientProfile to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnClientProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnClientProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnClientProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2513,7 +2521,7 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_client_profile solacebroker_msg_vpn_client_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_client_profile solacebroker_msg_vpn_client_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2524,8 +2532,8 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_client_profile',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2593,6 +2601,7 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
     this._tcpKeepaliveInterval = config.tcpKeepaliveInterval;
     this._tcpMaxSegmentSize = config.tcpMaxSegmentSize;
     this._tcpMaxWindowSize = config.tcpMaxWindowSize;
+    this._tcpSlowStartAfterIdleEnabled = config.tcpSlowStartAfterIdleEnabled;
     this._tlsAllowDowngradeToPlainTextEnabled = config.tlsAllowDowngradeToPlainTextEnabled;
   }
 
@@ -3522,6 +3531,22 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
     return this._tcpMaxWindowSize;
   }
 
+  // tcp_slow_start_after_idle_enabled - computed: false, optional: true, required: false
+  private _tcpSlowStartAfterIdleEnabled?: boolean | cdktf.IResolvable; 
+  public get tcpSlowStartAfterIdleEnabled() {
+    return this.getBooleanAttribute('tcp_slow_start_after_idle_enabled');
+  }
+  public set tcpSlowStartAfterIdleEnabled(value: boolean | cdktf.IResolvable) {
+    this._tcpSlowStartAfterIdleEnabled = value;
+  }
+  public resetTcpSlowStartAfterIdleEnabled() {
+    this._tcpSlowStartAfterIdleEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSlowStartAfterIdleEnabledInput() {
+    return this._tcpSlowStartAfterIdleEnabled;
+  }
+
   // tls_allow_downgrade_to_plain_text_enabled - computed: false, optional: true, required: false
   private _tlsAllowDowngradeToPlainTextEnabled?: boolean | cdktf.IResolvable; 
   public get tlsAllowDowngradeToPlainTextEnabled() {
@@ -3602,6 +3627,7 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
       tcp_keepalive_interval: cdktf.numberToTerraform(this._tcpKeepaliveInterval),
       tcp_max_segment_size: cdktf.numberToTerraform(this._tcpMaxSegmentSize),
       tcp_max_window_size: cdktf.numberToTerraform(this._tcpMaxWindowSize),
+      tcp_slow_start_after_idle_enabled: cdktf.booleanToTerraform(this._tcpSlowStartAfterIdleEnabled),
       tls_allow_downgrade_to_plain_text_enabled: cdktf.booleanToTerraform(this._tlsAllowDowngradeToPlainTextEnabled),
     };
   }
@@ -3955,6 +3981,12 @@ export class SolacebrokerMsgVpnClientProfile extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      tcp_slow_start_after_idle_enabled: {
+        value: cdktf.booleanToHclTerraform(this._tcpSlowStartAfterIdleEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       tls_allow_downgrade_to_plain_text_enabled: {
         value: cdktf.booleanToHclTerraform(this._tlsAllowDowngradeToPlainTextEnabled),

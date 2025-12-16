@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface PolicyLbVirtualServerConfig extends cdktf.TerraformMetaArgument
   /**
   * If enabled, all connections/requests sent to virtual server are logged to the access log file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#access_log_enabled PolicyLbVirtualServer#access_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#access_log_enabled PolicyLbVirtualServer#access_log_enabled}
   */
   readonly accessLogEnabled?: boolean | cdktf.IResolvable;
   /**
   * Application profile for this virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#application_profile_path PolicyLbVirtualServer#application_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#application_profile_path PolicyLbVirtualServer#application_profile_path}
   */
   readonly applicationProfilePath: string;
   /**
   * Default pool member ports when member port is not defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#default_pool_member_ports PolicyLbVirtualServer#default_pool_member_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#default_pool_member_ports PolicyLbVirtualServer#default_pool_member_ports}
   */
   readonly defaultPoolMemberPorts?: string[];
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#description PolicyLbVirtualServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#description PolicyLbVirtualServer#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#display_name PolicyLbVirtualServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#display_name PolicyLbVirtualServer#display_name}
   */
   readonly displayName: string;
   /**
   * Flag to enable Virtual Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#enabled PolicyLbVirtualServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#enabled PolicyLbVirtualServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#id PolicyLbVirtualServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#id PolicyLbVirtualServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +53,91 @@ export interface PolicyLbVirtualServerConfig extends cdktf.TerraformMetaArgument
   /**
   * Virtual Server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ip_address PolicyLbVirtualServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ip_address PolicyLbVirtualServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Flag to log significant events in access log, if access log is enabed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#log_significant_event_only PolicyLbVirtualServer#log_significant_event_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#log_significant_event_only PolicyLbVirtualServer#log_significant_event_only}
   */
   readonly logSignificantEventOnly?: boolean | cdktf.IResolvable;
   /**
   * To ensure one virtual server does not over consume resources, connections to a virtual server can be capped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#max_concurrent_connections PolicyLbVirtualServer#max_concurrent_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#max_concurrent_connections PolicyLbVirtualServer#max_concurrent_connections}
   */
   readonly maxConcurrentConnections?: number;
   /**
   * To ensure one virtual server does not over consume resources, connections to a member can be rate limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#max_new_connection_rate PolicyLbVirtualServer#max_new_connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#max_new_connection_rate PolicyLbVirtualServer#max_new_connection_rate}
   */
   readonly maxNewConnectionRate?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#nsx_id PolicyLbVirtualServer#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#nsx_id PolicyLbVirtualServer#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Path to persistence profile allowing related client connections to be sent to the same backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#persistence_profile_path PolicyLbVirtualServer#persistence_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#persistence_profile_path PolicyLbVirtualServer#persistence_profile_path}
   */
   readonly persistenceProfilePath?: string;
   /**
   * Path for Load Balancer Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#pool_path PolicyLbVirtualServer#pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#pool_path PolicyLbVirtualServer#pool_path}
   */
   readonly poolPath?: string;
   /**
   * Virtual Server ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ports PolicyLbVirtualServer#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ports PolicyLbVirtualServer#ports}
   */
   readonly ports: string[];
   /**
   * Virtual Server can be associated with Load Balancer Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#service_path PolicyLbVirtualServer#service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#service_path PolicyLbVirtualServer#service_path}
   */
   readonly servicePath?: string;
   /**
   * When load balancer can not select server in default pool or pool in rules, the request would be served by sorry pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#sorry_pool_path PolicyLbVirtualServer#sorry_pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#sorry_pool_path PolicyLbVirtualServer#sorry_pool_path}
   */
   readonly sorryPoolPath?: string;
   /**
   * access_list_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#access_list_control PolicyLbVirtualServer#access_list_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#access_list_control PolicyLbVirtualServer#access_list_control}
   */
   readonly accessListControl?: PolicyLbVirtualServerAccessListControl;
   /**
   * client_ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#client_ssl PolicyLbVirtualServer#client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#client_ssl PolicyLbVirtualServer#client_ssl}
   */
   readonly clientSsl?: PolicyLbVirtualServerClientSsl;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#rule PolicyLbVirtualServer#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#rule PolicyLbVirtualServer#rule}
   */
   readonly rule?: PolicyLbVirtualServerRule[] | cdktf.IResolvable;
   /**
   * server_ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#server_ssl PolicyLbVirtualServer#server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#server_ssl PolicyLbVirtualServer#server_ssl}
   */
   readonly serverSsl?: PolicyLbVirtualServerServerSsl;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#tag PolicyLbVirtualServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#tag PolicyLbVirtualServer#tag}
   */
   readonly tag?: PolicyLbVirtualServerTag[] | cdktf.IResolvable;
 }
@@ -145,19 +145,19 @@ export interface PolicyLbVirtualServerAccessListControl {
   /**
   * Action to apply to connections matching the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#action PolicyLbVirtualServer#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#action PolicyLbVirtualServer#action}
   */
   readonly action: string;
   /**
   * Flag to enable access list control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#enabled PolicyLbVirtualServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#enabled PolicyLbVirtualServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The path of grouping object which defines the IP addresses or ranges to match the client IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#group_path PolicyLbVirtualServer#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#group_path PolicyLbVirtualServer#group_path}
   */
   readonly groupPath: string;
 }
@@ -295,43 +295,43 @@ export interface PolicyLbVirtualServerClientSsl {
   /**
   * If client auth type is REQUIRED, client certificate must be signed by one Certificate Authorities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ca_paths PolicyLbVirtualServer#ca_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ca_paths PolicyLbVirtualServer#ca_paths}
   */
   readonly caPaths?: string[];
   /**
   * Certificate chain depth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#certificate_chain_depth PolicyLbVirtualServer#certificate_chain_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#certificate_chain_depth PolicyLbVirtualServer#certificate_chain_depth}
   */
   readonly certificateChainDepth?: number;
   /**
   * Client authentication mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#client_auth PolicyLbVirtualServer#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#client_auth PolicyLbVirtualServer#client_auth}
   */
   readonly clientAuth?: string;
   /**
   * Certificate Revocation Lists can be specified to disallow compromised certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#crl_paths PolicyLbVirtualServer#crl_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#crl_paths PolicyLbVirtualServer#crl_paths}
   */
   readonly crlPaths?: string[];
   /**
   * Default Certificate Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#default_certificate_path PolicyLbVirtualServer#default_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#default_certificate_path PolicyLbVirtualServer#default_certificate_path}
   */
   readonly defaultCertificatePath: string;
   /**
   * This setting allows multiple certificates, for different hostnames, to be bound to the same virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#sni_paths PolicyLbVirtualServer#sni_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#sni_paths PolicyLbVirtualServer#sni_paths}
   */
   readonly sniPaths?: string[];
   /**
   * Client SSL Profile Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ssl_profile_path PolicyLbVirtualServer#ssl_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ssl_profile_path PolicyLbVirtualServer#ssl_profile_path}
   */
   readonly sslProfilePath?: string;
 }
@@ -586,7 +586,7 @@ export class PolicyLbVirtualServerClientSslOutputReference extends cdktf.Complex
 }
 export interface PolicyLbVirtualServerRuleActionConnectionDrop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#_dummy PolicyLbVirtualServer#_dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#_dummy PolicyLbVirtualServer#_dummy}
   */
   readonly dummy?: string;
 }
@@ -702,11 +702,11 @@ export class PolicyLbVirtualServerRuleActionConnectionDropList extends cdktf.Com
 }
 export interface PolicyLbVirtualServerRuleActionHttpRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#redirect_status PolicyLbVirtualServer#redirect_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#redirect_status PolicyLbVirtualServer#redirect_status}
   */
   readonly redirectStatus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#redirect_url PolicyLbVirtualServer#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#redirect_url PolicyLbVirtualServer#redirect_url}
   */
   readonly redirectUrl: string;
 }
@@ -845,11 +845,11 @@ export class PolicyLbVirtualServerRuleActionHttpRedirectList extends cdktf.Compl
 }
 export interface PolicyLbVirtualServerRuleActionHttpReject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#reply_message PolicyLbVirtualServer#reply_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#reply_message PolicyLbVirtualServer#reply_message}
   */
   readonly replyMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#reply_status PolicyLbVirtualServer#reply_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#reply_status PolicyLbVirtualServer#reply_status}
   */
   readonly replyStatus: string;
 }
@@ -991,7 +991,7 @@ export class PolicyLbVirtualServerRuleActionHttpRejectList extends cdktf.Complex
 }
 export interface PolicyLbVirtualServerRuleActionHttpRequestHeaderDelete {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
   */
   readonly headerName: string;
 }
@@ -1104,11 +1104,11 @@ export class PolicyLbVirtualServerRuleActionHttpRequestHeaderDeleteList extends 
 }
 export interface PolicyLbVirtualServerRuleActionHttpRequestHeaderRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
   */
   readonly headerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
   */
   readonly headerValue: string;
 }
@@ -1247,11 +1247,11 @@ export class PolicyLbVirtualServerRuleActionHttpRequestHeaderRewriteList extends
 }
 export interface PolicyLbVirtualServerRuleActionHttpRequestUriRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#uri PolicyLbVirtualServer#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#uri PolicyLbVirtualServer#uri}
   */
   readonly uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#uri_arguments PolicyLbVirtualServer#uri_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#uri_arguments PolicyLbVirtualServer#uri_arguments}
   */
   readonly uriArguments?: string;
 }
@@ -1393,7 +1393,7 @@ export class PolicyLbVirtualServerRuleActionHttpRequestUriRewriteList extends cd
 }
 export interface PolicyLbVirtualServerRuleActionHttpResponseHeaderDelete {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
   */
   readonly headerName: string;
 }
@@ -1506,11 +1506,11 @@ export class PolicyLbVirtualServerRuleActionHttpResponseHeaderDeleteList extends
 }
 export interface PolicyLbVirtualServerRuleActionHttpResponseHeaderRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
   */
   readonly headerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
   */
   readonly headerValue: string;
 }
@@ -1649,15 +1649,15 @@ export class PolicyLbVirtualServerRuleActionHttpResponseHeaderRewriteList extend
 }
 export interface PolicyLbVirtualServerRuleActionJwtAuthKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#certificate_path PolicyLbVirtualServer#certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#certificate_path PolicyLbVirtualServer#certificate_path}
   */
   readonly certificatePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#public_key_content PolicyLbVirtualServer#public_key_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#public_key_content PolicyLbVirtualServer#public_key_content}
   */
   readonly publicKeyContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#symmetric_key PolicyLbVirtualServer#symmetric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#symmetric_key PolicyLbVirtualServer#symmetric_key}
   */
   readonly symmetricKey?: string;
 }
@@ -1799,23 +1799,23 @@ export class PolicyLbVirtualServerRuleActionJwtAuthKeyOutputReference extends cd
 }
 export interface PolicyLbVirtualServerRuleActionJwtAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#pass_jwt_to_pool PolicyLbVirtualServer#pass_jwt_to_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#pass_jwt_to_pool PolicyLbVirtualServer#pass_jwt_to_pool}
   */
   readonly passJwtToPool?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#realm PolicyLbVirtualServer#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#realm PolicyLbVirtualServer#realm}
   */
   readonly realm?: string;
   /**
   * JWT tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#tokens PolicyLbVirtualServer#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#tokens PolicyLbVirtualServer#tokens}
   */
   readonly tokens?: string[];
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#key PolicyLbVirtualServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#key PolicyLbVirtualServer#key}
   */
   readonly key?: PolicyLbVirtualServerRuleActionJwtAuthKey;
 }
@@ -2018,7 +2018,7 @@ export class PolicyLbVirtualServerRuleActionJwtAuthList extends cdktf.ComplexLis
 }
 export interface PolicyLbVirtualServerRuleActionSelectPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#pool_id PolicyLbVirtualServer#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#pool_id PolicyLbVirtualServer#pool_id}
   */
   readonly poolId: string;
 }
@@ -2131,7 +2131,7 @@ export class PolicyLbVirtualServerRuleActionSelectPoolList extends cdktf.Complex
 }
 export interface PolicyLbVirtualServerRuleActionSslModeSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ssl_mode PolicyLbVirtualServer#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ssl_mode PolicyLbVirtualServer#ssl_mode}
   */
   readonly sslMode: string;
 }
@@ -2244,11 +2244,11 @@ export class PolicyLbVirtualServerRuleActionSslModeSelectionList extends cdktf.C
 }
 export interface PolicyLbVirtualServerRuleActionVariableAssignment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
   */
   readonly variableName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_value PolicyLbVirtualServer#variable_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_value PolicyLbVirtualServer#variable_value}
   */
   readonly variableValue: string;
 }
@@ -2387,15 +2387,15 @@ export class PolicyLbVirtualServerRuleActionVariableAssignmentList extends cdktf
 }
 export interface PolicyLbVirtualServerRuleActionVariablePersistenceLearn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#persistence_profile_path PolicyLbVirtualServer#persistence_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#persistence_profile_path PolicyLbVirtualServer#persistence_profile_path}
   */
   readonly persistenceProfilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_hash_enabled PolicyLbVirtualServer#variable_hash_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_hash_enabled PolicyLbVirtualServer#variable_hash_enabled}
   */
   readonly variableHashEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
   */
   readonly variableName: string;
 }
@@ -2566,15 +2566,15 @@ export class PolicyLbVirtualServerRuleActionVariablePersistenceLearnList extends
 }
 export interface PolicyLbVirtualServerRuleActionVariablePersistenceOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#persistence_profile_path PolicyLbVirtualServer#persistence_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#persistence_profile_path PolicyLbVirtualServer#persistence_profile_path}
   */
   readonly persistenceProfilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_hash_enabled PolicyLbVirtualServer#variable_hash_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_hash_enabled PolicyLbVirtualServer#variable_hash_enabled}
   */
   readonly variableHashEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
   */
   readonly variableName: string;
 }
@@ -2747,85 +2747,85 @@ export interface PolicyLbVirtualServerRuleAction {
   /**
   * connection_drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#connection_drop PolicyLbVirtualServer#connection_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#connection_drop PolicyLbVirtualServer#connection_drop}
   */
   readonly connectionDrop?: PolicyLbVirtualServerRuleActionConnectionDrop[] | cdktf.IResolvable;
   /**
   * http_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_redirect PolicyLbVirtualServer#http_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_redirect PolicyLbVirtualServer#http_redirect}
   */
   readonly httpRedirect?: PolicyLbVirtualServerRuleActionHttpRedirect[] | cdktf.IResolvable;
   /**
   * http_reject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_reject PolicyLbVirtualServer#http_reject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_reject PolicyLbVirtualServer#http_reject}
   */
   readonly httpReject?: PolicyLbVirtualServerRuleActionHttpReject[] | cdktf.IResolvable;
   /**
   * http_request_header_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_header_delete PolicyLbVirtualServer#http_request_header_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_header_delete PolicyLbVirtualServer#http_request_header_delete}
   */
   readonly httpRequestHeaderDelete?: PolicyLbVirtualServerRuleActionHttpRequestHeaderDelete[] | cdktf.IResolvable;
   /**
   * http_request_header_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_header_rewrite PolicyLbVirtualServer#http_request_header_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_header_rewrite PolicyLbVirtualServer#http_request_header_rewrite}
   */
   readonly httpRequestHeaderRewrite?: PolicyLbVirtualServerRuleActionHttpRequestHeaderRewrite[] | cdktf.IResolvable;
   /**
   * http_request_uri_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_uri_rewrite PolicyLbVirtualServer#http_request_uri_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_uri_rewrite PolicyLbVirtualServer#http_request_uri_rewrite}
   */
   readonly httpRequestUriRewrite?: PolicyLbVirtualServerRuleActionHttpRequestUriRewrite[] | cdktf.IResolvable;
   /**
   * http_response_header_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_response_header_delete PolicyLbVirtualServer#http_response_header_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_response_header_delete PolicyLbVirtualServer#http_response_header_delete}
   */
   readonly httpResponseHeaderDelete?: PolicyLbVirtualServerRuleActionHttpResponseHeaderDelete[] | cdktf.IResolvable;
   /**
   * http_response_header_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_response_header_rewrite PolicyLbVirtualServer#http_response_header_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_response_header_rewrite PolicyLbVirtualServer#http_response_header_rewrite}
   */
   readonly httpResponseHeaderRewrite?: PolicyLbVirtualServerRuleActionHttpResponseHeaderRewrite[] | cdktf.IResolvable;
   /**
   * jwt_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#jwt_auth PolicyLbVirtualServer#jwt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#jwt_auth PolicyLbVirtualServer#jwt_auth}
   */
   readonly jwtAuth?: PolicyLbVirtualServerRuleActionJwtAuth[] | cdktf.IResolvable;
   /**
   * select_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#select_pool PolicyLbVirtualServer#select_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#select_pool PolicyLbVirtualServer#select_pool}
   */
   readonly selectPool?: PolicyLbVirtualServerRuleActionSelectPool[] | cdktf.IResolvable;
   /**
   * ssl_mode_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ssl_mode_selection PolicyLbVirtualServer#ssl_mode_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ssl_mode_selection PolicyLbVirtualServer#ssl_mode_selection}
   */
   readonly sslModeSelection?: PolicyLbVirtualServerRuleActionSslModeSelection[] | cdktf.IResolvable;
   /**
   * variable_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_assignment PolicyLbVirtualServer#variable_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_assignment PolicyLbVirtualServer#variable_assignment}
   */
   readonly variableAssignment?: PolicyLbVirtualServerRuleActionVariableAssignment[] | cdktf.IResolvable;
   /**
   * variable_persistence_learn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_persistence_learn PolicyLbVirtualServer#variable_persistence_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_persistence_learn PolicyLbVirtualServer#variable_persistence_learn}
   */
   readonly variablePersistenceLearn?: PolicyLbVirtualServerRuleActionVariablePersistenceLearn[] | cdktf.IResolvable;
   /**
   * variable_persistence_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_persistence_on PolicyLbVirtualServer#variable_persistence_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_persistence_on PolicyLbVirtualServer#variable_persistence_on}
   */
   readonly variablePersistenceOn?: PolicyLbVirtualServerRuleActionVariablePersistenceOn[] | cdktf.IResolvable;
 }
@@ -3318,25 +3318,25 @@ export class PolicyLbVirtualServerRuleActionList extends cdktf.ComplexList {
 }
 export interface PolicyLbVirtualServerRuleConditionHttpRequestBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#body_value PolicyLbVirtualServer#body_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#body_value PolicyLbVirtualServer#body_value}
   */
   readonly bodyValue: string;
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
 }
@@ -3535,27 +3535,27 @@ export interface PolicyLbVirtualServerRuleConditionHttpRequestCookie {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#cookie_name PolicyLbVirtualServer#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#cookie_name PolicyLbVirtualServer#cookie_name}
   */
   readonly cookieName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#cookie_value PolicyLbVirtualServer#cookie_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#cookie_value PolicyLbVirtualServer#cookie_value}
   */
   readonly cookieValue: string;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
 }
@@ -3780,27 +3780,27 @@ export interface PolicyLbVirtualServerRuleConditionHttpRequestHeader {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
   */
   readonly headerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
   */
   readonly headerValue: string;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
 }
@@ -4025,11 +4025,11 @@ export interface PolicyLbVirtualServerRuleConditionHttpRequestMethod {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#method PolicyLbVirtualServer#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#method PolicyLbVirtualServer#method}
   */
   readonly method: string;
 }
@@ -4173,23 +4173,23 @@ export interface PolicyLbVirtualServerRuleConditionHttpRequestUri {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#uri PolicyLbVirtualServer#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#uri PolicyLbVirtualServer#uri}
   */
   readonly uri: string;
 }
@@ -4388,23 +4388,23 @@ export interface PolicyLbVirtualServerRuleConditionHttpRequestUriArguments {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#uri_arguments PolicyLbVirtualServer#uri_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#uri_arguments PolicyLbVirtualServer#uri_arguments}
   */
   readonly uriArguments: string;
 }
@@ -4603,11 +4603,11 @@ export interface PolicyLbVirtualServerRuleConditionHttpRequestVersion {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#version PolicyLbVirtualServer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#version PolicyLbVirtualServer#version}
   */
   readonly version: string;
 }
@@ -4719,27 +4719,27 @@ export interface PolicyLbVirtualServerRuleConditionHttpResponseHeader {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_name PolicyLbVirtualServer#header_name}
   */
   readonly headerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#header_value PolicyLbVirtualServer#header_value}
   */
   readonly headerValue: string;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
 }
@@ -4964,17 +4964,17 @@ export interface PolicyLbVirtualServerRuleConditionHttpSslClientCertificateIssue
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#issuer_dn PolicyLbVirtualServer#issuer_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#issuer_dn PolicyLbVirtualServer#issuer_dn}
   */
   readonly issuerDn: string;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
 }
@@ -5144,17 +5144,17 @@ export interface PolicyLbVirtualServerRuleConditionHttpSslClientCertificateSubje
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#subject_dn PolicyLbVirtualServer#subject_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#subject_dn PolicyLbVirtualServer#subject_dn}
   */
   readonly subjectDn: string;
 }
@@ -5324,37 +5324,37 @@ export interface PolicyLbVirtualServerRuleConditionHttpSsl {
   /**
   * Supported SSL ciphers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#client_supported_ssl_ciphers PolicyLbVirtualServer#client_supported_ssl_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#client_supported_ssl_ciphers PolicyLbVirtualServer#client_supported_ssl_ciphers}
   */
   readonly clientSupportedSslCiphers?: string[];
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#session_reused PolicyLbVirtualServer#session_reused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#session_reused PolicyLbVirtualServer#session_reused}
   */
   readonly sessionReused?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#used_protocol PolicyLbVirtualServer#used_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#used_protocol PolicyLbVirtualServer#used_protocol}
   */
   readonly usedProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#used_ssl_cipher PolicyLbVirtualServer#used_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#used_ssl_cipher PolicyLbVirtualServer#used_ssl_cipher}
   */
   readonly usedSslCipher?: string;
   /**
   * client_certificate_issuer_dn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#client_certificate_issuer_dn PolicyLbVirtualServer#client_certificate_issuer_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#client_certificate_issuer_dn PolicyLbVirtualServer#client_certificate_issuer_dn}
   */
   readonly clientCertificateIssuerDn?: PolicyLbVirtualServerRuleConditionHttpSslClientCertificateIssuerDn[] | cdktf.IResolvable;
   /**
   * client_certificate_subject_dn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#client_certificate_subject_dn PolicyLbVirtualServer#client_certificate_subject_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#client_certificate_subject_dn PolicyLbVirtualServer#client_certificate_subject_dn}
   */
   readonly clientCertificateSubjectDn?: PolicyLbVirtualServerRuleConditionHttpSslClientCertificateSubjectDn[] | cdktf.IResolvable;
 }
@@ -5644,17 +5644,17 @@ export class PolicyLbVirtualServerRuleConditionHttpSslList extends cdktf.Complex
 }
 export interface PolicyLbVirtualServerRuleConditionIpHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#group_path PolicyLbVirtualServer#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#group_path PolicyLbVirtualServer#group_path}
   */
   readonly groupPath?: string;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#source_address PolicyLbVirtualServer#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#source_address PolicyLbVirtualServer#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -5830,23 +5830,23 @@ export interface PolicyLbVirtualServerRuleConditionSslSni {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#sni PolicyLbVirtualServer#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#sni PolicyLbVirtualServer#sni}
   */
   readonly sni: string;
 }
@@ -6045,11 +6045,11 @@ export interface PolicyLbVirtualServerRuleConditionTcpHeader {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#source_port PolicyLbVirtualServer#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#source_port PolicyLbVirtualServer#source_port}
   */
   readonly sourcePort: string;
 }
@@ -6193,27 +6193,27 @@ export interface PolicyLbVirtualServerRuleConditionVariable {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#case_sensitive PolicyLbVirtualServer#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#inverse PolicyLbVirtualServer#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_type PolicyLbVirtualServer#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_name PolicyLbVirtualServer#variable_name}
   */
   readonly variableName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable_value PolicyLbVirtualServer#variable_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable_value PolicyLbVirtualServer#variable_value}
   */
   readonly variableValue: string;
 }
@@ -6438,79 +6438,79 @@ export interface PolicyLbVirtualServerRuleCondition {
   /**
   * http_request_body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_body PolicyLbVirtualServer#http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_body PolicyLbVirtualServer#http_request_body}
   */
   readonly httpRequestBody?: PolicyLbVirtualServerRuleConditionHttpRequestBody[] | cdktf.IResolvable;
   /**
   * http_request_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_cookie PolicyLbVirtualServer#http_request_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_cookie PolicyLbVirtualServer#http_request_cookie}
   */
   readonly httpRequestCookie?: PolicyLbVirtualServerRuleConditionHttpRequestCookie[] | cdktf.IResolvable;
   /**
   * http_request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_header PolicyLbVirtualServer#http_request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_header PolicyLbVirtualServer#http_request_header}
   */
   readonly httpRequestHeader?: PolicyLbVirtualServerRuleConditionHttpRequestHeader[] | cdktf.IResolvable;
   /**
   * http_request_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_method PolicyLbVirtualServer#http_request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_method PolicyLbVirtualServer#http_request_method}
   */
   readonly httpRequestMethod?: PolicyLbVirtualServerRuleConditionHttpRequestMethod[] | cdktf.IResolvable;
   /**
   * http_request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_uri PolicyLbVirtualServer#http_request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_uri PolicyLbVirtualServer#http_request_uri}
   */
   readonly httpRequestUri?: PolicyLbVirtualServerRuleConditionHttpRequestUri[] | cdktf.IResolvable;
   /**
   * http_request_uri_arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_uri_arguments PolicyLbVirtualServer#http_request_uri_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_uri_arguments PolicyLbVirtualServer#http_request_uri_arguments}
   */
   readonly httpRequestUriArguments?: PolicyLbVirtualServerRuleConditionHttpRequestUriArguments[] | cdktf.IResolvable;
   /**
   * http_request_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_request_version PolicyLbVirtualServer#http_request_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_request_version PolicyLbVirtualServer#http_request_version}
   */
   readonly httpRequestVersion?: PolicyLbVirtualServerRuleConditionHttpRequestVersion;
   /**
   * http_response_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_response_header PolicyLbVirtualServer#http_response_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_response_header PolicyLbVirtualServer#http_response_header}
   */
   readonly httpResponseHeader?: PolicyLbVirtualServerRuleConditionHttpResponseHeader[] | cdktf.IResolvable;
   /**
   * http_ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#http_ssl PolicyLbVirtualServer#http_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#http_ssl PolicyLbVirtualServer#http_ssl}
   */
   readonly httpSsl?: PolicyLbVirtualServerRuleConditionHttpSsl[] | cdktf.IResolvable;
   /**
   * ip_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ip_header PolicyLbVirtualServer#ip_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ip_header PolicyLbVirtualServer#ip_header}
   */
   readonly ipHeader?: PolicyLbVirtualServerRuleConditionIpHeader[] | cdktf.IResolvable;
   /**
   * ssl_sni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ssl_sni PolicyLbVirtualServer#ssl_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ssl_sni PolicyLbVirtualServer#ssl_sni}
   */
   readonly sslSni?: PolicyLbVirtualServerRuleConditionSslSni[] | cdktf.IResolvable;
   /**
   * tcp_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#tcp_header PolicyLbVirtualServer#tcp_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#tcp_header PolicyLbVirtualServer#tcp_header}
   */
   readonly tcpHeader?: PolicyLbVirtualServerRuleConditionTcpHeader[] | cdktf.IResolvable;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#variable PolicyLbVirtualServer#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#variable PolicyLbVirtualServer#variable}
   */
   readonly variable?: PolicyLbVirtualServerRuleConditionVariable[] | cdktf.IResolvable;
 }
@@ -6976,31 +6976,31 @@ export interface PolicyLbVirtualServerRule {
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#display_name PolicyLbVirtualServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#display_name PolicyLbVirtualServer#display_name}
   */
   readonly displayName: string;
   /**
   * Match strategy for determining match of multiple conditions (ALL or ANY, default: ANY).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#match_strategy PolicyLbVirtualServer#match_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#match_strategy PolicyLbVirtualServer#match_strategy}
   */
   readonly matchStrategy?: string;
   /**
   * Load balancer processing phase, one of HTTP_REQUEST_REWRITE, HTTP_FORWARDING (Default), HTTP_RESPONSE_REWRITE, HTTP_ACCESS, TRANSPORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#phase PolicyLbVirtualServer#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#phase PolicyLbVirtualServer#phase}
   */
   readonly phase?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#action PolicyLbVirtualServer#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#action PolicyLbVirtualServer#action}
   */
   readonly action: PolicyLbVirtualServerRuleAction[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#condition PolicyLbVirtualServer#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#condition PolicyLbVirtualServer#condition}
   */
   readonly condition?: PolicyLbVirtualServerRuleCondition[] | cdktf.IResolvable;
 }
@@ -7228,37 +7228,37 @@ export interface PolicyLbVirtualServerServerSsl {
   /**
   * If server auth type is REQUIRED, server certificate must be signed by one Certificate Authorities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ca_paths PolicyLbVirtualServer#ca_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ca_paths PolicyLbVirtualServer#ca_paths}
   */
   readonly caPaths?: string[];
   /**
   * Certificate chain depth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#certificate_chain_depth PolicyLbVirtualServer#certificate_chain_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#certificate_chain_depth PolicyLbVirtualServer#certificate_chain_depth}
   */
   readonly certificateChainDepth?: number;
   /**
   * Client certificat path for client authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#client_certificate_path PolicyLbVirtualServer#client_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#client_certificate_path PolicyLbVirtualServer#client_certificate_path}
   */
   readonly clientCertificatePath?: string;
   /**
   * Certificate Revocation Lists can be specified disallow compromised certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#crl_paths PolicyLbVirtualServer#crl_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#crl_paths PolicyLbVirtualServer#crl_paths}
   */
   readonly crlPaths?: string[];
   /**
   * Server authentication mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#server_auth PolicyLbVirtualServer#server_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#server_auth PolicyLbVirtualServer#server_auth}
   */
   readonly serverAuth?: string;
   /**
   * Server SSL Profile Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#ssl_profile_path PolicyLbVirtualServer#ssl_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#ssl_profile_path PolicyLbVirtualServer#ssl_profile_path}
   */
   readonly sslProfilePath?: string;
 }
@@ -7487,11 +7487,11 @@ export class PolicyLbVirtualServerServerSslOutputReference extends cdktf.Complex
 }
 export interface PolicyLbVirtualServerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#scope PolicyLbVirtualServer#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#scope PolicyLbVirtualServer#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#tag PolicyLbVirtualServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#tag PolicyLbVirtualServer#tag}
   */
   readonly tag?: string;
 }
@@ -7636,7 +7636,7 @@ export class PolicyLbVirtualServerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server nsxt_policy_lb_virtual_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server nsxt_policy_lb_virtual_server}
 */
 export class PolicyLbVirtualServer extends cdktf.TerraformResource {
 
@@ -7652,7 +7652,7 @@ export class PolicyLbVirtualServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbVirtualServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbVirtualServer to import
-  * @param importFromId The id of the existing PolicyLbVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbVirtualServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7664,7 +7664,7 @@ export class PolicyLbVirtualServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_virtual_server nsxt_policy_lb_virtual_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_virtual_server nsxt_policy_lb_virtual_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7675,8 +7675,8 @@ export class PolicyLbVirtualServer extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_virtual_server',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

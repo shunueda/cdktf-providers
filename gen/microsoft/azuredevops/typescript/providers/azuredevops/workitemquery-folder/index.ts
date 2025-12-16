@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface WorkitemqueryFolderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#area WorkitemqueryFolder#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#area WorkitemqueryFolder#area}
   */
   readonly area?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#id WorkitemqueryFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#id WorkitemqueryFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#name WorkitemqueryFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#name WorkitemqueryFolder#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#parent_id WorkitemqueryFolder#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#parent_id WorkitemqueryFolder#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#project_id WorkitemqueryFolder#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#project_id WorkitemqueryFolder#project_id}
   */
   readonly projectId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#timeouts WorkitemqueryFolder#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#timeouts WorkitemqueryFolder#timeouts}
   */
   readonly timeouts?: WorkitemqueryFolderTimeouts;
 }
 export interface WorkitemqueryFolderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#create WorkitemqueryFolder#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#create WorkitemqueryFolder#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#delete WorkitemqueryFolder#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#delete WorkitemqueryFolder#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#read WorkitemqueryFolder#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#read WorkitemqueryFolder#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#update WorkitemqueryFolder#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#update WorkitemqueryFolder#update}
   */
   readonly update?: string;
 }
@@ -232,7 +232,7 @@ export class WorkitemqueryFolderTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder azuredevops_workitemquery_folder}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder azuredevops_workitemquery_folder}
 */
 export class WorkitemqueryFolder extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class WorkitemqueryFolder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkitemqueryFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkitemqueryFolder to import
-  * @param importFromId The id of the existing WorkitemqueryFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkitemqueryFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkitemqueryFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class WorkitemqueryFolder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemquery_folder azuredevops_workitemquery_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/workitemquery_folder azuredevops_workitemquery_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class WorkitemqueryFolder extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_workitemquery_folder',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

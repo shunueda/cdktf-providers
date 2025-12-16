@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudClsLogsetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets#id DataTencentcloudClsLogsets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets#id DataTencentcloudClsLogsets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudClsLogsetsConfig extends cdktf.TerraformMetaArg
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets#result_output_file DataTencentcloudClsLogsets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets#result_output_file DataTencentcloudClsLogsets#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets#filters DataTencentcloudClsLogsets#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets#filters DataTencentcloudClsLogsets#filters}
   */
   readonly filters?: DataTencentcloudClsLogsetsFilters[] | cdktf.IResolvable;
 }
@@ -217,13 +217,13 @@ export interface DataTencentcloudClsLogsetsFilters {
   /**
   * Fields that need to be filtered. Support: `logsetName`, `logsetId`, `tagKey`, `tag:tagKey`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets#key DataTencentcloudClsLogsets#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets#key DataTencentcloudClsLogsets#key}
   */
   readonly key: string;
   /**
   * The values that need to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets#values DataTencentcloudClsLogsets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets#values DataTencentcloudClsLogsets#values}
   */
   readonly values: string[];
 }
@@ -362,7 +362,7 @@ export class DataTencentcloudClsLogsetsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets tencentcloud_cls_logsets}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets tencentcloud_cls_logsets}
 */
 export class DataTencentcloudClsLogsets extends cdktf.TerraformDataSource {
 
@@ -378,7 +378,7 @@ export class DataTencentcloudClsLogsets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClsLogsets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClsLogsets to import
-  * @param importFromId The id of the existing DataTencentcloudClsLogsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClsLogsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClsLogsets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class DataTencentcloudClsLogsets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cls_logsets tencentcloud_cls_logsets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_logsets tencentcloud_cls_logsets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class DataTencentcloudClsLogsets extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cls_logsets',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

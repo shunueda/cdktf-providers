@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InviteOrganizationMemberOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#id InviteOrganizationMemberOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#id InviteOrganizationMemberOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +17,67 @@ export interface InviteOrganizationMemberOperationConfig extends cdktf.Terraform
   /**
   * Whether to allow members to withdraw. Allow: Allow, Disallow: Denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#is_allow_quit InviteOrganizationMemberOperation#is_allow_quit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#is_allow_quit InviteOrganizationMemberOperation#is_allow_quit}
   */
   readonly isAllowQuit?: string;
   /**
   * Invited account Uin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#member_uin InviteOrganizationMemberOperation#member_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#member_uin InviteOrganizationMemberOperation#member_uin}
   */
   readonly memberUin: number;
   /**
   * Member name. The maximum length is 25 characters and supports English letters, numbers, Chinese characters, symbols `+`, `@`, `&`, `.`, `[`, `]`, `-`, `:`, `,` and enumeration comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#name InviteOrganizationMemberOperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#name InviteOrganizationMemberOperation#name}
   */
   readonly name: string;
   /**
   * Node ID of the member's department.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#node_id InviteOrganizationMemberOperation#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#node_id InviteOrganizationMemberOperation#node_id}
   */
   readonly nodeId: number;
   /**
   * Payer Uin. Member needs to pay on behalf of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#pay_uin InviteOrganizationMemberOperation#pay_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#pay_uin InviteOrganizationMemberOperation#pay_uin}
   */
   readonly payUin?: string;
   /**
   * List of member financial authority IDs. Values: 1-View bill, 2-View balance, 3-Fund transfer, 4-Consolidated disbursement, 5-Invoice, 6-Benefit inheritance, 7-Proxy payment, 1 and 2 must be default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#permission_ids InviteOrganizationMemberOperation#permission_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#permission_ids InviteOrganizationMemberOperation#permission_ids}
   */
   readonly permissionIds: number[];
   /**
   * Relationship strategies. Value taken: Financial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#policy_type InviteOrganizationMemberOperation#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#policy_type InviteOrganizationMemberOperation#policy_type}
   */
   readonly policyType: string;
   /**
   * Name of the real-name subject of mutual trust.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#relation_auth_name InviteOrganizationMemberOperation#relation_auth_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#relation_auth_name InviteOrganizationMemberOperation#relation_auth_name}
   */
   readonly relationAuthName?: string;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#remark InviteOrganizationMemberOperation#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#remark InviteOrganizationMemberOperation#remark}
   */
   readonly remark?: string;
   /**
   * auth_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#auth_file InviteOrganizationMemberOperation#auth_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#auth_file InviteOrganizationMemberOperation#auth_file}
   */
   readonly authFile?: InviteOrganizationMemberOperationAuthFile[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#tags InviteOrganizationMemberOperation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#tags InviteOrganizationMemberOperation#tags}
   */
   readonly tags?: InviteOrganizationMemberOperationTags[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface InviteOrganizationMemberOperationAuthFile {
   /**
   * File name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#name InviteOrganizationMemberOperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#name InviteOrganizationMemberOperation#name}
   */
   readonly name: string;
   /**
   * File path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#url InviteOrganizationMemberOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#url InviteOrganizationMemberOperation#url}
   */
   readonly url: string;
 }
@@ -232,13 +232,13 @@ export interface InviteOrganizationMemberOperationTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#tag_key InviteOrganizationMemberOperation#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#tag_key InviteOrganizationMemberOperation#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#tag_value InviteOrganizationMemberOperation#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#tag_value InviteOrganizationMemberOperation#tag_value}
   */
   readonly tagValue: string;
 }
@@ -377,7 +377,7 @@ export class InviteOrganizationMemberOperationTagsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation tencentcloud_invite_organization_member_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation tencentcloud_invite_organization_member_operation}
 */
 export class InviteOrganizationMemberOperation extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class InviteOrganizationMemberOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InviteOrganizationMemberOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InviteOrganizationMemberOperation to import
-  * @param importFromId The id of the existing InviteOrganizationMemberOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InviteOrganizationMemberOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InviteOrganizationMemberOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class InviteOrganizationMemberOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/invite_organization_member_operation tencentcloud_invite_organization_member_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/invite_organization_member_operation tencentcloud_invite_organization_member_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class InviteOrganizationMemberOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_invite_organization_member_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

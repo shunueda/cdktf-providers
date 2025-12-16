@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyVmTagsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#id PolicyVmTags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#id PolicyVmTags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PolicyVmTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#instance_id PolicyVmTags#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#instance_id PolicyVmTags#instance_id}
   */
   readonly instanceId: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#context PolicyVmTags#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#context PolicyVmTags#context}
   */
   readonly context?: PolicyVmTagsContext;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#port PolicyVmTags#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#port PolicyVmTags#port}
   */
   readonly port?: PolicyVmTagsPort[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
   */
   readonly tag?: PolicyVmTagsTag[] | cdktf.IResolvable;
 }
@@ -43,7 +43,7 @@ export interface PolicyVmTagsContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#project_id PolicyVmTags#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#project_id PolicyVmTags#project_id}
   */
   readonly projectId: string;
 }
@@ -124,11 +124,11 @@ export class PolicyVmTagsContextOutputReference extends cdktf.ComplexObject {
 }
 export interface PolicyVmTagsPortTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#scope PolicyVmTags#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#scope PolicyVmTags#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
   */
   readonly tag?: string;
 }
@@ -275,13 +275,13 @@ export interface PolicyVmTagsPort {
   /**
   * Segment path where VM port should be tagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#segment_path PolicyVmTags#segment_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#segment_path PolicyVmTags#segment_path}
   */
   readonly segmentPath: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
   */
   readonly tag?: PolicyVmTagsPortTag[] | cdktf.IResolvable;
 }
@@ -423,11 +423,11 @@ export class PolicyVmTagsPortList extends cdktf.ComplexList {
 }
 export interface PolicyVmTagsTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#scope PolicyVmTags#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#scope PolicyVmTags#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#tag PolicyVmTags#tag}
   */
   readonly tag?: string;
 }
@@ -572,7 +572,7 @@ export class PolicyVmTagsTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags nsxt_policy_vm_tags}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags nsxt_policy_vm_tags}
 */
 export class PolicyVmTags extends cdktf.TerraformResource {
 
@@ -588,7 +588,7 @@ export class PolicyVmTags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyVmTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyVmTags to import
-  * @param importFromId The id of the existing PolicyVmTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyVmTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyVmTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class PolicyVmTags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_vm_tags nsxt_policy_vm_tags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_vm_tags nsxt_policy_vm_tags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class PolicyVmTags extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_vm_tags',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpcExternalAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * allocated ip path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address#allocated_external_ip_path VpcExternalAddress#allocated_external_ip_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address#allocated_external_ip_path VpcExternalAddress#allocated_external_ip_path}
   */
   readonly allocatedExternalIpPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address#id VpcExternalAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address#id VpcExternalAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface VpcExternalAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * port path for address binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address#parent_path VpcExternalAddress#parent_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address#parent_path VpcExternalAddress#parent_path}
   */
   readonly parentPath: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address nsxt_vpc_external_address}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address nsxt_vpc_external_address}
 */
 export class VpcExternalAddress extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VpcExternalAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcExternalAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcExternalAddress to import
-  * @param importFromId The id of the existing VpcExternalAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcExternalAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcExternalAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VpcExternalAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_external_address nsxt_vpc_external_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_external_address nsxt_vpc_external_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VpcExternalAddress extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_external_address',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

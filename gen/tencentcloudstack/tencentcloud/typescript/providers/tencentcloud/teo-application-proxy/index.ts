@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoApplicationProxyConfig extends cdktf.TerraformMetaArguments 
   /**
   * - `0`: Disable acceleration.- `1`: Enable acceleration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#accelerate_type TeoApplicationProxy#accelerate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#accelerate_type TeoApplicationProxy#accelerate_type}
   */
   readonly accelerateType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#id TeoApplicationProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#id TeoApplicationProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface TeoApplicationProxyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Scheduling mode.- `ip`: Anycast IP.- `domain`: CNAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#plat_type TeoApplicationProxy#plat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#plat_type TeoApplicationProxy#plat_type}
   */
   readonly platType: string;
   /**
   * When `ProxyType` is hostname, `ProxyName` is the domain or subdomain name.When `ProxyType` is instance, `ProxyName` is the name of proxy application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#proxy_name TeoApplicationProxy#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#proxy_name TeoApplicationProxy#proxy_name}
   */
   readonly proxyName: string;
   /**
   * Layer 4 proxy mode. Valid values:- `hostname`: subdomain mode.- `instance`: instance mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#proxy_type TeoApplicationProxy#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#proxy_type TeoApplicationProxy#proxy_type}
   */
   readonly proxyType?: string;
   /**
   * - `0`: Disable security protection.- `1`: Enable security protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#security_type TeoApplicationProxy#security_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#security_type TeoApplicationProxy#security_type}
   */
   readonly securityType: number;
   /**
   * Session persistence duration. Value range: 30-3600 (in seconds), default value is 600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#session_persist_time TeoApplicationProxy#session_persist_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#session_persist_time TeoApplicationProxy#session_persist_time}
   */
   readonly sessionPersistTime?: number;
   /**
   * Status of this application proxy. Valid values to set is `online` and `offline`.- `online`: Enable.- `offline`: Disable.- `progress`: Deploying.- `stopping`: Deactivating.- `fail`: Deploy or deactivate failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#status TeoApplicationProxy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#status TeoApplicationProxy#status}
   */
   readonly status?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#zone_id TeoApplicationProxy#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#zone_id TeoApplicationProxy#zone_id}
   */
   readonly zoneId: string;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#ipv6 TeoApplicationProxy#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#ipv6 TeoApplicationProxy#ipv6}
   */
   readonly ipv6?: TeoApplicationProxyIpv6;
 }
@@ -73,7 +73,7 @@ export interface TeoApplicationProxyIpv6 {
   /**
   * - `on`: Enable.- `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#switch TeoApplicationProxy#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#switch TeoApplicationProxy#switch}
   */
   readonly switch: string;
 }
@@ -154,7 +154,7 @@ export class TeoApplicationProxyIpv6OutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy tencentcloud_teo_application_proxy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy tencentcloud_teo_application_proxy}
 */
 export class TeoApplicationProxy extends cdktf.TerraformResource {
 
@@ -170,7 +170,7 @@ export class TeoApplicationProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoApplicationProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoApplicationProxy to import
-  * @param importFromId The id of the existing TeoApplicationProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoApplicationProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoApplicationProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class TeoApplicationProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy tencentcloud_teo_application_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_application_proxy tencentcloud_teo_application_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class TeoApplicationProxy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_application_proxy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCssXp2PDetailInfoListConfig extends cdktf.Terra
   /**
   * The dimension parameter can be used to specify the dimension for the query. If this parameter is not passed, the query will default to stream-level data. If you pass this parameter, it will only retrieve data for the specified dimension. The available dimension currently supported is AppId dimension, which allows you to query data based on the application ID. Please note that the returned fields will be related to the specified dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#dimension DataTencentcloudCssXp2PDetailInfoList#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#dimension DataTencentcloudCssXp2PDetailInfoList#dimension}
   */
   readonly dimension?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#id DataTencentcloudCssXp2PDetailInfoList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#id DataTencentcloudCssXp2PDetailInfoList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudCssXp2PDetailInfoListConfig extends cdktf.Terra
   /**
   * The UTC minute granularity query time for querying usage data for a specific minute is in the format: yyyy-mm-ddTHH:MM:00Z. Please refer to the link https://cloud.tencent.com/document/product/266/11732#I.For example, if the local time is 2019-01-08 10:00:00 in Beijing, the corresponding UTC time would be 2019-01-08T10:00:00+08:00.This query supports data from the past six months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#query_time DataTencentcloudCssXp2PDetailInfoList#query_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#query_time DataTencentcloudCssXp2PDetailInfoList#query_time}
   */
   readonly queryTime?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#result_output_file DataTencentcloudCssXp2PDetailInfoList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#result_output_file DataTencentcloudCssXp2PDetailInfoList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The stream array can be used to specify the streams to be queried. If no stream is specified, the query will include all streams by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#stream_names DataTencentcloudCssXp2PDetailInfoList#stream_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#stream_names DataTencentcloudCssXp2PDetailInfoList#stream_names}
   */
   readonly streamNames?: string[];
   /**
   * The type array can be used to specify the type of media content to be queried. The two available options are live for live streaming and vod for video on demand. If no type is specified, the query will include both live and VOD content by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#type DataTencentcloudCssXp2PDetailInfoList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#type DataTencentcloudCssXp2PDetailInfoList#type}
   */
   readonly type?: string[];
 }
@@ -172,7 +172,7 @@ export class DataTencentcloudCssXp2PDetailInfoListDataInfoListStructList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list tencentcloud_css_xp2p_detail_info_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list tencentcloud_css_xp2p_detail_info_list}
 */
 export class DataTencentcloudCssXp2PDetailInfoList extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataTencentcloudCssXp2PDetailInfoList extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudCssXp2PDetailInfoList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCssXp2PDetailInfoList to import
-  * @param importFromId The id of the existing DataTencentcloudCssXp2PDetailInfoList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCssXp2PDetailInfoList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCssXp2PDetailInfoList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataTencentcloudCssXp2PDetailInfoList extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_xp2p_detail_info_list tencentcloud_css_xp2p_detail_info_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_xp2p_detail_info_list tencentcloud_css_xp2p_detail_info_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class DataTencentcloudCssXp2PDetailInfoList extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_css_xp2p_detail_info_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

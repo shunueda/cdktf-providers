@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"groups"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#access_level_groups_claim_name SolacebrokerOauthProfile#access_level_groups_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#access_level_groups_claim_name SolacebrokerOauthProfile#access_level_groups_claim_name}
   */
   readonly accessLevelGroupsClaimName?: string;
   /**
@@ -26,15 +26,45 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * </pre>
   *  Available since SEMP API version 2.32.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#access_level_groups_claim_string_format SolacebrokerOauthProfile#access_level_groups_claim_string_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#access_level_groups_claim_string_format SolacebrokerOauthProfile#access_level_groups_claim_string_format}
   */
   readonly accessLevelGroupsClaimStringFormat?: string;
+  /**
+  * The PEM formatted content for the client certificate used by the broker to login to the token and introspection endpoints. To be used when authentication_scheme is "client-certificate".
+  * 
+  * The minimum access scope/level required to change this attribute is "global/admin". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). The default value is `""`. Available since SEMP API version 2.47.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#authentication_client_cert_content SolacebrokerOauthProfile#authentication_client_cert_content}
+  */
+  readonly authenticationClientCertContent?: string;
+  /**
+  * The password for the client certificate. To be used when authentication_scheme is "client-certificate".
+  * 
+  * The minimum access scope/level required to change this attribute is "global/admin". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). The default value is `""`. Available since SEMP API version 2.47.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#authentication_client_cert_password SolacebrokerOauthProfile#authentication_client_cert_password}
+  */
+  readonly authenticationClientCertPassword?: string;
+  /**
+  * The authentication scheme for token and introspection requests.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"basic"`. The allowed values and their meaning are:
+  * 
+  * <pre>
+  * "basic" - Basic Authentication Scheme (via client id and client secret).
+  * "client-certificate" - Client Certificate Authentication Scheme (via certificate file or content).
+  * </pre>
+  *  Available since SEMP API version 2.47.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#authentication_scheme SolacebrokerOauthProfile#authentication_scheme}
+  */
+  readonly authenticationScheme?: string;
   /**
   * The OAuth client id.
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#client_id SolacebrokerOauthProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#client_id SolacebrokerOauthProfile#client_id}
   */
   readonly clientId?: string;
   /**
@@ -42,7 +72,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#client_redirect_uri SolacebrokerOauthProfile#client_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#client_redirect_uri SolacebrokerOauthProfile#client_redirect_uri}
   */
   readonly clientRedirectUri?: string;
   /**
@@ -50,7 +80,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"JWT"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#client_required_type SolacebrokerOauthProfile#client_required_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#client_required_type SolacebrokerOauthProfile#client_required_type}
   */
   readonly clientRequiredType?: string;
   /**
@@ -58,7 +88,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"openid email"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#client_scope SolacebrokerOauthProfile#client_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#client_scope SolacebrokerOauthProfile#client_scope}
   */
   readonly clientScope?: string;
   /**
@@ -66,7 +96,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#client_secret SolacebrokerOauthProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#client_secret SolacebrokerOauthProfile#client_secret}
   */
   readonly clientSecret?: string;
   /**
@@ -74,7 +104,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#client_validate_type_enabled SolacebrokerOauthProfile#client_validate_type_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#client_validate_type_enabled SolacebrokerOauthProfile#client_validate_type_enabled}
   */
   readonly clientValidateTypeEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -91,7 +121,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#default_global_access_level SolacebrokerOauthProfile#default_global_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#default_global_access_level SolacebrokerOauthProfile#default_global_access_level}
   */
   readonly defaultGlobalAccessLevel?: string;
   /**
@@ -106,7 +136,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#default_msg_vpn_access_level SolacebrokerOauthProfile#default_msg_vpn_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#default_msg_vpn_access_level SolacebrokerOauthProfile#default_msg_vpn_access_level}
   */
   readonly defaultMsgVpnAccessLevel?: string;
   /**
@@ -114,7 +144,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#display_name SolacebrokerOauthProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#display_name SolacebrokerOauthProfile#display_name}
   */
   readonly displayName?: string;
   /**
@@ -122,7 +152,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#enabled SolacebrokerOauthProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#enabled SolacebrokerOauthProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -130,7 +160,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_authorization SolacebrokerOauthProfile#endpoint_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_authorization SolacebrokerOauthProfile#endpoint_authorization}
   */
   readonly endpointAuthorization?: string;
   /**
@@ -138,7 +168,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_discovery SolacebrokerOauthProfile#endpoint_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_discovery SolacebrokerOauthProfile#endpoint_discovery}
   */
   readonly endpointDiscovery?: string;
   /**
@@ -146,7 +176,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_discovery_refresh_interval SolacebrokerOauthProfile#endpoint_discovery_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_discovery_refresh_interval SolacebrokerOauthProfile#endpoint_discovery_refresh_interval}
   */
   readonly endpointDiscoveryRefreshInterval?: number;
   /**
@@ -154,7 +184,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_introspection SolacebrokerOauthProfile#endpoint_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_introspection SolacebrokerOauthProfile#endpoint_introspection}
   */
   readonly endpointIntrospection?: string;
   /**
@@ -162,7 +192,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_introspection_timeout SolacebrokerOauthProfile#endpoint_introspection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_introspection_timeout SolacebrokerOauthProfile#endpoint_introspection_timeout}
   */
   readonly endpointIntrospectionTimeout?: number;
   /**
@@ -170,7 +200,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_jwks SolacebrokerOauthProfile#endpoint_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_jwks SolacebrokerOauthProfile#endpoint_jwks}
   */
   readonly endpointJwks?: string;
   /**
@@ -178,7 +208,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_jwks_refresh_interval SolacebrokerOauthProfile#endpoint_jwks_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_jwks_refresh_interval SolacebrokerOauthProfile#endpoint_jwks_refresh_interval}
   */
   readonly endpointJwksRefreshInterval?: number;
   /**
@@ -186,7 +216,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_token SolacebrokerOauthProfile#endpoint_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_token SolacebrokerOauthProfile#endpoint_token}
   */
   readonly endpointToken?: string;
   /**
@@ -194,7 +224,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_token_timeout SolacebrokerOauthProfile#endpoint_token_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_token_timeout SolacebrokerOauthProfile#endpoint_token_timeout}
   */
   readonly endpointTokenTimeout?: number;
   /**
@@ -202,7 +232,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_userinfo SolacebrokerOauthProfile#endpoint_userinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_userinfo SolacebrokerOauthProfile#endpoint_userinfo}
   */
   readonly endpointUserinfo?: string;
   /**
@@ -210,7 +240,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#endpoint_userinfo_timeout SolacebrokerOauthProfile#endpoint_userinfo_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#endpoint_userinfo_timeout SolacebrokerOauthProfile#endpoint_userinfo_timeout}
   */
   readonly endpointUserinfoTimeout?: number;
   /**
@@ -218,7 +248,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#interactive_enabled SolacebrokerOauthProfile#interactive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#interactive_enabled SolacebrokerOauthProfile#interactive_enabled}
   */
   readonly interactiveEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -226,7 +256,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#interactive_prompt_for_expired_session SolacebrokerOauthProfile#interactive_prompt_for_expired_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#interactive_prompt_for_expired_session SolacebrokerOauthProfile#interactive_prompt_for_expired_session}
   */
   readonly interactivePromptForExpiredSession?: string;
   /**
@@ -234,7 +264,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"select_account"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#interactive_prompt_for_new_session SolacebrokerOauthProfile#interactive_prompt_for_new_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#interactive_prompt_for_new_session SolacebrokerOauthProfile#interactive_prompt_for_new_session}
   */
   readonly interactivePromptForNewSession?: string;
   /**
@@ -242,7 +272,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#issuer SolacebrokerOauthProfile#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#issuer SolacebrokerOauthProfile#issuer}
   */
   readonly issuer?: string;
   /**
@@ -250,7 +280,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#oauth_profile_name SolacebrokerOauthProfile#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#oauth_profile_name SolacebrokerOauthProfile#oauth_profile_name}
   */
   readonly oauthProfileName: string;
   /**
@@ -264,7 +294,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#oauth_role SolacebrokerOauthProfile#oauth_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#oauth_role SolacebrokerOauthProfile#oauth_role}
   */
   readonly oauthRole?: string;
   /**
@@ -272,7 +302,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`. Available since SEMP API version 2.41.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#proxy_name SolacebrokerOauthProfile#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#proxy_name SolacebrokerOauthProfile#proxy_name}
   */
   readonly proxyName?: string;
   /**
@@ -280,7 +310,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_parse_access_token_enabled SolacebrokerOauthProfile#resource_server_parse_access_token_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_parse_access_token_enabled SolacebrokerOauthProfile#resource_server_parse_access_token_enabled}
   */
   readonly resourceServerParseAccessTokenEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -288,7 +318,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_required_audience SolacebrokerOauthProfile#resource_server_required_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_required_audience SolacebrokerOauthProfile#resource_server_required_audience}
   */
   readonly resourceServerRequiredAudience?: string;
   /**
@@ -296,7 +326,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_required_issuer SolacebrokerOauthProfile#resource_server_required_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_required_issuer SolacebrokerOauthProfile#resource_server_required_issuer}
   */
   readonly resourceServerRequiredIssuer?: string;
   /**
@@ -304,7 +334,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_required_scope SolacebrokerOauthProfile#resource_server_required_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_required_scope SolacebrokerOauthProfile#resource_server_required_scope}
   */
   readonly resourceServerRequiredScope?: string;
   /**
@@ -312,7 +342,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"at+jwt"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_required_type SolacebrokerOauthProfile#resource_server_required_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_required_type SolacebrokerOauthProfile#resource_server_required_type}
   */
   readonly resourceServerRequiredType?: string;
   /**
@@ -320,7 +350,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_audience_enabled SolacebrokerOauthProfile#resource_server_validate_audience_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_audience_enabled SolacebrokerOauthProfile#resource_server_validate_audience_enabled}
   */
   readonly resourceServerValidateAudienceEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -328,7 +358,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_issuer_enabled SolacebrokerOauthProfile#resource_server_validate_issuer_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_issuer_enabled SolacebrokerOauthProfile#resource_server_validate_issuer_enabled}
   */
   readonly resourceServerValidateIssuerEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -336,7 +366,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_scope_enabled SolacebrokerOauthProfile#resource_server_validate_scope_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_scope_enabled SolacebrokerOauthProfile#resource_server_validate_scope_enabled}
   */
   readonly resourceServerValidateScopeEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -344,7 +374,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_type_enabled SolacebrokerOauthProfile#resource_server_validate_type_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#resource_server_validate_type_enabled SolacebrokerOauthProfile#resource_server_validate_type_enabled}
   */
   readonly resourceServerValidateTypeEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -352,7 +382,7 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#semp_enabled SolacebrokerOauthProfile#semp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#semp_enabled SolacebrokerOauthProfile#semp_enabled}
   */
   readonly sempEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -360,13 +390,13 @@ export interface SolacebrokerOauthProfileConfig extends cdktf.TerraformMetaArgum
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"sub"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#username_claim_name SolacebrokerOauthProfile#username_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#username_claim_name SolacebrokerOauthProfile#username_claim_name}
   */
   readonly usernameClaimName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile solacebroker_oauth_profile}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile solacebroker_oauth_profile}
 */
 export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
 
@@ -382,7 +412,7 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerOauthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerOauthProfile to import
-  * @param importFromId The id of the existing SolacebrokerOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerOauthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -394,7 +424,7 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile solacebroker_oauth_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile solacebroker_oauth_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -405,8 +435,8 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_oauth_profile',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -418,6 +448,9 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
     });
     this._accessLevelGroupsClaimName = config.accessLevelGroupsClaimName;
     this._accessLevelGroupsClaimStringFormat = config.accessLevelGroupsClaimStringFormat;
+    this._authenticationClientCertContent = config.authenticationClientCertContent;
+    this._authenticationClientCertPassword = config.authenticationClientCertPassword;
+    this._authenticationScheme = config.authenticationScheme;
     this._clientId = config.clientId;
     this._clientRedirectUri = config.clientRedirectUri;
     this._clientRequiredType = config.clientRequiredType;
@@ -493,6 +526,54 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get accessLevelGroupsClaimStringFormatInput() {
     return this._accessLevelGroupsClaimStringFormat;
+  }
+
+  // authentication_client_cert_content - computed: false, optional: true, required: false
+  private _authenticationClientCertContent?: string; 
+  public get authenticationClientCertContent() {
+    return this.getStringAttribute('authentication_client_cert_content');
+  }
+  public set authenticationClientCertContent(value: string) {
+    this._authenticationClientCertContent = value;
+  }
+  public resetAuthenticationClientCertContent() {
+    this._authenticationClientCertContent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authenticationClientCertContentInput() {
+    return this._authenticationClientCertContent;
+  }
+
+  // authentication_client_cert_password - computed: false, optional: true, required: false
+  private _authenticationClientCertPassword?: string; 
+  public get authenticationClientCertPassword() {
+    return this.getStringAttribute('authentication_client_cert_password');
+  }
+  public set authenticationClientCertPassword(value: string) {
+    this._authenticationClientCertPassword = value;
+  }
+  public resetAuthenticationClientCertPassword() {
+    this._authenticationClientCertPassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authenticationClientCertPasswordInput() {
+    return this._authenticationClientCertPassword;
+  }
+
+  // authentication_scheme - computed: false, optional: true, required: false
+  private _authenticationScheme?: string; 
+  public get authenticationScheme() {
+    return this.getStringAttribute('authentication_scheme');
+  }
+  public set authenticationScheme(value: string) {
+    this._authenticationScheme = value;
+  }
+  public resetAuthenticationScheme() {
+    this._authenticationScheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authenticationSchemeInput() {
+    return this._authenticationScheme;
   }
 
   // client_id - computed: false, optional: true, required: false
@@ -1124,6 +1205,9 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
     return {
       access_level_groups_claim_name: cdktf.stringToTerraform(this._accessLevelGroupsClaimName),
       access_level_groups_claim_string_format: cdktf.stringToTerraform(this._accessLevelGroupsClaimStringFormat),
+      authentication_client_cert_content: cdktf.stringToTerraform(this._authenticationClientCertContent),
+      authentication_client_cert_password: cdktf.stringToTerraform(this._authenticationClientCertPassword),
+      authentication_scheme: cdktf.stringToTerraform(this._authenticationScheme),
       client_id: cdktf.stringToTerraform(this._clientId),
       client_redirect_uri: cdktf.stringToTerraform(this._clientRedirectUri),
       client_required_type: cdktf.stringToTerraform(this._clientRequiredType),
@@ -1176,6 +1260,24 @@ export class SolacebrokerOauthProfile extends cdktf.TerraformResource {
       },
       access_level_groups_claim_string_format: {
         value: cdktf.stringToHclTerraform(this._accessLevelGroupsClaimStringFormat),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      authentication_client_cert_content: {
+        value: cdktf.stringToHclTerraform(this._authenticationClientCertContent),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      authentication_client_cert_password: {
+        value: cdktf.stringToHclTerraform(this._authenticationClientCertPassword),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      authentication_scheme: {
+        value: cdktf.stringToHclTerraform(this._authenticationScheme),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

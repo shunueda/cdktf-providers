@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudOceanusCheckSavepointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#id DataTencentcloudOceanusCheckSavepoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#id DataTencentcloudOceanusCheckSavepoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataTencentcloudOceanusCheckSavepointConfig extends cdktf.Terra
   /**
   * Job id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#job_id DataTencentcloudOceanusCheckSavepoint#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#job_id DataTencentcloudOceanusCheckSavepoint#job_id}
   */
   readonly jobId: string;
   /**
   * Snapshot type. 1:savepoint; 2:checkpoint; 3:cancelWithSavepoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#record_type DataTencentcloudOceanusCheckSavepoint#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#record_type DataTencentcloudOceanusCheckSavepoint#record_type}
   */
   readonly recordType: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#result_output_file DataTencentcloudOceanusCheckSavepoint#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#result_output_file DataTencentcloudOceanusCheckSavepoint#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Snapshot path, currently only supports COS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#savepoint_path DataTencentcloudOceanusCheckSavepoint#savepoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#savepoint_path DataTencentcloudOceanusCheckSavepoint#savepoint_path}
   */
   readonly savepointPath: string;
   /**
   * Snapshot resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#serial_id DataTencentcloudOceanusCheckSavepoint#serial_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#serial_id DataTencentcloudOceanusCheckSavepoint#serial_id}
   */
   readonly serialId: string;
   /**
   * Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#work_space_id DataTencentcloudOceanusCheckSavepoint#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#work_space_id DataTencentcloudOceanusCheckSavepoint#work_space_id}
   */
   readonly workSpaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint tencentcloud_oceanus_check_savepoint}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint tencentcloud_oceanus_check_savepoint}
 */
 export class DataTencentcloudOceanusCheckSavepoint extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataTencentcloudOceanusCheckSavepoint extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudOceanusCheckSavepoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOceanusCheckSavepoint to import
-  * @param importFromId The id of the existing DataTencentcloudOceanusCheckSavepoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOceanusCheckSavepoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOceanusCheckSavepoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataTencentcloudOceanusCheckSavepoint extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_check_savepoint tencentcloud_oceanus_check_savepoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_check_savepoint tencentcloud_oceanus_check_savepoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataTencentcloudOceanusCheckSavepoint extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_oceanus_check_savepoint',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

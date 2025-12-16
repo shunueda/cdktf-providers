@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerVirtualHostnameConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname#enabled SolacebrokerVirtualHostname#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname#enabled SolacebrokerVirtualHostname#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerVirtualHostnameConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname#msg_vpn_name SolacebrokerVirtualHostname#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname#msg_vpn_name SolacebrokerVirtualHostname#msg_vpn_name}
   */
   readonly msgVpnName?: string;
   /**
@@ -28,13 +28,13 @@ export interface SolacebrokerVirtualHostnameConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname#virtual_hostname SolacebrokerVirtualHostname#virtual_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname#virtual_hostname SolacebrokerVirtualHostname#virtual_hostname}
   */
   readonly virtualHostname: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname solacebroker_virtual_hostname}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname solacebroker_virtual_hostname}
 */
 export class SolacebrokerVirtualHostname extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SolacebrokerVirtualHostname extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerVirtualHostname resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerVirtualHostname to import
-  * @param importFromId The id of the existing SolacebrokerVirtualHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerVirtualHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerVirtualHostname to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SolacebrokerVirtualHostname extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_virtual_hostname solacebroker_virtual_hostname} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_virtual_hostname solacebroker_virtual_hostname} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SolacebrokerVirtualHostname extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_virtual_hostname',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

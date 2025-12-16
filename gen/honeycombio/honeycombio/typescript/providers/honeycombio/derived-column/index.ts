@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DerivedColumnConfig extends cdktf.TerraformMetaArguments {
   /**
   * The alias of the derived column. Must be unique within the dataset or environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column#alias DerivedColumn#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column#alias DerivedColumn#alias}
   */
   readonly alias: string;
   /**
   * The dataset this derived column belongs to. If not set, it will be Environment-wide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column#dataset DerivedColumn#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column#dataset DerivedColumn#dataset}
   */
   readonly dataset?: string;
   /**
   * A description of the derived column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column#description DerivedColumn#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column#description DerivedColumn#description}
   */
   readonly description?: string;
   /**
   * The formula of the derived column. See [Derived Column Syntax](https://docs.honeycomb.io/reference/derived-column-formula/syntax/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column#expression DerivedColumn#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column#expression DerivedColumn#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column#id DerivedColumn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column#id DerivedColumn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface DerivedColumnConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column honeycombio_derived_column}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column honeycombio_derived_column}
 */
 export class DerivedColumn extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DerivedColumn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DerivedColumn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DerivedColumn to import
-  * @param importFromId The id of the existing DerivedColumn that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DerivedColumn that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DerivedColumn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DerivedColumn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/derived_column honeycombio_derived_column} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/derived_column honeycombio_derived_column} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DerivedColumn extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_derived_column',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

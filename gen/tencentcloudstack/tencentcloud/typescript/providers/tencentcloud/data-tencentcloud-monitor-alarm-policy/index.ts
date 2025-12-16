@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudMonitorAlarmPolicyConfig extends cdktf.Terrafor
   /**
   * The alarm object list, which is a JSON string. The outer array corresponds to multiple instances, and the inner array is the dimension of an object.For example, 'CVM - Basic Monitor' can be written as: [ {Dimensions: {unInstanceId: ins-qr8d555g}}, {Dimensions: {unInstanceId: ins-qr8d555h}} ]You can also refer to the 'Example 2' below.For more information on the parameter samples of different Tencent Cloud services, see [Product Policy Type and Dimension Information](https://www.tencentcloud.com/document/product/248/39565?has_map=1).Note: If 1 is passed in for NeedCorrespondence, the relationship between a policy and an instance needs to be returned. You can pass in up to 20 alarm object dimensions to avoid request timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#dimensions DataTencentcloudMonitorAlarmPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#dimensions DataTencentcloudMonitorAlarmPolicy#dimensions}
   */
   readonly dimensions?: string;
   /**
   * Filter by alarm status. Valid values: [1]: enabled; [0]: disabled; [0, 1]: all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#enable DataTencentcloudMonitorAlarmPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#enable DataTencentcloudMonitorAlarmPolicy#enable}
   */
   readonly enable?: number[];
   /**
   * Sort by field. For example, to sort by the last modification time, use Field: UpdateTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#field DataTencentcloudMonitorAlarmPolicy#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#field DataTencentcloudMonitorAlarmPolicy#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#id DataTencentcloudMonitorAlarmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#id DataTencentcloudMonitorAlarmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,127 +35,127 @@ export interface DataTencentcloudMonitorAlarmPolicyConfig extends cdktf.Terrafor
   /**
   * Instance group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#instance_group_id DataTencentcloudMonitorAlarmPolicy#instance_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#instance_group_id DataTencentcloudMonitorAlarmPolicy#instance_group_id}
   */
   readonly instanceGroupId?: number;
   /**
   * Value fixed at monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#module DataTencentcloudMonitorAlarmPolicy#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#module DataTencentcloudMonitorAlarmPolicy#module}
   */
   readonly module: string;
   /**
   * Filter by monitor type. Valid values: MT_QCE (Tencent Cloud service monitoring). If this parameter is left empty, all will be queried by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#monitor_types DataTencentcloudMonitorAlarmPolicy#monitor_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#monitor_types DataTencentcloudMonitorAlarmPolicy#monitor_types}
   */
   readonly monitorTypes?: string[];
   /**
   * Filter by namespace. For the values of different policy types, please see:[Poicy Type List](https://www.tencentcloud.com/document/product/248/39565?has_map=1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#namespaces DataTencentcloudMonitorAlarmPolicy#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#namespaces DataTencentcloudMonitorAlarmPolicy#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Whether the relationship between a policy and the input parameter filter dimension is required. 1: Yes. 0: No. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#need_correspondence DataTencentcloudMonitorAlarmPolicy#need_correspondence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#need_correspondence DataTencentcloudMonitorAlarmPolicy#need_correspondence}
   */
   readonly needCorrespondence?: number;
   /**
   * Whether the returned result needs to filter policies associated with all objects. Valid values: 1 (Yes), 0 (No).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#not_bind_all DataTencentcloudMonitorAlarmPolicy#not_bind_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#not_bind_all DataTencentcloudMonitorAlarmPolicy#not_bind_all}
   */
   readonly notBindAll?: number;
   /**
   * If 1 is passed in, alarm policies with no notification rules configured are queried. If it is left empty or other values are passed in, all alarm policies are queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#not_binding_notice_rule DataTencentcloudMonitorAlarmPolicy#not_binding_notice_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#not_binding_notice_rule DataTencentcloudMonitorAlarmPolicy#not_binding_notice_rule}
   */
   readonly notBindingNoticeRule?: number;
   /**
   * Whether the returned result needs to filter policies associated with instance groups. Valid values: 1 (Yes), 0 (No).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#not_instance_group DataTencentcloudMonitorAlarmPolicy#not_instance_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#not_instance_group DataTencentcloudMonitorAlarmPolicy#not_instance_group}
   */
   readonly notInstanceGroup?: number;
   /**
   * List of the notification template IDs, which can be obtained by querying the notification template list.It can be queried with the API [DescribeAlarmNotices](https://www.tencentcloud.com/document/product/248/39300).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#notice_ids DataTencentcloudMonitorAlarmPolicy#notice_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#notice_ids DataTencentcloudMonitorAlarmPolicy#notice_ids}
   */
   readonly noticeIds?: string[];
   /**
   * Filter by quick alarm policy. If this parameter is left empty, all policies are displayed. ONECLICK: Display quick alarm policies; NOT_ONECLICK: Display non-quick alarm policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#one_click_policy_type DataTencentcloudMonitorAlarmPolicy#one_click_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#one_click_policy_type DataTencentcloudMonitorAlarmPolicy#one_click_policy_type}
   */
   readonly oneClickPolicyType?: string[];
   /**
   * Sort order. Valid values: ASC (ascending), DESC (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#order DataTencentcloudMonitorAlarmPolicy#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#order DataTencentcloudMonitorAlarmPolicy#order}
   */
   readonly order?: string;
   /**
   * Fuzzy search by policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#policy_name DataTencentcloudMonitorAlarmPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#policy_name DataTencentcloudMonitorAlarmPolicy#policy_name}
   */
   readonly policyName?: string;
   /**
   * Filter by default policy. Valid values: DEFAULT (display default policy), NOT_DEFAULT (display non-default policies). If this parameter is left empty, all policies will be displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#policy_type DataTencentcloudMonitorAlarmPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#policy_type DataTencentcloudMonitorAlarmPolicy#policy_type}
   */
   readonly policyType?: string[];
   /**
   * ID array of the policy project, which can be viewed on the following page: [Project Management](https://console.tencentcloud.com/project).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#project_ids DataTencentcloudMonitorAlarmPolicy#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#project_ids DataTencentcloudMonitorAlarmPolicy#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * ID of the TencentCloud Managed Service for Prometheus instance, which is used for customizing a metric policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#prom_ins_id DataTencentcloudMonitorAlarmPolicy#prom_ins_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#prom_ins_id DataTencentcloudMonitorAlarmPolicy#prom_ins_id}
   */
   readonly promInsId?: string;
   /**
   * Search by recipient group. You can get the user group list with the API [ListGroups](https://www.tencentcloud.com/document/product/598/34589?from_cn_redirect=1) in 'Cloud Access Management' or query the user group list where a sub-user is in with the API [ListGroupsForUser](https://www.tencentcloud.com/document/product/598/34588?from_cn_redirect=1). The GroupId field in the returned result should be entered here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#receiver_groups DataTencentcloudMonitorAlarmPolicy#receiver_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#receiver_groups DataTencentcloudMonitorAlarmPolicy#receiver_groups}
   */
   readonly receiverGroups?: number[];
   /**
   * Search by schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#receiver_on_call_form_ids DataTencentcloudMonitorAlarmPolicy#receiver_on_call_form_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#receiver_on_call_form_ids DataTencentcloudMonitorAlarmPolicy#receiver_on_call_form_ids}
   */
   readonly receiverOnCallFormIds?: string[];
   /**
   * Search by recipient. You can get the user list with the API [ListUsers](https://www.tencentcloud.com/document/product/598/34587?from_cn_redirect=1) in 'Cloud Access Management' or query the sub-user information with the API [GetUser](https://www.tencentcloud.com/document/product/598/34590?from_cn_redirect=1). The Uid field in the returned result should be entered here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#receiver_uids DataTencentcloudMonitorAlarmPolicy#receiver_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#receiver_uids DataTencentcloudMonitorAlarmPolicy#receiver_uids}
   */
   readonly receiverUids?: number[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#result_output_file DataTencentcloudMonitorAlarmPolicy#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#result_output_file DataTencentcloudMonitorAlarmPolicy#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter by trigger condition. Valid values: STATIC (display policies with static threshold), DYNAMIC (display policies with dynamic threshold). If this parameter is left empty, all policies will be displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#rule_types DataTencentcloudMonitorAlarmPolicy#rule_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#rule_types DataTencentcloudMonitorAlarmPolicy#rule_types}
   */
   readonly ruleTypes?: string[];
   /**
   * trigger_tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#trigger_tasks DataTencentcloudMonitorAlarmPolicy#trigger_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#trigger_tasks DataTencentcloudMonitorAlarmPolicy#trigger_tasks}
   */
   readonly triggerTasks?: DataTencentcloudMonitorAlarmPolicyTriggerTasks[] | cdktf.IResolvable;
 }
@@ -2928,13 +2928,13 @@ export interface DataTencentcloudMonitorAlarmPolicyTriggerTasks {
   /**
   * Configuration information in JSON format, such as {Key1:Value1,Key2:Value2}Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#task_config DataTencentcloudMonitorAlarmPolicy#task_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#task_config DataTencentcloudMonitorAlarmPolicy#task_config}
   */
   readonly taskConfig: string;
   /**
   * Triggered task type. Valid value: AS (auto scaling)Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#type DataTencentcloudMonitorAlarmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#type DataTencentcloudMonitorAlarmPolicy#type}
   */
   readonly type: string;
 }
@@ -3073,7 +3073,7 @@ export class DataTencentcloudMonitorAlarmPolicyTriggerTasksList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy tencentcloud_monitor_alarm_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy tencentcloud_monitor_alarm_policy}
 */
 export class DataTencentcloudMonitorAlarmPolicy extends cdktf.TerraformDataSource {
 
@@ -3089,7 +3089,7 @@ export class DataTencentcloudMonitorAlarmPolicy extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudMonitorAlarmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorAlarmPolicy to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorAlarmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3101,7 +3101,7 @@ export class DataTencentcloudMonitorAlarmPolicy extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_policy tencentcloud_monitor_alarm_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_policy tencentcloud_monitor_alarm_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3112,8 +3112,8 @@ export class DataTencentcloudMonitorAlarmPolicy extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_monitor_alarm_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

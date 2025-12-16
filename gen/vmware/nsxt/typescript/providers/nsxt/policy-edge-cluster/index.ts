@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface PolicyEdgeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#description PolicyEdgeCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#description PolicyEdgeCluster#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#display_name PolicyEdgeCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#display_name PolicyEdgeCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#edge_cluster_profile_path PolicyEdgeCluster#edge_cluster_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#edge_cluster_profile_path PolicyEdgeCluster#edge_cluster_profile_path}
   */
   readonly edgeClusterProfilePath: string;
   /**
   * ID of the enforcement point this Host Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#enforcement_point PolicyEdgeCluster#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#enforcement_point PolicyEdgeCluster#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#id PolicyEdgeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#id PolicyEdgeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#inter_site_forwarding_enabled PolicyEdgeCluster#inter_site_forwarding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#inter_site_forwarding_enabled PolicyEdgeCluster#inter_site_forwarding_enabled}
   */
   readonly interSiteForwardingEnabled?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#nsx_id PolicyEdgeCluster#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#nsx_id PolicyEdgeCluster#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#password_managed_by_vcf PolicyEdgeCluster#password_managed_by_vcf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#password_managed_by_vcf PolicyEdgeCluster#password_managed_by_vcf}
   */
   readonly passwordManagedByVcf?: boolean | cdktf.IResolvable;
   /**
   * Path to the site this Host Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#site_path PolicyEdgeCluster#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#site_path PolicyEdgeCluster#site_path}
   */
   readonly sitePath?: string;
   /**
   * allocation_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#allocation_rule PolicyEdgeCluster#allocation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#allocation_rule PolicyEdgeCluster#allocation_rule}
   */
   readonly allocationRule?: PolicyEdgeClusterAllocationRule[] | cdktf.IResolvable;
   /**
   * policy_edge_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#policy_edge_node PolicyEdgeCluster#policy_edge_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#policy_edge_node PolicyEdgeCluster#policy_edge_node}
   */
   readonly policyEdgeNode?: PolicyEdgeClusterPolicyEdgeNode[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#tag PolicyEdgeCluster#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#tag PolicyEdgeCluster#tag}
   */
   readonly tag?: PolicyEdgeClusterTag[] | cdktf.IResolvable;
 }
 export interface PolicyEdgeClusterAllocationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#action_based_on_failure_domain_enabled PolicyEdgeCluster#action_based_on_failure_domain_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#action_based_on_failure_domain_enabled PolicyEdgeCluster#action_based_on_failure_domain_enabled}
   */
   readonly actionBasedOnFailureDomainEnabled?: boolean | cdktf.IResolvable;
 }
@@ -193,11 +193,11 @@ export class PolicyEdgeClusterAllocationRuleList extends cdktf.ComplexList {
 }
 export interface PolicyEdgeClusterPolicyEdgeNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#edge_transport_node_path PolicyEdgeCluster#edge_transport_node_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#edge_transport_node_path PolicyEdgeCluster#edge_transport_node_path}
   */
   readonly edgeTransportNodePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#id PolicyEdgeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#id PolicyEdgeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -342,11 +342,11 @@ export class PolicyEdgeClusterPolicyEdgeNodeList extends cdktf.ComplexList {
 }
 export interface PolicyEdgeClusterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#scope PolicyEdgeCluster#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#scope PolicyEdgeCluster#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#tag PolicyEdgeCluster#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#tag PolicyEdgeCluster#tag}
   */
   readonly tag?: string;
 }
@@ -491,7 +491,7 @@ export class PolicyEdgeClusterTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster nsxt_policy_edge_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster nsxt_policy_edge_cluster}
 */
 export class PolicyEdgeCluster extends cdktf.TerraformResource {
 
@@ -507,7 +507,7 @@ export class PolicyEdgeCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEdgeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEdgeCluster to import
-  * @param importFromId The id of the existing PolicyEdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEdgeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -519,7 +519,7 @@ export class PolicyEdgeCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_cluster nsxt_policy_edge_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_cluster nsxt_policy_edge_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -530,8 +530,8 @@ export class PolicyEdgeCluster extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_edge_cluster',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

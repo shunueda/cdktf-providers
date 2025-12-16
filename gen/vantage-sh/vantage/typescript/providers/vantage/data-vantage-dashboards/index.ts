@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/dashboards
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/dashboards
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -281,7 +281,7 @@ export class DataVantageDashboardsDashboardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/dashboards vantage_dashboards}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/dashboards vantage_dashboards}
 */
 export class DataVantageDashboards extends cdktf.TerraformDataSource {
 
@@ -297,7 +297,7 @@ export class DataVantageDashboards extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageDashboards resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageDashboards to import
-  * @param importFromId The id of the existing DataVantageDashboards that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/dashboards#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageDashboards that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/dashboards#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageDashboards to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class DataVantageDashboards extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/dashboards vantage_dashboards} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/dashboards vantage_dashboards} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class DataVantageDashboards extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_dashboards',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

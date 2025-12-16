@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnReplayLogConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager or vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#egress_enabled MsgVpnReplayLog#egress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#egress_enabled MsgVpnReplayLog#egress_enabled}
   */
   readonly egressEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnReplayLogConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager or vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#ingress_enabled MsgVpnReplayLog#ingress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#ingress_enabled MsgVpnReplayLog#ingress_enabled}
   */
   readonly ingressEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnReplayLogConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager or vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#max_spool_usage MsgVpnReplayLog#max_spool_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#max_spool_usage MsgVpnReplayLog#max_spool_usage}
   */
   readonly maxSpoolUsage?: number;
   /**
@@ -36,7 +36,7 @@ export interface MsgVpnReplayLogConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#msg_vpn_name MsgVpnReplayLog#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#msg_vpn_name MsgVpnReplayLog#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -44,7 +44,7 @@ export interface MsgVpnReplayLogConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#replay_log_name MsgVpnReplayLog#replay_log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#replay_log_name MsgVpnReplayLog#replay_log_name}
   */
   readonly replayLogName: string;
   /**
@@ -52,13 +52,13 @@ export interface MsgVpnReplayLogConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager or vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#topic_filter_enabled MsgVpnReplayLog#topic_filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#topic_filter_enabled MsgVpnReplayLog#topic_filter_enabled}
   */
   readonly topicFilterEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log solacebroker_msg_vpn_replay_log}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log solacebroker_msg_vpn_replay_log}
 */
 export class MsgVpnReplayLog extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class MsgVpnReplayLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnReplayLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnReplayLog to import
-  * @param importFromId The id of the existing MsgVpnReplayLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnReplayLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnReplayLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class MsgVpnReplayLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_replay_log solacebroker_msg_vpn_replay_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_replay_log solacebroker_msg_vpn_replay_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class MsgVpnReplayLog extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_replay_log',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

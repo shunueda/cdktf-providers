@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyLbClientSslProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * A label of cipher group which is mostly consumed by GUI. Default value is BALANCED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#cipher_group_label PolicyLbClientSslProfile#cipher_group_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#cipher_group_label PolicyLbClientSslProfile#cipher_group_label}
   */
   readonly cipherGroupLabel?: string;
   /**
   * Supported SSL cipher list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#ciphers PolicyLbClientSslProfile#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#ciphers PolicyLbClientSslProfile#ciphers}
   */
   readonly ciphers?: string[];
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#description PolicyLbClientSslProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#description PolicyLbClientSslProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#display_name PolicyLbClientSslProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#display_name PolicyLbClientSslProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#id PolicyLbClientSslProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#id PolicyLbClientSslProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface PolicyLbClientSslProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#nsx_id PolicyLbClientSslProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#nsx_id PolicyLbClientSslProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * During SSL handshake as part of the SSL client Hello client sends an ordered list of ciphers that it can support (or prefers) and typically server selects the first one from the top of that list it can also support. For Perfect Forward Secrecy(PFS), server could override the client's preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#prefer_server_ciphers PolicyLbClientSslProfile#prefer_server_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#prefer_server_ciphers PolicyLbClientSslProfile#prefer_server_ciphers}
   */
   readonly preferServerCiphers?: boolean | cdktf.IResolvable;
   /**
   * SSL versions TLS1.1 and TLS1.2 are supported and enabled by default. SSLv2, SSLv3, and TLS1.0 are supported, but disabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#protocols PolicyLbClientSslProfile#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#protocols PolicyLbClientSslProfile#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set to true, SSL session caching allows SSL client and server to reuse previously negotiated security parameters avoiding the expensive public key operation during handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#session_cache_enabled PolicyLbClientSslProfile#session_cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#session_cache_enabled PolicyLbClientSslProfile#session_cache_enabled}
   */
   readonly sessionCacheEnabled?: boolean | cdktf.IResolvable;
   /**
   * Session cache timeout specifies how long the SSL session parameters are held on to and can be reused. Default value is 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#session_cache_timeout PolicyLbClientSslProfile#session_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#session_cache_timeout PolicyLbClientSslProfile#session_cache_timeout}
   */
   readonly sessionCacheTimeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#tag PolicyLbClientSslProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#tag PolicyLbClientSslProfile#tag}
   */
   readonly tag?: PolicyLbClientSslProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyLbClientSslProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#scope PolicyLbClientSslProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#scope PolicyLbClientSslProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#tag PolicyLbClientSslProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#tag PolicyLbClientSslProfile#tag}
   */
   readonly tag?: string;
 }
@@ -226,7 +226,7 @@ export class PolicyLbClientSslProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile nsxt_policy_lb_client_ssl_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile nsxt_policy_lb_client_ssl_profile}
 */
 export class PolicyLbClientSslProfile extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class PolicyLbClientSslProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbClientSslProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbClientSslProfile to import
-  * @param importFromId The id of the existing PolicyLbClientSslProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbClientSslProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbClientSslProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class PolicyLbClientSslProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_client_ssl_profile nsxt_policy_lb_client_ssl_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_client_ssl_profile nsxt_policy_lb_client_ssl_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class PolicyLbClientSslProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_client_ssl_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

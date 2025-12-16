@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudSqlserverDescHaLogConfig extends cdktf.Terrafor
   /**
   * End time (yyyy-MM-dd HH:mm:ss).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#end_time DataTencentcloudSqlserverDescHaLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#end_time DataTencentcloudSqlserverDescHaLog#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#id DataTencentcloudSqlserverDescHaLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#id DataTencentcloudSqlserverDescHaLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudSqlserverDescHaLogConfig extends cdktf.Terrafor
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#instance_id DataTencentcloudSqlserverDescHaLog#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#instance_id DataTencentcloudSqlserverDescHaLog#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#result_output_file DataTencentcloudSqlserverDescHaLog#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#result_output_file DataTencentcloudSqlserverDescHaLog#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time (yyyy-MM-dd HH:mm:ss).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#start_time DataTencentcloudSqlserverDescHaLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#start_time DataTencentcloudSqlserverDescHaLog#start_time}
   */
   readonly startTime: string;
   /**
   * Switching mode 0-system automatically switches, 1-manual switch, if not filled in, all will be checked by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#switch_type DataTencentcloudSqlserverDescHaLog#switch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#switch_type DataTencentcloudSqlserverDescHaLog#switch_type}
   */
   readonly switchType?: number;
 }
@@ -142,7 +142,7 @@ export class DataTencentcloudSqlserverDescHaLogSwitchLogList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log tencentcloud_sqlserver_desc_ha_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log tencentcloud_sqlserver_desc_ha_log}
 */
 export class DataTencentcloudSqlserverDescHaLog extends cdktf.TerraformDataSource {
 
@@ -158,7 +158,7 @@ export class DataTencentcloudSqlserverDescHaLog extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudSqlserverDescHaLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverDescHaLog to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverDescHaLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverDescHaLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverDescHaLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DataTencentcloudSqlserverDescHaLog extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_desc_ha_log tencentcloud_sqlserver_desc_ha_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_desc_ha_log tencentcloud_sqlserver_desc_ha_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class DataTencentcloudSqlserverDescHaLog extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_sqlserver_desc_ha_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LogicalSwitchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Represents Desired state of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#admin_state LogicalSwitch#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#admin_state LogicalSwitch#admin_state}
   */
   readonly adminState?: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#description LogicalSwitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#description LogicalSwitch#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#display_name LogicalSwitch#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#display_name LogicalSwitch#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#id LogicalSwitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#id LogicalSwitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,53 @@ export interface LogicalSwitchConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP pool id that associated with a LogicalSwitch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#ip_pool_id LogicalSwitch#ip_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#ip_pool_id LogicalSwitch#ip_pool_id}
   */
   readonly ipPoolId?: string;
   /**
   * Mac pool id that associated with a LogicalSwitch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#mac_pool_id LogicalSwitch#mac_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#mac_pool_id LogicalSwitch#mac_pool_id}
   */
   readonly macPoolId?: string;
   /**
   * Replication mode of the Logical Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#replication_mode LogicalSwitch#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#replication_mode LogicalSwitch#replication_mode}
   */
   readonly replicationMode?: string;
   /**
   * Id of the TransportZone to which this LogicalSwitch is associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#transport_zone_id LogicalSwitch#transport_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#transport_zone_id LogicalSwitch#transport_zone_id}
   */
   readonly transportZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#vlan LogicalSwitch#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#vlan LogicalSwitch#vlan}
   */
   readonly vlan?: number;
   /**
   * VNI for this LogicalSwitch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#vni LogicalSwitch#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#vni LogicalSwitch#vni}
   */
   readonly vni?: number;
   /**
   * address_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#address_binding LogicalSwitch#address_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#address_binding LogicalSwitch#address_binding}
   */
   readonly addressBinding?: LogicalSwitchAddressBinding[] | cdktf.IResolvable;
   /**
   * switching_profile_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#switching_profile_id LogicalSwitch#switching_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#switching_profile_id LogicalSwitch#switching_profile_id}
   */
   readonly switchingProfileId?: LogicalSwitchSwitchingProfileId[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#tag LogicalSwitch#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#tag LogicalSwitch#tag}
   */
   readonly tag?: LogicalSwitchTag[] | cdktf.IResolvable;
 }
@@ -89,19 +89,19 @@ export interface LogicalSwitchAddressBinding {
   /**
   * A single IP address or a subnet cidr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#ip_address LogicalSwitch#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#ip_address LogicalSwitch#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * A single MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#mac_address LogicalSwitch#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#mac_address LogicalSwitch#mac_address}
   */
   readonly macAddress?: string;
   /**
   * A single vlan tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#vlan LogicalSwitch#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#vlan LogicalSwitch#vlan}
   */
   readonly vlan?: number;
 }
@@ -277,13 +277,13 @@ export interface LogicalSwitchSwitchingProfileId {
   /**
   * The resource type of this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#key LogicalSwitch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#key LogicalSwitch#key}
   */
   readonly key: string;
   /**
   * The ID of this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#value LogicalSwitch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#value LogicalSwitch#value}
   */
   readonly value: string;
 }
@@ -422,11 +422,11 @@ export class LogicalSwitchSwitchingProfileIdList extends cdktf.ComplexList {
 }
 export interface LogicalSwitchTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#scope LogicalSwitch#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#scope LogicalSwitch#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#tag LogicalSwitch#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#tag LogicalSwitch#tag}
   */
   readonly tag?: string;
 }
@@ -571,7 +571,7 @@ export class LogicalSwitchTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch nsxt_logical_switch}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch nsxt_logical_switch}
 */
 export class LogicalSwitch extends cdktf.TerraformResource {
 
@@ -587,7 +587,7 @@ export class LogicalSwitch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalSwitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalSwitch to import
-  * @param importFromId The id of the existing LogicalSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalSwitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -599,7 +599,7 @@ export class LogicalSwitch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_switch nsxt_logical_switch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_switch nsxt_logical_switch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -610,8 +610,8 @@ export class LogicalSwitch extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_logical_switch',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

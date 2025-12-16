@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtVpcNatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#description DataNsxtVpcNat#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#description DataNsxtVpcNat#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#display_name DataNsxtVpcNat#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#display_name DataNsxtVpcNat#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#id DataNsxtVpcNat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#id DataNsxtVpcNat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataNsxtVpcNatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Nat Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#nat_type DataNsxtVpcNat#nat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#nat_type DataNsxtVpcNat#nat_type}
   */
   readonly natType: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#context DataNsxtVpcNat#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#context DataNsxtVpcNat#context}
   */
   readonly context: DataNsxtVpcNatContext;
 }
@@ -45,13 +45,13 @@ export interface DataNsxtVpcNatContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#project_id DataNsxtVpcNat#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#project_id DataNsxtVpcNat#project_id}
   */
   readonly projectId: string;
   /**
   * Id of the VPC which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#vpc_id DataNsxtVpcNat#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#vpc_id DataNsxtVpcNat#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -158,7 +158,7 @@ export class DataNsxtVpcNatContextOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat nsxt_vpc_nat}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat nsxt_vpc_nat}
 */
 export class DataNsxtVpcNat extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataNsxtVpcNat extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtVpcNat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtVpcNat to import
-  * @param importFromId The id of the existing DataNsxtVpcNat that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtVpcNat that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtVpcNat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataNsxtVpcNat extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/vpc_nat nsxt_vpc_nat} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/vpc_nat nsxt_vpc_nat} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataNsxtVpcNat extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_vpc_nat',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyIntrusionServicePolicyConfig extends cdktf.TerraformMetaA
   /**
   * Comments for security policy lock/unlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#comments PolicyIntrusionServicePolicy#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#comments PolicyIntrusionServicePolicy#comments}
   */
   readonly comments?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName: string;
   /**
   * The domain name to use for resources. If not specified 'default' is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#domain PolicyIntrusionServicePolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#domain PolicyIntrusionServicePolicy#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#id PolicyIntrusionServicePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#id PolicyIntrusionServicePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface PolicyIntrusionServicePolicyConfig extends cdktf.TerraformMetaA
   /**
   * Indicates whether a security policy should be locked. If locked by a user, no other user would be able to modify this policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#locked PolicyIntrusionServicePolicy#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#locked PolicyIntrusionServicePolicy#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#nsx_id PolicyIntrusionServicePolicy#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#nsx_id PolicyIntrusionServicePolicy#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * This field is used to resolve conflicts between security policies across domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#sequence_number PolicyIntrusionServicePolicy#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#sequence_number PolicyIntrusionServicePolicy#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * When it is stateful, the state of the network connects are tracked and a stateful packet inspection is performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#stateful PolicyIntrusionServicePolicy#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#stateful PolicyIntrusionServicePolicy#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#context PolicyIntrusionServicePolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#context PolicyIntrusionServicePolicy#context}
   */
   readonly context?: PolicyIntrusionServicePolicyContext;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#rule PolicyIntrusionServicePolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#rule PolicyIntrusionServicePolicy#rule}
   */
   readonly rule?: PolicyIntrusionServicePolicyRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
   */
   readonly tag?: PolicyIntrusionServicePolicyTag[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface PolicyIntrusionServicePolicyContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#project_id PolicyIntrusionServicePolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#project_id PolicyIntrusionServicePolicy#project_id}
   */
   readonly projectId: string;
 }
@@ -168,31 +168,31 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntriesAlgorithmEntry {
   /**
   * Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#algorithm PolicyIntrusionServicePolicy#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#algorithm PolicyIntrusionServicePolicy#algorithm}
   */
   readonly algorithm: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * A single destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#destination_port PolicyIntrusionServicePolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#destination_port PolicyIntrusionServicePolicy#destination_port}
   */
   readonly destinationPort: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Set of source ports or ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#source_ports PolicyIntrusionServicePolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#source_ports PolicyIntrusionServicePolicy#source_ports}
   */
   readonly sourcePorts?: string[];
 }
@@ -420,19 +420,19 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntriesEtherTypeEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Type of the encapsulated protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#ether_type PolicyIntrusionServicePolicy#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#ether_type PolicyIntrusionServicePolicy#ether_type}
   */
   readonly etherType: number;
 }
@@ -605,31 +605,31 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntriesIcmpEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * ICMP message code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#icmp_code PolicyIntrusionServicePolicy#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#icmp_code PolicyIntrusionServicePolicy#icmp_code}
   */
   readonly icmpCode?: string;
   /**
   * ICMP message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#icmp_type PolicyIntrusionServicePolicy#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#icmp_type PolicyIntrusionServicePolicy#icmp_type}
   */
   readonly icmpType?: string;
   /**
   * Version of ICMP protocol (ICMPv4/ICMPv6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#protocol PolicyIntrusionServicePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#protocol PolicyIntrusionServicePolicy#protocol}
   */
   readonly protocol: string;
 }
@@ -860,13 +860,13 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntriesIgmpEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName?: string;
 }
@@ -1013,19 +1013,19 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntriesIpProtocolEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * IP protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#protocol PolicyIntrusionServicePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#protocol PolicyIntrusionServicePolicy#protocol}
   */
   readonly protocol: number;
 }
@@ -1198,31 +1198,31 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntriesL4PortSetEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * Set of destination ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#destination_ports PolicyIntrusionServicePolicy#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#destination_ports PolicyIntrusionServicePolicy#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * L4 Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#protocol PolicyIntrusionServicePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#protocol PolicyIntrusionServicePolicy#protocol}
   */
   readonly protocol: string;
   /**
   * Set of source ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#source_ports PolicyIntrusionServicePolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#source_ports PolicyIntrusionServicePolicy#source_ports}
   */
   readonly sourcePorts?: string[];
 }
@@ -1453,37 +1453,37 @@ export interface PolicyIntrusionServicePolicyRuleServiceEntries {
   /**
   * algorithm_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#algorithm_entry PolicyIntrusionServicePolicy#algorithm_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#algorithm_entry PolicyIntrusionServicePolicy#algorithm_entry}
   */
   readonly algorithmEntry?: PolicyIntrusionServicePolicyRuleServiceEntriesAlgorithmEntry[] | cdktf.IResolvable;
   /**
   * ether_type_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#ether_type_entry PolicyIntrusionServicePolicy#ether_type_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#ether_type_entry PolicyIntrusionServicePolicy#ether_type_entry}
   */
   readonly etherTypeEntry?: PolicyIntrusionServicePolicyRuleServiceEntriesEtherTypeEntry[] | cdktf.IResolvable;
   /**
   * icmp_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#icmp_entry PolicyIntrusionServicePolicy#icmp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#icmp_entry PolicyIntrusionServicePolicy#icmp_entry}
   */
   readonly icmpEntry?: PolicyIntrusionServicePolicyRuleServiceEntriesIcmpEntry[] | cdktf.IResolvable;
   /**
   * igmp_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#igmp_entry PolicyIntrusionServicePolicy#igmp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#igmp_entry PolicyIntrusionServicePolicy#igmp_entry}
   */
   readonly igmpEntry?: PolicyIntrusionServicePolicyRuleServiceEntriesIgmpEntry[] | cdktf.IResolvable;
   /**
   * ip_protocol_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#ip_protocol_entry PolicyIntrusionServicePolicy#ip_protocol_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#ip_protocol_entry PolicyIntrusionServicePolicy#ip_protocol_entry}
   */
   readonly ipProtocolEntry?: PolicyIntrusionServicePolicyRuleServiceEntriesIpProtocolEntry[] | cdktf.IResolvable;
   /**
   * l4_port_set_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#l4_port_set_entry PolicyIntrusionServicePolicy#l4_port_set_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#l4_port_set_entry PolicyIntrusionServicePolicy#l4_port_set_entry}
   */
   readonly l4PortSetEntry?: PolicyIntrusionServicePolicyRuleServiceEntriesL4PortSetEntry[] | cdktf.IResolvable;
 }
@@ -1712,11 +1712,11 @@ export class PolicyIntrusionServicePolicyRuleServiceEntriesOutputReference exten
 }
 export interface PolicyIntrusionServicePolicyRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#scope PolicyIntrusionServicePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#scope PolicyIntrusionServicePolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
   */
   readonly tag?: string;
 }
@@ -1863,121 +1863,121 @@ export interface PolicyIntrusionServicePolicyRule {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#action PolicyIntrusionServicePolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#action PolicyIntrusionServicePolicy#action}
   */
   readonly action?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#description PolicyIntrusionServicePolicy#description}
   */
   readonly description?: string;
   /**
   * List of destination groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#destination_groups PolicyIntrusionServicePolicy#destination_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#destination_groups PolicyIntrusionServicePolicy#destination_groups}
   */
   readonly destinationGroups?: string[];
   /**
   * Negation of destination groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#destinations_excluded PolicyIntrusionServicePolicy#destinations_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#destinations_excluded PolicyIntrusionServicePolicy#destinations_excluded}
   */
   readonly destinationsExcluded?: boolean | cdktf.IResolvable;
   /**
   * Traffic direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#direction PolicyIntrusionServicePolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#direction PolicyIntrusionServicePolicy#direction}
   */
   readonly direction?: string;
   /**
   * Flag to disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#disabled PolicyIntrusionServicePolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#disabled PolicyIntrusionServicePolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#display_name PolicyIntrusionServicePolicy#display_name}
   */
   readonly displayName: string;
   /**
   * List of policy Paths for IDS Profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#ids_profiles PolicyIntrusionServicePolicy#ids_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#ids_profiles PolicyIntrusionServicePolicy#ids_profiles}
   */
   readonly idsProfiles: string[];
   /**
   * IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#ip_version PolicyIntrusionServicePolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#ip_version PolicyIntrusionServicePolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Additional information (string) which will be propagated to the rule syslog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#log_label PolicyIntrusionServicePolicy#log_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#log_label PolicyIntrusionServicePolicy#log_label}
   */
   readonly logLabel?: string;
   /**
   * Flag to enable packet logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#logged PolicyIntrusionServicePolicy#logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#logged PolicyIntrusionServicePolicy#logged}
   */
   readonly logged?: boolean | cdktf.IResolvable;
   /**
   * Text for additional notes on changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#notes PolicyIntrusionServicePolicy#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#notes PolicyIntrusionServicePolicy#notes}
   */
   readonly notes?: string;
   /**
   * List of profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#profiles PolicyIntrusionServicePolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#profiles PolicyIntrusionServicePolicy#profiles}
   */
   readonly profiles?: string[];
   /**
   * List of policy paths where the rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#scope PolicyIntrusionServicePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#scope PolicyIntrusionServicePolicy#scope}
   */
   readonly scope?: string[];
   /**
   * Sequence number of the this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#sequence_number PolicyIntrusionServicePolicy#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#sequence_number PolicyIntrusionServicePolicy#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * List of services to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#services PolicyIntrusionServicePolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#services PolicyIntrusionServicePolicy#services}
   */
   readonly services?: string[];
   /**
   * List of source groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#source_groups PolicyIntrusionServicePolicy#source_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#source_groups PolicyIntrusionServicePolicy#source_groups}
   */
   readonly sourceGroups?: string[];
   /**
   * Negation of source groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#sources_excluded PolicyIntrusionServicePolicy#sources_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#sources_excluded PolicyIntrusionServicePolicy#sources_excluded}
   */
   readonly sourcesExcluded?: boolean | cdktf.IResolvable;
   /**
   * service_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#service_entries PolicyIntrusionServicePolicy#service_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#service_entries PolicyIntrusionServicePolicy#service_entries}
   */
   readonly serviceEntries?: PolicyIntrusionServicePolicyRuleServiceEntries;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
   */
   readonly tag?: PolicyIntrusionServicePolicyRuleTag[] | cdktf.IResolvable;
 }
@@ -2658,11 +2658,11 @@ export class PolicyIntrusionServicePolicyRuleList extends cdktf.ComplexList {
 }
 export interface PolicyIntrusionServicePolicyTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#scope PolicyIntrusionServicePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#scope PolicyIntrusionServicePolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#tag PolicyIntrusionServicePolicy#tag}
   */
   readonly tag?: string;
 }
@@ -2807,7 +2807,7 @@ export class PolicyIntrusionServicePolicyTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy nsxt_policy_intrusion_service_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy nsxt_policy_intrusion_service_policy}
 */
 export class PolicyIntrusionServicePolicy extends cdktf.TerraformResource {
 
@@ -2823,7 +2823,7 @@ export class PolicyIntrusionServicePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIntrusionServicePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIntrusionServicePolicy to import
-  * @param importFromId The id of the existing PolicyIntrusionServicePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIntrusionServicePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIntrusionServicePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2835,7 +2835,7 @@ export class PolicyIntrusionServicePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_policy nsxt_policy_intrusion_service_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_policy nsxt_policy_intrusion_service_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2846,8 +2846,8 @@ export class PolicyIntrusionServicePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_intrusion_service_policy',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

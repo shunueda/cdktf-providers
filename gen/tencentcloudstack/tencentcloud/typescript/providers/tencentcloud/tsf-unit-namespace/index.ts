@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TsfUnitNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * gateway instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace#gateway_instance_id TsfUnitNamespace#gateway_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace#gateway_instance_id TsfUnitNamespace#gateway_instance_id}
   */
   readonly gatewayInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace#id TsfUnitNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace#id TsfUnitNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TsfUnitNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * namespace id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace#namespace_id TsfUnitNamespace#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace#namespace_id TsfUnitNamespace#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace#namespace_name TsfUnitNamespace#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace#namespace_name TsfUnitNamespace#namespace_name}
   */
   readonly namespaceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace tencentcloud_tsf_unit_namespace}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace tencentcloud_tsf_unit_namespace}
 */
 export class TsfUnitNamespace extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TsfUnitNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfUnitNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfUnitNamespace to import
-  * @param importFromId The id of the existing TsfUnitNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfUnitNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfUnitNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TsfUnitNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_unit_namespace tencentcloud_tsf_unit_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_namespace tencentcloud_tsf_unit_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TsfUnitNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_unit_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

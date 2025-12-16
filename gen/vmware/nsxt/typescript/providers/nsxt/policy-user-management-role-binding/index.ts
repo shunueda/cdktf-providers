@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyUserManagementRoleBindingConfig extends cdktf.TerraformMe
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#description PolicyUserManagementRoleBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#description PolicyUserManagementRoleBinding#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#display_name PolicyUserManagementRoleBinding#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#display_name PolicyUserManagementRoleBinding#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#id PolicyUserManagementRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#id PolicyUserManagementRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface PolicyUserManagementRoleBindingConfig extends cdktf.TerraformMe
   /**
   * ID of the external identity source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#identity_source_id PolicyUserManagementRoleBinding#identity_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#identity_source_id PolicyUserManagementRoleBinding#identity_source_id}
   */
   readonly identitySourceId?: string;
   /**
   * ID of the external identity source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#identity_source_type PolicyUserManagementRoleBinding#identity_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#identity_source_type PolicyUserManagementRoleBinding#identity_source_type}
   */
   readonly identitySourceType?: string;
   /**
   * User/Group's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#name PolicyUserManagementRoleBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#name PolicyUserManagementRoleBinding#name}
   */
   readonly name: string;
   /**
   * Allow overwriting auto-created role binding on NSX for local users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#overwrite_local_user PolicyUserManagementRoleBinding#overwrite_local_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#overwrite_local_user PolicyUserManagementRoleBinding#overwrite_local_user}
   */
   readonly overwriteLocalUser?: boolean | cdktf.IResolvable;
   /**
   * Indicates the type of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#type PolicyUserManagementRoleBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#type PolicyUserManagementRoleBinding#type}
   */
   readonly type: string;
   /**
   * roles_for_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#roles_for_path PolicyUserManagementRoleBinding#roles_for_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#roles_for_path PolicyUserManagementRoleBinding#roles_for_path}
   */
   readonly rolesForPath: PolicyUserManagementRoleBindingRolesForPath[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#tag PolicyUserManagementRoleBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#tag PolicyUserManagementRoleBinding#tag}
   */
   readonly tag?: PolicyUserManagementRoleBindingTag[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface PolicyUserManagementRoleBindingRolesForPath {
   /**
   * Path of the entity in parent hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#path PolicyUserManagementRoleBinding#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#path PolicyUserManagementRoleBinding#path}
   */
   readonly path: string;
   /**
   * Applicable roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#roles PolicyUserManagementRoleBinding#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#roles PolicyUserManagementRoleBinding#roles}
   */
   readonly roles: string[];
 }
@@ -218,11 +218,11 @@ export class PolicyUserManagementRoleBindingRolesForPathList extends cdktf.Compl
 }
 export interface PolicyUserManagementRoleBindingTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#scope PolicyUserManagementRoleBinding#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#scope PolicyUserManagementRoleBinding#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#tag PolicyUserManagementRoleBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#tag PolicyUserManagementRoleBinding#tag}
   */
   readonly tag?: string;
 }
@@ -367,7 +367,7 @@ export class PolicyUserManagementRoleBindingTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding nsxt_policy_user_management_role_binding}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding nsxt_policy_user_management_role_binding}
 */
 export class PolicyUserManagementRoleBinding extends cdktf.TerraformResource {
 
@@ -383,7 +383,7 @@ export class PolicyUserManagementRoleBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyUserManagementRoleBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyUserManagementRoleBinding to import
-  * @param importFromId The id of the existing PolicyUserManagementRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyUserManagementRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyUserManagementRoleBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -395,7 +395,7 @@ export class PolicyUserManagementRoleBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role_binding nsxt_policy_user_management_role_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role_binding nsxt_policy_user_management_role_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -406,8 +406,8 @@ export class PolicyUserManagementRoleBinding extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_user_management_role_binding',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

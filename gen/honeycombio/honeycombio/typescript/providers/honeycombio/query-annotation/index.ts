@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface QueryAnnotationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The dataset this query annotation is added to. If not set, an Environment-wide query annotation will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation#dataset QueryAnnotation#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation#dataset QueryAnnotation#dataset}
   */
   readonly dataset?: string;
   /**
   * The description to display as the query annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation#description QueryAnnotation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation#description QueryAnnotation#description}
   */
   readonly description?: string;
   /**
   * The name to display as the query annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation#name QueryAnnotation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation#name QueryAnnotation#name}
   */
   readonly name: string;
   /**
   * The ID of the query that the annotation will be created on. Note that a query can have more than one annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation#query_id QueryAnnotation#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation#query_id QueryAnnotation#query_id}
   */
   readonly queryId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation honeycombio_query_annotation}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation honeycombio_query_annotation}
 */
 export class QueryAnnotation extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class QueryAnnotation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueryAnnotation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueryAnnotation to import
-  * @param importFromId The id of the existing QueryAnnotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueryAnnotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueryAnnotation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class QueryAnnotation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query_annotation honeycombio_query_annotation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query_annotation honeycombio_query_annotation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class QueryAnnotation extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_query_annotation',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MpsImageSpriteTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * The number of columns in the small image in the sprite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#column_count MpsImageSpriteTemplate#column_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#column_count MpsImageSpriteTemplate#column_count}
   */
   readonly columnCount: number;
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#comment MpsImageSpriteTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#comment MpsImageSpriteTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Filling type, when the aspect ratio of the video stream configuration is inconsistent with the aspect ratio of the original video, the processing method for transcoding is filling. Optional filling type:stretch: Stretching, stretching each frame to fill the entire screen, which may cause the transcoded video to be squashed or stretched.black: Leave black, keep the video aspect ratio unchanged, and fill the rest of the edge with black.Default value: black.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#fill_type MpsImageSpriteTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#fill_type MpsImageSpriteTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Image format, the value can be jpg, png, webp. Default is jpg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#format MpsImageSpriteTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#format MpsImageSpriteTemplate#format}
   */
   readonly format?: string;
   /**
   * The maximum value of the height (or short side) of the small image in the sprite image, value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#height MpsImageSpriteTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#height MpsImageSpriteTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#id MpsImageSpriteTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#id MpsImageSpriteTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface MpsImageSpriteTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Image sprite template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#name MpsImageSpriteTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#name MpsImageSpriteTemplate#name}
   */
   readonly name?: string;
   /**
   * Adaptive resolution, optional value:open: At this time, Width represents the long side of the video, Height represents the short side of the video.close: At this point, Width represents the width of the video, and Height represents the height of the video.Default value: open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#resolution_adaptive MpsImageSpriteTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#resolution_adaptive MpsImageSpriteTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The number of rows in the small image in the sprite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#row_count MpsImageSpriteTemplate#row_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#row_count MpsImageSpriteTemplate#row_count}
   */
   readonly rowCount: number;
   /**
   * Sampling interval.When SampleType is Percent, specify the percentage of the sampling interval.When SampleType is Time, specify the sampling interval time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#sample_interval MpsImageSpriteTemplate#sample_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#sample_interval MpsImageSpriteTemplate#sample_interval}
   */
   readonly sampleInterval: number;
   /**
   * Sampling type, optional value:Percent/Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#sample_type MpsImageSpriteTemplate#sample_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#sample_type MpsImageSpriteTemplate#sample_type}
   */
   readonly sampleType: string;
   /**
   * The maximum value of the width (or long side) of the small image in the sprite image, value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#width MpsImageSpriteTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#width MpsImageSpriteTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template tencentcloud_mps_image_sprite_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template tencentcloud_mps_image_sprite_template}
 */
 export class MpsImageSpriteTemplate extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class MpsImageSpriteTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsImageSpriteTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsImageSpriteTemplate to import
-  * @param importFromId The id of the existing MpsImageSpriteTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsImageSpriteTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsImageSpriteTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class MpsImageSpriteTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_image_sprite_template tencentcloud_mps_image_sprite_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_image_sprite_template tencentcloud_mps_image_sprite_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class MpsImageSpriteTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_image_sprite_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

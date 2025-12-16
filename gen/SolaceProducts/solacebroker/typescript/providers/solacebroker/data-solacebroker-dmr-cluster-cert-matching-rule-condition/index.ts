@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerDmrClusterCertMatchingRuleConditionConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#dmr_cluster_name DataSolacebrokerDmrClusterCertMatchingRuleCondition#dmr_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#dmr_cluster_name DataSolacebrokerDmrClusterCertMatchingRuleCondition#dmr_cluster_name}
   */
   readonly dmrClusterName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerDmrClusterCertMatchingRuleConditionConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#rule_name DataSolacebrokerDmrClusterCertMatchingRuleCondition#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#rule_name DataSolacebrokerDmrClusterCertMatchingRuleCondition#rule_name}
   */
   readonly ruleName: string;
   /**
@@ -45,13 +45,13 @@ export interface DataSolacebrokerDmrClusterCertMatchingRuleConditionConfig exten
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#source DataSolacebrokerDmrClusterCertMatchingRuleCondition#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#source DataSolacebrokerDmrClusterCertMatchingRuleCondition#source}
   */
   readonly source: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition solacebroker_dmr_cluster_cert_matching_rule_condition}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition solacebroker_dmr_cluster_cert_matching_rule_condition}
 */
 export class DataSolacebrokerDmrClusterCertMatchingRuleCondition extends cdktf.TerraformDataSource {
 
@@ -67,7 +67,7 @@ export class DataSolacebrokerDmrClusterCertMatchingRuleCondition extends cdktf.T
   * Generates CDKTF code for importing a DataSolacebrokerDmrClusterCertMatchingRuleCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerDmrClusterCertMatchingRuleCondition to import
-  * @param importFromId The id of the existing DataSolacebrokerDmrClusterCertMatchingRuleCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerDmrClusterCertMatchingRuleCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerDmrClusterCertMatchingRuleCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class DataSolacebrokerDmrClusterCertMatchingRuleCondition extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition solacebroker_dmr_cluster_cert_matching_rule_condition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/dmr_cluster_cert_matching_rule_condition solacebroker_dmr_cluster_cert_matching_rule_condition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class DataSolacebrokerDmrClusterCertMatchingRuleCondition extends cdktf.T
       terraformResourceType: 'solacebroker_dmr_cluster_cert_matching_rule_condition',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

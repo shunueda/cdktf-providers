@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNsxtUpgradePostcheckConfig extends cdktf.TerraformMetaArgum
   /**
   * Initial delay to start Post-check status checks in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#delay DataNsxtUpgradePostcheck#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#delay DataNsxtUpgradePostcheck#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#id DataNsxtUpgradePostcheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#id DataNsxtUpgradePostcheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataNsxtUpgradePostcheckConfig extends cdktf.TerraformMetaArgum
   /**
   * Interval to check Post-check status in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#interval DataNsxtUpgradePostcheck#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#interval DataNsxtUpgradePostcheck#interval}
   */
   readonly interval?: number;
   /**
   * Post-check status checks timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#timeout DataNsxtUpgradePostcheck#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#timeout DataNsxtUpgradePostcheck#timeout}
   */
   readonly timeout?: number;
   /**
   * Component Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#type DataNsxtUpgradePostcheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#type DataNsxtUpgradePostcheck#type}
   */
   readonly type: string;
   /**
   * ID of corresponding nsxt_upgrade_run resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#upgrade_run_id DataNsxtUpgradePostcheck#upgrade_run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#upgrade_run_id DataNsxtUpgradePostcheck#upgrade_run_id}
   */
   readonly upgradeRunId: string;
 }
@@ -137,7 +137,7 @@ export class DataNsxtUpgradePostcheckFailedGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck nsxt_upgrade_postcheck}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck nsxt_upgrade_postcheck}
 */
 export class DataNsxtUpgradePostcheck extends cdktf.TerraformDataSource {
 
@@ -153,7 +153,7 @@ export class DataNsxtUpgradePostcheck extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtUpgradePostcheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtUpgradePostcheck to import
-  * @param importFromId The id of the existing DataNsxtUpgradePostcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtUpgradePostcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtUpgradePostcheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class DataNsxtUpgradePostcheck extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/upgrade_postcheck nsxt_upgrade_postcheck} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/upgrade_postcheck nsxt_upgrade_postcheck} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class DataNsxtUpgradePostcheck extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_upgrade_postcheck',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

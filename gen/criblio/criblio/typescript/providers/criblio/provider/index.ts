@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs
+// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface CriblioProviderConfig {
   /**
   * HTTP Bearer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#bearer_auth CriblioProvider#bearer_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#bearer_auth CriblioProvider#bearer_auth}
   */
   readonly bearerAuth?: string;
   /**
   * OAuth2 Client Credentials Flow client identifier. Configurable via environment variable `CRIBL_CLIENT_ID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#client_id CriblioProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#client_id CriblioProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * OAuth2 Client Credentials Flow client secret. Configurable via environment variable `CRIBL_CLIENT_SECRET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#client_secret CriblioProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#client_secret CriblioProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Cribl Cloud domain name (defaults to cribl.cloud)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#cloud_domain CriblioProvider#cloud_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#cloud_domain CriblioProvider#cloud_domain}
   */
   readonly cloudDomain?: string;
   /**
   * The Organization ID (defaults to ian)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#organization_id CriblioProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#organization_id CriblioProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Server URL (defaults to https://{workspaceId}-{organizationId}.{cloudDomain})
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#server_url CriblioProvider#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#server_url CriblioProvider#server_url}
   */
   readonly serverUrl?: string;
   /**
   * OAuth2 Client Credentials Flow token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#token_url CriblioProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#token_url CriblioProvider#token_url}
   */
   readonly tokenUrl?: string;
   /**
   * The Workspace name (defaults to main)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#workspace_id CriblioProvider#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#workspace_id CriblioProvider#workspace_id}
   */
   readonly workspaceId?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#alias CriblioProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#alias CriblioProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs criblio}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs criblio}
 */
 export class CriblioProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class CriblioProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CriblioProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CriblioProvider to import
-  * @param importFromId The id of the existing CriblioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CriblioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CriblioProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class CriblioProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs criblio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs criblio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class CriblioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'criblio',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.60',
-        providerVersionConstraint: '1.20.60'
+        providerVersion: '1.20.62',
+        providerVersionConstraint: '1.20.62'
       },
       terraformProviderSource: 'criblio/criblio'
     });

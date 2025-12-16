@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyIntrusionServiceProfileConfig extends cdktf.TerraformMeta
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#description PolicyIntrusionServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#description PolicyIntrusionServiceProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#display_name PolicyIntrusionServiceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#display_name PolicyIntrusionServiceProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#id PolicyIntrusionServiceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#id PolicyIntrusionServiceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface PolicyIntrusionServiceProfileConfig extends cdktf.TerraformMeta
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#nsx_id PolicyIntrusionServiceProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#nsx_id PolicyIntrusionServiceProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Severities of signatures which are part of this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#severities PolicyIntrusionServiceProfile#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#severities PolicyIntrusionServiceProfile#severities}
   */
   readonly severities: string[];
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#context PolicyIntrusionServiceProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#context PolicyIntrusionServiceProfile#context}
   */
   readonly context?: PolicyIntrusionServiceProfileContext;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#criteria PolicyIntrusionServiceProfile#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#criteria PolicyIntrusionServiceProfile#criteria}
   */
   readonly criteria?: PolicyIntrusionServiceProfileCriteria;
   /**
   * overridden_signature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#overridden_signature PolicyIntrusionServiceProfile#overridden_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#overridden_signature PolicyIntrusionServiceProfile#overridden_signature}
   */
   readonly overriddenSignature?: PolicyIntrusionServiceProfileOverriddenSignature[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#tag PolicyIntrusionServiceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#tag PolicyIntrusionServiceProfile#tag}
   */
   readonly tag?: PolicyIntrusionServiceProfileTag[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface PolicyIntrusionServiceProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#project_id PolicyIntrusionServiceProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#project_id PolicyIntrusionServiceProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -150,25 +150,25 @@ export interface PolicyIntrusionServiceProfileCriteria {
   /**
   * List of attack target criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#attack_targets PolicyIntrusionServiceProfile#attack_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#attack_targets PolicyIntrusionServiceProfile#attack_targets}
   */
   readonly attackTargets?: string[];
   /**
   * List of attack type criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#attack_types PolicyIntrusionServiceProfile#attack_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#attack_types PolicyIntrusionServiceProfile#attack_types}
   */
   readonly attackTypes?: string[];
   /**
   * Common Vulnerability Scoring System Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#cvss PolicyIntrusionServiceProfile#cvss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#cvss PolicyIntrusionServiceProfile#cvss}
   */
   readonly cvss?: string[];
   /**
   * List of products affected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#products_affected PolicyIntrusionServiceProfile#products_affected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#products_affected PolicyIntrusionServiceProfile#products_affected}
   */
   readonly productsAffected?: string[];
 }
@@ -341,15 +341,15 @@ export interface PolicyIntrusionServiceProfileOverriddenSignature {
   /**
   * This will take precedence over IDS signature action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#action PolicyIntrusionServiceProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#action PolicyIntrusionServiceProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#enabled PolicyIntrusionServiceProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#enabled PolicyIntrusionServiceProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#signature_id PolicyIntrusionServiceProfile#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#signature_id PolicyIntrusionServiceProfile#signature_id}
   */
   readonly signatureId: string;
 }
@@ -520,11 +520,11 @@ export class PolicyIntrusionServiceProfileOverriddenSignatureList extends cdktf.
 }
 export interface PolicyIntrusionServiceProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#scope PolicyIntrusionServiceProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#scope PolicyIntrusionServiceProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#tag PolicyIntrusionServiceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#tag PolicyIntrusionServiceProfile#tag}
   */
   readonly tag?: string;
 }
@@ -669,7 +669,7 @@ export class PolicyIntrusionServiceProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile}
 */
 export class PolicyIntrusionServiceProfile extends cdktf.TerraformResource {
 
@@ -685,7 +685,7 @@ export class PolicyIntrusionServiceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIntrusionServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIntrusionServiceProfile to import
-  * @param importFromId The id of the existing PolicyIntrusionServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIntrusionServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIntrusionServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class PolicyIntrusionServiceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class PolicyIntrusionServiceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_intrusion_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

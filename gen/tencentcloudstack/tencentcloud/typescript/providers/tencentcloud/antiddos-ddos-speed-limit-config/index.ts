@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AntiddosDdosSpeedLimitConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#id AntiddosDdosSpeedLimitConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#id AntiddosDdosSpeedLimitConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AntiddosDdosSpeedLimitConfigConfig extends cdktf.TerraformMetaA
   /**
   * InstanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#instance_id AntiddosDdosSpeedLimitConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#instance_id AntiddosDdosSpeedLimitConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * ddos_speed_limit_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#ddos_speed_limit_config AntiddosDdosSpeedLimitConfig#ddos_speed_limit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#ddos_speed_limit_config AntiddosDdosSpeedLimitConfig#ddos_speed_limit_config}
   */
   readonly ddosSpeedLimitConfig: AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfig;
 }
@@ -31,13 +31,13 @@ export interface AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfigDstPortScopes {
   /**
   * Starting port, ranging from 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#begin_port AntiddosDdosSpeedLimitConfig#begin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#begin_port AntiddosDdosSpeedLimitConfig#begin_port}
   */
   readonly beginPort: number;
   /**
   * end  port, ranging from 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#end_port AntiddosDdosSpeedLimitConfig#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#end_port AntiddosDdosSpeedLimitConfig#end_port}
   */
   readonly endPort: number;
 }
@@ -178,13 +178,13 @@ export interface AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfigSpeedValues {
   /**
   * Speed limit value type, value [1 (packet rate pps) 2 (bandwidth bps)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#type AntiddosDdosSpeedLimitConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#type AntiddosDdosSpeedLimitConfig#type}
   */
   readonly type: number;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#value AntiddosDdosSpeedLimitConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#value AntiddosDdosSpeedLimitConfig#value}
   */
   readonly value: number;
 }
@@ -325,31 +325,31 @@ export interface AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfig {
   /**
   * List of port ranges, up to 8, multiple; Separate and indicate the range with -; This port range must be filled in; Fill in style 1:0-65535, style 2: 80; 443; 1000-2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#dst_port_list AntiddosDdosSpeedLimitConfig#dst_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#dst_port_list AntiddosDdosSpeedLimitConfig#dst_port_list}
   */
   readonly dstPortList?: string;
   /**
   * Speed limit mode, value [1 (based on source IP speed limit) 2 (based on destination port speed limit)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#mode AntiddosDdosSpeedLimitConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#mode AntiddosDdosSpeedLimitConfig#mode}
   */
   readonly mode: number;
   /**
   * IP protocol numbers, values [ALL (all protocols) TCP (tcp protocol) UDP (udp protocol) SMP (smp protocol) 1; 2-100 (custom protocol number range, up to 8)] Note: When customizing the protocol number range, only the protocol number can be filled in, multiple ranges; Separation; When filling in ALL, no other agreements or agreements can be filled inNumber.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#protocol_list AntiddosDdosSpeedLimitConfig#protocol_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#protocol_list AntiddosDdosSpeedLimitConfig#protocol_list}
   */
   readonly protocolList?: string;
   /**
   * dst_port_scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#dst_port_scopes AntiddosDdosSpeedLimitConfig#dst_port_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#dst_port_scopes AntiddosDdosSpeedLimitConfig#dst_port_scopes}
   */
   readonly dstPortScopes?: AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfigDstPortScopes[] | cdktf.IResolvable;
   /**
   * speed_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#speed_values AntiddosDdosSpeedLimitConfig#speed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#speed_values AntiddosDdosSpeedLimitConfig#speed_values}
   */
   readonly speedValues: AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfigSpeedValues[] | cdktf.IResolvable;
 }
@@ -543,7 +543,7 @@ export class AntiddosDdosSpeedLimitConfigDdosSpeedLimitConfigOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config tencentcloud_antiddos_ddos_speed_limit_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config tencentcloud_antiddos_ddos_speed_limit_config}
 */
 export class AntiddosDdosSpeedLimitConfig extends cdktf.TerraformResource {
 
@@ -559,7 +559,7 @@ export class AntiddosDdosSpeedLimitConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosDdosSpeedLimitConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosDdosSpeedLimitConfig to import
-  * @param importFromId The id of the existing AntiddosDdosSpeedLimitConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosDdosSpeedLimitConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosDdosSpeedLimitConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +571,7 @@ export class AntiddosDdosSpeedLimitConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/antiddos_ddos_speed_limit_config tencentcloud_antiddos_ddos_speed_limit_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/antiddos_ddos_speed_limit_config tencentcloud_antiddos_ddos_speed_limit_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +582,8 @@ export class AntiddosDdosSpeedLimitConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_ddos_speed_limit_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

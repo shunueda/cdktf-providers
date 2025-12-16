@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,48 +10,48 @@ export interface VpcStaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#description VpcStaticRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#description VpcStaticRoute#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#display_name VpcStaticRoute#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#display_name VpcStaticRoute#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#id VpcStaticRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#id VpcStaticRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#network VpcStaticRoute#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#network VpcStaticRoute#network}
   */
   readonly network: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#nsx_id VpcStaticRoute#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#nsx_id VpcStaticRoute#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#context VpcStaticRoute#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#context VpcStaticRoute#context}
   */
   readonly context: VpcStaticRouteContext;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#next_hop VpcStaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#next_hop VpcStaticRoute#next_hop}
   */
   readonly nextHop: VpcStaticRouteNextHop[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#tag VpcStaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#tag VpcStaticRoute#tag}
   */
   readonly tag?: VpcStaticRouteTag[] | cdktf.IResolvable;
 }
@@ -59,13 +59,13 @@ export interface VpcStaticRouteContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#project_id VpcStaticRoute#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#project_id VpcStaticRoute#project_id}
   */
   readonly projectId: string;
   /**
   * Id of the VPC which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#vpc_id VpcStaticRoute#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#vpc_id VpcStaticRoute#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -172,11 +172,11 @@ export class VpcStaticRouteContextOutputReference extends cdktf.ComplexObject {
 }
 export interface VpcStaticRouteNextHop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#admin_distance VpcStaticRoute#admin_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#admin_distance VpcStaticRoute#admin_distance}
   */
   readonly adminDistance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#ip_address VpcStaticRoute#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#ip_address VpcStaticRoute#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -321,11 +321,11 @@ export class VpcStaticRouteNextHopList extends cdktf.ComplexList {
 }
 export interface VpcStaticRouteTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#scope VpcStaticRoute#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#scope VpcStaticRoute#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#tag VpcStaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#tag VpcStaticRoute#tag}
   */
   readonly tag?: string;
 }
@@ -470,7 +470,7 @@ export class VpcStaticRouteTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route nsxt_vpc_static_route}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route nsxt_vpc_static_route}
 */
 export class VpcStaticRoute extends cdktf.TerraformResource {
 
@@ -486,7 +486,7 @@ export class VpcStaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcStaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcStaticRoute to import
-  * @param importFromId The id of the existing VpcStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcStaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -498,7 +498,7 @@ export class VpcStaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_static_route nsxt_vpc_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_static_route nsxt_vpc_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,8 +509,8 @@ export class VpcStaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_static_route',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

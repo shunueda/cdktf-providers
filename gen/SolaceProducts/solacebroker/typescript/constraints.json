@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "solacebroker": "1.2.0"
+    "solacebroker": "1.3.0"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/resource_report_columns
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/resource_report_columns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVantageResourceReportColumnsConfig extends cdktf.TerraformM
   /**
   * VQL resource type name (e.g., 'aws_instance', 'aws_ebs_volume'). See https://docs.vantage.sh/vql_resource_report#resource-type for available types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/resource_report_columns#resource_type DataVantageResourceReportColumns#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/resource_report_columns#resource_type DataVantageResourceReportColumns#resource_type}
   */
   readonly resourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/resource_report_columns vantage_resource_report_columns}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/resource_report_columns vantage_resource_report_columns}
 */
 export class DataVantageResourceReportColumns extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataVantageResourceReportColumns extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataVantageResourceReportColumns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageResourceReportColumns to import
-  * @param importFromId The id of the existing DataVantageResourceReportColumns that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/resource_report_columns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageResourceReportColumns that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/resource_report_columns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageResourceReportColumns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataVantageResourceReportColumns extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/resource_report_columns vantage_resource_report_columns} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/resource_report_columns vantage_resource_report_columns} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataVantageResourceReportColumns extends cdktf.TerraformDataSource 
       terraformResourceType: 'vantage_resource_report_columns',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

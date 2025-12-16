@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyTier0GatewayGreTunnelConfig extends cdktf.TerraformMetaAr
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#description PolicyTier0GatewayGreTunnel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#description PolicyTier0GatewayGreTunnel#description}
   */
   readonly description?: string;
   /**
   * Destination IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#destination_address PolicyTier0GatewayGreTunnel#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#destination_address PolicyTier0GatewayGreTunnel#destination_address}
   */
   readonly destinationAddress: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#display_name PolicyTier0GatewayGreTunnel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#display_name PolicyTier0GatewayGreTunnel#display_name}
   */
   readonly displayName: string;
   /**
   * Enable/Disable Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#enabled PolicyTier0GatewayGreTunnel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#enabled PolicyTier0GatewayGreTunnel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#id PolicyTier0GatewayGreTunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#id PolicyTier0GatewayGreTunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface PolicyTier0GatewayGreTunnelConfig extends cdktf.TerraformMetaAr
   /**
   * Policy path of associated Gateway Locale Service on NSX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#locale_service_path PolicyTier0GatewayGreTunnel#locale_service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#locale_service_path PolicyTier0GatewayGreTunnel#locale_service_path}
   */
   readonly localeServicePath: string;
   /**
   * Maximum transmission unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#mtu PolicyTier0GatewayGreTunnel#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#mtu PolicyTier0GatewayGreTunnel#mtu}
   */
   readonly mtu?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#nsx_id PolicyTier0GatewayGreTunnel#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#nsx_id PolicyTier0GatewayGreTunnel#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#tag PolicyTier0GatewayGreTunnel#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#tag PolicyTier0GatewayGreTunnel#tag}
   */
   readonly tag?: PolicyTier0GatewayGreTunnelTag[] | cdktf.IResolvable;
   /**
   * tunnel_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#tunnel_address PolicyTier0GatewayGreTunnel#tunnel_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#tunnel_address PolicyTier0GatewayGreTunnel#tunnel_address}
   */
   readonly tunnelAddress: PolicyTier0GatewayGreTunnelTunnelAddress[] | cdktf.IResolvable;
   /**
   * tunnel_keepalive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#tunnel_keepalive PolicyTier0GatewayGreTunnel#tunnel_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#tunnel_keepalive PolicyTier0GatewayGreTunnel#tunnel_keepalive}
   */
   readonly tunnelKeepalive?: PolicyTier0GatewayGreTunnelTunnelKeepalive;
 }
 export interface PolicyTier0GatewayGreTunnelTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#scope PolicyTier0GatewayGreTunnel#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#scope PolicyTier0GatewayGreTunnel#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#tag PolicyTier0GatewayGreTunnel#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#tag PolicyTier0GatewayGreTunnel#tag}
   */
   readonly tag?: string;
 }
@@ -228,13 +228,13 @@ export interface PolicyTier0GatewayGreTunnelTunnelAddressTunnelInterfaceSubnet {
   /**
   * IP addresses assigned to interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#ip_addresses PolicyTier0GatewayGreTunnel#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#ip_addresses PolicyTier0GatewayGreTunnel#ip_addresses}
   */
   readonly ipAddresses: string[];
   /**
   * Subnet prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#prefix_len PolicyTier0GatewayGreTunnel#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#prefix_len PolicyTier0GatewayGreTunnel#prefix_len}
   */
   readonly prefixLen: number;
 }
@@ -375,19 +375,19 @@ export interface PolicyTier0GatewayGreTunnelTunnelAddress {
   /**
   * Policy edge node path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#edge_path PolicyTier0GatewayGreTunnel#edge_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#edge_path PolicyTier0GatewayGreTunnel#edge_path}
   */
   readonly edgePath: string;
   /**
   * IPv4 source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#source_address PolicyTier0GatewayGreTunnel#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#source_address PolicyTier0GatewayGreTunnel#source_address}
   */
   readonly sourceAddress: string;
   /**
   * tunnel_interface_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#tunnel_interface_subnet PolicyTier0GatewayGreTunnel#tunnel_interface_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#tunnel_interface_subnet PolicyTier0GatewayGreTunnel#tunnel_interface_subnet}
   */
   readonly tunnelInterfaceSubnet: PolicyTier0GatewayGreTunnelTunnelAddressTunnelInterfaceSubnet[] | cdktf.IResolvable;
 }
@@ -554,25 +554,25 @@ export interface PolicyTier0GatewayGreTunnelTunnelKeepalive {
   /**
   * Dead time multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#dead_time_multiplier PolicyTier0GatewayGreTunnel#dead_time_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#dead_time_multiplier PolicyTier0GatewayGreTunnel#dead_time_multiplier}
   */
   readonly deadTimeMultiplier?: number;
   /**
   * Enable tunnel keep alive acknowledge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#enable_keepalive_ack PolicyTier0GatewayGreTunnel#enable_keepalive_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#enable_keepalive_ack PolicyTier0GatewayGreTunnel#enable_keepalive_ack}
   */
   readonly enableKeepaliveAck?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable tunnel keep alive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#enabled PolicyTier0GatewayGreTunnel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#enabled PolicyTier0GatewayGreTunnel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Keep alive interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#keepalive_interval PolicyTier0GatewayGreTunnel#keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#keepalive_interval PolicyTier0GatewayGreTunnel#keepalive_interval}
   */
   readonly keepaliveInterval?: number;
 }
@@ -743,7 +743,7 @@ export class PolicyTier0GatewayGreTunnelTunnelKeepaliveOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel nsxt_policy_tier0_gateway_gre_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel nsxt_policy_tier0_gateway_gre_tunnel}
 */
 export class PolicyTier0GatewayGreTunnel extends cdktf.TerraformResource {
 
@@ -759,7 +759,7 @@ export class PolicyTier0GatewayGreTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyTier0GatewayGreTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyTier0GatewayGreTunnel to import
-  * @param importFromId The id of the existing PolicyTier0GatewayGreTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyTier0GatewayGreTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyTier0GatewayGreTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -771,7 +771,7 @@ export class PolicyTier0GatewayGreTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_gre_tunnel nsxt_policy_tier0_gateway_gre_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_gre_tunnel nsxt_policy_tier0_gateway_gre_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -782,8 +782,8 @@ export class PolicyTier0GatewayGreTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_tier0_gateway_gre_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

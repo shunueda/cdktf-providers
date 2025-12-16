@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudVpcGatewayFlowMonitorDetailConfig extends cdktf
   /**
   * The instance ID of the Direct Connect gateway, such as `dcg-ltjahce6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#direct_connect_gateway_id DataTencentcloudVpcGatewayFlowMonitorDetail#direct_connect_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#direct_connect_gateway_id DataTencentcloudVpcGatewayFlowMonitorDetail#direct_connect_gateway_id}
   */
   readonly directConnectGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#id DataTencentcloudVpcGatewayFlowMonitorDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#id DataTencentcloudVpcGatewayFlowMonitorDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataTencentcloudVpcGatewayFlowMonitorDetailConfig extends cdktf
   /**
   * The instance ID of the NAT gateway, such as `nat-ltjahce6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#nat_id DataTencentcloudVpcGatewayFlowMonitorDetail#nat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#nat_id DataTencentcloudVpcGatewayFlowMonitorDetail#nat_id}
   */
   readonly natId?: string;
   /**
   * Order methods. Ascending: `ASC`, Descending: `DESC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#order_direction DataTencentcloudVpcGatewayFlowMonitorDetail#order_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#order_direction DataTencentcloudVpcGatewayFlowMonitorDetail#order_direction}
   */
   readonly orderDirection?: string;
   /**
   * The order field supports `InPkg`, `OutPkg`, `InTraffic`, and `OutTraffic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#order_field DataTencentcloudVpcGatewayFlowMonitorDetail#order_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#order_field DataTencentcloudVpcGatewayFlowMonitorDetail#order_field}
   */
   readonly orderField?: string;
   /**
   * The instance ID of the peering connection, such as `pcx-ltjahce6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#peering_connection_id DataTencentcloudVpcGatewayFlowMonitorDetail#peering_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#peering_connection_id DataTencentcloudVpcGatewayFlowMonitorDetail#peering_connection_id}
   */
   readonly peeringConnectionId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#result_output_file DataTencentcloudVpcGatewayFlowMonitorDetail#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#result_output_file DataTencentcloudVpcGatewayFlowMonitorDetail#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The point in time. This indicates details of this minute will be queried. For example, in `2019-02-28 18:15:20`, details at `18:15` will be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#time_point DataTencentcloudVpcGatewayFlowMonitorDetail#time_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#time_point DataTencentcloudVpcGatewayFlowMonitorDetail#time_point}
   */
   readonly timePoint: string;
   /**
   * The instance ID of the VPN gateway, such as `vpn-ltjahce6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#vpn_id DataTencentcloudVpcGatewayFlowMonitorDetail#vpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#vpn_id DataTencentcloudVpcGatewayFlowMonitorDetail#vpn_id}
   */
   readonly vpnId?: string;
 }
@@ -160,7 +160,7 @@ export class DataTencentcloudVpcGatewayFlowMonitorDetailGatewayFlowMonitorDetail
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail tencentcloud_vpc_gateway_flow_monitor_detail}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail tencentcloud_vpc_gateway_flow_monitor_detail}
 */
 export class DataTencentcloudVpcGatewayFlowMonitorDetail extends cdktf.TerraformDataSource {
 
@@ -176,7 +176,7 @@ export class DataTencentcloudVpcGatewayFlowMonitorDetail extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudVpcGatewayFlowMonitorDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcGatewayFlowMonitorDetail to import
-  * @param importFromId The id of the existing DataTencentcloudVpcGatewayFlowMonitorDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcGatewayFlowMonitorDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcGatewayFlowMonitorDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class DataTencentcloudVpcGatewayFlowMonitorDetail extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpc_gateway_flow_monitor_detail tencentcloud_vpc_gateway_flow_monitor_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_gateway_flow_monitor_detail tencentcloud_vpc_gateway_flow_monitor_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class DataTencentcloudVpcGatewayFlowMonitorDetail extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_vpc_gateway_flow_monitor_detail',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

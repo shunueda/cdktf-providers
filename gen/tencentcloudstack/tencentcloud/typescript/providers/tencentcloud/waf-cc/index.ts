@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface WafCcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule Action, 20 means observation, 21 means human-machine identification, 22 means interception, 23 means precise interception, 26 means precise human-machine identification, and 27 means JS verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#action_type WafCc#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#action_type WafCc#action_type}
   */
   readonly actionType: string;
   /**
   * Advanced mode (whether to use session detection). 0(disabled) 1(enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#advance WafCc#advance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#advance WafCc#advance}
   */
   readonly advance: string;
   /**
   * Cel expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#cel_rule WafCc#cel_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#cel_rule WafCc#cel_rule}
   */
   readonly celRule?: string;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#domain WafCc#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#domain WafCc#domain}
   */
   readonly domain: string;
   /**
   * WAF edition. clb-waf means clb-waf, sparta-waf means saas-waf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#edition WafCc#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#edition WafCc#edition}
   */
   readonly edition: string;
   /**
   * Event ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#event_id WafCc#event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#event_id WafCc#event_id}
   */
   readonly eventId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#id WafCc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#id WafCc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface WafCcConfig extends cdktf.TerraformMetaArguments {
   /**
   * CC detection cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#interval WafCc#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#interval WafCc#interval}
   */
   readonly interval: string;
   /**
   * CC detection threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#limit WafCc#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#limit WafCc#limit}
   */
   readonly limit: string;
   /**
   * Frequency limiting method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#limit_method WafCc#limit_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#limit_method WafCc#limit_method}
   */
   readonly limitMethod?: string;
   /**
   * Logical operator of configuration mode, and/or.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#logical_op WafCc#logical_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#logical_op WafCc#logical_op}
   */
   readonly logicalOp?: string;
   /**
   * Match method, 0(equal), 1(prefix), 2(contains), 3(not equal), 6(suffix), 7(not contains).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#match_func WafCc#match_func}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#match_func WafCc#match_func}
   */
   readonly matchFunc: number;
   /**
   * Rule Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#name WafCc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#name WafCc#name}
   */
   readonly name: string;
   /**
@@ -106,49 +106,49 @@ export interface WafCcConfig extends cdktf.TerraformMetaArguments {
   * 
   * 				The args parameter represents matching content and requires encodeflag to be set to true. When Key is Post, Cookie, or CustomHeader, use equals sign = to concatenate Key and Value separately, and encode both with Base64, similar to YWJj=YWJj. When Key is Referer or User-Agent, use equals sign = to concatenate Value, similar to =YWJj.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#options_arr WafCc#options_arr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#options_arr WafCc#options_arr}
   */
   readonly optionsArr?: string;
   /**
   * Rule Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#priority WafCc#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#priority WafCc#priority}
   */
   readonly priority: number;
   /**
   * Session ID that needs to be enabled for the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#session_applied WafCc#session_applied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#session_applied WafCc#session_applied}
   */
   readonly sessionApplied?: number[];
   /**
   * Rule Status, 0 rule close, 1 rule open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#status WafCc#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#status WafCc#status}
   */
   readonly status: number;
   /**
   * Operate Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#type WafCc#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#type WafCc#type}
   */
   readonly type?: number;
   /**
   * Detection URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#url WafCc#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#url WafCc#url}
   */
   readonly url: string;
   /**
   * Action ValidTime, minute unit. Min: 60, Max: 604800.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#valid_time WafCc#valid_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#valid_time WafCc#valid_time}
   */
   readonly validTime: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc tencentcloud_waf_cc}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc tencentcloud_waf_cc}
 */
 export class WafCc extends cdktf.TerraformResource {
 
@@ -164,7 +164,7 @@ export class WafCc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafCc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafCc to import
-  * @param importFromId The id of the existing WafCc that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafCc that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafCc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class WafCc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_cc tencentcloud_waf_cc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/waf_cc tencentcloud_waf_cc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class WafCc extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_cc',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

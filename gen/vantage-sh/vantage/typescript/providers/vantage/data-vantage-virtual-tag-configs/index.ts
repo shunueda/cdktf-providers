@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/virtual_tag_configs
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -7,6 +7,86 @@ import * as cdktf from 'cdktf';
 // Configuration
 
 export interface DataVantageVirtualTagConfigsConfig extends cdktf.TerraformMetaArguments {
+}
+export interface DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeys {
+}
+
+export function dataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysToTerraform(struct?: DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeys): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysToHclTerraform(struct?: DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeys): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeys | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeys | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // providers - computed: true, optional: false, required: false
+  public get providers() {
+    return this.getListAttribute('providers');
+  }
+}
+
+export class DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysOutputReference {
+    return new DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataVantageVirtualTagConfigsVirtualTagConfigsValuesCostMetricAggregation {
 }
@@ -122,6 +202,86 @@ export class DataVantageVirtualTagConfigsVirtualTagConfigsValuesCostMetricOutput
     return this.getStringAttribute('filter');
   }
 }
+export interface DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentages {
+}
+
+export function dataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesToTerraform(struct?: DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentages): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesToHclTerraform(struct?: DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentages): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentages | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentages | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // pct - computed: true, optional: false, required: false
+  public get pct() {
+    return this.getNumberAttribute('pct');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesOutputReference {
+    return new DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataVantageVirtualTagConfigsVirtualTagConfigsValues {
 }
 
@@ -192,6 +352,12 @@ export class DataVantageVirtualTagConfigsVirtualTagConfigsValuesOutputReference 
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
+  }
+
+  // percentages - computed: true, optional: false, required: false
+  private _percentages = new DataVantageVirtualTagConfigsVirtualTagConfigsValuesPercentagesList(this, "percentages", false);
+  public get percentages() {
+    return this._percentages;
   }
 }
 
@@ -269,6 +435,12 @@ export class DataVantageVirtualTagConfigsVirtualTagConfigsOutputReference extend
     return this.getStringAttribute('backfill_until');
   }
 
+  // collapsed_tag_keys - computed: true, optional: false, required: false
+  private _collapsedTagKeys = new DataVantageVirtualTagConfigsVirtualTagConfigsCollapsedTagKeysList(this, "collapsed_tag_keys", false);
+  public get collapsedTagKeys() {
+    return this._collapsedTagKeys;
+  }
+
   // created_by_token - computed: true, optional: false, required: false
   public get createdByToken() {
     return this.getStringAttribute('created_by_token');
@@ -321,7 +493,7 @@ export class DataVantageVirtualTagConfigsVirtualTagConfigsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs}
 */
 export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
 
@@ -337,7 +509,7 @@ export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageVirtualTagConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageVirtualTagConfigs to import
-  * @param importFromId The id of the existing DataVantageVirtualTagConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/virtual_tag_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageVirtualTagConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageVirtualTagConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +521,7 @@ export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +532,8 @@ export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_virtual_tag_configs',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyBuildValidationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#blocking BranchPolicyBuildValidation#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#blocking BranchPolicyBuildValidation#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#enabled BranchPolicyBuildValidation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#enabled BranchPolicyBuildValidation#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#id BranchPolicyBuildValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#id BranchPolicyBuildValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#project_id BranchPolicyBuildValidation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#project_id BranchPolicyBuildValidation#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#settings BranchPolicyBuildValidation#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#settings BranchPolicyBuildValidation#settings}
   */
   readonly settings: BranchPolicyBuildValidationSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#timeouts BranchPolicyBuildValidation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#timeouts BranchPolicyBuildValidation#timeouts}
   */
   readonly timeouts?: BranchPolicyBuildValidationTimeouts;
 }
 export interface BranchPolicyBuildValidationSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#match_type BranchPolicyBuildValidation#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#match_type BranchPolicyBuildValidation#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#repository_id BranchPolicyBuildValidation#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#repository_id BranchPolicyBuildValidation#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#repository_ref BranchPolicyBuildValidation#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#repository_ref BranchPolicyBuildValidation#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -223,33 +223,33 @@ export class BranchPolicyBuildValidationSettingsScopeList extends cdktf.ComplexL
 }
 export interface BranchPolicyBuildValidationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#build_definition_id BranchPolicyBuildValidation#build_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#build_definition_id BranchPolicyBuildValidation#build_definition_id}
   */
   readonly buildDefinitionId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#display_name BranchPolicyBuildValidation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#display_name BranchPolicyBuildValidation#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#filename_patterns BranchPolicyBuildValidation#filename_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#filename_patterns BranchPolicyBuildValidation#filename_patterns}
   */
   readonly filenamePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#manual_queue_only BranchPolicyBuildValidation#manual_queue_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#manual_queue_only BranchPolicyBuildValidation#manual_queue_only}
   */
   readonly manualQueueOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#queue_on_source_update_only BranchPolicyBuildValidation#queue_on_source_update_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#queue_on_source_update_only BranchPolicyBuildValidation#queue_on_source_update_only}
   */
   readonly queueOnSourceUpdateOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#valid_duration BranchPolicyBuildValidation#valid_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#valid_duration BranchPolicyBuildValidation#valid_duration}
   */
   readonly validDuration?: number;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#scope BranchPolicyBuildValidation#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#scope BranchPolicyBuildValidation#scope}
   */
   readonly scope: BranchPolicyBuildValidationSettingsScope[] | cdktf.IResolvable;
 }
@@ -498,19 +498,19 @@ export class BranchPolicyBuildValidationSettingsOutputReference extends cdktf.Co
 }
 export interface BranchPolicyBuildValidationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#create BranchPolicyBuildValidation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#create BranchPolicyBuildValidation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#delete BranchPolicyBuildValidation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#delete BranchPolicyBuildValidation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#read BranchPolicyBuildValidation#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#read BranchPolicyBuildValidation#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#update BranchPolicyBuildValidation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#update BranchPolicyBuildValidation#update}
   */
   readonly update?: string;
 }
@@ -691,7 +691,7 @@ export class BranchPolicyBuildValidationTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation azuredevops_branch_policy_build_validation}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation azuredevops_branch_policy_build_validation}
 */
 export class BranchPolicyBuildValidation extends cdktf.TerraformResource {
 
@@ -707,7 +707,7 @@ export class BranchPolicyBuildValidation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyBuildValidation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyBuildValidation to import
-  * @param importFromId The id of the existing BranchPolicyBuildValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyBuildValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyBuildValidation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -719,7 +719,7 @@ export class BranchPolicyBuildValidation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_build_validation azuredevops_branch_policy_build_validation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_build_validation azuredevops_branch_policy_build_validation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -730,8 +730,8 @@ export class BranchPolicyBuildValidation extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_build_validation',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

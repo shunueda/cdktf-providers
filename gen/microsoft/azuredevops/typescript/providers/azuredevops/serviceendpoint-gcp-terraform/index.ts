@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface ServiceendpointGcpTerraformConfig extends cdktf.TerraformMetaAr
   /**
   * The client email field in the JSON key file for creating the JSON Web Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#client_email ServiceendpointGcpTerraform#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#client_email ServiceendpointGcpTerraform#client_email}
   */
   readonly clientEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#description ServiceendpointGcpTerraform#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#description ServiceendpointGcpTerraform#description}
   */
   readonly description?: string;
   /**
   * Scope to be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#gcp_project_id ServiceendpointGcpTerraform#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#gcp_project_id ServiceendpointGcpTerraform#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#id ServiceendpointGcpTerraform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#id ServiceendpointGcpTerraform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,51 +33,51 @@ export interface ServiceendpointGcpTerraformConfig extends cdktf.TerraformMetaAr
   /**
   * Private Key for connecting to the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#private_key ServiceendpointGcpTerraform#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#private_key ServiceendpointGcpTerraform#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#project_id ServiceendpointGcpTerraform#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#project_id ServiceendpointGcpTerraform#project_id}
   */
   readonly projectId: string;
   /**
   * Scope to be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#scope ServiceendpointGcpTerraform#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#scope ServiceendpointGcpTerraform#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#service_endpoint_name ServiceendpointGcpTerraform#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#service_endpoint_name ServiceendpointGcpTerraform#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * The token uri field in the JSON key file for creating the JSON Web Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#token_uri ServiceendpointGcpTerraform#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#token_uri ServiceendpointGcpTerraform#token_uri}
   */
   readonly tokenUri: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#timeouts ServiceendpointGcpTerraform#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#timeouts ServiceendpointGcpTerraform#timeouts}
   */
   readonly timeouts?: ServiceendpointGcpTerraformTimeouts;
 }
 export interface ServiceendpointGcpTerraformTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#create ServiceendpointGcpTerraform#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#create ServiceendpointGcpTerraform#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#delete ServiceendpointGcpTerraform#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#delete ServiceendpointGcpTerraform#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#read ServiceendpointGcpTerraform#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#read ServiceendpointGcpTerraform#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#update ServiceendpointGcpTerraform#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#update ServiceendpointGcpTerraform#update}
   */
   readonly update?: string;
 }
@@ -258,7 +258,7 @@ export class ServiceendpointGcpTerraformTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform azuredevops_serviceendpoint_gcp_terraform}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform azuredevops_serviceendpoint_gcp_terraform}
 */
 export class ServiceendpointGcpTerraform extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class ServiceendpointGcpTerraform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointGcpTerraform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointGcpTerraform to import
-  * @param importFromId The id of the existing ServiceendpointGcpTerraform that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointGcpTerraform that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointGcpTerraform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class ServiceendpointGcpTerraform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_gcp_terraform azuredevops_serviceendpoint_gcp_terraform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_gcp_terraform azuredevops_serviceendpoint_gcp_terraform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class ServiceendpointGcpTerraform extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_gcp_terraform',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

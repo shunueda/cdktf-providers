@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface PolicyBgpConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag to enable ECMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#ecmp PolicyBgpConfig#ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#ecmp PolicyBgpConfig#ecmp}
   */
   readonly ecmp?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable BGP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#enabled PolicyBgpConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#enabled PolicyBgpConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Gateway for this BGP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#gateway_path PolicyBgpConfig#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#gateway_path PolicyBgpConfig#gateway_path}
   */
   readonly gatewayPath: string;
   /**
   * BGP Graceful Restart Configuration Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#graceful_restart_mode PolicyBgpConfig#graceful_restart_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#graceful_restart_mode PolicyBgpConfig#graceful_restart_mode}
   */
   readonly gracefulRestartMode?: string;
   /**
   * BGP Stale Route Timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#graceful_restart_stale_route_timer PolicyBgpConfig#graceful_restart_stale_route_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#graceful_restart_stale_route_timer PolicyBgpConfig#graceful_restart_stale_route_timer}
   */
   readonly gracefulRestartStaleRouteTimer?: number;
   /**
   * BGP Graceful Restart Timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#graceful_restart_timer PolicyBgpConfig#graceful_restart_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#graceful_restart_timer PolicyBgpConfig#graceful_restart_timer}
   */
   readonly gracefulRestartTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#id PolicyBgpConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#id PolicyBgpConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface PolicyBgpConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable inter SR IBGP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#inter_sr_ibgp PolicyBgpConfig#inter_sr_ibgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#inter_sr_ibgp PolicyBgpConfig#inter_sr_ibgp}
   */
   readonly interSrIbgp?: boolean | cdktf.IResolvable;
   /**
   * BGP AS number in ASPLAIN/ASDOT Format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#local_as_num PolicyBgpConfig#local_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#local_as_num PolicyBgpConfig#local_as_num}
   */
   readonly localAsNum?: string;
   /**
   * Flag to enable BGP multipath relax option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#multipath_relax PolicyBgpConfig#multipath_relax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#multipath_relax PolicyBgpConfig#multipath_relax}
   */
   readonly multipathRelax?: boolean | cdktf.IResolvable;
   /**
   * Site Path for this BGP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#site_path PolicyBgpConfig#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#site_path PolicyBgpConfig#site_path}
   */
   readonly sitePath?: string;
   /**
   * route_aggregation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#route_aggregation PolicyBgpConfig#route_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#route_aggregation PolicyBgpConfig#route_aggregation}
   */
   readonly routeAggregation?: PolicyBgpConfigRouteAggregation[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#tag PolicyBgpConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#tag PolicyBgpConfig#tag}
   */
   readonly tag?: PolicyBgpConfigTag[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface PolicyBgpConfigRouteAggregation {
   /**
   * CIDR of aggregate address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#prefix PolicyBgpConfig#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#prefix PolicyBgpConfig#prefix}
   */
   readonly prefix?: string;
   /**
   * Send only summarized route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#summary_only PolicyBgpConfig#summary_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#summary_only PolicyBgpConfig#summary_only}
   */
   readonly summaryOnly?: boolean | cdktf.IResolvable;
 }
@@ -242,11 +242,11 @@ export class PolicyBgpConfigRouteAggregationList extends cdktf.ComplexList {
 }
 export interface PolicyBgpConfigTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#scope PolicyBgpConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#scope PolicyBgpConfig#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#tag PolicyBgpConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#tag PolicyBgpConfig#tag}
   */
   readonly tag?: string;
 }
@@ -391,7 +391,7 @@ export class PolicyBgpConfigTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config nsxt_policy_bgp_config}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config nsxt_policy_bgp_config}
 */
 export class PolicyBgpConfig extends cdktf.TerraformResource {
 
@@ -407,7 +407,7 @@ export class PolicyBgpConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyBgpConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyBgpConfig to import
-  * @param importFromId The id of the existing PolicyBgpConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyBgpConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyBgpConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -419,7 +419,7 @@ export class PolicyBgpConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_config nsxt_policy_bgp_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_config nsxt_policy_bgp_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -430,8 +430,8 @@ export class PolicyBgpConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_bgp_config',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

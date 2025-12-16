@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyLbFastUdpApplicationProfileConfig extends cdktf.Terraform
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#description PolicyLbFastUdpApplicationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#description PolicyLbFastUdpApplicationProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#display_name PolicyLbFastUdpApplicationProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#display_name PolicyLbFastUdpApplicationProfile#display_name}
   */
   readonly displayName: string;
   /**
   * If enabled, all the flows to the bounded virtual server are mirrored to the standby node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#flow_mirroring_enabled PolicyLbFastUdpApplicationProfile#flow_mirroring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#flow_mirroring_enabled PolicyLbFastUdpApplicationProfile#flow_mirroring_enabled}
   */
   readonly flowMirroringEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#id PolicyLbFastUdpApplicationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#id PolicyLbFastUdpApplicationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,29 +35,29 @@ export interface PolicyLbFastUdpApplicationProfileConfig extends cdktf.Terraform
   /**
   * how long an idle UDP connection should be kept for this application before cleaning up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#idle_timeout PolicyLbFastUdpApplicationProfile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#idle_timeout PolicyLbFastUdpApplicationProfile#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#nsx_id PolicyLbFastUdpApplicationProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#nsx_id PolicyLbFastUdpApplicationProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#tag PolicyLbFastUdpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#tag PolicyLbFastUdpApplicationProfile#tag}
   */
   readonly tag?: PolicyLbFastUdpApplicationProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyLbFastUdpApplicationProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#scope PolicyLbFastUdpApplicationProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#scope PolicyLbFastUdpApplicationProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#tag PolicyLbFastUdpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#tag PolicyLbFastUdpApplicationProfile#tag}
   */
   readonly tag?: string;
 }
@@ -202,7 +202,7 @@ export class PolicyLbFastUdpApplicationProfileTagList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile nsxt_policy_lb_fast_udp_application_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile nsxt_policy_lb_fast_udp_application_profile}
 */
 export class PolicyLbFastUdpApplicationProfile extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class PolicyLbFastUdpApplicationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbFastUdpApplicationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbFastUdpApplicationProfile to import
-  * @param importFromId The id of the existing PolicyLbFastUdpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbFastUdpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbFastUdpApplicationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class PolicyLbFastUdpApplicationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_fast_udp_application_profile nsxt_policy_lb_fast_udp_application_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_fast_udp_application_profile nsxt_policy_lb_fast_udp_application_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class PolicyLbFastUdpApplicationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_fast_udp_application_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

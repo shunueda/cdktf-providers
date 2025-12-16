@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain
+// https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface RegisteredDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#auto_renew_enabled RegisteredDomain#auto_renew_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#auto_renew_enabled RegisteredDomain#auto_renew_enabled}
   */
   readonly autoRenewEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#contact_id RegisteredDomain#contact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#contact_id RegisteredDomain#contact_id}
   */
   readonly contactId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#dnssec_enabled RegisteredDomain#dnssec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#dnssec_enabled RegisteredDomain#dnssec_enabled}
   */
   readonly dnssecEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#extended_attributes RegisteredDomain#extended_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#extended_attributes RegisteredDomain#extended_attributes}
   */
   readonly extendedAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#name RegisteredDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#name RegisteredDomain#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#premium_price RegisteredDomain#premium_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#premium_price RegisteredDomain#premium_price}
   */
   readonly premiumPrice?: string;
   /**
   * Timeouts for operations, given as a parsable string as in `10m` or `30s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#timeouts RegisteredDomain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#timeouts RegisteredDomain#timeouts}
   */
   readonly timeouts?: RegisteredDomainTimeouts;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#transfer_lock_enabled RegisteredDomain#transfer_lock_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#transfer_lock_enabled RegisteredDomain#transfer_lock_enabled}
   */
   readonly transferLockEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#whois_privacy_enabled RegisteredDomain#whois_privacy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#whois_privacy_enabled RegisteredDomain#whois_privacy_enabled}
   */
   readonly whoisPrivacyEnabled?: boolean | cdktf.IResolvable;
 }
 export interface RegisteredDomainDomainRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#state RegisteredDomain#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#state RegisteredDomain#state}
   */
   readonly state?: string;
 }
@@ -144,7 +144,7 @@ export interface RegisteredDomainRegistrantChange {
   /**
   * State of the registrant change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#state RegisteredDomain#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#state RegisteredDomain#state}
   */
   readonly state?: string;
 }
@@ -266,19 +266,19 @@ export interface RegisteredDomainTimeouts {
   /**
   * Create timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#create RegisteredDomain#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#create RegisteredDomain#create}
   */
   readonly create?: string;
   /**
   * Delete timeout (currently unused).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#delete RegisteredDomain#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#delete RegisteredDomain#delete}
   */
   readonly delete?: string;
   /**
   * Update timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#update RegisteredDomain#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#update RegisteredDomain#update}
   */
   readonly update?: string;
 }
@@ -430,7 +430,7 @@ export class RegisteredDomainTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain dnsimple_registered_domain}
+* Represents a {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain dnsimple_registered_domain}
 */
 export class RegisteredDomain extends cdktf.TerraformResource {
 
@@ -446,7 +446,7 @@ export class RegisteredDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RegisteredDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RegisteredDomain to import
-  * @param importFromId The id of the existing RegisteredDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RegisteredDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RegisteredDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class RegisteredDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dnsimple/dnsimple/1.10.0/docs/resources/registered_domain dnsimple_registered_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dnsimple/dnsimple/2.0.0/docs/resources/registered_domain dnsimple_registered_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class RegisteredDomain extends cdktf.TerraformResource {
       terraformResourceType: 'dnsimple_registered_domain',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0',
-        providerVersionConstraint: '1.10.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

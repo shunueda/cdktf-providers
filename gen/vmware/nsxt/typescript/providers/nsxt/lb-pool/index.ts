@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Active health monitor Id. If one is not set, the active healthchecks will be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#active_monitor_id LbPool#active_monitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#active_monitor_id LbPool#active_monitor_id}
   */
   readonly activeMonitorId?: string;
   /**
   * Load balancing algorithm controls how the incoming connections are distributed among the members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#algorithm LbPool#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#algorithm LbPool#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#description LbPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#description LbPool#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#display_name LbPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#display_name LbPool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#id LbPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#id LbPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface LbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The minimum number of members for the pool to be considered active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#min_active_members LbPool#min_active_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#min_active_members LbPool#min_active_members}
   */
   readonly minActiveMembers?: number;
   /**
   * Passive health monitor Id. If one is not set, the passive healthchecks will be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#passive_monitor_id LbPool#passive_monitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#passive_monitor_id LbPool#passive_monitor_id}
   */
   readonly passiveMonitorId?: string;
   /**
   * TCP multiplexing allows the same TCP connection between load balancer and the backend server to be used for sending multiple client requests from different client TCP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#tcp_multiplexing_enabled LbPool#tcp_multiplexing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#tcp_multiplexing_enabled LbPool#tcp_multiplexing_enabled}
   */
   readonly tcpMultiplexingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of TCP connections per pool that are idly kept alive for sending future client requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#tcp_multiplexing_number LbPool#tcp_multiplexing_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#tcp_multiplexing_number LbPool#tcp_multiplexing_number}
   */
   readonly tcpMultiplexingNumber?: number;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#member LbPool#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#member LbPool#member}
   */
   readonly member?: LbPoolMember[] | cdktf.IResolvable;
   /**
   * member_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#member_group LbPool#member_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#member_group LbPool#member_group}
   */
   readonly memberGroup?: LbPoolMemberGroup;
   /**
   * snat_translation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#snat_translation LbPool#snat_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#snat_translation LbPool#snat_translation}
   */
   readonly snatTranslation?: LbPoolSnatTranslation;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#tag LbPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#tag LbPool#tag}
   */
   readonly tag?: LbPoolTag[] | cdktf.IResolvable;
 }
@@ -91,43 +91,43 @@ export interface LbPoolMember {
   /**
   * Member admin state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#admin_state LbPool#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#admin_state LbPool#admin_state}
   */
   readonly adminState?: string;
   /**
   * A boolean flag which reflects whether this is a backup pool member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#backup_member LbPool#backup_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#backup_member LbPool#backup_member}
   */
   readonly backupMember?: boolean | cdktf.IResolvable;
   /**
   * Pool member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#display_name LbPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#display_name LbPool#display_name}
   */
   readonly displayName?: string;
   /**
   * Pool member IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#ip_address LbPool#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#ip_address LbPool#ip_address}
   */
   readonly ipAddress: string;
   /**
   * To ensure members are not overloaded, connections to a member can be capped by the load balancer. When a member reaches this limit, it is skipped during server selection. If it is not specified, it means that connections are unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#max_concurrent_connections LbPool#max_concurrent_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#max_concurrent_connections LbPool#max_concurrent_connections}
   */
   readonly maxConcurrentConnections?: number;
   /**
   * If port is specified, all connections will be sent to this port. Only single port is supported. If unset, the same port the client connected to will be used, it could be overrode by default_pool_member_port setting in virtual server. The port should not specified for port range case
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#port LbPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#port LbPool#port}
   */
   readonly port?: string;
   /**
   * Pool member weight is used for WEIGHTED_ROUND_ROBIN balancing algorithm. The weight value would be ignored in other algorithms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#weight LbPool#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#weight LbPool#weight}
   */
   readonly weight?: number;
 }
@@ -416,13 +416,13 @@ export interface LbPoolMemberGroupGroupingObject {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#target_id LbPool#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#target_id LbPool#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#target_type LbPool#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#target_type LbPool#target_type}
   */
   readonly targetType?: string;
 }
@@ -547,31 +547,31 @@ export interface LbPoolMemberGroup {
   /**
   * Ip revision filter is used to filter IPv4 or IPv6 addresses from the grouping object. If the filter is not specified, both IPv4 and IPv6 addresses would be used as server IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#ip_version_filter LbPool#ip_version_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#ip_version_filter LbPool#ip_version_filter}
   */
   readonly ipVersionFilter?: string;
   /**
   * Specifies whether to limit pool members. If false, dynamic pool can grow up to the load balancer max pool member capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#limit_ip_list_size LbPool#limit_ip_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#limit_ip_list_size LbPool#limit_ip_list_size}
   */
   readonly limitIpListSize?: boolean | cdktf.IResolvable;
   /**
   * Limits the max number of pool members to the specified value if limit_ip_list_size is set to true, ignored otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#max_ip_list_size LbPool#max_ip_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#max_ip_list_size LbPool#max_ip_list_size}
   */
   readonly maxIpListSize?: number;
   /**
   * If port is specified, all connections will be sent to this port. If unset, the same port the client connected to will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#port LbPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#port LbPool#port}
   */
   readonly port?: number;
   /**
   * grouping_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#grouping_object LbPool#grouping_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#grouping_object LbPool#grouping_object}
   */
   readonly groupingObject: LbPoolMemberGroupGroupingObject;
 }
@@ -770,13 +770,13 @@ export interface LbPoolSnatTranslation {
   /**
   * Ip address or Ip range for SNAT of type SNAT_IP_POOL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#ip LbPool#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#ip LbPool#ip}
   */
   readonly ip?: string;
   /**
   * Type of SNAT performed to ensure reverse traffic from the server can be received and processed by the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#type LbPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#type LbPool#type}
   */
   readonly type?: string;
 }
@@ -889,11 +889,11 @@ export class LbPoolSnatTranslationOutputReference extends cdktf.ComplexObject {
 }
 export interface LbPoolTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#scope LbPool#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#scope LbPool#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#tag LbPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#tag LbPool#tag}
   */
   readonly tag?: string;
 }
@@ -1038,7 +1038,7 @@ export class LbPoolTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool nsxt_lb_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool nsxt_lb_pool}
 */
 export class LbPool extends cdktf.TerraformResource {
 
@@ -1054,7 +1054,7 @@ export class LbPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbPool to import
-  * @param importFromId The id of the existing LbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1066,7 +1066,7 @@ export class LbPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_pool nsxt_lb_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_pool nsxt_lb_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1077,8 +1077,8 @@ export class LbPool extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_pool',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

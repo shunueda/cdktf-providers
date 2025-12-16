@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#auth_brute_force_protection_enabled Broker#auth_brute_force_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#auth_brute_force_protection_enabled Broker#auth_brute_force_protection_enabled}
   */
   readonly authBruteForceProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -28,31 +28,45 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#auth_client_cert_revocation_check_mode Broker#auth_client_cert_revocation_check_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#auth_client_cert_revocation_check_mode Broker#auth_client_cert_revocation_check_mode}
   */
   readonly authClientCertRevocationCheckMode?: string;
   /**
+  * The access level required to generate encrypted gather-diagnostics output, which can only be decrypted by Solace support. global/admin is always required to generate unencrypted gather-diagnostics output. Gather-diagnostics output may contain sensitive information.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"global-read-only"`. The allowed values and their meaning are:
+  * 
+  * <pre>
+  * "global-read-only" - Generating encrypted gather-diagnostics output requires global/read-only.
+  * "global-admin" - Generating encrypted gather-diagnostics output requires global/admin.
+  * </pre>
+  *  Available since SEMP API version 2.48.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#auth_required_access_level_gather_diagnostics Broker#auth_required_access_level_gather_diagnostics}
+  */
+  readonly authRequiredAccessLevelGatherDiagnostics?: string;
+  /**
   * The maximum depth for a client certificate chain. The depth of a chain is defined as the number of signing CA certificates that are present in the chain back to a trusted self-signed root CA certificate.
   * 
-  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `3`. Available since SEMP API version 2.22.
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `3`. Deprecated since SEMP API version 2.48. Client certificate authentication is deprecated for config-sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_authentication_client_cert_max_chain_depth Broker#config_sync_authentication_client_cert_max_chain_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_authentication_client_cert_max_chain_depth Broker#config_sync_authentication_client_cert_max_chain_depth}
   */
   readonly configSyncAuthenticationClientCertMaxChainDepth?: number;
   /**
   * Enable or disable validation of the "Not Before" and "Not After" validity dates in the authentication certificate(s).
   * 
-  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Available since SEMP API version 2.22.
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Deprecated since SEMP API version 2.48. Client certificate authentication is deprecated for config-sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_authentication_client_cert_validate_date_enabled Broker#config_sync_authentication_client_cert_validate_date_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_authentication_client_cert_validate_date_enabled Broker#config_sync_authentication_client_cert_validate_date_enabled}
   */
   readonly configSyncAuthenticationClientCertValidateDateEnabled?: boolean | cdktf.IResolvable;
   /**
-  * The TCP initial congestion window size for Config Sync clients, in multiples of the TCP Maximum Segment Size (MSS). Changing the value from its default of 2 results in non-compliance with RFC 2581. Contact support before changing this value.
+  * Obsolete.
   * 
-  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `2`. Available since SEMP API version 2.22.
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `2`. Deprecated since SEMP API version 2.48. The value is now ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_client_profile_tcp_initial_congestion_window Broker#config_sync_client_profile_tcp_initial_congestion_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_client_profile_tcp_initial_congestion_window Broker#config_sync_client_profile_tcp_initial_congestion_window}
   */
   readonly configSyncClientProfileTcpInitialCongestionWindow?: number;
   /**
@@ -60,7 +74,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `5`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_client_profile_tcp_keepalive_count Broker#config_sync_client_profile_tcp_keepalive_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_client_profile_tcp_keepalive_count Broker#config_sync_client_profile_tcp_keepalive_count}
   */
   readonly configSyncClientProfileTcpKeepaliveCount?: number;
   /**
@@ -68,7 +82,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `3`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_client_profile_tcp_keepalive_idle Broker#config_sync_client_profile_tcp_keepalive_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_client_profile_tcp_keepalive_idle Broker#config_sync_client_profile_tcp_keepalive_idle}
   */
   readonly configSyncClientProfileTcpKeepaliveIdle?: number;
   /**
@@ -76,15 +90,15 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `1`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_client_profile_tcp_keepalive_interval Broker#config_sync_client_profile_tcp_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_client_profile_tcp_keepalive_interval Broker#config_sync_client_profile_tcp_keepalive_interval}
   */
   readonly configSyncClientProfileTcpKeepaliveInterval?: number;
   /**
-  * The TCP maximum window size for clients using the Client Profile, in kilobytes. Changes are applied to all existing connections. This setting is ignored on the software broker.
+  * Obsolete.
   * 
-  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `256`. Available since SEMP API version 2.22.
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `256`. Deprecated since SEMP API version 2.48. The value is now ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_client_profile_tcp_max_window Broker#config_sync_client_profile_tcp_max_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_client_profile_tcp_max_window Broker#config_sync_client_profile_tcp_max_window}
   */
   readonly configSyncClientProfileTcpMaxWindow?: number;
   /**
@@ -92,7 +106,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `1460`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_client_profile_tcp_mss Broker#config_sync_client_profile_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_client_profile_tcp_mss Broker#config_sync_client_profile_tcp_mss}
   */
   readonly configSyncClientProfileTcpMss?: number;
   /**
@@ -100,7 +114,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `false`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_enabled Broker#config_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_enabled Broker#config_sync_enabled}
   */
   readonly configSyncEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -108,7 +122,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_synchronize_username_enabled Broker#config_sync_synchronize_username_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_synchronize_username_enabled Broker#config_sync_synchronize_username_enabled}
   */
   readonly configSyncSynchronizeUsernameEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -116,7 +130,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `false`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#config_sync_tls_enabled Broker#config_sync_tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#config_sync_tls_enabled Broker#config_sync_tls_enabled}
   */
   readonly configSyncTlsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -124,7 +138,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"daily"`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_schedule_day_list Broker#guaranteed_msging_defragmentation_schedule_day_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_schedule_day_list Broker#guaranteed_msging_defragmentation_schedule_day_list}
   */
   readonly guaranteedMsgingDefragmentationScheduleDayList?: string;
   /**
@@ -132,7 +146,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_schedule_enabled Broker#guaranteed_msging_defragmentation_schedule_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_schedule_enabled Broker#guaranteed_msging_defragmentation_schedule_enabled}
   */
   readonly guaranteedMsgingDefragmentationScheduleEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -140,7 +154,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"0:00"`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_schedule_time_list Broker#guaranteed_msging_defragmentation_schedule_time_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_schedule_time_list Broker#guaranteed_msging_defragmentation_schedule_time_list}
   */
   readonly guaranteedMsgingDefragmentationScheduleTimeList?: string;
   /**
@@ -148,7 +162,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_enabled Broker#guaranteed_msging_defragmentation_threshold_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_enabled Broker#guaranteed_msging_defragmentation_threshold_enabled}
   */
   readonly guaranteedMsgingDefragmentationThresholdEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -156,7 +170,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `50`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_fragmentation_percentage Broker#guaranteed_msging_defragmentation_threshold_fragmentation_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_fragmentation_percentage Broker#guaranteed_msging_defragmentation_threshold_fragmentation_percentage}
   */
   readonly guaranteedMsgingDefragmentationThresholdFragmentationPercentage?: number;
   /**
@@ -164,7 +178,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `15`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_min_interval Broker#guaranteed_msging_defragmentation_threshold_min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_min_interval Broker#guaranteed_msging_defragmentation_threshold_min_interval}
   */
   readonly guaranteedMsgingDefragmentationThresholdMinInterval?: number;
   /**
@@ -172,7 +186,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `50`. Available since SEMP API version 2.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_usage_percentage Broker#guaranteed_msging_defragmentation_threshold_usage_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_defragmentation_threshold_usage_percentage Broker#guaranteed_msging_defragmentation_threshold_usage_percentage}
   */
   readonly guaranteedMsgingDefragmentationThresholdUsagePercentage?: number;
   /**
@@ -180,79 +194,79 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `false`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_enabled Broker#guaranteed_msging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_enabled Broker#guaranteed_msging_enabled}
   */
   readonly guaranteedMsgingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The thresholds for the cache usage event at system level, relative to `guaranteed_msging_max_cache_usage`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_cache_usage_threshold Broker#guaranteed_msging_event_cache_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_cache_usage_threshold Broker#guaranteed_msging_event_cache_usage_threshold}
   */
   readonly guaranteedMsgingEventCacheUsageThreshold?: BrokerGuaranteedMsgingEventCacheUsageThreshold;
   /**
   * The thresholds for the number of delivered but unacknowledged messages event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_delivered_unacked_threshold Broker#guaranteed_msging_event_delivered_unacked_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_delivered_unacked_threshold Broker#guaranteed_msging_event_delivered_unacked_threshold}
   */
   readonly guaranteedMsgingEventDeliveredUnackedThreshold?: BrokerGuaranteedMsgingEventDeliveredUnackedThreshold;
   /**
   * The thresholds for the active disk partition usage event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_disk_usage_threshold Broker#guaranteed_msging_event_disk_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_disk_usage_threshold Broker#guaranteed_msging_event_disk_usage_threshold}
   */
   readonly guaranteedMsgingEventDiskUsageThreshold?: BrokerGuaranteedMsgingEventDiskUsageThreshold;
   /**
   * The thresholds for the transmit flow count event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_egress_flow_count_threshold Broker#guaranteed_msging_event_egress_flow_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_egress_flow_count_threshold Broker#guaranteed_msging_event_egress_flow_count_threshold}
   */
   readonly guaranteedMsgingEventEgressFlowCountThreshold?: BrokerGuaranteedMsgingEventEgressFlowCountThreshold;
   /**
   * The thresholds for the endpoints count event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_endpoint_count_threshold Broker#guaranteed_msging_event_endpoint_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_endpoint_count_threshold Broker#guaranteed_msging_event_endpoint_count_threshold}
   */
   readonly guaranteedMsgingEventEndpointCountThreshold?: BrokerGuaranteedMsgingEventEndpointCountThreshold;
   /**
   * The thresholds for the receive flow count event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_ingress_flow_count_threshold Broker#guaranteed_msging_event_ingress_flow_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_ingress_flow_count_threshold Broker#guaranteed_msging_event_ingress_flow_count_threshold}
   */
   readonly guaranteedMsgingEventIngressFlowCountThreshold?: BrokerGuaranteedMsgingEventIngressFlowCountThreshold;
   /**
   * The thresholds for the spool message count event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_msg_count_threshold Broker#guaranteed_msging_event_msg_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_msg_count_threshold Broker#guaranteed_msging_event_msg_count_threshold}
   */
   readonly guaranteedMsgingEventMsgCountThreshold?: BrokerGuaranteedMsgingEventMsgCountThreshold;
   /**
   * The thresholds for the spool file count event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_msg_spool_file_count_threshold Broker#guaranteed_msging_event_msg_spool_file_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_msg_spool_file_count_threshold Broker#guaranteed_msging_event_msg_spool_file_count_threshold}
   */
   readonly guaranteedMsgingEventMsgSpoolFileCountThreshold?: BrokerGuaranteedMsgingEventMsgSpoolFileCountThreshold;
   /**
   * The thresholds for the spool usage event at system level, relative to `max_spool_usage`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_msg_spool_usage_threshold Broker#guaranteed_msging_event_msg_spool_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_msg_spool_usage_threshold Broker#guaranteed_msging_event_msg_spool_usage_threshold}
   */
   readonly guaranteedMsgingEventMsgSpoolUsageThreshold?: BrokerGuaranteedMsgingEventMsgSpoolUsageThreshold;
   /**
   * The thresholds for the transacted sessions event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_transacted_session_count_threshold Broker#guaranteed_msging_event_transacted_session_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_transacted_session_count_threshold Broker#guaranteed_msging_event_transacted_session_count_threshold}
   */
   readonly guaranteedMsgingEventTransactedSessionCountThreshold?: BrokerGuaranteedMsgingEventTransactedSessionCountThreshold;
   /**
   * The thresholds for the transacted session resources at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_transacted_session_resource_count_threshold Broker#guaranteed_msging_event_transacted_session_resource_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_transacted_session_resource_count_threshold Broker#guaranteed_msging_event_transacted_session_resource_count_threshold}
   */
   readonly guaranteedMsgingEventTransactedSessionResourceCountThreshold?: BrokerGuaranteedMsgingEventTransactedSessionResourceCountThreshold;
   /**
   * The thresholds for the transactions event at system level, relative to the maximum system limit. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_event_transaction_count_threshold Broker#guaranteed_msging_event_transaction_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_event_transaction_count_threshold Broker#guaranteed_msging_event_transaction_count_threshold}
   */
   readonly guaranteedMsgingEventTransactionCountThreshold?: BrokerGuaranteedMsgingEventTransactionCountThreshold;
   /**
@@ -260,7 +274,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `10`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_max_cache_usage Broker#guaranteed_msging_max_cache_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_max_cache_usage Broker#guaranteed_msging_max_cache_usage}
   */
   readonly guaranteedMsgingMaxCacheUsage?: number;
   /**
@@ -268,7 +282,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1500`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_max_msg_spool_usage Broker#guaranteed_msging_max_msg_spool_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_max_msg_spool_usage Broker#guaranteed_msging_max_msg_spool_usage}
   */
   readonly guaranteedMsgingMaxMsgSpoolUsage?: number;
   /**
@@ -276,7 +290,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `10000`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_msg_spool_sync_mirrored_msg_ack_timeout Broker#guaranteed_msging_msg_spool_sync_mirrored_msg_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_msg_spool_sync_mirrored_msg_ack_timeout Broker#guaranteed_msging_msg_spool_sync_mirrored_msg_ack_timeout}
   */
   readonly guaranteedMsgingMsgSpoolSyncMirroredMsgAckTimeout?: number;
   /**
@@ -284,7 +298,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `10000`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_msg_spool_sync_mirrored_spool_file_ack_timeout Broker#guaranteed_msging_msg_spool_sync_mirrored_spool_file_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_msg_spool_sync_mirrored_spool_file_ack_timeout Broker#guaranteed_msging_msg_spool_sync_mirrored_spool_file_ack_timeout}
   */
   readonly guaranteedMsgingMsgSpoolSyncMirroredSpoolFileAckTimeout?: number;
   /**
@@ -298,7 +312,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   *  Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#guaranteed_msging_transaction_replication_compatibility_mode Broker#guaranteed_msging_transaction_replication_compatibility_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#guaranteed_msging_transaction_replication_compatibility_mode Broker#guaranteed_msging_transaction_replication_compatibility_mode}
   */
   readonly guaranteedMsgingTransactionReplicationCompatibilityMode?: string;
   /**
@@ -306,7 +320,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`. Available since SEMP API version 2.24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#oauth_profile_default Broker#oauth_profile_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#oauth_profile_default Broker#oauth_profile_default}
   */
   readonly oauthProfileDefault?: string;
   /**
@@ -314,7 +328,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_amqp_enabled Broker#service_amqp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_amqp_enabled Broker#service_amqp_enabled}
   */
   readonly serviceAmqpEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -322,13 +336,13 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_amqp_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_amqp_tls_listen_port Broker#service_amqp_tls_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_amqp_tls_listen_port Broker#service_amqp_tls_listen_port}
   */
   readonly serviceAmqpTlsListenPort?: number;
   /**
   * The thresholds for the connection count event. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_event_connection_count_threshold Broker#service_event_connection_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_event_connection_count_threshold Broker#service_event_connection_count_threshold}
   */
   readonly serviceEventConnectionCountThreshold?: BrokerServiceEventConnectionCountThreshold;
   /**
@@ -336,7 +350,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_health_check_enabled Broker#service_health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_health_check_enabled Broker#service_health_check_enabled}
   */
   readonly serviceHealthCheckEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -344,7 +358,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_health_check_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `5550`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_health_check_listen_port Broker#service_health_check_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_health_check_listen_port Broker#service_health_check_listen_port}
   */
   readonly serviceHealthCheckListenPort?: number;
   /**
@@ -352,7 +366,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_health_check_tls_enabled Broker#service_health_check_tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_health_check_tls_enabled Broker#service_health_check_tls_enabled}
   */
   readonly serviceHealthCheckTlsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -360,7 +374,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_health_check_tls_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`. Available since SEMP API version 2.34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_health_check_tls_listen_port Broker#service_health_check_tls_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_health_check_tls_listen_port Broker#service_health_check_tls_listen_port}
   */
   readonly serviceHealthCheckTlsListenPort?: number;
   /**
@@ -368,7 +382,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_mate_link_enabled Broker#service_mate_link_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_mate_link_enabled Broker#service_mate_link_enabled}
   */
   readonly serviceMateLinkEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -376,7 +390,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_mate_link_enabled will be temporarily set to false to apply the change. The default value is `8741`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_mate_link_listen_port Broker#service_mate_link_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_mate_link_listen_port Broker#service_mate_link_listen_port}
   */
   readonly serviceMateLinkListenPort?: number;
   /**
@@ -384,7 +398,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_mqtt_enabled Broker#service_mqtt_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_mqtt_enabled Broker#service_mqtt_enabled}
   */
   readonly serviceMqttEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -392,7 +406,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_msg_backbone_enabled Broker#service_msg_backbone_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_msg_backbone_enabled Broker#service_msg_backbone_enabled}
   */
   readonly serviceMsgBackboneEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -400,7 +414,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_redundancy_enabled Broker#service_redundancy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_redundancy_enabled Broker#service_redundancy_enabled}
   */
   readonly serviceRedundancyEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -408,13 +422,13 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_redundancy_enabled will be temporarily set to false to apply the change. The default value is `8300`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_redundancy_first_listen_port Broker#service_redundancy_first_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_redundancy_first_listen_port Broker#service_redundancy_first_listen_port}
   */
   readonly serviceRedundancyFirstListenPort?: number;
   /**
   * The thresholds for the REST outgoing connection count event. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_rest_event_outgoing_connection_count_threshold Broker#service_rest_event_outgoing_connection_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_rest_event_outgoing_connection_count_threshold Broker#service_rest_event_outgoing_connection_count_threshold}
   */
   readonly serviceRestEventOutgoingConnectionCountThreshold?: BrokerServiceRestEventOutgoingConnectionCountThreshold;
   /**
@@ -422,7 +436,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_rest_incoming_enabled Broker#service_rest_incoming_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_rest_incoming_enabled Broker#service_rest_incoming_enabled}
   */
   readonly serviceRestIncomingEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -430,7 +444,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_rest_outgoing_enabled Broker#service_rest_outgoing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_rest_outgoing_enabled Broker#service_rest_outgoing_enabled}
   */
   readonly serviceRestOutgoingEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -438,7 +452,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`. Available since SEMP API version 2.24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_semp_cors_allow_any_host_enabled Broker#service_semp_cors_allow_any_host_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_semp_cors_allow_any_host_enabled Broker#service_semp_cors_allow_any_host_enabled}
   */
   readonly serviceSempCorsAllowAnyHostEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -446,7 +460,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_semp_legacy_timeout_enabled Broker#service_semp_legacy_timeout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_semp_legacy_timeout_enabled Broker#service_semp_legacy_timeout_enabled}
   */
   readonly serviceSempLegacyTimeoutEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -454,7 +468,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_semp_plain_text_enabled Broker#service_semp_plain_text_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_semp_plain_text_enabled Broker#service_semp_plain_text_enabled}
   */
   readonly serviceSempPlainTextEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -462,7 +476,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `15`. Available since SEMP API version 2.21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_semp_session_idle_timeout Broker#service_semp_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_semp_session_idle_timeout Broker#service_semp_session_idle_timeout}
   */
   readonly serviceSempSessionIdleTimeout?: number;
   /**
@@ -470,7 +484,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `43200`. Available since SEMP API version 2.21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_semp_session_max_lifetime Broker#service_semp_session_max_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_semp_session_max_lifetime Broker#service_semp_session_max_lifetime}
   */
   readonly serviceSempSessionMaxLifetime?: number;
   /**
@@ -478,7 +492,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_semp_tls_enabled Broker#service_semp_tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_semp_tls_enabled Broker#service_semp_tls_enabled}
   */
   readonly serviceSempTlsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -486,7 +500,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_smf_enabled will be temporarily set to false to apply the change. The default value is `55003`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_smf_compression_listen_port Broker#service_smf_compression_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_smf_compression_listen_port Broker#service_smf_compression_listen_port}
   */
   readonly serviceSmfCompressionListenPort?: number;
   /**
@@ -494,13 +508,13 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_smf_enabled Broker#service_smf_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_smf_enabled Broker#service_smf_enabled}
   */
   readonly serviceSmfEnabled?: boolean | cdktf.IResolvable;
   /**
   * The thresholds for the SMF connection count event. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_smf_event_connection_count_threshold Broker#service_smf_event_connection_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_smf_event_connection_count_threshold Broker#service_smf_event_connection_count_threshold}
   */
   readonly serviceSmfEventConnectionCountThreshold?: BrokerServiceSmfEventConnectionCountThreshold;
   /**
@@ -508,7 +522,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_smf_enabled will be temporarily set to false to apply the change. The default value is `55555`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_smf_plain_text_listen_port Broker#service_smf_plain_text_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_smf_plain_text_listen_port Broker#service_smf_plain_text_listen_port}
   */
   readonly serviceSmfPlainTextListenPort?: number;
   /**
@@ -516,7 +530,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_smf_enabled will be temporarily set to false to apply the change. The default value is `55556`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_smf_routing_control_listen_port Broker#service_smf_routing_control_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_smf_routing_control_listen_port Broker#service_smf_routing_control_listen_port}
   */
   readonly serviceSmfRoutingControlListenPort?: number;
   /**
@@ -524,13 +538,13 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_smf_enabled will be temporarily set to false to apply the change. The default value is `55443`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_smf_tls_listen_port Broker#service_smf_tls_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_smf_tls_listen_port Broker#service_smf_tls_listen_port}
   */
   readonly serviceSmfTlsListenPort?: number;
   /**
   * The thresholds for the incoming and outgoing TLS connection count event of the broker. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_tls_event_connection_count_threshold Broker#service_tls_event_connection_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_tls_event_connection_count_threshold Broker#service_tls_event_connection_count_threshold}
   */
   readonly serviceTlsEventConnectionCountThreshold?: BrokerServiceTlsEventConnectionCountThreshold;
   /**
@@ -538,7 +552,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_web_transport_enabled Broker#service_web_transport_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_web_transport_enabled Broker#service_web_transport_enabled}
   */
   readonly serviceWebTransportEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -546,7 +560,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_web_transport_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `8008`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_web_transport_plain_text_listen_port Broker#service_web_transport_plain_text_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_web_transport_plain_text_listen_port Broker#service_web_transport_plain_text_listen_port}
   */
   readonly serviceWebTransportPlainTextListenPort?: number;
   /**
@@ -554,7 +568,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_web_transport_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1443`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_web_transport_tls_listen_port Broker#service_web_transport_tls_listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_web_transport_tls_listen_port Broker#service_web_transport_tls_listen_port}
   */
   readonly serviceWebTransportTlsListenPort?: number;
   /**
@@ -562,7 +576,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as service_web_transport_enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#service_web_transport_web_url_suffix Broker#service_web_transport_web_url_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#service_web_transport_web_url_suffix Broker#service_web_transport_web_url_suffix}
   */
   readonly serviceWebTransportWebUrlSuffix?: string;
   /**
@@ -570,31 +584,31 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_block_version11_enabled Broker#tls_block_version11_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_block_version11_enabled Broker#tls_block_version11_enabled}
   */
   readonly tlsBlockVersion11Enabled?: boolean | cdktf.IResolvable;
   /**
-  * The colon-separated list of cipher suites used for TLS management connections (e.g. SEMP, LDAP). The value "default" implies all supported suites ordered from most secure to least secure.
+  * The colon-separated list of cipher suites used for TLS management connections (e.g. SEMP, LDAP) when using TLS 1.2 and lower. The value "default" implies all supported suites ordered from most secure to least secure.
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_cipher_suite_management_list Broker#tls_cipher_suite_management_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_cipher_suite_management_list Broker#tls_cipher_suite_management_list}
   */
   readonly tlsCipherSuiteManagementList?: string;
   /**
-  * The colon-separated list of cipher suites used for TLS data connections (e.g. client pub/sub). The value "default" implies all supported suites ordered from most secure to least secure.
+  * The colon-separated list of cipher suites used for TLS data connections (e.g. client pub/sub) when using TLS 1.2 and lower. The value "default" implies all supported suites ordered from most secure to least secure.
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_cipher_suite_msg_backbone_list Broker#tls_cipher_suite_msg_backbone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_cipher_suite_msg_backbone_list Broker#tls_cipher_suite_msg_backbone_list}
   */
   readonly tlsCipherSuiteMsgBackboneList?: string;
   /**
-  * The colon-separated list of cipher suites used for TLS secure shell connections (e.g. SSH, SFTP, SCP). The value "default" implies all supported suites ordered from most secure to least secure.
+  * The colon-separated list of cipher suites used for secure shell connections (e.g. SSH, SFTP, SCP). The value "default" implies all supported suites ordered from most secure to least secure.
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_cipher_suite_secure_shell_list Broker#tls_cipher_suite_secure_shell_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_cipher_suite_secure_shell_list Broker#tls_cipher_suite_secure_shell_list}
   */
   readonly tlsCipherSuiteSecureShellList?: string;
   /**
@@ -602,7 +616,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_crime_exploit_protection_enabled Broker#tls_crime_exploit_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_crime_exploit_protection_enabled Broker#tls_crime_exploit_protection_enabled}
   */
   readonly tlsCrimeExploitProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -610,7 +624,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_server_cert_content Broker#tls_server_cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_server_cert_content Broker#tls_server_cert_content}
   */
   readonly tlsServerCertContent?: string;
   /**
@@ -618,7 +632,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to change this attribute is "global/admin". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_server_cert_password Broker#tls_server_cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_server_cert_password Broker#tls_server_cert_password}
   */
   readonly tlsServerCertPassword?: string;
   /**
@@ -626,7 +640,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `true`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_standard_domain_certificate_authorities_enabled Broker#tls_standard_domain_certificate_authorities_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_standard_domain_certificate_authorities_enabled Broker#tls_standard_domain_certificate_authorities_enabled}
   */
   readonly tlsStandardDomainCertificateAuthoritiesEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -634,7 +648,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". The default value is `86400`. Deprecated since SEMP API version 2.45. This attribute had been deprecated. TLS session tickets are no longer supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#tls_ticket_lifetime Broker#tls_ticket_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#tls_ticket_lifetime Broker#tls_ticket_lifetime}
   */
   readonly tlsTicketLifetime?: number;
   /**
@@ -642,7 +656,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.28.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#web_manager_allow_unencrypted_wizards_enabled Broker#web_manager_allow_unencrypted_wizards_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#web_manager_allow_unencrypted_wizards_enabled Broker#web_manager_allow_unencrypted_wizards_enabled}
   */
   readonly webManagerAllowUnencryptedWizardsEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -650,7 +664,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`. Available since SEMP API version 2.24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#web_manager_redirect_http_enabled Broker#web_manager_redirect_http_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#web_manager_redirect_http_enabled Broker#web_manager_redirect_http_enabled}
   */
   readonly webManagerRedirectHttpEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -658,7 +672,7 @@ export interface BrokerConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`. Available since SEMP API version 2.24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#web_manager_redirect_http_override_tls_port Broker#web_manager_redirect_http_override_tls_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#web_manager_redirect_http_override_tls_port Broker#web_manager_redirect_http_override_tls_port}
   */
   readonly webManagerRedirectHttpOverrideTlsPort?: number;
 }
@@ -668,7 +682,7 @@ export interface BrokerGuaranteedMsgingEventCacheUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -676,7 +690,7 @@ export interface BrokerGuaranteedMsgingEventCacheUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -684,7 +698,7 @@ export interface BrokerGuaranteedMsgingEventCacheUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -692,7 +706,7 @@ export interface BrokerGuaranteedMsgingEventCacheUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -877,7 +891,7 @@ export interface BrokerGuaranteedMsgingEventDeliveredUnackedThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -885,7 +899,7 @@ export interface BrokerGuaranteedMsgingEventDeliveredUnackedThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -1012,7 +1026,7 @@ export interface BrokerGuaranteedMsgingEventDiskUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1020,7 +1034,7 @@ export interface BrokerGuaranteedMsgingEventDiskUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -1147,7 +1161,7 @@ export interface BrokerGuaranteedMsgingEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1155,7 +1169,7 @@ export interface BrokerGuaranteedMsgingEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1163,7 +1177,7 @@ export interface BrokerGuaranteedMsgingEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1171,7 +1185,7 @@ export interface BrokerGuaranteedMsgingEventEgressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -1356,7 +1370,7 @@ export interface BrokerGuaranteedMsgingEventEndpointCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1364,7 +1378,7 @@ export interface BrokerGuaranteedMsgingEventEndpointCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1372,7 +1386,7 @@ export interface BrokerGuaranteedMsgingEventEndpointCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1380,7 +1394,7 @@ export interface BrokerGuaranteedMsgingEventEndpointCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -1565,7 +1579,7 @@ export interface BrokerGuaranteedMsgingEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1573,7 +1587,7 @@ export interface BrokerGuaranteedMsgingEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -1581,7 +1595,7 @@ export interface BrokerGuaranteedMsgingEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -1589,7 +1603,7 @@ export interface BrokerGuaranteedMsgingEventIngressFlowCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -1774,7 +1788,7 @@ export interface BrokerGuaranteedMsgingEventMsgCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1782,7 +1796,7 @@ export interface BrokerGuaranteedMsgingEventMsgCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -1909,7 +1923,7 @@ export interface BrokerGuaranteedMsgingEventMsgSpoolFileCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -1917,7 +1931,7 @@ export interface BrokerGuaranteedMsgingEventMsgSpoolFileCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -2044,7 +2058,7 @@ export interface BrokerGuaranteedMsgingEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2052,7 +2066,7 @@ export interface BrokerGuaranteedMsgingEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -2060,7 +2074,7 @@ export interface BrokerGuaranteedMsgingEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -2068,7 +2082,7 @@ export interface BrokerGuaranteedMsgingEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -2253,7 +2267,7 @@ export interface BrokerGuaranteedMsgingEventTransactedSessionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2261,7 +2275,7 @@ export interface BrokerGuaranteedMsgingEventTransactedSessionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is to have no `clear_value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -2269,7 +2283,7 @@ export interface BrokerGuaranteedMsgingEventTransactedSessionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -2277,7 +2291,7 @@ export interface BrokerGuaranteedMsgingEventTransactedSessionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is to have no `set_value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -2462,7 +2476,7 @@ export interface BrokerGuaranteedMsgingEventTransactedSessionResourceCountThresh
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2470,7 +2484,7 @@ export interface BrokerGuaranteedMsgingEventTransactedSessionResourceCountThresh
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -2597,7 +2611,7 @@ export interface BrokerGuaranteedMsgingEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2605,7 +2619,7 @@ export interface BrokerGuaranteedMsgingEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -2613,7 +2627,7 @@ export interface BrokerGuaranteedMsgingEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -2621,7 +2635,7 @@ export interface BrokerGuaranteedMsgingEventTransactionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -2806,7 +2820,7 @@ export interface BrokerServiceEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -2814,7 +2828,7 @@ export interface BrokerServiceEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -2822,7 +2836,7 @@ export interface BrokerServiceEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -2830,7 +2844,7 @@ export interface BrokerServiceEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -3015,7 +3029,7 @@ export interface BrokerServiceRestEventOutgoingConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -3023,7 +3037,7 @@ export interface BrokerServiceRestEventOutgoingConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -3031,7 +3045,7 @@ export interface BrokerServiceRestEventOutgoingConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -3039,7 +3053,7 @@ export interface BrokerServiceRestEventOutgoingConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -3224,7 +3238,7 @@ export interface BrokerServiceSmfEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -3232,7 +3246,7 @@ export interface BrokerServiceSmfEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -3240,7 +3254,7 @@ export interface BrokerServiceSmfEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -3248,7 +3262,7 @@ export interface BrokerServiceSmfEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -3433,7 +3447,7 @@ export interface BrokerServiceTlsEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_percent Broker#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_percent Broker#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -3441,7 +3455,7 @@ export interface BrokerServiceTlsEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#clear_value Broker#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#clear_value Broker#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -3449,7 +3463,7 @@ export interface BrokerServiceTlsEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_percent Broker#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_percent Broker#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -3457,7 +3471,7 @@ export interface BrokerServiceTlsEventConnectionCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#set_value Broker#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#set_value Broker#set_value}
   */
   readonly setValue?: number;
 }
@@ -3638,7 +3652,7 @@ export class BrokerServiceTlsEventConnectionCountThresholdOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker solacebroker_broker}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker solacebroker_broker}
 */
 export class Broker extends cdktf.TerraformResource {
 
@@ -3654,7 +3668,7 @@ export class Broker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Broker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Broker to import
-  * @param importFromId The id of the existing Broker that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Broker that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Broker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3666,7 +3680,7 @@ export class Broker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/broker solacebroker_broker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/broker solacebroker_broker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3677,8 +3691,8 @@ export class Broker extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_broker',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3690,6 +3704,7 @@ export class Broker extends cdktf.TerraformResource {
     });
     this._authBruteForceProtectionEnabled = config.authBruteForceProtectionEnabled;
     this._authClientCertRevocationCheckMode = config.authClientCertRevocationCheckMode;
+    this._authRequiredAccessLevelGatherDiagnostics = config.authRequiredAccessLevelGatherDiagnostics;
     this._configSyncAuthenticationClientCertMaxChainDepth = config.configSyncAuthenticationClientCertMaxChainDepth;
     this._configSyncAuthenticationClientCertValidateDateEnabled = config.configSyncAuthenticationClientCertValidateDateEnabled;
     this._configSyncClientProfileTcpInitialCongestionWindow = config.configSyncClientProfileTcpInitialCongestionWindow;
@@ -3808,6 +3823,22 @@ export class Broker extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get authClientCertRevocationCheckModeInput() {
     return this._authClientCertRevocationCheckMode;
+  }
+
+  // auth_required_access_level_gather_diagnostics - computed: false, optional: true, required: false
+  private _authRequiredAccessLevelGatherDiagnostics?: string; 
+  public get authRequiredAccessLevelGatherDiagnostics() {
+    return this.getStringAttribute('auth_required_access_level_gather_diagnostics');
+  }
+  public set authRequiredAccessLevelGatherDiagnostics(value: string) {
+    this._authRequiredAccessLevelGatherDiagnostics = value;
+  }
+  public resetAuthRequiredAccessLevelGatherDiagnostics() {
+    this._authRequiredAccessLevelGatherDiagnostics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authRequiredAccessLevelGatherDiagnosticsInput() {
+    return this._authRequiredAccessLevelGatherDiagnostics;
   }
 
   // config_sync_authentication_client_cert_max_chain_depth - computed: false, optional: true, required: false
@@ -5130,6 +5161,7 @@ export class Broker extends cdktf.TerraformResource {
     return {
       auth_brute_force_protection_enabled: cdktf.booleanToTerraform(this._authBruteForceProtectionEnabled),
       auth_client_cert_revocation_check_mode: cdktf.stringToTerraform(this._authClientCertRevocationCheckMode),
+      auth_required_access_level_gather_diagnostics: cdktf.stringToTerraform(this._authRequiredAccessLevelGatherDiagnostics),
       config_sync_authentication_client_cert_max_chain_depth: cdktf.numberToTerraform(this._configSyncAuthenticationClientCertMaxChainDepth),
       config_sync_authentication_client_cert_validate_date_enabled: cdktf.booleanToTerraform(this._configSyncAuthenticationClientCertValidateDateEnabled),
       config_sync_client_profile_tcp_initial_congestion_window: cdktf.numberToTerraform(this._configSyncClientProfileTcpInitialCongestionWindow),
@@ -5225,6 +5257,12 @@ export class Broker extends cdktf.TerraformResource {
       },
       auth_client_cert_revocation_check_mode: {
         value: cdktf.stringToHclTerraform(this._authClientCertRevocationCheckMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      auth_required_access_level_gather_diagnostics: {
+        value: cdktf.stringToHclTerraform(this._authRequiredAccessLevelGatherDiagnostics),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#cache_name SolacebrokerMsgVpnDistributedCacheCluster#cache_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#cache_name SolacebrokerMsgVpnDistributedCacheCluster#cache_name}
   */
   readonly cacheName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#cluster_name SolacebrokerMsgVpnDistributedCacheCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#cluster_name SolacebrokerMsgVpnDistributedCacheCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#deliver_to_one_override_enabled SolacebrokerMsgVpnDistributedCacheCluster#deliver_to_one_override_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#deliver_to_one_override_enabled SolacebrokerMsgVpnDistributedCacheCluster#deliver_to_one_override_enabled}
   */
   readonly deliverToOneOverrideEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -36,49 +36,49 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#enabled SolacebrokerMsgVpnDistributedCacheCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#enabled SolacebrokerMsgVpnDistributedCacheCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The thresholds for the cached data incoming byte rate event, in bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_data_byte_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_data_byte_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_data_byte_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_data_byte_rate_threshold}
   */
   readonly eventDataByteRateThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventDataByteRateThreshold;
   /**
   * The thresholds for the cached data incoming message rate event, in messages per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_data_msg_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_data_msg_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_data_msg_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_data_msg_rate_threshold}
   */
   readonly eventDataMsgRateThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventDataMsgRateThreshold;
   /**
   * The thresholds for the memory usage per instance event, relative to `max_memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_max_memory_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_max_memory_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_max_memory_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_max_memory_threshold}
   */
   readonly eventMaxMemoryThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventMaxMemoryThreshold;
   /**
   * The thresholds for the topics per instance event, relative to `max_topic_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_max_topics_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_max_topics_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_max_topics_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_max_topics_threshold}
   */
   readonly eventMaxTopicsThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventMaxTopicsThreshold;
   /**
   * The thresholds for the request queue depth event, relative to `max_request_queue_depth`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_request_queue_depth_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_request_queue_depth_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_request_queue_depth_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_request_queue_depth_threshold}
   */
   readonly eventRequestQueueDepthThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventRequestQueueDepthThreshold;
   /**
   * The thresholds for the cache request message rate event, in messages per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_request_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_request_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_request_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_request_rate_threshold}
   */
   readonly eventRequestRateThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventRequestRateThreshold;
   /**
   * The thresholds for the cache response message rate event, in messages per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_response_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_response_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#event_response_rate_threshold SolacebrokerMsgVpnDistributedCacheCluster#event_response_rate_threshold}
   */
   readonly eventResponseRateThreshold?: SolacebrokerMsgVpnDistributedCacheClusterEventResponseRateThreshold;
   /**
@@ -86,7 +86,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#global_caching_enabled SolacebrokerMsgVpnDistributedCacheCluster#global_caching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#global_caching_enabled SolacebrokerMsgVpnDistributedCacheCluster#global_caching_enabled}
   */
   readonly globalCachingEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -94,7 +94,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#global_caching_heartbeat SolacebrokerMsgVpnDistributedCacheCluster#global_caching_heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#global_caching_heartbeat SolacebrokerMsgVpnDistributedCacheCluster#global_caching_heartbeat}
   */
   readonly globalCachingHeartbeat?: number;
   /**
@@ -102,7 +102,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#global_caching_topic_lifetime SolacebrokerMsgVpnDistributedCacheCluster#global_caching_topic_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#global_caching_topic_lifetime SolacebrokerMsgVpnDistributedCacheCluster#global_caching_topic_lifetime}
   */
   readonly globalCachingTopicLifetime?: number;
   /**
@@ -110,7 +110,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `2048`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_memory SolacebrokerMsgVpnDistributedCacheCluster#max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_memory SolacebrokerMsgVpnDistributedCacheCluster#max_memory}
   */
   readonly maxMemory?: number;
   /**
@@ -118,7 +118,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_msgs_per_topic SolacebrokerMsgVpnDistributedCacheCluster#max_msgs_per_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_msgs_per_topic SolacebrokerMsgVpnDistributedCacheCluster#max_msgs_per_topic}
   */
   readonly maxMsgsPerTopic?: number;
   /**
@@ -126,7 +126,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_request_queue_depth SolacebrokerMsgVpnDistributedCacheCluster#max_request_queue_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_request_queue_depth SolacebrokerMsgVpnDistributedCacheCluster#max_request_queue_depth}
   */
   readonly maxRequestQueueDepth?: number;
   /**
@@ -134,7 +134,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `2000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_topic_count SolacebrokerMsgVpnDistributedCacheCluster#max_topic_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#max_topic_count SolacebrokerMsgVpnDistributedCacheCluster#max_topic_count}
   */
   readonly maxTopicCount?: number;
   /**
@@ -142,7 +142,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#msg_lifetime SolacebrokerMsgVpnDistributedCacheCluster#msg_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#msg_lifetime SolacebrokerMsgVpnDistributedCacheCluster#msg_lifetime}
   */
   readonly msgLifetime?: number;
   /**
@@ -150,7 +150,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#msg_vpn_name SolacebrokerMsgVpnDistributedCacheCluster#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#msg_vpn_name SolacebrokerMsgVpnDistributedCacheCluster#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -158,7 +158,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterConfig extends cdktf.T
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#new_topic_advertisement_enabled SolacebrokerMsgVpnDistributedCacheCluster#new_topic_advertisement_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#new_topic_advertisement_enabled SolacebrokerMsgVpnDistributedCacheCluster#new_topic_advertisement_enabled}
   */
   readonly newTopicAdvertisementEnabled?: boolean | cdktf.IResolvable;
 }
@@ -168,7 +168,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventDataByteRateThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `187500000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -176,7 +176,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventDataByteRateThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `250000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
   */
   readonly setValue?: number;
 }
@@ -303,7 +303,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventDataMsgRateThresh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `36000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -311,7 +311,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventDataMsgRateThresh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `48000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
   */
   readonly setValue?: number;
 }
@@ -438,7 +438,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventMaxMemoryThreshol
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_percent SolacebrokerMsgVpnDistributedCacheCluster#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_percent SolacebrokerMsgVpnDistributedCacheCluster#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -446,7 +446,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventMaxMemoryThreshol
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_percent SolacebrokerMsgVpnDistributedCacheCluster#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_percent SolacebrokerMsgVpnDistributedCacheCluster#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -573,7 +573,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventMaxTopicsThreshol
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_percent SolacebrokerMsgVpnDistributedCacheCluster#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_percent SolacebrokerMsgVpnDistributedCacheCluster#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -581,7 +581,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventMaxTopicsThreshol
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_percent SolacebrokerMsgVpnDistributedCacheCluster#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_percent SolacebrokerMsgVpnDistributedCacheCluster#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -708,7 +708,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventRequestQueueDepth
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_percent SolacebrokerMsgVpnDistributedCacheCluster#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_percent SolacebrokerMsgVpnDistributedCacheCluster#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -716,7 +716,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventRequestQueueDepth
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_percent SolacebrokerMsgVpnDistributedCacheCluster#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_percent SolacebrokerMsgVpnDistributedCacheCluster#set_percent}
   */
   readonly setPercent?: number;
 }
@@ -843,7 +843,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventRequestRateThresh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -851,7 +851,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventRequestRateThresh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `25000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
   */
   readonly setValue?: number;
 }
@@ -978,7 +978,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventResponseRateThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#clear_value SolacebrokerMsgVpnDistributedCacheCluster#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -986,7 +986,7 @@ export interface SolacebrokerMsgVpnDistributedCacheClusterEventResponseRateThres
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#set_value SolacebrokerMsgVpnDistributedCacheCluster#set_value}
   */
   readonly setValue?: number;
 }
@@ -1109,7 +1109,7 @@ export class SolacebrokerMsgVpnDistributedCacheClusterEventResponseRateThreshold
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster solacebroker_msg_vpn_distributed_cache_cluster}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster solacebroker_msg_vpn_distributed_cache_cluster}
 */
 export class SolacebrokerMsgVpnDistributedCacheCluster extends cdktf.TerraformResource {
 
@@ -1125,7 +1125,7 @@ export class SolacebrokerMsgVpnDistributedCacheCluster extends cdktf.TerraformRe
   * Generates CDKTF code for importing a SolacebrokerMsgVpnDistributedCacheCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnDistributedCacheCluster to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnDistributedCacheCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnDistributedCacheCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnDistributedCacheCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1137,7 +1137,7 @@ export class SolacebrokerMsgVpnDistributedCacheCluster extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster solacebroker_msg_vpn_distributed_cache_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache_cluster solacebroker_msg_vpn_distributed_cache_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1148,8 +1148,8 @@ export class SolacebrokerMsgVpnDistributedCacheCluster extends cdktf.TerraformRe
       terraformResourceType: 'solacebroker_msg_vpn_distributed_cache_cluster',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

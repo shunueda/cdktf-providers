@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#authentication_basic_password SolacebrokerProxy#authentication_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#authentication_basic_password SolacebrokerProxy#authentication_basic_password}
   */
   readonly authenticationBasicPassword?: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#authentication_basic_username SolacebrokerProxy#authentication_basic_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#authentication_basic_username SolacebrokerProxy#authentication_basic_username}
   */
   readonly authenticationBasicUsername?: string;
   /**
@@ -34,7 +34,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#authentication_scheme SolacebrokerProxy#authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#authentication_scheme SolacebrokerProxy#authentication_scheme}
   */
   readonly authenticationScheme?: string;
   /**
@@ -42,7 +42,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#enabled SolacebrokerProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#enabled SolacebrokerProxy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -50,7 +50,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#host SolacebrokerProxy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#host SolacebrokerProxy#host}
   */
   readonly host?: string;
   /**
@@ -58,7 +58,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#port SolacebrokerProxy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#port SolacebrokerProxy#port}
   */
   readonly port?: number;
   /**
@@ -66,7 +66,7 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#proxy_name SolacebrokerProxy#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#proxy_name SolacebrokerProxy#proxy_name}
   */
   readonly proxyName: string;
   /**
@@ -80,13 +80,13 @@ export interface SolacebrokerProxyConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#proxy_type SolacebrokerProxy#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#proxy_type SolacebrokerProxy#proxy_type}
   */
   readonly proxyType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy solacebroker_proxy}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy solacebroker_proxy}
 */
 export class SolacebrokerProxy extends cdktf.TerraformResource {
 
@@ -102,7 +102,7 @@ export class SolacebrokerProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerProxy to import
-  * @param importFromId The id of the existing SolacebrokerProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -114,7 +114,7 @@ export class SolacebrokerProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_proxy solacebroker_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_proxy solacebroker_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -125,8 +125,8 @@ export class SolacebrokerProxy extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_proxy',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

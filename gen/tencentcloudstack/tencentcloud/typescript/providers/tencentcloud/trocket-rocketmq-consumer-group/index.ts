@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TrocketRocketmqConsumerGroupConfig extends cdktf.TerraformMetaA
   /**
   * Whether to enable consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#consume_enable TrocketRocketmqConsumerGroup#consume_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#consume_enable TrocketRocketmqConsumerGroup#consume_enable}
   */
   readonly consumeEnable: boolean | cdktf.IResolvable;
   /**
   * `true`: Sequential delivery, `false`: Concurrent delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#consume_message_orderly TrocketRocketmqConsumerGroup#consume_message_orderly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#consume_message_orderly TrocketRocketmqConsumerGroup#consume_message_orderly}
   */
   readonly consumeMessageOrderly: boolean | cdktf.IResolvable;
   /**
   * Name of consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#consumer_group TrocketRocketmqConsumerGroup#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#consumer_group TrocketRocketmqConsumerGroup#consumer_group}
   */
   readonly consumerGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#id TrocketRocketmqConsumerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#id TrocketRocketmqConsumerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface TrocketRocketmqConsumerGroupConfig extends cdktf.TerraformMetaA
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#instance_id TrocketRocketmqConsumerGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#instance_id TrocketRocketmqConsumerGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Max retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#max_retry_times TrocketRocketmqConsumerGroup#max_retry_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#max_retry_times TrocketRocketmqConsumerGroup#max_retry_times}
   */
   readonly maxRetryTimes: number;
   /**
   * remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#remark TrocketRocketmqConsumerGroup#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#remark TrocketRocketmqConsumerGroup#remark}
   */
   readonly remark?: string;
   /**
   * Tag of consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#tags TrocketRocketmqConsumerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#tags TrocketRocketmqConsumerGroup#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group tencentcloud_trocket_rocketmq_consumer_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group tencentcloud_trocket_rocketmq_consumer_group}
 */
 export class TrocketRocketmqConsumerGroup extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TrocketRocketmqConsumerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrocketRocketmqConsumerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrocketRocketmqConsumerGroup to import
-  * @param importFromId The id of the existing TrocketRocketmqConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrocketRocketmqConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrocketRocketmqConsumerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TrocketRocketmqConsumerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/trocket_rocketmq_consumer_group tencentcloud_trocket_rocketmq_consumer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_consumer_group tencentcloud_trocket_rocketmq_consumer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TrocketRocketmqConsumerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_trocket_rocketmq_consumer_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

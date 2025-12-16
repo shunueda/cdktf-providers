@@ -36,6 +36,7 @@ export * as apiGatewayUsagePlanAttachment from './api-gateway-usage-plan-attachm
 export * as apmApplicationConfig from './apm-application-config';
 export * as apmAssociationConfig from './apm-association-config';
 export * as apmInstance from './apm-instance';
+export * as apmPrometheusRule from './apm-prometheus-rule';
 export * as apmSampleConfig from './apm-sample-config';
 export * as asAttachment from './as-attachment';
 export * as asCompleteLifecycle from './as-complete-lifecycle';

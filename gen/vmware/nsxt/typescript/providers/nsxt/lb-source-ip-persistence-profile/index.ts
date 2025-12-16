@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbSourceIpPersistenceProfileConfig extends cdktf.TerraformMetaA
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#description LbSourceIpPersistenceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#description LbSourceIpPersistenceProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#display_name LbSourceIpPersistenceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#display_name LbSourceIpPersistenceProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * A boolean flag which reflects whether persistence entries will be synchronized to the HA peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#ha_persistence_mirroring LbSourceIpPersistenceProfile#ha_persistence_mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#ha_persistence_mirroring LbSourceIpPersistenceProfile#ha_persistence_mirroring}
   */
   readonly haPersistenceMirroring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#id LbSourceIpPersistenceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#id LbSourceIpPersistenceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,35 @@ export interface LbSourceIpPersistenceProfileConfig extends cdktf.TerraformMetaA
   /**
   * A boolean flag which reflects whether the cookie persistence is private or shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#persistence_shared LbSourceIpPersistenceProfile#persistence_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#persistence_shared LbSourceIpPersistenceProfile#persistence_shared}
   */
   readonly persistenceShared?: boolean | cdktf.IResolvable;
   /**
   * A boolean flag which reflects whether entries will be purged when the persistence table is full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#purge_when_full LbSourceIpPersistenceProfile#purge_when_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#purge_when_full LbSourceIpPersistenceProfile#purge_when_full}
   */
   readonly purgeWhenFull?: boolean | cdktf.IResolvable;
   /**
   * Persistence expiration time in seconds, counted from the time all the connections are completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#timeout LbSourceIpPersistenceProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#timeout LbSourceIpPersistenceProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#tag LbSourceIpPersistenceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#tag LbSourceIpPersistenceProfile#tag}
   */
   readonly tag?: LbSourceIpPersistenceProfileTag[] | cdktf.IResolvable;
 }
 export interface LbSourceIpPersistenceProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#scope LbSourceIpPersistenceProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#scope LbSourceIpPersistenceProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#tag LbSourceIpPersistenceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#tag LbSourceIpPersistenceProfile#tag}
   */
   readonly tag?: string;
 }
@@ -208,7 +208,7 @@ export class LbSourceIpPersistenceProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile nsxt_lb_source_ip_persistence_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile nsxt_lb_source_ip_persistence_profile}
 */
 export class LbSourceIpPersistenceProfile extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class LbSourceIpPersistenceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbSourceIpPersistenceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbSourceIpPersistenceProfile to import
-  * @param importFromId The id of the existing LbSourceIpPersistenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbSourceIpPersistenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbSourceIpPersistenceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class LbSourceIpPersistenceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_source_ip_persistence_profile nsxt_lb_source_ip_persistence_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_source_ip_persistence_profile nsxt_lb_source_ip_persistence_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class LbSourceIpPersistenceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_source_ip_persistence_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

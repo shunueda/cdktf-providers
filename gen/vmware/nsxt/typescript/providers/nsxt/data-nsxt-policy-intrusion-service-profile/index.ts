@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtPolicyIntrusionServiceProfileConfig extends cdktf.Terra
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile#description DataNsxtPolicyIntrusionServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile#description DataNsxtPolicyIntrusionServiceProfile#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile#display_name DataNsxtPolicyIntrusionServiceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile#display_name DataNsxtPolicyIntrusionServiceProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile#id DataNsxtPolicyIntrusionServiceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile#id DataNsxtPolicyIntrusionServiceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface DataNsxtPolicyIntrusionServiceProfileConfig extends cdktf.Terra
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile#context DataNsxtPolicyIntrusionServiceProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile#context DataNsxtPolicyIntrusionServiceProfile#context}
   */
   readonly context?: DataNsxtPolicyIntrusionServiceProfileContext;
 }
@@ -39,7 +39,7 @@ export interface DataNsxtPolicyIntrusionServiceProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile#project_id DataNsxtPolicyIntrusionServiceProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile#project_id DataNsxtPolicyIntrusionServiceProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -120,7 +120,7 @@ export class DataNsxtPolicyIntrusionServiceProfileContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile}
 */
 export class DataNsxtPolicyIntrusionServiceProfile extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataNsxtPolicyIntrusionServiceProfile extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataNsxtPolicyIntrusionServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyIntrusionServiceProfile to import
-  * @param importFromId The id of the existing DataNsxtPolicyIntrusionServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyIntrusionServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyIntrusionServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataNsxtPolicyIntrusionServiceProfile extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_intrusion_service_profile nsxt_policy_intrusion_service_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataNsxtPolicyIntrusionServiceProfile extends cdktf.TerraformDataSo
       terraformResourceType: 'nsxt_policy_intrusion_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

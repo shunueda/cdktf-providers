@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#account_id ServiceAccount#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#account_id ServiceAccount#account_id}
   */
   readonly accountId?: string;
   /**
   * Account Role name of the service account (one of: Admin, Member, Owner)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#account_role_name ServiceAccount#account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#account_role_name ServiceAccount#account_role_name}
   */
   readonly accountRoleName?: string;
   /**
   * Timestamp of the API Key expiration (RFC3339). If left as null, the API Key will not expire. Modify this attribute to force a key rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#api_key_expiration ServiceAccount#api_key_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#api_key_expiration ServiceAccount#api_key_expiration}
   */
   readonly apiKeyExpiration?: string;
   /**
   * A map of values that, if changed, will trigger a key rotation (but not a re-creation of the Service Account)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#api_key_keepers ServiceAccount#api_key_keepers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#api_key_keepers ServiceAccount#api_key_keepers}
   */
   readonly apiKeyKeepers?: { [key: string]: string };
   /**
   * Name of the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#name ServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#name ServiceAccount#name}
   */
   readonly name: string;
   /**
   * Provide this field to set an expiration for the currently active api key. If not provided or provided Null, the current key will be deleted. If provided, it cannot be more than 48 hours (172800 seconds) in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#old_key_expires_in_seconds ServiceAccount#old_key_expires_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#old_key_expires_in_seconds ServiceAccount#old_key_expires_in_seconds}
   */
   readonly oldKeyExpiresInSeconds?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account prefect_service_account}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account prefect_service_account}
 */
 export class ServiceAccount extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccount to import
-  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/service_account prefect_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/service_account prefect_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_service_account',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.91.0',
-        providerVersionConstraint: '2.91.0'
+        providerVersion: '2.92.0',
+        providerVersionConstraint: '2.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

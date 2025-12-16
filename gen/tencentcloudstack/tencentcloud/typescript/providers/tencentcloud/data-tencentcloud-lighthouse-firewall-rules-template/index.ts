@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_firewall_rules_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_firewall_rules_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudLighthouseFirewallRulesTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_firewall_rules_template#id DataTencentcloudLighthouseFirewallRulesTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_firewall_rules_template#id DataTencentcloudLighthouseFirewallRulesTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTencentcloudLighthouseFirewallRulesTemplateConfig extends c
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_firewall_rules_template#result_output_file DataTencentcloudLighthouseFirewallRulesTemplate#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_firewall_rules_template#result_output_file DataTencentcloudLighthouseFirewallRulesTemplate#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -123,7 +123,7 @@ export class DataTencentcloudLighthouseFirewallRulesTemplateFirewallRuleSetList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_firewall_rules_template tencentcloud_lighthouse_firewall_rules_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_firewall_rules_template tencentcloud_lighthouse_firewall_rules_template}
 */
 export class DataTencentcloudLighthouseFirewallRulesTemplate extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataTencentcloudLighthouseFirewallRulesTemplate extends cdktf.Terra
   * Generates CDKTF code for importing a DataTencentcloudLighthouseFirewallRulesTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudLighthouseFirewallRulesTemplate to import
-  * @param importFromId The id of the existing DataTencentcloudLighthouseFirewallRulesTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_firewall_rules_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudLighthouseFirewallRulesTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_firewall_rules_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudLighthouseFirewallRulesTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataTencentcloudLighthouseFirewallRulesTemplate extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_firewall_rules_template tencentcloud_lighthouse_firewall_rules_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_firewall_rules_template tencentcloud_lighthouse_firewall_rules_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataTencentcloudLighthouseFirewallRulesTemplate extends cdktf.Terra
       terraformResourceType: 'tencentcloud_lighthouse_firewall_rules_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

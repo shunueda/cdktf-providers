@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#enabled MsgVpnKafkaReceiverTopicBinding#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#enabled MsgVpnKafkaReceiverTopicBinding#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#initial_offset MsgVpnKafkaReceiverTopicBinding#initial_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#initial_offset MsgVpnKafkaReceiverTopicBinding#initial_offset}
   */
   readonly initialOffset?: string;
   /**
@@ -36,7 +36,7 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#kafka_receiver_name MsgVpnKafkaReceiverTopicBinding#kafka_receiver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#kafka_receiver_name MsgVpnKafkaReceiverTopicBinding#kafka_receiver_name}
   */
   readonly kafkaReceiverName: string;
   /**
@@ -46,7 +46,7 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#local_key MsgVpnKafkaReceiverTopicBinding#local_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#local_key MsgVpnKafkaReceiverTopicBinding#local_key}
   */
   readonly localKey?: string;
   /**
@@ -56,7 +56,7 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#local_topic MsgVpnKafkaReceiverTopicBinding#local_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#local_topic MsgVpnKafkaReceiverTopicBinding#local_topic}
   */
   readonly localTopic?: string;
   /**
@@ -64,7 +64,7 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#msg_vpn_name MsgVpnKafkaReceiverTopicBinding#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#msg_vpn_name MsgVpnKafkaReceiverTopicBinding#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -72,13 +72,13 @@ export interface MsgVpnKafkaReceiverTopicBindingConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#topic_name MsgVpnKafkaReceiverTopicBinding#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#topic_name MsgVpnKafkaReceiverTopicBinding#topic_name}
   */
   readonly topicName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding solacebroker_msg_vpn_kafka_receiver_topic_binding}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding solacebroker_msg_vpn_kafka_receiver_topic_binding}
 */
 export class MsgVpnKafkaReceiverTopicBinding extends cdktf.TerraformResource {
 
@@ -94,7 +94,7 @@ export class MsgVpnKafkaReceiverTopicBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnKafkaReceiverTopicBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnKafkaReceiverTopicBinding to import
-  * @param importFromId The id of the existing MsgVpnKafkaReceiverTopicBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnKafkaReceiverTopicBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnKafkaReceiverTopicBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -106,7 +106,7 @@ export class MsgVpnKafkaReceiverTopicBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_receiver_topic_binding solacebroker_msg_vpn_kafka_receiver_topic_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_receiver_topic_binding solacebroker_msg_vpn_kafka_receiver_topic_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -117,8 +117,8 @@ export class MsgVpnKafkaReceiverTopicBinding extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_kafka_receiver_topic_binding',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

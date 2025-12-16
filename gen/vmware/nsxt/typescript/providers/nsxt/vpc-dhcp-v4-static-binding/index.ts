@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface VpcDhcpV4StaticBindingConfig extends cdktf.TerraformMetaArgumen
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#description VpcDhcpV4StaticBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#description VpcDhcpV4StaticBinding#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#display_name VpcDhcpV4StaticBinding#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#display_name VpcDhcpV4StaticBinding#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#gateway_address VpcDhcpV4StaticBinding#gateway_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#gateway_address VpcDhcpV4StaticBinding#gateway_address}
   */
   readonly gatewayAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#host_name VpcDhcpV4StaticBinding#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#host_name VpcDhcpV4StaticBinding#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#id VpcDhcpV4StaticBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#id VpcDhcpV4StaticBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#ip_address VpcDhcpV4StaticBinding#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#ip_address VpcDhcpV4StaticBinding#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#lease_time VpcDhcpV4StaticBinding#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#lease_time VpcDhcpV4StaticBinding#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#mac_address VpcDhcpV4StaticBinding#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#mac_address VpcDhcpV4StaticBinding#mac_address}
   */
   readonly macAddress?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#nsx_id VpcDhcpV4StaticBinding#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#nsx_id VpcDhcpV4StaticBinding#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path of the parent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#parent_path VpcDhcpV4StaticBinding#parent_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#parent_path VpcDhcpV4StaticBinding#parent_path}
   */
   readonly parentPath: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#options VpcDhcpV4StaticBinding#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#options VpcDhcpV4StaticBinding#options}
   */
   readonly options?: VpcDhcpV4StaticBindingOptions;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#tag VpcDhcpV4StaticBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#tag VpcDhcpV4StaticBinding#tag}
   */
   readonly tag?: VpcDhcpV4StaticBindingTag[] | cdktf.IResolvable;
 }
 export interface VpcDhcpV4StaticBindingOptionsOption121StaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#network VpcDhcpV4StaticBinding#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#network VpcDhcpV4StaticBinding#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#next_hop VpcDhcpV4StaticBinding#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#next_hop VpcDhcpV4StaticBinding#next_hop}
   */
   readonly nextHop: string;
 }
@@ -218,7 +218,7 @@ export interface VpcDhcpV4StaticBindingOptionsOption121 {
   /**
   * static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#static_route VpcDhcpV4StaticBinding#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#static_route VpcDhcpV4StaticBinding#static_route}
   */
   readonly staticRoute: VpcDhcpV4StaticBindingOptionsOption121StaticRoute[] | cdktf.IResolvable;
 }
@@ -299,11 +299,11 @@ export class VpcDhcpV4StaticBindingOptionsOption121OutputReference extends cdktf
 }
 export interface VpcDhcpV4StaticBindingOptionsOther {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#code VpcDhcpV4StaticBinding#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#code VpcDhcpV4StaticBinding#code}
   */
   readonly code: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#values VpcDhcpV4StaticBinding#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#values VpcDhcpV4StaticBinding#values}
   */
   readonly values?: string[];
 }
@@ -447,13 +447,13 @@ export interface VpcDhcpV4StaticBindingOptions {
   /**
   * option121 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#option121 VpcDhcpV4StaticBinding#option121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#option121 VpcDhcpV4StaticBinding#option121}
   */
   readonly option121?: VpcDhcpV4StaticBindingOptionsOption121;
   /**
   * other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#other VpcDhcpV4StaticBinding#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#other VpcDhcpV4StaticBinding#other}
   */
   readonly other?: VpcDhcpV4StaticBindingOptionsOther[] | cdktf.IResolvable;
 }
@@ -566,11 +566,11 @@ export class VpcDhcpV4StaticBindingOptionsOutputReference extends cdktf.ComplexO
 }
 export interface VpcDhcpV4StaticBindingTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#scope VpcDhcpV4StaticBinding#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#scope VpcDhcpV4StaticBinding#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#tag VpcDhcpV4StaticBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#tag VpcDhcpV4StaticBinding#tag}
   */
   readonly tag?: string;
 }
@@ -715,7 +715,7 @@ export class VpcDhcpV4StaticBindingTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding nsxt_vpc_dhcp_v4_static_binding}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding nsxt_vpc_dhcp_v4_static_binding}
 */
 export class VpcDhcpV4StaticBinding extends cdktf.TerraformResource {
 
@@ -731,7 +731,7 @@ export class VpcDhcpV4StaticBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcDhcpV4StaticBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcDhcpV4StaticBinding to import
-  * @param importFromId The id of the existing VpcDhcpV4StaticBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcDhcpV4StaticBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcDhcpV4StaticBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -743,7 +743,7 @@ export class VpcDhcpV4StaticBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_dhcp_v4_static_binding nsxt_vpc_dhcp_v4_static_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_dhcp_v4_static_binding nsxt_vpc_dhcp_v4_static_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -754,8 +754,8 @@ export class VpcDhcpV4StaticBinding extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_dhcp_v4_static_binding',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

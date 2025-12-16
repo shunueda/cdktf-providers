@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LbHttpVirtualServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether access log is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#access_log_enabled LbHttpVirtualServer#access_log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#access_log_enabled LbHttpVirtualServer#access_log_enabled}
   */
   readonly accessLogEnabled?: boolean | cdktf.IResolvable;
   /**
   * The http application profile defines the application protocol characteristics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#application_profile_id LbHttpVirtualServer#application_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#application_profile_id LbHttpVirtualServer#application_profile_id}
   */
   readonly applicationProfileId: string;
   /**
   * Default pool member port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#default_pool_member_port LbHttpVirtualServer#default_pool_member_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#default_pool_member_port LbHttpVirtualServer#default_pool_member_port}
   */
   readonly defaultPoolMemberPort?: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#description LbHttpVirtualServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#description LbHttpVirtualServer#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#display_name LbHttpVirtualServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#display_name LbHttpVirtualServer#display_name}
   */
   readonly displayName?: string;
   /**
   * Whether the virtual server is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#enabled LbHttpVirtualServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#enabled LbHttpVirtualServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#id LbHttpVirtualServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#id LbHttpVirtualServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface LbHttpVirtualServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Virtual server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#ip_address LbHttpVirtualServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#ip_address LbHttpVirtualServer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * If not specified, connections are unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#max_concurrent_connections LbHttpVirtualServer#max_concurrent_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#max_concurrent_connections LbHttpVirtualServer#max_concurrent_connections}
   */
   readonly maxConcurrentConnections?: number;
   /**
   * If not specified, connection rate is unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#max_new_connection_rate LbHttpVirtualServer#max_new_connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#max_new_connection_rate LbHttpVirtualServer#max_new_connection_rate}
   */
   readonly maxNewConnectionRate?: number;
   /**
   * Persistence profile is used to allow related client connections to be sent to the same backend server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#persistence_profile_id LbHttpVirtualServer#persistence_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#persistence_profile_id LbHttpVirtualServer#persistence_profile_id}
   */
   readonly persistenceProfileId?: string;
   /**
   * Server pool for backend connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#pool_id LbHttpVirtualServer#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#pool_id LbHttpVirtualServer#pool_id}
   */
   readonly poolId?: string;
   /**
   * Virtual server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#port LbHttpVirtualServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#port LbHttpVirtualServer#port}
   */
   readonly port: string;
   /**
   * Customization of load balancing behavior using match/action rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#rule_ids LbHttpVirtualServer#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#rule_ids LbHttpVirtualServer#rule_ids}
   */
   readonly ruleIds?: string[];
   /**
   * When load balancer can not select a backend server to serve the request in default pool or pool in rules, the request would be served by sorry server pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#sorry_pool_id LbHttpVirtualServer#sorry_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#sorry_pool_id LbHttpVirtualServer#sorry_pool_id}
   */
   readonly sorryPoolId?: string;
   /**
   * client_ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#client_ssl LbHttpVirtualServer#client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#client_ssl LbHttpVirtualServer#client_ssl}
   */
   readonly clientSsl?: LbHttpVirtualServerClientSsl;
   /**
   * server_ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#server_ssl LbHttpVirtualServer#server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#server_ssl LbHttpVirtualServer#server_ssl}
   */
   readonly serverSsl?: LbHttpVirtualServerServerSsl;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#tag LbHttpVirtualServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#tag LbHttpVirtualServer#tag}
   */
   readonly tag?: LbHttpVirtualServerTag[] | cdktf.IResolvable;
 }
@@ -121,43 +121,43 @@ export interface LbHttpVirtualServerClientSsl {
   /**
   * List of CA ids for client authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#ca_ids LbHttpVirtualServer#ca_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#ca_ids LbHttpVirtualServer#ca_ids}
   */
   readonly caIds?: string[];
   /**
   * Verification depth in the server certificate chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#certificate_chain_depth LbHttpVirtualServer#certificate_chain_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#certificate_chain_depth LbHttpVirtualServer#certificate_chain_depth}
   */
   readonly certificateChainDepth?: number;
   /**
   * Whether client certificate authentication is mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#client_auth LbHttpVirtualServer#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#client_auth LbHttpVirtualServer#client_auth}
   */
   readonly clientAuth?: boolean | cdktf.IResolvable;
   /**
   * Id of client SSL profile that defines reusable properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#client_ssl_profile_id LbHttpVirtualServer#client_ssl_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#client_ssl_profile_id LbHttpVirtualServer#client_ssl_profile_id}
   */
   readonly clientSslProfileId: string;
   /**
   * List of CRL ids for client authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#crl_ids LbHttpVirtualServer#crl_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#crl_ids LbHttpVirtualServer#crl_ids}
   */
   readonly crlIds?: string[];
   /**
   * Id of certificate that will be used if the server does not host multiple hostnames on the same IP address or if the client does not support SNI extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#default_certificate_id LbHttpVirtualServer#default_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#default_certificate_id LbHttpVirtualServer#default_certificate_id}
   */
   readonly defaultCertificateId: string;
   /**
   * List of certificates to serve different hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#sni_certificate_ids LbHttpVirtualServer#sni_certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#sni_certificate_ids LbHttpVirtualServer#sni_certificate_ids}
   */
   readonly sniCertificateIds?: string[];
 }
@@ -411,37 +411,37 @@ export interface LbHttpVirtualServerServerSsl {
   /**
   * List of CA ids for server authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#ca_ids LbHttpVirtualServer#ca_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#ca_ids LbHttpVirtualServer#ca_ids}
   */
   readonly caIds?: string[];
   /**
   * Verification depth in the server certificate chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#certificate_chain_depth LbHttpVirtualServer#certificate_chain_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#certificate_chain_depth LbHttpVirtualServer#certificate_chain_depth}
   */
   readonly certificateChainDepth?: number;
   /**
   * Id of certificate that will be used if the server does not host multiple hostnames on the same IP address or if the client does not support SNI extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#client_certificate_id LbHttpVirtualServer#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#client_certificate_id LbHttpVirtualServer#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
   * List of CRL ids for server authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#crl_ids LbHttpVirtualServer#crl_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#crl_ids LbHttpVirtualServer#crl_ids}
   */
   readonly crlIds?: string[];
   /**
   * Server authentication mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#server_auth LbHttpVirtualServer#server_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#server_auth LbHttpVirtualServer#server_auth}
   */
   readonly serverAuth?: boolean | cdktf.IResolvable;
   /**
   * Id of server SSL profile that defines reusable properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#server_ssl_profile_id LbHttpVirtualServer#server_ssl_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#server_ssl_profile_id LbHttpVirtualServer#server_ssl_profile_id}
   */
   readonly serverSslProfileId: string;
 }
@@ -667,11 +667,11 @@ export class LbHttpVirtualServerServerSslOutputReference extends cdktf.ComplexOb
 }
 export interface LbHttpVirtualServerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#scope LbHttpVirtualServer#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#scope LbHttpVirtualServer#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#tag LbHttpVirtualServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#tag LbHttpVirtualServer#tag}
   */
   readonly tag?: string;
 }
@@ -816,7 +816,7 @@ export class LbHttpVirtualServerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server nsxt_lb_http_virtual_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server nsxt_lb_http_virtual_server}
 */
 export class LbHttpVirtualServer extends cdktf.TerraformResource {
 
@@ -832,7 +832,7 @@ export class LbHttpVirtualServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbHttpVirtualServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbHttpVirtualServer to import
-  * @param importFromId The id of the existing LbHttpVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbHttpVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbHttpVirtualServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class LbHttpVirtualServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_virtual_server nsxt_lb_http_virtual_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_virtual_server nsxt_lb_http_virtual_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class LbHttpVirtualServer extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_http_virtual_server',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

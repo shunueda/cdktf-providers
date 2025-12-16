@@ -1,3 +1,3 @@
 # `latitudesh_server`
 
-Refer to the Terraform Registry for docs: [`latitudesh_server`](https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/server).
+Refer to the Terraform Registry for docs: [`latitudesh_server`](https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/server).

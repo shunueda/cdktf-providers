@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyTransportZoneConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#description PolicyTransportZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#description PolicyTransportZone#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#display_name PolicyTransportZone#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#display_name PolicyTransportZone#display_name}
   */
   readonly displayName?: string;
   /**
   * ID of the enforcement point this Transport Zone belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#enforcement_point PolicyTransportZone#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#enforcement_point PolicyTransportZone#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#id PolicyTransportZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#id PolicyTransportZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,47 +35,47 @@ export interface PolicyTransportZoneConfig extends cdktf.TerraformMetaArguments 
   /**
   * Indicates whether the transport zone is default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#is_default PolicyTransportZone#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#is_default PolicyTransportZone#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#nsx_id PolicyTransportZone#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#nsx_id PolicyTransportZone#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Path to the site this Transport Zone belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#site_path PolicyTransportZone#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#site_path PolicyTransportZone#site_path}
   */
   readonly sitePath?: string;
   /**
   * Type of Transport Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#transport_type PolicyTransportZone#transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#transport_type PolicyTransportZone#transport_type}
   */
   readonly transportType: string;
   /**
   * Names of the switching uplink teaming policies that are supported by this transport zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#uplink_teaming_policy_names PolicyTransportZone#uplink_teaming_policy_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#uplink_teaming_policy_names PolicyTransportZone#uplink_teaming_policy_names}
   */
   readonly uplinkTeamingPolicyNames?: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#tag PolicyTransportZone#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#tag PolicyTransportZone#tag}
   */
   readonly tag?: PolicyTransportZoneTag[] | cdktf.IResolvable;
 }
 export interface PolicyTransportZoneTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#scope PolicyTransportZone#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#scope PolicyTransportZone#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#tag PolicyTransportZone#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#tag PolicyTransportZone#tag}
   */
   readonly tag?: string;
 }
@@ -220,7 +220,7 @@ export class PolicyTransportZoneTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone nsxt_policy_transport_zone}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone nsxt_policy_transport_zone}
 */
 export class PolicyTransportZone extends cdktf.TerraformResource {
 
@@ -236,7 +236,7 @@ export class PolicyTransportZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyTransportZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyTransportZone to import
-  * @param importFromId The id of the existing PolicyTransportZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyTransportZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyTransportZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class PolicyTransportZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transport_zone nsxt_policy_transport_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transport_zone nsxt_policy_transport_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class PolicyTransportZone extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_transport_zone',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

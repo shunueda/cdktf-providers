@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sqlserver_complete_expansion
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_complete_expansion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SqlserverCompleteExpansionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sqlserver_complete_expansion#id SqlserverCompleteExpansion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_complete_expansion#id SqlserverCompleteExpansion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SqlserverCompleteExpansionConfig extends cdktf.TerraformMetaArg
   /**
   * ID of imported target instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sqlserver_complete_expansion#instance_id SqlserverCompleteExpansion#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_complete_expansion#instance_id SqlserverCompleteExpansion#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sqlserver_complete_expansion tencentcloud_sqlserver_complete_expansion}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_complete_expansion tencentcloud_sqlserver_complete_expansion}
 */
 export class SqlserverCompleteExpansion extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class SqlserverCompleteExpansion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverCompleteExpansion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverCompleteExpansion to import
-  * @param importFromId The id of the existing SqlserverCompleteExpansion that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sqlserver_complete_expansion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverCompleteExpansion that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_complete_expansion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverCompleteExpansion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class SqlserverCompleteExpansion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/sqlserver_complete_expansion tencentcloud_sqlserver_complete_expansion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_complete_expansion tencentcloud_sqlserver_complete_expansion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class SqlserverCompleteExpansion extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_complete_expansion',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface DataTencentcloudRumPerformancePageConfig extends cdktf.Terrafor
   /**
   * The region where the data reporting takes place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#area DataTencentcloudRumPerformancePage#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#area DataTencentcloudRumPerformancePage#area}
   */
   readonly area?: string;
   /**
   * The mobile phone brand used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#brand DataTencentcloudRumPerformancePage#brand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#brand DataTencentcloudRumPerformancePage#brand}
   */
   readonly brand?: string;
   /**
   * The browser type used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#browser DataTencentcloudRumPerformancePage#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#browser DataTencentcloudRumPerformancePage#browser}
   */
   readonly browser?: string;
   /**
   * The method used for calculating the elapsed time `50`: 50th percentile, `75`: 75th percentile., `90`: 90th percentile., `95`: 95th percentile., `99`: 99th percentile., `99.5`: 99.5th percentile., `avg`: Mean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#cost_type DataTencentcloudRumPerformancePage#cost_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#cost_type DataTencentcloudRumPerformancePage#cost_type}
   */
   readonly costType?: string;
   /**
   * The device used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#device DataTencentcloudRumPerformancePage#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#device DataTencentcloudRumPerformancePage#device}
   */
   readonly device?: string;
   /**
   * End time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#end_time DataTencentcloudRumPerformancePage#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#end_time DataTencentcloudRumPerformancePage#end_time}
   */
   readonly endTime: number;
   /**
   * The browser engine used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#engine DataTencentcloudRumPerformancePage#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#engine DataTencentcloudRumPerformancePage#engine}
   */
   readonly engine?: string;
   /**
   * The code environment where the data reporting takes place.(`production`: production env, `development`: development env, `gray`: gray env, `pre`: pre env, `daily`: daily env, `local`: local env, `others`: others env).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#env DataTencentcloudRumPerformancePage#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#env DataTencentcloudRumPerformancePage#env}
   */
   readonly env?: string;
   /**
   * First Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#ext_first DataTencentcloudRumPerformancePage#ext_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#ext_first DataTencentcloudRumPerformancePage#ext_first}
   */
   readonly extFirst?: string;
   /**
   * Second Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#ext_second DataTencentcloudRumPerformancePage#ext_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#ext_second DataTencentcloudRumPerformancePage#ext_second}
   */
   readonly extSecond?: string;
   /**
   * Third Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#ext_third DataTencentcloudRumPerformancePage#ext_third}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#ext_third DataTencentcloudRumPerformancePage#ext_third}
   */
   readonly extThird?: string;
   /**
   * The source page of the data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#from DataTencentcloudRumPerformancePage#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#from DataTencentcloudRumPerformancePage#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#id DataTencentcloudRumPerformancePage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#id DataTencentcloudRumPerformancePage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,79 +89,79 @@ export interface DataTencentcloudRumPerformancePageConfig extends cdktf.Terrafor
   /**
   * Whether it is non-China region.`1`: yes; `0`: no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#is_abroad DataTencentcloudRumPerformancePage#is_abroad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#is_abroad DataTencentcloudRumPerformancePage#is_abroad}
   */
   readonly isAbroad?: string;
   /**
   * The internet service provider used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#isp DataTencentcloudRumPerformancePage#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#isp DataTencentcloudRumPerformancePage#isp}
   */
   readonly isp?: string;
   /**
   * Log level for data reporting(`1`: whitelist, `2`: normal, `4`: error, `8`: promise error, `16`: ajax request error, `32`: js resource load error, `64`: image resource load error, `128`: css resource load error, `256`: console.error, `512`: video resource load error, `1024`: request retcode error, `2048`: sdk self monitor error, `4096`: pv log, `8192`: event log).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#level DataTencentcloudRumPerformancePage#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#level DataTencentcloudRumPerformancePage#level}
   */
   readonly level?: string;
   /**
   * The network status where the data reporting takes place.`0`: noraml, `1`: week, `2`: disconnection, `3`: unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#net_status DataTencentcloudRumPerformancePage#net_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#net_status DataTencentcloudRumPerformancePage#net_status}
   */
   readonly netStatus?: string;
   /**
   * The network type used for data reporting.(`1`: Wifi, `2`: 2G, `3`: 3G, `4`: 4G, `5`: 5G, `6`: 6G, `100`: Unknown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#net_type DataTencentcloudRumPerformancePage#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#net_type DataTencentcloudRumPerformancePage#net_type}
   */
   readonly netType?: string;
   /**
   * The operating system used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#os DataTencentcloudRumPerformancePage#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#os DataTencentcloudRumPerformancePage#os}
   */
   readonly os?: string;
   /**
   * The platform where the data reporting takes place.(`1`: Android, `2`: IOS, `3`: Windows, `4`: Mac, `5`: Linux, `100`: Other).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#platform DataTencentcloudRumPerformancePage#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#platform DataTencentcloudRumPerformancePage#platform}
   */
   readonly platform?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#project_id DataTencentcloudRumPerformancePage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#project_id DataTencentcloudRumPerformancePage#project_id}
   */
   readonly projectId: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#result_output_file DataTencentcloudRumPerformancePage#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#result_output_file DataTencentcloudRumPerformancePage#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#start_time DataTencentcloudRumPerformancePage#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#start_time DataTencentcloudRumPerformancePage#start_time}
   */
   readonly startTime: number;
   /**
   * Query Data Type. `pagepv`: CostType query by pagepv, `allcount`: CostType query allcount, `falls`: CostType query by falls, `samp`: CostType query by samp, `day`: CostType query by day, `nettype`: CostType query by nettype, `performance`: CostType query by performance `version`: CostType sort by version, `platform`: CostType sort by platform, `isp`: CostType sort by isp, `region`: CostType sort by region, `device`: CostType sort by device, `browser`: CostType sort by browser, `ext1`: CostType sort by ext1, `ext2`: CostType sort by ext2, `ext3`: CostType sort by ext3, `ret`: CostType sort by ret, `status`: CostType sort by status, `from`: CostType sort by from, `url`: CostType sort by url, `env`: CostType sort by env.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#type DataTencentcloudRumPerformancePage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#type DataTencentcloudRumPerformancePage#type}
   */
   readonly type: string;
   /**
   * The SDK version used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#version_num DataTencentcloudRumPerformancePage#version_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#version_num DataTencentcloudRumPerformancePage#version_num}
   */
   readonly versionNum?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page tencentcloud_rum_performance_page}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page tencentcloud_rum_performance_page}
 */
 export class DataTencentcloudRumPerformancePage extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataTencentcloudRumPerformancePage extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudRumPerformancePage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRumPerformancePage to import
-  * @param importFromId The id of the existing DataTencentcloudRumPerformancePage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRumPerformancePage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRumPerformancePage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataTencentcloudRumPerformancePage extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/rum_performance_page tencentcloud_rum_performance_page} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/rum_performance_page tencentcloud_rum_performance_page} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataTencentcloudRumPerformancePage extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_rum_performance_page',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

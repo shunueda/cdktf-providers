@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtPolicyTransportZoneConfig extends cdktf.TerraformMetaAr
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#description DataNsxtPolicyTransportZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#description DataNsxtPolicyTransportZone#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#display_name DataNsxtPolicyTransportZone#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#display_name DataNsxtPolicyTransportZone#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#id DataNsxtPolicyTransportZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#id DataNsxtPolicyTransportZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,25 +31,25 @@ export interface DataNsxtPolicyTransportZoneConfig extends cdktf.TerraformMetaAr
   /**
   * Indicates whether the transport zone is default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#is_default DataNsxtPolicyTransportZone#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#is_default DataNsxtPolicyTransportZone#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Path of the site this Transport Zone belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#site_path DataNsxtPolicyTransportZone#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#site_path DataNsxtPolicyTransportZone#site_path}
   */
   readonly sitePath?: string;
   /**
   * Type of Transport Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#transport_type DataNsxtPolicyTransportZone#transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#transport_type DataNsxtPolicyTransportZone#transport_type}
   */
   readonly transportType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone nsxt_policy_transport_zone}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone nsxt_policy_transport_zone}
 */
 export class DataNsxtPolicyTransportZone extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataNsxtPolicyTransportZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyTransportZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyTransportZone to import
-  * @param importFromId The id of the existing DataNsxtPolicyTransportZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyTransportZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyTransportZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataNsxtPolicyTransportZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_transport_zone nsxt_policy_transport_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_transport_zone nsxt_policy_transport_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataNsxtPolicyTransportZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_transport_zone',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

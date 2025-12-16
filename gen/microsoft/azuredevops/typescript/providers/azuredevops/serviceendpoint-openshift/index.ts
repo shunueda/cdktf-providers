@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointOpenshiftConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#accept_untrusted_certs ServiceendpointOpenshift#accept_untrusted_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#accept_untrusted_certs ServiceendpointOpenshift#accept_untrusted_certs}
   */
   readonly acceptUntrustedCerts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#certificate_authority_file ServiceendpointOpenshift#certificate_authority_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#certificate_authority_file ServiceendpointOpenshift#certificate_authority_file}
   */
   readonly certificateAuthorityFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#description ServiceendpointOpenshift#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#description ServiceendpointOpenshift#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#id ServiceendpointOpenshift#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#id ServiceendpointOpenshift#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#project_id ServiceendpointOpenshift#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#project_id ServiceendpointOpenshift#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#server_url ServiceendpointOpenshift#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#server_url ServiceendpointOpenshift#server_url}
   */
   readonly serverUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#service_endpoint_name ServiceendpointOpenshift#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#service_endpoint_name ServiceendpointOpenshift#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * auth_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#auth_basic ServiceendpointOpenshift#auth_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#auth_basic ServiceendpointOpenshift#auth_basic}
   */
   readonly authBasic?: ServiceendpointOpenshiftAuthBasic;
   /**
   * auth_none block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#auth_none ServiceendpointOpenshift#auth_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#auth_none ServiceendpointOpenshift#auth_none}
   */
   readonly authNone?: ServiceendpointOpenshiftAuthNone;
   /**
   * auth_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#auth_token ServiceendpointOpenshift#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#auth_token ServiceendpointOpenshift#auth_token}
   */
   readonly authToken?: ServiceendpointOpenshiftAuthToken;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#timeouts ServiceendpointOpenshift#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#timeouts ServiceendpointOpenshift#timeouts}
   */
   readonly timeouts?: ServiceendpointOpenshiftTimeouts;
 }
 export interface ServiceendpointOpenshiftAuthBasic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#password ServiceendpointOpenshift#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#password ServiceendpointOpenshift#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#username ServiceendpointOpenshift#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#username ServiceendpointOpenshift#username}
   */
   readonly username: string;
 }
@@ -176,7 +176,7 @@ export class ServiceendpointOpenshiftAuthBasicOutputReference extends cdktf.Comp
 }
 export interface ServiceendpointOpenshiftAuthNone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#kube_config ServiceendpointOpenshift#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#kube_config ServiceendpointOpenshift#kube_config}
   */
   readonly kubeConfig?: string;
 }
@@ -260,7 +260,7 @@ export class ServiceendpointOpenshiftAuthNoneOutputReference extends cdktf.Compl
 }
 export interface ServiceendpointOpenshiftAuthToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#token ServiceendpointOpenshift#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#token ServiceendpointOpenshift#token}
   */
   readonly token: string;
 }
@@ -341,19 +341,19 @@ export class ServiceendpointOpenshiftAuthTokenOutputReference extends cdktf.Comp
 }
 export interface ServiceendpointOpenshiftTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#create ServiceendpointOpenshift#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#create ServiceendpointOpenshift#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#delete ServiceendpointOpenshift#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#delete ServiceendpointOpenshift#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#read ServiceendpointOpenshift#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#read ServiceendpointOpenshift#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#update ServiceendpointOpenshift#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#update ServiceendpointOpenshift#update}
   */
   readonly update?: string;
 }
@@ -534,7 +534,7 @@ export class ServiceendpointOpenshiftTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift azuredevops_serviceendpoint_openshift}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift azuredevops_serviceendpoint_openshift}
 */
 export class ServiceendpointOpenshift extends cdktf.TerraformResource {
 
@@ -550,7 +550,7 @@ export class ServiceendpointOpenshift extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointOpenshift resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointOpenshift to import
-  * @param importFromId The id of the existing ServiceendpointOpenshift that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointOpenshift that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointOpenshift to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -562,7 +562,7 @@ export class ServiceendpointOpenshift extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_openshift azuredevops_serviceendpoint_openshift} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_openshift azuredevops_serviceendpoint_openshift} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -573,8 +573,8 @@ export class ServiceendpointOpenshift extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_openshift',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

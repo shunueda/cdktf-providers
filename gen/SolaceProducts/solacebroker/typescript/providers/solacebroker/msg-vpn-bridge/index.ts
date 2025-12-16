@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#bridge_name MsgVpnBridge#bridge_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#bridge_name MsgVpnBridge#bridge_name}
   */
   readonly bridgeName: string;
   /**
@@ -27,7 +27,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#bridge_virtual_router MsgVpnBridge#bridge_virtual_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#bridge_virtual_router MsgVpnBridge#bridge_virtual_router}
   */
   readonly bridgeVirtualRouter: string;
   /**
@@ -35,7 +35,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#enabled MsgVpnBridge#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#enabled MsgVpnBridge#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -43,7 +43,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#max_ttl MsgVpnBridge#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#max_ttl MsgVpnBridge#max_ttl}
   */
   readonly maxTtl?: number;
   /**
@@ -51,7 +51,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#msg_vpn_name MsgVpnBridge#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#msg_vpn_name MsgVpnBridge#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -59,7 +59,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_authentication_basic_client_username MsgVpnBridge#remote_authentication_basic_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_authentication_basic_client_username MsgVpnBridge#remote_authentication_basic_client_username}
   */
   readonly remoteAuthenticationBasicClientUsername?: string;
   /**
@@ -67,7 +67,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_authentication_basic_password MsgVpnBridge#remote_authentication_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_authentication_basic_password MsgVpnBridge#remote_authentication_basic_password}
   */
   readonly remoteAuthenticationBasicPassword?: string;
   /**
@@ -75,7 +75,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_authentication_client_cert_content MsgVpnBridge#remote_authentication_client_cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_authentication_client_cert_content MsgVpnBridge#remote_authentication_client_cert_content}
   */
   readonly remoteAuthenticationClientCertContent?: string;
   /**
@@ -83,7 +83,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_authentication_client_cert_password MsgVpnBridge#remote_authentication_client_cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_authentication_client_cert_password MsgVpnBridge#remote_authentication_client_cert_password}
   */
   readonly remoteAuthenticationClientCertPassword?: string;
   /**
@@ -94,10 +94,11 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * <pre>
   * "basic" - Basic Authentication Scheme (via username and password).
   * "client-certificate" - Client Certificate Authentication Scheme (via certificate file or content).
+  * "tls-psk" - This authentication scheme is used internally by the broker. It cannot be directly configured by a user.
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_authentication_scheme MsgVpnBridge#remote_authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_authentication_scheme MsgVpnBridge#remote_authentication_scheme}
   */
   readonly remoteAuthenticationScheme?: string;
   /**
@@ -105,7 +106,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_connection_retry_count MsgVpnBridge#remote_connection_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_connection_retry_count MsgVpnBridge#remote_connection_retry_count}
   */
   readonly remoteConnectionRetryCount?: number;
   /**
@@ -113,7 +114,7 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_connection_retry_delay MsgVpnBridge#remote_connection_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_connection_retry_delay MsgVpnBridge#remote_connection_retry_delay}
   */
   readonly remoteConnectionRetryDelay?: number;
   /**
@@ -130,21 +131,21 @@ export interface MsgVpnBridgeConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#remote_deliver_to_one_priority MsgVpnBridge#remote_deliver_to_one_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#remote_deliver_to_one_priority MsgVpnBridge#remote_deliver_to_one_priority}
   */
   readonly remoteDeliverToOnePriority?: string;
   /**
-  * The colon-separated list of cipher suites supported for TLS connections to the remote Message VPN. The value "default" implies all supported suites ordered from most secure to least secure.
+  * The colon-separated list of cipher suites supported for TLS connections to the remote Message VPN when using TLS 1.2 and lower. The value "default" implies all supported suites ordered from most secure to least secure.
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#tls_cipher_suite_list MsgVpnBridge#tls_cipher_suite_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#tls_cipher_suite_list MsgVpnBridge#tls_cipher_suite_list}
   */
   readonly tlsCipherSuiteList?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge solacebroker_msg_vpn_bridge}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge solacebroker_msg_vpn_bridge}
 */
 export class MsgVpnBridge extends cdktf.TerraformResource {
 
@@ -160,7 +161,7 @@ export class MsgVpnBridge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnBridge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnBridge to import
-  * @param importFromId The id of the existing MsgVpnBridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnBridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnBridge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +173,7 @@ export class MsgVpnBridge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_bridge solacebroker_msg_vpn_bridge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_bridge solacebroker_msg_vpn_bridge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +184,8 @@ export class MsgVpnBridge extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_bridge',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

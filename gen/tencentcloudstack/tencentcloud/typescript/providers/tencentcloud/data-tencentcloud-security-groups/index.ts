@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudSecurityGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#id DataTencentcloudSecurityGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#id DataTencentcloudSecurityGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudSecurityGroupsConfig extends cdktf.TerraformMet
   /**
   * Name of the security group to be queried. Conflict with `security_group_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#name DataTencentcloudSecurityGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#name DataTencentcloudSecurityGroups#name}
   */
   readonly name?: string;
   /**
   * Project ID of the security group to be queried. Conflict with `security_group_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#project_id DataTencentcloudSecurityGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#project_id DataTencentcloudSecurityGroups#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#result_output_file DataTencentcloudSecurityGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#result_output_file DataTencentcloudSecurityGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the security group to be queried. Conflict with `name` and `project_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#security_group_id DataTencentcloudSecurityGroups#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#security_group_id DataTencentcloudSecurityGroups#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * Tags of the security group to be queried. Conflict with `security_group_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#tags DataTencentcloudSecurityGroups#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#tags DataTencentcloudSecurityGroups#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -163,7 +163,7 @@ export class DataTencentcloudSecurityGroupsSecurityGroupsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups tencentcloud_security_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups tencentcloud_security_groups}
 */
 export class DataTencentcloudSecurityGroups extends cdktf.TerraformDataSource {
 
@@ -179,7 +179,7 @@ export class DataTencentcloudSecurityGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudSecurityGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSecurityGroups to import
-  * @param importFromId The id of the existing DataTencentcloudSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSecurityGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class DataTencentcloudSecurityGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/security_groups tencentcloud_security_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/security_groups tencentcloud_security_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class DataTencentcloudSecurityGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_security_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

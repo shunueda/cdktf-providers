@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTencentcloudVpnGatewaysConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#id DataTencentcloudVpnGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#id DataTencentcloudVpnGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,37 +19,37 @@ export interface DataTencentcloudVpnGatewaysConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the VPN gateway. The length of character is limited to 1-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#name DataTencentcloudVpnGateways#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#name DataTencentcloudVpnGateways#name}
   */
   readonly name?: string;
   /**
   * Public ip address of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#public_ip_address DataTencentcloudVpnGateways#public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#public_ip_address DataTencentcloudVpnGateways#public_ip_address}
   */
   readonly publicIpAddress?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#result_output_file DataTencentcloudVpnGateways#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#result_output_file DataTencentcloudVpnGateways#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Tags of the VPN gateway to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#tags DataTencentcloudVpnGateways#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#tags DataTencentcloudVpnGateways#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#vpc_id DataTencentcloudVpnGateways#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#vpc_id DataTencentcloudVpnGateways#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Zone of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#zone DataTencentcloudVpnGateways#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#zone DataTencentcloudVpnGateways#zone}
   */
   readonly zone?: string;
 }
@@ -206,7 +206,7 @@ export class DataTencentcloudVpnGatewaysGatewayListStructList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways tencentcloud_vpn_gateways}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways tencentcloud_vpn_gateways}
 */
 export class DataTencentcloudVpnGateways extends cdktf.TerraformDataSource {
 
@@ -222,7 +222,7 @@ export class DataTencentcloudVpnGateways extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudVpnGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpnGateways to import
-  * @param importFromId The id of the existing DataTencentcloudVpnGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpnGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpnGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class DataTencentcloudVpnGateways extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/vpn_gateways tencentcloud_vpn_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpn_gateways tencentcloud_vpn_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class DataTencentcloudVpnGateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_vpn_gateways',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

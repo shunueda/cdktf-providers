@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,155 +8,155 @@ import * as cdktf from 'cdktf';
 
 export interface NsxtProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#allow_unverified_ssl NsxtProvider#allow_unverified_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#allow_unverified_ssl NsxtProvider#allow_unverified_ssl}
   */
   readonly allowUnverifiedSsl?: boolean | cdktf.IResolvable;
   /**
   * CA certificate passed as string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#ca NsxtProvider#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#ca NsxtProvider#ca}
   */
   readonly ca?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#ca_file NsxtProvider#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#ca_file NsxtProvider#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate passed as string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#client_auth_cert NsxtProvider#client_auth_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#client_auth_cert NsxtProvider#client_auth_cert}
   */
   readonly clientAuthCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#client_auth_cert_file NsxtProvider#client_auth_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#client_auth_cert_file NsxtProvider#client_auth_cert_file}
   */
   readonly clientAuthCertFile?: string;
   /**
   * Client certificate key passed as string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#client_auth_key NsxtProvider#client_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#client_auth_key NsxtProvider#client_auth_key}
   */
   readonly clientAuthKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#client_auth_key_file NsxtProvider#client_auth_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#client_auth_key_file NsxtProvider#client_auth_key_file}
   */
   readonly clientAuthKeyFile?: string;
   /**
   * Enforcement Point for NSXT Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#enforcement_point NsxtProvider#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#enforcement_point NsxtProvider#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
   * Is this a policy global manager endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#global_manager NsxtProvider#global_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#global_manager NsxtProvider#global_manager}
   */
   readonly globalManager?: boolean | cdktf.IResolvable;
   /**
   * The hostname or IP address of the NSX manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#host NsxtProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#host NsxtProvider#host}
   */
   readonly host?: string;
   /**
   * license keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#license_keys NsxtProvider#license_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#license_keys NsxtProvider#license_keys}
   */
   readonly licenseKeys?: string[];
   /**
   * Maximum number of HTTP client retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#max_retries NsxtProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#max_retries NsxtProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Avoid initializing NSX connection on startup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#on_demand_connection NsxtProvider#on_demand_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#on_demand_connection NsxtProvider#on_demand_connection}
   */
   readonly onDemandConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#password NsxtProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#password NsxtProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#remote_auth NsxtProvider#remote_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#remote_auth NsxtProvider#remote_auth}
   */
   readonly remoteAuth?: boolean | cdktf.IResolvable;
   /**
   * Maximum delay in milliseconds between retries of a request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#retry_max_delay NsxtProvider#retry_max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#retry_max_delay NsxtProvider#retry_max_delay}
   */
   readonly retryMaxDelay?: number;
   /**
   * Minimum delay in milliseconds between retries of a request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#retry_min_delay NsxtProvider#retry_min_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#retry_min_delay NsxtProvider#retry_min_delay}
   */
   readonly retryMinDelay?: number;
   /**
   * HTTP replies status codes to retry on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#retry_on_status_codes NsxtProvider#retry_on_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#retry_on_status_codes NsxtProvider#retry_on_status_codes}
   */
   readonly retryOnStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#session_auth NsxtProvider#session_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#session_auth NsxtProvider#session_auth}
   */
   readonly sessionAuth?: boolean | cdktf.IResolvable;
   /**
   * Treat partial success status as success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#tolerate_partial_success NsxtProvider#tolerate_partial_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#tolerate_partial_success NsxtProvider#tolerate_partial_success}
   */
   readonly toleratePartialSuccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#username NsxtProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#username NsxtProvider#username}
   */
   readonly username?: string;
   /**
   * URL for VMC authorization service (CSP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#vmc_auth_host NsxtProvider#vmc_auth_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#vmc_auth_host NsxtProvider#vmc_auth_host}
   */
   readonly vmcAuthHost?: string;
   /**
   * Mode for VMC authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#vmc_auth_mode NsxtProvider#vmc_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#vmc_auth_mode NsxtProvider#vmc_auth_mode}
   */
   readonly vmcAuthMode?: string;
   /**
   * ID of OAuth App associated with the VMC organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#vmc_client_id NsxtProvider#vmc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#vmc_client_id NsxtProvider#vmc_client_id}
   */
   readonly vmcClientId?: string;
   /**
   * Secret of OAuth App associated with the VMC organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#vmc_client_secret NsxtProvider#vmc_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#vmc_client_secret NsxtProvider#vmc_client_secret}
   */
   readonly vmcClientSecret?: string;
   /**
   * Long-living API token for VMC authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#vmc_token NsxtProvider#vmc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#vmc_token NsxtProvider#vmc_token}
   */
   readonly vmcToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#alias NsxtProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#alias NsxtProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs nsxt}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs nsxt}
 */
 export class NsxtProvider extends cdktf.TerraformProvider {
 
@@ -172,7 +172,7 @@ export class NsxtProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NsxtProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NsxtProvider to import
-  * @param importFromId The id of the existing NsxtProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NsxtProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NsxtProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class NsxtProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs nsxt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs nsxt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class NsxtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nsxt',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       terraformProviderSource: 'vmware/nsxt'
     });

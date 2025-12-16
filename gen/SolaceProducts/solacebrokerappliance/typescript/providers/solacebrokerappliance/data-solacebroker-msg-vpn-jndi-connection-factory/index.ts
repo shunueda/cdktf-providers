@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnJndiConnectionFactoryConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory#connection_factory_name DataSolacebrokerMsgVpnJndiConnectionFactory#connection_factory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory#connection_factory_name DataSolacebrokerMsgVpnJndiConnectionFactory#connection_factory_name}
   */
   readonly connectionFactoryName: string;
   /**
@@ -20,13 +20,13 @@ export interface DataSolacebrokerMsgVpnJndiConnectionFactoryConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory#msg_vpn_name DataSolacebrokerMsgVpnJndiConnectionFactory#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory#msg_vpn_name DataSolacebrokerMsgVpnJndiConnectionFactory#msg_vpn_name}
   */
   readonly msgVpnName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory}
 */
 export class DataSolacebrokerMsgVpnJndiConnectionFactory extends cdktf.TerraformDataSource {
 
@@ -42,7 +42,7 @@ export class DataSolacebrokerMsgVpnJndiConnectionFactory extends cdktf.Terraform
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnJndiConnectionFactory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnJndiConnectionFactory to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnJndiConnectionFactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnJndiConnectionFactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnJndiConnectionFactory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class DataSolacebrokerMsgVpnJndiConnectionFactory extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_jndi_connection_factory solacebroker_msg_vpn_jndi_connection_factory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class DataSolacebrokerMsgVpnJndiConnectionFactory extends cdktf.Terraform
       terraformResourceType: 'solacebroker_msg_vpn_jndi_connection_factory',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ReportNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The kind of change sent ReportNotification. One of percentage/dollars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#change ReportNotification#change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#change ReportNotification#change}
   */
   readonly change: string;
   /**
   * Token for the cost report to be used in the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#cost_report_token ReportNotification#cost_report_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#cost_report_token ReportNotification#cost_report_token}
   */
   readonly costReportToken: string;
   /**
   * The frequency at which the ReportNotification is sent. One of daily/weekly/monthly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#frequency ReportNotification#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#frequency ReportNotification#frequency}
   */
   readonly frequency: string;
   /**
   * Title of the report notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#title ReportNotification#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#title ReportNotification#title}
   */
   readonly title: string;
   /**
   * Tokens for the users to be notified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#user_tokens ReportNotification#user_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#user_tokens ReportNotification#user_tokens}
   */
   readonly userTokens: string[];
   /**
   * Token for the workspace the report notification is added toe notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#workspace_token ReportNotification#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#workspace_token ReportNotification#workspace_token}
   */
   readonly workspaceToken?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification vantage_report_notification}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification vantage_report_notification}
 */
 export class ReportNotification extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ReportNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReportNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReportNotification to import
-  * @param importFromId The id of the existing ReportNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReportNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReportNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ReportNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/report_notification vantage_report_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/report_notification vantage_report_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ReportNotification extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_report_notification',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

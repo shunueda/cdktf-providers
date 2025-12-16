@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicySharedResourceConfig extends cdktf.TerraformMetaArguments
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#description PolicySharedResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#description PolicySharedResource#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#display_name PolicySharedResource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#display_name PolicySharedResource#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#id PolicySharedResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#id PolicySharedResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface PolicySharedResourceConfig extends cdktf.TerraformMetaArguments
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#nsx_id PolicySharedResource#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#nsx_id PolicySharedResource#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Share ID to associate the resource to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#share_path PolicySharedResource#share_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#share_path PolicySharedResource#share_path}
   */
   readonly sharePath: string;
   /**
   * resource_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#resource_object PolicySharedResource#resource_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#resource_object PolicySharedResource#resource_object}
   */
   readonly resourceObject: PolicySharedResourceResourceObject[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#tag PolicySharedResource#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#tag PolicySharedResource#tag}
   */
   readonly tag?: PolicySharedResourceTag[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface PolicySharedResourceResourceObject {
   /**
   * Denotes if the children of the shared path are also shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#include_children PolicySharedResource#include_children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#include_children PolicySharedResource#include_children}
   */
   readonly includeChildren?: boolean | cdktf.IResolvable;
   /**
   * Path of the resource to be shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#resource_path PolicySharedResource#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#resource_path PolicySharedResource#resource_path}
   */
   readonly resourcePath: string;
 }
@@ -203,11 +203,11 @@ export class PolicySharedResourceResourceObjectList extends cdktf.ComplexList {
 }
 export interface PolicySharedResourceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#scope PolicySharedResource#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#scope PolicySharedResource#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#tag PolicySharedResource#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#tag PolicySharedResource#tag}
   */
   readonly tag?: string;
 }
@@ -352,7 +352,7 @@ export class PolicySharedResourceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource nsxt_policy_shared_resource}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource nsxt_policy_shared_resource}
 */
 export class PolicySharedResource extends cdktf.TerraformResource {
 
@@ -368,7 +368,7 @@ export class PolicySharedResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicySharedResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicySharedResource to import
-  * @param importFromId The id of the existing PolicySharedResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicySharedResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicySharedResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class PolicySharedResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_shared_resource nsxt_policy_shared_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_shared_resource nsxt_policy_shared_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class PolicySharedResource extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_shared_resource',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

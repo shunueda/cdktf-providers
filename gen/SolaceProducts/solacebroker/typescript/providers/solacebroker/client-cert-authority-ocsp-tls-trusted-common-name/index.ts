@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface ClientCertAuthorityOcspTlsTrustedCommonNameConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name#cert_authority_name ClientCertAuthorityOcspTlsTrustedCommonName#cert_authority_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name#cert_authority_name ClientCertAuthorityOcspTlsTrustedCommonName#cert_authority_name}
   */
   readonly certAuthorityName: string;
   /**
@@ -20,13 +20,13 @@ export interface ClientCertAuthorityOcspTlsTrustedCommonNameConfig extends cdktf
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name#ocsp_tls_trusted_common_name ClientCertAuthorityOcspTlsTrustedCommonName#ocsp_tls_trusted_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name#ocsp_tls_trusted_common_name ClientCertAuthorityOcspTlsTrustedCommonName#ocsp_tls_trusted_common_name}
   */
   readonly ocspTlsTrustedCommonName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name solacebroker_client_cert_authority_ocsp_tls_trusted_common_name}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name solacebroker_client_cert_authority_ocsp_tls_trusted_common_name}
 */
 export class ClientCertAuthorityOcspTlsTrustedCommonName extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ClientCertAuthorityOcspTlsTrustedCommonName extends cdktf.Terraform
   * Generates CDKTF code for importing a ClientCertAuthorityOcspTlsTrustedCommonName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClientCertAuthorityOcspTlsTrustedCommonName to import
-  * @param importFromId The id of the existing ClientCertAuthorityOcspTlsTrustedCommonName that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClientCertAuthorityOcspTlsTrustedCommonName that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClientCertAuthorityOcspTlsTrustedCommonName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ClientCertAuthorityOcspTlsTrustedCommonName extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name solacebroker_client_cert_authority_ocsp_tls_trusted_common_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/client_cert_authority_ocsp_tls_trusted_common_name solacebroker_client_cert_authority_ocsp_tls_trusted_common_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class ClientCertAuthorityOcspTlsTrustedCommonName extends cdktf.Terraform
       terraformResourceType: 'solacebroker_client_cert_authority_ocsp_tls_trusted_common_name',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

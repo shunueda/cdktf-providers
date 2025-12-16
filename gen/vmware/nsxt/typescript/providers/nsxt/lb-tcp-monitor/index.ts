@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbTcpMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#description LbTcpMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#description LbTcpMonitor#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#display_name LbTcpMonitor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#display_name LbTcpMonitor#display_name}
   */
   readonly displayName?: string;
   /**
   * Number of consecutive checks that must fail before marking it down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#fall_count LbTcpMonitor#fall_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#fall_count LbTcpMonitor#fall_count}
   */
   readonly fallCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#id LbTcpMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#id LbTcpMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,53 @@ export interface LbTcpMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The frequency at which the system issues the monitor check (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#interval LbTcpMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#interval LbTcpMonitor#interval}
   */
   readonly interval?: number;
   /**
   * If the monitor port is specified, it would override pool member port setting for healthcheck. A port range is not supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#monitor_port LbTcpMonitor#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#monitor_port LbTcpMonitor#monitor_port}
   */
   readonly monitorPort?: string;
   /**
   * Expected data, if specified, can be anywhere in the response and it has to be a string, regular expressions are not supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#receive LbTcpMonitor#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#receive LbTcpMonitor#receive}
   */
   readonly receive?: string;
   /**
   * Number of consecutive checks that must pass before marking it up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#rise_count LbTcpMonitor#rise_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#rise_count LbTcpMonitor#rise_count}
   */
   readonly riseCount?: number;
   /**
   * If both send and receive are not specified, then just a TCP connection is established (3-way handshake) to validate server is healthy, no data is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#send LbTcpMonitor#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#send LbTcpMonitor#send}
   */
   readonly send?: string;
   /**
   * Number of seconds the target has to respond to the monitor request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#timeout LbTcpMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#timeout LbTcpMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#tag LbTcpMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#tag LbTcpMonitor#tag}
   */
   readonly tag?: LbTcpMonitorTag[] | cdktf.IResolvable;
 }
 export interface LbTcpMonitorTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#scope LbTcpMonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#scope LbTcpMonitor#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#tag LbTcpMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#tag LbTcpMonitor#tag}
   */
   readonly tag?: string;
 }
@@ -226,7 +226,7 @@ export class LbTcpMonitorTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor nsxt_lb_tcp_monitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor nsxt_lb_tcp_monitor}
 */
 export class LbTcpMonitor extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class LbTcpMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbTcpMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbTcpMonitor to import
-  * @param importFromId The id of the existing LbTcpMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbTcpMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbTcpMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class LbTcpMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_tcp_monitor nsxt_lb_tcp_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_tcp_monitor nsxt_lb_tcp_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class LbTcpMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_tcp_monitor',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

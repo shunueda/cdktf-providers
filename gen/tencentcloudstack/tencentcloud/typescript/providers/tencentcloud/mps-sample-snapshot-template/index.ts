@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MpsSampleSnapshotTemplateConfig extends cdktf.TerraformMetaArgu
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#comment MpsSampleSnapshotTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#comment MpsSampleSnapshotTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Filling type, when the aspect ratio of the video stream configuration is inconsistent with the aspect ratio of the original video, the processing method for transcoding is filling. Optional filling type:stretch: Stretching, stretching each frame to fill the entire screen, which may cause the transcoded video to be squashed or stretched.black: Leave black, keep the video aspect ratio unchanged, and fill the rest of the edge with black.white: Leave blank, keep the aspect ratio of the video, and fill the rest of the edge with white.gauss: Gaussian blur, keep the aspect ratio of the video unchanged, and use Gaussian blur for the rest of the edge.Default value: black.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#fill_type MpsSampleSnapshotTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#fill_type MpsSampleSnapshotTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Image format, the value can be jpg, png, webp. Default is jpg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#format MpsSampleSnapshotTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#format MpsSampleSnapshotTemplate#format}
   */
   readonly format?: string;
   /**
   * The maximum value of the snapshot height (or short side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#height MpsSampleSnapshotTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#height MpsSampleSnapshotTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#id MpsSampleSnapshotTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#id MpsSampleSnapshotTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface MpsSampleSnapshotTemplateConfig extends cdktf.TerraformMetaArgu
   /**
   * Sample snapshot template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#name MpsSampleSnapshotTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#name MpsSampleSnapshotTemplate#name}
   */
   readonly name?: string;
   /**
   * Adaptive resolution, optional value:open: At this time, Width represents the long side of the video, Height represents the short side of the video.close: At this point, Width represents the width of the video, and Height represents the height of the video.Default value: open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#resolution_adaptive MpsSampleSnapshotTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#resolution_adaptive MpsSampleSnapshotTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * Sampling interval.When SampleType is Percent, specify the percentage of the sampling interval.When SampleType is Time, specify the sampling interval time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#sample_interval MpsSampleSnapshotTemplate#sample_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#sample_interval MpsSampleSnapshotTemplate#sample_interval}
   */
   readonly sampleInterval: number;
   /**
   * Sampling snapshot type, optional value:Percent/Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#sample_type MpsSampleSnapshotTemplate#sample_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#sample_type MpsSampleSnapshotTemplate#sample_type}
   */
   readonly sampleType: string;
   /**
   * The maximum value of the snapshot width (or long side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#width MpsSampleSnapshotTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#width MpsSampleSnapshotTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template tencentcloud_mps_sample_snapshot_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template tencentcloud_mps_sample_snapshot_template}
 */
 export class MpsSampleSnapshotTemplate extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class MpsSampleSnapshotTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsSampleSnapshotTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsSampleSnapshotTemplate to import
-  * @param importFromId The id of the existing MpsSampleSnapshotTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsSampleSnapshotTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsSampleSnapshotTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class MpsSampleSnapshotTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_sample_snapshot_template tencentcloud_mps_sample_snapshot_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_sample_snapshot_template tencentcloud_mps_sample_snapshot_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class MpsSampleSnapshotTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_sample_snapshot_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

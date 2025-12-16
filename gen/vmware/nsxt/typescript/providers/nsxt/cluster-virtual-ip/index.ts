@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClusterVirtualIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * On enable it ignores duplicate address detection and DNS lookup validation check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip#force ClusterVirtualIp#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip#force ClusterVirtualIp#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip#id ClusterVirtualIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip#id ClusterVirtualIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ClusterVirtualIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Virtual IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip#ip_address ClusterVirtualIp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip#ip_address ClusterVirtualIp#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Virtual IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip#ipv6_address ClusterVirtualIp#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip#ipv6_address ClusterVirtualIp#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip nsxt_cluster_virtual_ip}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip nsxt_cluster_virtual_ip}
 */
 export class ClusterVirtualIp extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ClusterVirtualIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterVirtualIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterVirtualIp to import
-  * @param importFromId The id of the existing ClusterVirtualIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterVirtualIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterVirtualIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ClusterVirtualIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/cluster_virtual_ip nsxt_cluster_virtual_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/cluster_virtual_ip nsxt_cluster_virtual_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ClusterVirtualIp extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_cluster_virtual_ip',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

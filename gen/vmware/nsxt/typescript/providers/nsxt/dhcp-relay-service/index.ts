@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DhcpRelayServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#description DhcpRelayService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#description DhcpRelayService#description}
   */
   readonly description?: string;
   /**
   * DHCP relay profile referenced by the dhcp relay service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#dhcp_relay_profile_id DhcpRelayService#dhcp_relay_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#dhcp_relay_profile_id DhcpRelayService#dhcp_relay_profile_id}
   */
   readonly dhcpRelayProfileId: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#display_name DhcpRelayService#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#display_name DhcpRelayService#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#id DhcpRelayService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#id DhcpRelayService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,17 +35,17 @@ export interface DhcpRelayServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#tag DhcpRelayService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#tag DhcpRelayService#tag}
   */
   readonly tag?: DhcpRelayServiceTag[] | cdktf.IResolvable;
 }
 export interface DhcpRelayServiceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#scope DhcpRelayService#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#scope DhcpRelayService#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#tag DhcpRelayService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#tag DhcpRelayService#tag}
   */
   readonly tag?: string;
 }
@@ -190,7 +190,7 @@ export class DhcpRelayServiceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service nsxt_dhcp_relay_service}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service nsxt_dhcp_relay_service}
 */
 export class DhcpRelayService extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class DhcpRelayService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpRelayService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpRelayService to import
-  * @param importFromId The id of the existing DhcpRelayService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpRelayService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpRelayService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class DhcpRelayService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_relay_service nsxt_dhcp_relay_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_relay_service nsxt_dhcp_relay_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class DhcpRelayService extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_dhcp_relay_service',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

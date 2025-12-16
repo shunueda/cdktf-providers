@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#authentication_basic_password MsgVpnProxy#authentication_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#authentication_basic_password MsgVpnProxy#authentication_basic_password}
   */
   readonly authenticationBasicPassword?: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#authentication_basic_username MsgVpnProxy#authentication_basic_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#authentication_basic_username MsgVpnProxy#authentication_basic_username}
   */
   readonly authenticationBasicUsername?: string;
   /**
@@ -34,7 +34,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#authentication_scheme MsgVpnProxy#authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#authentication_scheme MsgVpnProxy#authentication_scheme}
   */
   readonly authenticationScheme?: string;
   /**
@@ -42,7 +42,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#enabled MsgVpnProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#enabled MsgVpnProxy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -50,7 +50,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#host MsgVpnProxy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#host MsgVpnProxy#host}
   */
   readonly host?: string;
   /**
@@ -58,7 +58,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#msg_vpn_name MsgVpnProxy#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#msg_vpn_name MsgVpnProxy#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -66,7 +66,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#port MsgVpnProxy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#port MsgVpnProxy#port}
   */
   readonly port?: number;
   /**
@@ -74,7 +74,7 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#proxy_name MsgVpnProxy#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#proxy_name MsgVpnProxy#proxy_name}
   */
   readonly proxyName: string;
   /**
@@ -88,13 +88,13 @@ export interface MsgVpnProxyConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#proxy_type MsgVpnProxy#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#proxy_type MsgVpnProxy#proxy_type}
   */
   readonly proxyType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy solacebroker_msg_vpn_proxy}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy solacebroker_msg_vpn_proxy}
 */
 export class MsgVpnProxy extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class MsgVpnProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnProxy to import
-  * @param importFromId The id of the existing MsgVpnProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class MsgVpnProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_proxy solacebroker_msg_vpn_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_proxy solacebroker_msg_vpn_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class MsgVpnProxy extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_proxy',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

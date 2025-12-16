@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ArgocdProviderConfig {
   /**
   * ArgoCD authentication token, takes precedence over `username`/`password`. Can be set through the `ARGOCD_AUTH_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#auth_token ArgocdProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#auth_token ArgocdProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * Additional root CA certificates file to add to the client TLS connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#cert_file ArgocdProvider#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#cert_file ArgocdProvider#cert_file}
   */
   readonly certFile?: string;
   /**
   * Client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#client_cert_file ArgocdProvider#client_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#client_cert_file ArgocdProvider#client_cert_file}
   */
   readonly clientCertFile?: string;
   /**
   * Client certificate key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#client_cert_key ArgocdProvider#client_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#client_cert_key ArgocdProvider#client_cert_key}
   */
   readonly clientCertKey?: string;
   /**
   * Override the default config path of `$HOME/.config/argocd/config`. Only relevant when `use_local_config`. Can be set through the `ARGOCD_CONFIG_PATH` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#config_path ArgocdProvider#config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#config_path ArgocdProvider#config_path}
   */
   readonly configPath?: string;
   /**
   * Context to choose when using a local ArgoCD config file. Only relevant when `use_local_config`. Can be set through `ARGOCD_CONTEXT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#context ArgocdProvider#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#context ArgocdProvider#context}
   */
   readonly context?: string;
   /**
@@ -53,91 +53,91 @@ export interface ArgocdProviderConfig {
   * 
   *   To debug this, you will need to login via the ArgoCD CLI using `argocd login --core` and then running an operation. E.g. `argocd app list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#core ArgocdProvider#core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#core ArgocdProvider#core}
   */
   readonly core?: boolean | cdktf.IResolvable;
   /**
   * Whether to use gRPC web proxy client. Useful if Argo CD server is behind proxy which does not support HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#grpc_web ArgocdProvider#grpc_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#grpc_web ArgocdProvider#grpc_web}
   */
   readonly grpcWeb?: boolean | cdktf.IResolvable;
   /**
   * Use the gRPC web proxy client and set the web root, e.g. `argo-cd`. Useful if the Argo CD server is behind a proxy at a non-root path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#grpc_web_root_path ArgocdProvider#grpc_web_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#grpc_web_root_path ArgocdProvider#grpc_web_root_path}
   */
   readonly grpcWebRootPath?: string;
   /**
   * Additional headers to add to each request to the ArgoCD server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#headers ArgocdProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#headers ArgocdProvider#headers}
   */
   readonly headers?: string[];
   /**
   * Whether to skip TLS server certificate. Can be set through the `ARGOCD_INSECURE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#insecure ArgocdProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#insecure ArgocdProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Authentication password. Can be set through the `ARGOCD_AUTH_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#password ArgocdProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#password ArgocdProvider#password}
   */
   readonly password?: string;
   /**
   * Whether to initiate an unencrypted connection to ArgoCD server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#plain_text ArgocdProvider#plain_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#plain_text ArgocdProvider#plain_text}
   */
   readonly plainText?: boolean | cdktf.IResolvable;
   /**
   * Connect to a random argocd-server port using port forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#port_forward ArgocdProvider#port_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#port_forward ArgocdProvider#port_forward}
   */
   readonly portForward?: boolean | cdktf.IResolvable;
   /**
   * Namespace name which should be used for port forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#port_forward_with_namespace ArgocdProvider#port_forward_with_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#port_forward_with_namespace ArgocdProvider#port_forward_with_namespace}
   */
   readonly portForwardWithNamespace?: string;
   /**
   * ArgoCD server address with port. Can be set through the `ARGOCD_SERVER` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#server_addr ArgocdProvider#server_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#server_addr ArgocdProvider#server_addr}
   */
   readonly serverAddr?: string;
   /**
   * Use the authentication settings found in the local config file. Useful when you have previously logged in using SSO. Conflicts with `auth_token`, `username` and `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#use_local_config ArgocdProvider#use_local_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#use_local_config ArgocdProvider#use_local_config}
   */
   readonly useLocalConfig?: boolean | cdktf.IResolvable;
   /**
   * User-Agent request header override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#user_agent ArgocdProvider#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#user_agent ArgocdProvider#user_agent}
   */
   readonly userAgent?: string;
   /**
   * Authentication username. Can be set through the `ARGOCD_AUTH_USERNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#username ArgocdProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#username ArgocdProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#alias ArgocdProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#alias ArgocdProvider#alias}
   */
   readonly alias?: string;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#kubernetes ArgocdProvider#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#kubernetes ArgocdProvider#kubernetes}
   */
   readonly kubernetes?: ArgocdProviderKubernetes;
 }
@@ -145,25 +145,25 @@ export interface ArgocdProviderKubernetesExec {
   /**
   * API version to use when decoding the ExecCredentials resource, e.g. `client.authentication.k8s.io/v1beta1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#api_version ArgocdProvider#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#api_version ArgocdProvider#api_version}
   */
   readonly apiVersion: string;
   /**
   * Map of environment variables to set when executing the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#args ArgocdProvider#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#args ArgocdProvider#args}
   */
   readonly args?: string[];
   /**
   * Command to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#command ArgocdProvider#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#command ArgocdProvider#command}
   */
   readonly command: string;
   /**
   * List of arguments to pass when executing the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#env ArgocdProvider#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#env ArgocdProvider#env}
   */
   readonly env?: { [key: string]: string };
 }
@@ -222,69 +222,69 @@ export interface ArgocdProviderKubernetes {
   /**
   * PEM-encoded client certificate for TLS authentication. Can be sourced from `KUBE_CLIENT_CERT_DATA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#client_certificate ArgocdProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#client_certificate ArgocdProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * PEM-encoded client certificate key for TLS authentication. Can be sourced from `KUBE_CLIENT_KEY_DATA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#client_key ArgocdProvider#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#client_key ArgocdProvider#client_key}
   */
   readonly clientKey?: string;
   /**
   * PEM-encoded root certificates bundle for TLS authentication. Can be sourced from `KUBE_CLUSTER_CA_CERT_DATA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#cluster_ca_certificate ArgocdProvider#cluster_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#cluster_ca_certificate ArgocdProvider#cluster_ca_certificate}
   */
   readonly clusterCaCertificate?: string;
   /**
   * Context to choose from the config file. Can be sourced from `KUBE_CTX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#config_context ArgocdProvider#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#config_context ArgocdProvider#config_context}
   */
   readonly configContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#config_context_auth_info ArgocdProvider#config_context_auth_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#config_context_auth_info ArgocdProvider#config_context_auth_info}
   */
   readonly configContextAuthInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#config_context_cluster ArgocdProvider#config_context_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#config_context_cluster ArgocdProvider#config_context_cluster}
   */
   readonly configContextCluster?: string;
   /**
   * The hostname (in form of URI) of the Kubernetes API. Can be sourced from `KUBE_HOST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#host ArgocdProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#host ArgocdProvider#host}
   */
   readonly host?: string;
   /**
   * Whether server should be accessed without verifying the TLS certificate. Can be sourced from `KUBE_INSECURE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#insecure ArgocdProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#insecure ArgocdProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The password to use for HTTP basic authentication when accessing the Kubernetes API. Can be sourced from `KUBE_PASSWORD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#password ArgocdProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#password ArgocdProvider#password}
   */
   readonly password?: string;
   /**
   * Token to authenticate an service account. Can be sourced from `KUBE_TOKEN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#token ArgocdProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#token ArgocdProvider#token}
   */
   readonly token?: string;
   /**
   * The username to use for HTTP basic authentication when accessing the Kubernetes API. Can be sourced from `KUBE_USER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#username ArgocdProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#username ArgocdProvider#username}
   */
   readonly username?: string;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#exec ArgocdProvider#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#exec ArgocdProvider#exec}
   */
   readonly exec?: ArgocdProviderKubernetesExec;
 }
@@ -397,7 +397,7 @@ export function argocdProviderKubernetesToHclTerraform(struct?: ArgocdProviderKu
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs argocd}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs argocd}
 */
 export class ArgocdProvider extends cdktf.TerraformProvider {
 
@@ -413,7 +413,7 @@ export class ArgocdProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ArgocdProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArgocdProvider to import
-  * @param importFromId The id of the existing ArgocdProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArgocdProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArgocdProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -425,7 +425,7 @@ export class ArgocdProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs argocd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs argocd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -436,8 +436,8 @@ export class ArgocdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'argocd',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.3',
-        providerVersionConstraint: '7.12.3'
+        providerVersion: '7.12.4',
+        providerVersionConstraint: '7.12.4'
       },
       terraformProviderSource: 'argoproj-labs/argocd'
     });

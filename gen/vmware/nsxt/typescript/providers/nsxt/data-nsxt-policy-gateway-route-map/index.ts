@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataNsxtPolicyGatewayRouteMapConfig extends cdktf.TerraformMeta
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map#description DataNsxtPolicyGatewayRouteMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map#description DataNsxtPolicyGatewayRouteMap#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map#display_name DataNsxtPolicyGatewayRouteMap#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map#display_name DataNsxtPolicyGatewayRouteMap#display_name}
   */
   readonly displayName: string;
   /**
   * Gateway path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map#gateway_path DataNsxtPolicyGatewayRouteMap#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map#gateway_path DataNsxtPolicyGatewayRouteMap#gateway_path}
   */
   readonly gatewayPath?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map#id DataNsxtPolicyGatewayRouteMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map#id DataNsxtPolicyGatewayRouteMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ export interface DataNsxtPolicyGatewayRouteMapConfig extends cdktf.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map nsxt_policy_gateway_route_map}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map nsxt_policy_gateway_route_map}
 */
 export class DataNsxtPolicyGatewayRouteMap extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataNsxtPolicyGatewayRouteMap extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyGatewayRouteMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyGatewayRouteMap to import
-  * @param importFromId The id of the existing DataNsxtPolicyGatewayRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyGatewayRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyGatewayRouteMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataNsxtPolicyGatewayRouteMap extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_route_map nsxt_policy_gateway_route_map} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_route_map nsxt_policy_gateway_route_map} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataNsxtPolicyGatewayRouteMap extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_gateway_route_map',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

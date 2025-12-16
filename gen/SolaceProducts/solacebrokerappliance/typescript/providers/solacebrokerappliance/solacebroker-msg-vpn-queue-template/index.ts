@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,7 +18,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#access_type SolacebrokerMsgVpnQueueTemplate#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#access_type SolacebrokerMsgVpnQueueTemplate#access_type}
   */
   readonly accessType?: string;
   /**
@@ -26,7 +26,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#consumer_ack_propagation_enabled SolacebrokerMsgVpnQueueTemplate#consumer_ack_propagation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#consumer_ack_propagation_enabled SolacebrokerMsgVpnQueueTemplate#consumer_ack_propagation_enabled}
   */
   readonly consumerAckPropagationEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -34,7 +34,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"#DEAD_MSG_QUEUE"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#dead_msg_queue SolacebrokerMsgVpnQueueTemplate#dead_msg_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#dead_msg_queue SolacebrokerMsgVpnQueueTemplate#dead_msg_queue}
   */
   readonly deadMsgQueue?: string;
   /**
@@ -42,7 +42,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#delivery_delay SolacebrokerMsgVpnQueueTemplate#delivery_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#delivery_delay SolacebrokerMsgVpnQueueTemplate#delivery_delay}
   */
   readonly deliveryDelay?: number;
   /**
@@ -56,25 +56,25 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#durability_override SolacebrokerMsgVpnQueueTemplate#durability_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#durability_override SolacebrokerMsgVpnQueueTemplate#durability_override}
   */
   readonly durabilityOverride?: string;
   /**
   * The thresholds for the Queue consumer flows event, relative to `max_bind_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#event_bind_count_threshold SolacebrokerMsgVpnQueueTemplate#event_bind_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#event_bind_count_threshold SolacebrokerMsgVpnQueueTemplate#event_bind_count_threshold}
   */
   readonly eventBindCountThreshold?: SolacebrokerMsgVpnQueueTemplateEventBindCountThreshold;
   /**
   * The thresholds for the message spool usage event of the Queue, relative to `max_msg_spool_usage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#event_msg_spool_usage_threshold SolacebrokerMsgVpnQueueTemplate#event_msg_spool_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#event_msg_spool_usage_threshold SolacebrokerMsgVpnQueueTemplate#event_msg_spool_usage_threshold}
   */
   readonly eventMsgSpoolUsageThreshold?: SolacebrokerMsgVpnQueueTemplateEventMsgSpoolUsageThreshold;
   /**
   * The thresholds for the maximum allowed number of any priority messages queued in the Queue event, relative to `reject_low_priority_msg_limit`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#event_reject_low_priority_msg_limit_threshold SolacebrokerMsgVpnQueueTemplate#event_reject_low_priority_msg_limit_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#event_reject_low_priority_msg_limit_threshold SolacebrokerMsgVpnQueueTemplate#event_reject_low_priority_msg_limit_threshold}
   */
   readonly eventRejectLowPriorityMsgLimitThreshold?: SolacebrokerMsgVpnQueueTemplateEventRejectLowPriorityMsgLimitThreshold;
   /**
@@ -82,7 +82,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#max_bind_count SolacebrokerMsgVpnQueueTemplate#max_bind_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#max_bind_count SolacebrokerMsgVpnQueueTemplate#max_bind_count}
   */
   readonly maxBindCount?: number;
   /**
@@ -90,7 +90,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#max_delivered_unacked_msgs_per_flow SolacebrokerMsgVpnQueueTemplate#max_delivered_unacked_msgs_per_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#max_delivered_unacked_msgs_per_flow SolacebrokerMsgVpnQueueTemplate#max_delivered_unacked_msgs_per_flow}
   */
   readonly maxDeliveredUnackedMsgsPerFlow?: number;
   /**
@@ -98,7 +98,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#max_msg_size SolacebrokerMsgVpnQueueTemplate#max_msg_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#max_msg_size SolacebrokerMsgVpnQueueTemplate#max_msg_size}
   */
   readonly maxMsgSize?: number;
   /**
@@ -106,7 +106,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `5000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#max_msg_spool_usage SolacebrokerMsgVpnQueueTemplate#max_msg_spool_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#max_msg_spool_usage SolacebrokerMsgVpnQueueTemplate#max_msg_spool_usage}
   */
   readonly maxMsgSpoolUsage?: number;
   /**
@@ -114,7 +114,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#max_redelivery_count SolacebrokerMsgVpnQueueTemplate#max_redelivery_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#max_redelivery_count SolacebrokerMsgVpnQueueTemplate#max_redelivery_count}
   */
   readonly maxRedeliveryCount?: number;
   /**
@@ -122,7 +122,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#max_ttl SolacebrokerMsgVpnQueueTemplate#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#max_ttl SolacebrokerMsgVpnQueueTemplate#max_ttl}
   */
   readonly maxTtl?: number;
   /**
@@ -130,7 +130,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#msg_vpn_name SolacebrokerMsgVpnQueueTemplate#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#msg_vpn_name SolacebrokerMsgVpnQueueTemplate#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -147,7 +147,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#permission SolacebrokerMsgVpnQueueTemplate#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#permission SolacebrokerMsgVpnQueueTemplate#permission}
   */
   readonly permission?: string;
   /**
@@ -155,7 +155,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#queue_name_filter SolacebrokerMsgVpnQueueTemplate#queue_name_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#queue_name_filter SolacebrokerMsgVpnQueueTemplate#queue_name_filter}
   */
   readonly queueNameFilter?: string;
   /**
@@ -163,7 +163,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#queue_template_name SolacebrokerMsgVpnQueueTemplate#queue_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#queue_template_name SolacebrokerMsgVpnQueueTemplate#queue_template_name}
   */
   readonly queueTemplateName: string;
   /**
@@ -171,7 +171,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_enabled SolacebrokerMsgVpnQueueTemplate#redelivery_delay_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_enabled SolacebrokerMsgVpnQueueTemplate#redelivery_delay_enabled}
   */
   readonly redeliveryDelayEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -179,7 +179,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_initial_interval SolacebrokerMsgVpnQueueTemplate#redelivery_delay_initial_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_initial_interval SolacebrokerMsgVpnQueueTemplate#redelivery_delay_initial_interval}
   */
   readonly redeliveryDelayInitialInterval?: number;
   /**
@@ -187,7 +187,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `64000`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_max_interval SolacebrokerMsgVpnQueueTemplate#redelivery_delay_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_max_interval SolacebrokerMsgVpnQueueTemplate#redelivery_delay_max_interval}
   */
   readonly redeliveryDelayMaxInterval?: number;
   /**
@@ -195,7 +195,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `200`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_multiplier SolacebrokerMsgVpnQueueTemplate#redelivery_delay_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_delay_multiplier SolacebrokerMsgVpnQueueTemplate#redelivery_delay_multiplier}
   */
   readonly redeliveryDelayMultiplier?: number;
   /**
@@ -203,7 +203,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_enabled SolacebrokerMsgVpnQueueTemplate#redelivery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#redelivery_enabled SolacebrokerMsgVpnQueueTemplate#redelivery_enabled}
   */
   readonly redeliveryEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -211,7 +211,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#reject_low_priority_msg_enabled SolacebrokerMsgVpnQueueTemplate#reject_low_priority_msg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#reject_low_priority_msg_enabled SolacebrokerMsgVpnQueueTemplate#reject_low_priority_msg_enabled}
   */
   readonly rejectLowPriorityMsgEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -219,7 +219,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#reject_low_priority_msg_limit SolacebrokerMsgVpnQueueTemplate#reject_low_priority_msg_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#reject_low_priority_msg_limit SolacebrokerMsgVpnQueueTemplate#reject_low_priority_msg_limit}
   */
   readonly rejectLowPriorityMsgLimit?: number;
   /**
@@ -234,15 +234,23 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#reject_msg_to_sender_on_discard_behavior SolacebrokerMsgVpnQueueTemplate#reject_msg_to_sender_on_discard_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#reject_msg_to_sender_on_discard_behavior SolacebrokerMsgVpnQueueTemplate#reject_msg_to_sender_on_discard_behavior}
   */
   readonly rejectMsgToSenderOnDiscardBehavior?: string;
+  /**
+  * Enable or disable the respecting of DMQ Eligible for messages in the Queue.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.49.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#respect_dmq_eligible_enabled SolacebrokerMsgVpnQueueTemplate#respect_dmq_eligible_enabled}
+  */
+  readonly respectDmqEligibleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the respecting of message priority. When enabled, messages are delivered in priority order, from 9 (highest) to 0 (lowest).
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#respect_msg_priority_enabled SolacebrokerMsgVpnQueueTemplate#respect_msg_priority_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#respect_msg_priority_enabled SolacebrokerMsgVpnQueueTemplate#respect_msg_priority_enabled}
   */
   readonly respectMsgPriorityEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -250,7 +258,7 @@ export interface SolacebrokerMsgVpnQueueTemplateConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#respect_ttl_enabled SolacebrokerMsgVpnQueueTemplate#respect_ttl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#respect_ttl_enabled SolacebrokerMsgVpnQueueTemplate#respect_ttl_enabled}
   */
   readonly respectTtlEnabled?: boolean | cdktf.IResolvable;
 }
@@ -260,7 +268,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_percent SolacebrokerMsgVpnQueueTemplate#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_percent SolacebrokerMsgVpnQueueTemplate#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -268,7 +276,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_value SolacebrokerMsgVpnQueueTemplate#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_value SolacebrokerMsgVpnQueueTemplate#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -276,7 +284,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#set_percent SolacebrokerMsgVpnQueueTemplate#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#set_percent SolacebrokerMsgVpnQueueTemplate#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -284,7 +292,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#set_value SolacebrokerMsgVpnQueueTemplate#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#set_value SolacebrokerMsgVpnQueueTemplate#set_value}
   */
   readonly setValue?: number;
 }
@@ -469,7 +477,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `18`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_percent SolacebrokerMsgVpnQueueTemplate#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_percent SolacebrokerMsgVpnQueueTemplate#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -477,7 +485,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_value SolacebrokerMsgVpnQueueTemplate#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_value SolacebrokerMsgVpnQueueTemplate#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -485,7 +493,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#set_percent SolacebrokerMsgVpnQueueTemplate#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#set_percent SolacebrokerMsgVpnQueueTemplate#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -493,7 +501,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventMsgSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#set_value SolacebrokerMsgVpnQueueTemplate#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#set_value SolacebrokerMsgVpnQueueTemplate#set_value}
   */
   readonly setValue?: number;
 }
@@ -678,7 +686,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_percent SolacebrokerMsgVpnQueueTemplate#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_percent SolacebrokerMsgVpnQueueTemplate#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -686,7 +694,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_value SolacebrokerMsgVpnQueueTemplate#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#clear_value SolacebrokerMsgVpnQueueTemplate#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -694,7 +702,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#set_percent SolacebrokerMsgVpnQueueTemplate#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#set_percent SolacebrokerMsgVpnQueueTemplate#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -702,7 +710,7 @@ export interface SolacebrokerMsgVpnQueueTemplateEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#set_value SolacebrokerMsgVpnQueueTemplate#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#set_value SolacebrokerMsgVpnQueueTemplate#set_value}
   */
   readonly setValue?: number;
 }
@@ -883,7 +891,7 @@ export class SolacebrokerMsgVpnQueueTemplateEventRejectLowPriorityMsgLimitThresh
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template solacebroker_msg_vpn_queue_template}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template solacebroker_msg_vpn_queue_template}
 */
 export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
 
@@ -899,7 +907,7 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerMsgVpnQueueTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnQueueTemplate to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnQueueTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnQueueTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnQueueTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -911,7 +919,7 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_queue_template solacebroker_msg_vpn_queue_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_queue_template solacebroker_msg_vpn_queue_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -922,8 +930,8 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_queue_template',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -959,6 +967,7 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
     this._rejectLowPriorityMsgEnabled = config.rejectLowPriorityMsgEnabled;
     this._rejectLowPriorityMsgLimit = config.rejectLowPriorityMsgLimit;
     this._rejectMsgToSenderOnDiscardBehavior = config.rejectMsgToSenderOnDiscardBehavior;
+    this._respectDmqEligibleEnabled = config.respectDmqEligibleEnabled;
     this._respectMsgPriorityEnabled = config.respectMsgPriorityEnabled;
     this._respectTtlEnabled = config.respectTtlEnabled;
   }
@@ -1377,6 +1386,22 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
     return this._rejectMsgToSenderOnDiscardBehavior;
   }
 
+  // respect_dmq_eligible_enabled - computed: false, optional: true, required: false
+  private _respectDmqEligibleEnabled?: boolean | cdktf.IResolvable; 
+  public get respectDmqEligibleEnabled() {
+    return this.getBooleanAttribute('respect_dmq_eligible_enabled');
+  }
+  public set respectDmqEligibleEnabled(value: boolean | cdktf.IResolvable) {
+    this._respectDmqEligibleEnabled = value;
+  }
+  public resetRespectDmqEligibleEnabled() {
+    this._respectDmqEligibleEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectDmqEligibleEnabledInput() {
+    return this._respectDmqEligibleEnabled;
+  }
+
   // respect_msg_priority_enabled - computed: false, optional: true, required: false
   private _respectMsgPriorityEnabled?: boolean | cdktf.IResolvable; 
   public get respectMsgPriorityEnabled() {
@@ -1441,6 +1466,7 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
       reject_low_priority_msg_enabled: cdktf.booleanToTerraform(this._rejectLowPriorityMsgEnabled),
       reject_low_priority_msg_limit: cdktf.numberToTerraform(this._rejectLowPriorityMsgLimit),
       reject_msg_to_sender_on_discard_behavior: cdktf.stringToTerraform(this._rejectMsgToSenderOnDiscardBehavior),
+      respect_dmq_eligible_enabled: cdktf.booleanToTerraform(this._respectDmqEligibleEnabled),
       respect_msg_priority_enabled: cdktf.booleanToTerraform(this._respectMsgPriorityEnabled),
       respect_ttl_enabled: cdktf.booleanToTerraform(this._respectTtlEnabled),
     };
@@ -1603,6 +1629,12 @@ export class SolacebrokerMsgVpnQueueTemplate extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      respect_dmq_eligible_enabled: {
+        value: cdktf.booleanToHclTerraform(this._respectDmqEligibleEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       respect_msg_priority_enabled: {
         value: cdktf.booleanToHclTerraform(this._respectMsgPriorityEnabled),

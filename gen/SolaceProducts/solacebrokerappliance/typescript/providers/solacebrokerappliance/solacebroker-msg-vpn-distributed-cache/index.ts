@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#cache_name SolacebrokerMsgVpnDistributedCache#cache_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#cache_name SolacebrokerMsgVpnDistributedCache#cache_name}
   */
   readonly cacheName: string;
   /**
@@ -27,7 +27,7 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * </pre>
   *  Available since SEMP API version 2.28. Note that this attribute requires replacement of the resource when updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#cache_virtual_router SolacebrokerMsgVpnDistributedCache#cache_virtual_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#cache_virtual_router SolacebrokerMsgVpnDistributedCache#cache_virtual_router}
   */
   readonly cacheVirtualRouter?: string;
   /**
@@ -35,7 +35,7 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#enabled SolacebrokerMsgVpnDistributedCache#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#enabled SolacebrokerMsgVpnDistributedCache#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -43,7 +43,7 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#heartbeat SolacebrokerMsgVpnDistributedCache#heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#heartbeat SolacebrokerMsgVpnDistributedCache#heartbeat}
   */
   readonly heartbeat?: number;
   /**
@@ -51,7 +51,7 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#msg_vpn_name SolacebrokerMsgVpnDistributedCache#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#msg_vpn_name SolacebrokerMsgVpnDistributedCache#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -59,7 +59,7 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#scheduled_delete_msg_day_list SolacebrokerMsgVpnDistributedCache#scheduled_delete_msg_day_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#scheduled_delete_msg_day_list SolacebrokerMsgVpnDistributedCache#scheduled_delete_msg_day_list}
   */
   readonly scheduledDeleteMsgDayList?: string;
   /**
@@ -67,13 +67,13 @@ export interface SolacebrokerMsgVpnDistributedCacheConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#scheduled_delete_msg_time_list SolacebrokerMsgVpnDistributedCache#scheduled_delete_msg_time_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#scheduled_delete_msg_time_list SolacebrokerMsgVpnDistributedCache#scheduled_delete_msg_time_list}
   */
   readonly scheduledDeleteMsgTimeList?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache solacebroker_msg_vpn_distributed_cache}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache solacebroker_msg_vpn_distributed_cache}
 */
 export class SolacebrokerMsgVpnDistributedCache extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class SolacebrokerMsgVpnDistributedCache extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SolacebrokerMsgVpnDistributedCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnDistributedCache to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnDistributedCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnDistributedCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnDistributedCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class SolacebrokerMsgVpnDistributedCache extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_distributed_cache solacebroker_msg_vpn_distributed_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_distributed_cache solacebroker_msg_vpn_distributed_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class SolacebrokerMsgVpnDistributedCache extends cdktf.TerraformResource 
       terraformResourceType: 'solacebroker_msg_vpn_distributed_cache',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

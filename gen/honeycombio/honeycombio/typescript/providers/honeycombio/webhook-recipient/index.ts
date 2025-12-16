@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WebhookRecipientConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this Webhook recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#name WebhookRecipient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#name WebhookRecipient#name}
   */
   readonly name: string;
   /**
   * The secret to include when sending the notification to the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#secret WebhookRecipient#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#secret WebhookRecipient#secret}
   */
   readonly secret?: string;
   /**
   * The URL of the endpoint the notification will be sent to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#url WebhookRecipient#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#url WebhookRecipient#url}
   */
   readonly url: string;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#header WebhookRecipient#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#header WebhookRecipient#header}
   */
   readonly header?: WebhookRecipientHeader[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#template WebhookRecipient#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#template WebhookRecipient#template}
   */
   readonly template?: WebhookRecipientTemplate[] | cdktf.IResolvable;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#variable WebhookRecipient#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#variable WebhookRecipient#variable}
   */
   readonly variable?: WebhookRecipientVariable[] | cdktf.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface WebhookRecipientHeader {
   /**
   * The name or key for the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#name WebhookRecipient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#name WebhookRecipient#name}
   */
   readonly name: string;
   /**
   * Value for the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#value WebhookRecipient#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#value WebhookRecipient#value}
   */
   readonly value?: string;
 }
@@ -198,13 +198,13 @@ export interface WebhookRecipientTemplate {
   /**
   * JSON formatted string of the webhook payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#body WebhookRecipient#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#body WebhookRecipient#body}
   */
   readonly body: string;
   /**
   * The type of the webhook template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#type WebhookRecipient#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#type WebhookRecipient#type}
   */
   readonly type: string;
 }
@@ -345,13 +345,13 @@ export interface WebhookRecipientVariable {
   /**
   * An optional default value for the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#default_value WebhookRecipient#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#default_value WebhookRecipient#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#name WebhookRecipient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#name WebhookRecipient#name}
   */
   readonly name: string;
 }
@@ -493,7 +493,7 @@ export class WebhookRecipientVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient honeycombio_webhook_recipient}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient honeycombio_webhook_recipient}
 */
 export class WebhookRecipient extends cdktf.TerraformResource {
 
@@ -509,7 +509,7 @@ export class WebhookRecipient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhookRecipient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhookRecipient to import
-  * @param importFromId The id of the existing WebhookRecipient that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhookRecipient that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhookRecipient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class WebhookRecipient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/webhook_recipient honeycombio_webhook_recipient} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/webhook_recipient honeycombio_webhook_recipient} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class WebhookRecipient extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_webhook_recipient',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

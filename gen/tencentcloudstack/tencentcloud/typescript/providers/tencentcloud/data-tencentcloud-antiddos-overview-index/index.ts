@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudAntiddosOverviewIndexConfig extends cdktf.Terra
   /**
   * EndTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index#end_time DataTencentcloudAntiddosOverviewIndex#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index#end_time DataTencentcloudAntiddosOverviewIndex#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index#id DataTencentcloudAntiddosOverviewIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index#id DataTencentcloudAntiddosOverviewIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudAntiddosOverviewIndexConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index#result_output_file DataTencentcloudAntiddosOverviewIndex#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index#result_output_file DataTencentcloudAntiddosOverviewIndex#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * StartTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index#start_time DataTencentcloudAntiddosOverviewIndex#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index#start_time DataTencentcloudAntiddosOverviewIndex#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index tencentcloud_antiddos_overview_index}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index tencentcloud_antiddos_overview_index}
 */
 export class DataTencentcloudAntiddosOverviewIndex extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataTencentcloudAntiddosOverviewIndex extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudAntiddosOverviewIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAntiddosOverviewIndex to import
-  * @param importFromId The id of the existing DataTencentcloudAntiddosOverviewIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAntiddosOverviewIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAntiddosOverviewIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataTencentcloudAntiddosOverviewIndex extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/antiddos_overview_index tencentcloud_antiddos_overview_index} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_overview_index tencentcloud_antiddos_overview_index} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataTencentcloudAntiddosOverviewIndex extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_antiddos_overview_index',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

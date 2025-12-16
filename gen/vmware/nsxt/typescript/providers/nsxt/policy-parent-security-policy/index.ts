@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyParentSecurityPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#category PolicyParentSecurityPolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#category PolicyParentSecurityPolicy#category}
   */
   readonly category: string;
   /**
   * Comments for security policy lock/unlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#comments PolicyParentSecurityPolicy#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#comments PolicyParentSecurityPolicy#comments}
   */
   readonly comments?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#description PolicyParentSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#description PolicyParentSecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#display_name PolicyParentSecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#display_name PolicyParentSecurityPolicy#display_name}
   */
   readonly displayName: string;
   /**
   * The domain name to use for resources. If not specified 'default' is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#domain PolicyParentSecurityPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#domain PolicyParentSecurityPolicy#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#id PolicyParentSecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#id PolicyParentSecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface PolicyParentSecurityPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Indicates whether a security policy should be locked. If locked by a user, no other user would be able to modify this policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#locked PolicyParentSecurityPolicy#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#locked PolicyParentSecurityPolicy#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#nsx_id PolicyParentSecurityPolicy#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#nsx_id PolicyParentSecurityPolicy#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The list of group paths where the rules in this policy will get applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#scope PolicyParentSecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#scope PolicyParentSecurityPolicy#scope}
   */
   readonly scope?: string[];
   /**
   * This field is used to resolve conflicts between security policies across domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#sequence_number PolicyParentSecurityPolicy#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#sequence_number PolicyParentSecurityPolicy#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * When it is stateful, the state of the network connects are tracked and a stateful packet inspection is performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#stateful PolicyParentSecurityPolicy#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#stateful PolicyParentSecurityPolicy#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
   /**
   * Ensures that a 3 way TCP handshake is done before the data packets are sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#tcp_strict PolicyParentSecurityPolicy#tcp_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#tcp_strict PolicyParentSecurityPolicy#tcp_strict}
   */
   readonly tcpStrict?: boolean | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#context PolicyParentSecurityPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#context PolicyParentSecurityPolicy#context}
   */
   readonly context?: PolicyParentSecurityPolicyContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#tag PolicyParentSecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#tag PolicyParentSecurityPolicy#tag}
   */
   readonly tag?: PolicyParentSecurityPolicyTag[] | cdktf.IResolvable;
 }
@@ -97,7 +97,7 @@ export interface PolicyParentSecurityPolicyContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#project_id PolicyParentSecurityPolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#project_id PolicyParentSecurityPolicy#project_id}
   */
   readonly projectId: string;
 }
@@ -178,11 +178,11 @@ export class PolicyParentSecurityPolicyContextOutputReference extends cdktf.Comp
 }
 export interface PolicyParentSecurityPolicyTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#scope PolicyParentSecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#scope PolicyParentSecurityPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#tag PolicyParentSecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#tag PolicyParentSecurityPolicy#tag}
   */
   readonly tag?: string;
 }
@@ -327,7 +327,7 @@ export class PolicyParentSecurityPolicyTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy nsxt_policy_parent_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy nsxt_policy_parent_security_policy}
 */
 export class PolicyParentSecurityPolicy extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class PolicyParentSecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyParentSecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyParentSecurityPolicy to import
-  * @param importFromId The id of the existing PolicyParentSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyParentSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyParentSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class PolicyParentSecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_parent_security_policy nsxt_policy_parent_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_parent_security_policy nsxt_policy_parent_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class PolicyParentSecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_parent_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

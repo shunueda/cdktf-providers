@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NsServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#description NsServiceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#description NsServiceGroup#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#display_name NsServiceGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#display_name NsServiceGroup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#id NsServiceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#id NsServiceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface NsServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of NSService or NSServiceGroup resources that can be added as members to an NSServiceGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#members NsServiceGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#members NsServiceGroup#members}
   */
   readonly members: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#tag NsServiceGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#tag NsServiceGroup#tag}
   */
   readonly tag?: NsServiceGroupTag[] | cdktf.IResolvable;
 }
 export interface NsServiceGroupTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#scope NsServiceGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#scope NsServiceGroup#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#tag NsServiceGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#tag NsServiceGroup#tag}
   */
   readonly tag?: string;
 }
@@ -190,7 +190,7 @@ export class NsServiceGroupTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group nsxt_ns_service_group}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group nsxt_ns_service_group}
 */
 export class NsServiceGroup extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class NsServiceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NsServiceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NsServiceGroup to import
-  * @param importFromId The id of the existing NsServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NsServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NsServiceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class NsServiceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_service_group nsxt_ns_service_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_service_group nsxt_ns_service_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class NsServiceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_ns_service_group',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

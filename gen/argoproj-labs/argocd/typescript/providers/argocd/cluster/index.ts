@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#id Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#id Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the cluster. If omitted, will use the server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
   * List of namespaces which are accessible in that cluster. Cluster level resources would be ignored if namespace list is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#namespaces Cluster#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#namespaces Cluster#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Reference between project and cluster that allow you automatically to be added as item inside Destinations project entity. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/projects/#project-scoped-repositories-and-clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#project Cluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#project Cluster#project}
   */
   readonly project?: string;
   /**
   * Server is the API server URL of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#server Cluster#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#server Cluster#server}
   */
   readonly server?: string;
   /**
   * Optional shard number. Calculated on the fly by the application controller if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#shard Cluster#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#shard Cluster#shard}
   */
   readonly shard?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#config Cluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#config Cluster#config}
   */
   readonly config: ClusterConfigA;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#metadata Cluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#metadata Cluster#metadata}
   */
   readonly metadata?: ClusterMetadata[] | cdktf.IResolvable;
 }
@@ -227,13 +227,13 @@ export interface ClusterConfigAwsAuthConfig {
   /**
   * AWS cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#cluster_name Cluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#cluster_name Cluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * IAM role ARN. If set then AWS IAM Authenticator assume a role to perform cluster operations instead of the default AWS credential provider chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#role_arn Cluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#role_arn Cluster#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -380,31 +380,31 @@ export interface ClusterConfigExecProviderConfig {
   /**
   * Preferred input version of the ExecInfo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#api_version Cluster#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#api_version Cluster#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Arguments to pass to the command when executing it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#args Cluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#args Cluster#args}
   */
   readonly args?: string[];
   /**
   * Command to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#command Cluster#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#command Cluster#command}
   */
   readonly command?: string;
   /**
   * Env defines additional environment variables to expose to the process. Passed as a map of strings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#env Cluster#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#env Cluster#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * This text is shown to the user when the executable doesn't seem to be present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#install_hint Cluster#install_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#install_hint Cluster#install_hint}
   */
   readonly installHint?: string;
 }
@@ -606,31 +606,31 @@ export interface ClusterConfigTlsClientConfig {
   /**
   * PEM-encoded bytes (typically read from a root certificates bundle).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#ca_data Cluster#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#ca_data Cluster#ca_data}
   */
   readonly caData?: string;
   /**
   * PEM-encoded bytes (typically read from a client certificate file).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#cert_data Cluster#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#cert_data Cluster#cert_data}
   */
   readonly certData?: string;
   /**
   * Whether server should be accessed without verifying the TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#insecure Cluster#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#insecure Cluster#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM-encoded bytes (typically read from a client certificate key file).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#key_data Cluster#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#key_data Cluster#key_data}
   */
   readonly keyData?: string;
   /**
   * Name to pass to the server for SNI and used in the client to check server certificates against. If empty, the hostname used to contact the server is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#server_name Cluster#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#server_name Cluster#server_name}
   */
   readonly serverName?: string;
 }
@@ -832,37 +832,37 @@ export interface ClusterConfigA {
   /**
   * Server requires Bearer authentication. The client will not attempt to use refresh tokens for an OAuth2 flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#bearer_token Cluster#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#bearer_token Cluster#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Password for servers that require Basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#password Cluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#password Cluster#password}
   */
   readonly password?: string;
   /**
   * Username for servers that require Basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#username Cluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#username Cluster#username}
   */
   readonly username?: string;
   /**
   * aws_auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#aws_auth_config Cluster#aws_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#aws_auth_config Cluster#aws_auth_config}
   */
   readonly awsAuthConfig?: ClusterConfigAwsAuthConfig[] | cdktf.IResolvable;
   /**
   * exec_provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#exec_provider_config Cluster#exec_provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#exec_provider_config Cluster#exec_provider_config}
   */
   readonly execProviderConfig?: ClusterConfigExecProviderConfig;
   /**
   * tls_client_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#tls_client_config Cluster#tls_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#tls_client_config Cluster#tls_client_config}
   */
   readonly tlsClientConfig?: ClusterConfigTlsClientConfig;
 }
@@ -1093,13 +1093,13 @@ export interface ClusterMetadata {
   /**
   * An unstructured key value map stored with the cluster secret that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#annotations Cluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#annotations Cluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the cluster secret. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1244,7 +1244,7 @@ export class ClusterMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster argocd_cluster}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster argocd_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -1260,7 +1260,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1272,7 +1272,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/cluster argocd_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/cluster argocd_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1283,8 +1283,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_cluster',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.3',
-        providerVersionConstraint: '7.12.3'
+        providerVersion: '7.12.4',
+        providerVersionConstraint: '7.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

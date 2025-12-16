@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsIdentityGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups#id DataAzuredevopsIdentityGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups#id DataAzuredevopsIdentityGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups#project_id DataAzuredevopsIdentityGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups#project_id DataAzuredevopsIdentityGroups#project_id}
   */
   readonly projectId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups#timeouts DataAzuredevopsIdentityGroups#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups#timeouts DataAzuredevopsIdentityGroups#timeouts}
   */
   readonly timeouts?: DataAzuredevopsIdentityGroupsTimeouts;
 }
@@ -117,7 +117,7 @@ export class DataAzuredevopsIdentityGroupsGroupsList extends cdktf.ComplexList {
 }
 export interface DataAzuredevopsIdentityGroupsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups#read DataAzuredevopsIdentityGroups#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups#read DataAzuredevopsIdentityGroups#read}
   */
   readonly read?: string;
 }
@@ -211,7 +211,7 @@ export class DataAzuredevopsIdentityGroupsTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups azuredevops_identity_groups}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups azuredevops_identity_groups}
 */
 export class DataAzuredevopsIdentityGroups extends cdktf.TerraformDataSource {
 
@@ -227,7 +227,7 @@ export class DataAzuredevopsIdentityGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsIdentityGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsIdentityGroups to import
-  * @param importFromId The id of the existing DataAzuredevopsIdentityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsIdentityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsIdentityGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DataAzuredevopsIdentityGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_groups azuredevops_identity_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/identity_groups azuredevops_identity_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DataAzuredevopsIdentityGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_identity_groups',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

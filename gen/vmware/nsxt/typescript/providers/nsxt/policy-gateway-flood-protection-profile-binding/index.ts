@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyGatewayFloodProtectionProfileBindingConfig extends cdktf.
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#description PolicyGatewayFloodProtectionProfileBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#description PolicyGatewayFloodProtectionProfileBinding#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#display_name PolicyGatewayFloodProtectionProfileBinding#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#display_name PolicyGatewayFloodProtectionProfileBinding#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#id PolicyGatewayFloodProtectionProfileBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#id PolicyGatewayFloodProtectionProfileBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface PolicyGatewayFloodProtectionProfileBindingConfig extends cdktf.
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#nsx_id PolicyGatewayFloodProtectionProfileBinding#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#nsx_id PolicyGatewayFloodProtectionProfileBinding#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The path of the parent to be bind with the profile. It could be either Tier0 path, Tier1 path, or locale service path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#parent_path PolicyGatewayFloodProtectionProfileBinding#parent_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#parent_path PolicyGatewayFloodProtectionProfileBinding#parent_path}
   */
   readonly parentPath: string;
   /**
   * The path of the flood protection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#profile_path PolicyGatewayFloodProtectionProfileBinding#profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#profile_path PolicyGatewayFloodProtectionProfileBinding#profile_path}
   */
   readonly profilePath: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#context PolicyGatewayFloodProtectionProfileBinding#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#context PolicyGatewayFloodProtectionProfileBinding#context}
   */
   readonly context?: PolicyGatewayFloodProtectionProfileBindingContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#tag PolicyGatewayFloodProtectionProfileBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#tag PolicyGatewayFloodProtectionProfileBinding#tag}
   */
   readonly tag?: PolicyGatewayFloodProtectionProfileBindingTag[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface PolicyGatewayFloodProtectionProfileBindingContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#project_id PolicyGatewayFloodProtectionProfileBinding#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#project_id PolicyGatewayFloodProtectionProfileBinding#project_id}
   */
   readonly projectId: string;
 }
@@ -142,11 +142,11 @@ export class PolicyGatewayFloodProtectionProfileBindingContextOutputReference ex
 }
 export interface PolicyGatewayFloodProtectionProfileBindingTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#scope PolicyGatewayFloodProtectionProfileBinding#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#scope PolicyGatewayFloodProtectionProfileBinding#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#tag PolicyGatewayFloodProtectionProfileBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#tag PolicyGatewayFloodProtectionProfileBinding#tag}
   */
   readonly tag?: string;
 }
@@ -291,7 +291,7 @@ export class PolicyGatewayFloodProtectionProfileBindingTagList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding nsxt_policy_gateway_flood_protection_profile_binding}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding nsxt_policy_gateway_flood_protection_profile_binding}
 */
 export class PolicyGatewayFloodProtectionProfileBinding extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class PolicyGatewayFloodProtectionProfileBinding extends cdktf.TerraformR
   * Generates CDKTF code for importing a PolicyGatewayFloodProtectionProfileBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayFloodProtectionProfileBinding to import
-  * @param importFromId The id of the existing PolicyGatewayFloodProtectionProfileBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayFloodProtectionProfileBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayFloodProtectionProfileBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class PolicyGatewayFloodProtectionProfileBinding extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_flood_protection_profile_binding nsxt_policy_gateway_flood_protection_profile_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_flood_protection_profile_binding nsxt_policy_gateway_flood_protection_profile_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class PolicyGatewayFloodProtectionProfileBinding extends cdktf.TerraformR
       terraformResourceType: 'nsxt_policy_gateway_flood_protection_profile_binding',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

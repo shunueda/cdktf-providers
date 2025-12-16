@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerOauthProfileAccessLevelGroupConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/read-write". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group#description SolacebrokerOauthProfileAccessLevelGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group#description SolacebrokerOauthProfileAccessLevelGroup#description}
   */
   readonly description?: string;
   /**
@@ -29,7 +29,7 @@ export interface SolacebrokerOauthProfileAccessLevelGroupConfig extends cdktf.Te
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group#global_access_level SolacebrokerOauthProfileAccessLevelGroup#global_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group#global_access_level SolacebrokerOauthProfileAccessLevelGroup#global_access_level}
   */
   readonly globalAccessLevel?: string;
   /**
@@ -37,7 +37,7 @@ export interface SolacebrokerOauthProfileAccessLevelGroupConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group#group_name SolacebrokerOauthProfileAccessLevelGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group#group_name SolacebrokerOauthProfileAccessLevelGroup#group_name}
   */
   readonly groupName: string;
   /**
@@ -52,7 +52,7 @@ export interface SolacebrokerOauthProfileAccessLevelGroupConfig extends cdktf.Te
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group#msg_vpn_access_level SolacebrokerOauthProfileAccessLevelGroup#msg_vpn_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group#msg_vpn_access_level SolacebrokerOauthProfileAccessLevelGroup#msg_vpn_access_level}
   */
   readonly msgVpnAccessLevel?: string;
   /**
@@ -60,13 +60,13 @@ export interface SolacebrokerOauthProfileAccessLevelGroupConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group#oauth_profile_name SolacebrokerOauthProfileAccessLevelGroup#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group#oauth_profile_name SolacebrokerOauthProfileAccessLevelGroup#oauth_profile_name}
   */
   readonly oauthProfileName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group solacebroker_oauth_profile_access_level_group}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group solacebroker_oauth_profile_access_level_group}
 */
 export class SolacebrokerOauthProfileAccessLevelGroup extends cdktf.TerraformResource {
 
@@ -82,7 +82,7 @@ export class SolacebrokerOauthProfileAccessLevelGroup extends cdktf.TerraformRes
   * Generates CDKTF code for importing a SolacebrokerOauthProfileAccessLevelGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerOauthProfileAccessLevelGroup to import
-  * @param importFromId The id of the existing SolacebrokerOauthProfileAccessLevelGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerOauthProfileAccessLevelGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerOauthProfileAccessLevelGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -94,7 +94,7 @@ export class SolacebrokerOauthProfileAccessLevelGroup extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_access_level_group solacebroker_oauth_profile_access_level_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_access_level_group solacebroker_oauth_profile_access_level_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -105,8 +105,8 @@ export class SolacebrokerOauthProfileAccessLevelGroup extends cdktf.TerraformRes
       terraformResourceType: 'solacebroker_oauth_profile_access_level_group',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

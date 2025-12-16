@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface NatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action for the NAT Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#action NatRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#action NatRule#action}
   */
   readonly action: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#description NatRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#description NatRule#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#display_name NatRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#display_name NatRule#display_name}
   */
   readonly displayName?: string;
   /**
   * enable/disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#enabled NatRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#enabled NatRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#id NatRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#id NatRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,65 +41,65 @@ export interface NatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * enable/disable the logging of rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#logging NatRule#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#logging NatRule#logging}
   */
   readonly logging?: boolean | cdktf.IResolvable;
   /**
   * Logical router id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#logical_router_id NatRule#logical_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#logical_router_id NatRule#logical_router_id}
   */
   readonly logicalRouterId: string;
   /**
   * IP Address | CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#match_destination_network NatRule#match_destination_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#match_destination_network NatRule#match_destination_network}
   */
   readonly matchDestinationNetwork?: string;
   /**
   * IP Address | CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#match_source_network NatRule#match_source_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#match_source_network NatRule#match_source_network}
   */
   readonly matchSourceNetwork?: string;
   /**
   * A boolean flag which reflects whether the following firewall stage will be skipped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#nat_pass NatRule#nat_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#nat_pass NatRule#nat_pass}
   */
   readonly natPass?: boolean | cdktf.IResolvable;
   /**
   * The priority of the rule (ascending). Valid range [0-2147483647]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#rule_priority NatRule#rule_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#rule_priority NatRule#rule_priority}
   */
   readonly rulePriority?: number;
   /**
   * IP Address | IP Range | CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#translated_network NatRule#translated_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#translated_network NatRule#translated_network}
   */
   readonly translatedNetwork?: string;
   /**
   * port number or port range. DNAT only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#translated_ports NatRule#translated_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#translated_ports NatRule#translated_ports}
   */
   readonly translatedPorts?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#tag NatRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#tag NatRule#tag}
   */
   readonly tag?: NatRuleTag[] | cdktf.IResolvable;
 }
 export interface NatRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#scope NatRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#scope NatRule#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#tag NatRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#tag NatRule#tag}
   */
   readonly tag?: string;
 }
@@ -244,7 +244,7 @@ export class NatRuleTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule nsxt_nat_rule}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule nsxt_nat_rule}
 */
 export class NatRule extends cdktf.TerraformResource {
 
@@ -260,7 +260,7 @@ export class NatRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatRule to import
-  * @param importFromId The id of the existing NatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class NatRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/nat_rule nsxt_nat_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/nat_rule nsxt_nat_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class NatRule extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_nat_rule',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

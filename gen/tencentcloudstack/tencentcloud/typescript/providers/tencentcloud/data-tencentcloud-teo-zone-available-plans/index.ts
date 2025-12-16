@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/teo_zone_available_plans
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/teo_zone_available_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTeoZoneAvailablePlansConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/teo_zone_available_plans#id DataTencentcloudTeoZoneAvailablePlans#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/teo_zone_available_plans#id DataTencentcloudTeoZoneAvailablePlans#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTencentcloudTeoZoneAvailablePlansConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/teo_zone_available_plans#result_output_file DataTencentcloudTeoZoneAvailablePlans#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/teo_zone_available_plans#result_output_file DataTencentcloudTeoZoneAvailablePlans#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -133,7 +133,7 @@ export class DataTencentcloudTeoZoneAvailablePlansPlanInfoListStructList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/teo_zone_available_plans tencentcloud_teo_zone_available_plans}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/teo_zone_available_plans tencentcloud_teo_zone_available_plans}
 */
 export class DataTencentcloudTeoZoneAvailablePlans extends cdktf.TerraformDataSource {
 
@@ -149,7 +149,7 @@ export class DataTencentcloudTeoZoneAvailablePlans extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudTeoZoneAvailablePlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTeoZoneAvailablePlans to import
-  * @param importFromId The id of the existing DataTencentcloudTeoZoneAvailablePlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/teo_zone_available_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTeoZoneAvailablePlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/teo_zone_available_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTeoZoneAvailablePlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class DataTencentcloudTeoZoneAvailablePlans extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/teo_zone_available_plans tencentcloud_teo_zone_available_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/teo_zone_available_plans tencentcloud_teo_zone_available_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class DataTencentcloudTeoZoneAvailablePlans extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_teo_zone_available_plans',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

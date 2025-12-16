@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyTransitGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#description PolicyTransitGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#description PolicyTransitGateway#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#display_name PolicyTransitGateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#display_name PolicyTransitGateway#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#id PolicyTransitGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#id PolicyTransitGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface PolicyTransitGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#nsx_id PolicyTransitGateway#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#nsx_id PolicyTransitGateway#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#transit_subnets PolicyTransitGateway#transit_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#transit_subnets PolicyTransitGateway#transit_subnets}
   */
   readonly transitSubnets?: string[];
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#context PolicyTransitGateway#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#context PolicyTransitGateway#context}
   */
   readonly context: PolicyTransitGatewayContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#tag PolicyTransitGateway#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#tag PolicyTransitGateway#tag}
   */
   readonly tag?: PolicyTransitGatewayTag[] | cdktf.IResolvable;
 }
@@ -53,7 +53,7 @@ export interface PolicyTransitGatewayContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#project_id PolicyTransitGateway#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#project_id PolicyTransitGateway#project_id}
   */
   readonly projectId: string;
 }
@@ -134,11 +134,11 @@ export class PolicyTransitGatewayContextOutputReference extends cdktf.ComplexObj
 }
 export interface PolicyTransitGatewayTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#scope PolicyTransitGateway#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#scope PolicyTransitGateway#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#tag PolicyTransitGateway#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#tag PolicyTransitGateway#tag}
   */
   readonly tag?: string;
 }
@@ -283,7 +283,7 @@ export class PolicyTransitGatewayTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway nsxt_policy_transit_gateway}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway nsxt_policy_transit_gateway}
 */
 export class PolicyTransitGateway extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class PolicyTransitGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyTransitGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyTransitGateway to import
-  * @param importFromId The id of the existing PolicyTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyTransitGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class PolicyTransitGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_transit_gateway nsxt_policy_transit_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_transit_gateway nsxt_policy_transit_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class PolicyTransitGateway extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_transit_gateway',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

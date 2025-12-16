@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LbFastTcpApplicationProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Timeout in seconds to specify how long a closed TCP connection should be kept for this application before cleaning up the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#close_timeout LbFastTcpApplicationProfile#close_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#close_timeout LbFastTcpApplicationProfile#close_timeout}
   */
   readonly closeTimeout?: number;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#description LbFastTcpApplicationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#description LbFastTcpApplicationProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#display_name LbFastTcpApplicationProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#display_name LbFastTcpApplicationProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * A boolean flag which reflects whether flow mirroring is enabled, and all the flows to the bounded virtual server are mirrored to the standby node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#ha_flow_mirroring LbFastTcpApplicationProfile#ha_flow_mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#ha_flow_mirroring LbFastTcpApplicationProfile#ha_flow_mirroring}
   */
   readonly haFlowMirroring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#id LbFastTcpApplicationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#id LbFastTcpApplicationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,23 +41,23 @@ export interface LbFastTcpApplicationProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Timeout in seconds to specify how long an idle TCP connection in ESTABLISHED state should be kept for this application before cleaning up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#idle_timeout LbFastTcpApplicationProfile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#idle_timeout LbFastTcpApplicationProfile#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#tag LbFastTcpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#tag LbFastTcpApplicationProfile#tag}
   */
   readonly tag?: LbFastTcpApplicationProfileTag[] | cdktf.IResolvable;
 }
 export interface LbFastTcpApplicationProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#scope LbFastTcpApplicationProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#scope LbFastTcpApplicationProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#tag LbFastTcpApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#tag LbFastTcpApplicationProfile#tag}
   */
   readonly tag?: string;
 }
@@ -202,7 +202,7 @@ export class LbFastTcpApplicationProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile nsxt_lb_fast_tcp_application_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile nsxt_lb_fast_tcp_application_profile}
 */
 export class LbFastTcpApplicationProfile extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class LbFastTcpApplicationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbFastTcpApplicationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbFastTcpApplicationProfile to import
-  * @param importFromId The id of the existing LbFastTcpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbFastTcpApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbFastTcpApplicationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class LbFastTcpApplicationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_fast_tcp_application_profile nsxt_lb_fast_tcp_application_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_fast_tcp_application_profile nsxt_lb_fast_tcp_application_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class LbFastTcpApplicationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_fast_tcp_application_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

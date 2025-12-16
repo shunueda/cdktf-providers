@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LbHttpRequestRewriteRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#description LbHttpRequestRewriteRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#description LbHttpRequestRewriteRule#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#display_name LbHttpRequestRewriteRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#display_name LbHttpRequestRewriteRule#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#id LbHttpRequestRewriteRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#id LbHttpRequestRewriteRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface LbHttpRequestRewriteRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * Strategy when multiple match conditions are specified in one rule (ANY vs ALL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#match_strategy LbHttpRequestRewriteRule#match_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#match_strategy LbHttpRequestRewriteRule#match_strategy}
   */
   readonly matchStrategy?: string;
   /**
   * body_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#body_condition LbHttpRequestRewriteRule#body_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#body_condition LbHttpRequestRewriteRule#body_condition}
   */
   readonly bodyCondition?: LbHttpRequestRewriteRuleBodyCondition[] | cdktf.IResolvable;
   /**
   * cookie_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#cookie_condition LbHttpRequestRewriteRule#cookie_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#cookie_condition LbHttpRequestRewriteRule#cookie_condition}
   */
   readonly cookieCondition?: LbHttpRequestRewriteRuleCookieCondition[] | cdktf.IResolvable;
   /**
   * header_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#header_condition LbHttpRequestRewriteRule#header_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#header_condition LbHttpRequestRewriteRule#header_condition}
   */
   readonly headerCondition?: LbHttpRequestRewriteRuleHeaderCondition[] | cdktf.IResolvable;
   /**
   * header_rewrite_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#header_rewrite_action LbHttpRequestRewriteRule#header_rewrite_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#header_rewrite_action LbHttpRequestRewriteRule#header_rewrite_action}
   */
   readonly headerRewriteAction?: LbHttpRequestRewriteRuleHeaderRewriteAction;
   /**
   * ip_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#ip_condition LbHttpRequestRewriteRule#ip_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#ip_condition LbHttpRequestRewriteRule#ip_condition}
   */
   readonly ipCondition?: LbHttpRequestRewriteRuleIpCondition[] | cdktf.IResolvable;
   /**
   * method_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#method_condition LbHttpRequestRewriteRule#method_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#method_condition LbHttpRequestRewriteRule#method_condition}
   */
   readonly methodCondition?: LbHttpRequestRewriteRuleMethodCondition[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#tag LbHttpRequestRewriteRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#tag LbHttpRequestRewriteRule#tag}
   */
   readonly tag?: LbHttpRequestRewriteRuleTag[] | cdktf.IResolvable;
   /**
   * tcp_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#tcp_condition LbHttpRequestRewriteRule#tcp_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#tcp_condition LbHttpRequestRewriteRule#tcp_condition}
   */
   readonly tcpCondition?: LbHttpRequestRewriteRuleTcpCondition[] | cdktf.IResolvable;
   /**
   * uri_arguments_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri_arguments_condition LbHttpRequestRewriteRule#uri_arguments_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri_arguments_condition LbHttpRequestRewriteRule#uri_arguments_condition}
   */
   readonly uriArgumentsCondition?: LbHttpRequestRewriteRuleUriArgumentsCondition[] | cdktf.IResolvable;
   /**
   * uri_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri_condition LbHttpRequestRewriteRule#uri_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri_condition LbHttpRequestRewriteRule#uri_condition}
   */
   readonly uriCondition?: LbHttpRequestRewriteRuleUriCondition[] | cdktf.IResolvable;
   /**
   * uri_rewrite_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri_rewrite_action LbHttpRequestRewriteRule#uri_rewrite_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri_rewrite_action LbHttpRequestRewriteRule#uri_rewrite_action}
   */
   readonly uriRewriteAction?: LbHttpRequestRewriteRuleUriRewriteAction;
   /**
   * version_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#version_condition LbHttpRequestRewriteRule#version_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#version_condition LbHttpRequestRewriteRule#version_condition}
   */
   readonly versionCondition?: LbHttpRequestRewriteRuleVersionCondition;
 }
@@ -109,23 +109,23 @@ export interface LbHttpRequestRewriteRuleBodyCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
   */
   readonly value: string;
 }
@@ -324,27 +324,27 @@ export interface LbHttpRequestRewriteRuleCookieCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#name LbHttpRequestRewriteRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#name LbHttpRequestRewriteRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
   */
   readonly value: string;
 }
@@ -569,27 +569,27 @@ export interface LbHttpRequestRewriteRuleHeaderCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#name LbHttpRequestRewriteRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#name LbHttpRequestRewriteRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
   */
   readonly value: string;
 }
@@ -812,11 +812,11 @@ export class LbHttpRequestRewriteRuleHeaderConditionList extends cdktf.ComplexLi
 }
 export interface LbHttpRequestRewriteRuleHeaderRewriteAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#name LbHttpRequestRewriteRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#name LbHttpRequestRewriteRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#value LbHttpRequestRewriteRule#value}
   */
   readonly value?: string;
 }
@@ -928,11 +928,11 @@ export interface LbHttpRequestRewriteRuleIpCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#source_address LbHttpRequestRewriteRule#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#source_address LbHttpRequestRewriteRule#source_address}
   */
   readonly sourceAddress: string;
 }
@@ -1076,11 +1076,11 @@ export interface LbHttpRequestRewriteRuleMethodCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#method LbHttpRequestRewriteRule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#method LbHttpRequestRewriteRule#method}
   */
   readonly method: string;
 }
@@ -1222,11 +1222,11 @@ export class LbHttpRequestRewriteRuleMethodConditionList extends cdktf.ComplexLi
 }
 export interface LbHttpRequestRewriteRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#scope LbHttpRequestRewriteRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#scope LbHttpRequestRewriteRule#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#tag LbHttpRequestRewriteRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#tag LbHttpRequestRewriteRule#tag}
   */
   readonly tag?: string;
 }
@@ -1373,11 +1373,11 @@ export interface LbHttpRequestRewriteRuleTcpCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#source_port LbHttpRequestRewriteRule#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#source_port LbHttpRequestRewriteRule#source_port}
   */
   readonly sourcePort: string;
 }
@@ -1521,23 +1521,23 @@ export interface LbHttpRequestRewriteRuleUriArgumentsCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri_arguments LbHttpRequestRewriteRule#uri_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri_arguments LbHttpRequestRewriteRule#uri_arguments}
   */
   readonly uriArguments: string;
 }
@@ -1736,23 +1736,23 @@ export interface LbHttpRequestRewriteRuleUriCondition {
   /**
   * If true, case is significant in condition matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#case_sensitive LbHttpRequestRewriteRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
   * Match type (STARTS_WITH, ENDS_WITH, EQUALS, CONTAINS, REGEX)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#match_type LbHttpRequestRewriteRule#match_type}
   */
   readonly matchType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri LbHttpRequestRewriteRule#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri LbHttpRequestRewriteRule#uri}
   */
   readonly uri: string;
 }
@@ -1949,11 +1949,11 @@ export class LbHttpRequestRewriteRuleUriConditionList extends cdktf.ComplexList 
 }
 export interface LbHttpRequestRewriteRuleUriRewriteAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri LbHttpRequestRewriteRule#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri LbHttpRequestRewriteRule#uri}
   */
   readonly uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#uri_arguments LbHttpRequestRewriteRule#uri_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#uri_arguments LbHttpRequestRewriteRule#uri_arguments}
   */
   readonly uriArguments?: string;
 }
@@ -2065,11 +2065,11 @@ export interface LbHttpRequestRewriteRuleVersionCondition {
   /**
   * Whether to reverse match result of this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#inverse LbHttpRequestRewriteRule#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#version LbHttpRequestRewriteRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#version LbHttpRequestRewriteRule#version}
   */
   readonly version: string;
 }
@@ -2179,7 +2179,7 @@ export class LbHttpRequestRewriteRuleVersionConditionOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule nsxt_lb_http_request_rewrite_rule}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule nsxt_lb_http_request_rewrite_rule}
 */
 export class LbHttpRequestRewriteRule extends cdktf.TerraformResource {
 
@@ -2195,7 +2195,7 @@ export class LbHttpRequestRewriteRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbHttpRequestRewriteRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbHttpRequestRewriteRule to import
-  * @param importFromId The id of the existing LbHttpRequestRewriteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbHttpRequestRewriteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbHttpRequestRewriteRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2207,7 +2207,7 @@ export class LbHttpRequestRewriteRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_http_request_rewrite_rule nsxt_lb_http_request_rewrite_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_http_request_rewrite_rule nsxt_lb_http_request_rewrite_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2218,8 +2218,8 @@ export class LbHttpRequestRewriteRule extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_http_request_rewrite_rule',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

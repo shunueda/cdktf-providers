@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface PolicyLbSourceIpPersistenceProfileConfig extends cdktf.Terrafor
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#description PolicyLbSourceIpPersistenceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#description PolicyLbSourceIpPersistenceProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#display_name PolicyLbSourceIpPersistenceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#display_name PolicyLbSourceIpPersistenceProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#ha_persistence_mirroring_enabled PolicyLbSourceIpPersistenceProfile#ha_persistence_mirroring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#ha_persistence_mirroring_enabled PolicyLbSourceIpPersistenceProfile#ha_persistence_mirroring_enabled}
   */
   readonly haPersistenceMirroringEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#id PolicyLbSourceIpPersistenceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#id PolicyLbSourceIpPersistenceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,35 +33,35 @@ export interface PolicyLbSourceIpPersistenceProfileConfig extends cdktf.Terrafor
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#nsx_id PolicyLbSourceIpPersistenceProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#nsx_id PolicyLbSourceIpPersistenceProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#persistence_shared PolicyLbSourceIpPersistenceProfile#persistence_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#persistence_shared PolicyLbSourceIpPersistenceProfile#persistence_shared}
   */
   readonly persistenceShared?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#purge PolicyLbSourceIpPersistenceProfile#purge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#purge PolicyLbSourceIpPersistenceProfile#purge}
   */
   readonly purge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#timeout PolicyLbSourceIpPersistenceProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#timeout PolicyLbSourceIpPersistenceProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#tag PolicyLbSourceIpPersistenceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#tag PolicyLbSourceIpPersistenceProfile#tag}
   */
   readonly tag?: PolicyLbSourceIpPersistenceProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyLbSourceIpPersistenceProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#scope PolicyLbSourceIpPersistenceProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#scope PolicyLbSourceIpPersistenceProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#tag PolicyLbSourceIpPersistenceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#tag PolicyLbSourceIpPersistenceProfile#tag}
   */
   readonly tag?: string;
 }
@@ -206,7 +206,7 @@ export class PolicyLbSourceIpPersistenceProfileTagList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile nsxt_policy_lb_source_ip_persistence_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile nsxt_policy_lb_source_ip_persistence_profile}
 */
 export class PolicyLbSourceIpPersistenceProfile extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class PolicyLbSourceIpPersistenceProfile extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PolicyLbSourceIpPersistenceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbSourceIpPersistenceProfile to import
-  * @param importFromId The id of the existing PolicyLbSourceIpPersistenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbSourceIpPersistenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbSourceIpPersistenceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class PolicyLbSourceIpPersistenceProfile extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_source_ip_persistence_profile nsxt_policy_lb_source_ip_persistence_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_source_ip_persistence_profile nsxt_policy_lb_source_ip_persistence_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class PolicyLbSourceIpPersistenceProfile extends cdktf.TerraformResource 
       terraformResourceType: 'nsxt_policy_lb_source_ip_persistence_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

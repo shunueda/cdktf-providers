@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MacManagementSwitchingProfileConfig extends cdktf.TerraformMeta
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#description MacManagementSwitchingProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#description MacManagementSwitchingProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#display_name MacManagementSwitchingProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#display_name MacManagementSwitchingProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#id MacManagementSwitchingProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#id MacManagementSwitchingProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface MacManagementSwitchingProfileConfig extends cdktf.TerraformMeta
   /**
   * Allowing source MAC address change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#mac_change_allowed MacManagementSwitchingProfile#mac_change_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#mac_change_allowed MacManagementSwitchingProfile#mac_change_allowed}
   */
   readonly macChangeAllowed?: boolean | cdktf.IResolvable;
   /**
   * mac_learning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#mac_learning MacManagementSwitchingProfile#mac_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#mac_learning MacManagementSwitchingProfile#mac_learning}
   */
   readonly macLearning?: MacManagementSwitchingProfileMacLearning;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#tag MacManagementSwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#tag MacManagementSwitchingProfile#tag}
   */
   readonly tag?: MacManagementSwitchingProfileTag[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface MacManagementSwitchingProfileMacLearning {
   /**
   * Allowing source MAC address learning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#enabled MacManagementSwitchingProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#enabled MacManagementSwitchingProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of MAC addresses that can be learned on this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#limit MacManagementSwitchingProfile#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#limit MacManagementSwitchingProfile#limit}
   */
   readonly limit?: number;
   /**
   * The policy after MAC Limit is exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#limit_policy MacManagementSwitchingProfile#limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#limit_policy MacManagementSwitchingProfile#limit_policy}
   */
   readonly limitPolicy?: string;
   /**
   * Allowing flooding for unlearned MAC for ingress traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#unicast_flooding_allowed MacManagementSwitchingProfile#unicast_flooding_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#unicast_flooding_allowed MacManagementSwitchingProfile#unicast_flooding_allowed}
   */
   readonly unicastFloodingAllowed?: boolean | cdktf.IResolvable;
 }
@@ -238,11 +238,11 @@ export class MacManagementSwitchingProfileMacLearningOutputReference extends cdk
 }
 export interface MacManagementSwitchingProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#scope MacManagementSwitchingProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#scope MacManagementSwitchingProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#tag MacManagementSwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#tag MacManagementSwitchingProfile#tag}
   */
   readonly tag?: string;
 }
@@ -387,7 +387,7 @@ export class MacManagementSwitchingProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile nsxt_mac_management_switching_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile nsxt_mac_management_switching_profile}
 */
 export class MacManagementSwitchingProfile extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class MacManagementSwitchingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MacManagementSwitchingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MacManagementSwitchingProfile to import
-  * @param importFromId The id of the existing MacManagementSwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MacManagementSwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MacManagementSwitchingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class MacManagementSwitchingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/mac_management_switching_profile nsxt_mac_management_switching_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/mac_management_switching_profile nsxt_mac_management_switching_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class MacManagementSwitchingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_mac_management_switching_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

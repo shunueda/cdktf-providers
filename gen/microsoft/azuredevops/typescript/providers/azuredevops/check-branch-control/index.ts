@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface CheckBranchControlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#allowed_branches CheckBranchControl#allowed_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#allowed_branches CheckBranchControl#allowed_branches}
   */
   readonly allowedBranches?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#display_name CheckBranchControl#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#display_name CheckBranchControl#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#id CheckBranchControl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#id CheckBranchControl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#ignore_unknown_protection_status CheckBranchControl#ignore_unknown_protection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#ignore_unknown_protection_status CheckBranchControl#ignore_unknown_protection_status}
   */
   readonly ignoreUnknownProtectionStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#project_id CheckBranchControl#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#project_id CheckBranchControl#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#target_resource_id CheckBranchControl#target_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#target_resource_id CheckBranchControl#target_resource_id}
   */
   readonly targetResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#target_resource_type CheckBranchControl#target_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#target_resource_type CheckBranchControl#target_resource_type}
   */
   readonly targetResourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#timeout CheckBranchControl#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#timeout CheckBranchControl#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#verify_branch_protection CheckBranchControl#verify_branch_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#verify_branch_protection CheckBranchControl#verify_branch_protection}
   */
   readonly verifyBranchProtection?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#timeouts CheckBranchControl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#timeouts CheckBranchControl#timeouts}
   */
   readonly timeouts?: CheckBranchControlTimeouts;
 }
 export interface CheckBranchControlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#create CheckBranchControl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#create CheckBranchControl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#delete CheckBranchControl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#delete CheckBranchControl#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#read CheckBranchControl#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#read CheckBranchControl#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#update CheckBranchControl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#update CheckBranchControl#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class CheckBranchControlTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control azuredevops_check_branch_control}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control azuredevops_check_branch_control}
 */
 export class CheckBranchControl extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class CheckBranchControl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckBranchControl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckBranchControl to import
-  * @param importFromId The id of the existing CheckBranchControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckBranchControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckBranchControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class CheckBranchControl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/check_branch_control azuredevops_check_branch_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/check_branch_control azuredevops_check_branch_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class CheckBranchControl extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_check_branch_control',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudApiGatewayUpstreamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#id DataTencentcloudApiGatewayUpstreams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#id DataTencentcloudApiGatewayUpstreams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudApiGatewayUpstreamsConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#result_output_file DataTencentcloudApiGatewayUpstreams#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#result_output_file DataTencentcloudApiGatewayUpstreams#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Backend channel ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#upstream_id DataTencentcloudApiGatewayUpstreams#upstream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#upstream_id DataTencentcloudApiGatewayUpstreams#upstream_id}
   */
   readonly upstreamId: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#filters DataTencentcloudApiGatewayUpstreams#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#filters DataTencentcloudApiGatewayUpstreams#filters}
   */
   readonly filters?: DataTencentcloudApiGatewayUpstreamsFilters[] | cdktf.IResolvable;
 }
@@ -132,13 +132,13 @@ export interface DataTencentcloudApiGatewayUpstreamsFilters {
   /**
   * Fields that need to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#name DataTencentcloudApiGatewayUpstreams#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#name DataTencentcloudApiGatewayUpstreams#name}
   */
   readonly name: string;
   /**
   * The filtering value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#values DataTencentcloudApiGatewayUpstreams#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#values DataTencentcloudApiGatewayUpstreams#values}
   */
   readonly values: string[];
 }
@@ -277,7 +277,7 @@ export class DataTencentcloudApiGatewayUpstreamsFiltersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams tencentcloud_api_gateway_upstreams}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams tencentcloud_api_gateway_upstreams}
 */
 export class DataTencentcloudApiGatewayUpstreams extends cdktf.TerraformDataSource {
 
@@ -293,7 +293,7 @@ export class DataTencentcloudApiGatewayUpstreams extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudApiGatewayUpstreams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudApiGatewayUpstreams to import
-  * @param importFromId The id of the existing DataTencentcloudApiGatewayUpstreams that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudApiGatewayUpstreams that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudApiGatewayUpstreams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class DataTencentcloudApiGatewayUpstreams extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/api_gateway_upstreams tencentcloud_api_gateway_upstreams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/api_gateway_upstreams tencentcloud_api_gateway_upstreams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class DataTencentcloudApiGatewayUpstreams extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_api_gateway_upstreams',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

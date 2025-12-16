@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCwpMachinesSimpleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#id DataTencentcloudCwpMachinesSimple#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#id DataTencentcloudCwpMachinesSimple#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudCwpMachinesSimpleConfig extends cdktf.Terraform
   /**
   * The area where the machine belongs,Such as: ap-guangzhou, ap-shanghai, all-regions: All server region types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#machine_region DataTencentcloudCwpMachinesSimple#machine_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#machine_region DataTencentcloudCwpMachinesSimple#machine_region}
   */
   readonly machineRegion: string;
   /**
   * Service types. -CVM: Cloud Virtual Machine; -ECM: Edge Computing Machine; -LH: Lighthouse; -Other: Mixed cloud; -ALL: All server types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#machine_type DataTencentcloudCwpMachinesSimple#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#machine_type DataTencentcloudCwpMachinesSimple#machine_type}
   */
   readonly machineType: string;
   /**
   * Project id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#project_ids DataTencentcloudCwpMachinesSimple#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#project_ids DataTencentcloudCwpMachinesSimple#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#result_output_file DataTencentcloudCwpMachinesSimple#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#result_output_file DataTencentcloudCwpMachinesSimple#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#filters DataTencentcloudCwpMachinesSimple#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#filters DataTencentcloudCwpMachinesSimple#filters}
   */
   readonly filters?: DataTencentcloudCwpMachinesSimpleFilters[] | cdktf.IResolvable;
 }
@@ -568,19 +568,19 @@ export interface DataTencentcloudCwpMachinesSimpleFilters {
   /**
   * exact match. true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#exact_match DataTencentcloudCwpMachinesSimple#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#exact_match DataTencentcloudCwpMachinesSimple#exact_match}
   */
   readonly exactMatch?: boolean | cdktf.IResolvable;
   /**
   * Only supported Keywords, Version and TagId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#name DataTencentcloudCwpMachinesSimple#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#name DataTencentcloudCwpMachinesSimple#name}
   */
   readonly name: string;
   /**
   * If `name` is `Keywords`: enter keyword query; If `name` is `Version`: enter PRO_VERSION: Professional Edition | BASIC_VERSION: Basic | Flagship: Flagship | ProtectedMachines: Professional+Flagship | UnFlagship: Non Flagship | PRO_POST_PAY: Professional Edition Pay by Volume | PRO_PRE_PAY: Professional Edition Monthly Package query; If `name` is `TagId`: enter tag ID query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#values DataTencentcloudCwpMachinesSimple#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#values DataTencentcloudCwpMachinesSimple#values}
   */
   readonly values: string[];
 }
@@ -748,7 +748,7 @@ export class DataTencentcloudCwpMachinesSimpleFiltersList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple tencentcloud_cwp_machines_simple}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple tencentcloud_cwp_machines_simple}
 */
 export class DataTencentcloudCwpMachinesSimple extends cdktf.TerraformDataSource {
 
@@ -764,7 +764,7 @@ export class DataTencentcloudCwpMachinesSimple extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudCwpMachinesSimple resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCwpMachinesSimple to import
-  * @param importFromId The id of the existing DataTencentcloudCwpMachinesSimple that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCwpMachinesSimple that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCwpMachinesSimple to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class DataTencentcloudCwpMachinesSimple extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cwp_machines_simple tencentcloud_cwp_machines_simple} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cwp_machines_simple tencentcloud_cwp_machines_simple} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class DataTencentcloudCwpMachinesSimple extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_cwp_machines_simple',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

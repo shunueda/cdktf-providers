@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PostgresqlAccountPrivilegesOperationConfig extends cdktf.Terraf
   /**
   * Instance ID in the format of postgres-4wdeb0zv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#db_instance_id PostgresqlAccountPrivilegesOperation#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#db_instance_id PostgresqlAccountPrivilegesOperation#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#id PostgresqlAccountPrivilegesOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#id PostgresqlAccountPrivilegesOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface PostgresqlAccountPrivilegesOperationConfig extends cdktf.Terraf
   /**
   * Instance username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#user_name PostgresqlAccountPrivilegesOperation#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#user_name PostgresqlAccountPrivilegesOperation#user_name}
   */
   readonly userName: string;
   /**
   * modify_privilege_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#modify_privilege_set PostgresqlAccountPrivilegesOperation#modify_privilege_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#modify_privilege_set PostgresqlAccountPrivilegesOperation#modify_privilege_set}
   */
   readonly modifyPrivilegeSet: PostgresqlAccountPrivilegesOperationModifyPrivilegeSet[] | cdktf.IResolvable;
 }
@@ -37,31 +37,31 @@ export interface PostgresqlAccountPrivilegesOperationModifyPrivilegeSetDatabaseP
   /**
   * Database name to which the database object belongs. This parameter is mandatory when ObjectType is not database. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#database_name PostgresqlAccountPrivilegesOperation#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#database_name PostgresqlAccountPrivilegesOperation#database_name}
   */
   readonly databaseName?: string;
   /**
   * Database object Name. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#object_name PostgresqlAccountPrivilegesOperation#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#object_name PostgresqlAccountPrivilegesOperation#object_name}
   */
   readonly objectName: string;
   /**
   * Supported database object types: account, database, schema, sequence, procedure, type, function, table, view, matview, column. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#object_type PostgresqlAccountPrivilegesOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#object_type PostgresqlAccountPrivilegesOperation#object_type}
   */
   readonly objectType: string;
   /**
   * Schema name to which the database object belongs. This parameter is mandatory when ObjectType is not database or schema. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#schema_name PostgresqlAccountPrivilegesOperation#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#schema_name PostgresqlAccountPrivilegesOperation#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Table name to which the database object belongs. This parameter is mandatory when ObjectType is column. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#table_name PostgresqlAccountPrivilegesOperation#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#table_name PostgresqlAccountPrivilegesOperation#table_name}
   */
   readonly tableName?: string;
 }
@@ -257,13 +257,13 @@ export interface PostgresqlAccountPrivilegesOperationModifyPrivilegeSetDatabaseP
   /**
   * Privileges the specific account has on database object. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#privilege_set PostgresqlAccountPrivilegesOperation#privilege_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#privilege_set PostgresqlAccountPrivilegesOperation#privilege_set}
   */
   readonly privilegeSet?: string[];
   /**
   * object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#object PostgresqlAccountPrivilegesOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#object PostgresqlAccountPrivilegesOperation#object}
   */
   readonly object?: PostgresqlAccountPrivilegesOperationModifyPrivilegeSetDatabasePrivilegeObject;
 }
@@ -378,19 +378,19 @@ export interface PostgresqlAccountPrivilegesOperationModifyPrivilegeSet {
   /**
   * Required only when ModifyType is revokeObject. When the parameter is true, revoking permissions will cascade. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#is_cascade PostgresqlAccountPrivilegesOperation#is_cascade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#is_cascade PostgresqlAccountPrivilegesOperation#is_cascade}
   */
   readonly isCascade?: boolean | cdktf.IResolvable;
   /**
   * Supported modification method: grantObject, revokeObject, alterRole. grantObject represents granting permissions on object, revokeObject represents revoking permissions on object, and alterRole represents modifying the account type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#modify_type PostgresqlAccountPrivilegesOperation#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#modify_type PostgresqlAccountPrivilegesOperation#modify_type}
   */
   readonly modifyType?: string;
   /**
   * database_privilege block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#database_privilege PostgresqlAccountPrivilegesOperation#database_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#database_privilege PostgresqlAccountPrivilegesOperation#database_privilege}
   */
   readonly databasePrivilege?: PostgresqlAccountPrivilegesOperationModifyPrivilegeSetDatabasePrivilege;
 }
@@ -564,7 +564,7 @@ export class PostgresqlAccountPrivilegesOperationModifyPrivilegeSetList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation tencentcloud_postgresql_account_privileges_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation tencentcloud_postgresql_account_privileges_operation}
 */
 export class PostgresqlAccountPrivilegesOperation extends cdktf.TerraformResource {
 
@@ -580,7 +580,7 @@ export class PostgresqlAccountPrivilegesOperation extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a PostgresqlAccountPrivilegesOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlAccountPrivilegesOperation to import
-  * @param importFromId The id of the existing PostgresqlAccountPrivilegesOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlAccountPrivilegesOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlAccountPrivilegesOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class PostgresqlAccountPrivilegesOperation extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_account_privileges_operation tencentcloud_postgresql_account_privileges_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_account_privileges_operation tencentcloud_postgresql_account_privileges_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class PostgresqlAccountPrivilegesOperation extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_postgresql_account_privileges_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

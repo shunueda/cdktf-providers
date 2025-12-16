@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_authentication_oauth_profile
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_authentication_oauth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnAuthenticationOauthProfileConfig extends 
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_authentication_oauth_profile#msg_vpn_name DataSolacebrokerMsgVpnAuthenticationOauthProfile#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_authentication_oauth_profile#msg_vpn_name DataSolacebrokerMsgVpnAuthenticationOauthProfile#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,13 +20,13 @@ export interface DataSolacebrokerMsgVpnAuthenticationOauthProfileConfig extends 
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_authentication_oauth_profile#oauth_profile_name DataSolacebrokerMsgVpnAuthenticationOauthProfile#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_authentication_oauth_profile#oauth_profile_name DataSolacebrokerMsgVpnAuthenticationOauthProfile#oauth_profile_name}
   */
   readonly oauthProfileName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile}
 */
 export class DataSolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.TerraformDataSource {
 
@@ -42,7 +42,7 @@ export class DataSolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.Terr
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnAuthenticationOauthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnAuthenticationOauthProfile to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnAuthenticationOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_authentication_oauth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnAuthenticationOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_authentication_oauth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnAuthenticationOauthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class DataSolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class DataSolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.Terr
       terraformResourceType: 'solacebroker_msg_vpn_authentication_oauth_profile',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

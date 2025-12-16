@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyMergeTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#blocking BranchPolicyMergeTypes#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#blocking BranchPolicyMergeTypes#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#enabled BranchPolicyMergeTypes#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#enabled BranchPolicyMergeTypes#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#id BranchPolicyMergeTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#id BranchPolicyMergeTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#project_id BranchPolicyMergeTypes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#project_id BranchPolicyMergeTypes#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#settings BranchPolicyMergeTypes#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#settings BranchPolicyMergeTypes#settings}
   */
   readonly settings: BranchPolicyMergeTypesSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#timeouts BranchPolicyMergeTypes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#timeouts BranchPolicyMergeTypes#timeouts}
   */
   readonly timeouts?: BranchPolicyMergeTypesTimeouts;
 }
 export interface BranchPolicyMergeTypesSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#match_type BranchPolicyMergeTypes#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#match_type BranchPolicyMergeTypes#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#repository_id BranchPolicyMergeTypes#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#repository_id BranchPolicyMergeTypes#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#repository_ref BranchPolicyMergeTypes#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#repository_ref BranchPolicyMergeTypes#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -223,25 +223,25 @@ export class BranchPolicyMergeTypesSettingsScopeList extends cdktf.ComplexList {
 }
 export interface BranchPolicyMergeTypesSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#allow_basic_no_fast_forward BranchPolicyMergeTypes#allow_basic_no_fast_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#allow_basic_no_fast_forward BranchPolicyMergeTypes#allow_basic_no_fast_forward}
   */
   readonly allowBasicNoFastForward?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#allow_rebase_and_fast_forward BranchPolicyMergeTypes#allow_rebase_and_fast_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#allow_rebase_and_fast_forward BranchPolicyMergeTypes#allow_rebase_and_fast_forward}
   */
   readonly allowRebaseAndFastForward?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#allow_rebase_with_merge BranchPolicyMergeTypes#allow_rebase_with_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#allow_rebase_with_merge BranchPolicyMergeTypes#allow_rebase_with_merge}
   */
   readonly allowRebaseWithMerge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#allow_squash BranchPolicyMergeTypes#allow_squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#allow_squash BranchPolicyMergeTypes#allow_squash}
   */
   readonly allowSquash?: boolean | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#scope BranchPolicyMergeTypes#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#scope BranchPolicyMergeTypes#scope}
   */
   readonly scope: BranchPolicyMergeTypesSettingsScope[] | cdktf.IResolvable;
 }
@@ -438,19 +438,19 @@ export class BranchPolicyMergeTypesSettingsOutputReference extends cdktf.Complex
 }
 export interface BranchPolicyMergeTypesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#create BranchPolicyMergeTypes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#create BranchPolicyMergeTypes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#delete BranchPolicyMergeTypes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#delete BranchPolicyMergeTypes#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#read BranchPolicyMergeTypes#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#read BranchPolicyMergeTypes#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#update BranchPolicyMergeTypes#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#update BranchPolicyMergeTypes#update}
   */
   readonly update?: string;
 }
@@ -631,7 +631,7 @@ export class BranchPolicyMergeTypesTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types azuredevops_branch_policy_merge_types}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types azuredevops_branch_policy_merge_types}
 */
 export class BranchPolicyMergeTypes extends cdktf.TerraformResource {
 
@@ -647,7 +647,7 @@ export class BranchPolicyMergeTypes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyMergeTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyMergeTypes to import
-  * @param importFromId The id of the existing BranchPolicyMergeTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyMergeTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyMergeTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +659,7 @@ export class BranchPolicyMergeTypes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_merge_types azuredevops_branch_policy_merge_types} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_merge_types azuredevops_branch_policy_merge_types} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +670,8 @@ export class BranchPolicyMergeTypes extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_merge_types',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VmTagsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#id VmTags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#id VmTags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface VmTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#instance_id VmTags#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#instance_id VmTags#instance_id}
   */
   readonly instanceId: string;
   /**
   * logical_port_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#logical_port_tag VmTags#logical_port_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#logical_port_tag VmTags#logical_port_tag}
   */
   readonly logicalPortTag?: VmTagsLogicalPortTag[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#tag VmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#tag VmTags#tag}
   */
   readonly tag?: VmTagsTag[] | cdktf.IResolvable;
 }
 export interface VmTagsLogicalPortTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#scope VmTags#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#scope VmTags#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#tag VmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#tag VmTags#tag}
   */
   readonly tag?: string;
 }
@@ -184,11 +184,11 @@ export class VmTagsLogicalPortTagList extends cdktf.ComplexList {
 }
 export interface VmTagsTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#scope VmTags#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#scope VmTags#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#tag VmTags#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#tag VmTags#tag}
   */
   readonly tag?: string;
 }
@@ -333,7 +333,7 @@ export class VmTagsTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags nsxt_vm_tags}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags nsxt_vm_tags}
 */
 export class VmTags extends cdktf.TerraformResource {
 
@@ -349,7 +349,7 @@ export class VmTags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmTags to import
-  * @param importFromId The id of the existing VmTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -361,7 +361,7 @@ export class VmTags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vm_tags nsxt_vm_tags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vm_tags nsxt_vm_tags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -372,8 +372,8 @@ export class VmTags extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vm_tags',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

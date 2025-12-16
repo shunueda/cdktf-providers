@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudWedataDataBackfillPlanConfig extends cdktf.Terr
   /**
   * Backfill Plan ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan#data_backfill_plan_id DataTencentcloudWedataDataBackfillPlan#data_backfill_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan#data_backfill_plan_id DataTencentcloudWedataDataBackfillPlan#data_backfill_plan_id}
   */
   readonly dataBackfillPlanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan#id DataTencentcloudWedataDataBackfillPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan#id DataTencentcloudWedataDataBackfillPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudWedataDataBackfillPlanConfig extends cdktf.Terr
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan#project_id DataTencentcloudWedataDataBackfillPlan#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan#project_id DataTencentcloudWedataDataBackfillPlan#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan#result_output_file DataTencentcloudWedataDataBackfillPlan#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan#result_output_file DataTencentcloudWedataDataBackfillPlan#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Display time zone, default UTC+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan#time_zone DataTencentcloudWedataDataBackfillPlan#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan#time_zone DataTencentcloudWedataDataBackfillPlan#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -378,7 +378,7 @@ export class DataTencentcloudWedataDataBackfillPlanDataList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan tencentcloud_wedata_data_backfill_plan}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan tencentcloud_wedata_data_backfill_plan}
 */
 export class DataTencentcloudWedataDataBackfillPlan extends cdktf.TerraformDataSource {
 
@@ -394,7 +394,7 @@ export class DataTencentcloudWedataDataBackfillPlan extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudWedataDataBackfillPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataDataBackfillPlan to import
-  * @param importFromId The id of the existing DataTencentcloudWedataDataBackfillPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataDataBackfillPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataDataBackfillPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class DataTencentcloudWedataDataBackfillPlan extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_backfill_plan tencentcloud_wedata_data_backfill_plan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/wedata_data_backfill_plan tencentcloud_wedata_data_backfill_plan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class DataTencentcloudWedataDataBackfillPlan extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_wedata_data_backfill_plan',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

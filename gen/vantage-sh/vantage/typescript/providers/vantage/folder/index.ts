@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FolderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Token of the folder's parent folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder#parent_folder_token Folder#parent_folder_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder#parent_folder_token Folder#parent_folder_token}
   */
   readonly parentFolderToken?: string;
   /**
   * Title of the folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder#title Folder#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder#title Folder#title}
   */
   readonly title: string;
   /**
   * Workspace token to add the cost report to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder#workspace_token Folder#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder#workspace_token Folder#workspace_token}
   */
   readonly workspaceToken?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder vantage_folder}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder vantage_folder}
 */
 export class Folder extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Folder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Folder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Folder to import
-  * @param importFromId The id of the existing Folder that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Folder that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Folder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Folder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/folder vantage_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/folder vantage_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Folder extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_folder',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

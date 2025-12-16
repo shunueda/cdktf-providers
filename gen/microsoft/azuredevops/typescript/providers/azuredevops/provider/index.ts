@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface AzuredevopsProviderConfig {
   /**
   * List of auxiliary Tenant IDs required for multi-tenancy and cross-tenant scenarios.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#auxiliary_tenant_ids AzuredevopsProvider#auxiliary_tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#auxiliary_tenant_ids AzuredevopsProvider#auxiliary_tenant_ids}
   */
   readonly auxiliaryTenantIds?: string[];
   /**
   * Base64 encoded certificate to use to authenticate to the service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_certificate AzuredevopsProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_certificate AzuredevopsProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Password for a client certificate password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_certificate_password AzuredevopsProvider#client_certificate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_certificate_password AzuredevopsProvider#client_certificate_password}
   */
   readonly clientCertificatePassword?: string;
   /**
   * Path to a certificate to use to authenticate to the service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_certificate_path AzuredevopsProvider#client_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_certificate_path AzuredevopsProvider#client_certificate_path}
   */
   readonly clientCertificatePath?: string;
   /**
   * The service principal client id which should be used for AAD auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_id AzuredevopsProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_id AzuredevopsProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The path to a file containing the Client ID which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_id_file_path AzuredevopsProvider#client_id_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_id_file_path AzuredevopsProvider#client_id_file_path}
   */
   readonly clientIdFilePath?: string;
   /**
   * Client secret for authenticating to  a service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_secret AzuredevopsProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_secret AzuredevopsProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Path to a file containing a client secret for authenticating to  a service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#client_secret_path AzuredevopsProvider#client_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#client_secret_path AzuredevopsProvider#client_secret_path}
   */
   readonly clientSecretPath?: string;
   /**
   * The Azure Pipelines Service Connection ID to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#oidc_azure_service_connection_id AzuredevopsProvider#oidc_azure_service_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#oidc_azure_service_connection_id AzuredevopsProvider#oidc_azure_service_connection_id}
   */
   readonly oidcAzureServiceConnectionId?: string;
   /**
   * The bearer token for the request to the OIDC provider. For use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#oidc_request_token AzuredevopsProvider#oidc_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#oidc_request_token AzuredevopsProvider#oidc_request_token}
   */
   readonly oidcRequestToken?: string;
   /**
   * The URL for the OIDC provider from which to request an ID token. For use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#oidc_request_url AzuredevopsProvider#oidc_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#oidc_request_url AzuredevopsProvider#oidc_request_url}
   */
   readonly oidcRequestUrl?: string;
   /**
   * OIDC token to authenticate as a service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#oidc_token AzuredevopsProvider#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#oidc_token AzuredevopsProvider#oidc_token}
   */
   readonly oidcToken?: string;
   /**
   * OIDC token from file to authenticate as a service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#oidc_token_file_path AzuredevopsProvider#oidc_token_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#oidc_token_file_path AzuredevopsProvider#oidc_token_file_path}
   */
   readonly oidcTokenFilePath?: string;
   /**
   * The url of the Azure DevOps instance which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#org_service_url AzuredevopsProvider#org_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#org_service_url AzuredevopsProvider#org_service_url}
   */
   readonly orgServiceUrl?: string;
   /**
   * The personal access token which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#personal_access_token AzuredevopsProvider#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#personal_access_token AzuredevopsProvider#personal_access_token}
   */
   readonly personalAccessToken?: string;
   /**
   * The service principal tenant id which should be used for AAD auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#tenant_id AzuredevopsProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#tenant_id AzuredevopsProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Use Azure CLI to authenticate. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#use_cli AzuredevopsProvider#use_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#use_cli AzuredevopsProvider#use_cli}
   */
   readonly useCli?: boolean | cdktf.IResolvable;
   /**
   * Use an Azure Managed Service Identity. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#use_msi AzuredevopsProvider#use_msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#use_msi AzuredevopsProvider#use_msi}
   */
   readonly useMsi?: boolean | cdktf.IResolvable;
   /**
   * Use an OIDC token to authenticate to a service principal. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#use_oidc AzuredevopsProvider#use_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#use_oidc AzuredevopsProvider#use_oidc}
   */
   readonly useOidc?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#alias AzuredevopsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#alias AzuredevopsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs azuredevops}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs azuredevops}
 */
 export class AzuredevopsProvider extends cdktf.TerraformProvider {
 
@@ -146,7 +146,7 @@ export class AzuredevopsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AzuredevopsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzuredevopsProvider to import
-  * @param importFromId The id of the existing AzuredevopsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzuredevopsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzuredevopsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class AzuredevopsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs azuredevops} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs azuredevops} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class AzuredevopsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'azuredevops',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       terraformProviderSource: 'microsoft/azuredevops'
     });

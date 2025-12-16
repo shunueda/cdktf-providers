@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerDmrClusterLinkAttributeConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute#attribute_name SolacebrokerDmrClusterLinkAttribute#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute#attribute_name SolacebrokerDmrClusterLinkAttribute#attribute_name}
   */
   readonly attributeName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerDmrClusterLinkAttributeConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute#attribute_value SolacebrokerDmrClusterLinkAttribute#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute#attribute_value SolacebrokerDmrClusterLinkAttribute#attribute_value}
   */
   readonly attributeValue: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerDmrClusterLinkAttributeConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute#dmr_cluster_name SolacebrokerDmrClusterLinkAttribute#dmr_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute#dmr_cluster_name SolacebrokerDmrClusterLinkAttribute#dmr_cluster_name}
   */
   readonly dmrClusterName: string;
   /**
@@ -36,13 +36,13 @@ export interface SolacebrokerDmrClusterLinkAttributeConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute#remote_node_name SolacebrokerDmrClusterLinkAttribute#remote_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute#remote_node_name SolacebrokerDmrClusterLinkAttribute#remote_node_name}
   */
   readonly remoteNodeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute solacebroker_dmr_cluster_link_attribute}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute solacebroker_dmr_cluster_link_attribute}
 */
 export class SolacebrokerDmrClusterLinkAttribute extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class SolacebrokerDmrClusterLinkAttribute extends cdktf.TerraformResource
   * Generates CDKTF code for importing a SolacebrokerDmrClusterLinkAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerDmrClusterLinkAttribute to import
-  * @param importFromId The id of the existing SolacebrokerDmrClusterLinkAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerDmrClusterLinkAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerDmrClusterLinkAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class SolacebrokerDmrClusterLinkAttribute extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster_link_attribute solacebroker_dmr_cluster_link_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster_link_attribute solacebroker_dmr_cluster_link_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class SolacebrokerDmrClusterLinkAttribute extends cdktf.TerraformResource
       terraformResourceType: 'solacebroker_dmr_cluster_link_attribute',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

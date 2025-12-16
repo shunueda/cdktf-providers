@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyL7AccessProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#default_action PolicyL7AccessProfile#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#default_action PolicyL7AccessProfile#default_action}
   */
   readonly defaultAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#default_action_logged PolicyL7AccessProfile#default_action_logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#default_action_logged PolicyL7AccessProfile#default_action_logged}
   */
   readonly defaultActionLogged?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#description PolicyL7AccessProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#description PolicyL7AccessProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#display_name PolicyL7AccessProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#display_name PolicyL7AccessProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#id PolicyL7AccessProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#id PolicyL7AccessProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,25 +37,25 @@ export interface PolicyL7AccessProfileConfig extends cdktf.TerraformMetaArgument
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#nsx_id PolicyL7AccessProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#nsx_id PolicyL7AccessProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#context PolicyL7AccessProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#context PolicyL7AccessProfile#context}
   */
   readonly context?: PolicyL7AccessProfileContext;
   /**
   * l7_access_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#l7_access_entry PolicyL7AccessProfile#l7_access_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#l7_access_entry PolicyL7AccessProfile#l7_access_entry}
   */
   readonly l7AccessEntry?: PolicyL7AccessProfileL7AccessEntry[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#tag PolicyL7AccessProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#tag PolicyL7AccessProfile#tag}
   */
   readonly tag?: PolicyL7AccessProfileTag[] | cdktf.IResolvable;
 }
@@ -63,7 +63,7 @@ export interface PolicyL7AccessProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#project_id PolicyL7AccessProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#project_id PolicyL7AccessProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -144,11 +144,11 @@ export class PolicyL7AccessProfileContextOutputReference extends cdktf.ComplexOb
 }
 export interface PolicyL7AccessProfileL7AccessEntryAttributeMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#key PolicyL7AccessProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#key PolicyL7AccessProfile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#value PolicyL7AccessProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#value PolicyL7AccessProfile#value}
   */
   readonly value: string;
 }
@@ -289,13 +289,13 @@ export interface PolicyL7AccessProfileL7AccessEntryAttributeSubAttribute {
   /**
   * Key for sub attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#key PolicyL7AccessProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#key PolicyL7AccessProfile#key}
   */
   readonly key: string;
   /**
   * Value for sub attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#values PolicyL7AccessProfile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#values PolicyL7AccessProfile#values}
   */
   readonly values: string[];
 }
@@ -436,49 +436,49 @@ export interface PolicyL7AccessProfileL7AccessEntryAttribute {
   /**
   * Source of attribute value i.e whether system defined or custom value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#attribute_source PolicyL7AccessProfile#attribute_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#attribute_source PolicyL7AccessProfile#attribute_source}
   */
   readonly attributeSource?: string;
   /**
   * true value would be treated as a partial match for custom url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#custom_url_partial_match PolicyL7AccessProfile#custom_url_partial_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#custom_url_partial_match PolicyL7AccessProfile#custom_url_partial_match}
   */
   readonly customUrlPartialMatch?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#description PolicyL7AccessProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#description PolicyL7AccessProfile#description}
   */
   readonly description?: string;
   /**
   * Is the value ALG type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#is_alg_type PolicyL7AccessProfile#is_alg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#is_alg_type PolicyL7AccessProfile#is_alg_type}
   */
   readonly isAlgType?: boolean | cdktf.IResolvable;
   /**
   * Key for attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#key PolicyL7AccessProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#key PolicyL7AccessProfile#key}
   */
   readonly key: string;
   /**
   * Value for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#values PolicyL7AccessProfile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#values PolicyL7AccessProfile#values}
   */
   readonly values: string[];
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#metadata PolicyL7AccessProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#metadata PolicyL7AccessProfile#metadata}
   */
   readonly metadata?: PolicyL7AccessProfileL7AccessEntryAttributeMetadata[] | cdktf.IResolvable;
   /**
   * sub_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#sub_attribute PolicyL7AccessProfile#sub_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#sub_attribute PolicyL7AccessProfile#sub_attribute}
   */
   readonly subAttribute?: PolicyL7AccessProfileL7AccessEntryAttributeSubAttribute[] | cdktf.IResolvable;
 }
@@ -759,49 +759,49 @@ export class PolicyL7AccessProfileL7AccessEntryAttributeOutputReference extends 
 }
 export interface PolicyL7AccessProfileL7AccessEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#action PolicyL7AccessProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#action PolicyL7AccessProfile#action}
   */
   readonly action: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#description PolicyL7AccessProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#description PolicyL7AccessProfile#description}
   */
   readonly description?: string;
   /**
   * Flag to deactivate the entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#disabled PolicyL7AccessProfile#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#disabled PolicyL7AccessProfile#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#display_name PolicyL7AccessProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#display_name PolicyL7AccessProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * Enable logging flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#logged PolicyL7AccessProfile#logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#logged PolicyL7AccessProfile#logged}
   */
   readonly logged?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#nsx_id PolicyL7AccessProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#nsx_id PolicyL7AccessProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy L7 Access Entry Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#sequence_number PolicyL7AccessProfile#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#sequence_number PolicyL7AccessProfile#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#attribute PolicyL7AccessProfile#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#attribute PolicyL7AccessProfile#attribute}
   */
   readonly attribute?: PolicyL7AccessProfileL7AccessEntryAttribute;
 }
@@ -1127,11 +1127,11 @@ export class PolicyL7AccessProfileL7AccessEntryList extends cdktf.ComplexList {
 }
 export interface PolicyL7AccessProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#scope PolicyL7AccessProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#scope PolicyL7AccessProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#tag PolicyL7AccessProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#tag PolicyL7AccessProfile#tag}
   */
   readonly tag?: string;
 }
@@ -1276,7 +1276,7 @@ export class PolicyL7AccessProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile nsxt_policy_l7_access_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile nsxt_policy_l7_access_profile}
 */
 export class PolicyL7AccessProfile extends cdktf.TerraformResource {
 
@@ -1292,7 +1292,7 @@ export class PolicyL7AccessProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyL7AccessProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyL7AccessProfile to import
-  * @param importFromId The id of the existing PolicyL7AccessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyL7AccessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyL7AccessProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1304,7 +1304,7 @@ export class PolicyL7AccessProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l7_access_profile nsxt_policy_l7_access_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l7_access_profile nsxt_policy_l7_access_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1315,8 +1315,8 @@ export class PolicyL7AccessProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_l7_access_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbServerSslProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Supported SSL cipher list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#ciphers LbServerSslProfile#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#ciphers LbServerSslProfile#ciphers}
   */
   readonly ciphers?: string[];
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#description LbServerSslProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#description LbServerSslProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#display_name LbServerSslProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#display_name LbServerSslProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#id LbServerSslProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#id LbServerSslProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,29 +35,29 @@ export interface LbServerSslProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSL versions TLS1.1 and TLS1.2 are supported and enabled by default. SSLv2, SSLv3, and TLS1.0 are supported, but disabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#protocols LbServerSslProfile#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#protocols LbServerSslProfile#protocols}
   */
   readonly protocols?: string[];
   /**
   * Reuse previously negotiated security parameters during handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#session_cache_enabled LbServerSslProfile#session_cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#session_cache_enabled LbServerSslProfile#session_cache_enabled}
   */
   readonly sessionCacheEnabled?: boolean | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#tag LbServerSslProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#tag LbServerSslProfile#tag}
   */
   readonly tag?: LbServerSslProfileTag[] | cdktf.IResolvable;
 }
 export interface LbServerSslProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#scope LbServerSslProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#scope LbServerSslProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#tag LbServerSslProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#tag LbServerSslProfile#tag}
   */
   readonly tag?: string;
 }
@@ -202,7 +202,7 @@ export class LbServerSslProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile nsxt_lb_server_ssl_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile nsxt_lb_server_ssl_profile}
 */
 export class LbServerSslProfile extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class LbServerSslProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbServerSslProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbServerSslProfile to import
-  * @param importFromId The id of the existing LbServerSslProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbServerSslProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbServerSslProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class LbServerSslProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_server_ssl_profile nsxt_lb_server_ssl_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_server_ssl_profile nsxt_lb_server_ssl_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class LbServerSslProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_server_ssl_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

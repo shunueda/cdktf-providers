@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#msg_vpn_name DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#msg_vpn_name DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#queue_binding_name DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding#queue_binding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#queue_binding_name DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding#queue_binding_name}
   */
   readonly queueBindingName: string;
   /**
@@ -28,13 +28,13 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointQueueBindingConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#rest_delivery_point_name DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding#rest_delivery_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#rest_delivery_point_name DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding#rest_delivery_point_name}
   */
   readonly restDeliveryPointName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding}
 */
 export class DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.T
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_rest_delivery_point_queue_binding solacebroker_msg_vpn_rest_delivery_point_queue_binding} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataSolacebrokerMsgVpnRestDeliveryPointQueueBinding extends cdktf.T
       terraformResourceType: 'solacebroker_msg_vpn_rest_delivery_point_queue_binding',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

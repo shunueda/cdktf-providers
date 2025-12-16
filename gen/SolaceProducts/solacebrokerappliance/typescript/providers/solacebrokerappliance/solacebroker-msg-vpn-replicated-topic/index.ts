@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnReplicatedTopicConfig extends cdktf.Terraform
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic#msg_vpn_name SolacebrokerMsgVpnReplicatedTopic#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic#msg_vpn_name SolacebrokerMsgVpnReplicatedTopic#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnReplicatedTopicConfig extends cdktf.Terraform
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic#replicated_topic SolacebrokerMsgVpnReplicatedTopic#replicated_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic#replicated_topic SolacebrokerMsgVpnReplicatedTopic#replicated_topic}
   */
   readonly replicatedTopic: string;
   /**
@@ -34,13 +34,13 @@ export interface SolacebrokerMsgVpnReplicatedTopicConfig extends cdktf.Terraform
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic#replication_mode SolacebrokerMsgVpnReplicatedTopic#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic#replication_mode SolacebrokerMsgVpnReplicatedTopic#replication_mode}
   */
   readonly replicationMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic solacebroker_msg_vpn_replicated_topic}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic solacebroker_msg_vpn_replicated_topic}
 */
 export class SolacebrokerMsgVpnReplicatedTopic extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SolacebrokerMsgVpnReplicatedTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerMsgVpnReplicatedTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnReplicatedTopic to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnReplicatedTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnReplicatedTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnReplicatedTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SolacebrokerMsgVpnReplicatedTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_replicated_topic solacebroker_msg_vpn_replicated_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_replicated_topic solacebroker_msg_vpn_replicated_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SolacebrokerMsgVpnReplicatedTopic extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_replicated_topic',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

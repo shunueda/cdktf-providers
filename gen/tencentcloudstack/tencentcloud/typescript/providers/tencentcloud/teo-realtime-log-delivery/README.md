@@ -1,3 +1,3 @@
 # `tencentcloud_teo_realtime_log_delivery`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_teo_realtime_log_delivery`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_realtime_log_delivery).
+Refer to the Terraform Registry for docs: [`tencentcloud_teo_realtime_log_delivery`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_realtime_log_delivery).

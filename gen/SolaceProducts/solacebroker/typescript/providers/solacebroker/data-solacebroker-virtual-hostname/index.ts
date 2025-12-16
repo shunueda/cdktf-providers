@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/virtual_hostname
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/virtual_hostname
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,13 +12,13 @@ export interface DataSolacebrokerVirtualHostnameConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/virtual_hostname#virtual_hostname DataSolacebrokerVirtualHostname#virtual_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/virtual_hostname#virtual_hostname DataSolacebrokerVirtualHostname#virtual_hostname}
   */
   readonly virtualHostname: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/virtual_hostname solacebroker_virtual_hostname}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/virtual_hostname solacebroker_virtual_hostname}
 */
 export class DataSolacebrokerVirtualHostname extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataSolacebrokerVirtualHostname extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolacebrokerVirtualHostname resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerVirtualHostname to import
-  * @param importFromId The id of the existing DataSolacebrokerVirtualHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/virtual_hostname#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerVirtualHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/virtual_hostname#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerVirtualHostname to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataSolacebrokerVirtualHostname extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/virtual_hostname solacebroker_virtual_hostname} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/virtual_hostname solacebroker_virtual_hostname} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataSolacebrokerVirtualHostname extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_virtual_hostname',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3,25 +3,25 @@ export interface ApplicationSetMetadata {
   /**
   * An unstructured key value map stored with the applicationsets.argoproj.io that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the applicationsets.argoproj.io. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the applicationsets.argoproj.io, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Namespace of the applicationsets.argoproj.io, must be unique. Cannot be updated. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -209,19 +209,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceLabelSelector
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#key ApplicationSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#key ApplicationSet#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#operator ApplicationSet#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#operator ApplicationSet#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: string[];
 }
@@ -397,13 +397,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceLabelSelector
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#match_labels ApplicationSet#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#match_labels ApplicationSet#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#match_expressions ApplicationSet#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#match_expressions ApplicationSet#match_expressions}
   */
   readonly matchExpressions?: ApplicationSetSpecGeneratorClusterDecisionResourceLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -518,31 +518,31 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateMetad
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#finalizers ApplicationSet#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#finalizers ApplicationSet#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -744,19 +744,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecD
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#server ApplicationSet#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#server ApplicationSet#server}
   */
   readonly server?: string;
 }
@@ -900,43 +900,43 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecI
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * List of external controller manager names whose changes to fields should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -1228,13 +1228,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecI
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -1381,19 +1381,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -1569,19 +1569,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -1757,19 +1757,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#libs ApplicationSet#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#libs ApplicationSet#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ext_var ApplicationSet#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ext_var ApplicationSet#ext_var}
   */
   readonly extVar?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#tla ApplicationSet#tla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#tla ApplicationSet#tla}
   */
   readonly tla?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceDirectoryJsonnetTla[] | cdktf.IResolvable;
 }
@@ -1913,25 +1913,25 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#exclude ApplicationSet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#exclude ApplicationSet#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#include ApplicationSet#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#include ApplicationSet#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#recurse ApplicationSet#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#recurse ApplicationSet#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
   */
   readonly jsonnet?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceDirectoryJsonnet;
 }
@@ -2104,13 +2104,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }
@@ -2251,19 +2251,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#force_string ApplicationSet#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#force_string ApplicationSet#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -2439,55 +2439,55 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#release_name ApplicationSet#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#release_name ApplicationSet#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value_files ApplicationSet#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value_files ApplicationSet#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: string;
   /**
   * The Helm version to use for templating. Accepts either `v2` or `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * file_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
   */
   readonly fileParameter?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceHelmFileParameter[] | cdktf.IResolvable;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#parameter ApplicationSet#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#parameter ApplicationSet#parameter}
   */
   readonly parameter?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceHelmParameter[] | cdktf.IResolvable;
 }
@@ -2805,43 +2805,43 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Annotation selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * Label selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#label_selector ApplicationSet#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#label_selector ApplicationSet#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * The Kubernetes resource Version to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
 }
@@ -3101,25 +3101,25 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Additional [options](https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/patches/#name-and-kind-changes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#options ApplicationSet#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#options ApplicationSet#options}
   */
   readonly options?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * Inline Kustomize patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patch ApplicationSet#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patch ApplicationSet#patch}
   */
   readonly patch?: string;
   /**
   * Path to a file containing the patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target ApplicationSet#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target ApplicationSet#target}
   */
   readonly target: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -3321,43 +3321,43 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_labels ApplicationSet#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_labels ApplicationSet#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#images ApplicationSet#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#images ApplicationSet#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * patches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patches ApplicationSet#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patches ApplicationSet#patches}
   */
   readonly patches?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
 }
@@ -3617,13 +3617,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -3770,13 +3770,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#env ApplicationSet#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#env ApplicationSet#env}
   */
   readonly env?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -3891,61 +3891,61 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#chart ApplicationSet#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#chart ApplicationSet#chart}
   */
   readonly chart?: string;
   /**
   * Name is used to refer to a source and is displayed in the UI. It is supported in multi-source Applications since version 2.14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ref ApplicationSet#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ref ApplicationSet#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#repo_url ApplicationSet#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#repo_url ApplicationSet#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target_revision ApplicationSet#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target_revision ApplicationSet#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#directory ApplicationSet#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#directory ApplicationSet#directory}
   */
   readonly directory?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#helm ApplicationSet#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#helm ApplicationSet#helm}
   */
   readonly helm?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kustomize ApplicationSet#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kustomize ApplicationSet#kustomize}
   */
   readonly kustomize?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#plugin ApplicationSet#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#plugin ApplicationSet#plugin}
   */
   readonly plugin?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSourcePlugin;
 }
@@ -4324,19 +4324,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#prune ApplicationSet#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#prune ApplicationSet#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#self_heal ApplicationSet#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#self_heal ApplicationSet#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -4480,13 +4480,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -4601,19 +4601,19 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#duration ApplicationSet#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#duration ApplicationSet#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#factor ApplicationSet#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#factor ApplicationSet#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#max_duration ApplicationSet#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#max_duration ApplicationSet#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -4757,13 +4757,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#limit ApplicationSet#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#limit ApplicationSet#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#backoff ApplicationSet#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#backoff ApplicationSet#backoff}
   */
   readonly backoff?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -4878,25 +4878,25 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecS
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_options ApplicationSet#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_options ApplicationSet#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#automated ApplicationSet#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#automated ApplicationSet#automated}
   */
   readonly automated?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#retry ApplicationSet#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#retry ApplicationSet#retry}
   */
   readonly retry?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSyncPolicyRetry;
 }
@@ -5069,43 +5069,43 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpec 
   /**
   * The project the application belongs to. Defaults to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#project ApplicationSet#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#project ApplicationSet#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#destination ApplicationSet#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#destination ApplicationSet#destination}
   */
   readonly destination?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
   */
   readonly ignoreDifference?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#info ApplicationSet#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#info ApplicationSet#info}
   */
   readonly info?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#source ApplicationSet#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#source ApplicationSet#source}
   */
   readonly source?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
   */
   readonly syncPolicy?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpecSyncPolicy;
 }
@@ -5365,13 +5365,13 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResourceTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#metadata ApplicationSet#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#metadata ApplicationSet#metadata}
   */
   readonly metadata?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#spec ApplicationSet#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#spec ApplicationSet#spec}
   */
   readonly spec?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplateSpec;
 }
@@ -5486,37 +5486,37 @@ export interface ApplicationSetSpecGeneratorClusterDecisionResource {
   /**
   * ConfigMap with the duck type definitions needed to retrieve the data this includes apiVersion(group/version), kind, matchKey and validation settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#config_map_ref ApplicationSet#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#config_map_ref ApplicationSet#config_map_ref}
   */
   readonly configMapRef: string;
   /**
   * Resource name of the kind, group and version, defined in the `config_map_ref`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * How often to check for changes (in seconds). Default: 3min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#requeue_after_seconds ApplicationSet#requeue_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#requeue_after_seconds ApplicationSet#requeue_after_seconds}
   */
   readonly requeueAfterSeconds?: string;
   /**
   * Arbitrary string key-value pairs which are passed directly as parameters to the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: { [key: string]: string };
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#label_selector ApplicationSet#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#label_selector ApplicationSet#label_selector}
   */
   readonly labelSelector?: ApplicationSetSpecGeneratorClusterDecisionResourceLabelSelector;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#template ApplicationSet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#template ApplicationSet#template}
   */
   readonly template?: ApplicationSetSpecGeneratorClusterDecisionResourceTemplate;
 }
@@ -5776,19 +5776,19 @@ export interface ApplicationSetSpecGeneratorClustersSelectorMatchExpressions {
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#key ApplicationSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#key ApplicationSet#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#operator ApplicationSet#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#operator ApplicationSet#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: string[];
 }
@@ -5964,13 +5964,13 @@ export interface ApplicationSetSpecGeneratorClustersSelector {
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#match_labels ApplicationSet#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#match_labels ApplicationSet#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#match_expressions ApplicationSet#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#match_expressions ApplicationSet#match_expressions}
   */
   readonly matchExpressions?: ApplicationSetSpecGeneratorClustersSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -6085,31 +6085,31 @@ export interface ApplicationSetSpecGeneratorClustersTemplateMetadata {
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#finalizers ApplicationSet#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#finalizers ApplicationSet#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -6311,19 +6311,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecDestination {
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#server ApplicationSet#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#server ApplicationSet#server}
   */
   readonly server?: string;
 }
@@ -6467,43 +6467,43 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecIgnoreDifference
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * List of external controller manager names whose changes to fields should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -6795,13 +6795,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecInfo {
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -6948,19 +6948,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectoryJ
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -7136,19 +7136,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectoryJ
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -7324,19 +7324,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectoryJ
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#libs ApplicationSet#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#libs ApplicationSet#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ext_var ApplicationSet#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ext_var ApplicationSet#ext_var}
   */
   readonly extVar?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#tla ApplicationSet#tla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#tla ApplicationSet#tla}
   */
   readonly tla?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectoryJsonnetTla[] | cdktf.IResolvable;
 }
@@ -7480,25 +7480,25 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectory 
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#exclude ApplicationSet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#exclude ApplicationSet#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#include ApplicationSet#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#include ApplicationSet#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#recurse ApplicationSet#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#recurse ApplicationSet#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
   */
   readonly jsonnet?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectoryJsonnet;
 }
@@ -7671,13 +7671,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceHelmFilePa
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }
@@ -7818,19 +7818,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceHelmParame
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#force_string ApplicationSet#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#force_string ApplicationSet#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -8006,55 +8006,55 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceHelm {
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#release_name ApplicationSet#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#release_name ApplicationSet#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value_files ApplicationSet#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value_files ApplicationSet#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: string;
   /**
   * The Helm version to use for templating. Accepts either `v2` or `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * file_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
   */
   readonly fileParameter?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceHelmFileParameter[] | cdktf.IResolvable;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#parameter ApplicationSet#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#parameter ApplicationSet#parameter}
   */
   readonly parameter?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceHelmParameter[] | cdktf.IResolvable;
 }
@@ -8372,43 +8372,43 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceKustomizeP
   /**
   * Annotation selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * Label selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#label_selector ApplicationSet#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#label_selector ApplicationSet#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * The Kubernetes resource Version to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
 }
@@ -8668,25 +8668,25 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceKustomizeP
   /**
   * Additional [options](https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/patches/#name-and-kind-changes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#options ApplicationSet#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#options ApplicationSet#options}
   */
   readonly options?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * Inline Kustomize patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patch ApplicationSet#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patch ApplicationSet#patch}
   */
   readonly patch?: string;
   /**
   * Path to a file containing the patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target ApplicationSet#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target ApplicationSet#target}
   */
   readonly target: ApplicationSetSpecGeneratorClustersTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -8888,43 +8888,43 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourceKustomize 
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_labels ApplicationSet#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_labels ApplicationSet#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#images ApplicationSet#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#images ApplicationSet#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * patches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patches ApplicationSet#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patches ApplicationSet#patches}
   */
   readonly patches?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
 }
@@ -9184,13 +9184,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourcePluginEnv 
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -9337,13 +9337,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSourcePlugin {
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#env ApplicationSet#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#env ApplicationSet#env}
   */
   readonly env?: ApplicationSetSpecGeneratorClustersTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -9458,61 +9458,61 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSource {
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#chart ApplicationSet#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#chart ApplicationSet#chart}
   */
   readonly chart?: string;
   /**
   * Name is used to refer to a source and is displayed in the UI. It is supported in multi-source Applications since version 2.14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ref ApplicationSet#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ref ApplicationSet#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#repo_url ApplicationSet#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#repo_url ApplicationSet#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target_revision ApplicationSet#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target_revision ApplicationSet#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#directory ApplicationSet#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#directory ApplicationSet#directory}
   */
   readonly directory?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#helm ApplicationSet#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#helm ApplicationSet#helm}
   */
   readonly helm?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kustomize ApplicationSet#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kustomize ApplicationSet#kustomize}
   */
   readonly kustomize?: ApplicationSetSpecGeneratorClustersTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#plugin ApplicationSet#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#plugin ApplicationSet#plugin}
   */
   readonly plugin?: ApplicationSetSpecGeneratorClustersTemplateSpecSourcePlugin;
 }
@@ -9891,19 +9891,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyAutoma
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#prune ApplicationSet#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#prune ApplicationSet#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#self_heal ApplicationSet#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#self_heal ApplicationSet#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -10047,13 +10047,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyManage
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -10168,19 +10168,19 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyRetryB
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#duration ApplicationSet#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#duration ApplicationSet#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#factor ApplicationSet#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#factor ApplicationSet#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#max_duration ApplicationSet#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#max_duration ApplicationSet#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -10324,13 +10324,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyRetry 
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#limit ApplicationSet#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#limit ApplicationSet#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#backoff ApplicationSet#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#backoff ApplicationSet#backoff}
   */
   readonly backoff?: ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -10445,25 +10445,25 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicy {
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_options ApplicationSet#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_options ApplicationSet#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#automated ApplicationSet#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#automated ApplicationSet#automated}
   */
   readonly automated?: ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#retry ApplicationSet#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#retry ApplicationSet#retry}
   */
   readonly retry?: ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicyRetry;
 }
@@ -10636,43 +10636,43 @@ export interface ApplicationSetSpecGeneratorClustersTemplateSpec {
   /**
   * The project the application belongs to. Defaults to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#project ApplicationSet#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#project ApplicationSet#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#destination ApplicationSet#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#destination ApplicationSet#destination}
   */
   readonly destination?: ApplicationSetSpecGeneratorClustersTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
   */
   readonly ignoreDifference?: ApplicationSetSpecGeneratorClustersTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#info ApplicationSet#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#info ApplicationSet#info}
   */
   readonly info?: ApplicationSetSpecGeneratorClustersTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#source ApplicationSet#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#source ApplicationSet#source}
   */
   readonly source?: ApplicationSetSpecGeneratorClustersTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
   */
   readonly syncPolicy?: ApplicationSetSpecGeneratorClustersTemplateSpecSyncPolicy;
 }
@@ -10932,13 +10932,13 @@ export interface ApplicationSetSpecGeneratorClustersTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#metadata ApplicationSet#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#metadata ApplicationSet#metadata}
   */
   readonly metadata?: ApplicationSetSpecGeneratorClustersTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#spec ApplicationSet#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#spec ApplicationSet#spec}
   */
   readonly spec?: ApplicationSetSpecGeneratorClustersTemplateSpec;
 }
@@ -11053,25 +11053,25 @@ export interface ApplicationSetSpecGeneratorClusters {
   /**
   * Boolean value defaulting to `true` to indicate that this block has been added thereby allowing all other attributes to be optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#enabled ApplicationSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#enabled ApplicationSet#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Arbitrary string key-value pairs to pass to the template via the values field of the cluster generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: { [key: string]: string };
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#selector ApplicationSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#selector ApplicationSet#selector}
   */
   readonly selector?: ApplicationSetSpecGeneratorClustersSelector;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#template ApplicationSet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#template ApplicationSet#template}
   */
   readonly template?: ApplicationSetSpecGeneratorClustersTemplate;
 }
@@ -11276,13 +11276,13 @@ export interface ApplicationSetSpecGeneratorGitDirectory {
   /**
   * Flag indicating whether or not the directory should be excluded when templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#exclude ApplicationSet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#exclude ApplicationSet#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
   * Path in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }
@@ -11426,7 +11426,7 @@ export interface ApplicationSetSpecGeneratorGitFile {
   /**
   * Path to the file in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }
@@ -11541,31 +11541,31 @@ export interface ApplicationSetSpecGeneratorGitTemplateMetadata {
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#finalizers ApplicationSet#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#finalizers ApplicationSet#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -11767,19 +11767,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecDestination {
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#server ApplicationSet#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#server ApplicationSet#server}
   */
   readonly server?: string;
 }
@@ -11923,43 +11923,43 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecIgnoreDifference {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * List of external controller manager names whose changes to fields should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -12251,13 +12251,13 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecInfo {
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -12404,19 +12404,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectoryJsonne
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -12592,19 +12592,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectoryJsonne
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -12780,19 +12780,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectoryJsonne
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#libs ApplicationSet#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#libs ApplicationSet#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ext_var ApplicationSet#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ext_var ApplicationSet#ext_var}
   */
   readonly extVar?: ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#tla ApplicationSet#tla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#tla ApplicationSet#tla}
   */
   readonly tla?: ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectoryJsonnetTla[] | cdktf.IResolvable;
 }
@@ -12936,25 +12936,25 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectory {
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#exclude ApplicationSet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#exclude ApplicationSet#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#include ApplicationSet#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#include ApplicationSet#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#recurse ApplicationSet#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#recurse ApplicationSet#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
   */
   readonly jsonnet?: ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectoryJsonnet;
 }
@@ -13127,13 +13127,13 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceHelmFileParamet
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }
@@ -13274,19 +13274,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceHelmParameter {
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#force_string ApplicationSet#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#force_string ApplicationSet#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -13462,55 +13462,55 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceHelm {
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#release_name ApplicationSet#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#release_name ApplicationSet#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value_files ApplicationSet#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value_files ApplicationSet#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: string;
   /**
   * The Helm version to use for templating. Accepts either `v2` or `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * file_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
   */
   readonly fileParameter?: ApplicationSetSpecGeneratorGitTemplateSpecSourceHelmFileParameter[] | cdktf.IResolvable;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#parameter ApplicationSet#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#parameter ApplicationSet#parameter}
   */
   readonly parameter?: ApplicationSetSpecGeneratorGitTemplateSpecSourceHelmParameter[] | cdktf.IResolvable;
 }
@@ -13828,43 +13828,43 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceKustomizePatche
   /**
   * Annotation selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * Label selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#label_selector ApplicationSet#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#label_selector ApplicationSet#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * The Kubernetes resource Version to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
 }
@@ -14124,25 +14124,25 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceKustomizePatche
   /**
   * Additional [options](https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/patches/#name-and-kind-changes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#options ApplicationSet#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#options ApplicationSet#options}
   */
   readonly options?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * Inline Kustomize patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patch ApplicationSet#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patch ApplicationSet#patch}
   */
   readonly patch?: string;
   /**
   * Path to a file containing the patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target ApplicationSet#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target ApplicationSet#target}
   */
   readonly target: ApplicationSetSpecGeneratorGitTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -14344,43 +14344,43 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourceKustomize {
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_labels ApplicationSet#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_labels ApplicationSet#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#images ApplicationSet#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#images ApplicationSet#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * patches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patches ApplicationSet#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patches ApplicationSet#patches}
   */
   readonly patches?: ApplicationSetSpecGeneratorGitTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
 }
@@ -14640,13 +14640,13 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourcePluginEnv {
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -14793,13 +14793,13 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSourcePlugin {
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#env ApplicationSet#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#env ApplicationSet#env}
   */
   readonly env?: ApplicationSetSpecGeneratorGitTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -14914,61 +14914,61 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSource {
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#chart ApplicationSet#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#chart ApplicationSet#chart}
   */
   readonly chart?: string;
   /**
   * Name is used to refer to a source and is displayed in the UI. It is supported in multi-source Applications since version 2.14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ref ApplicationSet#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ref ApplicationSet#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#repo_url ApplicationSet#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#repo_url ApplicationSet#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target_revision ApplicationSet#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target_revision ApplicationSet#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#directory ApplicationSet#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#directory ApplicationSet#directory}
   */
   readonly directory?: ApplicationSetSpecGeneratorGitTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#helm ApplicationSet#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#helm ApplicationSet#helm}
   */
   readonly helm?: ApplicationSetSpecGeneratorGitTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kustomize ApplicationSet#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kustomize ApplicationSet#kustomize}
   */
   readonly kustomize?: ApplicationSetSpecGeneratorGitTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#plugin ApplicationSet#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#plugin ApplicationSet#plugin}
   */
   readonly plugin?: ApplicationSetSpecGeneratorGitTemplateSpecSourcePlugin;
 }
@@ -15347,19 +15347,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyAutomated {
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#prune ApplicationSet#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#prune ApplicationSet#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#self_heal ApplicationSet#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#self_heal ApplicationSet#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -15503,13 +15503,13 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyManagedName
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -15624,19 +15624,19 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyRetryBackof
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#duration ApplicationSet#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#duration ApplicationSet#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#factor ApplicationSet#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#factor ApplicationSet#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#max_duration ApplicationSet#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#max_duration ApplicationSet#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -15780,13 +15780,13 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyRetry {
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#limit ApplicationSet#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#limit ApplicationSet#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#backoff ApplicationSet#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#backoff ApplicationSet#backoff}
   */
   readonly backoff?: ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -15901,25 +15901,25 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicy {
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_options ApplicationSet#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_options ApplicationSet#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#automated ApplicationSet#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#automated ApplicationSet#automated}
   */
   readonly automated?: ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#retry ApplicationSet#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#retry ApplicationSet#retry}
   */
   readonly retry?: ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicyRetry;
 }
@@ -16092,43 +16092,43 @@ export interface ApplicationSetSpecGeneratorGitTemplateSpec {
   /**
   * The project the application belongs to. Defaults to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#project ApplicationSet#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#project ApplicationSet#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#destination ApplicationSet#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#destination ApplicationSet#destination}
   */
   readonly destination?: ApplicationSetSpecGeneratorGitTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
   */
   readonly ignoreDifference?: ApplicationSetSpecGeneratorGitTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#info ApplicationSet#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#info ApplicationSet#info}
   */
   readonly info?: ApplicationSetSpecGeneratorGitTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#source ApplicationSet#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#source ApplicationSet#source}
   */
   readonly source?: ApplicationSetSpecGeneratorGitTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
   */
   readonly syncPolicy?: ApplicationSetSpecGeneratorGitTemplateSpecSyncPolicy;
 }
@@ -16388,13 +16388,13 @@ export interface ApplicationSetSpecGeneratorGitTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#metadata ApplicationSet#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#metadata ApplicationSet#metadata}
   */
   readonly metadata?: ApplicationSetSpecGeneratorGitTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#spec ApplicationSet#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#spec ApplicationSet#spec}
   */
   readonly spec?: ApplicationSetSpecGeneratorGitTemplateSpec;
 }
@@ -16509,43 +16509,43 @@ export interface ApplicationSetSpecGeneratorGit {
   /**
   * Prefix for all path-related parameter names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path_param_prefix ApplicationSet#path_param_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path_param_prefix ApplicationSet#path_param_prefix}
   */
   readonly pathParamPrefix?: string;
   /**
   * URL to the repository to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#repo_url ApplicationSet#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#repo_url ApplicationSet#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Revision of the source repository to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#revision ApplicationSet#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#revision ApplicationSet#revision}
   */
   readonly revision?: string;
   /**
   * Arbitrary string key-value pairs to pass to the template via the values field of the git generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: { [key: string]: string };
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#directory ApplicationSet#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#directory ApplicationSet#directory}
   */
   readonly directory?: ApplicationSetSpecGeneratorGitDirectory[] | cdktf.IResolvable;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#file ApplicationSet#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#file ApplicationSet#file}
   */
   readonly file?: ApplicationSetSpecGeneratorGitFile[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#template ApplicationSet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#template ApplicationSet#template}
   */
   readonly template?: ApplicationSetSpecGeneratorGitTemplate;
 }
@@ -16834,31 +16834,31 @@ export interface ApplicationSetSpecGeneratorListTemplateMetadata {
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#finalizers ApplicationSet#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#finalizers ApplicationSet#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -17060,19 +17060,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecDestination {
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#server ApplicationSet#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#server ApplicationSet#server}
   */
   readonly server?: string;
 }
@@ -17216,43 +17216,43 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecIgnoreDifference {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * List of external controller manager names whose changes to fields should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -17544,13 +17544,13 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecInfo {
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -17697,19 +17697,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceDirectoryJsonn
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -17885,19 +17885,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceDirectoryJsonn
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -18073,19 +18073,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceDirectoryJsonn
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#libs ApplicationSet#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#libs ApplicationSet#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ext_var ApplicationSet#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ext_var ApplicationSet#ext_var}
   */
   readonly extVar?: ApplicationSetSpecGeneratorListTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#tla ApplicationSet#tla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#tla ApplicationSet#tla}
   */
   readonly tla?: ApplicationSetSpecGeneratorListTemplateSpecSourceDirectoryJsonnetTla[] | cdktf.IResolvable;
 }
@@ -18229,25 +18229,25 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceDirectory {
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#exclude ApplicationSet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#exclude ApplicationSet#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#include ApplicationSet#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#include ApplicationSet#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#recurse ApplicationSet#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#recurse ApplicationSet#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
   */
   readonly jsonnet?: ApplicationSetSpecGeneratorListTemplateSpecSourceDirectoryJsonnet;
 }
@@ -18420,13 +18420,13 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceHelmFileParame
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }
@@ -18567,19 +18567,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceHelmParameter 
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#force_string ApplicationSet#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#force_string ApplicationSet#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -18755,55 +18755,55 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceHelm {
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_missing_value_files ApplicationSet#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#pass_credentials ApplicationSet#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#release_name ApplicationSet#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#release_name ApplicationSet#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#skip_crds ApplicationSet#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value_files ApplicationSet#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value_files ApplicationSet#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#values ApplicationSet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#values ApplicationSet#values}
   */
   readonly values?: string;
   /**
   * The Helm version to use for templating. Accepts either `v2` or `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * file_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#file_parameter ApplicationSet#file_parameter}
   */
   readonly fileParameter?: ApplicationSetSpecGeneratorListTemplateSpecSourceHelmFileParameter[] | cdktf.IResolvable;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#parameter ApplicationSet#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#parameter ApplicationSet#parameter}
   */
   readonly parameter?: ApplicationSetSpecGeneratorListTemplateSpecSourceHelmParameter[] | cdktf.IResolvable;
 }
@@ -19121,43 +19121,43 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceKustomizePatch
   /**
   * Annotation selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotation_selector ApplicationSet#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * Label selector to use when matching the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#label_selector ApplicationSet#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#label_selector ApplicationSet#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * The Kubernetes resource Version to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
 }
@@ -19417,25 +19417,25 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceKustomizePatch
   /**
   * Additional [options](https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/patches/#name-and-kind-changes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#options ApplicationSet#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#options ApplicationSet#options}
   */
   readonly options?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * Inline Kustomize patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patch ApplicationSet#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patch ApplicationSet#patch}
   */
   readonly patch?: string;
   /**
   * Path to a file containing the patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target ApplicationSet#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target ApplicationSet#target}
   */
   readonly target: ApplicationSetSpecGeneratorListTemplateSpecSourceKustomizePatchesTarget;
 }
@@ -19637,43 +19637,43 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourceKustomize {
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_annotations ApplicationSet#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#common_labels ApplicationSet#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#common_labels ApplicationSet#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#images ApplicationSet#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#images ApplicationSet#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_prefix ApplicationSet#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name_suffix ApplicationSet#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#version ApplicationSet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#version ApplicationSet#version}
   */
   readonly version?: string;
   /**
   * patches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#patches ApplicationSet#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#patches ApplicationSet#patches}
   */
   readonly patches?: ApplicationSetSpecGeneratorListTemplateSpecSourceKustomizePatches[] | cdktf.IResolvable;
 }
@@ -19933,13 +19933,13 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourcePluginEnv {
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -20086,13 +20086,13 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSourcePlugin {
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#env ApplicationSet#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#env ApplicationSet#env}
   */
   readonly env?: ApplicationSetSpecGeneratorListTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -20207,61 +20207,61 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSource {
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#chart ApplicationSet#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#chart ApplicationSet#chart}
   */
   readonly chart?: string;
   /**
   * Name is used to refer to a source and is displayed in the UI. It is supported in multi-source Applications since version 2.14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ref ApplicationSet#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ref ApplicationSet#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#repo_url ApplicationSet#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#repo_url ApplicationSet#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#target_revision ApplicationSet#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#target_revision ApplicationSet#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#directory ApplicationSet#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#directory ApplicationSet#directory}
   */
   readonly directory?: ApplicationSetSpecGeneratorListTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#helm ApplicationSet#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#helm ApplicationSet#helm}
   */
   readonly helm?: ApplicationSetSpecGeneratorListTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kustomize ApplicationSet#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kustomize ApplicationSet#kustomize}
   */
   readonly kustomize?: ApplicationSetSpecGeneratorListTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#plugin ApplicationSet#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#plugin ApplicationSet#plugin}
   */
   readonly plugin?: ApplicationSetSpecGeneratorListTemplateSpecSourcePlugin;
 }
@@ -20640,19 +20640,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyAutomated 
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#allow_empty ApplicationSet#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#prune ApplicationSet#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#prune ApplicationSet#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#self_heal ApplicationSet#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#self_heal ApplicationSet#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -20796,13 +20796,13 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyManagedNam
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -20917,19 +20917,19 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyRetryBacko
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#duration ApplicationSet#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#duration ApplicationSet#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#factor ApplicationSet#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#factor ApplicationSet#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#max_duration ApplicationSet#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#max_duration ApplicationSet#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -21073,13 +21073,13 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyRetry {
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#limit ApplicationSet#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#limit ApplicationSet#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#backoff ApplicationSet#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#backoff ApplicationSet#backoff}
   */
   readonly backoff?: ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -21194,25 +21194,25 @@ export interface ApplicationSetSpecGeneratorListTemplateSpecSyncPolicy {
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_options ApplicationSet#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_options ApplicationSet#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#automated ApplicationSet#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#automated ApplicationSet#automated}
   */
   readonly automated?: ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_namespace_metadata ApplicationSet#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#retry ApplicationSet#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#retry ApplicationSet#retry}
   */
   readonly retry?: ApplicationSetSpecGeneratorListTemplateSpecSyncPolicyRetry;
 }
@@ -21385,43 +21385,43 @@ export interface ApplicationSetSpecGeneratorListTemplateSpec {
   /**
   * The project the application belongs to. Defaults to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#project ApplicationSet#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#project ApplicationSet#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#revision_history_limit ApplicationSet#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#destination ApplicationSet#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#destination ApplicationSet#destination}
   */
   readonly destination?: ApplicationSetSpecGeneratorListTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ignore_difference ApplicationSet#ignore_difference}
   */
   readonly ignoreDifference?: ApplicationSetSpecGeneratorListTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#info ApplicationSet#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#info ApplicationSet#info}
   */
   readonly info?: ApplicationSetSpecGeneratorListTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#source ApplicationSet#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#source ApplicationSet#source}
   */
   readonly source?: ApplicationSetSpecGeneratorListTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#sync_policy ApplicationSet#sync_policy}
   */
   readonly syncPolicy?: ApplicationSetSpecGeneratorListTemplateSpecSyncPolicy;
 }
@@ -21681,13 +21681,13 @@ export interface ApplicationSetSpecGeneratorListTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#metadata ApplicationSet#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#metadata ApplicationSet#metadata}
   */
   readonly metadata?: ApplicationSetSpecGeneratorListTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#spec ApplicationSet#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#spec ApplicationSet#spec}
   */
   readonly spec?: ApplicationSetSpecGeneratorListTemplateSpec;
 }
@@ -21802,13 +21802,13 @@ export interface ApplicationSetSpecGeneratorListStruct {
   /**
   * List of key/value pairs to pass as parameters into the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#elements ApplicationSet#elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#elements ApplicationSet#elements}
   */
   readonly elements: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#template ApplicationSet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#template ApplicationSet#template}
   */
   readonly template?: ApplicationSetSpecGeneratorListTemplate;
 }
@@ -21952,31 +21952,31 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateMetadata {
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#annotations ApplicationSet#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#annotations ApplicationSet#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#finalizers ApplicationSet#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#finalizers ApplicationSet#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#labels ApplicationSet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#labels ApplicationSet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -22178,19 +22178,19 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecDestination {
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#server ApplicationSet#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#server ApplicationSet#server}
   */
   readonly server?: string;
 }
@@ -22334,43 +22334,43 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecIgnoreDifference {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#group ApplicationSet#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#group ApplicationSet#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jq_path_expressions ApplicationSet#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#json_pointers ApplicationSet#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#kind ApplicationSet#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#kind ApplicationSet#kind}
   */
   readonly kind?: string;
   /**
   * List of external controller manager names whose changes to fields should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#managed_fields_managers ApplicationSet#managed_fields_managers}
   */
   readonly managedFieldsManagers?: string[];
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#namespace ApplicationSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#namespace ApplicationSet#namespace}
   */
   readonly namespace?: string;
 }
@@ -22662,13 +22662,13 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecInfo {
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -22815,19 +22815,19 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectoryJso
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -23003,19 +23003,19 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectoryJso
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#code ApplicationSet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#code ApplicationSet#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#value ApplicationSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#value ApplicationSet#value}
   */
   readonly value?: string;
 }
@@ -23191,19 +23191,19 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectoryJso
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#libs ApplicationSet#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#libs ApplicationSet#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#ext_var ApplicationSet#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#ext_var ApplicationSet#ext_var}
   */
   readonly extVar?: ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#tla ApplicationSet#tla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#tla ApplicationSet#tla}
   */
   readonly tla?: ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectoryJsonnetTla[] | cdktf.IResolvable;
 }
@@ -23347,25 +23347,25 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectory {
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#exclude ApplicationSet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#exclude ApplicationSet#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#include ApplicationSet#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#include ApplicationSet#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#recurse ApplicationSet#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#recurse ApplicationSet#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#jsonnet ApplicationSet#jsonnet}
   */
   readonly jsonnet?: ApplicationSetSpecGeneratorMatrixTemplateSpecSourceDirectoryJsonnet;
 }
@@ -23538,13 +23538,13 @@ export interface ApplicationSetSpecGeneratorMatrixTemplateSpecSourceHelmFilePara
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/application_set#path ApplicationSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/application_set#path ApplicationSet#path}
   */
   readonly path: string;
 }

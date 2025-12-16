@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudChdfsAccessGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups#id DataTencentcloudChdfsAccessGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups#id DataTencentcloudChdfsAccessGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudChdfsAccessGroupsConfig extends cdktf.Terraform
   /**
   * get groups belongs to the owner uin, must set but only can use one of VpcId and OwnerUin to get the groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups#owner_uin DataTencentcloudChdfsAccessGroups#owner_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups#owner_uin DataTencentcloudChdfsAccessGroups#owner_uin}
   */
   readonly ownerUin?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups#result_output_file DataTencentcloudChdfsAccessGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups#result_output_file DataTencentcloudChdfsAccessGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * get groups belongs to the vpc id, must set but only can use one of VpcId and OwnerUin to get the groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups#vpc_id DataTencentcloudChdfsAccessGroups#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups#vpc_id DataTencentcloudChdfsAccessGroups#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -135,7 +135,7 @@ export class DataTencentcloudChdfsAccessGroupsAccessGroupsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups tencentcloud_chdfs_access_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups tencentcloud_chdfs_access_groups}
 */
 export class DataTencentcloudChdfsAccessGroups extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataTencentcloudChdfsAccessGroups extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudChdfsAccessGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudChdfsAccessGroups to import
-  * @param importFromId The id of the existing DataTencentcloudChdfsAccessGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudChdfsAccessGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudChdfsAccessGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataTencentcloudChdfsAccessGroups extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/chdfs_access_groups tencentcloud_chdfs_access_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/chdfs_access_groups tencentcloud_chdfs_access_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataTencentcloudChdfsAccessGroups extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_chdfs_access_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

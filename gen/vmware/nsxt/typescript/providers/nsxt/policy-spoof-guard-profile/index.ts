@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface PolicySpoofGuardProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#address_binding_allowlist PolicySpoofGuardProfile#address_binding_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#address_binding_allowlist PolicySpoofGuardProfile#address_binding_allowlist}
   */
   readonly addressBindingAllowlist?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#description PolicySpoofGuardProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#description PolicySpoofGuardProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#display_name PolicySpoofGuardProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#display_name PolicySpoofGuardProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#id PolicySpoofGuardProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#id PolicySpoofGuardProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,19 +33,19 @@ export interface PolicySpoofGuardProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#nsx_id PolicySpoofGuardProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#nsx_id PolicySpoofGuardProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#context PolicySpoofGuardProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#context PolicySpoofGuardProfile#context}
   */
   readonly context?: PolicySpoofGuardProfileContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#tag PolicySpoofGuardProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#tag PolicySpoofGuardProfile#tag}
   */
   readonly tag?: PolicySpoofGuardProfileTag[] | cdktf.IResolvable;
 }
@@ -53,7 +53,7 @@ export interface PolicySpoofGuardProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#project_id PolicySpoofGuardProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#project_id PolicySpoofGuardProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -134,11 +134,11 @@ export class PolicySpoofGuardProfileContextOutputReference extends cdktf.Complex
 }
 export interface PolicySpoofGuardProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#scope PolicySpoofGuardProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#scope PolicySpoofGuardProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#tag PolicySpoofGuardProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#tag PolicySpoofGuardProfile#tag}
   */
   readonly tag?: string;
 }
@@ -283,7 +283,7 @@ export class PolicySpoofGuardProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile nsxt_policy_spoof_guard_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile nsxt_policy_spoof_guard_profile}
 */
 export class PolicySpoofGuardProfile extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class PolicySpoofGuardProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicySpoofGuardProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicySpoofGuardProfile to import
-  * @param importFromId The id of the existing PolicySpoofGuardProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicySpoofGuardProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicySpoofGuardProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class PolicySpoofGuardProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_spoof_guard_profile nsxt_policy_spoof_guard_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_spoof_guard_profile nsxt_policy_spoof_guard_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class PolicySpoofGuardProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_spoof_guard_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

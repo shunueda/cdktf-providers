@@ -1,3 +1,3 @@
 # `data_confluent_transit_gateway_attachment`
 
-Refer to the Terraform Registry for docs: [`data_confluent_transit_gateway_attachment`](https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/transit_gateway_attachment).
+Refer to the Terraform Registry for docs: [`data_confluent_transit_gateway_attachment`](https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/transit_gateway_attachment).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerOauthProfileResourceServerRequiredClaimConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#oauth_profile_name SolacebrokerOauthProfileResourceServerRequiredClaim#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#oauth_profile_name SolacebrokerOauthProfileResourceServerRequiredClaim#oauth_profile_name}
   */
   readonly oauthProfileName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerOauthProfileResourceServerRequiredClaimConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#resource_server_required_claim_name SolacebrokerOauthProfileResourceServerRequiredClaim#resource_server_required_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#resource_server_required_claim_name SolacebrokerOauthProfileResourceServerRequiredClaim#resource_server_required_claim_name}
   */
   readonly resourceServerRequiredClaimName: string;
   /**
@@ -28,13 +28,13 @@ export interface SolacebrokerOauthProfileResourceServerRequiredClaimConfig exten
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". Note that this attribute requires replacement of the resource when updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#resource_server_required_claim_value SolacebrokerOauthProfileResourceServerRequiredClaim#resource_server_required_claim_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#resource_server_required_claim_value SolacebrokerOauthProfileResourceServerRequiredClaim#resource_server_required_claim_value}
   */
   readonly resourceServerRequiredClaimValue: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim solacebroker_oauth_profile_resource_server_required_claim}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim solacebroker_oauth_profile_resource_server_required_claim}
 */
 export class SolacebrokerOauthProfileResourceServerRequiredClaim extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SolacebrokerOauthProfileResourceServerRequiredClaim extends cdktf.T
   * Generates CDKTF code for importing a SolacebrokerOauthProfileResourceServerRequiredClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerOauthProfileResourceServerRequiredClaim to import
-  * @param importFromId The id of the existing SolacebrokerOauthProfileResourceServerRequiredClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerOauthProfileResourceServerRequiredClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerOauthProfileResourceServerRequiredClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SolacebrokerOauthProfileResourceServerRequiredClaim extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim solacebroker_oauth_profile_resource_server_required_claim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_oauth_profile_resource_server_required_claim solacebroker_oauth_profile_resource_server_required_claim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SolacebrokerOauthProfileResourceServerRequiredClaim extends cdktf.T
       terraformResourceType: 'solacebroker_oauth_profile_resource_server_required_claim',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

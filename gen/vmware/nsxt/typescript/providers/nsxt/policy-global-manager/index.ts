@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyGlobalManagerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#description PolicyGlobalManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#description PolicyGlobalManager#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#display_name PolicyGlobalManager#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#display_name PolicyGlobalManager#display_name}
   */
   readonly displayName: string;
   /**
   * Fail onboarding if maximum RTT exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#fail_if_rtt_exceeded PolicyGlobalManager#fail_if_rtt_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#fail_if_rtt_exceeded PolicyGlobalManager#fail_if_rtt_exceeded}
   */
   readonly failIfRttExceeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#id PolicyGlobalManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#id PolicyGlobalManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PolicyGlobalManagerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Maximum acceptable packet round trip time (RTT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#maximum_rtt PolicyGlobalManager#maximum_rtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#maximum_rtt PolicyGlobalManager#maximum_rtt}
   */
   readonly maximumRtt?: number;
   /**
   * Mode of the global manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#mode PolicyGlobalManager#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#mode PolicyGlobalManager#mode}
   */
   readonly mode: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#nsx_id PolicyGlobalManager#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#nsx_id PolicyGlobalManager#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * connection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#connection_info PolicyGlobalManager#connection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#connection_info PolicyGlobalManager#connection_info}
   */
   readonly connectionInfo?: PolicyGlobalManagerConnectionInfo[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#tag PolicyGlobalManager#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#tag PolicyGlobalManager#tag}
   */
   readonly tag?: PolicyGlobalManagerTag[] | cdktf.IResolvable;
 }
@@ -67,31 +67,31 @@ export interface PolicyGlobalManagerConnectionInfo {
   /**
   * Fully Qualified Domain Name of the Management Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#fqdn PolicyGlobalManager#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#fqdn PolicyGlobalManager#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#password PolicyGlobalManager#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#password PolicyGlobalManager#password}
   */
   readonly password?: string;
   /**
   * id of Site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#site_uuid PolicyGlobalManager#site_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#site_uuid PolicyGlobalManager#site_uuid}
   */
   readonly siteUuid?: string;
   /**
   * Thumbprint of Enforcement Point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#thumbprint PolicyGlobalManager#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#thumbprint PolicyGlobalManager#thumbprint}
   */
   readonly thumbprint?: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#username PolicyGlobalManager#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#username PolicyGlobalManager#username}
   */
   readonly username?: string;
 }
@@ -323,11 +323,11 @@ export class PolicyGlobalManagerConnectionInfoList extends cdktf.ComplexList {
 }
 export interface PolicyGlobalManagerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#scope PolicyGlobalManager#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#scope PolicyGlobalManager#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#tag PolicyGlobalManager#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#tag PolicyGlobalManager#tag}
   */
   readonly tag?: string;
 }
@@ -472,7 +472,7 @@ export class PolicyGlobalManagerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager nsxt_policy_global_manager}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager nsxt_policy_global_manager}
 */
 export class PolicyGlobalManager extends cdktf.TerraformResource {
 
@@ -488,7 +488,7 @@ export class PolicyGlobalManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGlobalManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGlobalManager to import
-  * @param importFromId The id of the existing PolicyGlobalManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGlobalManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGlobalManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class PolicyGlobalManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_global_manager nsxt_policy_global_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_global_manager nsxt_policy_global_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class PolicyGlobalManager extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_global_manager',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMongodbInstanceBackupsConfig extends cdktf.Terr
   /**
   * Backup mode, currently supported: 0-logic backup, 1-physical backup, 2-all backups.The default is logical backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups#backup_method DataTencentcloudMongodbInstanceBackups#backup_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups#backup_method DataTencentcloudMongodbInstanceBackups#backup_method}
   */
   readonly backupMethod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups#id DataTencentcloudMongodbInstanceBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups#id DataTencentcloudMongodbInstanceBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudMongodbInstanceBackupsConfig extends cdktf.Terr
   /**
   * Instance ID, the format is: cmgo-9d0p6umb.Same as the instance ID displayed in the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups#instance_id DataTencentcloudMongodbInstanceBackups#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups#instance_id DataTencentcloudMongodbInstanceBackups#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups#result_output_file DataTencentcloudMongodbInstanceBackups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups#result_output_file DataTencentcloudMongodbInstanceBackups#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -150,7 +150,7 @@ export class DataTencentcloudMongodbInstanceBackupsBackupListStructList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups tencentcloud_mongodb_instance_backups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups tencentcloud_mongodb_instance_backups}
 */
 export class DataTencentcloudMongodbInstanceBackups extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataTencentcloudMongodbInstanceBackups extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudMongodbInstanceBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMongodbInstanceBackups to import
-  * @param importFromId The id of the existing DataTencentcloudMongodbInstanceBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMongodbInstanceBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMongodbInstanceBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataTencentcloudMongodbInstanceBackups extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mongodb_instance_backups tencentcloud_mongodb_instance_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mongodb_instance_backups tencentcloud_mongodb_instance_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataTencentcloudMongodbInstanceBackups extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_mongodb_instance_backups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

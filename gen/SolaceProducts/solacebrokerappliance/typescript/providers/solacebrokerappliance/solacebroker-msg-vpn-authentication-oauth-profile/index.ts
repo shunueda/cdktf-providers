@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"groups"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#authorization_groups_claim_name SolacebrokerMsgVpnAuthenticationOauthProfile#authorization_groups_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#authorization_groups_claim_name SolacebrokerMsgVpnAuthenticationOauthProfile#authorization_groups_claim_name}
   */
   readonly authorizationGroupsClaimName?: string;
   /**
@@ -26,7 +26,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * </pre>
   *  Available since SEMP API version 2.32.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#authorization_groups_claim_string_format SolacebrokerMsgVpnAuthenticationOauthProfile#authorization_groups_claim_string_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#authorization_groups_claim_string_format SolacebrokerMsgVpnAuthenticationOauthProfile#authorization_groups_claim_string_format}
   */
   readonly authorizationGroupsClaimStringFormat?: string;
   /**
@@ -34,7 +34,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_id SolacebrokerMsgVpnAuthenticationOauthProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_id SolacebrokerMsgVpnAuthenticationOauthProfile#client_id}
   */
   readonly clientId?: string;
   /**
@@ -42,7 +42,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"JWT"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_required_type SolacebrokerMsgVpnAuthenticationOauthProfile#client_required_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_required_type SolacebrokerMsgVpnAuthenticationOauthProfile#client_required_type}
   */
   readonly clientRequiredType?: string;
   /**
@@ -50,7 +50,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_secret SolacebrokerMsgVpnAuthenticationOauthProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_secret SolacebrokerMsgVpnAuthenticationOauthProfile#client_secret}
   */
   readonly clientSecret?: string;
   /**
@@ -58,7 +58,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_validate_type_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#client_validate_type_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#client_validate_type_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#client_validate_type_enabled}
   */
   readonly clientValidateTypeEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -66,7 +66,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#disconnect_on_token_expiration_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#disconnect_on_token_expiration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#disconnect_on_token_expiration_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#disconnect_on_token_expiration_enabled}
   */
   readonly disconnectOnTokenExpirationEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -74,7 +74,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#enabled SolacebrokerMsgVpnAuthenticationOauthProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#enabled SolacebrokerMsgVpnAuthenticationOauthProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -82,7 +82,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_discovery SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_discovery SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_discovery}
   */
   readonly endpointDiscovery?: string;
   /**
@@ -90,7 +90,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_discovery_refresh_interval SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_discovery_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_discovery_refresh_interval SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_discovery_refresh_interval}
   */
   readonly endpointDiscoveryRefreshInterval?: number;
   /**
@@ -98,7 +98,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_introspection SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_introspection SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_introspection}
   */
   readonly endpointIntrospection?: string;
   /**
@@ -106,7 +106,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_introspection_timeout SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_introspection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_introspection_timeout SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_introspection_timeout}
   */
   readonly endpointIntrospectionTimeout?: number;
   /**
@@ -114,7 +114,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_jwks SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_jwks SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_jwks}
   */
   readonly endpointJwks?: string;
   /**
@@ -122,7 +122,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_jwks_refresh_interval SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_jwks_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_jwks_refresh_interval SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_jwks_refresh_interval}
   */
   readonly endpointJwksRefreshInterval?: number;
   /**
@@ -130,7 +130,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_userinfo SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_userinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_userinfo SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_userinfo}
   */
   readonly endpointUserinfo?: string;
   /**
@@ -138,7 +138,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_userinfo_timeout SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_userinfo_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#endpoint_userinfo_timeout SolacebrokerMsgVpnAuthenticationOauthProfile#endpoint_userinfo_timeout}
   */
   readonly endpointUserinfoTimeout?: number;
   /**
@@ -146,7 +146,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#issuer SolacebrokerMsgVpnAuthenticationOauthProfile#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#issuer SolacebrokerMsgVpnAuthenticationOauthProfile#issuer}
   */
   readonly issuer?: string;
   /**
@@ -154,7 +154,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#mqtt_username_validate_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#mqtt_username_validate_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#mqtt_username_validate_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#mqtt_username_validate_enabled}
   */
   readonly mqttUsernameValidateEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -162,7 +162,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#msg_vpn_name SolacebrokerMsgVpnAuthenticationOauthProfile#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#msg_vpn_name SolacebrokerMsgVpnAuthenticationOauthProfile#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -170,7 +170,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#oauth_profile_name SolacebrokerMsgVpnAuthenticationOauthProfile#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#oauth_profile_name SolacebrokerMsgVpnAuthenticationOauthProfile#oauth_profile_name}
   */
   readonly oauthProfileName: string;
   /**
@@ -184,7 +184,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#oauth_role SolacebrokerMsgVpnAuthenticationOauthProfile#oauth_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#oauth_role SolacebrokerMsgVpnAuthenticationOauthProfile#oauth_role}
   */
   readonly oauthRole?: string;
   /**
@@ -192,7 +192,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.41.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#proxy_name SolacebrokerMsgVpnAuthenticationOauthProfile#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#proxy_name SolacebrokerMsgVpnAuthenticationOauthProfile#proxy_name}
   */
   readonly proxyName?: string;
   /**
@@ -200,7 +200,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_parse_access_token_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_parse_access_token_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_parse_access_token_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_parse_access_token_enabled}
   */
   readonly resourceServerParseAccessTokenEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -208,7 +208,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_audience SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_audience SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_audience}
   */
   readonly resourceServerRequiredAudience?: string;
   /**
@@ -216,7 +216,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_issuer SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_issuer SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_issuer}
   */
   readonly resourceServerRequiredIssuer?: string;
   /**
@@ -224,7 +224,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_scope SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_scope SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_scope}
   */
   readonly resourceServerRequiredScope?: string;
   /**
@@ -232,7 +232,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"at+jwt"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_type SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_required_type SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_required_type}
   */
   readonly resourceServerRequiredType?: string;
   /**
@@ -240,7 +240,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_audience_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_audience_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_audience_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_audience_enabled}
   */
   readonly resourceServerValidateAudienceEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -248,7 +248,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_issuer_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_issuer_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_issuer_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_issuer_enabled}
   */
   readonly resourceServerValidateIssuerEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -256,7 +256,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_scope_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_scope_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_scope_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_scope_enabled}
   */
   readonly resourceServerValidateScopeEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -264,7 +264,7 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_type_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_type_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#resource_server_validate_type_enabled SolacebrokerMsgVpnAuthenticationOauthProfile#resource_server_validate_type_enabled}
   */
   readonly resourceServerValidateTypeEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -272,13 +272,13 @@ export interface SolacebrokerMsgVpnAuthenticationOauthProfileConfig extends cdkt
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"sub"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#username_claim_name SolacebrokerMsgVpnAuthenticationOauthProfile#username_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#username_claim_name SolacebrokerMsgVpnAuthenticationOauthProfile#username_claim_name}
   */
   readonly usernameClaimName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile}
 */
 export class SolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.TerraformResource {
 
@@ -294,7 +294,7 @@ export class SolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.Terrafor
   * Generates CDKTF code for importing a SolacebrokerMsgVpnAuthenticationOauthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnAuthenticationOauthProfile to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnAuthenticationOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnAuthenticationOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnAuthenticationOauthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class SolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authentication_oauth_profile solacebroker_msg_vpn_authentication_oauth_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class SolacebrokerMsgVpnAuthenticationOauthProfile extends cdktf.Terrafor
       terraformResourceType: 'solacebroker_msg_vpn_authentication_oauth_profile',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

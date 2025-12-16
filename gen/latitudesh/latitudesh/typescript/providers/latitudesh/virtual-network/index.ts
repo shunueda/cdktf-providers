@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VirtualNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The virtual network description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network#description VirtualNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network#description VirtualNetwork#description}
   */
   readonly description: string;
   /**
   * The project (ID or Slug) to deploy the virtual network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network#project VirtualNetwork#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network#project VirtualNetwork#project}
   */
   readonly project?: string;
   /**
   * The site to deploy the virtual network (case-insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network#site VirtualNetwork#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network#site VirtualNetwork#site}
   */
   readonly site: string;
   /**
   * List of virtual network tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network#tags VirtualNetwork#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network#tags VirtualNetwork#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network latitudesh_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network latitudesh_virtual_network}
 */
 export class VirtualNetwork extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class VirtualNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualNetwork to import
-  * @param importFromId The id of the existing VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class VirtualNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/virtual_network latitudesh_virtual_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/virtual_network latitudesh_virtual_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.4',
-        providerVersionConstraint: '2.8.4'
+        providerVersion: '2.8.6',
+        providerVersionConstraint: '2.8.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyOspfAreaConfig extends cdktf.TerraformMetaArguments {
   /**
   * OSPF area ID in decimal or dotted format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#area_id PolicyOspfArea#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#area_id PolicyOspfArea#area_id}
   */
   readonly areaId: string;
   /**
   * OSPF area type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#area_type PolicyOspfArea#area_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#area_type PolicyOspfArea#area_type}
   */
   readonly areaType?: string;
   /**
   * Authentication mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#auth_mode PolicyOspfArea#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#auth_mode PolicyOspfArea#auth_mode}
   */
   readonly authMode?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#description PolicyOspfArea#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#description PolicyOspfArea#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#display_name PolicyOspfArea#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#display_name PolicyOspfArea#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#id PolicyOspfArea#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#id PolicyOspfArea#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,41 +47,41 @@ export interface PolicyOspfAreaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication secret key id for MD5 auth mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#key_id PolicyOspfArea#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#key_id PolicyOspfArea#key_id}
   */
   readonly keyId?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#nsx_id PolicyOspfArea#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#nsx_id PolicyOspfArea#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path to the OSPF config for this area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#ospf_path PolicyOspfArea#ospf_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#ospf_path PolicyOspfArea#ospf_path}
   */
   readonly ospfPath: string;
   /**
   * Authentication secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#secret_key PolicyOspfArea#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#secret_key PolicyOspfArea#secret_key}
   */
   readonly secretKey?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#tag PolicyOspfArea#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#tag PolicyOspfArea#tag}
   */
   readonly tag?: PolicyOspfAreaTag[] | cdktf.IResolvable;
 }
 export interface PolicyOspfAreaTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#scope PolicyOspfArea#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#scope PolicyOspfArea#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#tag PolicyOspfArea#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#tag PolicyOspfArea#tag}
   */
   readonly tag?: string;
 }
@@ -226,7 +226,7 @@ export class PolicyOspfAreaTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area nsxt_policy_ospf_area}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area nsxt_policy_ospf_area}
 */
 export class PolicyOspfArea extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class PolicyOspfArea extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyOspfArea resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyOspfArea to import
-  * @param importFromId The id of the existing PolicyOspfArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyOspfArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyOspfArea to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class PolicyOspfArea extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_area nsxt_policy_ospf_area} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_area nsxt_policy_ospf_area} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class PolicyOspfArea extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ospf_area',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

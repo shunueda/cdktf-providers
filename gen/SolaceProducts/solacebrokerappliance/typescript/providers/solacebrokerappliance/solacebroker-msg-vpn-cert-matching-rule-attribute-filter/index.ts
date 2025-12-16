@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleAttributeFilterConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#attribute_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#attribute_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#attribute_name}
   */
   readonly attributeName?: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleAttributeFilterConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#attribute_value SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#attribute_value SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#attribute_value}
   */
   readonly attributeValue?: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleAttributeFilterConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#filter_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#filter_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#filter_name}
   */
   readonly filterName: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerMsgVpnCertMatchingRuleAttributeFilterConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#msg_vpn_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#msg_vpn_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -44,13 +44,13 @@ export interface SolacebrokerMsgVpnCertMatchingRuleAttributeFilterConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#rule_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#rule_name SolacebrokerMsgVpnCertMatchingRuleAttributeFilter#rule_name}
   */
   readonly ruleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter solacebroker_msg_vpn_cert_matching_rule_attribute_filter}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter solacebroker_msg_vpn_cert_matching_rule_attribute_filter}
 */
 export class SolacebrokerMsgVpnCertMatchingRuleAttributeFilter extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class SolacebrokerMsgVpnCertMatchingRuleAttributeFilter extends cdktf.Ter
   * Generates CDKTF code for importing a SolacebrokerMsgVpnCertMatchingRuleAttributeFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnCertMatchingRuleAttributeFilter to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnCertMatchingRuleAttributeFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnCertMatchingRuleAttributeFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnCertMatchingRuleAttributeFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class SolacebrokerMsgVpnCertMatchingRuleAttributeFilter extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter solacebroker_msg_vpn_cert_matching_rule_attribute_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_cert_matching_rule_attribute_filter solacebroker_msg_vpn_cert_matching_rule_attribute_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class SolacebrokerMsgVpnCertMatchingRuleAttributeFilter extends cdktf.Ter
       terraformResourceType: 'solacebroker_msg_vpn_cert_matching_rule_attribute_filter',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

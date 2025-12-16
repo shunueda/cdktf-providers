@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CosBucketDomainCertificateAttachmentConfig extends cdktf.Terraf
   /**
   * Bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#bucket CosBucketDomainCertificateAttachment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#bucket CosBucketDomainCertificateAttachment#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#id CosBucketDomainCertificateAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#id CosBucketDomainCertificateAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface CosBucketDomainCertificateAttachmentConfig extends cdktf.Terraf
   /**
   * domain_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#domain_certificate CosBucketDomainCertificateAttachment#domain_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#domain_certificate CosBucketDomainCertificateAttachment#domain_certificate}
   */
   readonly domainCertificate: CosBucketDomainCertificateAttachmentDomainCertificate;
 }
@@ -31,19 +31,19 @@ export interface CosBucketDomainCertificateAttachmentDomainCertificateCertificat
   /**
   * Public key of certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#cert CosBucketDomainCertificateAttachment#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#cert CosBucketDomainCertificateAttachment#cert}
   */
   readonly cert: string;
   /**
   * ID of certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#cert_id CosBucketDomainCertificateAttachment#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#cert_id CosBucketDomainCertificateAttachment#cert_id}
   */
   readonly certId?: string;
   /**
   * Private key of certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#private_key CosBucketDomainCertificateAttachment#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#private_key CosBucketDomainCertificateAttachment#private_key}
   */
   readonly privateKey: string;
 }
@@ -181,13 +181,13 @@ export interface CosBucketDomainCertificateAttachmentDomainCertificateCertificat
   /**
   * Certificate type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#cert_type CosBucketDomainCertificateAttachment#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#cert_type CosBucketDomainCertificateAttachment#cert_type}
   */
   readonly certType: string;
   /**
   * custom_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#custom_cert CosBucketDomainCertificateAttachment#custom_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#custom_cert CosBucketDomainCertificateAttachment#custom_cert}
   */
   readonly customCert: CosBucketDomainCertificateAttachmentDomainCertificateCertificateCustomCert;
 }
@@ -296,13 +296,13 @@ export interface CosBucketDomainCertificateAttachmentDomainCertificate {
   /**
   * The name of domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#domain CosBucketDomainCertificateAttachment#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#domain CosBucketDomainCertificateAttachment#domain}
   */
   readonly domain: string;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#certificate CosBucketDomainCertificateAttachment#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#certificate CosBucketDomainCertificateAttachment#certificate}
   */
   readonly certificate: CosBucketDomainCertificateAttachmentDomainCertificateCertificate;
 }
@@ -409,7 +409,7 @@ export class CosBucketDomainCertificateAttachmentDomainCertificateOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment tencentcloud_cos_bucket_domain_certificate_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment tencentcloud_cos_bucket_domain_certificate_attachment}
 */
 export class CosBucketDomainCertificateAttachment extends cdktf.TerraformResource {
 
@@ -425,7 +425,7 @@ export class CosBucketDomainCertificateAttachment extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a CosBucketDomainCertificateAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosBucketDomainCertificateAttachment to import
-  * @param importFromId The id of the existing CosBucketDomainCertificateAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosBucketDomainCertificateAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosBucketDomainCertificateAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class CosBucketDomainCertificateAttachment extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket_domain_certificate_attachment tencentcloud_cos_bucket_domain_certificate_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_domain_certificate_attachment tencentcloud_cos_bucket_domain_certificate_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class CosBucketDomainCertificateAttachment extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_cos_bucket_domain_certificate_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

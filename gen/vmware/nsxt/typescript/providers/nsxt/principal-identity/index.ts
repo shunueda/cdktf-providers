@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrincipalIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM encoding of the new certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#certificate_pem PrincipalIdentity#certificate_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#certificate_pem PrincipalIdentity#certificate_pem}
   */
   readonly certificatePem: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#id PrincipalIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#id PrincipalIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface PrincipalIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the entities created by this principal should be protected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#is_protected PrincipalIdentity#is_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#is_protected PrincipalIdentity#is_protected}
   */
   readonly isProtected?: boolean | cdktf.IResolvable;
   /**
   * Name of the principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#name PrincipalIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#name PrincipalIdentity#name}
   */
   readonly name: string;
   /**
   * Unique node-id of a principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#node_id PrincipalIdentity#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#node_id PrincipalIdentity#node_id}
   */
   readonly nodeId: string;
   /**
   * roles_for_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#roles_for_path PrincipalIdentity#roles_for_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#roles_for_path PrincipalIdentity#roles_for_path}
   */
   readonly rolesForPath: PrincipalIdentityRolesForPath[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#tag PrincipalIdentity#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#tag PrincipalIdentity#tag}
   */
   readonly tag?: PrincipalIdentityTag[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface PrincipalIdentityRolesForPath {
   /**
   * Path of the entity in parent hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#path PrincipalIdentity#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#path PrincipalIdentity#path}
   */
   readonly path: string;
   /**
   * Applicable roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#roles PrincipalIdentity#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#roles PrincipalIdentity#roles}
   */
   readonly roles: string[];
 }
@@ -200,11 +200,11 @@ export class PrincipalIdentityRolesForPathList extends cdktf.ComplexList {
 }
 export interface PrincipalIdentityTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#scope PrincipalIdentity#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#scope PrincipalIdentity#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#tag PrincipalIdentity#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#tag PrincipalIdentity#tag}
   */
   readonly tag?: string;
 }
@@ -349,7 +349,7 @@ export class PrincipalIdentityTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity nsxt_principal_identity}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity nsxt_principal_identity}
 */
 export class PrincipalIdentity extends cdktf.TerraformResource {
 
@@ -365,7 +365,7 @@ export class PrincipalIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrincipalIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrincipalIdentity to import
-  * @param importFromId The id of the existing PrincipalIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrincipalIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrincipalIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class PrincipalIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/principal_identity nsxt_principal_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/principal_identity nsxt_principal_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,8 +388,8 @@ export class PrincipalIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_principal_identity',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

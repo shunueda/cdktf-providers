@@ -1,3 +1,3 @@
 # `infisical_integration_databricks`
 
-Refer to the Terraform Registry for docs: [`infisical_integration_databricks`](https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/integration_databricks).
+Refer to the Terraform Registry for docs: [`infisical_integration_databricks`](https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/integration_databricks).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyLbUdpMonitorProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#description PolicyLbUdpMonitorProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#description PolicyLbUdpMonitorProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#display_name PolicyLbUdpMonitorProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#display_name PolicyLbUdpMonitorProfile#display_name}
   */
   readonly displayName: string;
   /**
   * Number of consecutive checks that must fail before marking it down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#fall_count PolicyLbUdpMonitorProfile#fall_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#fall_count PolicyLbUdpMonitorProfile#fall_count}
   */
   readonly fallCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#id PolicyLbUdpMonitorProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#id PolicyLbUdpMonitorProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,59 +35,59 @@ export interface PolicyLbUdpMonitorProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The frequency at which the system issues the monitor check (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#interval PolicyLbUdpMonitorProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#interval PolicyLbUdpMonitorProfile#interval}
   */
   readonly interval?: number;
   /**
   * If the monitor port is specified, it would override pool member port setting for healthcheck. A port range is not supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#monitor_port PolicyLbUdpMonitorProfile#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#monitor_port PolicyLbUdpMonitorProfile#monitor_port}
   */
   readonly monitorPort?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#nsx_id PolicyLbUdpMonitorProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#nsx_id PolicyLbUdpMonitorProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The expected data string to be received from the response, can be anywhere in the response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#receive PolicyLbUdpMonitorProfile#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#receive PolicyLbUdpMonitorProfile#receive}
   */
   readonly receive?: string;
   /**
   * Number of consecutive checks that must pass before marking it up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#rise_count PolicyLbUdpMonitorProfile#rise_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#rise_count PolicyLbUdpMonitorProfile#rise_count}
   */
   readonly riseCount?: number;
   /**
   * The data to be sent to the monitored server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#send PolicyLbUdpMonitorProfile#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#send PolicyLbUdpMonitorProfile#send}
   */
   readonly send?: string;
   /**
   * Number of seconds the target has to respond to the monitor request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#timeout PolicyLbUdpMonitorProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#timeout PolicyLbUdpMonitorProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#tag PolicyLbUdpMonitorProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#tag PolicyLbUdpMonitorProfile#tag}
   */
   readonly tag?: PolicyLbUdpMonitorProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyLbUdpMonitorProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#scope PolicyLbUdpMonitorProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#scope PolicyLbUdpMonitorProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#tag PolicyLbUdpMonitorProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#tag PolicyLbUdpMonitorProfile#tag}
   */
   readonly tag?: string;
 }
@@ -232,7 +232,7 @@ export class PolicyLbUdpMonitorProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile nsxt_policy_lb_udp_monitor_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile nsxt_policy_lb_udp_monitor_profile}
 */
 export class PolicyLbUdpMonitorProfile extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class PolicyLbUdpMonitorProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbUdpMonitorProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbUdpMonitorProfile to import
-  * @param importFromId The id of the existing PolicyLbUdpMonitorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbUdpMonitorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbUdpMonitorProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class PolicyLbUdpMonitorProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_udp_monitor_profile nsxt_policy_lb_udp_monitor_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_udp_monitor_profile nsxt_policy_lb_udp_monitor_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class PolicyLbUdpMonitorProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_udp_monitor_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

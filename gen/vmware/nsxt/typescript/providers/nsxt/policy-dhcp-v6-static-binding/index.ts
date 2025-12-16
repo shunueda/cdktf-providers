@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyDhcpV6StaticBindingConfig extends cdktf.TerraformMetaArgu
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#description PolicyDhcpV6StaticBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#description PolicyDhcpV6StaticBinding#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#display_name PolicyDhcpV6StaticBinding#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#display_name PolicyDhcpV6StaticBinding#display_name}
   */
   readonly displayName: string;
   /**
   * DNS nameservers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#dns_nameservers PolicyDhcpV6StaticBinding#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#dns_nameservers PolicyDhcpV6StaticBinding#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * Domain names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#domain_names PolicyDhcpV6StaticBinding#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#domain_names PolicyDhcpV6StaticBinding#domain_names}
   */
   readonly domainNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#id PolicyDhcpV6StaticBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#id PolicyDhcpV6StaticBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface PolicyDhcpV6StaticBindingConfig extends cdktf.TerraformMetaArgu
   /**
   * IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#ip_addresses PolicyDhcpV6StaticBinding#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#ip_addresses PolicyDhcpV6StaticBinding#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * DHCP lease time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#lease_time PolicyDhcpV6StaticBinding#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#lease_time PolicyDhcpV6StaticBinding#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * MAC address of the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#mac_address PolicyDhcpV6StaticBinding#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#mac_address PolicyDhcpV6StaticBinding#mac_address}
   */
   readonly macAddress: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#nsx_id PolicyDhcpV6StaticBinding#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#nsx_id PolicyDhcpV6StaticBinding#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The time interval in seconds, in which the prefix is advertised as preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#preferred_time PolicyDhcpV6StaticBinding#preferred_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#preferred_time PolicyDhcpV6StaticBinding#preferred_time}
   */
   readonly preferredTime?: number;
   /**
   * segment path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#segment_path PolicyDhcpV6StaticBinding#segment_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#segment_path PolicyDhcpV6StaticBinding#segment_path}
   */
   readonly segmentPath: string;
   /**
   * SNTP server IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#sntp_servers PolicyDhcpV6StaticBinding#sntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#sntp_servers PolicyDhcpV6StaticBinding#sntp_servers}
   */
   readonly sntpServers?: string[];
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#context PolicyDhcpV6StaticBinding#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#context PolicyDhcpV6StaticBinding#context}
   */
   readonly context?: PolicyDhcpV6StaticBindingContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#tag PolicyDhcpV6StaticBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#tag PolicyDhcpV6StaticBinding#tag}
   */
   readonly tag?: PolicyDhcpV6StaticBindingTag[] | cdktf.IResolvable;
 }
@@ -97,7 +97,7 @@ export interface PolicyDhcpV6StaticBindingContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#project_id PolicyDhcpV6StaticBinding#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#project_id PolicyDhcpV6StaticBinding#project_id}
   */
   readonly projectId: string;
 }
@@ -178,11 +178,11 @@ export class PolicyDhcpV6StaticBindingContextOutputReference extends cdktf.Compl
 }
 export interface PolicyDhcpV6StaticBindingTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#scope PolicyDhcpV6StaticBinding#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#scope PolicyDhcpV6StaticBinding#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#tag PolicyDhcpV6StaticBinding#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#tag PolicyDhcpV6StaticBinding#tag}
   */
   readonly tag?: string;
 }
@@ -327,7 +327,7 @@ export class PolicyDhcpV6StaticBindingTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding nsxt_policy_dhcp_v6_static_binding}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding nsxt_policy_dhcp_v6_static_binding}
 */
 export class PolicyDhcpV6StaticBinding extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class PolicyDhcpV6StaticBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyDhcpV6StaticBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyDhcpV6StaticBinding to import
-  * @param importFromId The id of the existing PolicyDhcpV6StaticBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyDhcpV6StaticBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyDhcpV6StaticBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class PolicyDhcpV6StaticBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_v6_static_binding nsxt_policy_dhcp_v6_static_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_v6_static_binding nsxt_policy_dhcp_v6_static_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class PolicyDhcpV6StaticBinding extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_dhcp_v6_static_binding',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

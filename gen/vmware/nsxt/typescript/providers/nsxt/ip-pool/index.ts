@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IpPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#description IpPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#description IpPool#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#display_name IpPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#display_name IpPool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#id IpPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#id IpPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface IpPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#subnet IpPool#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#subnet IpPool#subnet}
   */
   readonly subnet?: IpPoolSubnet[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#tag IpPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#tag IpPool#tag}
   */
   readonly tag?: IpPoolTag[] | cdktf.IResolvable;
 }
@@ -43,31 +43,31 @@ export interface IpPoolSubnet {
   /**
   * A collection of IPv4 Pool Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#allocation_ranges IpPool#allocation_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#allocation_ranges IpPool#allocation_ranges}
   */
   readonly allocationRanges: string[];
   /**
   * Network address and the prefix length which will be associated with a layer-2 broadcast domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#cidr IpPool#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#cidr IpPool#cidr}
   */
   readonly cidr: string;
   /**
   * A collection of DNS servers for the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#dns_nameservers IpPool#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#dns_nameservers IpPool#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * The DNS suffix for the DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#dns_suffix IpPool#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#dns_suffix IpPool#dns_suffix}
   */
   readonly dnsSuffix?: string;
   /**
   * The default gateway address on a layer-3 router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#gateway_ip IpPool#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#gateway_ip IpPool#gateway_ip}
   */
   readonly gatewayIp?: string;
 }
@@ -293,11 +293,11 @@ export class IpPoolSubnetList extends cdktf.ComplexList {
 }
 export interface IpPoolTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#scope IpPool#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#scope IpPool#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#tag IpPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#tag IpPool#tag}
   */
   readonly tag?: string;
 }
@@ -442,7 +442,7 @@ export class IpPoolTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool nsxt_ip_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool nsxt_ip_pool}
 */
 export class IpPool extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class IpPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpPool to import
-  * @param importFromId The id of the existing IpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class IpPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ip_pool nsxt_ip_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ip_pool nsxt_ip_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class IpPool extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_ip_pool',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

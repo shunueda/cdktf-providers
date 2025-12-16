@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorAlarmNoticeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#id MonitorAlarmNotice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#id MonitorAlarmNotice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface MonitorAlarmNoticeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Notification template name within 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#name MonitorAlarmNotice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#name MonitorAlarmNotice#name}
   */
   readonly name: string;
   /**
   * Notification language zh-CN=Chinese en-US=English.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#notice_language MonitorAlarmNotice#notice_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#notice_language MonitorAlarmNotice#notice_language}
   */
   readonly noticeLanguage: string;
   /**
   * Alarm notification type ALARM=Notification not restored OK=Notification restored ALL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#notice_type MonitorAlarmNotice#notice_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#notice_type MonitorAlarmNotice#notice_type}
   */
   readonly noticeType: string;
   /**
   * cls_notices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#cls_notices MonitorAlarmNotice#cls_notices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#cls_notices MonitorAlarmNotice#cls_notices}
   */
   readonly clsNotices?: MonitorAlarmNoticeClsNotices[] | cdktf.IResolvable;
   /**
   * url_notices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#url_notices MonitorAlarmNotice#url_notices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#url_notices MonitorAlarmNotice#url_notices}
   */
   readonly urlNotices?: MonitorAlarmNoticeUrlNotices[] | cdktf.IResolvable;
   /**
   * user_notices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#user_notices MonitorAlarmNotice#user_notices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#user_notices MonitorAlarmNotice#user_notices}
   */
   readonly userNotices?: MonitorAlarmNoticeUserNotices[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface MonitorAlarmNoticeClsNotices {
   /**
   * Start-stop status, can not be transmitted, default enabled. 0= Disabled, 1= enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#enable MonitorAlarmNotice#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#enable MonitorAlarmNotice#enable}
   */
   readonly enable?: number;
   /**
   * Log collection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#log_set_id MonitorAlarmNotice#log_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#log_set_id MonitorAlarmNotice#log_set_id}
   */
   readonly logSetId: string;
   /**
   * Regional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#region MonitorAlarmNotice#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#region MonitorAlarmNotice#region}
   */
   readonly region: string;
   /**
   * Theme Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#topic_id MonitorAlarmNotice#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#topic_id MonitorAlarmNotice#topic_id}
   */
   readonly topicId: string;
 }
@@ -269,37 +269,37 @@ export interface MonitorAlarmNoticeUrlNotices {
   /**
   * Notification End Time Seconds at the start of a day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#end_time MonitorAlarmNotice#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#end_time MonitorAlarmNotice#end_time}
   */
   readonly endTime?: number;
   /**
   * If passed verification `0` is no, `1` is yes. Default `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#is_valid MonitorAlarmNotice#is_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#is_valid MonitorAlarmNotice#is_valid}
   */
   readonly isValid?: number;
   /**
   * Notification Start Time Number of seconds at the start of a day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#start_time MonitorAlarmNotice#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#start_time MonitorAlarmNotice#start_time}
   */
   readonly startTime?: number;
   /**
   * Callback URL (limited to 256 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#url MonitorAlarmNotice#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#url MonitorAlarmNotice#url}
   */
   readonly url: string;
   /**
   * Verification code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#validation_code MonitorAlarmNotice#validation_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#validation_code MonitorAlarmNotice#validation_code}
   */
   readonly validationCode?: string;
   /**
   * Notification period 1-7 indicates Monday to Sunday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#weekday MonitorAlarmNotice#weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#weekday MonitorAlarmNotice#weekday}
   */
   readonly weekday?: number[];
 }
@@ -559,79 +559,79 @@ export interface MonitorAlarmNoticeUserNotices {
   /**
   * The number of seconds since the notification end time 00:00:00 (value range 0-86399).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#end_time MonitorAlarmNotice#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#end_time MonitorAlarmNotice#end_time}
   */
   readonly endTime: number;
   /**
   * User group ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#group_ids MonitorAlarmNotice#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#group_ids MonitorAlarmNotice#group_ids}
   */
   readonly groupIds?: number[];
   /**
   * Contact notification required 0= No 1= Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#need_phone_arrive_notice MonitorAlarmNotice#need_phone_arrive_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#need_phone_arrive_notice MonitorAlarmNotice#need_phone_arrive_notice}
   */
   readonly needPhoneArriveNotice?: number;
   /**
   * Notification Channel List EMAIL=Mail SMS=SMS CALL=Telephone WECHAT=WeChat RTX=Enterprise WeChat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#notice_way MonitorAlarmNotice#notice_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#notice_way MonitorAlarmNotice#notice_way}
   */
   readonly noticeWay: string[];
   /**
   * Call type SYNC= Simultaneous call CIRCLE= Round call If this parameter is not specified, the default value is round call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#phone_call_type MonitorAlarmNotice#phone_call_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#phone_call_type MonitorAlarmNotice#phone_call_type}
   */
   readonly phoneCallType?: string;
   /**
   * Number of seconds between polls (value range: 60-900).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#phone_circle_interval MonitorAlarmNotice#phone_circle_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#phone_circle_interval MonitorAlarmNotice#phone_circle_interval}
   */
   readonly phoneCircleInterval?: number;
   /**
   * Number of telephone polls (value range: 1-5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#phone_circle_times MonitorAlarmNotice#phone_circle_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#phone_circle_times MonitorAlarmNotice#phone_circle_times}
   */
   readonly phoneCircleTimes?: number;
   /**
   * Number of seconds between calls in a polling session (value range: 60-900).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#phone_inner_interval MonitorAlarmNotice#phone_inner_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#phone_inner_interval MonitorAlarmNotice#phone_inner_interval}
   */
   readonly phoneInnerInterval?: number;
   /**
   * Telephone polling list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#phone_order MonitorAlarmNotice#phone_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#phone_order MonitorAlarmNotice#phone_order}
   */
   readonly phoneOrder?: number[];
   /**
   * Recipient Type USER=User GROUP=User Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#receiver_type MonitorAlarmNotice#receiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#receiver_type MonitorAlarmNotice#receiver_type}
   */
   readonly receiverType: string;
   /**
   * The number of seconds since the notification start time 00:00:00 (value range 0-86399).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#start_time MonitorAlarmNotice#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#start_time MonitorAlarmNotice#start_time}
   */
   readonly startTime: number;
   /**
   * User UID List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#user_ids MonitorAlarmNotice#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#user_ids MonitorAlarmNotice#user_ids}
   */
   readonly userIds?: number[];
   /**
   * Notification period 1-7 indicates Monday to Sunday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#weekday MonitorAlarmNotice#weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#weekday MonitorAlarmNotice#weekday}
   */
   readonly weekday?: number[];
 }
@@ -1083,7 +1083,7 @@ export class MonitorAlarmNoticeUserNoticesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice tencentcloud_monitor_alarm_notice}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice tencentcloud_monitor_alarm_notice}
 */
 export class MonitorAlarmNotice extends cdktf.TerraformResource {
 
@@ -1099,7 +1099,7 @@ export class MonitorAlarmNotice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorAlarmNotice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorAlarmNotice to import
-  * @param importFromId The id of the existing MonitorAlarmNotice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorAlarmNotice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorAlarmNotice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1111,7 +1111,7 @@ export class MonitorAlarmNotice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_alarm_notice tencentcloud_monitor_alarm_notice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_alarm_notice tencentcloud_monitor_alarm_notice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1122,8 +1122,8 @@ export class MonitorAlarmNotice extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_alarm_notice',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

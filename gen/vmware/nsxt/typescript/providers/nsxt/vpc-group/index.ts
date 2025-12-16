@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VpcGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#description VpcGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#description VpcGroup#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#display_name VpcGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#display_name VpcGroup#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates the group type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#group_type VpcGroup#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#group_type VpcGroup#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#id VpcGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#id VpcGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface VpcGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#nsx_id VpcGroup#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#nsx_id VpcGroup#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * conjunction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#conjunction VpcGroup#conjunction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#conjunction VpcGroup#conjunction}
   */
   readonly conjunction?: VpcGroupConjunction[] | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#context VpcGroup#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#context VpcGroup#context}
   */
   readonly context: VpcGroupContext;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#criteria VpcGroup#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#criteria VpcGroup#criteria}
   */
   readonly criteria?: VpcGroupCriteria[] | cdktf.IResolvable;
   /**
   * extended_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#extended_criteria VpcGroup#extended_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#extended_criteria VpcGroup#extended_criteria}
   */
   readonly extendedCriteria?: VpcGroupExtendedCriteria;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#tag VpcGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#tag VpcGroup#tag}
   */
   readonly tag?: VpcGroupTag[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface VpcGroupConjunction {
   /**
   * The conjunction operator; either OR or AND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#operator VpcGroup#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#operator VpcGroup#operator}
   */
   readonly operator: string;
 }
@@ -188,13 +188,13 @@ export interface VpcGroupContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#project_id VpcGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#project_id VpcGroup#project_id}
   */
   readonly projectId: string;
   /**
   * Id of the VPC which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#vpc_id VpcGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#vpc_id VpcGroup#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -303,25 +303,25 @@ export interface VpcGroupCriteriaCondition {
   /**
   * The resource key attribute to apply the condition to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#key VpcGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#key VpcGroup#key}
   */
   readonly key: string;
   /**
   * The NSX member to apply the condition to. Can be one of; IPSet, LogicalPort, LogicalSwitch, Segment, SegmentPort or VirtualMachine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#member_type VpcGroup#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#member_type VpcGroup#member_type}
   */
   readonly memberType: string;
   /**
   * The operator to use for the condition. Can be one of; CONTAINS, ENDSWITH, EQUALS, NOTEQUALS or STARTSWITH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#operator VpcGroup#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#operator VpcGroup#operator}
   */
   readonly operator: string;
   /**
   * The value to check for in the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#value VpcGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#value VpcGroup#value}
   */
   readonly value: string;
 }
@@ -514,13 +514,13 @@ export interface VpcGroupCriteriaExternalIdExpression {
   /**
   * List of external IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#external_ids VpcGroup#external_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#external_ids VpcGroup#external_ids}
   */
   readonly externalIds: string[];
   /**
   * External ID member type, default to virtual machine if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#member_type VpcGroup#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#member_type VpcGroup#member_type}
   */
   readonly memberType?: string;
 }
@@ -664,7 +664,7 @@ export interface VpcGroupCriteriaIpaddressExpression {
   /**
   * List of single IP addresses, IP address ranges or Subnets. Cannot mix IPv4 and IPv6 in a single list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#ip_addresses VpcGroup#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#ip_addresses VpcGroup#ip_addresses}
   */
   readonly ipAddresses: string[];
 }
@@ -747,7 +747,7 @@ export interface VpcGroupCriteriaMacaddressExpression {
   /**
   * List of Mac Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#mac_addresses VpcGroup#mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#mac_addresses VpcGroup#mac_addresses}
   */
   readonly macAddresses: string[];
 }
@@ -830,7 +830,7 @@ export interface VpcGroupCriteriaPathExpression {
   /**
   * List of policy paths of direct group members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#member_paths VpcGroup#member_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#member_paths VpcGroup#member_paths}
   */
   readonly memberPaths: string[];
 }
@@ -913,31 +913,31 @@ export interface VpcGroupCriteria {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#condition VpcGroup#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#condition VpcGroup#condition}
   */
   readonly condition?: VpcGroupCriteriaCondition[] | cdktf.IResolvable;
   /**
   * external_id_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#external_id_expression VpcGroup#external_id_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#external_id_expression VpcGroup#external_id_expression}
   */
   readonly externalIdExpression?: VpcGroupCriteriaExternalIdExpression[] | cdktf.IResolvable;
   /**
   * ipaddress_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#ipaddress_expression VpcGroup#ipaddress_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#ipaddress_expression VpcGroup#ipaddress_expression}
   */
   readonly ipaddressExpression?: VpcGroupCriteriaIpaddressExpression;
   /**
   * macaddress_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#macaddress_expression VpcGroup#macaddress_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#macaddress_expression VpcGroup#macaddress_expression}
   */
   readonly macaddressExpression?: VpcGroupCriteriaMacaddressExpression;
   /**
   * path_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#path_expression VpcGroup#path_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#path_expression VpcGroup#path_expression}
   */
   readonly pathExpression?: VpcGroupCriteriaPathExpression;
 }
@@ -1171,19 +1171,19 @@ export interface VpcGroupExtendedCriteriaIdentityGroup {
   /**
   * LDAP distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#distinguished_name VpcGroup#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#distinguished_name VpcGroup#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
   * Identity (Directory) domain base distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#domain_base_distinguished_name VpcGroup#domain_base_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#domain_base_distinguished_name VpcGroup#domain_base_distinguished_name}
   */
   readonly domainBaseDistinguishedName?: string;
   /**
   * Identity (Directory) Group SID (security identifier)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#sid VpcGroup#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#sid VpcGroup#sid}
   */
   readonly sid?: string;
 }
@@ -1359,7 +1359,7 @@ export interface VpcGroupExtendedCriteria {
   /**
   * identity_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#identity_group VpcGroup#identity_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#identity_group VpcGroup#identity_group}
   */
   readonly identityGroup: VpcGroupExtendedCriteriaIdentityGroup[] | cdktf.IResolvable;
 }
@@ -1440,11 +1440,11 @@ export class VpcGroupExtendedCriteriaOutputReference extends cdktf.ComplexObject
 }
 export interface VpcGroupTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#scope VpcGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#scope VpcGroup#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#tag VpcGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#tag VpcGroup#tag}
   */
   readonly tag?: string;
 }
@@ -1589,7 +1589,7 @@ export class VpcGroupTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group nsxt_vpc_group}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group nsxt_vpc_group}
 */
 export class VpcGroup extends cdktf.TerraformResource {
 
@@ -1605,7 +1605,7 @@ export class VpcGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcGroup to import
-  * @param importFromId The id of the existing VpcGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1617,7 +1617,7 @@ export class VpcGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_group nsxt_vpc_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_group nsxt_vpc_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1628,8 +1628,8 @@ export class VpcGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_group',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

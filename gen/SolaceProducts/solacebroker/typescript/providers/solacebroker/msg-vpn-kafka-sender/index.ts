@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_access_key_id MsgVpnKafkaSender#authentication_aws_msk_iam_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_access_key_id MsgVpnKafkaSender#authentication_aws_msk_iam_access_key_id}
   */
   readonly authenticationAwsMskIamAccessKeyId?: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_region MsgVpnKafkaSender#authentication_aws_msk_iam_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_region MsgVpnKafkaSender#authentication_aws_msk_iam_region}
   */
   readonly authenticationAwsMskIamRegion?: string;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_secret_access_key MsgVpnKafkaSender#authentication_aws_msk_iam_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_secret_access_key MsgVpnKafkaSender#authentication_aws_msk_iam_secret_access_key}
   */
   readonly authenticationAwsMskIamSecretAccessKey?: string;
   /**
@@ -36,7 +36,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_sts_external_id MsgVpnKafkaSender#authentication_aws_msk_iam_sts_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_sts_external_id MsgVpnKafkaSender#authentication_aws_msk_iam_sts_external_id}
   */
   readonly authenticationAwsMskIamStsExternalId?: string;
   /**
@@ -44,7 +44,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_sts_role_arn MsgVpnKafkaSender#authentication_aws_msk_iam_sts_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_sts_role_arn MsgVpnKafkaSender#authentication_aws_msk_iam_sts_role_arn}
   */
   readonly authenticationAwsMskIamStsRoleArn?: string;
   /**
@@ -52,7 +52,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_sts_role_session_name MsgVpnKafkaSender#authentication_aws_msk_iam_sts_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_aws_msk_iam_sts_role_session_name MsgVpnKafkaSender#authentication_aws_msk_iam_sts_role_session_name}
   */
   readonly authenticationAwsMskIamStsRoleSessionName?: string;
   /**
@@ -60,7 +60,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_basic_password MsgVpnKafkaSender#authentication_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_basic_password MsgVpnKafkaSender#authentication_basic_password}
   */
   readonly authenticationBasicPassword?: string;
   /**
@@ -68,7 +68,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_basic_username MsgVpnKafkaSender#authentication_basic_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_basic_username MsgVpnKafkaSender#authentication_basic_username}
   */
   readonly authenticationBasicUsername?: string;
   /**
@@ -76,7 +76,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_client_cert_content MsgVpnKafkaSender#authentication_client_cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_client_cert_content MsgVpnKafkaSender#authentication_client_cert_content}
   */
   readonly authenticationClientCertContent?: string;
   /**
@@ -84,7 +84,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_client_cert_password MsgVpnKafkaSender#authentication_client_cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_client_cert_password MsgVpnKafkaSender#authentication_client_cert_password}
   */
   readonly authenticationClientCertPassword?: string;
   /**
@@ -92,7 +92,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_keytab_content MsgVpnKafkaSender#authentication_kerberos_keytab_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_keytab_content MsgVpnKafkaSender#authentication_kerberos_keytab_content}
   */
   readonly authenticationKerberosKeytabContent?: string;
   /**
@@ -100,7 +100,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_keytab_file_name MsgVpnKafkaSender#authentication_kerberos_keytab_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_keytab_file_name MsgVpnKafkaSender#authentication_kerberos_keytab_file_name}
   */
   readonly authenticationKerberosKeytabFileName?: string;
   /**
@@ -108,7 +108,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_service_name MsgVpnKafkaSender#authentication_kerberos_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_service_name MsgVpnKafkaSender#authentication_kerberos_service_name}
   */
   readonly authenticationKerberosServiceName?: string;
   /**
@@ -116,7 +116,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_user_principal_name MsgVpnKafkaSender#authentication_kerberos_user_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_kerberos_user_principal_name MsgVpnKafkaSender#authentication_kerberos_user_principal_name}
   */
   readonly authenticationKerberosUserPrincipalName?: string;
   /**
@@ -124,7 +124,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_id MsgVpnKafkaSender#authentication_oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_id MsgVpnKafkaSender#authentication_oauth_client_id}
   */
   readonly authenticationOauthClientId?: string;
   /**
@@ -132,7 +132,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_scope MsgVpnKafkaSender#authentication_oauth_client_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_scope MsgVpnKafkaSender#authentication_oauth_client_scope}
   */
   readonly authenticationOauthClientScope?: string;
   /**
@@ -140,7 +140,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_secret MsgVpnKafkaSender#authentication_oauth_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_secret MsgVpnKafkaSender#authentication_oauth_client_secret}
   */
   readonly authenticationOauthClientSecret?: string;
   /**
@@ -148,7 +148,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_token_endpoint MsgVpnKafkaSender#authentication_oauth_client_token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_oauth_client_token_endpoint MsgVpnKafkaSender#authentication_oauth_client_token_endpoint}
   */
   readonly authenticationOauthClientTokenEndpoint?: string;
   /**
@@ -168,7 +168,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_scheme MsgVpnKafkaSender#authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_scheme MsgVpnKafkaSender#authentication_scheme}
   */
   readonly authenticationScheme?: string;
   /**
@@ -182,7 +182,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_scram_hash MsgVpnKafkaSender#authentication_scram_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_scram_hash MsgVpnKafkaSender#authentication_scram_hash}
   */
   readonly authenticationScramHash?: string;
   /**
@@ -190,7 +190,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_scram_password MsgVpnKafkaSender#authentication_scram_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_scram_password MsgVpnKafkaSender#authentication_scram_password}
   */
   readonly authenticationScramPassword?: string;
   /**
@@ -198,7 +198,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#authentication_scram_username MsgVpnKafkaSender#authentication_scram_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#authentication_scram_username MsgVpnKafkaSender#authentication_scram_username}
   */
   readonly authenticationScramUsername?: string;
   /**
@@ -208,7 +208,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#batch_delay MsgVpnKafkaSender#batch_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#batch_delay MsgVpnKafkaSender#batch_delay}
   */
   readonly batchDelay?: number;
   /**
@@ -216,7 +216,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#batch_max_msg_count MsgVpnKafkaSender#batch_max_msg_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#batch_max_msg_count MsgVpnKafkaSender#batch_max_msg_count}
   */
   readonly batchMaxMsgCount?: number;
   /**
@@ -226,7 +226,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#batch_max_size MsgVpnKafkaSender#batch_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#batch_max_size MsgVpnKafkaSender#batch_max_size}
   */
   readonly batchMaxSize?: number;
   /**
@@ -236,7 +236,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#bootstrap_address_list MsgVpnKafkaSender#bootstrap_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#bootstrap_address_list MsgVpnKafkaSender#bootstrap_address_list}
   */
   readonly bootstrapAddressList?: string;
   /**
@@ -244,7 +244,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#enabled MsgVpnKafkaSender#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#enabled MsgVpnKafkaSender#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -254,7 +254,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#idempotence_enabled MsgVpnKafkaSender#idempotence_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#idempotence_enabled MsgVpnKafkaSender#idempotence_enabled}
   */
   readonly idempotenceEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -262,7 +262,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#kafka_sender_name MsgVpnKafkaSender#kafka_sender_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#kafka_sender_name MsgVpnKafkaSender#kafka_sender_name}
   */
   readonly kafkaSenderName: string;
   /**
@@ -270,7 +270,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#msg_vpn_name MsgVpnKafkaSender#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#msg_vpn_name MsgVpnKafkaSender#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -278,7 +278,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#transport_compression_enabled MsgVpnKafkaSender#transport_compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#transport_compression_enabled MsgVpnKafkaSender#transport_compression_enabled}
   */
   readonly transportCompressionEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -288,7 +288,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#transport_compression_level MsgVpnKafkaSender#transport_compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#transport_compression_level MsgVpnKafkaSender#transport_compression_level}
   */
   readonly transportCompressionLevel?: number;
   /**
@@ -306,7 +306,7 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#transport_compression_type MsgVpnKafkaSender#transport_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#transport_compression_type MsgVpnKafkaSender#transport_compression_type}
   */
   readonly transportCompressionType?: string;
   /**
@@ -314,13 +314,13 @@ export interface MsgVpnKafkaSenderConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#transport_tls_enabled MsgVpnKafkaSender#transport_tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#transport_tls_enabled MsgVpnKafkaSender#transport_tls_enabled}
   */
   readonly transportTlsEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender solacebroker_msg_vpn_kafka_sender}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender solacebroker_msg_vpn_kafka_sender}
 */
 export class MsgVpnKafkaSender extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class MsgVpnKafkaSender extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnKafkaSender resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnKafkaSender to import
-  * @param importFromId The id of the existing MsgVpnKafkaSender that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnKafkaSender that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnKafkaSender to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class MsgVpnKafkaSender extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_kafka_sender solacebroker_msg_vpn_kafka_sender} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_kafka_sender solacebroker_msg_vpn_kafka_sender} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,8 +359,8 @@ export class MsgVpnKafkaSender extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_kafka_sender',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

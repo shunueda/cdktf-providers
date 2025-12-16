@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnAclProfileSubscribeTopicExceptionConfig e
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#acl_profile_name DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#acl_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#acl_profile_name DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#acl_profile_name}
   */
   readonly aclProfileName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerMsgVpnAclProfileSubscribeTopicExceptionConfig e
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#msg_vpn_name DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#msg_vpn_name DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -28,7 +28,7 @@ export interface DataSolacebrokerMsgVpnAclProfileSubscribeTopicExceptionConfig e
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#subscribe_topic_exception DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#subscribe_topic_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#subscribe_topic_exception DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#subscribe_topic_exception}
   */
   readonly subscribeTopicException: string;
   /**
@@ -42,13 +42,13 @@ export interface DataSolacebrokerMsgVpnAclProfileSubscribeTopicExceptionConfig e
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#subscribe_topic_exception_syntax DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#subscribe_topic_exception_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#subscribe_topic_exception_syntax DataSolacebrokerMsgVpnAclProfileSubscribeTopicException#subscribe_topic_exception_syntax}
   */
   readonly subscribeTopicExceptionSyntax: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception solacebroker_msg_vpn_acl_profile_subscribe_topic_exception}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception solacebroker_msg_vpn_acl_profile_subscribe_topic_exception}
 */
 export class DataSolacebrokerMsgVpnAclProfileSubscribeTopicException extends cdktf.TerraformDataSource {
 
@@ -64,7 +64,7 @@ export class DataSolacebrokerMsgVpnAclProfileSubscribeTopicException extends cdk
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnAclProfileSubscribeTopicException resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnAclProfileSubscribeTopicException to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnAclProfileSubscribeTopicException that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnAclProfileSubscribeTopicException that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnAclProfileSubscribeTopicException to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class DataSolacebrokerMsgVpnAclProfileSubscribeTopicException extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception solacebroker_msg_vpn_acl_profile_subscribe_topic_exception} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_acl_profile_subscribe_topic_exception solacebroker_msg_vpn_acl_profile_subscribe_topic_exception} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class DataSolacebrokerMsgVpnAclProfileSubscribeTopicException extends cdk
       terraformResourceType: 'solacebroker_msg_vpn_acl_profile_subscribe_topic_exception',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

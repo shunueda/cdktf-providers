@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyMetadataProxyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Metadata proxy supported cryptographic protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#crypto_protocols PolicyMetadataProxy#crypto_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#crypto_protocols PolicyMetadataProxy#crypto_protocols}
   */
   readonly cryptoProtocols?: string[];
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#description PolicyMetadataProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#description PolicyMetadataProxy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#display_name PolicyMetadataProxy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#display_name PolicyMetadataProxy#display_name}
   */
   readonly displayName: string;
   /**
   * Policy path to Edge Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#edge_cluster_path PolicyMetadataProxy#edge_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#edge_cluster_path PolicyMetadataProxy#edge_cluster_path}
   */
   readonly edgeClusterPath: string;
   /**
   * Flag to enable standby relocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#enable_standby_relocation PolicyMetadataProxy#enable_standby_relocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#enable_standby_relocation PolicyMetadataProxy#enable_standby_relocation}
   */
   readonly enableStandbyRelocation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#id PolicyMetadataProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#id PolicyMetadataProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface PolicyMetadataProxyConfig extends cdktf.TerraformMetaArguments 
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#nsx_id PolicyMetadataProxy#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#nsx_id PolicyMetadataProxy#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Preferred Edge Paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#preferred_edge_paths PolicyMetadataProxy#preferred_edge_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#preferred_edge_paths PolicyMetadataProxy#preferred_edge_paths}
   */
   readonly preferredEdgePaths?: string[];
   /**
   * Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#secret PolicyMetadataProxy#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#secret PolicyMetadataProxy#secret}
   */
   readonly secret: string;
   /**
   * Server Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#server_address PolicyMetadataProxy#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#server_address PolicyMetadataProxy#server_address}
   */
   readonly serverAddress: string;
   /**
   * Policy paths to Certificate Authority (CA) certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#server_certificates PolicyMetadataProxy#server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#server_certificates PolicyMetadataProxy#server_certificates}
   */
   readonly serverCertificates?: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#tag PolicyMetadataProxy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#tag PolicyMetadataProxy#tag}
   */
   readonly tag?: PolicyMetadataProxyTag[] | cdktf.IResolvable;
 }
 export interface PolicyMetadataProxyTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#scope PolicyMetadataProxy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#scope PolicyMetadataProxy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#tag PolicyMetadataProxy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#tag PolicyMetadataProxy#tag}
   */
   readonly tag?: string;
 }
@@ -232,7 +232,7 @@ export class PolicyMetadataProxyTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy nsxt_policy_metadata_proxy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy nsxt_policy_metadata_proxy}
 */
 export class PolicyMetadataProxy extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class PolicyMetadataProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyMetadataProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyMetadataProxy to import
-  * @param importFromId The id of the existing PolicyMetadataProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyMetadataProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyMetadataProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class PolicyMetadataProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_metadata_proxy nsxt_policy_metadata_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_metadata_proxy nsxt_policy_metadata_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class PolicyMetadataProxy extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_metadata_proxy',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

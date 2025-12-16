@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNsxtPolicyEdgeTransportNodeRealizationConfig extends cdktf.
   /**
   * Initial delay to start realization checks in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization#delay DataNsxtPolicyEdgeTransportNodeRealization#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization#delay DataNsxtPolicyEdgeTransportNodeRealization#delay}
   */
   readonly delay?: number;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization#id DataNsxtPolicyEdgeTransportNodeRealization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization#id DataNsxtPolicyEdgeTransportNodeRealization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataNsxtPolicyEdgeTransportNodeRealizationConfig extends cdktf.
   /**
   * The path for the policy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization#path DataNsxtPolicyEdgeTransportNodeRealization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization#path DataNsxtPolicyEdgeTransportNodeRealization#path}
   */
   readonly path: string;
   /**
   * Realization timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization#timeout DataNsxtPolicyEdgeTransportNodeRealization#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization#timeout DataNsxtPolicyEdgeTransportNodeRealization#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization nsxt_policy_edge_transport_node_realization}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization nsxt_policy_edge_transport_node_realization}
 */
 export class DataNsxtPolicyEdgeTransportNodeRealization extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataNsxtPolicyEdgeTransportNodeRealization extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataNsxtPolicyEdgeTransportNodeRealization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyEdgeTransportNodeRealization to import
-  * @param importFromId The id of the existing DataNsxtPolicyEdgeTransportNodeRealization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyEdgeTransportNodeRealization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyEdgeTransportNodeRealization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataNsxtPolicyEdgeTransportNodeRealization extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_edge_transport_node_realization nsxt_policy_edge_transport_node_realization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_edge_transport_node_realization nsxt_policy_edge_transport_node_realization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataNsxtPolicyEdgeTransportNodeRealization extends cdktf.TerraformD
       terraformResourceType: 'nsxt_policy_edge_transport_node_realization',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

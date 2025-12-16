@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataNsxtPolicyGatewayInterfaceConfig extends cdktf.TerraformMet
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#description DataNsxtPolicyGatewayInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#description DataNsxtPolicyGatewayInterface#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#display_name DataNsxtPolicyGatewayInterface#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#display_name DataNsxtPolicyGatewayInterface#display_name}
   */
   readonly displayName?: string;
   /**
   * The path of the edge cluster connected to the gateway linked to this interface. This is exported only for Tier0 gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#edge_cluster_path DataNsxtPolicyGatewayInterface#edge_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#edge_cluster_path DataNsxtPolicyGatewayInterface#edge_cluster_path}
   */
   readonly edgeClusterPath?: string;
   /**
   * The name of the gateway to which interface is linked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#gateway_path DataNsxtPolicyGatewayInterface#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#gateway_path DataNsxtPolicyGatewayInterface#gateway_path}
   */
   readonly gatewayPath?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#id DataNsxtPolicyGatewayInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#id DataNsxtPolicyGatewayInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,19 +43,19 @@ export interface DataNsxtPolicyGatewayInterfaceConfig extends cdktf.TerraformMet
   /**
   * Policy path for segment to be connected with the Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#segment_path DataNsxtPolicyGatewayInterface#segment_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#segment_path DataNsxtPolicyGatewayInterface#segment_path}
   */
   readonly segmentPath?: string;
   /**
   * The name of the locale service of the gateway to which interface is linked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#service_path DataNsxtPolicyGatewayInterface#service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#service_path DataNsxtPolicyGatewayInterface#service_path}
   */
   readonly servicePath?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface nsxt_policy_gateway_interface}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface nsxt_policy_gateway_interface}
 */
 export class DataNsxtPolicyGatewayInterface extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataNsxtPolicyGatewayInterface extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyGatewayInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyGatewayInterface to import
-  * @param importFromId The id of the existing DataNsxtPolicyGatewayInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyGatewayInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyGatewayInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataNsxtPolicyGatewayInterface extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_interface nsxt_policy_gateway_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_interface nsxt_policy_gateway_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataNsxtPolicyGatewayInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_gateway_interface',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

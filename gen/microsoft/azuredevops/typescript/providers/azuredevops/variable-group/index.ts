@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface VariableGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#allow_access VariableGroup#allow_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#allow_access VariableGroup#allow_access}
   */
   readonly allowAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#description VariableGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#description VariableGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#id VariableGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#id VariableGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#project_id VariableGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#project_id VariableGroup#project_id}
   */
   readonly projectId: string;
   /**
   * key_vault block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#key_vault VariableGroup#key_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#key_vault VariableGroup#key_vault}
   */
   readonly keyVault?: VariableGroupKeyVault;
   /**
-  * secret_variable block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#secret_variable VariableGroup#secret_variable}
-  */
-  readonly secretVariable?: VariableGroupSecretVariable[] | cdktf.IResolvable;
-  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#timeouts VariableGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#timeouts VariableGroup#timeouts}
   */
   readonly timeouts?: VariableGroupTimeouts;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#variable VariableGroup#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#variable VariableGroup#variable}
   */
-  readonly variable?: VariableGroupVariable[] | cdktf.IResolvable;
+  readonly variable: VariableGroupVariable[] | cdktf.IResolvable;
 }
 export interface VariableGroupKeyVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#search_depth VariableGroup#search_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#search_depth VariableGroup#search_depth}
   */
   readonly searchDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#service_endpoint_id VariableGroup#service_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#service_endpoint_id VariableGroup#service_endpoint_id}
   */
   readonly serviceEndpointId: string;
 }
@@ -199,182 +193,21 @@ export class VariableGroupKeyVaultOutputReference extends cdktf.ComplexObject {
     return this._serviceEndpointId;
   }
 }
-export interface VariableGroupSecretVariable {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
-  */
-  readonly name: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#value VariableGroup#value}
-  */
-  readonly value?: string;
-}
-
-export function variableGroupSecretVariableToTerraform(struct?: VariableGroupSecretVariable | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function variableGroupSecretVariableToHclTerraform(struct?: VariableGroupSecretVariable | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VariableGroupSecretVariableOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): VariableGroupSecretVariable | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VariableGroupSecretVariable | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._value = value.value;
-    }
-  }
-
-  // content_type - computed: true, optional: false, required: false
-  public get contentType() {
-    return this.getStringAttribute('content_type');
-  }
-
-  // enabled - computed: true, optional: false, required: false
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-
-  // expires - computed: true, optional: false, required: false
-  public get expires() {
-    return this.getStringAttribute('expires');
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // value - computed: false, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class VariableGroupSecretVariableList extends cdktf.ComplexList {
-  public internalValue? : VariableGroupSecretVariable[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): VariableGroupSecretVariableOutputReference {
-    return new VariableGroupSecretVariableOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface VariableGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#create VariableGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#create VariableGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#delete VariableGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#delete VariableGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#read VariableGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#read VariableGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#update VariableGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#update VariableGroup#update}
   */
   readonly update?: string;
 }
@@ -555,11 +388,19 @@ export class VariableGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface VariableGroupVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#is_secret VariableGroup#is_secret}
+  */
+  readonly isSecret?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#value VariableGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#secret_value VariableGroup#secret_value}
+  */
+  readonly secretValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#value VariableGroup#value}
   */
   readonly value?: string;
 }
@@ -570,7 +411,9 @@ export function variableGroupVariableToTerraform(struct?: VariableGroupVariable 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    is_secret: cdktf.booleanToTerraform(struct!.isSecret),
     name: cdktf.stringToTerraform(struct!.name),
+    secret_value: cdktf.stringToTerraform(struct!.secretValue),
     value: cdktf.stringToTerraform(struct!.value),
   }
 }
@@ -582,8 +425,20 @@ export function variableGroupVariableToHclTerraform(struct?: VariableGroupVariab
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    is_secret: {
+      value: cdktf.booleanToHclTerraform(struct!.isSecret),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_value: {
+      value: cdktf.stringToHclTerraform(struct!.secretValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -620,9 +475,17 @@ export class VariableGroupVariableOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._isSecret !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isSecret = this._isSecret;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
+    }
+    if (this._secretValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretValue = this._secretValue;
     }
     if (this._value !== undefined) {
       hasAnyValues = true;
@@ -635,7 +498,9 @@ export class VariableGroupVariableOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._isSecret = undefined;
       this._name = undefined;
+      this._secretValue = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -645,7 +510,9 @@ export class VariableGroupVariableOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._isSecret = value.isSecret;
       this._name = value.name;
+      this._secretValue = value.secretValue;
       this._value = value.value;
     }
   }
@@ -665,6 +532,22 @@ export class VariableGroupVariableOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('expires');
   }
 
+  // is_secret - computed: false, optional: true, required: false
+  private _isSecret?: boolean | cdktf.IResolvable; 
+  public get isSecret() {
+    return this.getBooleanAttribute('is_secret');
+  }
+  public set isSecret(value: boolean | cdktf.IResolvable) {
+    this._isSecret = value;
+  }
+  public resetIsSecret() {
+    this._isSecret = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isSecretInput() {
+    return this._isSecret;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -676,6 +559,22 @@ export class VariableGroupVariableOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // secret_value - computed: false, optional: true, required: false
+  private _secretValue?: string; 
+  public get secretValue() {
+    return this.getStringAttribute('secret_value');
+  }
+  public set secretValue(value: string) {
+    this._secretValue = value;
+  }
+  public resetSecretValue() {
+    this._secretValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretValueInput() {
+    return this._secretValue;
   }
 
   // value - computed: false, optional: true, required: false
@@ -716,7 +615,7 @@ export class VariableGroupVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group azuredevops_variable_group}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group azuredevops_variable_group}
 */
 export class VariableGroup extends cdktf.TerraformResource {
 
@@ -732,7 +631,7 @@ export class VariableGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VariableGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VariableGroup to import
-  * @param importFromId The id of the existing VariableGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VariableGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VariableGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -744,7 +643,7 @@ export class VariableGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group azuredevops_variable_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/variable_group azuredevops_variable_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -755,8 +654,8 @@ export class VariableGroup extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_variable_group',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -772,7 +671,6 @@ export class VariableGroup extends cdktf.TerraformResource {
     this._name = config.name;
     this._projectId = config.projectId;
     this._keyVault.internalValue = config.keyVault;
-    this._secretVariable.internalValue = config.secretVariable;
     this._timeouts.internalValue = config.timeouts;
     this._variable.internalValue = config.variable;
   }
@@ -871,22 +769,6 @@ export class VariableGroup extends cdktf.TerraformResource {
     return this._keyVault.internalValue;
   }
 
-  // secret_variable - computed: false, optional: true, required: false
-  private _secretVariable = new VariableGroupSecretVariableList(this, "secret_variable", true);
-  public get secretVariable() {
-    return this._secretVariable;
-  }
-  public putSecretVariable(value: VariableGroupSecretVariable[] | cdktf.IResolvable) {
-    this._secretVariable.internalValue = value;
-  }
-  public resetSecretVariable() {
-    this._secretVariable.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secretVariableInput() {
-    return this._secretVariable.internalValue;
-  }
-
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new VariableGroupTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -903,16 +785,13 @@ export class VariableGroup extends cdktf.TerraformResource {
     return this._timeouts.internalValue;
   }
 
-  // variable - computed: false, optional: true, required: false
+  // variable - computed: false, optional: false, required: true
   private _variable = new VariableGroupVariableList(this, "variable", true);
   public get variable() {
     return this._variable;
   }
   public putVariable(value: VariableGroupVariable[] | cdktf.IResolvable) {
     this._variable.internalValue = value;
-  }
-  public resetVariable() {
-    this._variable.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get variableInput() {
@@ -931,7 +810,6 @@ export class VariableGroup extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       project_id: cdktf.stringToTerraform(this._projectId),
       key_vault: variableGroupKeyVaultToTerraform(this._keyVault.internalValue),
-      secret_variable: cdktf.listMapper(variableGroupSecretVariableToTerraform, true)(this._secretVariable.internalValue),
       timeouts: variableGroupTimeoutsToTerraform(this._timeouts.internalValue),
       variable: cdktf.listMapper(variableGroupVariableToTerraform, true)(this._variable.internalValue),
     };
@@ -974,12 +852,6 @@ export class VariableGroup extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "VariableGroupKeyVaultList",
-      },
-      secret_variable: {
-        value: cdktf.listMapperHcl(variableGroupSecretVariableToHclTerraform, true)(this._secretVariable.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "VariableGroupSecretVariableList",
       },
       timeouts: {
         value: variableGroupTimeoutsToHclTerraform(this._timeouts.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_queue
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnQueueConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_queue#msg_vpn_name DataSolacebrokerMsgVpnQueue#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_queue#msg_vpn_name DataSolacebrokerMsgVpnQueue#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerMsgVpnQueueConfig extends cdktf.TerraformMetaAr
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_queue#queue_name DataSolacebrokerMsgVpnQueue#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_queue#queue_name DataSolacebrokerMsgVpnQueue#queue_name}
   */
   readonly queueName: string;
 }
@@ -233,7 +233,7 @@ export class DataSolacebrokerMsgVpnQueueEventRejectLowPriorityMsgLimitThresholdO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_queue solacebroker_msg_vpn_queue}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_queue solacebroker_msg_vpn_queue}
 */
 export class DataSolacebrokerMsgVpnQueue extends cdktf.TerraformDataSource {
 
@@ -249,7 +249,7 @@ export class DataSolacebrokerMsgVpnQueue extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnQueue to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class DataSolacebrokerMsgVpnQueue extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_queue solacebroker_msg_vpn_queue} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_queue solacebroker_msg_vpn_queue} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class DataSolacebrokerMsgVpnQueue extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_msg_vpn_queue',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -463,6 +463,11 @@ export class DataSolacebrokerMsgVpnQueue extends cdktf.TerraformDataSource {
   // reject_msg_to_sender_on_discard_behavior - computed: true, optional: false, required: false
   public get rejectMsgToSenderOnDiscardBehavior() {
     return this.getStringAttribute('reject_msg_to_sender_on_discard_behavior');
+  }
+
+  // respect_dmq_eligible_enabled - computed: true, optional: false, required: false
+  public get respectDmqEligibleEnabled() {
+    return this.getBooleanAttribute('respect_dmq_eligible_enabled');
   }
 
   // respect_msg_priority_enabled - computed: true, optional: false, required: false

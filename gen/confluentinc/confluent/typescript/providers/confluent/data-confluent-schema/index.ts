@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema
+// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataConfluentSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#id DataConfluentSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#id DataConfluentSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataConfluentSchemaConfig extends cdktf.TerraformMetaArguments 
   /**
   * The REST endpoint of the Schema Registry cluster, for example, `https://psrc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#rest_endpoint DataConfluentSchema#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#rest_endpoint DataConfluentSchema#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * Globally unique identifier of the Schema returned for a creation request. It should be used to retrieve this schema from the schemas resource and is different from the schema’s version which is associated with the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#schema_identifier DataConfluentSchema#schema_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#schema_identifier DataConfluentSchema#schema_identifier}
   */
   readonly schemaIdentifier: number;
   /**
   * The name of the Schema Registry Subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#subject_name DataConfluentSchema#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#subject_name DataConfluentSchema#subject_name}
   */
   readonly subjectName: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#credentials DataConfluentSchema#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#credentials DataConfluentSchema#credentials}
   */
   readonly credentials?: DataConfluentSchemaCredentials;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#metadata DataConfluentSchema#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#metadata DataConfluentSchema#metadata}
   */
   readonly metadata?: DataConfluentSchemaMetadata;
   /**
   * ruleset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#ruleset DataConfluentSchema#ruleset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#ruleset DataConfluentSchema#ruleset}
   */
   readonly ruleset?: DataConfluentSchemaRuleset;
   /**
   * schema_registry_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#schema_registry_cluster DataConfluentSchema#schema_registry_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#schema_registry_cluster DataConfluentSchema#schema_registry_cluster}
   */
   readonly schemaRegistryCluster?: DataConfluentSchemaSchemaRegistryCluster;
 }
@@ -146,13 +146,13 @@ export interface DataConfluentSchemaCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#key DataConfluentSchema#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#key DataConfluentSchema#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#secret DataConfluentSchema#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#secret DataConfluentSchema#secret}
   */
   readonly secret: string;
 }
@@ -259,11 +259,11 @@ export class DataConfluentSchemaCredentialsOutputReference extends cdktf.Complex
 }
 export interface DataConfluentSchemaMetadataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#key DataConfluentSchema#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#key DataConfluentSchema#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#value DataConfluentSchema#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#value DataConfluentSchema#value}
   */
   readonly value?: string[];
 }
@@ -408,17 +408,17 @@ export class DataConfluentSchemaMetadataTagsList extends cdktf.ComplexList {
 }
 export interface DataConfluentSchemaMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#properties DataConfluentSchema#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#properties DataConfluentSchema#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#sensitive DataConfluentSchema#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#sensitive DataConfluentSchema#sensitive}
   */
   readonly sensitive?: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#tags DataConfluentSchema#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#tags DataConfluentSchema#tags}
   */
   readonly tags?: DataConfluentSchemaMetadataTags[] | cdktf.IResolvable;
 }
@@ -562,55 +562,55 @@ export interface DataConfluentSchemaRulesetDomainRules {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#disabled DataConfluentSchema#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#disabled DataConfluentSchema#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#doc DataConfluentSchema#doc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#doc DataConfluentSchema#doc}
   */
   readonly doc?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#expr DataConfluentSchema#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#expr DataConfluentSchema#expr}
   */
   readonly expr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#kind DataConfluentSchema#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#kind DataConfluentSchema#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#mode DataConfluentSchema#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#mode DataConfluentSchema#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#name DataConfluentSchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#name DataConfluentSchema#name}
   */
   readonly name: string;
   /**
   * Defaults to `ERROR,ERROR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#on_failure DataConfluentSchema#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#on_failure DataConfluentSchema#on_failure}
   */
   readonly onFailure?: string;
   /**
   * Defaults to `NONE,NONE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#on_success DataConfluentSchema#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#on_success DataConfluentSchema#on_success}
   */
   readonly onSuccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#params DataConfluentSchema#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#params DataConfluentSchema#params}
   */
   readonly params?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#tags DataConfluentSchema#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#tags DataConfluentSchema#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#type DataConfluentSchema#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#type DataConfluentSchema#type}
   */
   readonly type: string;
 }
@@ -1006,55 +1006,55 @@ export interface DataConfluentSchemaRulesetMigrationRules {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#disabled DataConfluentSchema#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#disabled DataConfluentSchema#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#doc DataConfluentSchema#doc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#doc DataConfluentSchema#doc}
   */
   readonly doc?: string;
   /**
   * Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#expr DataConfluentSchema#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#expr DataConfluentSchema#expr}
   */
   readonly expr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#kind DataConfluentSchema#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#kind DataConfluentSchema#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#mode DataConfluentSchema#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#mode DataConfluentSchema#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#name DataConfluentSchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#name DataConfluentSchema#name}
   */
   readonly name: string;
   /**
   * Defaults to `ERROR,ERROR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#on_failure DataConfluentSchema#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#on_failure DataConfluentSchema#on_failure}
   */
   readonly onFailure?: string;
   /**
   * Defaults to `NONE,NONE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#on_success DataConfluentSchema#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#on_success DataConfluentSchema#on_success}
   */
   readonly onSuccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#params DataConfluentSchema#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#params DataConfluentSchema#params}
   */
   readonly params?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#tags DataConfluentSchema#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#tags DataConfluentSchema#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#type DataConfluentSchema#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#type DataConfluentSchema#type}
   */
   readonly type: string;
 }
@@ -1450,13 +1450,13 @@ export interface DataConfluentSchemaRuleset {
   /**
   * domain_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#domain_rules DataConfluentSchema#domain_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#domain_rules DataConfluentSchema#domain_rules}
   */
   readonly domainRules?: DataConfluentSchemaRulesetDomainRules[] | cdktf.IResolvable;
   /**
   * migration_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#migration_rules DataConfluentSchema#migration_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#migration_rules DataConfluentSchema#migration_rules}
   */
   readonly migrationRules?: DataConfluentSchemaRulesetMigrationRules[] | cdktf.IResolvable;
 }
@@ -1571,7 +1571,7 @@ export interface DataConfluentSchemaSchemaRegistryCluster {
   /**
   * The Schema Registry cluster ID (e.g., `lsrc-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#id DataConfluentSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#id DataConfluentSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1655,7 +1655,7 @@ export class DataConfluentSchemaSchemaRegistryClusterOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema confluent_schema}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema confluent_schema}
 */
 export class DataConfluentSchema extends cdktf.TerraformDataSource {
 
@@ -1671,7 +1671,7 @@ export class DataConfluentSchema extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentSchema to import
-  * @param importFromId The id of the existing DataConfluentSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1683,7 +1683,7 @@ export class DataConfluentSchema extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/schema confluent_schema} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/schema confluent_schema} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1694,8 +1694,8 @@ export class DataConfluentSchema extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_schema',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.55.0',
-        providerVersionConstraint: '2.55.0'
+        providerVersion: '2.56.0',
+        providerVersionConstraint: '2.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

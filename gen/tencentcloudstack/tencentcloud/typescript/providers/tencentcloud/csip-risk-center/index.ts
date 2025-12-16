@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CsipRiskCenterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#id CsipRiskCenter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#id CsipRiskCenter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface CsipRiskCenterConfig extends cdktf.TerraformMetaArguments {
   /**
   * 0- Full scan, 1- Specify asset scan, 2- Exclude asset scan, 3- Manually fill in the scan. If 1 and 2 are required while task_mode not 1, the Assets field is required. If 3 is required, SelfDefiningAssets is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#scan_asset_type CsipRiskCenter#scan_asset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#scan_asset_type CsipRiskCenter#scan_asset_type}
   */
   readonly scanAssetType: number;
   /**
   * Scan Project. Example: port/poc/weakpass/webcontent/configrisk/exposedserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#scan_item CsipRiskCenter#scan_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#scan_item CsipRiskCenter#scan_item}
   */
   readonly scanItem: string[];
   /**
   * Scan plan details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#scan_plan_content CsipRiskCenter#scan_plan_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#scan_plan_content CsipRiskCenter#scan_plan_content}
   */
   readonly scanPlanContent?: string;
   /**
   * 0- Periodic task, 1- immediate scan, 2- periodic scan, 3- Custom; 0, 2 and 3 are required for scan_plan_content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#scan_plan_type CsipRiskCenter#scan_plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#scan_plan_type CsipRiskCenter#scan_plan_type}
   */
   readonly scanPlanType: number;
   /**
   * Ip/domain/url array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#self_defining_assets CsipRiskCenter#self_defining_assets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#self_defining_assets CsipRiskCenter#self_defining_assets}
   */
   readonly selfDefiningAssets?: string[];
   /**
   * Physical examination mode, 0-standard mode, 1-fast mode, 2-advanced mode, default standard mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#task_mode CsipRiskCenter#task_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#task_mode CsipRiskCenter#task_mode}
   */
   readonly taskMode?: number;
   /**
   * Task Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#task_name CsipRiskCenter#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#task_name CsipRiskCenter#task_name}
   */
   readonly taskName: string;
   /**
   * assets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#assets CsipRiskCenter#assets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#assets CsipRiskCenter#assets}
   */
   readonly assets?: CsipRiskCenterAssets[] | cdktf.IResolvable;
   /**
   * task_advance_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#task_advance_cfg CsipRiskCenter#task_advance_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#task_advance_cfg CsipRiskCenter#task_advance_cfg}
   */
   readonly taskAdvanceCfg?: CsipRiskCenterTaskAdvanceCfg;
 }
@@ -73,37 +73,37 @@ export interface CsipRiskCenterAssets {
   /**
   * Multi-cloud asset unique idNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#arn CsipRiskCenter#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#arn CsipRiskCenter#arn}
   */
   readonly arn?: string;
   /**
   * Ip/ domain name/asset id, database id, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#asset CsipRiskCenter#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#asset CsipRiskCenter#asset}
   */
   readonly asset?: string;
   /**
   * Asset nameNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#asset_name CsipRiskCenter#asset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#asset_name CsipRiskCenter#asset_name}
   */
   readonly assetName?: string;
   /**
   * Asset classificationNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#asset_type CsipRiskCenter#asset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#asset_type CsipRiskCenter#asset_type}
   */
   readonly assetType?: string;
   /**
   * Asset typeNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#instance_type CsipRiskCenter#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#instance_type CsipRiskCenter#instance_type}
   */
   readonly instanceType?: string;
   /**
   * RegionNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#region CsipRiskCenter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#region CsipRiskCenter#region}
   */
   readonly region?: string;
 }
@@ -366,19 +366,19 @@ export interface CsipRiskCenterTaskAdvanceCfgCfgRisk {
   /**
   * Whether to enable, 0- No, 1- Enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
   */
   readonly enable: number;
   /**
   * Detection item ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#item_id CsipRiskCenter#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#item_id CsipRiskCenter#item_id}
   */
   readonly itemId: string;
   /**
   * Resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#resource_type CsipRiskCenter#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#resource_type CsipRiskCenter#resource_type}
   */
   readonly resourceType: string;
 }
@@ -545,25 +545,25 @@ export interface CsipRiskCenterTaskAdvanceCfgPortRisk {
   /**
   * Detection item type, 0-system defined, 1-user-defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#check_type CsipRiskCenter#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#check_type CsipRiskCenter#check_type}
   */
   readonly checkType: number;
   /**
   * Description of detection items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#detail CsipRiskCenter#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#detail CsipRiskCenter#detail}
   */
   readonly detail: string;
   /**
   * Whether to enable, 0- No, 1- Enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
   */
   readonly enable: number;
   /**
   * Port collection, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#port_sets CsipRiskCenter#port_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#port_sets CsipRiskCenter#port_sets}
   */
   readonly portSets: string;
 }
@@ -756,13 +756,13 @@ export interface CsipRiskCenterTaskAdvanceCfgVulRisk {
   /**
   * Whether to enable, 0- No, 1- Enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
   */
   readonly enable: number;
   /**
   * Risk ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#risk_id CsipRiskCenter#risk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#risk_id CsipRiskCenter#risk_id}
   */
   readonly riskId: string;
 }
@@ -903,13 +903,13 @@ export interface CsipRiskCenterTaskAdvanceCfgWeakPwdRisk {
   /**
   * Detection item ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#check_item_id CsipRiskCenter#check_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#check_item_id CsipRiskCenter#check_item_id}
   */
   readonly checkItemId: number;
   /**
   * Whether to enable, 0- No, 1- Enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#enable CsipRiskCenter#enable}
   */
   readonly enable: number;
 }
@@ -1050,25 +1050,25 @@ export interface CsipRiskCenterTaskAdvanceCfg {
   /**
   * cfg_risk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#cfg_risk CsipRiskCenter#cfg_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#cfg_risk CsipRiskCenter#cfg_risk}
   */
   readonly cfgRisk?: CsipRiskCenterTaskAdvanceCfgCfgRisk[] | cdktf.IResolvable;
   /**
   * port_risk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#port_risk CsipRiskCenter#port_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#port_risk CsipRiskCenter#port_risk}
   */
   readonly portRisk?: CsipRiskCenterTaskAdvanceCfgPortRisk[] | cdktf.IResolvable;
   /**
   * vul_risk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#vul_risk CsipRiskCenter#vul_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#vul_risk CsipRiskCenter#vul_risk}
   */
   readonly vulRisk?: CsipRiskCenterTaskAdvanceCfgVulRisk[] | cdktf.IResolvable;
   /**
   * weak_pwd_risk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#weak_pwd_risk CsipRiskCenter#weak_pwd_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#weak_pwd_risk CsipRiskCenter#weak_pwd_risk}
   */
   readonly weakPwdRisk?: CsipRiskCenterTaskAdvanceCfgWeakPwdRisk[] | cdktf.IResolvable;
 }
@@ -1239,7 +1239,7 @@ export class CsipRiskCenterTaskAdvanceCfgOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center tencentcloud_csip_risk_center}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center tencentcloud_csip_risk_center}
 */
 export class CsipRiskCenter extends cdktf.TerraformResource {
 
@@ -1255,7 +1255,7 @@ export class CsipRiskCenter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsipRiskCenter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsipRiskCenter to import
-  * @param importFromId The id of the existing CsipRiskCenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsipRiskCenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsipRiskCenter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1267,7 +1267,7 @@ export class CsipRiskCenter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/csip_risk_center tencentcloud_csip_risk_center} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/csip_risk_center tencentcloud_csip_risk_center} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1278,8 +1278,8 @@ export class CsipRiskCenter extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_csip_risk_center',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

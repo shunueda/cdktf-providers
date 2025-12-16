@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface BlockTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID) where the Block is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#account_id BlockType#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#account_id BlockType#account_id}
   */
   readonly accountId?: string;
   /**
   * A code snippet demonstrating use of the corresponding block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#code_example BlockType#code_example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#code_example BlockType#code_example}
   */
   readonly codeExample?: string;
   /**
   * A short blurb about the corresponding block's intended use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#description BlockType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#description BlockType#description}
   */
   readonly description?: string;
   /**
   * Web URL for the block type's documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#documentation_url BlockType#documentation_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#documentation_url BlockType#documentation_url}
   */
   readonly documentationUrl?: string;
   /**
   * Web URL for the block type's logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#logo_url BlockType#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#logo_url BlockType#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * The name of the block type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#name BlockType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#name BlockType#name}
   */
   readonly name: string;
   /**
   * The slug of the block type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#slug BlockType#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#slug BlockType#slug}
   */
   readonly slug: string;
   /**
   * Workspace ID (UUID) where the Block is located. In Prefect Cloud, either the `prefect_block` resource or the provider's `workspace_id` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#workspace_id BlockType#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#workspace_id BlockType#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type prefect_block_type}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type prefect_block_type}
 */
 export class BlockType extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class BlockType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockType to import
-  * @param importFromId The id of the existing BlockType that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockType that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class BlockType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.91.0/docs/resources/block_type prefect_block_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/block_type prefect_block_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class BlockType extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_block_type',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.91.0',
-        providerVersionConstraint: '2.91.0'
+        providerVersion: '2.92.0',
+        providerVersionConstraint: '2.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

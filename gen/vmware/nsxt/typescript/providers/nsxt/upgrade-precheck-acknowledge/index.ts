@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradePrecheckAcknowledgeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge#id UpgradePrecheckAcknowledge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge#id UpgradePrecheckAcknowledge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface UpgradePrecheckAcknowledgeConfig extends cdktf.TerraformMetaArg
   /**
   * IDs of precheck warnings that need to be acknowledged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge#precheck_ids UpgradePrecheckAcknowledge#precheck_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge#precheck_ids UpgradePrecheckAcknowledge#precheck_ids}
   */
   readonly precheckIds: string[];
   /**
   * Target system version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge#target_version UpgradePrecheckAcknowledge#target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge#target_version UpgradePrecheckAcknowledge#target_version}
   */
   readonly targetVersion: string;
 }
@@ -114,7 +114,7 @@ export class UpgradePrecheckAcknowledgePrecheckWarningsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge nsxt_upgrade_precheck_acknowledge}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge nsxt_upgrade_precheck_acknowledge}
 */
 export class UpgradePrecheckAcknowledge extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class UpgradePrecheckAcknowledge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpgradePrecheckAcknowledge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpgradePrecheckAcknowledge to import
-  * @param importFromId The id of the existing UpgradePrecheckAcknowledge that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpgradePrecheckAcknowledge that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpgradePrecheckAcknowledge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class UpgradePrecheckAcknowledge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_precheck_acknowledge nsxt_upgrade_precheck_acknowledge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_precheck_acknowledge nsxt_upgrade_precheck_acknowledge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class UpgradePrecheckAcknowledge extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_upgrade_precheck_acknowledge',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

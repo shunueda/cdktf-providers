@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudCcnCrossBorderComplianceConfig extends cdktf.Te
   /**
   * (Fuzzy query) business license address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#business_address DataTencentcloudCcnCrossBorderCompliance#business_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#business_address DataTencentcloudCcnCrossBorderCompliance#business_address}
   */
   readonly businessAddress?: string;
   /**
   * (Fuzzy query) Company name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#company DataTencentcloudCcnCrossBorderCompliance#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#company DataTencentcloudCcnCrossBorderCompliance#company}
   */
   readonly company?: string;
   /**
   * (Exact match) compliance approval form: 'ID'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#compliance_id DataTencentcloudCcnCrossBorderCompliance#compliance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#compliance_id DataTencentcloudCcnCrossBorderCompliance#compliance_id}
   */
   readonly complianceId?: number;
   /**
   * (Exact match) email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#email DataTencentcloudCcnCrossBorderCompliance#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#email DataTencentcloudCcnCrossBorderCompliance#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#id DataTencentcloudCcnCrossBorderCompliance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#id DataTencentcloudCcnCrossBorderCompliance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,85 +41,85 @@ export interface DataTencentcloudCcnCrossBorderComplianceConfig extends cdktf.Te
   /**
   * (Fuzzy query) Issuing authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#issuing_authority DataTencentcloudCcnCrossBorderCompliance#issuing_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#issuing_authority DataTencentcloudCcnCrossBorderCompliance#issuing_authority}
   */
   readonly issuingAuthority?: string;
   /**
   * (Fuzzy query) legal representative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#legal_person DataTencentcloudCcnCrossBorderCompliance#legal_person}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#legal_person DataTencentcloudCcnCrossBorderCompliance#legal_person}
   */
   readonly legalPerson?: string;
   /**
   * (Fuzzy query) Person in charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#manager DataTencentcloudCcnCrossBorderCompliance#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#manager DataTencentcloudCcnCrossBorderCompliance#manager}
   */
   readonly manager?: string;
   /**
   * (Fuzzy query) ID card address of the person in charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#manager_address DataTencentcloudCcnCrossBorderCompliance#manager_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#manager_address DataTencentcloudCcnCrossBorderCompliance#manager_address}
   */
   readonly managerAddress?: string;
   /**
   * (Exact query) ID number of the person in charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#manager_id DataTencentcloudCcnCrossBorderCompliance#manager_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#manager_id DataTencentcloudCcnCrossBorderCompliance#manager_id}
   */
   readonly managerId?: string;
   /**
   * (Exact match) contact number of the person in charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#manager_telephone DataTencentcloudCcnCrossBorderCompliance#manager_telephone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#manager_telephone DataTencentcloudCcnCrossBorderCompliance#manager_telephone}
   */
   readonly managerTelephone?: string;
   /**
   * (Exact match) post code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#post_code DataTencentcloudCcnCrossBorderCompliance#post_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#post_code DataTencentcloudCcnCrossBorderCompliance#post_code}
   */
   readonly postCode?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#result_output_file DataTencentcloudCcnCrossBorderCompliance#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#result_output_file DataTencentcloudCcnCrossBorderCompliance#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * (Exact match) service end date, such as: '2020-07-28'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#service_end_date DataTencentcloudCcnCrossBorderCompliance#service_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#service_end_date DataTencentcloudCcnCrossBorderCompliance#service_end_date}
   */
   readonly serviceEndDate?: string;
   /**
   * (Exact match) service provider, optional value: 'UNICOM'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#service_provider DataTencentcloudCcnCrossBorderCompliance#service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#service_provider DataTencentcloudCcnCrossBorderCompliance#service_provider}
   */
   readonly serviceProvider?: string;
   /**
   * (Exact match) service start date, such as: '2020-07-28'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#service_start_date DataTencentcloudCcnCrossBorderCompliance#service_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#service_start_date DataTencentcloudCcnCrossBorderCompliance#service_start_date}
   */
   readonly serviceStartDate?: string;
   /**
   * (Exact match) status. Pending: PENDING, Passed: APPROVED, Denied: DENY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#state DataTencentcloudCcnCrossBorderCompliance#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#state DataTencentcloudCcnCrossBorderCompliance#state}
   */
   readonly state?: string;
   /**
   * (Exact match) Uniform Social Credit Code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#uniform_social_credit_code DataTencentcloudCcnCrossBorderCompliance#uniform_social_credit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#uniform_social_credit_code DataTencentcloudCcnCrossBorderCompliance#uniform_social_credit_code}
   */
   readonly uniformSocialCreditCode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance tencentcloud_ccn_cross_border_compliance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance tencentcloud_ccn_cross_border_compliance}
 */
 export class DataTencentcloudCcnCrossBorderCompliance extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataTencentcloudCcnCrossBorderCompliance extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudCcnCrossBorderCompliance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCcnCrossBorderCompliance to import
-  * @param importFromId The id of the existing DataTencentcloudCcnCrossBorderCompliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCcnCrossBorderCompliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCcnCrossBorderCompliance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataTencentcloudCcnCrossBorderCompliance extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/ccn_cross_border_compliance tencentcloud_ccn_cross_border_compliance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ccn_cross_border_compliance tencentcloud_ccn_cross_border_compliance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataTencentcloudCcnCrossBorderCompliance extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_ccn_cross_border_compliance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/broker
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/broker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -1064,7 +1064,7 @@ export class DataSolacebrokerBrokerServiceTlsEventConnectionCountThresholdOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/broker solacebroker_broker}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/broker solacebroker_broker}
 */
 export class DataSolacebrokerBroker extends cdktf.TerraformDataSource {
 
@@ -1080,7 +1080,7 @@ export class DataSolacebrokerBroker extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolacebrokerBroker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerBroker to import
-  * @param importFromId The id of the existing DataSolacebrokerBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/broker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/broker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerBroker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1092,7 +1092,7 @@ export class DataSolacebrokerBroker extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/broker solacebroker_broker} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/broker solacebroker_broker} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1103,8 +1103,8 @@ export class DataSolacebrokerBroker extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_broker',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1128,6 +1128,11 @@ export class DataSolacebrokerBroker extends cdktf.TerraformDataSource {
   // auth_client_cert_revocation_check_mode - computed: true, optional: false, required: false
   public get authClientCertRevocationCheckMode() {
     return this.getStringAttribute('auth_client_cert_revocation_check_mode');
+  }
+
+  // auth_required_access_level_gather_diagnostics - computed: true, optional: false, required: false
+  public get authRequiredAccessLevelGatherDiagnostics() {
+    return this.getStringAttribute('auth_required_access_level_gather_diagnostics');
   }
 
   // config_sync_authentication_client_cert_max_chain_depth - computed: true, optional: false, required: false

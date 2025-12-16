@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface PolicyOspfConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag to enable/disable advertisement of default route into OSPF domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#default_originate PolicyOspfConfig#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#default_originate PolicyOspfConfig#default_originate}
   */
   readonly defaultOriginate?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#description PolicyOspfConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#description PolicyOspfConfig#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#display_name PolicyOspfConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#display_name PolicyOspfConfig#display_name}
   */
   readonly displayName: string;
   /**
   * Flag to enable ECMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#ecmp PolicyOspfConfig#ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#ecmp PolicyOspfConfig#ecmp}
   */
   readonly ecmp?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable OSPF configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#enabled PolicyOspfConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#enabled PolicyOspfConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Policy path for the Tier0 Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#gateway_path PolicyOspfConfig#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#gateway_path PolicyOspfConfig#gateway_path}
   */
   readonly gatewayPath: string;
   /**
   * Graceful Restart Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#graceful_restart_mode PolicyOspfConfig#graceful_restart_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#graceful_restart_mode PolicyOspfConfig#graceful_restart_mode}
   */
   readonly gracefulRestartMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#id PolicyOspfConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#id PolicyOspfConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,13 +59,13 @@ export interface PolicyOspfConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * summary_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#summary_address PolicyOspfConfig#summary_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#summary_address PolicyOspfConfig#summary_address}
   */
   readonly summaryAddress?: PolicyOspfConfigSummaryAddress[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#tag PolicyOspfConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#tag PolicyOspfConfig#tag}
   */
   readonly tag?: PolicyOspfConfigTag[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface PolicyOspfConfigSummaryAddress {
   /**
   * Used to filter the advertisement of external routes into the OSPF domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#advertise PolicyOspfConfig#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#advertise PolicyOspfConfig#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
   * OSPF Summary address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#prefix PolicyOspfConfig#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#prefix PolicyOspfConfig#prefix}
   */
   readonly prefix?: string;
 }
@@ -224,11 +224,11 @@ export class PolicyOspfConfigSummaryAddressList extends cdktf.ComplexList {
 }
 export interface PolicyOspfConfigTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#scope PolicyOspfConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#scope PolicyOspfConfig#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#tag PolicyOspfConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#tag PolicyOspfConfig#tag}
   */
   readonly tag?: string;
 }
@@ -373,7 +373,7 @@ export class PolicyOspfConfigTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config nsxt_policy_ospf_config}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config nsxt_policy_ospf_config}
 */
 export class PolicyOspfConfig extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class PolicyOspfConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyOspfConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyOspfConfig to import
-  * @param importFromId The id of the existing PolicyOspfConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyOspfConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyOspfConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class PolicyOspfConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ospf_config nsxt_policy_ospf_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ospf_config nsxt_policy_ospf_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class PolicyOspfConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ospf_config',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

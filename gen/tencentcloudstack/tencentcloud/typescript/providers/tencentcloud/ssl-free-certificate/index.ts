@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface SslFreeCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify alias for remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#alias SslFreeCertificate#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#alias SslFreeCertificate#alias}
   */
   readonly alias?: string;
   /**
   * Email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#contact_email SslFreeCertificate#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#contact_email SslFreeCertificate#contact_email}
   */
   readonly contactEmail?: string;
   /**
   * Phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#contact_phone SslFreeCertificate#contact_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#contact_phone SslFreeCertificate#contact_phone}
   */
   readonly contactPhone?: string;
   /**
   * Specify CSR encrypt algorithm, only support `RSA` for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#csr_encrypt_algo SslFreeCertificate#csr_encrypt_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#csr_encrypt_algo SslFreeCertificate#csr_encrypt_algo}
   */
   readonly csrEncryptAlgo?: string;
   /**
   * Specify CSR key parameter, only support `"2048"` for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#csr_key_parameter SslFreeCertificate#csr_key_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#csr_key_parameter SslFreeCertificate#csr_key_parameter}
   */
   readonly csrKeyParameter?: string;
   /**
   * Specify CSR key password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#csr_key_password SslFreeCertificate#csr_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#csr_key_password SslFreeCertificate#csr_key_password}
   */
   readonly csrKeyPassword?: string;
   /**
   * Specify domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#domain SslFreeCertificate#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#domain SslFreeCertificate#domain}
   */
   readonly domain: string;
   /**
   * Specify DV authorize method. Available values: `DNS_AUTO` - automatic DNS auth, `DNS` - manual DNS auth, `FILE` - auth by file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#dv_auth_method SslFreeCertificate#dv_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#dv_auth_method SslFreeCertificate#dv_auth_method}
   */
   readonly dvAuthMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#id SslFreeCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#id SslFreeCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,25 +65,25 @@ export interface SslFreeCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify old certificate ID, used for re-apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#old_certificate_id SslFreeCertificate#old_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#old_certificate_id SslFreeCertificate#old_certificate_id}
   */
   readonly oldCertificateId?: string;
   /**
   * Type of package. Only support `"83"` (TrustAsia TLS RSA CA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#package_type SslFreeCertificate#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#package_type SslFreeCertificate#package_type}
   */
   readonly packageType?: string;
   /**
   * ID of projects which this certification belong to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#project_id SslFreeCertificate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#project_id SslFreeCertificate#project_id}
   */
   readonly projectId?: number;
   /**
   * Specify validity period in month, only support `"3"` months for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#validity_period SslFreeCertificate#validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#validity_period SslFreeCertificate#validity_period}
   */
   readonly validityPeriod?: string;
 }
@@ -174,7 +174,7 @@ export class SslFreeCertificateDvAuthsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate tencentcloud_ssl_free_certificate}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate tencentcloud_ssl_free_certificate}
 */
 export class SslFreeCertificate extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class SslFreeCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslFreeCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslFreeCertificate to import
-  * @param importFromId The id of the existing SslFreeCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslFreeCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslFreeCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class SslFreeCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_free_certificate tencentcloud_ssl_free_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ssl_free_certificate tencentcloud_ssl_free_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class SslFreeCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ssl_free_certificate',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

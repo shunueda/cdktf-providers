@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface PolicyGatewayDnsForwarderConfig extends cdktf.TerraformMetaArgu
   /**
   * Cache size in KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#cache_size PolicyGatewayDnsForwarder#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#cache_size PolicyGatewayDnsForwarder#cache_size}
   */
   readonly cacheSize?: number;
   /**
   * List of conditional (FQDN) forwarder zone paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#conditional_forwarder_zone_paths PolicyGatewayDnsForwarder#conditional_forwarder_zone_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#conditional_forwarder_zone_paths PolicyGatewayDnsForwarder#conditional_forwarder_zone_paths}
   */
   readonly conditionalForwarderZonePaths?: string[];
   /**
   * Zone to which DNS requests are forwarded by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#default_forwarder_zone_path PolicyGatewayDnsForwarder#default_forwarder_zone_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#default_forwarder_zone_path PolicyGatewayDnsForwarder#default_forwarder_zone_path}
   */
   readonly defaultForwarderZonePath: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#description PolicyGatewayDnsForwarder#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#description PolicyGatewayDnsForwarder#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#display_name PolicyGatewayDnsForwarder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#display_name PolicyGatewayDnsForwarder#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#enabled PolicyGatewayDnsForwarder#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#enabled PolicyGatewayDnsForwarder#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Policy path for the Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#gateway_path PolicyGatewayDnsForwarder#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#gateway_path PolicyGatewayDnsForwarder#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#id PolicyGatewayDnsForwarder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#id PolicyGatewayDnsForwarder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,25 +57,25 @@ export interface PolicyGatewayDnsForwarderConfig extends cdktf.TerraformMetaArgu
   /**
   * IP on which the DNS Forwarder listens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#listener_ip PolicyGatewayDnsForwarder#listener_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#listener_ip PolicyGatewayDnsForwarder#listener_ip}
   */
   readonly listenerIp: string;
   /**
   * Log level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#log_level PolicyGatewayDnsForwarder#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#log_level PolicyGatewayDnsForwarder#log_level}
   */
   readonly logLevel?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#context PolicyGatewayDnsForwarder#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#context PolicyGatewayDnsForwarder#context}
   */
   readonly context?: PolicyGatewayDnsForwarderContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#tag PolicyGatewayDnsForwarder#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#tag PolicyGatewayDnsForwarder#tag}
   */
   readonly tag?: PolicyGatewayDnsForwarderTag[] | cdktf.IResolvable;
 }
@@ -83,7 +83,7 @@ export interface PolicyGatewayDnsForwarderContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#project_id PolicyGatewayDnsForwarder#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#project_id PolicyGatewayDnsForwarder#project_id}
   */
   readonly projectId: string;
 }
@@ -164,11 +164,11 @@ export class PolicyGatewayDnsForwarderContextOutputReference extends cdktf.Compl
 }
 export interface PolicyGatewayDnsForwarderTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#scope PolicyGatewayDnsForwarder#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#scope PolicyGatewayDnsForwarder#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#tag PolicyGatewayDnsForwarder#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#tag PolicyGatewayDnsForwarder#tag}
   */
   readonly tag?: string;
 }
@@ -313,7 +313,7 @@ export class PolicyGatewayDnsForwarderTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder nsxt_policy_gateway_dns_forwarder}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder nsxt_policy_gateway_dns_forwarder}
 */
 export class PolicyGatewayDnsForwarder extends cdktf.TerraformResource {
 
@@ -329,7 +329,7 @@ export class PolicyGatewayDnsForwarder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGatewayDnsForwarder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayDnsForwarder to import
-  * @param importFromId The id of the existing PolicyGatewayDnsForwarder that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayDnsForwarder that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayDnsForwarder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class PolicyGatewayDnsForwarder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_dns_forwarder nsxt_policy_gateway_dns_forwarder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_dns_forwarder nsxt_policy_gateway_dns_forwarder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class PolicyGatewayDnsForwarder extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_gateway_dns_forwarder',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnMqttRetainCacheConfig extends cdktf.TerraformMetaArgument
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache#cache_name MsgVpnMqttRetainCache#cache_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache#cache_name MsgVpnMqttRetainCache#cache_name}
   */
   readonly cacheName: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnMqttRetainCacheConfig extends cdktf.TerraformMetaArgument
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache#enabled MsgVpnMqttRetainCache#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache#enabled MsgVpnMqttRetainCache#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnMqttRetainCacheConfig extends cdktf.TerraformMetaArgument
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache#msg_lifetime MsgVpnMqttRetainCache#msg_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache#msg_lifetime MsgVpnMqttRetainCache#msg_lifetime}
   */
   readonly msgLifetime?: number;
   /**
@@ -36,13 +36,13 @@ export interface MsgVpnMqttRetainCacheConfig extends cdktf.TerraformMetaArgument
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache#msg_vpn_name MsgVpnMqttRetainCache#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache#msg_vpn_name MsgVpnMqttRetainCache#msg_vpn_name}
   */
   readonly msgVpnName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache solacebroker_msg_vpn_mqtt_retain_cache}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache solacebroker_msg_vpn_mqtt_retain_cache}
 */
 export class MsgVpnMqttRetainCache extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class MsgVpnMqttRetainCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnMqttRetainCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnMqttRetainCache to import
-  * @param importFromId The id of the existing MsgVpnMqttRetainCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnMqttRetainCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnMqttRetainCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class MsgVpnMqttRetainCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_mqtt_retain_cache solacebroker_msg_vpn_mqtt_retain_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_mqtt_retain_cache solacebroker_msg_vpn_mqtt_retain_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class MsgVpnMqttRetainCache extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_mqtt_retain_cache',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

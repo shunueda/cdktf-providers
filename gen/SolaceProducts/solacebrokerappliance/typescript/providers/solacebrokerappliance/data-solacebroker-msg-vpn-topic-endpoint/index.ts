@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnTopicEndpointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint#msg_vpn_name DataSolacebrokerMsgVpnTopicEndpoint#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint#msg_vpn_name DataSolacebrokerMsgVpnTopicEndpoint#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerMsgVpnTopicEndpointConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint#topic_endpoint_name DataSolacebrokerMsgVpnTopicEndpoint#topic_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint#topic_endpoint_name DataSolacebrokerMsgVpnTopicEndpoint#topic_endpoint_name}
   */
   readonly topicEndpointName: string;
 }
@@ -233,7 +233,7 @@ export class DataSolacebrokerMsgVpnTopicEndpointEventSpoolUsageThresholdOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint}
 */
 export class DataSolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformDataSource {
 
@@ -249,7 +249,7 @@ export class DataSolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnTopicEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnTopicEndpoint to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnTopicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnTopicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnTopicEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class DataSolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class DataSolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformDataSour
       terraformResourceType: 'solacebroker_msg_vpn_topic_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -435,6 +435,11 @@ export class DataSolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformDataSour
   // reject_msg_to_sender_on_discard_behavior - computed: true, optional: false, required: false
   public get rejectMsgToSenderOnDiscardBehavior() {
     return this.getStringAttribute('reject_msg_to_sender_on_discard_behavior');
+  }
+
+  // respect_dmq_eligible_enabled - computed: true, optional: false, required: false
+  public get respectDmqEligibleEnabled() {
+    return this.getBooleanAttribute('respect_dmq_eligible_enabled');
   }
 
   // respect_msg_priority_enabled - computed: true, optional: false, required: false

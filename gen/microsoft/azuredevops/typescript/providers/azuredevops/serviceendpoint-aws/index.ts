@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,86 +10,86 @@ export interface ServiceendpointAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AWS access key ID for signing programmatic requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#access_key_id ServiceendpointAws#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#access_key_id ServiceendpointAws#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#description ServiceendpointAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#description ServiceendpointAws#description}
   */
   readonly description?: string;
   /**
   * A unique identifier that is used by third parties when assuming roles in their customers' accounts, aka cross-account role access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#external_id ServiceendpointAws#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#external_id ServiceendpointAws#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#id ServiceendpointAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#id ServiceendpointAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#project_id ServiceendpointAws#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#project_id ServiceendpointAws#project_id}
   */
   readonly projectId: string;
   /**
   * Optional identifier for the assumed role session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#role_session_name ServiceendpointAws#role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#role_session_name ServiceendpointAws#role_session_name}
   */
   readonly roleSessionName?: string;
   /**
   * The Amazon Resource Name (ARN) of the role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#role_to_assume ServiceendpointAws#role_to_assume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#role_to_assume ServiceendpointAws#role_to_assume}
   */
   readonly roleToAssume?: string;
   /**
   * The AWS secret access key for signing programmatic requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#secret_access_key ServiceendpointAws#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#secret_access_key ServiceendpointAws#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#service_endpoint_name ServiceendpointAws#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#service_endpoint_name ServiceendpointAws#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * The AWS session token for signing programmatic requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#session_token ServiceendpointAws#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#session_token ServiceendpointAws#session_token}
   */
   readonly sessionToken?: string;
   /**
   * Enable this to attempt getting credentials with OIDC token from Azure Devops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#use_oidc ServiceendpointAws#use_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#use_oidc ServiceendpointAws#use_oidc}
   */
   readonly useOidc?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#timeouts ServiceendpointAws#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#timeouts ServiceendpointAws#timeouts}
   */
   readonly timeouts?: ServiceendpointAwsTimeouts;
 }
 export interface ServiceendpointAwsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#create ServiceendpointAws#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#create ServiceendpointAws#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#delete ServiceendpointAws#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#delete ServiceendpointAws#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#read ServiceendpointAws#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#read ServiceendpointAws#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#update ServiceendpointAws#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#update ServiceendpointAws#update}
   */
   readonly update?: string;
 }
@@ -270,7 +270,7 @@ export class ServiceendpointAwsTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws azuredevops_serviceendpoint_aws}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws azuredevops_serviceendpoint_aws}
 */
 export class ServiceendpointAws extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class ServiceendpointAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointAws to import
-  * @param importFromId The id of the existing ServiceendpointAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class ServiceendpointAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_aws azuredevops_serviceendpoint_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_aws azuredevops_serviceendpoint_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class ServiceendpointAws extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_aws',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

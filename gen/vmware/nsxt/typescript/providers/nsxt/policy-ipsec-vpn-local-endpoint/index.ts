@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,70 +10,70 @@ export interface PolicyIpsecVpnLocalEndpointConfig extends cdktf.TerraformMetaAr
   /**
   * Policy path referencing site certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#certificate_path PolicyIpsecVpnLocalEndpoint#certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#certificate_path PolicyIpsecVpnLocalEndpoint#certificate_path}
   */
   readonly certificatePath?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#description PolicyIpsecVpnLocalEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#description PolicyIpsecVpnLocalEndpoint#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#display_name PolicyIpsecVpnLocalEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#display_name PolicyIpsecVpnLocalEndpoint#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#id PolicyIpsecVpnLocalEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#id PolicyIpsecVpnLocalEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#local_address PolicyIpsecVpnLocalEndpoint#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#local_address PolicyIpsecVpnLocalEndpoint#local_address}
   */
   readonly localAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#local_id PolicyIpsecVpnLocalEndpoint#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#local_id PolicyIpsecVpnLocalEndpoint#local_id}
   */
   readonly localId?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#nsx_id PolicyIpsecVpnLocalEndpoint#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#nsx_id PolicyIpsecVpnLocalEndpoint#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path for IPSec VPN service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#service_path PolicyIpsecVpnLocalEndpoint#service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#service_path PolicyIpsecVpnLocalEndpoint#service_path}
   */
   readonly servicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#trust_ca_paths PolicyIpsecVpnLocalEndpoint#trust_ca_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#trust_ca_paths PolicyIpsecVpnLocalEndpoint#trust_ca_paths}
   */
   readonly trustCaPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#trust_crl_paths PolicyIpsecVpnLocalEndpoint#trust_crl_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#trust_crl_paths PolicyIpsecVpnLocalEndpoint#trust_crl_paths}
   */
   readonly trustCrlPaths?: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#tag PolicyIpsecVpnLocalEndpoint#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#tag PolicyIpsecVpnLocalEndpoint#tag}
   */
   readonly tag?: PolicyIpsecVpnLocalEndpointTag[] | cdktf.IResolvable;
 }
 export interface PolicyIpsecVpnLocalEndpointTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#scope PolicyIpsecVpnLocalEndpoint#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#scope PolicyIpsecVpnLocalEndpoint#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#tag PolicyIpsecVpnLocalEndpoint#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#tag PolicyIpsecVpnLocalEndpoint#tag}
   */
   readonly tag?: string;
 }
@@ -218,7 +218,7 @@ export class PolicyIpsecVpnLocalEndpointTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint nsxt_policy_ipsec_vpn_local_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint nsxt_policy_ipsec_vpn_local_endpoint}
 */
 export class PolicyIpsecVpnLocalEndpoint extends cdktf.TerraformResource {
 
@@ -234,7 +234,7 @@ export class PolicyIpsecVpnLocalEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpsecVpnLocalEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpsecVpnLocalEndpoint to import
-  * @param importFromId The id of the existing PolicyIpsecVpnLocalEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpsecVpnLocalEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpsecVpnLocalEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class PolicyIpsecVpnLocalEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_local_endpoint nsxt_policy_ipsec_vpn_local_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_local_endpoint nsxt_policy_ipsec_vpn_local_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class PolicyIpsecVpnLocalEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ipsec_vpn_local_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

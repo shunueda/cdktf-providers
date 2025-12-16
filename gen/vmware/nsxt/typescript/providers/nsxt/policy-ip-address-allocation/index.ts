@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyIpAddressAllocationConfig extends cdktf.TerraformMetaArgu
   /**
   * The IP allocated. If unspecified any free IP will be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#allocation_ip PolicyIpAddressAllocation#allocation_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#allocation_ip PolicyIpAddressAllocation#allocation_ip}
   */
   readonly allocationIp?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#description PolicyIpAddressAllocation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#description PolicyIpAddressAllocation#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#display_name PolicyIpAddressAllocation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#display_name PolicyIpAddressAllocation#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#id PolicyIpAddressAllocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#id PolicyIpAddressAllocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PolicyIpAddressAllocationConfig extends cdktf.TerraformMetaArgu
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#nsx_id PolicyIpAddressAllocation#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#nsx_id PolicyIpAddressAllocation#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The path of the IP Pool for this allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#pool_path PolicyIpAddressAllocation#pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#pool_path PolicyIpAddressAllocation#pool_path}
   */
   readonly poolPath: string;
   /**
   * Realization timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#timeout PolicyIpAddressAllocation#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#timeout PolicyIpAddressAllocation#timeout}
   */
   readonly timeout?: number;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#context PolicyIpAddressAllocation#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#context PolicyIpAddressAllocation#context}
   */
   readonly context?: PolicyIpAddressAllocationContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#tag PolicyIpAddressAllocation#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#tag PolicyIpAddressAllocation#tag}
   */
   readonly tag?: PolicyIpAddressAllocationTag[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface PolicyIpAddressAllocationContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#project_id PolicyIpAddressAllocation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#project_id PolicyIpAddressAllocation#project_id}
   */
   readonly projectId: string;
 }
@@ -148,11 +148,11 @@ export class PolicyIpAddressAllocationContextOutputReference extends cdktf.Compl
 }
 export interface PolicyIpAddressAllocationTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#scope PolicyIpAddressAllocation#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#scope PolicyIpAddressAllocation#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#tag PolicyIpAddressAllocation#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#tag PolicyIpAddressAllocation#tag}
   */
   readonly tag?: string;
 }
@@ -297,7 +297,7 @@ export class PolicyIpAddressAllocationTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation nsxt_policy_ip_address_allocation}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation nsxt_policy_ip_address_allocation}
 */
 export class PolicyIpAddressAllocation extends cdktf.TerraformResource {
 
@@ -313,7 +313,7 @@ export class PolicyIpAddressAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpAddressAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpAddressAllocation to import
-  * @param importFromId The id of the existing PolicyIpAddressAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpAddressAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpAddressAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class PolicyIpAddressAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_address_allocation nsxt_policy_ip_address_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_address_allocation nsxt_policy_ip_address_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class PolicyIpAddressAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ip_address_allocation',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

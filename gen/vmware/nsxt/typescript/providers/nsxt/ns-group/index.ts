@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#description NsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#description NsGroup#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#display_name NsGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#display_name NsGroup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#id NsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#id NsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface NsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#member NsGroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#member NsGroup#member}
   */
   readonly member?: NsGroupMember[] | cdktf.IResolvable;
   /**
   * membership_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#membership_criteria NsGroup#membership_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#membership_criteria NsGroup#membership_criteria}
   */
   readonly membershipCriteria?: NsGroupMembershipCriteria[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#tag NsGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#tag NsGroup#tag}
   */
   readonly tag?: NsGroupTag[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface NsGroupMember {
   /**
   * Type of the resource on which this expression is evaluated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#target_type NsGroup#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#target_type NsGroup#target_type}
   */
   readonly targetType: string;
   /**
   * Value that satisfies this expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#value NsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#value NsGroup#value}
   */
   readonly value: string;
 }
@@ -194,23 +194,23 @@ export class NsGroupMemberList extends cdktf.ComplexList {
 }
 export interface NsGroupMembershipCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#scope NsGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#scope NsGroup#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#scope_op NsGroup#scope_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#scope_op NsGroup#scope_op}
   */
   readonly scopeOp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#tag NsGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#tag NsGroup#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#tag_op NsGroup#tag_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#tag_op NsGroup#tag_op}
   */
   readonly tagOp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#target_type NsGroup#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#target_type NsGroup#target_type}
   */
   readonly targetType: string;
 }
@@ -439,11 +439,11 @@ export class NsGroupMembershipCriteriaList extends cdktf.ComplexList {
 }
 export interface NsGroupTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#scope NsGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#scope NsGroup#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#tag NsGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#tag NsGroup#tag}
   */
   readonly tag?: string;
 }
@@ -588,7 +588,7 @@ export class NsGroupTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group nsxt_ns_group}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group nsxt_ns_group}
 */
 export class NsGroup extends cdktf.TerraformResource {
 
@@ -604,7 +604,7 @@ export class NsGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NsGroup to import
-  * @param importFromId The id of the existing NsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -616,7 +616,7 @@ export class NsGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ns_group nsxt_ns_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ns_group nsxt_ns_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -627,8 +627,8 @@ export class NsGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_ns_group',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClsAlarmNoticeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#id ClsAlarmNotice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#id ClsAlarmNotice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ClsAlarmNoticeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alarm notice name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#name ClsAlarmNotice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#name ClsAlarmNotice#name}
   */
   readonly name: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#tags ClsAlarmNotice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#tags ClsAlarmNotice#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Notice type. Value: Trigger, Recovery, All.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#type ClsAlarmNotice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#type ClsAlarmNotice#type}
   */
   readonly type: string;
   /**
   * notice_receivers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#notice_receivers ClsAlarmNotice#notice_receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#notice_receivers ClsAlarmNotice#notice_receivers}
   */
   readonly noticeReceivers?: ClsAlarmNoticeNoticeReceivers[] | cdktf.IResolvable;
   /**
   * web_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#web_callbacks ClsAlarmNotice#web_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#web_callbacks ClsAlarmNotice#web_callbacks}
   */
   readonly webCallbacks?: ClsAlarmNoticeWebCallbacks[] | cdktf.IResolvable;
 }
@@ -49,43 +49,43 @@ export interface ClsAlarmNoticeNoticeReceivers {
   /**
   * End time allowed to receive messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#end_time ClsAlarmNotice#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#end_time ClsAlarmNotice#end_time}
   */
   readonly endTime?: string;
   /**
   * Index. The input parameter is invalid, but the output parameter is valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#index ClsAlarmNotice#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#index ClsAlarmNotice#index}
   */
   readonly index?: number;
   /**
   * Notice content ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#notice_content_id ClsAlarmNotice#notice_content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#notice_content_id ClsAlarmNotice#notice_content_id}
   */
   readonly noticeContentId?: string;
   /**
   * Receiver channels, Value: Email, Sms, WeChat, Phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#receiver_channels ClsAlarmNotice#receiver_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#receiver_channels ClsAlarmNotice#receiver_channels}
   */
   readonly receiverChannels: string[];
   /**
   * Receiver id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#receiver_ids ClsAlarmNotice#receiver_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#receiver_ids ClsAlarmNotice#receiver_ids}
   */
   readonly receiverIds: number[];
   /**
   * Receiver type, Uin or Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#receiver_type ClsAlarmNotice#receiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#receiver_type ClsAlarmNotice#receiver_type}
   */
   readonly receiverType: string;
   /**
   * Start time allowed to receive messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#start_time ClsAlarmNotice#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#start_time ClsAlarmNotice#start_time}
   */
   readonly startTime?: string;
 }
@@ -368,67 +368,67 @@ export interface ClsAlarmNoticeWebCallbacks {
   /**
   * Request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#body ClsAlarmNotice#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#body ClsAlarmNotice#body}
   */
   readonly body?: string;
   /**
   * Callback type, Values: Http, WeCom, DingTalk, Lark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#callback_type ClsAlarmNotice#callback_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#callback_type ClsAlarmNotice#callback_type}
   */
   readonly callbackType: string;
   /**
   * Request headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#headers ClsAlarmNotice#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#headers ClsAlarmNotice#headers}
   */
   readonly headers?: string[];
   /**
   * Index. The input parameter is invalid, but the output parameter is valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#index ClsAlarmNotice#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#index ClsAlarmNotice#index}
   */
   readonly index?: number;
   /**
   * Method, POST or PUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#method ClsAlarmNotice#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#method ClsAlarmNotice#method}
   */
   readonly method?: string;
   /**
   * Telephone list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#mobiles ClsAlarmNotice#mobiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#mobiles ClsAlarmNotice#mobiles}
   */
   readonly mobiles?: string[];
   /**
   * Notice content ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#notice_content_id ClsAlarmNotice#notice_content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#notice_content_id ClsAlarmNotice#notice_content_id}
   */
   readonly noticeContentId?: string;
   /**
   * Remind type. 0: Do not remind; 1: Specified person; 2: Everyone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#remind_type ClsAlarmNotice#remind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#remind_type ClsAlarmNotice#remind_type}
   */
   readonly remindType?: number;
   /**
   * Callback url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#url ClsAlarmNotice#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#url ClsAlarmNotice#url}
   */
   readonly url: string;
   /**
   * User ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#user_ids ClsAlarmNotice#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#user_ids ClsAlarmNotice#user_ids}
   */
   readonly userIds?: string[];
   /**
   * Integration configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#web_callback_id ClsAlarmNotice#web_callback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#web_callback_id ClsAlarmNotice#web_callback_id}
   */
   readonly webCallbackId?: string;
 }
@@ -828,7 +828,7 @@ export class ClsAlarmNoticeWebCallbacksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice tencentcloud_cls_alarm_notice}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice tencentcloud_cls_alarm_notice}
 */
 export class ClsAlarmNotice extends cdktf.TerraformResource {
 
@@ -844,7 +844,7 @@ export class ClsAlarmNotice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsAlarmNotice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsAlarmNotice to import
-  * @param importFromId The id of the existing ClsAlarmNotice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsAlarmNotice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsAlarmNotice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -856,7 +856,7 @@ export class ClsAlarmNotice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_alarm_notice tencentcloud_cls_alarm_notice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cls_alarm_notice tencentcloud_cls_alarm_notice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -867,8 +867,8 @@ export class ClsAlarmNotice extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_alarm_notice',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface PolicyIpsecVpnIkeProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#description PolicyIpsecVpnIkeProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#description PolicyIpsecVpnIkeProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#dh_groups PolicyIpsecVpnIkeProfile#dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#dh_groups PolicyIpsecVpnIkeProfile#dh_groups}
   */
   readonly dhGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#digest_algorithms PolicyIpsecVpnIkeProfile#digest_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#digest_algorithms PolicyIpsecVpnIkeProfile#digest_algorithms}
   */
   readonly digestAlgorithms?: string[];
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#display_name PolicyIpsecVpnIkeProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#display_name PolicyIpsecVpnIkeProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#encryption_algorithms PolicyIpsecVpnIkeProfile#encryption_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#encryption_algorithms PolicyIpsecVpnIkeProfile#encryption_algorithms}
   */
   readonly encryptionAlgorithms: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#id PolicyIpsecVpnIkeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#id PolicyIpsecVpnIkeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#ike_version PolicyIpsecVpnIkeProfile#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#ike_version PolicyIpsecVpnIkeProfile#ike_version}
   */
   readonly ikeVersion?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#nsx_id PolicyIpsecVpnIkeProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#nsx_id PolicyIpsecVpnIkeProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#sa_life_time PolicyIpsecVpnIkeProfile#sa_life_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#sa_life_time PolicyIpsecVpnIkeProfile#sa_life_time}
   */
   readonly saLifeTime?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#tag PolicyIpsecVpnIkeProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#tag PolicyIpsecVpnIkeProfile#tag}
   */
   readonly tag?: PolicyIpsecVpnIkeProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyIpsecVpnIkeProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#scope PolicyIpsecVpnIkeProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#scope PolicyIpsecVpnIkeProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#tag PolicyIpsecVpnIkeProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#tag PolicyIpsecVpnIkeProfile#tag}
   */
   readonly tag?: string;
 }
@@ -210,7 +210,7 @@ export class PolicyIpsecVpnIkeProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile nsxt_policy_ipsec_vpn_ike_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile nsxt_policy_ipsec_vpn_ike_profile}
 */
 export class PolicyIpsecVpnIkeProfile extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class PolicyIpsecVpnIkeProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpsecVpnIkeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpsecVpnIkeProfile to import
-  * @param importFromId The id of the existing PolicyIpsecVpnIkeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpsecVpnIkeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpsecVpnIkeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class PolicyIpsecVpnIkeProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_ike_profile nsxt_policy_ipsec_vpn_ike_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_ike_profile nsxt_policy_ipsec_vpn_ike_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class PolicyIpsecVpnIkeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ipsec_vpn_ike_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

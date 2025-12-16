@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TdmqRocketmqGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to enable broadcast consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#broadcast_enable TdmqRocketmqGroup#broadcast_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#broadcast_enable TdmqRocketmqGroup#broadcast_enable}
   */
   readonly broadcastEnable: boolean | cdktf.IResolvable;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#cluster_id TdmqRocketmqGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#cluster_id TdmqRocketmqGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Group name (8-64 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#group_name TdmqRocketmqGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#group_name TdmqRocketmqGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#id TdmqRocketmqGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#id TdmqRocketmqGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface TdmqRocketmqGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Namespace. Currently, only one namespace is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#namespace TdmqRocketmqGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#namespace TdmqRocketmqGroup#namespace}
   */
   readonly namespace: string;
   /**
   * Whether to enable consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#read_enable TdmqRocketmqGroup#read_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#read_enable TdmqRocketmqGroup#read_enable}
   */
   readonly readEnable: boolean | cdktf.IResolvable;
   /**
   * Remarks (up to 128 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#remark TdmqRocketmqGroup#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#remark TdmqRocketmqGroup#remark}
   */
   readonly remark?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group}
 */
 export class TdmqRocketmqGroup extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TdmqRocketmqGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRocketmqGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRocketmqGroup to import
-  * @param importFromId The id of the existing TdmqRocketmqGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRocketmqGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRocketmqGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TdmqRocketmqGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rocketmq_group tencentcloud_tdmq_rocketmq_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TdmqRocketmqGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTdmqRocketmqNamespaceConfig extends cdktf.Terra
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace#cluster_id DataTencentcloudTdmqRocketmqNamespace#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace#cluster_id DataTencentcloudTdmqRocketmqNamespace#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace#id DataTencentcloudTdmqRocketmqNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace#id DataTencentcloudTdmqRocketmqNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudTdmqRocketmqNamespaceConfig extends cdktf.Terra
   /**
   * Search by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace#name_keyword DataTencentcloudTdmqRocketmqNamespace#name_keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace#name_keyword DataTencentcloudTdmqRocketmqNamespace#name_keyword}
   */
   readonly nameKeyword?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace#result_output_file DataTencentcloudTdmqRocketmqNamespace#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace#result_output_file DataTencentcloudTdmqRocketmqNamespace#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -135,7 +135,7 @@ export class DataTencentcloudTdmqRocketmqNamespaceNamespacesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace}
 */
 export class DataTencentcloudTdmqRocketmqNamespace extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataTencentcloudTdmqRocketmqNamespace extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudTdmqRocketmqNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTdmqRocketmqNamespace to import
-  * @param importFromId The id of the existing DataTencentcloudTdmqRocketmqNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTdmqRocketmqNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTdmqRocketmqNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataTencentcloudTdmqRocketmqNamespace extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tdmq_rocketmq_namespace tencentcloud_tdmq_rocketmq_namespace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataTencentcloudTdmqRocketmqNamespace extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

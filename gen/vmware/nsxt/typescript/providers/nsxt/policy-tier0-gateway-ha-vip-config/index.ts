@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyTier0GatewayHaVipConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config#id PolicyTier0GatewayHaVipConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config#id PolicyTier0GatewayHaVipConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface PolicyTier0GatewayHaVipConfigConfig extends cdktf.TerraformMeta
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config#config PolicyTier0GatewayHaVipConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config#config PolicyTier0GatewayHaVipConfig#config}
   */
   readonly config: PolicyTier0GatewayHaVipConfigConfigA[] | cdktf.IResolvable;
 }
@@ -25,19 +25,19 @@ export interface PolicyTier0GatewayHaVipConfigConfigA {
   /**
   * Flag to enable this HA VIP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config#enabled PolicyTier0GatewayHaVipConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config#enabled PolicyTier0GatewayHaVipConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * paths to Tier0 external interfaces which are to be paired to provide redundancy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config#external_interface_paths PolicyTier0GatewayHaVipConfig#external_interface_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config#external_interface_paths PolicyTier0GatewayHaVipConfig#external_interface_paths}
   */
   readonly externalInterfacePaths: string[];
   /**
   * IP address subnets which will be used as floating IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config#vip_subnets PolicyTier0GatewayHaVipConfig#vip_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config#vip_subnets PolicyTier0GatewayHaVipConfig#vip_subnets}
   */
   readonly vipSubnets: string[];
 }
@@ -205,7 +205,7 @@ export class PolicyTier0GatewayHaVipConfigConfigAList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config nsxt_policy_tier0_gateway_ha_vip_config}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config nsxt_policy_tier0_gateway_ha_vip_config}
 */
 export class PolicyTier0GatewayHaVipConfig extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class PolicyTier0GatewayHaVipConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyTier0GatewayHaVipConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyTier0GatewayHaVipConfig to import
-  * @param importFromId The id of the existing PolicyTier0GatewayHaVipConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyTier0GatewayHaVipConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyTier0GatewayHaVipConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class PolicyTier0GatewayHaVipConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_tier0_gateway_ha_vip_config nsxt_policy_tier0_gateway_ha_vip_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_tier0_gateway_ha_vip_config nsxt_policy_tier0_gateway_ha_vip_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class PolicyTier0GatewayHaVipConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_tier0_gateway_ha_vip_config',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

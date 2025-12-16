@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsAgentPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools#id DataAzuredevopsAgentPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools#id DataAzuredevopsAgentPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataAzuredevopsAgentPoolsConfig extends cdktf.TerraformMetaArgu
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools#timeouts DataAzuredevopsAgentPools#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools#timeouts DataAzuredevopsAgentPools#timeouts}
   */
   readonly timeouts?: DataAzuredevopsAgentPoolsTimeouts;
 }
@@ -118,7 +118,7 @@ export class DataAzuredevopsAgentPoolsAgentPoolsList extends cdktf.ComplexList {
 }
 export interface DataAzuredevopsAgentPoolsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools#read DataAzuredevopsAgentPools#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools#read DataAzuredevopsAgentPools#read}
   */
   readonly read?: string;
 }
@@ -212,7 +212,7 @@ export class DataAzuredevopsAgentPoolsTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools azuredevops_agent_pools}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools azuredevops_agent_pools}
 */
 export class DataAzuredevopsAgentPools extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataAzuredevopsAgentPools extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsAgentPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsAgentPools to import
-  * @param importFromId The id of the existing DataAzuredevopsAgentPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsAgentPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsAgentPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataAzuredevopsAgentPools extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/agent_pools azuredevops_agent_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/agent_pools azuredevops_agent_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataAzuredevopsAgentPools extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_agent_pools',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

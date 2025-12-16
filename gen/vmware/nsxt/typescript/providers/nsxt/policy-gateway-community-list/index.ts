@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyGatewayCommunityListConfig extends cdktf.TerraformMetaArg
   /**
   * List of BGP community entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#communities PolicyGatewayCommunityList#communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#communities PolicyGatewayCommunityList#communities}
   */
   readonly communities: string[];
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#description PolicyGatewayCommunityList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#description PolicyGatewayCommunityList#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#display_name PolicyGatewayCommunityList#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#display_name PolicyGatewayCommunityList#display_name}
   */
   readonly displayName: string;
   /**
   * Policy path for Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#gateway_path PolicyGatewayCommunityList#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#gateway_path PolicyGatewayCommunityList#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#id PolicyGatewayCommunityList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#id PolicyGatewayCommunityList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,23 +41,23 @@ export interface PolicyGatewayCommunityListConfig extends cdktf.TerraformMetaArg
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#nsx_id PolicyGatewayCommunityList#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#nsx_id PolicyGatewayCommunityList#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#tag PolicyGatewayCommunityList#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#tag PolicyGatewayCommunityList#tag}
   */
   readonly tag?: PolicyGatewayCommunityListTag[] | cdktf.IResolvable;
 }
 export interface PolicyGatewayCommunityListTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#scope PolicyGatewayCommunityList#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#scope PolicyGatewayCommunityList#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#tag PolicyGatewayCommunityList#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#tag PolicyGatewayCommunityList#tag}
   */
   readonly tag?: string;
 }
@@ -202,7 +202,7 @@ export class PolicyGatewayCommunityListTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list nsxt_policy_gateway_community_list}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list nsxt_policy_gateway_community_list}
 */
 export class PolicyGatewayCommunityList extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class PolicyGatewayCommunityList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGatewayCommunityList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayCommunityList to import
-  * @param importFromId The id of the existing PolicyGatewayCommunityList that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayCommunityList that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayCommunityList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class PolicyGatewayCommunityList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_community_list nsxt_policy_gateway_community_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_community_list nsxt_policy_gateway_community_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class PolicyGatewayCommunityList extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_gateway_community_list',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

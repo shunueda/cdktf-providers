@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FirewallSectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#description FirewallSection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#description FirewallSection#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#display_name FirewallSection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#display_name FirewallSection#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#id FirewallSection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#id FirewallSection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface FirewallSectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of section that should come after this one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#insert_before FirewallSection#insert_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#insert_before FirewallSection#insert_before}
   */
   readonly insertBefore?: string;
   /**
   * Type of the rules which a section can contain. Only homogeneous sections are supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#section_type FirewallSection#section_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#section_type FirewallSection#section_type}
   */
   readonly sectionType: string;
   /**
   * Stateful or Stateless nature of firewall section is enforced on all rules inside the section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#stateful FirewallSection#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#stateful FirewallSection#stateful}
   */
   readonly stateful: boolean | cdktf.IResolvable;
   /**
   * applied_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#applied_to FirewallSection#applied_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#applied_to FirewallSection#applied_to}
   */
   readonly appliedTo?: FirewallSectionAppliedTo[] | cdktf.IResolvable;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#rule FirewallSection#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#rule FirewallSection#rule}
   */
   readonly rule?: FirewallSectionRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#tag FirewallSection#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#tag FirewallSection#tag}
   */
   readonly tag?: FirewallSectionTag[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface FirewallSectionAppliedTo {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
   */
   readonly targetType?: string;
 }
@@ -230,13 +230,13 @@ export interface FirewallSectionRuleAppliedTo {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
   */
   readonly targetType?: string;
 }
@@ -393,13 +393,13 @@ export interface FirewallSectionRuleDestination {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
   */
   readonly targetType?: string;
 }
@@ -556,13 +556,13 @@ export interface FirewallSectionRuleService {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
   */
   readonly targetType?: string;
 }
@@ -719,13 +719,13 @@ export interface FirewallSectionRuleSource {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_id FirewallSection#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#target_type FirewallSection#target_type}
   */
   readonly targetType?: string;
 }
@@ -882,91 +882,91 @@ export interface FirewallSectionRule {
   /**
   * Action enforced on the packets which matches the firewall rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#action FirewallSection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#action FirewallSection#action}
   */
   readonly action: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#description FirewallSection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#description FirewallSection#description}
   */
   readonly description?: string;
   /**
   * When this boolean flag is set to true, the rule destinations will be negated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#destinations_excluded FirewallSection#destinations_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#destinations_excluded FirewallSection#destinations_excluded}
   */
   readonly destinationsExcluded?: boolean | cdktf.IResolvable;
   /**
   * Rule direction in case of stateless firewall rules. This will only be considered if section level parameter is set to stateless. Default to IN_OUT if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#direction FirewallSection#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#direction FirewallSection#direction}
   */
   readonly direction?: string;
   /**
   * Flag to disable rule. Disabled will only be persisted but never provisioned/realized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#disabled FirewallSection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#disabled FirewallSection#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#display_name FirewallSection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#display_name FirewallSection#display_name}
   */
   readonly displayName?: string;
   /**
   * Type of IP packet that should be matched while enforcing the rule (IPV4, IPV6, IPV4_IPV6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#ip_protocol FirewallSection#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#ip_protocol FirewallSection#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * Flag to enable packet logging. Default is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#logged FirewallSection#logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#logged FirewallSection#logged}
   */
   readonly logged?: boolean | cdktf.IResolvable;
   /**
   * User notes specific to the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#notes FirewallSection#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#notes FirewallSection#notes}
   */
   readonly notes?: string;
   /**
   * User level field which will be printed in CLI and packet logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#rule_tag FirewallSection#rule_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#rule_tag FirewallSection#rule_tag}
   */
   readonly ruleTag?: string;
   /**
   * When this boolean flag is set to true, the rule sources will be negated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#sources_excluded FirewallSection#sources_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#sources_excluded FirewallSection#sources_excluded}
   */
   readonly sourcesExcluded?: boolean | cdktf.IResolvable;
   /**
   * applied_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#applied_to FirewallSection#applied_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#applied_to FirewallSection#applied_to}
   */
   readonly appliedTo?: FirewallSectionRuleAppliedTo[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#destination FirewallSection#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#destination FirewallSection#destination}
   */
   readonly destination?: FirewallSectionRuleDestination[] | cdktf.IResolvable;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#service FirewallSection#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#service FirewallSection#service}
   */
   readonly service?: FirewallSectionRuleService[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#source FirewallSection#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#source FirewallSection#source}
   */
   readonly source?: FirewallSectionRuleSource[] | cdktf.IResolvable;
 }
@@ -1495,11 +1495,11 @@ export class FirewallSectionRuleList extends cdktf.ComplexList {
 }
 export interface FirewallSectionTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#scope FirewallSection#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#scope FirewallSection#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#tag FirewallSection#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#tag FirewallSection#tag}
   */
   readonly tag?: string;
 }
@@ -1644,7 +1644,7 @@ export class FirewallSectionTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section nsxt_firewall_section}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section nsxt_firewall_section}
 */
 export class FirewallSection extends cdktf.TerraformResource {
 
@@ -1660,7 +1660,7 @@ export class FirewallSection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallSection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallSection to import
-  * @param importFromId The id of the existing FirewallSection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallSection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallSection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1672,7 +1672,7 @@ export class FirewallSection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/firewall_section nsxt_firewall_section} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/firewall_section nsxt_firewall_section} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1683,8 +1683,8 @@ export class FirewallSection extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_firewall_section',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

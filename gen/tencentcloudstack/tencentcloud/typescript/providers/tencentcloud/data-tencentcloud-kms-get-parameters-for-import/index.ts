@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudKmsGetParametersForImportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import#id DataTencentcloudKmsGetParametersForImport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import#id DataTencentcloudKmsGetParametersForImport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudKmsGetParametersForImportConfig extends cdktf.T
   /**
   * CMK unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import#key_id DataTencentcloudKmsGetParametersForImport#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import#key_id DataTencentcloudKmsGetParametersForImport#key_id}
   */
   readonly keyId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import#result_output_file DataTencentcloudKmsGetParametersForImport#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import#result_output_file DataTencentcloudKmsGetParametersForImport#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Specifies the algorithm for encrypting key material, currently supports RSAES_PKCS1_V1_5, RSAES_OAEP_SHA_1, RSAES_OAEP_SHA_256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import#wrapping_algorithm DataTencentcloudKmsGetParametersForImport#wrapping_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import#wrapping_algorithm DataTencentcloudKmsGetParametersForImport#wrapping_algorithm}
   */
   readonly wrappingAlgorithm: string;
   /**
   * Specifies the type of encryption key material, currently only supports RSA_2048.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import#wrapping_key_spec DataTencentcloudKmsGetParametersForImport#wrapping_key_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import#wrapping_key_spec DataTencentcloudKmsGetParametersForImport#wrapping_key_spec}
   */
   readonly wrappingKeySpec: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import tencentcloud_kms_get_parameters_for_import}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import tencentcloud_kms_get_parameters_for_import}
 */
 export class DataTencentcloudKmsGetParametersForImport extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataTencentcloudKmsGetParametersForImport extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudKmsGetParametersForImport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKmsGetParametersForImport to import
-  * @param importFromId The id of the existing DataTencentcloudKmsGetParametersForImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKmsGetParametersForImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKmsGetParametersForImport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataTencentcloudKmsGetParametersForImport extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/kms_get_parameters_for_import tencentcloud_kms_get_parameters_for_import} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kms_get_parameters_for_import tencentcloud_kms_get_parameters_for_import} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataTencentcloudKmsGetParametersForImport extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_kms_get_parameters_for_import',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

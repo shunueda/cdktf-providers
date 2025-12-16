@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#authentication_basic_enabled SolacebrokerDmrCluster#authentication_basic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#authentication_basic_enabled SolacebrokerDmrCluster#authentication_basic_enabled}
   */
   readonly authenticationBasicEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#authentication_basic_password SolacebrokerDmrCluster#authentication_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#authentication_basic_password SolacebrokerDmrCluster#authentication_basic_password}
   */
   readonly authenticationBasicPassword?: string;
   /**
@@ -34,7 +34,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#authentication_basic_type SolacebrokerDmrCluster#authentication_basic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#authentication_basic_type SolacebrokerDmrCluster#authentication_basic_type}
   */
   readonly authenticationBasicType?: string;
   /**
@@ -42,7 +42,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#authentication_client_cert_content SolacebrokerDmrCluster#authentication_client_cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#authentication_client_cert_content SolacebrokerDmrCluster#authentication_client_cert_content}
   */
   readonly authenticationClientCertContent?: string;
   /**
@@ -50,7 +50,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#authentication_client_cert_enabled SolacebrokerDmrCluster#authentication_client_cert_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#authentication_client_cert_enabled SolacebrokerDmrCluster#authentication_client_cert_enabled}
   */
   readonly authenticationClientCertEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -58,7 +58,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#authentication_client_cert_password SolacebrokerDmrCluster#authentication_client_cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#authentication_client_cert_password SolacebrokerDmrCluster#authentication_client_cert_password}
   */
   readonly authenticationClientCertPassword?: string;
   /**
@@ -66,7 +66,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The default value is `false`. Note that this attribute requires replacement of the resource when updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#direct_only_enabled SolacebrokerDmrCluster#direct_only_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#direct_only_enabled SolacebrokerDmrCluster#direct_only_enabled}
   */
   readonly directOnlyEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -74,7 +74,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#dmr_cluster_name SolacebrokerDmrCluster#dmr_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#dmr_cluster_name SolacebrokerDmrCluster#dmr_cluster_name}
   */
   readonly dmrClusterName: string;
   /**
@@ -82,7 +82,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#enabled SolacebrokerDmrCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#enabled SolacebrokerDmrCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -90,7 +90,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#tls_server_cert_max_chain_depth SolacebrokerDmrCluster#tls_server_cert_max_chain_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#tls_server_cert_max_chain_depth SolacebrokerDmrCluster#tls_server_cert_max_chain_depth}
   */
   readonly tlsServerCertMaxChainDepth?: number;
   /**
@@ -98,7 +98,7 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#tls_server_cert_validate_date_enabled SolacebrokerDmrCluster#tls_server_cert_validate_date_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#tls_server_cert_validate_date_enabled SolacebrokerDmrCluster#tls_server_cert_validate_date_enabled}
   */
   readonly tlsServerCertValidateDateEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -106,13 +106,13 @@ export interface SolacebrokerDmrClusterConfig extends cdktf.TerraformMetaArgumen
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `true`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#tls_server_cert_validate_name_enabled SolacebrokerDmrCluster#tls_server_cert_validate_name_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#tls_server_cert_validate_name_enabled SolacebrokerDmrCluster#tls_server_cert_validate_name_enabled}
   */
   readonly tlsServerCertValidateNameEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster solacebroker_dmr_cluster}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster solacebroker_dmr_cluster}
 */
 export class SolacebrokerDmrCluster extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class SolacebrokerDmrCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerDmrCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerDmrCluster to import
-  * @param importFromId The id of the existing SolacebrokerDmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerDmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerDmrCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class SolacebrokerDmrCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_dmr_cluster solacebroker_dmr_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_dmr_cluster solacebroker_dmr_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class SolacebrokerDmrCluster extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_dmr_cluster',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

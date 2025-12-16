@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDcdbProjectSecurityGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups#id DataTencentcloudDcdbProjectSecurityGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups#id DataTencentcloudDcdbProjectSecurityGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudDcdbProjectSecurityGroupsConfig extends cdktf.T
   /**
   * Database engine name. Valid value: `dcdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups#product DataTencentcloudDcdbProjectSecurityGroups#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups#product DataTencentcloudDcdbProjectSecurityGroups#product}
   */
   readonly product: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups#project_id DataTencentcloudDcdbProjectSecurityGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups#project_id DataTencentcloudDcdbProjectSecurityGroups#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups#result_output_file DataTencentcloudDcdbProjectSecurityGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups#result_output_file DataTencentcloudDcdbProjectSecurityGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -322,7 +322,7 @@ export class DataTencentcloudDcdbProjectSecurityGroupsGroupsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups tencentcloud_dcdb_project_security_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups tencentcloud_dcdb_project_security_groups}
 */
 export class DataTencentcloudDcdbProjectSecurityGroups extends cdktf.TerraformDataSource {
 
@@ -338,7 +338,7 @@ export class DataTencentcloudDcdbProjectSecurityGroups extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudDcdbProjectSecurityGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbProjectSecurityGroups to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbProjectSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbProjectSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbProjectSecurityGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class DataTencentcloudDcdbProjectSecurityGroups extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_project_security_groups tencentcloud_dcdb_project_security_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_project_security_groups tencentcloud_dcdb_project_security_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class DataTencentcloudDcdbProjectSecurityGroups extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_dcdb_project_security_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

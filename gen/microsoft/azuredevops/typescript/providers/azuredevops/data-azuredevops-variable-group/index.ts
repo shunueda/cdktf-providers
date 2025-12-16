@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsVariableGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group#id DataAzuredevopsVariableGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group#id DataAzuredevopsVariableGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group#name DataAzuredevopsVariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group#name DataAzuredevopsVariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group#project_id DataAzuredevopsVariableGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group#project_id DataAzuredevopsVariableGroup#project_id}
   */
   readonly projectId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group#timeouts DataAzuredevopsVariableGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group#timeouts DataAzuredevopsVariableGroup#timeouts}
   */
   readonly timeouts?: DataAzuredevopsVariableGroupTimeouts;
 }
@@ -109,101 +109,6 @@ export class DataAzuredevopsVariableGroupKeyVaultList extends cdktf.ComplexList 
     return new DataAzuredevopsVariableGroupKeyVaultOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAzuredevopsVariableGroupSecretVariable {
-}
-
-export function dataAzuredevopsVariableGroupSecretVariableToTerraform(struct?: DataAzuredevopsVariableGroupSecretVariable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAzuredevopsVariableGroupSecretVariableToHclTerraform(struct?: DataAzuredevopsVariableGroupSecretVariable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAzuredevopsVariableGroupSecretVariableOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAzuredevopsVariableGroupSecretVariable | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAzuredevopsVariableGroupSecretVariable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // content_type - computed: true, optional: false, required: false
-  public get contentType() {
-    return this.getStringAttribute('content_type');
-  }
-
-  // enabled - computed: true, optional: false, required: false
-  public get enabled() {
-    return this.getBooleanAttribute('enabled');
-  }
-
-  // expires - computed: true, optional: false, required: false
-  public get expires() {
-    return this.getStringAttribute('expires');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class DataAzuredevopsVariableGroupSecretVariableList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAzuredevopsVariableGroupSecretVariableOutputReference {
-    return new DataAzuredevopsVariableGroupSecretVariableOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DataAzuredevopsVariableGroupVariable {
 }
 
@@ -270,9 +175,19 @@ export class DataAzuredevopsVariableGroupVariableOutputReference extends cdktf.C
     return this.getStringAttribute('expires');
   }
 
+  // is_secret - computed: true, optional: false, required: false
+  public get isSecret() {
+    return this.getBooleanAttribute('is_secret');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
+  }
+
+  // secret_value - computed: true, optional: false, required: false
+  public get secretValue() {
+    return this.getStringAttribute('secret_value');
   }
 
   // value - computed: true, optional: false, required: false
@@ -301,7 +216,7 @@ export class DataAzuredevopsVariableGroupVariableList extends cdktf.ComplexList 
 }
 export interface DataAzuredevopsVariableGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group#read DataAzuredevopsVariableGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group#read DataAzuredevopsVariableGroup#read}
   */
   readonly read?: string;
 }
@@ -395,7 +310,7 @@ export class DataAzuredevopsVariableGroupTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group azuredevops_variable_group}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group azuredevops_variable_group}
 */
 export class DataAzuredevopsVariableGroup extends cdktf.TerraformDataSource {
 
@@ -411,7 +326,7 @@ export class DataAzuredevopsVariableGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsVariableGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsVariableGroup to import
-  * @param importFromId The id of the existing DataAzuredevopsVariableGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsVariableGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsVariableGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -423,7 +338,7 @@ export class DataAzuredevopsVariableGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/variable_group azuredevops_variable_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/variable_group azuredevops_variable_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,8 +349,8 @@ export class DataAzuredevopsVariableGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_variable_group',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -511,12 +426,6 @@ export class DataAzuredevopsVariableGroup extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get projectIdInput() {
     return this._projectId;
-  }
-
-  // secret_variable - computed: true, optional: false, required: false
-  private _secretVariable = new DataAzuredevopsVariableGroupSecretVariableList(this, "secret_variable", true);
-  public get secretVariable() {
-    return this._secretVariable;
   }
 
   // variable - computed: true, optional: false, required: false

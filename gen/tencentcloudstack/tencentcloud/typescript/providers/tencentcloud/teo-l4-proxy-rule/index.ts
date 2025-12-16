@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoL4ProxyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#id TeoL4ProxyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#id TeoL4ProxyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TeoL4ProxyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Layer 4 proxy instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#proxy_id TeoL4ProxyRule#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#proxy_id TeoL4ProxyRule#proxy_id}
   */
   readonly proxyId: string;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#zone_id TeoL4ProxyRule#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#zone_id TeoL4ProxyRule#zone_id}
   */
   readonly zoneId: string;
   /**
   * l4_proxy_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#l4_proxy_rules TeoL4ProxyRule#l4_proxy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#l4_proxy_rules TeoL4ProxyRule#l4_proxy_rules}
   */
   readonly l4ProxyRules: TeoL4ProxyRuleL4ProxyRules;
 }
@@ -42,7 +42,7 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>OFF: No transmission.</li>
   * Note: This parameter is optional when L4ProxyRule is used as an input parameter in Createl4ProxyRule, and if not specified, the default value OFF will be used; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#client_ip_pass_through_mode TeoL4ProxyRule#client_ip_pass_through_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#client_ip_pass_through_mode TeoL4ProxyRule#client_ip_pass_through_mode}
   */
   readonly clientIpPassThroughMode?: string;
   /**
@@ -50,7 +50,7 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>A range of ports, such as 81-85, representing ports 81, 82, 83, 84, 85. When inputting a range of ports, ensure that the length corresponds with that of the forwarding port range. For example, if the forwarding port range is 80-90, this port range should be 90-100.</li>
   * Note: This parameter must be filled in when L4ProxyRule is used as an input parameter in Createl4ProxyRule; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#origin_port_range TeoL4ProxyRule#origin_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#origin_port_range TeoL4ProxyRule#origin_port_range}
   */
   readonly originPortRange?: string;
   /**
@@ -60,7 +60,7 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>LB: Cloud Load Balancer, currently only open to the allowlist.</li>
   * Note: This parameter must be filled in when L4ProxyRule is used as an input parameter in Createl4ProxyRule; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#origin_type TeoL4ProxyRule#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#origin_type TeoL4ProxyRule#origin_type}
   */
   readonly originType?: string;
   /**
@@ -70,7 +70,7 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>When OriginType is set to LB, enter the Cloud Load Balancer instance ID, such as lb-2qwk30xf7s9g.</li>
   * Note: This parameter must be filled in when L4ProxyRule is used as an input parameter in Createl4ProxyRule; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#origin_value TeoL4ProxyRule#origin_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#origin_value TeoL4ProxyRule#origin_value}
   */
   readonly originValue?: string[];
   /**
@@ -79,7 +79,7 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>A range of ports, such as 81-85, representing ports 81, 82, 83, 84, 85.</li>
   * Note: This parameter must be filled in when L4ProxyRule is used as an input parameter in Createl4ProxyRule; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#port_range TeoL4ProxyRule#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#port_range TeoL4ProxyRule#port_range}
   */
   readonly portRange?: string[];
   /**
@@ -88,14 +88,14 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>UDP: UDP protocol.</li>
   * Note: This parameter must be filled in when L4ProxyRule is used as an input parameter in Createl4ProxyRule; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#protocol TeoL4ProxyRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#protocol TeoL4ProxyRule#protocol}
   */
   readonly protocol?: string;
   /**
   * Rule tag. Accepts 1-50 arbitrary characters.
   * Note: This parameter is optional when L4ProxyRule is used as an input parameter in Createl4ProxyRule; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#rule_tag TeoL4ProxyRule#rule_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#rule_tag TeoL4ProxyRule#rule_tag}
   */
   readonly ruleTag?: string;
   /**
@@ -104,14 +104,14 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>off: Disable.</li>
   * Note: This parameter is optional when L4ProxyRule is used as an input parameter in Createl4ProxyRule, and if not specified, the default value off will be used; it is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#session_persist TeoL4ProxyRule#session_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#session_persist TeoL4ProxyRule#session_persist}
   */
   readonly sessionPersist?: string;
   /**
   * Session persistence period, with a range of 30-3600, measured in seconds.
   * Note: This parameter is optional when L4ProxyRule is used as an input parameter in Createl4ProxyRule. It is valid only when SessionPersist is set to on and defaults to 3600 if not specified. It is optional when L4ProxyRule is used as an input parameter in Modifyl4ProxyRule. If not specified, it will retain its existing value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#session_persist_time TeoL4ProxyRule#session_persist_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#session_persist_time TeoL4ProxyRule#session_persist_time}
   */
   readonly sessionPersistTime?: number;
   /**
@@ -121,7 +121,7 @@ export interface TeoL4ProxyRuleL4ProxyRules {
   * <li>stopping: Disabling;</li>
   * <li>fail: Failed to deploy or disable.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#status TeoL4ProxyRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#status TeoL4ProxyRule#status}
   */
   readonly status?: string;
 }
@@ -471,7 +471,7 @@ export class TeoL4ProxyRuleL4ProxyRulesOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule tencentcloud_teo_l4_proxy_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule tencentcloud_teo_l4_proxy_rule}
 */
 export class TeoL4ProxyRule extends cdktf.TerraformResource {
 
@@ -487,7 +487,7 @@ export class TeoL4ProxyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoL4ProxyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoL4ProxyRule to import
-  * @param importFromId The id of the existing TeoL4ProxyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoL4ProxyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoL4ProxyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -499,7 +499,7 @@ export class TeoL4ProxyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_l4_proxy_rule tencentcloud_teo_l4_proxy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_l4_proxy_rule tencentcloud_teo_l4_proxy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -510,8 +510,8 @@ export class TeoL4ProxyRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_l4_proxy_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface BurnAlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * The alert type of this Burn Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#alert_type BurnAlert#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#alert_type BurnAlert#alert_type}
   */
   readonly alertType?: string;
   /**
   * The percent the budget has decreased over the budget rate window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#budget_rate_decrease_percent BurnAlert#budget_rate_decrease_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#budget_rate_decrease_percent BurnAlert#budget_rate_decrease_percent}
   */
   readonly budgetRateDecreasePercent?: number;
   /**
   * The time period, in minutes, over which a budget rate will be calculated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#budget_rate_window_minutes BurnAlert#budget_rate_window_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#budget_rate_window_minutes BurnAlert#budget_rate_window_minutes}
   */
   readonly budgetRateWindowMinutes?: number;
   /**
   * The dataset this Burn Alert is associated with. Will be deprecated in a future release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#dataset BurnAlert#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#dataset BurnAlert#dataset}
   */
   readonly dataset?: string;
   /**
   * A description for this Burn Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#description BurnAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#description BurnAlert#description}
   */
   readonly description?: string;
   /**
   * The amount of time, in minutes, remaining before the SLO's error budget will be exhausted and the alert will fire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#exhaustion_minutes BurnAlert#exhaustion_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#exhaustion_minutes BurnAlert#exhaustion_minutes}
   */
   readonly exhaustionMinutes?: number;
   /**
   * The ID of the SLO that this Burn Alert is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#slo_id BurnAlert#slo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#slo_id BurnAlert#slo_id}
   */
   readonly sloId: string;
   /**
   * recipient block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#recipient BurnAlert#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#recipient BurnAlert#recipient}
   */
   readonly recipient?: BurnAlertRecipient[] | cdktf.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface BurnAlertRecipientNotificationDetailsVariable {
   /**
   * The name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#name BurnAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#name BurnAlert#name}
   */
   readonly name: string;
   /**
   * The value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#value BurnAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#value BurnAlert#value}
   */
   readonly value?: string;
 }
@@ -210,13 +210,13 @@ export interface BurnAlertRecipientNotificationDetails {
   /**
   * The severity to set with the PagerDuty notification. If no severity is provided, 'critical' is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#pagerduty_severity BurnAlert#pagerduty_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#pagerduty_severity BurnAlert#pagerduty_severity}
   */
   readonly pagerdutySeverity?: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#variable BurnAlert#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#variable BurnAlert#variable}
   */
   readonly variable?: BurnAlertRecipientNotificationDetailsVariable[] | cdktf.IResolvable;
 }
@@ -363,7 +363,7 @@ export interface BurnAlertRecipient {
   /**
   * The ID of an existing recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#id BurnAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#id BurnAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -372,19 +372,19 @@ export interface BurnAlertRecipient {
   /**
   * Target of the notification, this has another meaning depending on the type of recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#target BurnAlert#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#target BurnAlert#target}
   */
   readonly target?: string;
   /**
   * The type of the notification recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#type BurnAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#type BurnAlert#type}
   */
   readonly type?: string;
   /**
   * notification_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#notification_details BurnAlert#notification_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#notification_details BurnAlert#notification_details}
   */
   readonly notificationDetails?: BurnAlertRecipientNotificationDetails[] | cdktf.IResolvable;
 }
@@ -587,7 +587,7 @@ export class BurnAlertRecipientList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert honeycombio_burn_alert}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert honeycombio_burn_alert}
 */
 export class BurnAlert extends cdktf.TerraformResource {
 
@@ -603,7 +603,7 @@ export class BurnAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BurnAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BurnAlert to import
-  * @param importFromId The id of the existing BurnAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BurnAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BurnAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -615,7 +615,7 @@ export class BurnAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/burn_alert honeycombio_burn_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/burn_alert honeycombio_burn_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -626,8 +626,8 @@ export class BurnAlert extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_burn_alert',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

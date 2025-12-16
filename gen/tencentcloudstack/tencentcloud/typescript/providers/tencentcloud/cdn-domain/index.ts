@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CdnDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain name acceleration region. `mainland`: acceleration inside mainland China, `overseas`: acceleration outside mainland China, `global`: global acceleration. Overseas acceleration service must be enabled to use overseas acceleration and global acceleration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#area CdnDomain#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#area CdnDomain#area}
   */
   readonly area?: string;
   /**
   * Name of the acceleration domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#domain CdnDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#domain CdnDomain#domain}
   */
   readonly domain: string;
   /**
   * Used for validate only by store arguments to request json string as expected, WARNING: if set to `true`, NO Cloud Api will be invoked but store as local data, do not use this argument unless you really know what you are doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#explicit_using_dry_run CdnDomain#explicit_using_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#explicit_using_dry_run CdnDomain#explicit_using_dry_run}
   */
   readonly explicitUsingDryRun?: boolean | cdktf.IResolvable;
   /**
   * 301/302 redirect following switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#follow_redirect_switch CdnDomain#follow_redirect_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#follow_redirect_switch CdnDomain#follow_redirect_switch}
   */
   readonly followRedirectSwitch?: string;
   /**
   * Whether to enable full-path cache. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#full_url_cache CdnDomain#full_url_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#full_url_cache CdnDomain#full_url_cache}
   */
   readonly fullUrlCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#id CdnDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#id CdnDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,217 +47,217 @@ export interface CdnDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * ipv6 access configuration switch. Only available when area set to `mainland`. Valid values are `on` and `off`. Default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ipv6_access_switch CdnDomain#ipv6_access_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ipv6_access_switch CdnDomain#ipv6_access_switch}
   */
   readonly ipv6AccessSwitch?: string;
   /**
   * Offline cache switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#offline_cache_switch CdnDomain#offline_cache_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#offline_cache_switch CdnDomain#offline_cache_switch}
   */
   readonly offlineCacheSwitch?: string;
   /**
   * The project CDN belongs to, default to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#project_id CdnDomain#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#project_id CdnDomain#project_id}
   */
   readonly projectId?: number;
   /**
   * QUIC switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#quic_switch CdnDomain#quic_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#quic_switch CdnDomain#quic_switch}
   */
   readonly quicSwitch?: string;
   /**
   * Sharding back to source configuration switch. Valid values are `on` and `off`. Default value is `on`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#range_origin_switch CdnDomain#range_origin_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#range_origin_switch CdnDomain#range_origin_switch}
   */
   readonly rangeOriginSwitch?: string;
   /**
   * Response header cache switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#response_header_cache_switch CdnDomain#response_header_cache_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#response_header_cache_switch CdnDomain#response_header_cache_switch}
   */
   readonly responseHeaderCacheSwitch?: string;
   /**
   * SEO switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#seo_switch CdnDomain#seo_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#seo_switch CdnDomain#seo_switch}
   */
   readonly seoSwitch?: string;
   /**
   * Acceleration domain name service type. `web`: static acceleration, `download`: download acceleration, `media`: streaming media VOD acceleration, `hybrid`: hybrid acceleration, `dynamic`: dynamic acceleration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#service_type CdnDomain#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#service_type CdnDomain#service_type}
   */
   readonly serviceType: string;
   /**
   * Specific configuration for mainland, NOTE: Both specifying full schema or using it is superfluous, please use cloud api parameters json passthroughs, check the [Data Types](https://www.tencentcloud.com/document/api/228/31739#MainlandConfig) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#specific_config_mainland CdnDomain#specific_config_mainland}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#specific_config_mainland CdnDomain#specific_config_mainland}
   */
   readonly specificConfigMainland?: string;
   /**
   * Specific configuration for oversea, NOTE: Both specifying full schema or using it is superfluous, please use cloud api parameters json passthroughs, check the [Data Types](https://www.tencentcloud.com/document/api/228/31739#OverseaConfig) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#specific_config_overseas CdnDomain#specific_config_overseas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#specific_config_overseas CdnDomain#specific_config_overseas}
   */
   readonly specificConfigOverseas?: string;
   /**
   * Tags of cdn domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#tags CdnDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#tags CdnDomain#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Video seek switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#video_seek_switch CdnDomain#video_seek_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#video_seek_switch CdnDomain#video_seek_switch}
   */
   readonly videoSeekSwitch?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#authentication CdnDomain#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#authentication CdnDomain#authentication}
   */
   readonly authentication?: CdnDomainAuthentication;
   /**
   * aws_private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#aws_private_access CdnDomain#aws_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#aws_private_access CdnDomain#aws_private_access}
   */
   readonly awsPrivateAccess?: CdnDomainAwsPrivateAccess;
   /**
   * band_width_alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#band_width_alert CdnDomain#band_width_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#band_width_alert CdnDomain#band_width_alert}
   */
   readonly bandWidthAlert?: CdnDomainBandWidthAlert;
   /**
   * cache_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#cache_key CdnDomain#cache_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#cache_key CdnDomain#cache_key}
   */
   readonly cacheKey?: CdnDomainCacheKey;
   /**
   * compression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#compression CdnDomain#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#compression CdnDomain#compression}
   */
   readonly compression?: CdnDomainCompression;
   /**
   * downstream_capping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#downstream_capping CdnDomain#downstream_capping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#downstream_capping CdnDomain#downstream_capping}
   */
   readonly downstreamCapping?: CdnDomainDownstreamCapping;
   /**
   * error_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#error_page CdnDomain#error_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#error_page CdnDomain#error_page}
   */
   readonly errorPage?: CdnDomainErrorPage;
   /**
   * https_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#https_config CdnDomain#https_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#https_config CdnDomain#https_config}
   */
   readonly httpsConfig?: CdnDomainHttpsConfig;
   /**
   * hw_private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#hw_private_access CdnDomain#hw_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#hw_private_access CdnDomain#hw_private_access}
   */
   readonly hwPrivateAccess?: CdnDomainHwPrivateAccess;
   /**
   * ip_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ip_filter CdnDomain#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ip_filter CdnDomain#ip_filter}
   */
   readonly ipFilter?: CdnDomainIpFilter;
   /**
   * ip_freq_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ip_freq_limit CdnDomain#ip_freq_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ip_freq_limit CdnDomain#ip_freq_limit}
   */
   readonly ipFreqLimit?: CdnDomainIpFreqLimit;
   /**
   * max_age block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_age CdnDomain#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_age CdnDomain#max_age}
   */
   readonly maxAge?: CdnDomainMaxAge;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin CdnDomain#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin CdnDomain#origin}
   */
   readonly origin: CdnDomainOrigin;
   /**
   * origin_pull_optimization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin_pull_optimization CdnDomain#origin_pull_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin_pull_optimization CdnDomain#origin_pull_optimization}
   */
   readonly originPullOptimization?: CdnDomainOriginPullOptimization;
   /**
   * origin_pull_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin_pull_timeout CdnDomain#origin_pull_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin_pull_timeout CdnDomain#origin_pull_timeout}
   */
   readonly originPullTimeout?: CdnDomainOriginPullTimeout;
   /**
   * oss_private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#oss_private_access CdnDomain#oss_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#oss_private_access CdnDomain#oss_private_access}
   */
   readonly ossPrivateAccess?: CdnDomainOssPrivateAccess;
   /**
   * others_private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#others_private_access CdnDomain#others_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#others_private_access CdnDomain#others_private_access}
   */
   readonly othersPrivateAccess?: CdnDomainOthersPrivateAccess;
   /**
   * post_max_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#post_max_size CdnDomain#post_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#post_max_size CdnDomain#post_max_size}
   */
   readonly postMaxSize?: CdnDomainPostMaxSize[] | cdktf.IResolvable;
   /**
   * qn_private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#qn_private_access CdnDomain#qn_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#qn_private_access CdnDomain#qn_private_access}
   */
   readonly qnPrivateAccess?: CdnDomainQnPrivateAccess;
   /**
   * referer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#referer CdnDomain#referer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#referer CdnDomain#referer}
   */
   readonly referer?: CdnDomainReferer;
   /**
   * request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#request_header CdnDomain#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#request_header CdnDomain#request_header}
   */
   readonly requestHeader?: CdnDomainRequestHeader;
   /**
   * response_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#response_header CdnDomain#response_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#response_header CdnDomain#response_header}
   */
   readonly responseHeader?: CdnDomainResponseHeader;
   /**
   * rule_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_cache CdnDomain#rule_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_cache CdnDomain#rule_cache}
   */
   readonly ruleCache?: CdnDomainRuleCache[] | cdktf.IResolvable;
   /**
   * status_code_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#status_code_cache CdnDomain#status_code_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#status_code_cache CdnDomain#status_code_cache}
   */
   readonly statusCodeCache?: CdnDomainStatusCodeCache;
 }
@@ -265,37 +265,37 @@ export interface CdnDomainAuthenticationTypeA {
   /**
   * Used for calculate a signature. 6-32 characters. Only digits and letters are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
   */
   readonly backupSecretKey?: string;
   /**
   * Signature expiration time in second. The maximum value is 630720000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
   */
   readonly expireTime: number;
   /**
   * File extension list settings determining if authentication should be performed. NOTE: If it contains an asterisk (*), this indicates all files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
   */
   readonly fileExtensions: string[];
   /**
   * Available values: `whitelist` - all types apart from `file_extensions` are authenticated, `blacklist`: - only the types in the `file_extensions` are authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
   */
   readonly filterType: string;
   /**
   * The key for signature calculation. Only digits, upper and lower-case letters are allowed. Length limit: 6-32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey: string;
   /**
   * Signature parameter name. Only upper and lower-case letters, digits, and underscores (_) are allowed. It cannot start with a digit. Length limit: 1-100 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#sign_param CdnDomain#sign_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#sign_param CdnDomain#sign_param}
   */
   readonly signParam: string;
 }
@@ -511,31 +511,31 @@ export interface CdnDomainAuthenticationTypeB {
   /**
   * Used for calculate a signature. 6-32 characters. Only digits and letters are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
   */
   readonly backupSecretKey?: string;
   /**
   * Signature expiration time in second. The maximum value is 630720000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
   */
   readonly expireTime: number;
   /**
   * File extension list settings determining if authentication should be performed. NOTE: If it contains an asterisk (*), this indicates all files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
   */
   readonly fileExtensions: string[];
   /**
   * Available values: `whitelist` - all types apart from `file_extensions` are authenticated, `blacklist`: - only the types in the `file_extensions` are authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
   */
   readonly filterType: string;
   /**
   * The key for signature calculation. Only digits, upper and lower-case letters are allowed. Length limit: 6-32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey: string;
 }
@@ -725,37 +725,37 @@ export interface CdnDomainAuthenticationTypeC {
   /**
   * Used for calculate a signature. 6-32 characters. Only digits and letters are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
   */
   readonly backupSecretKey?: string;
   /**
   * Signature expiration time in second. The maximum value is 630720000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
   */
   readonly expireTime: number;
   /**
   * File extension list settings determining if authentication should be performed. NOTE: If it contains an asterisk (*), this indicates all files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
   */
   readonly fileExtensions: string[];
   /**
   * Available values: `whitelist` - all types apart from `file_extensions` are authenticated, `blacklist`: - only the types in the `file_extensions` are authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
   */
   readonly filterType: string;
   /**
   * The key for signature calculation. Only digits, upper and lower-case letters are allowed. Length limit: 6-32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey: string;
   /**
   * Timestamp formation, available values: `dec`, `hex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#time_format CdnDomain#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#time_format CdnDomain#time_format}
   */
   readonly timeFormat?: string;
 }
@@ -974,43 +974,43 @@ export interface CdnDomainAuthenticationTypeD {
   /**
   * Used for calculate a signature. 6-32 characters. Only digits and letters are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_secret_key CdnDomain#backup_secret_key}
   */
   readonly backupSecretKey?: string;
   /**
   * Signature expiration time in second. The maximum value is 630720000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#expire_time CdnDomain#expire_time}
   */
   readonly expireTime: number;
   /**
   * File extension list settings determining if authentication should be performed. NOTE: If it contains an asterisk (*), this indicates all files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
   */
   readonly fileExtensions: string[];
   /**
   * Available values: `whitelist` - all types apart from `file_extensions` are authenticated, `blacklist`: - only the types in the `file_extensions` are authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
   */
   readonly filterType: string;
   /**
   * The key for signature calculation. Only digits, upper and lower-case letters are allowed. Length limit: 6-32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey: string;
   /**
   * Timestamp formation, available values: `dec`, `hex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#time_format CdnDomain#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#time_format CdnDomain#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Timestamp parameter name. Only upper and lower-case letters, digits, and underscores (_) are allowed. It cannot start with a digit. Length limit: 1-100 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#time_param CdnDomain#time_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#time_param CdnDomain#time_param}
   */
   readonly timeParam?: string;
 }
@@ -1258,31 +1258,31 @@ export interface CdnDomainAuthentication {
   /**
   * Authentication switching, available values: `on`, `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch?: string;
   /**
   * type_a block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#type_a CdnDomain#type_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#type_a CdnDomain#type_a}
   */
   readonly typeA?: CdnDomainAuthenticationTypeA;
   /**
   * type_b block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#type_b CdnDomain#type_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#type_b CdnDomain#type_b}
   */
   readonly typeB?: CdnDomainAuthenticationTypeB;
   /**
   * type_c block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#type_c CdnDomain#type_c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#type_c CdnDomain#type_c}
   */
   readonly typeC?: CdnDomainAuthenticationTypeC;
   /**
   * type_d block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#type_d CdnDomain#type_d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#type_d CdnDomain#type_d}
   */
   readonly typeD?: CdnDomainAuthenticationTypeD;
 }
@@ -1484,31 +1484,31 @@ export interface CdnDomainAwsPrivateAccess {
   /**
   * Access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#access_key CdnDomain#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#access_key CdnDomain#access_key}
   */
   readonly accessKey?: string;
   /**
   * Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#bucket CdnDomain#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#bucket CdnDomain#bucket}
   */
   readonly bucket?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#region CdnDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#region CdnDomain#region}
   */
   readonly region?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -1707,55 +1707,55 @@ export interface CdnDomainBandWidthAlertStatisticItem {
   /**
   * Alert percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#alert_percentage CdnDomain#alert_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#alert_percentage CdnDomain#alert_percentage}
   */
   readonly alertPercentage?: number;
   /**
   * Switch alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#alert_switch CdnDomain#alert_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#alert_switch CdnDomain#alert_switch}
   */
   readonly alertSwitch?: string;
   /**
   * threshold of bps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#bps_threshold CdnDomain#bps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#bps_threshold CdnDomain#bps_threshold}
   */
   readonly bpsThreshold?: number;
   /**
   * Counter measure, values: `RETURN_404`, `RESOLVE_DNS_TO_ORIGIN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#counter_measure CdnDomain#counter_measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#counter_measure CdnDomain#counter_measure}
   */
   readonly counterMeasure?: string;
   /**
   * Cycle of checking in minutes, values `60`, `1440`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#cycle CdnDomain#cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#cycle CdnDomain#cycle}
   */
   readonly cycle?: number;
   /**
   * Metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#metric CdnDomain#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#metric CdnDomain#metric}
   */
   readonly metric?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * Type of statistic item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#type CdnDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#type CdnDomain#type}
   */
   readonly type?: string;
   /**
   * Time of auto unblock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#unblock_time CdnDomain#unblock_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#unblock_time CdnDomain#unblock_time}
   */
   readonly unblockTime?: number;
 }
@@ -2070,43 +2070,43 @@ export interface CdnDomainBandWidthAlert {
   /**
   * Alert percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#alert_percentage CdnDomain#alert_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#alert_percentage CdnDomain#alert_percentage}
   */
   readonly alertPercentage?: number;
   /**
   * Switch alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#alert_switch CdnDomain#alert_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#alert_switch CdnDomain#alert_switch}
   */
   readonly alertSwitch?: string;
   /**
   * threshold of bps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#bps_threshold CdnDomain#bps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#bps_threshold CdnDomain#bps_threshold}
   */
   readonly bpsThreshold?: number;
   /**
   * Counter measure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#counter_measure CdnDomain#counter_measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#counter_measure CdnDomain#counter_measure}
   */
   readonly counterMeasure?: string;
   /**
   * Metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#metric CdnDomain#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#metric CdnDomain#metric}
   */
   readonly metric?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * statistic_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#statistic_item CdnDomain#statistic_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#statistic_item CdnDomain#statistic_item}
   */
   readonly statisticItem?: CdnDomainBandWidthAlertStatisticItem;
 }
@@ -2373,19 +2373,19 @@ export interface CdnDomainCacheKeyKeyRulesQueryString {
   /**
   * Specify key rule QS action, values: `includeCustom`, `excludeCustom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#action CdnDomain#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#action CdnDomain#action}
   */
   readonly action?: string;
   /**
   * Whether to use QueryString as part of CacheKey, values `on`, `off` (Default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch?: string;
   /**
   * Array of included/excluded query strings (separated by `;`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#value CdnDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#value CdnDomain#value}
   */
   readonly value?: string;
 }
@@ -2529,37 +2529,37 @@ export interface CdnDomainCacheKeyKeyRules {
   /**
   * Whether to enable full-path cache, values `on` (DEFAULT ON), `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#full_url_cache CdnDomain#full_url_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#full_url_cache CdnDomain#full_url_cache}
   */
   readonly fullUrlCache?: string;
   /**
   * Whether caches are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ignore_case CdnDomain#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ignore_case CdnDomain#ignore_case}
   */
   readonly ignoreCase?: string;
   /**
   * List of rule paths for each `key_rules`: `/` for `index`, file ext like `jpg` for `file`, `/dir/like/` for `directory` and `/path/index.html` for `path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths: string[];
   /**
   * Specify rule tag, default value is `user`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_tag CdnDomain#rule_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_tag CdnDomain#rule_tag}
   */
   readonly ruleTag?: string;
   /**
   * Rule type, available: `file`, `directory`, `path`, `index`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType: string;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#query_string CdnDomain#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#query_string CdnDomain#query_string}
   */
   readonly queryString: CdnDomainCacheKeyKeyRulesQueryString;
 }
@@ -2813,25 +2813,25 @@ export interface CdnDomainCacheKeyQueryString {
   /**
   * Include/exclude query parameters. Values: `includeAll` (Default), `excludeAll`, `includeCustom`, `excludeCustom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#action CdnDomain#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#action CdnDomain#action}
   */
   readonly action?: string;
   /**
   * Whether to sort again, values `on`, `off` (Default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#reorder CdnDomain#reorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#reorder CdnDomain#reorder}
   */
   readonly reorder?: string;
   /**
   * Whether to use QueryString as part of CacheKey, values `on`, `off` (Default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch?: string;
   /**
   * Array of included/excluded query strings (separated by `;`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#value CdnDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#value CdnDomain#value}
   */
   readonly value?: string;
 }
@@ -3004,25 +3004,25 @@ export interface CdnDomainCacheKey {
   /**
   * Whether to enable full-path cache, values `on` (DEFAULT ON), `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#full_url_cache CdnDomain#full_url_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#full_url_cache CdnDomain#full_url_cache}
   */
   readonly fullUrlCache?: string;
   /**
   * Specifies whether the cache key is case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ignore_case CdnDomain#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ignore_case CdnDomain#ignore_case}
   */
   readonly ignoreCase?: string;
   /**
   * key_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#key_rules CdnDomain#key_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#key_rules CdnDomain#key_rules}
   */
   readonly keyRules?: CdnDomainCacheKeyKeyRules[] | cdktf.IResolvable;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#query_string CdnDomain#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#query_string CdnDomain#query_string}
   */
   readonly queryString?: CdnDomainCacheKeyQueryString;
 }
@@ -3195,43 +3195,43 @@ export interface CdnDomainCompressionCompressionRules {
   /**
   * List of algorithms, available: `gzip` and `brotli`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#algorithms CdnDomain#algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#algorithms CdnDomain#algorithms}
   */
   readonly algorithms: string[];
   /**
   * Must be set as true, enables compression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#compress CdnDomain#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#compress CdnDomain#compress}
   */
   readonly compress: boolean | cdktf.IResolvable;
   /**
   * List of file extensions like `jpg`, `txt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#file_extensions CdnDomain#file_extensions}
   */
   readonly fileExtensions?: string[];
   /**
   * The maximum file size to trigger compression (in bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_length CdnDomain#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_length CdnDomain#max_length}
   */
   readonly maxLength: number;
   /**
   * The minimum file size to trigger compression (in bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#min_length CdnDomain#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#min_length CdnDomain#min_length}
   */
   readonly minLength: number;
   /**
   * List of rule paths for each `rule_type`: `*` for `all`, file ext like `jpg` for `file`, `/dir/like/` for `directory` and `/path/index.html` for `path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths?: string[];
   /**
   * Rule type, available: `all`, `file`, `directory`, `path`, `contentType`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType?: string;
 }
@@ -3511,13 +3511,13 @@ export interface CdnDomainCompression {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * compression_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#compression_rules CdnDomain#compression_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#compression_rules CdnDomain#compression_rules}
   */
   readonly compressionRules?: CdnDomainCompressionCompressionRules[] | cdktf.IResolvable;
 }
@@ -3629,19 +3629,19 @@ export interface CdnDomainDownstreamCappingCappingRules {
   /**
   * Capping rule kbps threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#kbps_threshold CdnDomain#kbps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#kbps_threshold CdnDomain#kbps_threshold}
   */
   readonly kbpsThreshold: number;
   /**
   * List of capping rule path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths: string[];
   /**
   * Capping rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType: string;
 }
@@ -3808,13 +3808,13 @@ export interface CdnDomainDownstreamCapping {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * capping_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#capping_rules CdnDomain#capping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#capping_rules CdnDomain#capping_rules}
   */
   readonly cappingRules?: CdnDomainDownstreamCappingCappingRules[] | cdktf.IResolvable;
 }
@@ -3926,19 +3926,19 @@ export interface CdnDomainErrorPagePageRules {
   /**
   * Redirect code of error page rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#redirect_code CdnDomain#redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#redirect_code CdnDomain#redirect_code}
   */
   readonly redirectCode: number;
   /**
   * Redirect url of error page rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#redirect_url CdnDomain#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#redirect_url CdnDomain#redirect_url}
   */
   readonly redirectUrl: string;
   /**
   * Status code of error page rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#status_code CdnDomain#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#status_code CdnDomain#status_code}
   */
   readonly statusCode: number;
 }
@@ -4105,13 +4105,13 @@ export interface CdnDomainErrorPage {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * page_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#page_rules CdnDomain#page_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#page_rules CdnDomain#page_rules}
   */
   readonly pageRules?: CdnDomainErrorPagePageRules[] | cdktf.IResolvable;
 }
@@ -4223,7 +4223,7 @@ export interface CdnDomainHttpsConfigClientCertificateConfig {
   /**
   * Client Certificate PEM format, requires Base64 encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#certificate_content CdnDomain#certificate_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#certificate_content CdnDomain#certificate_content}
   */
   readonly certificateContent: string;
 }
@@ -4321,25 +4321,25 @@ export interface CdnDomainHttpsConfigForceRedirect {
   /**
   * Whether to return the newly added header during force redirection. Values: `on`, `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#carry_headers CdnDomain#carry_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#carry_headers CdnDomain#carry_headers}
   */
   readonly carryHeaders?: string;
   /**
   * Forced redirect status code. Valid values are `301` and `302`. When `switch` setting `off`, this property does not need to be set or set to `302`. Default value is `302`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#redirect_status_code CdnDomain#redirect_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#redirect_status_code CdnDomain#redirect_status_code}
   */
   readonly redirectStatusCode?: number;
   /**
   * Forced redirect type. Valid values are `http` and `https`. `http` means a forced redirect from HTTPS to HTTP, `https` means a forced redirect from HTTP to HTTPS. When `switch` setting `off`, this property does not need to be set or set to `http`. Default value is `http`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#redirect_type CdnDomain#redirect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#redirect_type CdnDomain#redirect_type}
   */
   readonly redirectType?: string;
   /**
   * Forced redirect configuration switch. Valid values are `on` and `off`. Default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch?: string;
 }
@@ -4512,25 +4512,25 @@ export interface CdnDomainHttpsConfigServerCertificateConfig {
   /**
   * Server certificate information. This is required when uploading an external certificate, which should contain the complete certificate chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#certificate_content CdnDomain#certificate_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#certificate_content CdnDomain#certificate_content}
   */
   readonly certificateContent?: string;
   /**
   * Server certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#certificate_id CdnDomain#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#certificate_id CdnDomain#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Certificate remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#message CdnDomain#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#message CdnDomain#message}
   */
   readonly message?: string;
   /**
   * Server key information. This is required when uploading an external certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#private_key CdnDomain#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#private_key CdnDomain#private_key}
   */
   readonly privateKey?: string;
 }
@@ -4718,55 +4718,55 @@ export interface CdnDomainHttpsConfig {
   /**
   * HTTP2 configuration switch. Valid values are `on` and `off`. and default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#http2_switch CdnDomain#http2_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#http2_switch CdnDomain#http2_switch}
   */
   readonly http2Switch?: string;
   /**
   * HTTPS configuration switch. Valid values are `on` and `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#https_switch CdnDomain#https_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#https_switch CdnDomain#https_switch}
   */
   readonly httpsSwitch: string;
   /**
   * OCSP configuration switch. Valid values are `on` and `off`. and default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ocsp_stapling_switch CdnDomain#ocsp_stapling_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ocsp_stapling_switch CdnDomain#ocsp_stapling_switch}
   */
   readonly ocspStaplingSwitch?: string;
   /**
   * Spdy configuration switch. Valid values are `on` and `off`. and default value is `off`. This parameter is for white-list customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#spdy_switch CdnDomain#spdy_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#spdy_switch CdnDomain#spdy_switch}
   */
   readonly spdySwitch?: string;
   /**
   * Tls version settings, only support some Advanced domain names, support settings TLSv1, TLSV1.1, TLSV1.2, TLSv1.3, when modifying must open consecutive versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#tls_versions CdnDomain#tls_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#tls_versions CdnDomain#tls_versions}
   */
   readonly tlsVersions?: string[];
   /**
   * Client certificate authentication feature. Valid values are `on` and `off`. and default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#verify_client CdnDomain#verify_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#verify_client CdnDomain#verify_client}
   */
   readonly verifyClient?: string;
   /**
   * client_certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#client_certificate_config CdnDomain#client_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#client_certificate_config CdnDomain#client_certificate_config}
   */
   readonly clientCertificateConfig?: CdnDomainHttpsConfigClientCertificateConfig;
   /**
   * force_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#force_redirect CdnDomain#force_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#force_redirect CdnDomain#force_redirect}
   */
   readonly forceRedirect?: CdnDomainHttpsConfigForceRedirect;
   /**
   * server_certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#server_certificate_config CdnDomain#server_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#server_certificate_config CdnDomain#server_certificate_config}
   */
   readonly serverCertificateConfig?: CdnDomainHttpsConfigServerCertificateConfig;
 }
@@ -5081,25 +5081,25 @@ export interface CdnDomainHwPrivateAccess {
   /**
   * Access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#access_key CdnDomain#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#access_key CdnDomain#access_key}
   */
   readonly accessKey?: string;
   /**
   * Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#bucket CdnDomain#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#bucket CdnDomain#bucket}
   */
   readonly bucket?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -5269,25 +5269,25 @@ export interface CdnDomainIpFilterFilterRules {
   /**
   * Ip filter `blacklist`/`whitelist` type of filter rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
   */
   readonly filterType: string;
   /**
   * Ip filter rule list, supports IPs in X.X.X.X format, or /8, /16, /24 format IP ranges. Up to 50 allowlists or blocklists can be entered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filters CdnDomain#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filters CdnDomain#filters}
   */
   readonly filters: string[];
   /**
   * Content list for each `rule_type`: `*` for `all`, file ext like `jpg` for `file`, `/dir/like/` for `directory` and `/path/index.html` for `path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths: string[];
   /**
   * Ip filter rule type of filter rules, available: `all`, `file`, `directory`, `path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType: string;
 }
@@ -5480,31 +5480,31 @@ export interface CdnDomainIpFilter {
   /**
   * IP `blacklist`/`whitelist` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_type CdnDomain#filter_type}
   */
   readonly filterType?: string;
   /**
   * Ip filter list, Supports IPs in X.X.X.X format, or /8, /16, /24 format IP ranges. Up to 50 allowlists or blocklists can be entered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filters CdnDomain#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filters CdnDomain#filters}
   */
   readonly filters?: string[];
   /**
   * Return code, available values: 400-499.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#return_code CdnDomain#return_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#return_code CdnDomain#return_code}
   */
   readonly returnCode?: number;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * filter_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#filter_rules CdnDomain#filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#filter_rules CdnDomain#filter_rules}
   */
   readonly filterRules?: CdnDomainIpFilterFilterRules[] | cdktf.IResolvable;
 }
@@ -5703,13 +5703,13 @@ export interface CdnDomainIpFreqLimit {
   /**
   * Sets the limited number of requests per second, 514 will be returned for requests that exceed the limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#qps CdnDomain#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#qps CdnDomain#qps}
   */
   readonly qps?: number;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -5821,25 +5821,25 @@ export interface CdnDomainMaxAgeMaxAgeRules {
   /**
   * Whether to follow origin, values: `on`/`off`, if set to `on`, the `max_age_time` will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#follow_origin CdnDomain#follow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#follow_origin CdnDomain#follow_origin}
   */
   readonly followOrigin?: string;
   /**
   * List of rule paths for each `max_age_type`: `*` for `all`, file ext like `jpg` for `file`, `/dir/like/` for `directory` and `/path/index.html` for `path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_age_contents CdnDomain#max_age_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_age_contents CdnDomain#max_age_contents}
   */
   readonly maxAgeContents: string[];
   /**
   * Max Age time in seconds, this can set to `0` that stands for no cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_age_time CdnDomain#max_age_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_age_time CdnDomain#max_age_time}
   */
   readonly maxAgeTime: number;
   /**
   * The following types are supported: `all`: all documents take effect, `file`: the specified file suffix takes effect, `directory`: the specified path takes effect, `path`: specify the absolute path to take effect, `index`: home page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_age_type CdnDomain#max_age_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_age_type CdnDomain#max_age_type}
   */
   readonly maxAgeType: string;
 }
@@ -6035,13 +6035,13 @@ export interface CdnDomainMaxAge {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * max_age_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_age_rules CdnDomain#max_age_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_age_rules CdnDomain#max_age_rules}
   */
   readonly maxAgeRules?: CdnDomainMaxAgeMaxAgeRules[] | cdktf.IResolvable;
 }
@@ -6153,55 +6153,55 @@ export interface CdnDomainOrigin {
   /**
   * Backup origin server list. Valid values can be ip or domain name. When modifying the backup origin server, you need to enter the corresponding `backup_origin_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_origin_list CdnDomain#backup_origin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_origin_list CdnDomain#backup_origin_list}
   */
   readonly backupOriginList?: string[];
   /**
   * Backup origin server type, which supports the following types: `domain`: domain name type, `ip`: IP list used as origin server, `ipv6_domain`: Multiple IPv6 addresses and one domain name, `ip_ipv6`: Multiple IPv4 addresses and one IPv6 address, `ip_ipv6_domain`: Multiple IPv4 and IPv6 addresses and one domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_origin_type CdnDomain#backup_origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_origin_type CdnDomain#backup_origin_type}
   */
   readonly backupOriginType?: string;
   /**
   * Host header used when accessing the backup origin server. If left empty, the ServerName of master origin server will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#backup_server_name CdnDomain#backup_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#backup_server_name CdnDomain#backup_server_name}
   */
   readonly backupServerName?: string;
   /**
   * When OriginType is COS, you can specify if access to private buckets is allowed. Valid values are `on` and `off`. and default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#cos_private_access CdnDomain#cos_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#cos_private_access CdnDomain#cos_private_access}
   */
   readonly cosPrivateAccess?: string;
   /**
   * Object storage back to the source vendor. Required when the source station type is a third-party storage source station (third_party). Optional values include the following: `aws_s3`: AWS S3; `ali_oss`: Alibaba Cloud OSS; `hw_obs`: Huawei OBS; `qiniu_kodo`: Qiniu Cloud kodo; `others`: other vendors' object storage, only supports object storage compatible with AWS signature algorithm, such as Tencent Cloud Financial Zone COS. Example value: `hw_obs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin_company CdnDomain#origin_company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin_company CdnDomain#origin_company}
   */
   readonly originCompany?: string;
   /**
   * Master origin server list. Valid values can be ip or domain name. When modifying the origin server, you need to enter the corresponding `origin_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin_list CdnDomain#origin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin_list CdnDomain#origin_list}
   */
   readonly originList: string[];
   /**
   * Origin-pull protocol configuration. `http`: forced HTTP origin-pull, `follow`: protocol follow origin-pull, `https`: forced HTTPS origin-pull. This only supports origin server port 443 for origin-pull.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin_pull_protocol CdnDomain#origin_pull_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin_pull_protocol CdnDomain#origin_pull_protocol}
   */
   readonly originPullProtocol?: string;
   /**
   * Master origin server type. The following types are supported: `domain`: Domain name, `domainv6`: IPv6 domain name, `cos`: COS bucket address, `third_party`: Third-party object storage origin, `igtm`: IGTM origin, `ip`: IP address, `ipv6`: One IPv6 address, `ip_ipv6`: Multiple IPv4 addresses and one IPv6 address, `ip_domain`: IP addresses and domain names (only available to beta users), `ip_domainv6`: Multiple IPv4 addresses and one IPv6 domain name, `ipv6_domain`: Multiple IPv6 addresses and one domain name, `ipv6_domainv6`: Multiple IPv6 addresses and one IPv6 domain name, `domain_domainv6`: Multiple IPv4 domain names and one IPv6 domain name, `ip_ipv6_domain`: Multiple IPv4 and IPv6 addresses and one domain name, `ip_ipv6_domainv6`: Multiple IPv4 and IPv6 addresses and one IPv6 domain name, `ip_domain_domainv6`: Multiple IPv4 addresses and IPv4 domain names and one IPv6 domain name, `ipv6_domain_domainv6`: Multiple IPv4 domain names and IPv6 addresses and one IPv6 domain name, `ip_ipv6_domain_domainv6`: Multiple IPv4 and IPv6 addresses and IPv4 domain names and one IPv6 domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#origin_type CdnDomain#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#origin_type CdnDomain#origin_type}
   */
   readonly originType: string;
   /**
   * Host header used when accessing the master origin server. If left empty, the acceleration domain name will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#server_name CdnDomain#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#server_name CdnDomain#server_name}
   */
   readonly serverName?: string;
 }
@@ -6513,13 +6513,13 @@ export interface CdnDomainOriginPullOptimization {
   /**
   * Optimization type, values: `OVToCN` - Overseas to CN, `CNToOV` CN to Overseas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#optimization_type CdnDomain#optimization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#optimization_type CdnDomain#optimization_type}
   */
   readonly optimizationType?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -6631,13 +6631,13 @@ export interface CdnDomainOriginPullTimeout {
   /**
   * The origin-pull connection timeout (in seconds). Valid range: 5-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#connect_timeout CdnDomain#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#connect_timeout CdnDomain#connect_timeout}
   */
   readonly connectTimeout: number;
   /**
   * The origin-pull receipt timeout (in seconds). Valid range: 10-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#receive_timeout CdnDomain#receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#receive_timeout CdnDomain#receive_timeout}
   */
   readonly receiveTimeout: number;
 }
@@ -6746,31 +6746,31 @@ export interface CdnDomainOssPrivateAccess {
   /**
   * Access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#access_key CdnDomain#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#access_key CdnDomain#access_key}
   */
   readonly accessKey?: string;
   /**
   * Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#bucket CdnDomain#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#bucket CdnDomain#bucket}
   */
   readonly bucket?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#region CdnDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#region CdnDomain#region}
   */
   readonly region?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -6969,31 +6969,31 @@ export interface CdnDomainOthersPrivateAccess {
   /**
   * Access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#access_key CdnDomain#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#access_key CdnDomain#access_key}
   */
   readonly accessKey?: string;
   /**
   * Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#bucket CdnDomain#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#bucket CdnDomain#bucket}
   */
   readonly bucket?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#region CdnDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#region CdnDomain#region}
   */
   readonly region?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -7192,13 +7192,13 @@ export interface CdnDomainPostMaxSize {
   /**
   * Maximum size in MB, value range is `[1, 200]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#max_size CdnDomain#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#max_size CdnDomain#max_size}
   */
   readonly maxSize?: number;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -7342,19 +7342,19 @@ export interface CdnDomainQnPrivateAccess {
   /**
   * Access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#access_key CdnDomain#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#access_key CdnDomain#access_key}
   */
   readonly accessKey?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#secret_key CdnDomain#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
 }
@@ -7495,31 +7495,31 @@ export interface CdnDomainRefererRefererRules {
   /**
   * Whether to allow emptpy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#allow_empty CdnDomain#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#allow_empty CdnDomain#allow_empty}
   */
   readonly allowEmpty: boolean | cdktf.IResolvable;
   /**
   * Referer type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#referer_type CdnDomain#referer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#referer_type CdnDomain#referer_type}
   */
   readonly refererType: string;
   /**
   * Referer list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#referers CdnDomain#referers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#referers CdnDomain#referers}
   */
   readonly referers: string[];
   /**
   * Referer rule path list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths: string[];
   /**
   * Referer rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType: string;
 }
@@ -7738,13 +7738,13 @@ export interface CdnDomainReferer {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * referer_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#referer_rules CdnDomain#referer_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#referer_rules CdnDomain#referer_rules}
   */
   readonly refererRules?: CdnDomainRefererRefererRules[] | cdktf.IResolvable;
 }
@@ -7856,31 +7856,31 @@ export interface CdnDomainRequestHeaderHeaderRules {
   /**
   * Http header setting method. The following types are supported: `set`: sets a value for an existing header parameter, a new header parameter, or multiple header parameters. Multiple header parameters will be merged into one; `del`: deletes a header parameter; `add`: adds a header parameter. By default, you can repeat the same action to add the same header parameter, which may affect browser response. Please consider the set operation first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_mode CdnDomain#header_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_mode CdnDomain#header_mode}
   */
   readonly headerMode: string;
   /**
   * Http header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_name CdnDomain#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_name CdnDomain#header_name}
   */
   readonly headerName: string;
   /**
   * Http header value, optional when Mode is `del`, Required when Mode is `add`/`set`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_value CdnDomain#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_value CdnDomain#header_value}
   */
   readonly headerValue: string;
   /**
   * Matching content under the corresponding type of CacheType: `all`: fill *, `file`: fill in the suffix name, such as jpg, txt, `directory`: fill in the path, such as /xxx/test, `path`: fill in the absolute path, such as /xxx/test.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths: string[];
   /**
   * Rule type. The following types are supported: `all`: all documents take effect, `file`: the specified file suffix takes effect, `directory`: the specified path takes effect, `path`: specify the absolute path to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType: string;
 }
@@ -8099,13 +8099,13 @@ export interface CdnDomainRequestHeader {
   /**
   * Custom request header configuration switch. Valid values are `on` and `off`. and default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch?: string;
   /**
   * header_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_rules CdnDomain#header_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_rules CdnDomain#header_rules}
   */
   readonly headerRules?: CdnDomainRequestHeaderHeaderRules[] | cdktf.IResolvable;
 }
@@ -8220,31 +8220,31 @@ export interface CdnDomainResponseHeaderHeaderRules {
   /**
   * Response header mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_mode CdnDomain#header_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_mode CdnDomain#header_mode}
   */
   readonly headerMode: string;
   /**
   * response header name of rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_name CdnDomain#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_name CdnDomain#header_name}
   */
   readonly headerName: string;
   /**
   * response header value of rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_value CdnDomain#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_value CdnDomain#header_value}
   */
   readonly headerValue: string;
   /**
   * response rule paths of rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths: string[];
   /**
   * response rule type of rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType: string;
 }
@@ -8463,13 +8463,13 @@ export interface CdnDomainResponseHeader {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * header_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#header_rules CdnDomain#header_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#header_rules CdnDomain#header_rules}
   */
   readonly headerRules?: CdnDomainResponseHeaderHeaderRules[] | cdktf.IResolvable;
 }
@@ -8581,73 +8581,73 @@ export interface CdnDomainRuleCache {
   /**
   * Cache expiration time setting, the unit is second, the maximum can be set to 365 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#cache_time CdnDomain#cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#cache_time CdnDomain#cache_time}
   */
   readonly cacheTime: number;
   /**
   * Advanced cache expiration configuration. When it is turned on, it will compare the max-age value returned by the origin site with the cache expiration time set in CacheRules, and take the minimum value to cache at the node. Valid values are `on` and `off`. Default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#compare_max_age CdnDomain#compare_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#compare_max_age CdnDomain#compare_max_age}
   */
   readonly compareMaxAge?: string;
   /**
   * Follow the source station configuration switch. Valid values are `on` and `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#follow_origin_switch CdnDomain#follow_origin_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#follow_origin_switch CdnDomain#follow_origin_switch}
   */
   readonly followOriginSwitch?: string;
   /**
   * Specify whether to enable heuristic cache, only available while `follow_origin_switch` enabled, values: `on`, `off` (Default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#heuristic_cache_switch CdnDomain#heuristic_cache_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#heuristic_cache_switch CdnDomain#heuristic_cache_switch}
   */
   readonly heuristicCacheSwitch?: string;
   /**
   * Specify heuristic cache time in second, only available while `follow_origin_switch` and `heuristic_cache_switch` enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#heuristic_cache_time CdnDomain#heuristic_cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#heuristic_cache_time CdnDomain#heuristic_cache_time}
   */
   readonly heuristicCacheTime?: number;
   /**
   * Force caching. After opening, the no-store and no-cache resources returned by the origin site will also be cached in accordance with the CacheRules rules. Valid values are `on` and `off`. Default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ignore_cache_control CdnDomain#ignore_cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ignore_cache_control CdnDomain#ignore_cache_control}
   */
   readonly ignoreCacheControl?: string;
   /**
   * Ignore the Set-Cookie header of the origin site. Valid values are `on` and `off`. Default value is `off`. This parameter is for white-list customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#ignore_set_cookie CdnDomain#ignore_set_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#ignore_set_cookie CdnDomain#ignore_set_cookie}
   */
   readonly ignoreSetCookie?: string;
   /**
   * Cache configuration switch. Valid values are `on` and `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#no_cache_switch CdnDomain#no_cache_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#no_cache_switch CdnDomain#no_cache_switch}
   */
   readonly noCacheSwitch?: string;
   /**
   * Always check back to origin. Valid values are `on` and `off`. Default value is `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#re_validate CdnDomain#re_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#re_validate CdnDomain#re_validate}
   */
   readonly reValidate?: string;
   /**
   * Matching content under the corresponding type of CacheType: `all`: fill *, `file`: fill in the suffix name, such as jpg, txt, `directory`: fill in the path, such as /xxx/test, `path`: fill in the absolute path, such as /xxx/test.html, `index`: fill /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_paths CdnDomain#rule_paths}
   */
   readonly rulePaths?: string[];
   /**
   * Rule type. The following types are supported: `all`: all documents take effect, `file`: the specified file suffix takes effect, `directory`: the specified path takes effect, `path`: specify the absolute path to take effect, `index`: home page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#rule_type CdnDomain#rule_type}
   */
   readonly ruleType?: string;
   /**
   * Cache configuration switch. Valid values are `on` and `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch?: string;
 }
@@ -9081,13 +9081,13 @@ export interface CdnDomainStatusCodeCacheCacheRules {
   /**
   * Status code cache expiration time (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#cache_time CdnDomain#cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#cache_time CdnDomain#cache_time}
   */
   readonly cacheTime: number;
   /**
   * Code of status cache. available values: `403`, `404`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#status_code CdnDomain#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#status_code CdnDomain#status_code}
   */
   readonly statusCode: string;
 }
@@ -9228,13 +9228,13 @@ export interface CdnDomainStatusCodeCache {
   /**
   * Configuration switch, available values: `on`, `off` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#switch CdnDomain#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#switch CdnDomain#switch}
   */
   readonly switch: string;
   /**
   * cache_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#cache_rules CdnDomain#cache_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#cache_rules CdnDomain#cache_rules}
   */
   readonly cacheRules?: CdnDomainStatusCodeCacheCacheRules[] | cdktf.IResolvable;
 }
@@ -9344,7 +9344,7 @@ export class CdnDomainStatusCodeCacheOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain tencentcloud_cdn_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain tencentcloud_cdn_domain}
 */
 export class CdnDomain extends cdktf.TerraformResource {
 
@@ -9360,7 +9360,7 @@ export class CdnDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnDomain to import
-  * @param importFromId The id of the existing CdnDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9372,7 +9372,7 @@ export class CdnDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cdn_domain tencentcloud_cdn_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cdn_domain tencentcloud_cdn_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9383,8 +9383,8 @@ export class CdnDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdn_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

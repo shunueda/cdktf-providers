@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CiMediaWatermarkTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#bucket CiMediaWatermarkTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#bucket CiMediaWatermarkTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#id CiMediaWatermarkTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#id CiMediaWatermarkTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CiMediaWatermarkTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#name CiMediaWatermarkTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#name CiMediaWatermarkTemplate#name}
   */
   readonly name: string;
   /**
   * watermark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#watermark CiMediaWatermarkTemplate#watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#watermark CiMediaWatermarkTemplate#watermark}
   */
   readonly watermark: CiMediaWatermarkTemplateWatermark;
 }
@@ -37,37 +37,37 @@ export interface CiMediaWatermarkTemplateWatermarkImage {
   /**
   * Whether the background image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#background CiMediaWatermarkTemplate#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#background CiMediaWatermarkTemplate#background}
   */
   readonly background: string;
   /**
   * High, 1: When the Mode is Original, it does not support setting the width of the watermark image, 2: When the Mode is Proportion, the unit is %, the value range of the background image: [100 300]; the value range of the foreground image: [1 100], relative to Video width, up to 4096px, 3: When Mode is Fixed, the unit is px, value range: [8, 4096], 4: If only Width is set, Height is calculated according to the proportion of the watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#height CiMediaWatermarkTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#height CiMediaWatermarkTemplate#height}
   */
   readonly height?: string;
   /**
   * Size mode, Original: original size, Proportion: proportional, Fixed: fixed size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#mode CiMediaWatermarkTemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#mode CiMediaWatermarkTemplate#mode}
   */
   readonly mode: string;
   /**
   * Transparency, value range: [1 100], unit %.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#transparency CiMediaWatermarkTemplate#transparency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#transparency CiMediaWatermarkTemplate#transparency}
   */
   readonly transparency: string;
   /**
   * Address of watermark map (pass in after Urlencode is required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#url CiMediaWatermarkTemplate#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#url CiMediaWatermarkTemplate#url}
   */
   readonly url: string;
   /**
   * Width, 1: When the Mode is Original, it does not support setting the width of the watermark image, 2: When the Mode is Proportion, the unit is %, the value range of the background image: [100 300]; the value range of the foreground image: [1 100], relative to Video width, up to 4096px, 3: When Mode is Fixed, the unit is px, value range: [8, 4096], 4: If only Width is set, Height is calculated according to the proportion of the watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#width CiMediaWatermarkTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#width CiMediaWatermarkTemplate#width}
   */
   readonly width?: string;
 }
@@ -286,31 +286,31 @@ export interface CiMediaWatermarkTemplateWatermarkText {
   /**
   * Font color, format: 0xRRGGBB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#font_color CiMediaWatermarkTemplate#font_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#font_color CiMediaWatermarkTemplate#font_color}
   */
   readonly fontColor: string;
   /**
   * Font size, value range: [5 100], unit px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#font_size CiMediaWatermarkTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#font_size CiMediaWatermarkTemplate#font_size}
   */
   readonly fontSize: string;
   /**
   * font type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#font_type CiMediaWatermarkTemplate#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#font_type CiMediaWatermarkTemplate#font_type}
   */
   readonly fontType: string;
   /**
   * Watermark content, the length does not exceed 64 characters, only supports Chinese, English, numbers, _, - and *.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#text CiMediaWatermarkTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#text CiMediaWatermarkTemplate#text}
   */
   readonly text: string;
   /**
   * Transparency, value range: [1 100], unit %.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#transparency CiMediaWatermarkTemplate#transparency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#transparency CiMediaWatermarkTemplate#transparency}
   */
   readonly transparency: string;
 }
@@ -497,55 +497,55 @@ export interface CiMediaWatermarkTemplateWatermark {
   /**
   * Horizontal offset, 1: In the picture watermark, if Background is true, when locMode is Relativity, it is %, value range: [-300 0]; when locMode is Absolute, it is px, value range: [-4096 0] ], 2: In the picture watermark, if Background is false, when locMode is Relativity, it is %, value range: [0 100]; when locMode is Absolute, it is px, value range: [0 4096], 3: In text watermark, when locMode is Relativity, it is %, value range: [0 100]; when locMode is Absolute, it is px, value range: [0 4096], 4: When Pos is Top, Bottom and Center, the parameter is invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#dx CiMediaWatermarkTemplate#dx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#dx CiMediaWatermarkTemplate#dx}
   */
   readonly dx: string;
   /**
   * Vertical offset, 1: In the picture watermark, if Background is true, when locMode is Relativity, it is %, value range: [-300 0]; when locMode is Absolute, it is px, value range: [-4096 0] ],2: In the picture watermark, if Background is false, when locMode is Relativity, it is %, value range: [0 100]; when locMode is Absolute, it is px, value range: [0 4096],3: In text watermark, when locMode is Relativity, it is %, value range: [0 100]; when locMode is Absolute, it is px, value range: [0 4096], 4: When Pos is Left, Right and Center, the parameter is invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#dy CiMediaWatermarkTemplate#dy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#dy CiMediaWatermarkTemplate#dy}
   */
   readonly dy: string;
   /**
   * Watermark end time, 1: [0 video duration], 2: unit is second, 3: support float format, execution accuracy is accurate to milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#end_time CiMediaWatermarkTemplate#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#end_time CiMediaWatermarkTemplate#end_time}
   */
   readonly endTime?: string;
   /**
   * Offset method, Relativity: proportional, Absolute: fixed position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#loc_mode CiMediaWatermarkTemplate#loc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#loc_mode CiMediaWatermarkTemplate#loc_mode}
   */
   readonly locMode: string;
   /**
   * Reference position, TopRight, TopLeft, BottomRight, BottomLeft, Left, Right, Top, Bottom, Center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#pos CiMediaWatermarkTemplate#pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#pos CiMediaWatermarkTemplate#pos}
   */
   readonly pos: string;
   /**
   * Watermark start time, 1: [0 video duration], 2: unit is second, 3: support float format, execution accuracy is accurate to milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#start_time CiMediaWatermarkTemplate#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#start_time CiMediaWatermarkTemplate#start_time}
   */
   readonly startTime?: string;
   /**
   * Watermark type, Text: text watermark, Image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#type CiMediaWatermarkTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#type CiMediaWatermarkTemplate#type}
   */
   readonly type: string;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#image CiMediaWatermarkTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#image CiMediaWatermarkTemplate#image}
   */
   readonly image?: CiMediaWatermarkTemplateWatermarkImage;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#text CiMediaWatermarkTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#text CiMediaWatermarkTemplate#text}
   */
   readonly text?: CiMediaWatermarkTemplateWatermarkText;
 }
@@ -846,7 +846,7 @@ export class CiMediaWatermarkTemplateWatermarkOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template tencentcloud_ci_media_watermark_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template tencentcloud_ci_media_watermark_template}
 */
 export class CiMediaWatermarkTemplate extends cdktf.TerraformResource {
 
@@ -862,7 +862,7 @@ export class CiMediaWatermarkTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaWatermarkTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaWatermarkTemplate to import
-  * @param importFromId The id of the existing CiMediaWatermarkTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaWatermarkTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaWatermarkTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -874,7 +874,7 @@ export class CiMediaWatermarkTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_watermark_template tencentcloud_ci_media_watermark_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_watermark_template tencentcloud_ci_media_watermark_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -885,8 +885,8 @@ export class CiMediaWatermarkTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_watermark_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

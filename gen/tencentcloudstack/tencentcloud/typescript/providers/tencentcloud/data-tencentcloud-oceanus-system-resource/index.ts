@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudOceanusSystemResourceConfig extends cdktf.Terra
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#cluster_id DataTencentcloudOceanusSystemResource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#cluster_id DataTencentcloudOceanusSystemResource#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Query built-in connectors for the corresponding Flink version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#flink_version DataTencentcloudOceanusSystemResource#flink_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#flink_version DataTencentcloudOceanusSystemResource#flink_version}
   */
   readonly flinkVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#id DataTencentcloudOceanusSystemResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#id DataTencentcloudOceanusSystemResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudOceanusSystemResourceConfig extends cdktf.Terra
   /**
   * Array of resource IDs to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#resource_ids DataTencentcloudOceanusSystemResource#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#resource_ids DataTencentcloudOceanusSystemResource#resource_ids}
   */
   readonly resourceIds?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#result_output_file DataTencentcloudOceanusSystemResource#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#result_output_file DataTencentcloudOceanusSystemResource#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#filters DataTencentcloudOceanusSystemResource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#filters DataTencentcloudOceanusSystemResource#filters}
   */
   readonly filters?: DataTencentcloudOceanusSystemResourceFilters[] | cdktf.IResolvable;
 }
@@ -149,13 +149,13 @@ export interface DataTencentcloudOceanusSystemResourceFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#name DataTencentcloudOceanusSystemResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#name DataTencentcloudOceanusSystemResource#name}
   */
   readonly name: string;
   /**
   * Filter values for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#values DataTencentcloudOceanusSystemResource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#values DataTencentcloudOceanusSystemResource#values}
   */
   readonly values: string[];
 }
@@ -294,7 +294,7 @@ export class DataTencentcloudOceanusSystemResourceFiltersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource tencentcloud_oceanus_system_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource tencentcloud_oceanus_system_resource}
 */
 export class DataTencentcloudOceanusSystemResource extends cdktf.TerraformDataSource {
 
@@ -310,7 +310,7 @@ export class DataTencentcloudOceanusSystemResource extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudOceanusSystemResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOceanusSystemResource to import
-  * @param importFromId The id of the existing DataTencentcloudOceanusSystemResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOceanusSystemResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOceanusSystemResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class DataTencentcloudOceanusSystemResource extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/oceanus_system_resource tencentcloud_oceanus_system_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_system_resource tencentcloud_oceanus_system_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class DataTencentcloudOceanusSystemResource extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_oceanus_system_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

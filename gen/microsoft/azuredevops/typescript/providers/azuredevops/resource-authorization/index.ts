@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface ResourceAuthorizationConfig extends cdktf.TerraformMetaArgument
   /**
   * indicates whether the resource is authorized for use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#authorized ResourceAuthorization#authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#authorized ResourceAuthorization#authorized}
   */
   readonly authorized: boolean | cdktf.IResolvable;
   /**
   * id of the build definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#definition_id ResourceAuthorization#definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#definition_id ResourceAuthorization#definition_id}
   */
   readonly definitionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#id ResourceAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#id ResourceAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#project_id ResourceAuthorization#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#project_id ResourceAuthorization#project_id}
   */
   readonly projectId: string;
   /**
   * id of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#resource_id ResourceAuthorization#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#resource_id ResourceAuthorization#resource_id}
   */
   readonly resourceId: string;
   /**
   * type of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#type ResourceAuthorization#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#type ResourceAuthorization#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization azuredevops_resource_authorization}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization azuredevops_resource_authorization}
 */
 export class ResourceAuthorization extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ResourceAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAuthorization to import
-  * @param importFromId The id of the existing ResourceAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ResourceAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/resource_authorization azuredevops_resource_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/resource_authorization azuredevops_resource_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ResourceAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_resource_authorization',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

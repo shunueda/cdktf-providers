@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyGatewayRouteMapConfig extends cdktf.TerraformMetaArgument
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#description PolicyGatewayRouteMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#description PolicyGatewayRouteMap#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#display_name PolicyGatewayRouteMap#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#display_name PolicyGatewayRouteMap#display_name}
   */
   readonly displayName: string;
   /**
   * Policy path for Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#gateway_path PolicyGatewayRouteMap#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#gateway_path PolicyGatewayRouteMap#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#id PolicyGatewayRouteMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#id PolicyGatewayRouteMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface PolicyGatewayRouteMapConfig extends cdktf.TerraformMetaArgument
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#nsx_id PolicyGatewayRouteMap#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#nsx_id PolicyGatewayRouteMap#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#entry PolicyGatewayRouteMap#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#entry PolicyGatewayRouteMap#entry}
   */
   readonly entry: PolicyGatewayRouteMapEntry[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#tag PolicyGatewayRouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#tag PolicyGatewayRouteMap#tag}
   */
   readonly tag?: PolicyGatewayRouteMapTag[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface PolicyGatewayRouteMapEntryCommunityListMatch {
   /**
   * Community list path or a regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#criteria PolicyGatewayRouteMap#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#criteria PolicyGatewayRouteMap#criteria}
   */
   readonly criteria: string;
   /**
   * Match operator for community list entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#match_operator PolicyGatewayRouteMap#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#match_operator PolicyGatewayRouteMap#match_operator}
   */
   readonly matchOperator: string;
 }
@@ -202,37 +202,37 @@ export interface PolicyGatewayRouteMapEntrySet {
   /**
   * Autonomous System (AS) path prepend to influence route selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#as_path_prepend PolicyGatewayRouteMap#as_path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#as_path_prepend PolicyGatewayRouteMap#as_path_prepend}
   */
   readonly asPathPrepend?: string;
   /**
   * Set BGP regular or large community for matching routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#community PolicyGatewayRouteMap#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#community PolicyGatewayRouteMap#community}
   */
   readonly community?: string;
   /**
   * Local preference indicates the degree of preference for one BGP route over other BGP routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#local_preference PolicyGatewayRouteMap#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#local_preference PolicyGatewayRouteMap#local_preference}
   */
   readonly localPreference?: number;
   /**
   * A lower Multi exit descriminator (MED) is preferred over a higher value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#med PolicyGatewayRouteMap#med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#med PolicyGatewayRouteMap#med}
   */
   readonly med?: number;
   /**
   * Indicator whether to prefer global address over link-local as the next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#prefer_global_v6_next_hop PolicyGatewayRouteMap#prefer_global_v6_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#prefer_global_v6_next_hop PolicyGatewayRouteMap#prefer_global_v6_next_hop}
   */
   readonly preferGlobalV6NextHop?: boolean | cdktf.IResolvable;
   /**
   * Weight is used to select a route when multiple routes are available to the same network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#weight PolicyGatewayRouteMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#weight PolicyGatewayRouteMap#weight}
   */
   readonly weight?: number;
 }
@@ -463,25 +463,25 @@ export interface PolicyGatewayRouteMapEntry {
   /**
   * Action for the route map entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#action PolicyGatewayRouteMap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#action PolicyGatewayRouteMap#action}
   */
   readonly action?: string;
   /**
   * List of paths for prefix lists for route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#prefix_list_matches PolicyGatewayRouteMap#prefix_list_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#prefix_list_matches PolicyGatewayRouteMap#prefix_list_matches}
   */
   readonly prefixListMatches?: string[];
   /**
   * community_list_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#community_list_match PolicyGatewayRouteMap#community_list_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#community_list_match PolicyGatewayRouteMap#community_list_match}
   */
   readonly communityListMatch?: PolicyGatewayRouteMapEntryCommunityListMatch[] | cdktf.IResolvable;
   /**
   * set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#set PolicyGatewayRouteMap#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#set PolicyGatewayRouteMap#set}
   */
   readonly set?: PolicyGatewayRouteMapEntrySet;
 }
@@ -684,11 +684,11 @@ export class PolicyGatewayRouteMapEntryList extends cdktf.ComplexList {
 }
 export interface PolicyGatewayRouteMapTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#scope PolicyGatewayRouteMap#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#scope PolicyGatewayRouteMap#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#tag PolicyGatewayRouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#tag PolicyGatewayRouteMap#tag}
   */
   readonly tag?: string;
 }
@@ -833,7 +833,7 @@ export class PolicyGatewayRouteMapTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map nsxt_policy_gateway_route_map}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map nsxt_policy_gateway_route_map}
 */
 export class PolicyGatewayRouteMap extends cdktf.TerraformResource {
 
@@ -849,7 +849,7 @@ export class PolicyGatewayRouteMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGatewayRouteMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayRouteMap to import
-  * @param importFromId The id of the existing PolicyGatewayRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayRouteMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -861,7 +861,7 @@ export class PolicyGatewayRouteMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_route_map nsxt_policy_gateway_route_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_route_map nsxt_policy_gateway_route_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -872,8 +872,8 @@ export class PolicyGatewayRouteMap extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_gateway_route_map',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

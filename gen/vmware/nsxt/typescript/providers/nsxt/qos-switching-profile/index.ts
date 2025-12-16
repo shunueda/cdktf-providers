@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface QosSwitchingProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * Class of service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#class_of_service QosSwitchingProfile#class_of_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#class_of_service QosSwitchingProfile#class_of_service}
   */
   readonly classOfService?: number;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#description QosSwitchingProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#description QosSwitchingProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#display_name QosSwitchingProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#display_name QosSwitchingProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * DSCP Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#dscp_priority QosSwitchingProfile#dscp_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#dscp_priority QosSwitchingProfile#dscp_priority}
   */
   readonly dscpPriority?: number;
   /**
   * Trust mode for DSCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#dscp_trusted QosSwitchingProfile#dscp_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#dscp_trusted QosSwitchingProfile#dscp_trusted}
   */
   readonly dscpTrusted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#id QosSwitchingProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#id QosSwitchingProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface QosSwitchingProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * egress_rate_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#egress_rate_shaper QosSwitchingProfile#egress_rate_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#egress_rate_shaper QosSwitchingProfile#egress_rate_shaper}
   */
   readonly egressRateShaper?: QosSwitchingProfileEgressRateShaper;
   /**
   * ingress_broadcast_rate_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#ingress_broadcast_rate_shaper QosSwitchingProfile#ingress_broadcast_rate_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#ingress_broadcast_rate_shaper QosSwitchingProfile#ingress_broadcast_rate_shaper}
   */
   readonly ingressBroadcastRateShaper?: QosSwitchingProfileIngressBroadcastRateShaper;
   /**
   * ingress_rate_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#ingress_rate_shaper QosSwitchingProfile#ingress_rate_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#ingress_rate_shaper QosSwitchingProfile#ingress_rate_shaper}
   */
   readonly ingressRateShaper?: QosSwitchingProfileIngressRateShaper;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#tag QosSwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#tag QosSwitchingProfile#tag}
   */
   readonly tag?: QosSwitchingProfileTag[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface QosSwitchingProfileEgressRateShaper {
   /**
   * Average Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#average_bw_mbps QosSwitchingProfile#average_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#average_bw_mbps QosSwitchingProfile#average_bw_mbps}
   */
   readonly averageBwMbps?: number;
   /**
   * Burst size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#burst_size QosSwitchingProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#burst_size QosSwitchingProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Whether this rate shaper is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#enabled QosSwitchingProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#enabled QosSwitchingProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Peak Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#peak_bw_mbps QosSwitchingProfile#peak_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#peak_bw_mbps QosSwitchingProfile#peak_bw_mbps}
   */
   readonly peakBwMbps?: number;
 }
@@ -264,25 +264,25 @@ export interface QosSwitchingProfileIngressBroadcastRateShaper {
   /**
   * Average Bandwidth in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#average_bw_kbps QosSwitchingProfile#average_bw_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#average_bw_kbps QosSwitchingProfile#average_bw_kbps}
   */
   readonly averageBwKbps?: number;
   /**
   * Burst size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#burst_size QosSwitchingProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#burst_size QosSwitchingProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Whether this rate shaper is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#enabled QosSwitchingProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#enabled QosSwitchingProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Peak Bandwidth in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#peak_bw_kbps QosSwitchingProfile#peak_bw_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#peak_bw_kbps QosSwitchingProfile#peak_bw_kbps}
   */
   readonly peakBwKbps?: number;
 }
@@ -455,25 +455,25 @@ export interface QosSwitchingProfileIngressRateShaper {
   /**
   * Average Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#average_bw_mbps QosSwitchingProfile#average_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#average_bw_mbps QosSwitchingProfile#average_bw_mbps}
   */
   readonly averageBwMbps?: number;
   /**
   * Burst size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#burst_size QosSwitchingProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#burst_size QosSwitchingProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Whether this rate shaper is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#enabled QosSwitchingProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#enabled QosSwitchingProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Peak Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#peak_bw_mbps QosSwitchingProfile#peak_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#peak_bw_mbps QosSwitchingProfile#peak_bw_mbps}
   */
   readonly peakBwMbps?: number;
 }
@@ -644,11 +644,11 @@ export class QosSwitchingProfileIngressRateShaperOutputReference extends cdktf.C
 }
 export interface QosSwitchingProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#scope QosSwitchingProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#scope QosSwitchingProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#tag QosSwitchingProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#tag QosSwitchingProfile#tag}
   */
   readonly tag?: string;
 }
@@ -793,7 +793,7 @@ export class QosSwitchingProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile nsxt_qos_switching_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile nsxt_qos_switching_profile}
 */
 export class QosSwitchingProfile extends cdktf.TerraformResource {
 
@@ -809,7 +809,7 @@ export class QosSwitchingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QosSwitchingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QosSwitchingProfile to import
-  * @param importFromId The id of the existing QosSwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QosSwitchingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QosSwitchingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -821,7 +821,7 @@ export class QosSwitchingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/qos_switching_profile nsxt_qos_switching_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/qos_switching_profile nsxt_qos_switching_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -832,8 +832,8 @@ export class QosSwitchingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_qos_switching_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

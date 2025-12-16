@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface CostReportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Chart type to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#chart_type CostReport#chart_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#chart_type CostReport#chart_type}
   */
   readonly chartType?: string;
   /**
   * Date bin to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#date_bin CostReport#date_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#date_bin CostReport#date_bin}
   */
   readonly dateBin?: string;
   /**
   * Date interval to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#date_interval CostReport#date_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#date_interval CostReport#date_interval}
   */
   readonly dateInterval?: string;
   /**
   * End date to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#end_date CostReport#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#end_date CostReport#end_date}
   */
   readonly endDate?: string;
   /**
   * Filter query to apply to the Cost Report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#filter CostReport#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#filter CostReport#filter}
   */
   readonly filter?: string;
   /**
   * Token of the folder this Cost Report resides in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#folder_token CostReport#folder_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#folder_token CostReport#folder_token}
   */
   readonly folderToken?: string;
   /**
   * Grouping aggregations applied to the filtered data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#groupings CostReport#groupings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#groupings CostReport#groupings}
   */
   readonly groupings?: string;
   /**
   * End date to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#previous_period_end_date CostReport#previous_period_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#previous_period_end_date CostReport#previous_period_end_date}
   */
   readonly previousPeriodEndDate?: string;
   /**
   * Start date to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#previous_period_start_date CostReport#previous_period_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#previous_period_start_date CostReport#previous_period_start_date}
   */
   readonly previousPeriodStartDate?: string;
   /**
   * Saved filter tokens to be applied to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#saved_filter_tokens CostReport#saved_filter_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#saved_filter_tokens CostReport#saved_filter_tokens}
   */
   readonly savedFilterTokens?: string[];
   /**
   * Start date to apply to the Cost Report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#start_date CostReport#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#start_date CostReport#start_date}
   */
   readonly startDate?: string;
   /**
   * Title of the Cost Report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#title CostReport#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#title CostReport#title}
   */
   readonly title: string;
   /**
   * Workspace token to add the Cost Report to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#workspace_token CostReport#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#workspace_token CostReport#workspace_token}
   */
   readonly workspaceToken?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report vantage_cost_report}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report vantage_cost_report}
 */
 export class CostReport extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class CostReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CostReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CostReport to import
-  * @param importFromId The id of the existing CostReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CostReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CostReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class CostReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/cost_report vantage_cost_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_report vantage_cost_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class CostReport extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_cost_report',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

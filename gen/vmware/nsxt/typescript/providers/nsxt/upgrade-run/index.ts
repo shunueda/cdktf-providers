@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UpgradeRunConfig extends cdktf.TerraformMetaArguments {
   /**
   * Initial delay to start upgrade status checks in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#delay UpgradeRun#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#delay UpgradeRun#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#id UpgradeRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#id UpgradeRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,59 +23,59 @@ export interface UpgradeRunConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval to check upgrade status in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#interval UpgradeRun#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#interval UpgradeRun#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#max_retries UpgradeRun#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#max_retries UpgradeRun#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Upgrade status check timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#timeout UpgradeRun#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#timeout UpgradeRun#timeout}
   */
   readonly timeout?: number;
   /**
   * ID of corresponding nsxt_upgrade_prepare_ready resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#upgrade_prepare_ready_id UpgradeRun#upgrade_prepare_ready_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#upgrade_prepare_ready_id UpgradeRun#upgrade_prepare_ready_id}
   */
   readonly upgradePrepareReadyId: string;
   /**
   * edge_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#edge_group UpgradeRun#edge_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#edge_group UpgradeRun#edge_group}
   */
   readonly edgeGroup?: UpgradeRunEdgeGroup[] | cdktf.IResolvable;
   /**
   * edge_upgrade_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#edge_upgrade_setting UpgradeRun#edge_upgrade_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#edge_upgrade_setting UpgradeRun#edge_upgrade_setting}
   */
   readonly edgeUpgradeSetting?: UpgradeRunEdgeUpgradeSetting;
   /**
   * finalize_upgrade_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#finalize_upgrade_setting UpgradeRun#finalize_upgrade_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#finalize_upgrade_setting UpgradeRun#finalize_upgrade_setting}
   */
   readonly finalizeUpgradeSetting?: UpgradeRunFinalizeUpgradeSetting;
   /**
   * host_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#host_group UpgradeRun#host_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#host_group UpgradeRun#host_group}
   */
   readonly hostGroup?: UpgradeRunHostGroup[] | cdktf.IResolvable;
   /**
   * host_upgrade_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#host_upgrade_setting UpgradeRun#host_upgrade_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#host_upgrade_setting UpgradeRun#host_upgrade_setting}
   */
   readonly hostUpgradeSetting?: UpgradeRunHostUpgradeSetting;
   /**
   * upgrade_group_plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#upgrade_group_plan UpgradeRun#upgrade_group_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#upgrade_group_plan UpgradeRun#upgrade_group_plan}
   */
   readonly upgradeGroupPlan?: UpgradeRunUpgradeGroupPlan[] | cdktf.IResolvable;
 }
@@ -264,13 +264,13 @@ export interface UpgradeRunEdgeGroup {
   /**
   * Flag to indicate whether upgrade of this group is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#enabled UpgradeRun#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#enabled UpgradeRun#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ID of upgrade unit group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#id UpgradeRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#id UpgradeRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -279,13 +279,13 @@ export interface UpgradeRunEdgeGroup {
   /**
   * Upgrade method to specify whether the upgrade is to be performed in parallel or serially
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
   */
   readonly parallel?: boolean | cdktf.IResolvable;
   /**
   * Flag to indicate whether upgrade should be paused after upgrade of each upgrade-unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#pause_after_each_upgrade_unit UpgradeRun#pause_after_each_upgrade_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#pause_after_each_upgrade_unit UpgradeRun#pause_after_each_upgrade_unit}
   */
   readonly pauseAfterEachUpgradeUnit?: boolean | cdktf.IResolvable;
 }
@@ -487,13 +487,13 @@ export interface UpgradeRunEdgeUpgradeSetting {
   /**
   * Whether run upgrade parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
   */
   readonly parallel?: boolean | cdktf.IResolvable;
   /**
   * Whether run post upgrade check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#post_upgrade_check UpgradeRun#post_upgrade_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#post_upgrade_check UpgradeRun#post_upgrade_check}
   */
   readonly postUpgradeCheck?: boolean | cdktf.IResolvable;
 }
@@ -608,7 +608,7 @@ export interface UpgradeRunFinalizeUpgradeSetting {
   /**
   * Finalize upgrade when complete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#enabled UpgradeRun#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#enabled UpgradeRun#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -694,25 +694,25 @@ export interface UpgradeRunHostGroup {
   /**
   * Name of upgrade unit group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#display_name UpgradeRun#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#display_name UpgradeRun#display_name}
   */
   readonly displayName?: string;
   /**
   * Flag to indicate whether upgrade of this group is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#enabled UpgradeRun#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#enabled UpgradeRun#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Hosts to be included in the upgrade group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#hosts UpgradeRun#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#hosts UpgradeRun#hosts}
   */
   readonly hosts?: string[];
   /**
   * ID of upgrade unit group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#id UpgradeRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#id UpgradeRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -721,37 +721,37 @@ export interface UpgradeRunHostGroup {
   /**
   * Maintenance mode config evacuate powered off vms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#maintenance_mode_config_evacuate_powered_off_vms UpgradeRun#maintenance_mode_config_evacuate_powered_off_vms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#maintenance_mode_config_evacuate_powered_off_vms UpgradeRun#maintenance_mode_config_evacuate_powered_off_vms}
   */
   readonly maintenanceModeConfigEvacuatePoweredOffVms?: boolean | cdktf.IResolvable;
   /**
   * Maintenance mode config vsan mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#maintenance_mode_config_vsan_mode UpgradeRun#maintenance_mode_config_vsan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#maintenance_mode_config_vsan_mode UpgradeRun#maintenance_mode_config_vsan_mode}
   */
   readonly maintenanceModeConfigVsanMode?: string;
   /**
   * Upgrade method to specify whether the upgrade is to be performed in parallel or serially
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
   */
   readonly parallel?: boolean | cdktf.IResolvable;
   /**
   * Flag to indicate whether upgrade should be paused after upgrade of each upgrade-unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#pause_after_each_upgrade_unit UpgradeRun#pause_after_each_upgrade_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#pause_after_each_upgrade_unit UpgradeRun#pause_after_each_upgrade_unit}
   */
   readonly pauseAfterEachUpgradeUnit?: boolean | cdktf.IResolvable;
   /**
   * Rebootless upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#rebootless_upgrade UpgradeRun#rebootless_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#rebootless_upgrade UpgradeRun#rebootless_upgrade}
   */
   readonly rebootlessUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Upgrade mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#upgrade_mode UpgradeRun#upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#upgrade_mode UpgradeRun#upgrade_mode}
   */
   readonly upgradeMode?: string;
 }
@@ -1130,19 +1130,19 @@ export interface UpgradeRunHostUpgradeSetting {
   /**
   * Whether run upgrade parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#parallel UpgradeRun#parallel}
   */
   readonly parallel?: boolean | cdktf.IResolvable;
   /**
   * Whether run post upgrade check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#post_upgrade_check UpgradeRun#post_upgrade_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#post_upgrade_check UpgradeRun#post_upgrade_check}
   */
   readonly postUpgradeCheck?: boolean | cdktf.IResolvable;
   /**
   * Whether stop the upgrade when an error occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#stop_on_error UpgradeRun#stop_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#stop_on_error UpgradeRun#stop_on_error}
   */
   readonly stopOnError?: boolean | cdktf.IResolvable;
 }
@@ -1284,7 +1284,7 @@ export class UpgradeRunHostUpgradeSettingOutputReference extends cdktf.ComplexOb
 }
 export interface UpgradeRunUpgradeGroupPlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#extended_config UpgradeRun#extended_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#extended_config UpgradeRun#extended_config}
   */
   readonly extendedConfig?: { [key: string]: string };
 }
@@ -1425,7 +1425,7 @@ export class UpgradeRunUpgradeGroupPlanList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run nsxt_upgrade_run}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run nsxt_upgrade_run}
 */
 export class UpgradeRun extends cdktf.TerraformResource {
 
@@ -1441,7 +1441,7 @@ export class UpgradeRun extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpgradeRun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpgradeRun to import
-  * @param importFromId The id of the existing UpgradeRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpgradeRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpgradeRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1453,7 +1453,7 @@ export class UpgradeRun extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_run nsxt_upgrade_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_run nsxt_upgrade_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1464,8 +1464,8 @@ export class UpgradeRun extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_upgrade_run',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

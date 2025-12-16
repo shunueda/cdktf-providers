@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface EbEventTargetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of events for batch delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#batch_event_count EbEventTarget#batch_event_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#batch_event_count EbEventTarget#batch_event_count}
   */
   readonly batchEventCount?: number;
   /**
   * Maximum waiting time for batch delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#batch_timeout EbEventTarget#batch_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#batch_timeout EbEventTarget#batch_timeout}
   */
   readonly batchTimeout?: number;
   /**
   * Enable batch delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#enable_batch_delivery EbEventTarget#enable_batch_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#enable_batch_delivery EbEventTarget#enable_batch_delivery}
   */
   readonly enableBatchDelivery?: boolean | cdktf.IResolvable;
   /**
   * event bus id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#event_bus_id EbEventTarget#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#event_bus_id EbEventTarget#event_bus_id}
   */
   readonly eventBusId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#id EbEventTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#id EbEventTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface EbEventTargetConfig extends cdktf.TerraformMetaArguments {
   /**
   * event rule id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#rule_id EbEventTarget#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#rule_id EbEventTarget#rule_id}
   */
   readonly ruleId: string;
   /**
   * target type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#type EbEventTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#type EbEventTarget#type}
   */
   readonly type: string;
   /**
   * target_description block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#target_description EbEventTarget#target_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#target_description EbEventTarget#target_description}
   */
   readonly targetDescription: EbEventTargetTargetDescription;
 }
@@ -61,13 +61,13 @@ export interface EbEventTargetTargetDescriptionCkafkaTargetParamsRetryPolicy {
   /**
   * Maximum number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#max_retry_attempts EbEventTarget#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#max_retry_attempts EbEventTarget#max_retry_attempts}
   */
   readonly maxRetryAttempts: number;
   /**
   * Retry Interval Unit: Seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#retry_interval EbEventTarget#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#retry_interval EbEventTarget#retry_interval}
   */
   readonly retryInterval: number;
 }
@@ -176,13 +176,13 @@ export interface EbEventTargetTargetDescriptionCkafkaTargetParams {
   /**
   * The ckafka topic to deliver to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#topic_name EbEventTarget#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#topic_name EbEventTarget#topic_name}
   */
   readonly topicName: string;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#retry_policy EbEventTarget#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#retry_policy EbEventTarget#retry_policy}
   */
   readonly retryPolicy: EbEventTargetTargetDescriptionCkafkaTargetParamsRetryPolicy;
 }
@@ -291,37 +291,37 @@ export interface EbEventTargetTargetDescriptionEsTargetParams {
   /**
   * index prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#index_prefix EbEventTarget#index_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#index_prefix EbEventTarget#index_prefix}
   */
   readonly indexPrefix: string;
   /**
   * DTS index configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#index_suffix_mode EbEventTarget#index_suffix_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#index_suffix_mode EbEventTarget#index_suffix_mode}
   */
   readonly indexSuffixMode: string;
   /**
   * es template type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#index_template_type EbEventTarget#index_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#index_template_type EbEventTarget#index_template_type}
   */
   readonly indexTemplateType?: string;
   /**
   * network connection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#net_mode EbEventTarget#net_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#net_mode EbEventTarget#net_mode}
   */
   readonly netMode: string;
   /**
   * DTS event configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#output_mode EbEventTarget#output_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#output_mode EbEventTarget#output_mode}
   */
   readonly outputMode: string;
   /**
   * es log rotation granularity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#rotation_interval EbEventTarget#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#rotation_interval EbEventTarget#rotation_interval}
   */
   readonly rotationInterval: string;
 }
@@ -537,19 +537,19 @@ export interface EbEventTargetTargetDescriptionScfParams {
   /**
   * Maximum number of events for batch delivery. This parameter is no longer effective, please use the batch_event_count parameter at the outer level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#batch_event_count EbEventTarget#batch_event_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#batch_event_count EbEventTarget#batch_event_count}
   */
   readonly batchEventCount?: number;
   /**
   * Maximum waiting time for batch delivery. This parameter is no longer effective, please use the batch_timeout parameter at the outer level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#batch_timeout EbEventTarget#batch_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#batch_timeout EbEventTarget#batch_timeout}
   */
   readonly batchTimeout?: number;
   /**
   * Enable batch delivery. This parameter is no longer effective, please use the enable_batch_delivery parameter at the outer level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#enable_batch_delivery EbEventTarget#enable_batch_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#enable_batch_delivery EbEventTarget#enable_batch_delivery}
   */
   readonly enableBatchDelivery?: boolean | cdktf.IResolvable;
 }
@@ -693,25 +693,25 @@ export interface EbEventTargetTargetDescription {
   /**
   * QCS resource six-stage format, more references [resource six-stage format](https://cloud.tencent.com/document/product/598/10606).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#resource_description EbEventTarget#resource_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#resource_description EbEventTarget#resource_description}
   */
   readonly resourceDescription: string;
   /**
   * ckafka_target_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#ckafka_target_params EbEventTarget#ckafka_target_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#ckafka_target_params EbEventTarget#ckafka_target_params}
   */
   readonly ckafkaTargetParams?: EbEventTargetTargetDescriptionCkafkaTargetParams;
   /**
   * es_target_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#es_target_params EbEventTarget#es_target_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#es_target_params EbEventTarget#es_target_params}
   */
   readonly esTargetParams?: EbEventTargetTargetDescriptionEsTargetParams;
   /**
   * scf_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#scf_params EbEventTarget#scf_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#scf_params EbEventTarget#scf_params}
   */
   readonly scfParams?: EbEventTargetTargetDescriptionScfParams;
 }
@@ -879,7 +879,7 @@ export class EbEventTargetTargetDescriptionOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target tencentcloud_eb_event_target}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target tencentcloud_eb_event_target}
 */
 export class EbEventTarget extends cdktf.TerraformResource {
 
@@ -895,7 +895,7 @@ export class EbEventTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbEventTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbEventTarget to import
-  * @param importFromId The id of the existing EbEventTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbEventTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbEventTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -907,7 +907,7 @@ export class EbEventTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eb_event_target tencentcloud_eb_event_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/eb_event_target tencentcloud_eb_event_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -918,8 +918,8 @@ export class EbEventTarget extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eb_event_target',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

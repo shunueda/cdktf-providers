@@ -1,3 +1,3 @@
 # `tencentcloud_clickhouse_backup_strategy`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_clickhouse_backup_strategy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clickhouse_backup_strategy).
+Refer to the Terraform Registry for docs: [`tencentcloud_clickhouse_backup_strategy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clickhouse_backup_strategy).

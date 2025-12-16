@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,64 +10,64 @@ export interface VpcServiceProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#description VpcServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#description VpcServiceProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#display_name VpcServiceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#display_name VpcServiceProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#id VpcServiceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#id VpcServiceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#ip_discovery_profile VpcServiceProfile#ip_discovery_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#ip_discovery_profile VpcServiceProfile#ip_discovery_profile}
   */
   readonly ipDiscoveryProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#mac_discovery_profile VpcServiceProfile#mac_discovery_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#mac_discovery_profile VpcServiceProfile#mac_discovery_profile}
   */
   readonly macDiscoveryProfile?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#nsx_id VpcServiceProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#nsx_id VpcServiceProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#qos_profile VpcServiceProfile#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#qos_profile VpcServiceProfile#qos_profile}
   */
   readonly qosProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#security_profile VpcServiceProfile#security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#security_profile VpcServiceProfile#security_profile}
   */
   readonly securityProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#spoof_guard_profile VpcServiceProfile#spoof_guard_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#spoof_guard_profile VpcServiceProfile#spoof_guard_profile}
   */
   readonly spoofGuardProfile?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#context VpcServiceProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#context VpcServiceProfile#context}
   */
   readonly context: VpcServiceProfileContext;
   /**
   * dhcp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#dhcp_config VpcServiceProfile#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#dhcp_config VpcServiceProfile#dhcp_config}
   */
   readonly dhcpConfig: VpcServiceProfileDhcpConfig;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#tag VpcServiceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#tag VpcServiceProfile#tag}
   */
   readonly tag?: VpcServiceProfileTag[] | cdktf.IResolvable;
 }
@@ -75,7 +75,7 @@ export interface VpcServiceProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#project_id VpcServiceProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#project_id VpcServiceProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -156,7 +156,7 @@ export class VpcServiceProfileContextOutputReference extends cdktf.ComplexObject
 }
 export interface VpcServiceProfileDhcpConfigDhcpRelayConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#server_addresses VpcServiceProfile#server_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#server_addresses VpcServiceProfile#server_addresses}
   */
   readonly serverAddresses?: string[];
 }
@@ -240,7 +240,7 @@ export class VpcServiceProfileDhcpConfigDhcpRelayConfigOutputReference extends c
 }
 export interface VpcServiceProfileDhcpConfigDhcpServerConfigAdvancedConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#is_distributed_dhcp VpcServiceProfile#is_distributed_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#is_distributed_dhcp VpcServiceProfile#is_distributed_dhcp}
   */
   readonly isDistributedDhcp?: boolean | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class VpcServiceProfileDhcpConfigDhcpServerConfigAdvancedConfigOutputRefe
 }
 export interface VpcServiceProfileDhcpConfigDhcpServerConfigDnsClientConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#dns_server_ips VpcServiceProfile#dns_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#dns_server_ips VpcServiceProfile#dns_server_ips}
   */
   readonly dnsServerIps?: string[];
 }
@@ -408,23 +408,23 @@ export class VpcServiceProfileDhcpConfigDhcpServerConfigDnsClientConfigOutputRef
 }
 export interface VpcServiceProfileDhcpConfigDhcpServerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#lease_time VpcServiceProfile#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#lease_time VpcServiceProfile#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#ntp_servers VpcServiceProfile#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#ntp_servers VpcServiceProfile#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * advanced_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#advanced_config VpcServiceProfile#advanced_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#advanced_config VpcServiceProfile#advanced_config}
   */
   readonly advancedConfig?: VpcServiceProfileDhcpConfigDhcpServerConfigAdvancedConfig;
   /**
   * dns_client_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#dns_client_config VpcServiceProfile#dns_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#dns_client_config VpcServiceProfile#dns_client_config}
   */
   readonly dnsClientConfig?: VpcServiceProfileDhcpConfigDhcpServerConfigDnsClientConfig;
 }
@@ -597,13 +597,13 @@ export interface VpcServiceProfileDhcpConfig {
   /**
   * dhcp_relay_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#dhcp_relay_config VpcServiceProfile#dhcp_relay_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#dhcp_relay_config VpcServiceProfile#dhcp_relay_config}
   */
   readonly dhcpRelayConfig?: VpcServiceProfileDhcpConfigDhcpRelayConfig;
   /**
   * dhcp_server_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#dhcp_server_config VpcServiceProfile#dhcp_server_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#dhcp_server_config VpcServiceProfile#dhcp_server_config}
   */
   readonly dhcpServerConfig?: VpcServiceProfileDhcpConfigDhcpServerConfig;
 }
@@ -716,11 +716,11 @@ export class VpcServiceProfileDhcpConfigOutputReference extends cdktf.ComplexObj
 }
 export interface VpcServiceProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#scope VpcServiceProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#scope VpcServiceProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#tag VpcServiceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#tag VpcServiceProfile#tag}
   */
   readonly tag?: string;
 }
@@ -865,7 +865,7 @@ export class VpcServiceProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile nsxt_vpc_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile nsxt_vpc_service_profile}
 */
 export class VpcServiceProfile extends cdktf.TerraformResource {
 
@@ -881,7 +881,7 @@ export class VpcServiceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcServiceProfile to import
-  * @param importFromId The id of the existing VpcServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -893,7 +893,7 @@ export class VpcServiceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_service_profile nsxt_vpc_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_service_profile nsxt_vpc_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -904,8 +904,8 @@ export class VpcServiceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

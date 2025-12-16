@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DlcDatasourceHouseAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * Engine name, only one engine can be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#data_engine_names DlcDatasourceHouseAttachment#data_engine_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#data_engine_names DlcDatasourceHouseAttachment#data_engine_names}
   */
   readonly dataEngineNames: string[];
   /**
   * Network configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#datasource_connection_name DlcDatasourceHouseAttachment#datasource_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#datasource_connection_name DlcDatasourceHouseAttachment#datasource_connection_name}
   */
   readonly datasourceConnectionName: string;
   /**
   * Data source type. Allow value: Mysql, HiveCos, HiveHdfs, HiveCHdfs, Kafka, OtherDatasourceConnection, PostgreSql, SqlServer, ClickHouse, Elasticsearch, TDSQLPostgreSql, TCHouseD, TccHive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#datasource_connection_type DlcDatasourceHouseAttachment#datasource_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#datasource_connection_type DlcDatasourceHouseAttachment#datasource_connection_type}
   */
   readonly datasourceConnectionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#id DlcDatasourceHouseAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#id DlcDatasourceHouseAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DlcDatasourceHouseAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * Network configuration description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#network_connection_desc DlcDatasourceHouseAttachment#network_connection_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#network_connection_desc DlcDatasourceHouseAttachment#network_connection_desc}
   */
   readonly networkConnectionDesc?: string;
   /**
   * Network type, 2-cross-source type, 4-enhanced type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#network_connection_type DlcDatasourceHouseAttachment#network_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#network_connection_type DlcDatasourceHouseAttachment#network_connection_type}
   */
   readonly networkConnectionType: number;
   /**
   * datasource_connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#datasource_connection_config DlcDatasourceHouseAttachment#datasource_connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#datasource_connection_config DlcDatasourceHouseAttachment#datasource_connection_config}
   */
   readonly datasourceConnectionConfig: DlcDatasourceHouseAttachmentDatasourceConnectionConfig;
 }
@@ -55,25 +55,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigClickHous
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -234,25 +234,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigClickHous
   /**
   * Default database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Unique ID of the data source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigClickHouseLocation;
 }
@@ -425,25 +425,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigElasticse
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -604,13 +604,13 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigElasticse
   /**
   * IP information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#ip DlcDatasourceHouseAttachment#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#ip DlcDatasourceHouseAttachment#ip}
   */
   readonly ip?: string;
   /**
   * Port information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#port DlcDatasourceHouseAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#port DlcDatasourceHouseAttachment#port}
   */
   readonly port?: number;
 }
@@ -757,31 +757,31 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigElasticse
   /**
   * Default database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Data source ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Data source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigElasticsearchLocation;
   /**
   * service_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#service_info DlcDatasourceHouseAttachment#service_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#service_info DlcDatasourceHouseAttachment#service_info}
   */
   readonly serviceInfo?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigElasticsearchServiceInfo[] | cdktf.IResolvable;
 }
@@ -983,19 +983,19 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveKerbe
   /**
   * KeyTab file value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#key_tab DlcDatasourceHouseAttachment#key_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#key_tab DlcDatasourceHouseAttachment#key_tab}
   */
   readonly keyTab?: string;
   /**
   * Krb5Conf file value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#krb5_conf DlcDatasourceHouseAttachment#krb5_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#krb5_conf DlcDatasourceHouseAttachment#krb5_conf}
   */
   readonly krb5Conf?: string;
   /**
   * Service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#service_principal DlcDatasourceHouseAttachment#service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#service_principal DlcDatasourceHouseAttachment#service_principal}
   */
   readonly servicePrincipal?: string;
 }
@@ -1139,25 +1139,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveLocat
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -1318,25 +1318,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveMysql
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -1497,25 +1497,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveMysql
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Database instance ID, consistent with the database side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Database instance name, consistent with the database side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location: DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveMysqlLocation;
 }
@@ -1685,73 +1685,73 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigHive {
   /**
   * If the type is COS, COS bucket connection needs to be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#bucket_url DlcDatasourceHouseAttachment#bucket_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#bucket_url DlcDatasourceHouseAttachment#bucket_url}
   */
   readonly bucketUrl?: string;
   /**
   * JSON string. If the type is HDFS, this field needs to be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#hdfs_properties DlcDatasourceHouseAttachment#hdfs_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#hdfs_properties DlcDatasourceHouseAttachment#hdfs_properties}
   */
   readonly hdfsProperties?: string;
   /**
   * If the type is HDFS, high availability needs to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#high_availability DlcDatasourceHouseAttachment#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#high_availability DlcDatasourceHouseAttachment#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * Version number of Hive component in EMR cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#hive_version DlcDatasourceHouseAttachment#hive_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#hive_version DlcDatasourceHouseAttachment#hive_version}
   */
   readonly hiveVersion?: string;
   /**
   * EMR cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * EMR cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Whether to enable Kerberos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#kerberos_enable DlcDatasourceHouseAttachment#kerberos_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#kerberos_enable DlcDatasourceHouseAttachment#kerberos_enable}
   */
   readonly kerberosEnable?: boolean | cdktf.IResolvable;
   /**
   * Address of Hive metastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#meta_store_url DlcDatasourceHouseAttachment#meta_store_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#meta_store_url DlcDatasourceHouseAttachment#meta_store_url}
   */
   readonly metaStoreUrl: string;
   /**
   * Hive data source type, representing data storage location, COS or HDFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#type DlcDatasourceHouseAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#type DlcDatasourceHouseAttachment#type}
   */
   readonly type: string;
   /**
   * kerberos_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#kerberos_info DlcDatasourceHouseAttachment#kerberos_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#kerberos_info DlcDatasourceHouseAttachment#kerberos_info}
   */
   readonly kerberosInfo?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveKerberosInfo;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location: DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveLocation;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#mysql DlcDatasourceHouseAttachment#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#mysql DlcDatasourceHouseAttachment#mysql}
   */
   readonly mysql?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigHiveMysql;
 }
@@ -2147,25 +2147,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigKafkaLoca
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -2326,13 +2326,13 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigKafka {
   /**
   * Kafka instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location: DlcDatasourceHouseAttachmentDatasourceConnectionConfigKafkaLocation;
 }
@@ -2441,25 +2441,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigMysqlLoca
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -2620,25 +2620,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigMysql {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Database instance ID, consistent with the database side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Database instance name, consistent with the database side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location: DlcDatasourceHouseAttachmentDatasourceConnectionConfigMysqlLocation;
 }
@@ -2808,25 +2808,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigOtherData
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -2987,7 +2987,7 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigOtherData
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location: DlcDatasourceHouseAttachmentDatasourceConnectionConfigOtherDatasourceConnectionLocation;
 }
@@ -3070,25 +3070,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigPostgreSq
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -3249,25 +3249,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigPostgreSq
   /**
   * Default database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Unique ID of the data source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigPostgreSqlLocation;
 }
@@ -3440,25 +3440,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigSqlServer
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -3619,25 +3619,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigSqlServer
   /**
   * Default database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Unique ID of the data source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigSqlServerLocation;
 }
@@ -3810,25 +3810,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigTcHouseDL
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -3989,31 +3989,31 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigTcHouseD 
   /**
   * Access information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#access_info DlcDatasourceHouseAttachment#access_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#access_info DlcDatasourceHouseAttachment#access_info}
   */
   readonly accessInfo?: string;
   /**
   * Default database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Unique ID of the data source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Data source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigTcHouseDLocation;
 }
@@ -4215,37 +4215,37 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigTccHiveTc
   /**
   * Service CLB IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#clb_ip DlcDatasourceHouseAttachment#clb_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#clb_ip DlcDatasourceHouseAttachment#clb_ip}
   */
   readonly clbIp?: string;
   /**
   * Service CLB port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#clb_port DlcDatasourceHouseAttachment#clb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#clb_port DlcDatasourceHouseAttachment#clb_port}
   */
   readonly clbPort?: string;
   /**
   * Subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock?: string;
   /**
   * Subnet instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VPC CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock?: string;
   /**
   * VPC instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -4476,43 +4476,43 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigTccHive {
   /**
   * Endpoint service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#endpoint_service_id DlcDatasourceHouseAttachment#endpoint_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#endpoint_service_id DlcDatasourceHouseAttachment#endpoint_service_id}
   */
   readonly endpointServiceId?: string;
   /**
   * Hive version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#hive_version DlcDatasourceHouseAttachment#hive_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#hive_version DlcDatasourceHouseAttachment#hive_version}
   */
   readonly hiveVersion?: string;
   /**
   * HMS endpoint service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#hms_endpoint_service_id DlcDatasourceHouseAttachment#hms_endpoint_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#hms_endpoint_service_id DlcDatasourceHouseAttachment#hms_endpoint_service_id}
   */
   readonly hmsEndpointServiceId?: string;
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Thrift connection address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#meta_store_url DlcDatasourceHouseAttachment#meta_store_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#meta_store_url DlcDatasourceHouseAttachment#meta_store_url}
   */
   readonly metaStoreUrl?: string;
   /**
   * tcc_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#tcc_connection DlcDatasourceHouseAttachment#tcc_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#tcc_connection DlcDatasourceHouseAttachment#tcc_connection}
   */
   readonly tccConnection?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigTccHiveTccConnection;
 }
@@ -4772,25 +4772,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigTdsqlPost
   /**
   * Subnet IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_cidr_block DlcDatasourceHouseAttachment#subnet_cidr_block}
   */
   readonly subnetCidrBlock: string;
   /**
   * Subnet instance ID where the data connection is located, such as 'subnet-bthucmmy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#subnet_id DlcDatasourceHouseAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC IPv4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_cidr_block DlcDatasourceHouseAttachment#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC instance ID where the data connection is located, such as 'vpc-azd4dt1c'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#vpc_id DlcDatasourceHouseAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -4951,25 +4951,25 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfigTdsqlPost
   /**
   * Default database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#db_name DlcDatasourceHouseAttachment#db_name}
   */
   readonly dbName?: string;
   /**
   * Unique ID of the data source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_id DlcDatasourceHouseAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#instance_name DlcDatasourceHouseAttachment#instance_name}
   */
   readonly instanceName?: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#location DlcDatasourceHouseAttachment#location}
   */
   readonly location?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigTdsqlPostgreSqlLocation;
 }
@@ -5142,67 +5142,67 @@ export interface DlcDatasourceHouseAttachmentDatasourceConnectionConfig {
   /**
   * click_house block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#click_house DlcDatasourceHouseAttachment#click_house}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#click_house DlcDatasourceHouseAttachment#click_house}
   */
   readonly clickHouse?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigClickHouse;
   /**
   * elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#elasticsearch DlcDatasourceHouseAttachment#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#elasticsearch DlcDatasourceHouseAttachment#elasticsearch}
   */
   readonly elasticsearch?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigElasticsearch;
   /**
   * hive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#hive DlcDatasourceHouseAttachment#hive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#hive DlcDatasourceHouseAttachment#hive}
   */
   readonly hive?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigHive;
   /**
   * kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#kafka DlcDatasourceHouseAttachment#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#kafka DlcDatasourceHouseAttachment#kafka}
   */
   readonly kafka?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigKafka;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#mysql DlcDatasourceHouseAttachment#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#mysql DlcDatasourceHouseAttachment#mysql}
   */
   readonly mysql?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigMysql;
   /**
   * other_datasource_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#other_datasource_connection DlcDatasourceHouseAttachment#other_datasource_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#other_datasource_connection DlcDatasourceHouseAttachment#other_datasource_connection}
   */
   readonly otherDatasourceConnection?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigOtherDatasourceConnection;
   /**
   * postgre_sql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#postgre_sql DlcDatasourceHouseAttachment#postgre_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#postgre_sql DlcDatasourceHouseAttachment#postgre_sql}
   */
   readonly postgreSql?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigPostgreSql;
   /**
   * sql_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#sql_server DlcDatasourceHouseAttachment#sql_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#sql_server DlcDatasourceHouseAttachment#sql_server}
   */
   readonly sqlServer?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigSqlServer;
   /**
   * tc_house_d block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#tc_house_d DlcDatasourceHouseAttachment#tc_house_d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#tc_house_d DlcDatasourceHouseAttachment#tc_house_d}
   */
   readonly tcHouseD?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigTcHouseD;
   /**
   * tcc_hive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#tcc_hive DlcDatasourceHouseAttachment#tcc_hive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#tcc_hive DlcDatasourceHouseAttachment#tcc_hive}
   */
   readonly tccHive?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigTccHive;
   /**
   * tdsql_postgre_sql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#tdsql_postgre_sql DlcDatasourceHouseAttachment#tdsql_postgre_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#tdsql_postgre_sql DlcDatasourceHouseAttachment#tdsql_postgre_sql}
   */
   readonly tdsqlPostgreSql?: DlcDatasourceHouseAttachmentDatasourceConnectionConfigTdsqlPostgreSql;
 }
@@ -5576,7 +5576,7 @@ export class DlcDatasourceHouseAttachmentDatasourceConnectionConfigOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment tencentcloud_dlc_datasource_house_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment tencentcloud_dlc_datasource_house_attachment}
 */
 export class DlcDatasourceHouseAttachment extends cdktf.TerraformResource {
 
@@ -5592,7 +5592,7 @@ export class DlcDatasourceHouseAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcDatasourceHouseAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcDatasourceHouseAttachment to import
-  * @param importFromId The id of the existing DlcDatasourceHouseAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcDatasourceHouseAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcDatasourceHouseAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5604,7 +5604,7 @@ export class DlcDatasourceHouseAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dlc_datasource_house_attachment tencentcloud_dlc_datasource_house_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dlc_datasource_house_attachment tencentcloud_dlc_datasource_house_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5615,8 +5615,8 @@ export class DlcDatasourceHouseAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_datasource_house_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

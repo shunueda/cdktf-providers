@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/oauth_profile
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/oauth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,13 +12,13 @@ export interface DataSolacebrokerOauthProfileConfig extends cdktf.TerraformMetaA
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/oauth_profile#oauth_profile_name DataSolacebrokerOauthProfile#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/oauth_profile#oauth_profile_name DataSolacebrokerOauthProfile#oauth_profile_name}
   */
   readonly oauthProfileName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/oauth_profile solacebroker_oauth_profile}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/oauth_profile solacebroker_oauth_profile}
 */
 export class DataSolacebrokerOauthProfile extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataSolacebrokerOauthProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSolacebrokerOauthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerOauthProfile to import
-  * @param importFromId The id of the existing DataSolacebrokerOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/oauth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerOauthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/oauth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerOauthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataSolacebrokerOauthProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/oauth_profile solacebroker_oauth_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/oauth_profile solacebroker_oauth_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataSolacebrokerOauthProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_oauth_profile',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -83,6 +83,11 @@ export class DataSolacebrokerOauthProfile extends cdktf.TerraformDataSource {
   // access_level_groups_claim_string_format - computed: true, optional: false, required: false
   public get accessLevelGroupsClaimStringFormat() {
     return this.getStringAttribute('access_level_groups_claim_string_format');
+  }
+
+  // authentication_scheme - computed: true, optional: false, required: false
+  public get authenticationScheme() {
+    return this.getStringAttribute('authentication_scheme');
   }
 
   // client_id - computed: true, optional: false, required: false

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNsxtPolicyDhcpServerConfig extends cdktf.TerraformMetaArgum
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server#description DataNsxtPolicyDhcpServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server#description DataNsxtPolicyDhcpServer#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server#display_name DataNsxtPolicyDhcpServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server#display_name DataNsxtPolicyDhcpServer#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server#id DataNsxtPolicyDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server#id DataNsxtPolicyDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface DataNsxtPolicyDhcpServerConfig extends cdktf.TerraformMetaArgum
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server#context DataNsxtPolicyDhcpServer#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server#context DataNsxtPolicyDhcpServer#context}
   */
   readonly context?: DataNsxtPolicyDhcpServerContext;
 }
@@ -39,7 +39,7 @@ export interface DataNsxtPolicyDhcpServerContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server#project_id DataNsxtPolicyDhcpServer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server#project_id DataNsxtPolicyDhcpServer#project_id}
   */
   readonly projectId: string;
 }
@@ -120,7 +120,7 @@ export class DataNsxtPolicyDhcpServerContextOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server nsxt_policy_dhcp_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server nsxt_policy_dhcp_server}
 */
 export class DataNsxtPolicyDhcpServer extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataNsxtPolicyDhcpServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyDhcpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyDhcpServer to import
-  * @param importFromId The id of the existing DataNsxtPolicyDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyDhcpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataNsxtPolicyDhcpServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_dhcp_server nsxt_policy_dhcp_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_dhcp_server nsxt_policy_dhcp_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataNsxtPolicyDhcpServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_dhcp_server',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcrNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#id TcrNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#id TcrNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface TcrNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the TCR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#instance_id TcrNamespace#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#instance_id TcrNamespace#instance_id}
   */
   readonly instanceId: string;
   /**
   * Scanning level, `True` is automatic, `False` is manual. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#is_auto_scan TcrNamespace#is_auto_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#is_auto_scan TcrNamespace#is_auto_scan}
   */
   readonly isAutoScan?: boolean | cdktf.IResolvable;
   /**
   * Blocking switch, `True` is open, `False` is closed. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#is_prevent_vul TcrNamespace#is_prevent_vul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#is_prevent_vul TcrNamespace#is_prevent_vul}
   */
   readonly isPreventVul?: boolean | cdktf.IResolvable;
   /**
   * Indicate that the namespace is public or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#is_public TcrNamespace#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#is_public TcrNamespace#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * Name of the TCR namespace. Valid length is [2~30]. It can only contain lowercase letters, numbers and separators (`.`, `_`, `-`), and cannot start, end or continue with separators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#name TcrNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#name TcrNamespace#name}
   */
   readonly name: string;
   /**
   * Block vulnerability level, currently only supports `low`, `medium`, `high`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#severity TcrNamespace#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#severity TcrNamespace#severity}
   */
   readonly severity?: string;
   /**
   * cve_whitelist_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#cve_whitelist_items TcrNamespace#cve_whitelist_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#cve_whitelist_items TcrNamespace#cve_whitelist_items}
   */
   readonly cveWhitelistItems?: TcrNamespaceCveWhitelistItems[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface TcrNamespaceCveWhitelistItems {
   /**
   * Vulnerability Whitelist ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#cve_id TcrNamespace#cve_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#cve_id TcrNamespace#cve_id}
   */
   readonly cveId?: string;
 }
@@ -177,7 +177,7 @@ export class TcrNamespaceCveWhitelistItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace tencentcloud_tcr_namespace}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace tencentcloud_tcr_namespace}
 */
 export class TcrNamespace extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class TcrNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrNamespace to import
-  * @param importFromId The id of the existing TcrNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class TcrNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tcr_namespace tencentcloud_tcr_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcr_namespace tencentcloud_tcr_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class TcrNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

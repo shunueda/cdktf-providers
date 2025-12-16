@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNsxtPolicyHostTransportNodeCollectionRealizationConfig exte
   /**
   * Initial delay to start realization checks in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization#delay DataNsxtPolicyHostTransportNodeCollectionRealization#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization#delay DataNsxtPolicyHostTransportNodeCollectionRealization#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization#id DataNsxtPolicyHostTransportNodeCollectionRealization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization#id DataNsxtPolicyHostTransportNodeCollectionRealization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataNsxtPolicyHostTransportNodeCollectionRealizationConfig exte
   /**
   * Path of this Transport Node Collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization#path DataNsxtPolicyHostTransportNodeCollectionRealization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization#path DataNsxtPolicyHostTransportNodeCollectionRealization#path}
   */
   readonly path?: string;
   /**
   * Realization timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization#timeout DataNsxtPolicyHostTransportNodeCollectionRealization#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization#timeout DataNsxtPolicyHostTransportNodeCollectionRealization#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization nsxt_policy_host_transport_node_collection_realization}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization nsxt_policy_host_transport_node_collection_realization}
 */
 export class DataNsxtPolicyHostTransportNodeCollectionRealization extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataNsxtPolicyHostTransportNodeCollectionRealization extends cdktf.
   * Generates CDKTF code for importing a DataNsxtPolicyHostTransportNodeCollectionRealization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyHostTransportNodeCollectionRealization to import
-  * @param importFromId The id of the existing DataNsxtPolicyHostTransportNodeCollectionRealization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyHostTransportNodeCollectionRealization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyHostTransportNodeCollectionRealization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataNsxtPolicyHostTransportNodeCollectionRealization extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_host_transport_node_collection_realization nsxt_policy_host_transport_node_collection_realization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_host_transport_node_collection_realization nsxt_policy_host_transport_node_collection_realization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataNsxtPolicyHostTransportNodeCollectionRealization extends cdktf.
       terraformResourceType: 'nsxt_policy_host_transport_node_collection_realization',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnQueueSubscriptionConfig extends cdktf.TerraformMetaArgume
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription#msg_vpn_name MsgVpnQueueSubscription#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription#msg_vpn_name MsgVpnQueueSubscription#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnQueueSubscriptionConfig extends cdktf.TerraformMetaArgume
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription#queue_name MsgVpnQueueSubscription#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription#queue_name MsgVpnQueueSubscription#queue_name}
   */
   readonly queueName: string;
   /**
@@ -28,13 +28,13 @@ export interface MsgVpnQueueSubscriptionConfig extends cdktf.TerraformMetaArgume
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription#subscription_topic MsgVpnQueueSubscription#subscription_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription#subscription_topic MsgVpnQueueSubscription#subscription_topic}
   */
   readonly subscriptionTopic: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription solacebroker_msg_vpn_queue_subscription}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription solacebroker_msg_vpn_queue_subscription}
 */
 export class MsgVpnQueueSubscription extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class MsgVpnQueueSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsgVpnQueueSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnQueueSubscription to import
-  * @param importFromId The id of the existing MsgVpnQueueSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnQueueSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnQueueSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class MsgVpnQueueSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_queue_subscription solacebroker_msg_vpn_queue_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_queue_subscription solacebroker_msg_vpn_queue_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class MsgVpnQueueSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_queue_subscription',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AccountTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account name. Defaults to the current account. I.e. the account configured on the `provider` block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token#account AccountToken#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token#account AccountToken#account}
   */
   readonly account?: string;
   /**
   * Duration before the token will expire. Valid time units are `ns`, `us` (or `µs`), `ms`, `s`, `m`, `h`. E.g. `12h`, `7d`. Default: No expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token#expires_in AccountToken#expires_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token#expires_in AccountToken#expires_in}
   */
   readonly expiresIn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token#id AccountToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token#id AccountToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AccountTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Duration to control token silent regeneration based on token age. Valid time units are `ns`, `us` (or `µs`), `ms`, `s`, `m`, `h`. If set, then the token will be regenerated if it is older than `renew_after`. I.e. if `currentDate - issued_at > renew_after`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token#renew_after AccountToken#renew_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token#renew_after AccountToken#renew_after}
   */
   readonly renewAfter?: string;
   /**
   * Duration to control token silent regeneration based on remaining token lifetime. If `expires_in` is set, Terraform will regenerate the token if `expires_at - currentDate < renew_before`. Valid time units are `ns`, `us` (or `µs`), `ms`, `s`, `m`, `h`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token#renew_before AccountToken#renew_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token#renew_before AccountToken#renew_before}
   */
   readonly renewBefore?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token argocd_account_token}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token argocd_account_token}
 */
 export class AccountToken extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AccountToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountToken to import
-  * @param importFromId The id of the existing AccountToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AccountToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/account_token argocd_account_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.4/docs/resources/account_token argocd_account_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AccountToken extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_account_token',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.3',
-        providerVersionConstraint: '7.12.3'
+        providerVersion: '7.12.4',
+        providerVersionConstraint: '7.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDlcDescribeWorkGroupInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#id DataTencentcloudDlcDescribeWorkGroupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#id DataTencentcloudDlcDescribeWorkGroupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudDlcDescribeWorkGroupInfoConfig extends cdktf.Te
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#result_output_file DataTencentcloudDlcDescribeWorkGroupInfo#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#result_output_file DataTencentcloudDlcDescribeWorkGroupInfo#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort fields.When the type is User, create-time and user-name are supported.When the type is DataAuth, create-time is supported.When the type is EngineAuth, create-time is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#sort_by DataTencentcloudDlcDescribeWorkGroupInfo#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#sort_by DataTencentcloudDlcDescribeWorkGroupInfo#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Sorting methods: desc means in order; asc means in reverse order; it is asc by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#sorting DataTencentcloudDlcDescribeWorkGroupInfo#sorting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#sorting DataTencentcloudDlcDescribeWorkGroupInfo#sorting}
   */
   readonly sorting?: string;
   /**
   * Types of queried information. User: user information; DataAuth: data permissions; EngineAuth: engine permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#type DataTencentcloudDlcDescribeWorkGroupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#type DataTencentcloudDlcDescribeWorkGroupInfo#type}
   */
   readonly type?: string;
   /**
   * Working group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#work_group_id DataTencentcloudDlcDescribeWorkGroupInfo#work_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#work_group_id DataTencentcloudDlcDescribeWorkGroupInfo#work_group_id}
   */
   readonly workGroupId?: number;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#filters DataTencentcloudDlcDescribeWorkGroupInfo#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#filters DataTencentcloudDlcDescribeWorkGroupInfo#filters}
   */
   readonly filters?: DataTencentcloudDlcDescribeWorkGroupInfoFilters[] | cdktf.IResolvable;
 }
@@ -1053,13 +1053,13 @@ export interface DataTencentcloudDlcDescribeWorkGroupInfoFilters {
   /**
   * Attribute name. If more than one filter exists, the logical relationship between these filters is `OR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#name DataTencentcloudDlcDescribeWorkGroupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#name DataTencentcloudDlcDescribeWorkGroupInfo#name}
   */
   readonly name: string;
   /**
   * Attribute value. If multiple values exist in one filter, the logical relationship between these values is `OR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#values DataTencentcloudDlcDescribeWorkGroupInfo#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#values DataTencentcloudDlcDescribeWorkGroupInfo#values}
   */
   readonly values: string[];
 }
@@ -1198,7 +1198,7 @@ export class DataTencentcloudDlcDescribeWorkGroupInfoFiltersList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info tencentcloud_dlc_describe_work_group_info}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info tencentcloud_dlc_describe_work_group_info}
 */
 export class DataTencentcloudDlcDescribeWorkGroupInfo extends cdktf.TerraformDataSource {
 
@@ -1214,7 +1214,7 @@ export class DataTencentcloudDlcDescribeWorkGroupInfo extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudDlcDescribeWorkGroupInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDescribeWorkGroupInfo to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDescribeWorkGroupInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDescribeWorkGroupInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDescribeWorkGroupInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1226,7 +1226,7 @@ export class DataTencentcloudDlcDescribeWorkGroupInfo extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_describe_work_group_info tencentcloud_dlc_describe_work_group_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_describe_work_group_info tencentcloud_dlc_describe_work_group_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1237,8 +1237,8 @@ export class DataTencentcloudDlcDescribeWorkGroupInfo extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_dlc_describe_work_group_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

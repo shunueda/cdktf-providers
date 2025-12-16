@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CfsUserQuotaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Capacity Limit(GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#capacity_hard_limit CfsUserQuota#capacity_hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#capacity_hard_limit CfsUserQuota#capacity_hard_limit}
   */
   readonly capacityHardLimit?: number;
   /**
   * File limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#file_hard_limit CfsUserQuota#file_hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#file_hard_limit CfsUserQuota#file_hard_limit}
   */
   readonly fileHardLimit?: number;
   /**
   * File system ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#file_system_id CfsUserQuota#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#file_system_id CfsUserQuota#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#id CfsUserQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#id CfsUserQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface CfsUserQuotaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Info of UID/GID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#user_id CfsUserQuota#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#user_id CfsUserQuota#user_id}
   */
   readonly userId: string;
   /**
   * Quota type. Valid value: `Uid`, `Gid`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#user_type CfsUserQuota#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#user_type CfsUserQuota#user_type}
   */
   readonly userType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota tencentcloud_cfs_user_quota}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota tencentcloud_cfs_user_quota}
 */
 export class CfsUserQuota extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CfsUserQuota extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfsUserQuota resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfsUserQuota to import
-  * @param importFromId The id of the existing CfsUserQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfsUserQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfsUserQuota to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CfsUserQuota extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfs_user_quota tencentcloud_cfs_user_quota} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfs_user_quota tencentcloud_cfs_user_quota} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CfsUserQuota extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfs_user_quota',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

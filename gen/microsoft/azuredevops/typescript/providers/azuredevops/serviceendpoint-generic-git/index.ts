@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointGenericGitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#description ServiceendpointGenericGit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#description ServiceendpointGenericGit#description}
   */
   readonly description?: string;
   /**
   * A value indicating whether or not to attempt accessing this git server from Azure Pipelines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#enable_pipelines_access ServiceendpointGenericGit#enable_pipelines_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#enable_pipelines_access ServiceendpointGenericGit#enable_pipelines_access}
   */
   readonly enablePipelinesAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#id ServiceendpointGenericGit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#id ServiceendpointGenericGit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,51 +27,51 @@ export interface ServiceendpointGenericGitConfig extends cdktf.TerraformMetaArgu
   /**
   * The password or token key to use for the GenericGit git service connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#password ServiceendpointGenericGit#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#password ServiceendpointGenericGit#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#project_id ServiceendpointGenericGit#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#project_id ServiceendpointGenericGit#project_id}
   */
   readonly projectId: string;
   /**
   * The server URL of the GenericGit git service connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#repository_url ServiceendpointGenericGit#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#repository_url ServiceendpointGenericGit#repository_url}
   */
   readonly repositoryUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#service_endpoint_name ServiceendpointGenericGit#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#service_endpoint_name ServiceendpointGenericGit#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * The username to use for the GenericGit service git connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#username ServiceendpointGenericGit#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#username ServiceendpointGenericGit#username}
   */
   readonly username?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#timeouts ServiceendpointGenericGit#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#timeouts ServiceendpointGenericGit#timeouts}
   */
   readonly timeouts?: ServiceendpointGenericGitTimeouts;
 }
 export interface ServiceendpointGenericGitTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#create ServiceendpointGenericGit#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#create ServiceendpointGenericGit#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#delete ServiceendpointGenericGit#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#delete ServiceendpointGenericGit#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#read ServiceendpointGenericGit#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#read ServiceendpointGenericGit#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#update ServiceendpointGenericGit#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#update ServiceendpointGenericGit#update}
   */
   readonly update?: string;
 }
@@ -252,7 +252,7 @@ export class ServiceendpointGenericGitTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git azuredevops_serviceendpoint_generic_git}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git azuredevops_serviceendpoint_generic_git}
 */
 export class ServiceendpointGenericGit extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class ServiceendpointGenericGit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointGenericGit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointGenericGit to import
-  * @param importFromId The id of the existing ServiceendpointGenericGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointGenericGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointGenericGit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class ServiceendpointGenericGit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_generic_git azuredevops_serviceendpoint_generic_git} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_generic_git azuredevops_serviceendpoint_generic_git} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class ServiceendpointGenericGit extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_generic_git',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

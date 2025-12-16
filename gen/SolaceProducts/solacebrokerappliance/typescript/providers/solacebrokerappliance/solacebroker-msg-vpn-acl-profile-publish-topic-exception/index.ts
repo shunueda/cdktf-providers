@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnAclProfilePublishTopicExceptionConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#acl_profile_name SolacebrokerMsgVpnAclProfilePublishTopicException#acl_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#acl_profile_name SolacebrokerMsgVpnAclProfilePublishTopicException#acl_profile_name}
   */
   readonly aclProfileName: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnAclProfilePublishTopicExceptionConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#msg_vpn_name SolacebrokerMsgVpnAclProfilePublishTopicException#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#msg_vpn_name SolacebrokerMsgVpnAclProfilePublishTopicException#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnAclProfilePublishTopicExceptionConfig extends
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#publish_topic_exception SolacebrokerMsgVpnAclProfilePublishTopicException#publish_topic_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#publish_topic_exception SolacebrokerMsgVpnAclProfilePublishTopicException#publish_topic_exception}
   */
   readonly publishTopicException: string;
   /**
@@ -42,13 +42,13 @@ export interface SolacebrokerMsgVpnAclProfilePublishTopicExceptionConfig extends
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#publish_topic_exception_syntax SolacebrokerMsgVpnAclProfilePublishTopicException#publish_topic_exception_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#publish_topic_exception_syntax SolacebrokerMsgVpnAclProfilePublishTopicException#publish_topic_exception_syntax}
   */
   readonly publishTopicExceptionSyntax: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception solacebroker_msg_vpn_acl_profile_publish_topic_exception}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception solacebroker_msg_vpn_acl_profile_publish_topic_exception}
 */
 export class SolacebrokerMsgVpnAclProfilePublishTopicException extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class SolacebrokerMsgVpnAclProfilePublishTopicException extends cdktf.Ter
   * Generates CDKTF code for importing a SolacebrokerMsgVpnAclProfilePublishTopicException resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnAclProfilePublishTopicException to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnAclProfilePublishTopicException that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnAclProfilePublishTopicException that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnAclProfilePublishTopicException to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class SolacebrokerMsgVpnAclProfilePublishTopicException extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception solacebroker_msg_vpn_acl_profile_publish_topic_exception} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_acl_profile_publish_topic_exception solacebroker_msg_vpn_acl_profile_publish_topic_exception} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class SolacebrokerMsgVpnAclProfilePublishTopicException extends cdktf.Ter
       terraformResourceType: 'solacebroker_msg_vpn_acl_profile_publish_topic_exception',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

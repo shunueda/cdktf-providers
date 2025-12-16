@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointJfrogDistributionV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#description ServiceendpointJfrogDistributionV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#description ServiceendpointJfrogDistributionV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#id ServiceendpointJfrogDistributionV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#id ServiceendpointJfrogDistributionV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#project_id ServiceendpointJfrogDistributionV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#project_id ServiceendpointJfrogDistributionV2#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#service_endpoint_name ServiceendpointJfrogDistributionV2#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#service_endpoint_name ServiceendpointJfrogDistributionV2#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * Url for the JFrog Artifactory Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#url ServiceendpointJfrogDistributionV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#url ServiceendpointJfrogDistributionV2#url}
   */
   readonly url: string;
   /**
   * authentication_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#authentication_basic ServiceendpointJfrogDistributionV2#authentication_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#authentication_basic ServiceendpointJfrogDistributionV2#authentication_basic}
   */
   readonly authenticationBasic?: ServiceendpointJfrogDistributionV2AuthenticationBasic;
   /**
   * authentication_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#authentication_token ServiceendpointJfrogDistributionV2#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#authentication_token ServiceendpointJfrogDistributionV2#authentication_token}
   */
   readonly authenticationToken?: ServiceendpointJfrogDistributionV2AuthenticationToken;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#timeouts ServiceendpointJfrogDistributionV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#timeouts ServiceendpointJfrogDistributionV2#timeouts}
   */
   readonly timeouts?: ServiceendpointJfrogDistributionV2Timeouts;
 }
@@ -55,13 +55,13 @@ export interface ServiceendpointJfrogDistributionV2AuthenticationBasic {
   /**
   * The JFrog Artifactory password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#password ServiceendpointJfrogDistributionV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#password ServiceendpointJfrogDistributionV2#password}
   */
   readonly password: string;
   /**
   * The JFrog Artifactory user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#username ServiceendpointJfrogDistributionV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#username ServiceendpointJfrogDistributionV2#username}
   */
   readonly username: string;
 }
@@ -170,7 +170,7 @@ export interface ServiceendpointJfrogDistributionV2AuthenticationToken {
   /**
   * The JFrog Artifactory access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#token ServiceendpointJfrogDistributionV2#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#token ServiceendpointJfrogDistributionV2#token}
   */
   readonly token: string;
 }
@@ -251,19 +251,19 @@ export class ServiceendpointJfrogDistributionV2AuthenticationTokenOutputReferenc
 }
 export interface ServiceendpointJfrogDistributionV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#create ServiceendpointJfrogDistributionV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#create ServiceendpointJfrogDistributionV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#delete ServiceendpointJfrogDistributionV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#delete ServiceendpointJfrogDistributionV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#read ServiceendpointJfrogDistributionV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#read ServiceendpointJfrogDistributionV2#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#update ServiceendpointJfrogDistributionV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#update ServiceendpointJfrogDistributionV2#update}
   */
   readonly update?: string;
 }
@@ -444,7 +444,7 @@ export class ServiceendpointJfrogDistributionV2TimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2 azuredevops_serviceendpoint_jfrog_distribution_v2}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2 azuredevops_serviceendpoint_jfrog_distribution_v2}
 */
 export class ServiceendpointJfrogDistributionV2 extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class ServiceendpointJfrogDistributionV2 extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ServiceendpointJfrogDistributionV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointJfrogDistributionV2 to import
-  * @param importFromId The id of the existing ServiceendpointJfrogDistributionV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointJfrogDistributionV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointJfrogDistributionV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class ServiceendpointJfrogDistributionV2 extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_jfrog_distribution_v2 azuredevops_serviceendpoint_jfrog_distribution_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/serviceendpoint_jfrog_distribution_v2 azuredevops_serviceendpoint_jfrog_distribution_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class ServiceendpointJfrogDistributionV2 extends cdktf.TerraformResource 
       terraformResourceType: 'azuredevops_serviceendpoint_jfrog_distribution_v2',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface PolicyIpDiscoveryProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Maximum number of ARP bindings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#arp_binding_limit PolicyIpDiscoveryProfile#arp_binding_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#arp_binding_limit PolicyIpDiscoveryProfile#arp_binding_limit}
   */
   readonly arpBindingLimit?: number;
   /**
   * ARP and ND cache timeout (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#arp_nd_binding_timeout PolicyIpDiscoveryProfile#arp_nd_binding_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#arp_nd_binding_timeout PolicyIpDiscoveryProfile#arp_nd_binding_timeout}
   */
   readonly arpNdBindingTimeout?: number;
   /**
   * Is ARP snooping enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#arp_snooping_enabled PolicyIpDiscoveryProfile#arp_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#arp_snooping_enabled PolicyIpDiscoveryProfile#arp_snooping_enabled}
   */
   readonly arpSnoopingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#description PolicyIpDiscoveryProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#description PolicyIpDiscoveryProfile#description}
   */
   readonly description?: string;
   /**
   * Is DHCP snooping enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#dhcp_snooping_enabled PolicyIpDiscoveryProfile#dhcp_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#dhcp_snooping_enabled PolicyIpDiscoveryProfile#dhcp_snooping_enabled}
   */
   readonly dhcpSnoopingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is DHCP snoping v6 enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#dhcp_snooping_v6_enabled PolicyIpDiscoveryProfile#dhcp_snooping_v6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#dhcp_snooping_v6_enabled PolicyIpDiscoveryProfile#dhcp_snooping_v6_enabled}
   */
   readonly dhcpSnoopingV6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#display_name PolicyIpDiscoveryProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#display_name PolicyIpDiscoveryProfile#display_name}
   */
   readonly displayName: string;
   /**
   * Duplicate IP detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#duplicate_ip_detection_enabled PolicyIpDiscoveryProfile#duplicate_ip_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#duplicate_ip_detection_enabled PolicyIpDiscoveryProfile#duplicate_ip_detection_enabled}
   */
   readonly duplicateIpDetectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#id PolicyIpDiscoveryProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#id PolicyIpDiscoveryProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,49 +65,49 @@ export interface PolicyIpDiscoveryProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Is ND snooping enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#nd_snooping_enabled PolicyIpDiscoveryProfile#nd_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#nd_snooping_enabled PolicyIpDiscoveryProfile#nd_snooping_enabled}
   */
   readonly ndSnoopingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ND (Neighbor Discovery Protocol) bindings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#nd_snooping_limit PolicyIpDiscoveryProfile#nd_snooping_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#nd_snooping_limit PolicyIpDiscoveryProfile#nd_snooping_limit}
   */
   readonly ndSnoopingLimit?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#nsx_id PolicyIpDiscoveryProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#nsx_id PolicyIpDiscoveryProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Is TOFU enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#tofu_enabled PolicyIpDiscoveryProfile#tofu_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#tofu_enabled PolicyIpDiscoveryProfile#tofu_enabled}
   */
   readonly tofuEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is VM tools enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#vmtools_enabled PolicyIpDiscoveryProfile#vmtools_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#vmtools_enabled PolicyIpDiscoveryProfile#vmtools_enabled}
   */
   readonly vmtoolsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is VM tools enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#vmtools_v6_enabled PolicyIpDiscoveryProfile#vmtools_v6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#vmtools_v6_enabled PolicyIpDiscoveryProfile#vmtools_v6_enabled}
   */
   readonly vmtoolsV6Enabled?: boolean | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#context PolicyIpDiscoveryProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#context PolicyIpDiscoveryProfile#context}
   */
   readonly context?: PolicyIpDiscoveryProfileContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#tag PolicyIpDiscoveryProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#tag PolicyIpDiscoveryProfile#tag}
   */
   readonly tag?: PolicyIpDiscoveryProfileTag[] | cdktf.IResolvable;
 }
@@ -115,7 +115,7 @@ export interface PolicyIpDiscoveryProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#project_id PolicyIpDiscoveryProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#project_id PolicyIpDiscoveryProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -196,11 +196,11 @@ export class PolicyIpDiscoveryProfileContextOutputReference extends cdktf.Comple
 }
 export interface PolicyIpDiscoveryProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#scope PolicyIpDiscoveryProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#scope PolicyIpDiscoveryProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#tag PolicyIpDiscoveryProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#tag PolicyIpDiscoveryProfile#tag}
   */
   readonly tag?: string;
 }
@@ -345,7 +345,7 @@ export class PolicyIpDiscoveryProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile nsxt_policy_ip_discovery_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile nsxt_policy_ip_discovery_profile}
 */
 export class PolicyIpDiscoveryProfile extends cdktf.TerraformResource {
 
@@ -361,7 +361,7 @@ export class PolicyIpDiscoveryProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpDiscoveryProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpDiscoveryProfile to import
-  * @param importFromId The id of the existing PolicyIpDiscoveryProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpDiscoveryProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpDiscoveryProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class PolicyIpDiscoveryProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_discovery_profile nsxt_policy_ip_discovery_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_discovery_profile nsxt_policy_ip_discovery_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class PolicyIpDiscoveryProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ip_discovery_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

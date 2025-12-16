@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudScfAsyncEventStatusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status#id DataTencentcloudScfAsyncEventStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status#id DataTencentcloudScfAsyncEventStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudScfAsyncEventStatusConfig extends cdktf.Terrafo
   /**
   * ID of the async execution request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status#invoke_request_id DataTencentcloudScfAsyncEventStatus#invoke_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status#invoke_request_id DataTencentcloudScfAsyncEventStatus#invoke_request_id}
   */
   readonly invokeRequestId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status#result_output_file DataTencentcloudScfAsyncEventStatus#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status#result_output_file DataTencentcloudScfAsyncEventStatus#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -114,7 +114,7 @@ export class DataTencentcloudScfAsyncEventStatusResultList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status tencentcloud_scf_async_event_status}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status tencentcloud_scf_async_event_status}
 */
 export class DataTencentcloudScfAsyncEventStatus extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataTencentcloudScfAsyncEventStatus extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudScfAsyncEventStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudScfAsyncEventStatus to import
-  * @param importFromId The id of the existing DataTencentcloudScfAsyncEventStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudScfAsyncEventStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudScfAsyncEventStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataTencentcloudScfAsyncEventStatus extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/scf_async_event_status tencentcloud_scf_async_event_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/scf_async_event_status tencentcloud_scf_async_event_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataTencentcloudScfAsyncEventStatus extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_scf_async_event_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

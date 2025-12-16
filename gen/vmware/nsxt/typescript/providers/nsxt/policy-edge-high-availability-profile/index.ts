@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyEdgeHighAvailabilityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#bfd_allowed_hops PolicyEdgeHighAvailabilityProfile#bfd_allowed_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#bfd_allowed_hops PolicyEdgeHighAvailabilityProfile#bfd_allowed_hops}
   */
   readonly bfdAllowedHops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#bfd_declare_dead_multiple PolicyEdgeHighAvailabilityProfile#bfd_declare_dead_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#bfd_declare_dead_multiple PolicyEdgeHighAvailabilityProfile#bfd_declare_dead_multiple}
   */
   readonly bfdDeclareDeadMultiple?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#bfd_probe_interval PolicyEdgeHighAvailabilityProfile#bfd_probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#bfd_probe_interval PolicyEdgeHighAvailabilityProfile#bfd_probe_interval}
   */
   readonly bfdProbeInterval?: number;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#description PolicyEdgeHighAvailabilityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#description PolicyEdgeHighAvailabilityProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#display_name PolicyEdgeHighAvailabilityProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#display_name PolicyEdgeHighAvailabilityProfile#display_name}
   */
   readonly displayName: string;
   /**
   * ID of the enforcement point this Host Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#enforcement_point PolicyEdgeHighAvailabilityProfile#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#enforcement_point PolicyEdgeHighAvailabilityProfile#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#id PolicyEdgeHighAvailabilityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#id PolicyEdgeHighAvailabilityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface PolicyEdgeHighAvailabilityProfileConfig extends cdktf.Terraform
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#nsx_id PolicyEdgeHighAvailabilityProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#nsx_id PolicyEdgeHighAvailabilityProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Path to the site this Host Transport Node belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#site_path PolicyEdgeHighAvailabilityProfile#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#site_path PolicyEdgeHighAvailabilityProfile#site_path}
   */
   readonly sitePath?: string;
   /**
   * standby_relocation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#standby_relocation_config PolicyEdgeHighAvailabilityProfile#standby_relocation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#standby_relocation_config PolicyEdgeHighAvailabilityProfile#standby_relocation_config}
   */
   readonly standbyRelocationConfig?: PolicyEdgeHighAvailabilityProfileStandbyRelocationConfig;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#tag PolicyEdgeHighAvailabilityProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#tag PolicyEdgeHighAvailabilityProfile#tag}
   */
   readonly tag?: PolicyEdgeHighAvailabilityProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyEdgeHighAvailabilityProfileStandbyRelocationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#standby_relocation_threshold PolicyEdgeHighAvailabilityProfile#standby_relocation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#standby_relocation_threshold PolicyEdgeHighAvailabilityProfile#standby_relocation_threshold}
   */
   readonly standbyRelocationThreshold: number;
 }
@@ -152,11 +152,11 @@ export class PolicyEdgeHighAvailabilityProfileStandbyRelocationConfigOutputRefer
 }
 export interface PolicyEdgeHighAvailabilityProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#scope PolicyEdgeHighAvailabilityProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#scope PolicyEdgeHighAvailabilityProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#tag PolicyEdgeHighAvailabilityProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#tag PolicyEdgeHighAvailabilityProfile#tag}
   */
   readonly tag?: string;
 }
@@ -301,7 +301,7 @@ export class PolicyEdgeHighAvailabilityProfileTagList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile nsxt_policy_edge_high_availability_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile nsxt_policy_edge_high_availability_profile}
 */
 export class PolicyEdgeHighAvailabilityProfile extends cdktf.TerraformResource {
 
@@ -317,7 +317,7 @@ export class PolicyEdgeHighAvailabilityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEdgeHighAvailabilityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEdgeHighAvailabilityProfile to import
-  * @param importFromId The id of the existing PolicyEdgeHighAvailabilityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEdgeHighAvailabilityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEdgeHighAvailabilityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -329,7 +329,7 @@ export class PolicyEdgeHighAvailabilityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_edge_high_availability_profile nsxt_policy_edge_high_availability_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_edge_high_availability_profile nsxt_policy_edge_high_availability_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,8 +340,8 @@ export class PolicyEdgeHighAvailabilityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_edge_high_availability_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudSqlserverBackupCommandsConfig extends cdktf.Ter
   /**
   * Backup file type. Full: full backup. FULL_LOG: full backup which needs log increments. FULL_DIFF: full backup which needs differential increments. LOG: log backup. DIFF: differential backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#backup_file_type DataTencentcloudSqlserverBackupCommands#backup_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#backup_file_type DataTencentcloudSqlserverBackupCommands#backup_file_type}
   */
   readonly backupFileType: string;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#data_base_name DataTencentcloudSqlserverBackupCommands#data_base_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#data_base_name DataTencentcloudSqlserverBackupCommands#data_base_name}
   */
   readonly dataBaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#id DataTencentcloudSqlserverBackupCommands#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#id DataTencentcloudSqlserverBackupCommands#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudSqlserverBackupCommandsConfig extends cdktf.Ter
   /**
   * Whether restoration is required. No: not required. Yes: required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#is_recovery DataTencentcloudSqlserverBackupCommands#is_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#is_recovery DataTencentcloudSqlserverBackupCommands#is_recovery}
   */
   readonly isRecovery: string;
   /**
   * Storage path of backup files. If this parameter is left empty, the default storage path will be D:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#local_path DataTencentcloudSqlserverBackupCommands#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#local_path DataTencentcloudSqlserverBackupCommands#local_path}
   */
   readonly localPath?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#result_output_file DataTencentcloudSqlserverBackupCommands#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#result_output_file DataTencentcloudSqlserverBackupCommands#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -127,7 +127,7 @@ export class DataTencentcloudSqlserverBackupCommandsListStructList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands tencentcloud_sqlserver_backup_commands}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands tencentcloud_sqlserver_backup_commands}
 */
 export class DataTencentcloudSqlserverBackupCommands extends cdktf.TerraformDataSource {
 
@@ -143,7 +143,7 @@ export class DataTencentcloudSqlserverBackupCommands extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudSqlserverBackupCommands resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverBackupCommands to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverBackupCommands that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverBackupCommands that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverBackupCommands to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class DataTencentcloudSqlserverBackupCommands extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/sqlserver_backup_commands tencentcloud_sqlserver_backup_commands} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backup_commands tencentcloud_sqlserver_backup_commands} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class DataTencentcloudSqlserverBackupCommands extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_sqlserver_backup_commands',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

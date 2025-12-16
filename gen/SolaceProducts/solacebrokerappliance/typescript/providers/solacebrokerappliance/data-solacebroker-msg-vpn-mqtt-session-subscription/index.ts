@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnMqttSessionSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#mqtt_session_client_id DataSolacebrokerMsgVpnMqttSessionSubscription#mqtt_session_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#mqtt_session_client_id DataSolacebrokerMsgVpnMqttSessionSubscription#mqtt_session_client_id}
   */
   readonly mqttSessionClientId: string;
   /**
@@ -27,7 +27,7 @@ export interface DataSolacebrokerMsgVpnMqttSessionSubscriptionConfig extends cdk
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#mqtt_session_virtual_router DataSolacebrokerMsgVpnMqttSessionSubscription#mqtt_session_virtual_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#mqtt_session_virtual_router DataSolacebrokerMsgVpnMqttSessionSubscription#mqtt_session_virtual_router}
   */
   readonly mqttSessionVirtualRouter: string;
   /**
@@ -35,7 +35,7 @@ export interface DataSolacebrokerMsgVpnMqttSessionSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#msg_vpn_name DataSolacebrokerMsgVpnMqttSessionSubscription#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#msg_vpn_name DataSolacebrokerMsgVpnMqttSessionSubscription#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -43,13 +43,13 @@ export interface DataSolacebrokerMsgVpnMqttSessionSubscriptionConfig extends cdk
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#subscription_topic DataSolacebrokerMsgVpnMqttSessionSubscription#subscription_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#subscription_topic DataSolacebrokerMsgVpnMqttSessionSubscription#subscription_topic}
   */
   readonly subscriptionTopic: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription solacebroker_msg_vpn_mqtt_session_subscription}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription solacebroker_msg_vpn_mqtt_session_subscription}
 */
 export class DataSolacebrokerMsgVpnMqttSessionSubscription extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataSolacebrokerMsgVpnMqttSessionSubscription extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnMqttSessionSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnMqttSessionSubscription to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnMqttSessionSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnMqttSessionSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnMqttSessionSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataSolacebrokerMsgVpnMqttSessionSubscription extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription solacebroker_msg_vpn_mqtt_session_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/data-sources/solacebroker_msg_vpn_mqtt_session_subscription solacebroker_msg_vpn_mqtt_session_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataSolacebrokerMsgVpnMqttSessionSubscription extends cdktf.Terrafo
       terraformResourceType: 'solacebroker_msg_vpn_mqtt_session_subscription',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

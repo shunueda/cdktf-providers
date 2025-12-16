@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface BatchApplyAccountBaselinesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines#id BatchApplyAccountBaselines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines#id BatchApplyAccountBaselines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface BatchApplyAccountBaselinesConfig extends cdktf.TerraformMetaArg
   /**
   * Member account UIN, which is also the UIN of the account to which the baseline is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines#member_uin_list BatchApplyAccountBaselines#member_uin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines#member_uin_list BatchApplyAccountBaselines#member_uin_list}
   */
   readonly memberUinList: number[];
   /**
   * baseline_config_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines#baseline_config_items BatchApplyAccountBaselines#baseline_config_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines#baseline_config_items BatchApplyAccountBaselines#baseline_config_items}
   */
   readonly baselineConfigItems: BatchApplyAccountBaselinesBaselineConfigItems[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface BatchApplyAccountBaselinesBaselineConfigItems {
   /**
   * Account Factory baseline item configuration. Different items have different parameters.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines#configuration BatchApplyAccountBaselines#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines#configuration BatchApplyAccountBaselines#configuration}
   */
   readonly configuration?: string;
   /**
   * A unique identifier for an Account Factory baseline item, which can only contain English letters, digits, and @,._[]-:()+=. It must be 2-128 characters long.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines#identifier BatchApplyAccountBaselines#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines#identifier BatchApplyAccountBaselines#identifier}
   */
   readonly identifier?: string;
 }
@@ -182,7 +182,7 @@ export class BatchApplyAccountBaselinesBaselineConfigItemsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines tencentcloud_batch_apply_account_baselines}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines tencentcloud_batch_apply_account_baselines}
 */
 export class BatchApplyAccountBaselines extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class BatchApplyAccountBaselines extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BatchApplyAccountBaselines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BatchApplyAccountBaselines to import
-  * @param importFromId The id of the existing BatchApplyAccountBaselines that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BatchApplyAccountBaselines that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BatchApplyAccountBaselines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class BatchApplyAccountBaselines extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/batch_apply_account_baselines tencentcloud_batch_apply_account_baselines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/batch_apply_account_baselines tencentcloud_batch_apply_account_baselines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class BatchApplyAccountBaselines extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_batch_apply_account_baselines',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

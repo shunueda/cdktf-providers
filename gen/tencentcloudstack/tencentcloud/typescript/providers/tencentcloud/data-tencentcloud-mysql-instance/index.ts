@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudMysqlInstanceConfig extends cdktf.TerraformMeta
   /**
   * Pay type of instance, valid values are `PREPAID` and `POSTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#charge_type DataTencentcloudMysqlInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#charge_type DataTencentcloudMysqlInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * The version number of the database engine to use. Supported versions include 5.5/5.6/5.7/8.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#engine_version DataTencentcloudMysqlInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#engine_version DataTencentcloudMysqlInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#id DataTencentcloudMysqlInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#id DataTencentcloudMysqlInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface DataTencentcloudMysqlInstanceConfig extends cdktf.TerraformMeta
   /**
   * Initialization mark. Available values: `0` - Uninitialized; `1` - Initialized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#init_flag DataTencentcloudMysqlInstance#init_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#init_flag DataTencentcloudMysqlInstance#init_flag}
   */
   readonly initFlag?: number;
   /**
   * Name of mysql instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#instance_name DataTencentcloudMysqlInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#instance_name DataTencentcloudMysqlInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Instance type. Supported values include: `master` - master instance, `dr` - disaster recovery instance, and `ro` - read-only instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#instance_role DataTencentcloudMysqlInstance#instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#instance_role DataTencentcloudMysqlInstance#instance_role}
   */
   readonly instanceRole?: string;
   /**
   * Number of results returned for a single request. Default is `20`, and maximum is 2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#limit DataTencentcloudMysqlInstance#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#limit DataTencentcloudMysqlInstance#limit}
   */
   readonly limit?: number;
   /**
   * Instance ID, such as `cdb-c1nl9rpv`. It is identical to the instance ID displayed in the database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#mysql_id DataTencentcloudMysqlInstance#mysql_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#mysql_id DataTencentcloudMysqlInstance#mysql_id}
   */
   readonly mysqlId?: string;
   /**
   * Record offset. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#offset DataTencentcloudMysqlInstance#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#offset DataTencentcloudMysqlInstance#offset}
   */
   readonly offset?: number;
   /**
   * Pay type of instance, `0`: prepay, `1`: postpaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#pay_type DataTencentcloudMysqlInstance#pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#pay_type DataTencentcloudMysqlInstance#pay_type}
   */
   readonly payType?: number;
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#result_output_file DataTencentcloudMysqlInstance#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#result_output_file DataTencentcloudMysqlInstance#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Security groups ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#security_group_id DataTencentcloudMysqlInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#security_group_id DataTencentcloudMysqlInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * Instance status. Available values: `0` - Creating; `1` - Running; `4` - Isolating; `5` - Isolated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#status DataTencentcloudMysqlInstance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#status DataTencentcloudMysqlInstance#status}
   */
   readonly status?: number;
   /**
   * Indicates whether to query disaster recovery instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#with_dr DataTencentcloudMysqlInstance#with_dr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#with_dr DataTencentcloudMysqlInstance#with_dr}
   */
   readonly withDr?: number;
   /**
   * Indicates whether to query master instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#with_master DataTencentcloudMysqlInstance#with_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#with_master DataTencentcloudMysqlInstance#with_master}
   */
   readonly withMaster?: number;
   /**
   * Indicates whether to query read-only instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#with_ro DataTencentcloudMysqlInstance#with_ro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#with_ro DataTencentcloudMysqlInstance#with_ro}
   */
   readonly withRo?: number;
 }
@@ -403,7 +403,7 @@ export class DataTencentcloudMysqlInstanceInstanceListStructList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance tencentcloud_mysql_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance tencentcloud_mysql_instance}
 */
 export class DataTencentcloudMysqlInstance extends cdktf.TerraformDataSource {
 
@@ -419,7 +419,7 @@ export class DataTencentcloudMysqlInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudMysqlInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlInstance to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -431,7 +431,7 @@ export class DataTencentcloudMysqlInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_instance tencentcloud_mysql_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mysql_instance tencentcloud_mysql_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -442,8 +442,8 @@ export class DataTencentcloudMysqlInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_mysql_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

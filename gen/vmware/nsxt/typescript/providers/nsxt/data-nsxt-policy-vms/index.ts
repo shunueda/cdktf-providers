@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataNsxtPolicyVmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Operating system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#guest_os DataNsxtPolicyVms#guest_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#guest_os DataNsxtPolicyVms#guest_os}
   */
   readonly guestOs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#id DataNsxtPolicyVms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#id DataNsxtPolicyVms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataNsxtPolicyVmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Power state of the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#state DataNsxtPolicyVms#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#state DataNsxtPolicyVms#state}
   */
   readonly state?: string;
   /**
   * Type of data populated in map value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#value_type DataNsxtPolicyVms#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#value_type DataNsxtPolicyVms#value_type}
   */
   readonly valueType?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#context DataNsxtPolicyVms#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#context DataNsxtPolicyVms#context}
   */
   readonly context?: DataNsxtPolicyVmsContext;
 }
@@ -43,7 +43,7 @@ export interface DataNsxtPolicyVmsContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#project_id DataNsxtPolicyVms#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#project_id DataNsxtPolicyVms#project_id}
   */
   readonly projectId: string;
 }
@@ -124,7 +124,7 @@ export class DataNsxtPolicyVmsContextOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms nsxt_policy_vms}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms nsxt_policy_vms}
 */
 export class DataNsxtPolicyVms extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataNsxtPolicyVms extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyVms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyVms to import
-  * @param importFromId The id of the existing DataNsxtPolicyVms that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyVms that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyVms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataNsxtPolicyVms extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vms nsxt_policy_vms} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vms nsxt_policy_vms} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataNsxtPolicyVms extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_vms',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

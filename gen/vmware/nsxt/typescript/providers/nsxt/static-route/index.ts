@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface StaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#description StaticRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#description StaticRoute#description}
   */
   readonly description?: string;
   /**
   * Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#display_name StaticRoute#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#display_name StaticRoute#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#id StaticRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#id StaticRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface StaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logical router id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#logical_router_id StaticRoute#logical_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#logical_router_id StaticRoute#logical_router_id}
   */
   readonly logicalRouterId: string;
   /**
   * CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#network StaticRoute#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#network StaticRoute#network}
   */
   readonly network: string;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
   */
   readonly nextHop: StaticRouteNextHop[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#tag StaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#tag StaticRoute#tag}
   */
   readonly tag?: StaticRouteTag[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface StaticRouteNextHop {
   /**
   * Administrative Distance for the next hop IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#administrative_distance StaticRoute#administrative_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#administrative_distance StaticRoute#administrative_distance}
   */
   readonly administrativeDistance?: number;
   /**
   * Next Hop IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#ip_address StaticRoute#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#ip_address StaticRoute#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Logical router port id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#logical_router_port_id StaticRoute#logical_router_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#logical_router_port_id StaticRoute#logical_router_port_id}
   */
   readonly logicalRouterPortId?: string;
 }
@@ -251,11 +251,11 @@ export class StaticRouteNextHopList extends cdktf.ComplexList {
 }
 export interface StaticRouteTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#scope StaticRoute#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#scope StaticRoute#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#tag StaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#tag StaticRoute#tag}
   */
   readonly tag?: string;
 }
@@ -400,7 +400,7 @@ export class StaticRouteTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route nsxt_static_route}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route nsxt_static_route}
 */
 export class StaticRoute extends cdktf.TerraformResource {
 
@@ -416,7 +416,7 @@ export class StaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StaticRoute to import
-  * @param importFromId The id of the existing StaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -428,7 +428,7 @@ export class StaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/static_route nsxt_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/static_route nsxt_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -439,8 +439,8 @@ export class StaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_static_route',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

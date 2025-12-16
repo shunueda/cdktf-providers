@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_access_key_id MsgVpnRestDeliveryPointRestConsumer#authentication_aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_access_key_id MsgVpnRestDeliveryPointRestConsumer#authentication_aws_access_key_id}
   */
   readonly authenticationAwsAccessKeyId?: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_region MsgVpnRestDeliveryPointRestConsumer#authentication_aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_region MsgVpnRestDeliveryPointRestConsumer#authentication_aws_region}
   */
   readonly authenticationAwsRegion?: string;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_secret_access_key MsgVpnRestDeliveryPointRestConsumer#authentication_aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_secret_access_key MsgVpnRestDeliveryPointRestConsumer#authentication_aws_secret_access_key}
   */
   readonly authenticationAwsSecretAccessKey?: string;
   /**
@@ -36,7 +36,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_service MsgVpnRestDeliveryPointRestConsumer#authentication_aws_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_aws_service MsgVpnRestDeliveryPointRestConsumer#authentication_aws_service}
   */
   readonly authenticationAwsService?: string;
   /**
@@ -44,7 +44,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_client_cert_content MsgVpnRestDeliveryPointRestConsumer#authentication_client_cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_client_cert_content MsgVpnRestDeliveryPointRestConsumer#authentication_client_cert_content}
   */
   readonly authenticationClientCertContent?: string;
   /**
@@ -52,7 +52,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. The default value is `""`. Available since SEMP API version 2.9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_client_cert_password MsgVpnRestDeliveryPointRestConsumer#authentication_client_cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_client_cert_password MsgVpnRestDeliveryPointRestConsumer#authentication_client_cert_password}
   */
   readonly authenticationClientCertPassword?: string;
   /**
@@ -60,7 +60,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_basic_password MsgVpnRestDeliveryPointRestConsumer#authentication_http_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_basic_password MsgVpnRestDeliveryPointRestConsumer#authentication_http_basic_password}
   */
   readonly authenticationHttpBasicPassword?: string;
   /**
@@ -68,7 +68,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_basic_username MsgVpnRestDeliveryPointRestConsumer#authentication_http_basic_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_basic_username MsgVpnRestDeliveryPointRestConsumer#authentication_http_basic_username}
   */
   readonly authenticationHttpBasicUsername?: string;
   /**
@@ -76,7 +76,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_header_name MsgVpnRestDeliveryPointRestConsumer#authentication_http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_header_name MsgVpnRestDeliveryPointRestConsumer#authentication_http_header_name}
   */
   readonly authenticationHttpHeaderName?: string;
   /**
@@ -84,7 +84,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_header_value MsgVpnRestDeliveryPointRestConsumer#authentication_http_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_http_header_value MsgVpnRestDeliveryPointRestConsumer#authentication_http_header_value}
   */
   readonly authenticationHttpHeaderValue?: string;
   /**
@@ -92,7 +92,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_id MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_id MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_id}
   */
   readonly authenticationOauthClientId?: string;
   /**
@@ -100,7 +100,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.42.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_proxy_name MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_proxy_name MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_proxy_name}
   */
   readonly authenticationOauthClientProxyName?: string;
   /**
@@ -108,7 +108,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_scope MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_scope MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_scope}
   */
   readonly authenticationOauthClientScope?: string;
   /**
@@ -116,7 +116,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_secret MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_secret MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_secret}
   */
   readonly authenticationOauthClientSecret?: string;
   /**
@@ -124,7 +124,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_token_endpoint MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_token_endpoint MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_token_endpoint}
   */
   readonly authenticationOauthClientTokenEndpoint?: string;
   /**
@@ -132,7 +132,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `900`. Available since SEMP API version 2.30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_token_expiry_default MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_token_expiry_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_client_token_expiry_default MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_client_token_expiry_default}
   */
   readonly authenticationOauthClientTokenExpiryDefault?: number;
   /**
@@ -140,7 +140,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.42.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_proxy_name MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_proxy_name MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_proxy_name}
   */
   readonly authenticationOauthJwtProxyName?: string;
   /**
@@ -148,7 +148,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_secret_key MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_secret_key MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_secret_key}
   */
   readonly authenticationOauthJwtSecretKey?: string;
   /**
@@ -156,7 +156,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_token_endpoint MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_token_endpoint MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_token_endpoint}
   */
   readonly authenticationOauthJwtTokenEndpoint?: string;
   /**
@@ -164,7 +164,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `900`. Available since SEMP API version 2.30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_token_expiry_default MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_token_expiry_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_oauth_jwt_token_expiry_default MsgVpnRestDeliveryPointRestConsumer#authentication_oauth_jwt_token_expiry_default}
   */
   readonly authenticationOauthJwtTokenExpiryDefault?: number;
   /**
@@ -184,7 +184,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_scheme MsgVpnRestDeliveryPointRestConsumer#authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#authentication_scheme MsgVpnRestDeliveryPointRestConsumer#authentication_scheme}
   */
   readonly authenticationScheme?: string;
   /**
@@ -192,7 +192,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#enabled MsgVpnRestDeliveryPointRestConsumer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#enabled MsgVpnRestDeliveryPointRestConsumer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -206,7 +206,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * </pre>
   *  Available since SEMP API version 2.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#http_method MsgVpnRestDeliveryPointRestConsumer#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#http_method MsgVpnRestDeliveryPointRestConsumer#http_method}
   */
   readonly httpMethod?: string;
   /**
@@ -214,7 +214,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#local_interface MsgVpnRestDeliveryPointRestConsumer#local_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#local_interface MsgVpnRestDeliveryPointRestConsumer#local_interface}
   */
   readonly localInterface?: string;
   /**
@@ -222,7 +222,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#max_post_wait_time MsgVpnRestDeliveryPointRestConsumer#max_post_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#max_post_wait_time MsgVpnRestDeliveryPointRestConsumer#max_post_wait_time}
   */
   readonly maxPostWaitTime?: number;
   /**
@@ -230,7 +230,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#msg_vpn_name MsgVpnRestDeliveryPointRestConsumer#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#msg_vpn_name MsgVpnRestDeliveryPointRestConsumer#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -238,7 +238,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#outgoing_connection_count MsgVpnRestDeliveryPointRestConsumer#outgoing_connection_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#outgoing_connection_count MsgVpnRestDeliveryPointRestConsumer#outgoing_connection_count}
   */
   readonly outgoingConnectionCount?: number;
   /**
@@ -246,15 +246,23 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#proxy_name MsgVpnRestDeliveryPointRestConsumer#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#proxy_name MsgVpnRestDeliveryPointRestConsumer#proxy_name}
   */
   readonly proxyName?: string;
+  /**
+  * Comma-separated list of HTTP status codes or status code ranges which should be processed as a "rejected" (do not retry) outcome.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`. Available since SEMP API version 2.47.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#rejected_status_code_list MsgVpnRestDeliveryPointRestConsumer#rejected_status_code_list}
+  */
+  readonly rejectedStatusCodeList?: string;
   /**
   * The IP address or DNS name to which the broker is to connect to deliver messages for the REST Consumer. A host value must be configured for the REST Consumer to be operationally up.
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#remote_host MsgVpnRestDeliveryPointRestConsumer#remote_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#remote_host MsgVpnRestDeliveryPointRestConsumer#remote_host}
   */
   readonly remoteHost?: string;
   /**
@@ -262,7 +270,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `8080`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#remote_port MsgVpnRestDeliveryPointRestConsumer#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#remote_port MsgVpnRestDeliveryPointRestConsumer#remote_port}
   */
   readonly remotePort?: number;
   /**
@@ -270,7 +278,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#rest_consumer_name MsgVpnRestDeliveryPointRestConsumer#rest_consumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#rest_consumer_name MsgVpnRestDeliveryPointRestConsumer#rest_consumer_name}
   */
   readonly restConsumerName: string;
   /**
@@ -278,7 +286,7 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#rest_delivery_point_name MsgVpnRestDeliveryPointRestConsumer#rest_delivery_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#rest_delivery_point_name MsgVpnRestDeliveryPointRestConsumer#rest_delivery_point_name}
   */
   readonly restDeliveryPointName: string;
   /**
@@ -286,15 +294,15 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#retry_delay MsgVpnRestDeliveryPointRestConsumer#retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#retry_delay MsgVpnRestDeliveryPointRestConsumer#retry_delay}
   */
   readonly retryDelay?: number;
   /**
-  * The colon-separated list of cipher suites the REST Consumer uses in its encrypted connection. The value `"default"` implies all supported suites ordered from most secure to least secure. The list of default cipher suites is available in the `tlsCipherSuiteMsgBackboneDefaultList` attribute of the broker object in the Monitoring API. The REST Consumer should choose the first suite from this list that it supports.
+  * The colon-separated list of cipher suites the REST Consumer uses in its encrypted connection when using TLS 1.2 and lower. The value `"default"` implies all supported suites ordered from most secure to least secure. The list of default cipher suites is available in the `tlsCipherSuiteMsgBackboneDefaultList` attribute of the broker object in the Monitoring API. The REST Consumer should choose the first suite from this list that it supports.
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#tls_cipher_suite_list MsgVpnRestDeliveryPointRestConsumer#tls_cipher_suite_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#tls_cipher_suite_list MsgVpnRestDeliveryPointRestConsumer#tls_cipher_suite_list}
   */
   readonly tlsCipherSuiteList?: string;
   /**
@@ -302,13 +310,13 @@ export interface MsgVpnRestDeliveryPointRestConsumerConfig extends cdktf.Terrafo
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#tls_enabled MsgVpnRestDeliveryPointRestConsumer#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#tls_enabled MsgVpnRestDeliveryPointRestConsumer#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer solacebroker_msg_vpn_rest_delivery_point_rest_consumer}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer solacebroker_msg_vpn_rest_delivery_point_rest_consumer}
 */
 export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource {
 
@@ -324,7 +332,7 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
   * Generates CDKTF code for importing a MsgVpnRestDeliveryPointRestConsumer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnRestDeliveryPointRestConsumer to import
-  * @param importFromId The id of the existing MsgVpnRestDeliveryPointRestConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnRestDeliveryPointRestConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnRestDeliveryPointRestConsumer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -336,7 +344,7 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer solacebroker_msg_vpn_rest_delivery_point_rest_consumer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_rest_delivery_point_rest_consumer solacebroker_msg_vpn_rest_delivery_point_rest_consumer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,8 +355,8 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
       terraformResourceType: 'solacebroker_msg_vpn_rest_delivery_point_rest_consumer',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -386,6 +394,7 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
     this._msgVpnName = config.msgVpnName;
     this._outgoingConnectionCount = config.outgoingConnectionCount;
     this._proxyName = config.proxyName;
+    this._rejectedStatusCodeList = config.rejectedStatusCodeList;
     this._remoteHost = config.remoteHost;
     this._remotePort = config.remotePort;
     this._restConsumerName = config.restConsumerName;
@@ -844,6 +853,22 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
     return this._proxyName;
   }
 
+  // rejected_status_code_list - computed: false, optional: true, required: false
+  private _rejectedStatusCodeList?: string; 
+  public get rejectedStatusCodeList() {
+    return this.getStringAttribute('rejected_status_code_list');
+  }
+  public set rejectedStatusCodeList(value: string) {
+    this._rejectedStatusCodeList = value;
+  }
+  public resetRejectedStatusCodeList() {
+    this._rejectedStatusCodeList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rejectedStatusCodeListInput() {
+    return this._rejectedStatusCodeList;
+  }
+
   // remote_host - computed: false, optional: true, required: false
   private _remoteHost?: string; 
   public get remoteHost() {
@@ -984,6 +1009,7 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
       msg_vpn_name: cdktf.stringToTerraform(this._msgVpnName),
       outgoing_connection_count: cdktf.numberToTerraform(this._outgoingConnectionCount),
       proxy_name: cdktf.stringToTerraform(this._proxyName),
+      rejected_status_code_list: cdktf.stringToTerraform(this._rejectedStatusCodeList),
       remote_host: cdktf.stringToTerraform(this._remoteHost),
       remote_port: cdktf.numberToTerraform(this._remotePort),
       rest_consumer_name: cdktf.stringToTerraform(this._restConsumerName),
@@ -1160,6 +1186,12 @@ export class MsgVpnRestDeliveryPointRestConsumer extends cdktf.TerraformResource
       },
       proxy_name: {
         value: cdktf.stringToHclTerraform(this._proxyName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rejected_status_code_list: {
+        value: cdktf.stringToHclTerraform(this._rejectedStatusCodeList),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

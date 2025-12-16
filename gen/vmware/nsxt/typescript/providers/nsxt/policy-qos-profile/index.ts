@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyQosProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Class of service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#class_of_service PolicyQosProfile#class_of_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#class_of_service PolicyQosProfile#class_of_service}
   */
   readonly classOfService?: number;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#description PolicyQosProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#description PolicyQosProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#display_name PolicyQosProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#display_name PolicyQosProfile#display_name}
   */
   readonly displayName: string;
   /**
   * DSCP Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#dscp_priority PolicyQosProfile#dscp_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#dscp_priority PolicyQosProfile#dscp_priority}
   */
   readonly dscpPriority?: number;
   /**
   * Trust mode for DSCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#dscp_trusted PolicyQosProfile#dscp_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#dscp_trusted PolicyQosProfile#dscp_trusted}
   */
   readonly dscpTrusted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#id PolicyQosProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#id PolicyQosProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface PolicyQosProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#nsx_id PolicyQosProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#nsx_id PolicyQosProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#context PolicyQosProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#context PolicyQosProfile#context}
   */
   readonly context?: PolicyQosProfileContext;
   /**
   * egress_rate_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#egress_rate_shaper PolicyQosProfile#egress_rate_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#egress_rate_shaper PolicyQosProfile#egress_rate_shaper}
   */
   readonly egressRateShaper?: PolicyQosProfileEgressRateShaper;
   /**
   * ingress_broadcast_rate_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#ingress_broadcast_rate_shaper PolicyQosProfile#ingress_broadcast_rate_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#ingress_broadcast_rate_shaper PolicyQosProfile#ingress_broadcast_rate_shaper}
   */
   readonly ingressBroadcastRateShaper?: PolicyQosProfileIngressBroadcastRateShaper;
   /**
   * ingress_rate_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#ingress_rate_shaper PolicyQosProfile#ingress_rate_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#ingress_rate_shaper PolicyQosProfile#ingress_rate_shaper}
   */
   readonly ingressRateShaper?: PolicyQosProfileIngressRateShaper;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#tag PolicyQosProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#tag PolicyQosProfile#tag}
   */
   readonly tag?: PolicyQosProfileTag[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface PolicyQosProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#project_id PolicyQosProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#project_id PolicyQosProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -168,25 +168,25 @@ export interface PolicyQosProfileEgressRateShaper {
   /**
   * Average Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#average_bw_mbps PolicyQosProfile#average_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#average_bw_mbps PolicyQosProfile#average_bw_mbps}
   */
   readonly averageBwMbps?: number;
   /**
   * Burst size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#burst_size PolicyQosProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#burst_size PolicyQosProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Whether this rate shaper is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#enabled PolicyQosProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#enabled PolicyQosProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Peak Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#peak_bw_mbps PolicyQosProfile#peak_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#peak_bw_mbps PolicyQosProfile#peak_bw_mbps}
   */
   readonly peakBwMbps?: number;
 }
@@ -359,25 +359,25 @@ export interface PolicyQosProfileIngressBroadcastRateShaper {
   /**
   * Average Bandwidth in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#average_bw_kbps PolicyQosProfile#average_bw_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#average_bw_kbps PolicyQosProfile#average_bw_kbps}
   */
   readonly averageBwKbps?: number;
   /**
   * Burst size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#burst_size PolicyQosProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#burst_size PolicyQosProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Whether this rate shaper is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#enabled PolicyQosProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#enabled PolicyQosProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Peak Bandwidth in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#peak_bw_kbps PolicyQosProfile#peak_bw_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#peak_bw_kbps PolicyQosProfile#peak_bw_kbps}
   */
   readonly peakBwKbps?: number;
 }
@@ -550,25 +550,25 @@ export interface PolicyQosProfileIngressRateShaper {
   /**
   * Average Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#average_bw_mbps PolicyQosProfile#average_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#average_bw_mbps PolicyQosProfile#average_bw_mbps}
   */
   readonly averageBwMbps?: number;
   /**
   * Burst size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#burst_size PolicyQosProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#burst_size PolicyQosProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Whether this rate shaper is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#enabled PolicyQosProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#enabled PolicyQosProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Peak Bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#peak_bw_mbps PolicyQosProfile#peak_bw_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#peak_bw_mbps PolicyQosProfile#peak_bw_mbps}
   */
   readonly peakBwMbps?: number;
 }
@@ -739,11 +739,11 @@ export class PolicyQosProfileIngressRateShaperOutputReference extends cdktf.Comp
 }
 export interface PolicyQosProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#scope PolicyQosProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#scope PolicyQosProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#tag PolicyQosProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#tag PolicyQosProfile#tag}
   */
   readonly tag?: string;
 }
@@ -888,7 +888,7 @@ export class PolicyQosProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile nsxt_policy_qos_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile nsxt_policy_qos_profile}
 */
 export class PolicyQosProfile extends cdktf.TerraformResource {
 
@@ -904,7 +904,7 @@ export class PolicyQosProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyQosProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyQosProfile to import
-  * @param importFromId The id of the existing PolicyQosProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyQosProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyQosProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -916,7 +916,7 @@ export class PolicyQosProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_qos_profile nsxt_policy_qos_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_qos_profile nsxt_policy_qos_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -927,8 +927,8 @@ export class PolicyQosProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_qos_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClbTargetGroupAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#id ClbTargetGroupAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#id ClbTargetGroupAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ClbTargetGroupAttachmentsConfig extends cdktf.TerraformMetaArgu
   /**
   * CLB instance ID, (load_balancer_id and target_group_id require at least one).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#load_balancer_id ClbTargetGroupAttachments#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#load_balancer_id ClbTargetGroupAttachments#load_balancer_id}
   */
   readonly loadBalancerId?: string;
   /**
   * Target group ID, (load_balancer_id and target_group_id require at least one).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#target_group_id ClbTargetGroupAttachments#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#target_group_id ClbTargetGroupAttachments#target_group_id}
   */
   readonly targetGroupId?: string;
   /**
   * associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#associations ClbTargetGroupAttachments#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#associations ClbTargetGroupAttachments#associations}
   */
   readonly associations: ClbTargetGroupAttachmentsAssociations[] | cdktf.IResolvable;
 }
@@ -37,25 +37,25 @@ export interface ClbTargetGroupAttachmentsAssociations {
   /**
   * Listener ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#listener_id ClbTargetGroupAttachments#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#listener_id ClbTargetGroupAttachments#listener_id}
   */
   readonly listenerId?: string;
   /**
   * CLB instance ID, when the binding target is target group, load_balancer_id in associations is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#load_balancer_id ClbTargetGroupAttachments#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#load_balancer_id ClbTargetGroupAttachments#load_balancer_id}
   */
   readonly loadBalancerId?: string;
   /**
   * Forwarding rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#location_id ClbTargetGroupAttachments#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#location_id ClbTargetGroupAttachments#location_id}
   */
   readonly locationId?: string;
   /**
   * Target group ID, when the binding target is clb, the target_group_id in associations is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#target_group_id ClbTargetGroupAttachments#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#target_group_id ClbTargetGroupAttachments#target_group_id}
   */
   readonly targetGroupId?: string;
 }
@@ -258,7 +258,7 @@ export class ClbTargetGroupAttachmentsAssociationsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments tencentcloud_clb_target_group_attachments}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments tencentcloud_clb_target_group_attachments}
 */
 export class ClbTargetGroupAttachments extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class ClbTargetGroupAttachments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbTargetGroupAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbTargetGroupAttachments to import
-  * @param importFromId The id of the existing ClbTargetGroupAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbTargetGroupAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbTargetGroupAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class ClbTargetGroupAttachments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_target_group_attachments tencentcloud_clb_target_group_attachments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/clb_target_group_attachments tencentcloud_clb_target_group_attachments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class ClbTargetGroupAttachments extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_target_group_attachments',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

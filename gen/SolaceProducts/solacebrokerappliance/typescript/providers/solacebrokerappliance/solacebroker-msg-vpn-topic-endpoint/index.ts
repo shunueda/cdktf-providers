@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,7 +18,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#access_type SolacebrokerMsgVpnTopicEndpoint#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#access_type SolacebrokerMsgVpnTopicEndpoint#access_type}
   */
   readonly accessType?: string;
   /**
@@ -26,7 +26,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#consumer_ack_propagation_enabled SolacebrokerMsgVpnTopicEndpoint#consumer_ack_propagation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#consumer_ack_propagation_enabled SolacebrokerMsgVpnTopicEndpoint#consumer_ack_propagation_enabled}
   */
   readonly consumerAckPropagationEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -34,7 +34,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"#DEAD_MSG_QUEUE"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#dead_msg_queue SolacebrokerMsgVpnTopicEndpoint#dead_msg_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#dead_msg_queue SolacebrokerMsgVpnTopicEndpoint#dead_msg_queue}
   */
   readonly deadMsgQueue?: string;
   /**
@@ -42,7 +42,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#delivery_count_enabled SolacebrokerMsgVpnTopicEndpoint#delivery_count_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#delivery_count_enabled SolacebrokerMsgVpnTopicEndpoint#delivery_count_enabled}
   */
   readonly deliveryCountEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -50,7 +50,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`. Available since SEMP API version 2.22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#delivery_delay SolacebrokerMsgVpnTopicEndpoint#delivery_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#delivery_delay SolacebrokerMsgVpnTopicEndpoint#delivery_delay}
   */
   readonly deliveryDelay?: number;
   /**
@@ -58,25 +58,25 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#egress_enabled SolacebrokerMsgVpnTopicEndpoint#egress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#egress_enabled SolacebrokerMsgVpnTopicEndpoint#egress_enabled}
   */
   readonly egressEnabled?: boolean | cdktf.IResolvable;
   /**
   * The thresholds for the Topic Endpoint consumer flows event, relative to `max_bind_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#event_bind_count_threshold SolacebrokerMsgVpnTopicEndpoint#event_bind_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#event_bind_count_threshold SolacebrokerMsgVpnTopicEndpoint#event_bind_count_threshold}
   */
   readonly eventBindCountThreshold?: SolacebrokerMsgVpnTopicEndpointEventBindCountThreshold;
   /**
   * The thresholds for the maximum allowed number of any priority messages queued in the Topic Endpoint event, relative to `reject_low_priority_msg_limit`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#event_reject_low_priority_msg_limit_threshold SolacebrokerMsgVpnTopicEndpoint#event_reject_low_priority_msg_limit_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#event_reject_low_priority_msg_limit_threshold SolacebrokerMsgVpnTopicEndpoint#event_reject_low_priority_msg_limit_threshold}
   */
   readonly eventRejectLowPriorityMsgLimitThreshold?: SolacebrokerMsgVpnTopicEndpointEventRejectLowPriorityMsgLimitThreshold;
   /**
   * The thresholds for the message spool usage event of the Topic Endpoint, relative to `max_spool_usage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#event_spool_usage_threshold SolacebrokerMsgVpnTopicEndpoint#event_spool_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#event_spool_usage_threshold SolacebrokerMsgVpnTopicEndpoint#event_spool_usage_threshold}
   */
   readonly eventSpoolUsageThreshold?: SolacebrokerMsgVpnTopicEndpointEventSpoolUsageThreshold;
   /**
@@ -84,7 +84,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#ingress_enabled SolacebrokerMsgVpnTopicEndpoint#ingress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#ingress_enabled SolacebrokerMsgVpnTopicEndpoint#ingress_enabled}
   */
   readonly ingressEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -92,7 +92,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_bind_count SolacebrokerMsgVpnTopicEndpoint#max_bind_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_bind_count SolacebrokerMsgVpnTopicEndpoint#max_bind_count}
   */
   readonly maxBindCount?: number;
   /**
@@ -100,7 +100,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_delivered_unacked_msgs_per_flow SolacebrokerMsgVpnTopicEndpoint#max_delivered_unacked_msgs_per_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_delivered_unacked_msgs_per_flow SolacebrokerMsgVpnTopicEndpoint#max_delivered_unacked_msgs_per_flow}
   */
   readonly maxDeliveredUnackedMsgsPerFlow?: number;
   /**
@@ -108,7 +108,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `10000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_msg_size SolacebrokerMsgVpnTopicEndpoint#max_msg_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_msg_size SolacebrokerMsgVpnTopicEndpoint#max_msg_size}
   */
   readonly maxMsgSize?: number;
   /**
@@ -116,7 +116,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_redelivery_count SolacebrokerMsgVpnTopicEndpoint#max_redelivery_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_redelivery_count SolacebrokerMsgVpnTopicEndpoint#max_redelivery_count}
   */
   readonly maxRedeliveryCount?: number;
   /**
@@ -124,7 +124,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `5000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_spool_usage SolacebrokerMsgVpnTopicEndpoint#max_spool_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_spool_usage SolacebrokerMsgVpnTopicEndpoint#max_spool_usage}
   */
   readonly maxSpoolUsage?: number;
   /**
@@ -132,7 +132,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_ttl SolacebrokerMsgVpnTopicEndpoint#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#max_ttl SolacebrokerMsgVpnTopicEndpoint#max_ttl}
   */
   readonly maxTtl?: number;
   /**
@@ -140,7 +140,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#msg_vpn_name SolacebrokerMsgVpnTopicEndpoint#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#msg_vpn_name SolacebrokerMsgVpnTopicEndpoint#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -148,7 +148,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as egress_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#owner SolacebrokerMsgVpnTopicEndpoint#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#owner SolacebrokerMsgVpnTopicEndpoint#owner}
   */
   readonly owner?: string;
   /**
@@ -165,7 +165,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#permission SolacebrokerMsgVpnTopicEndpoint#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#permission SolacebrokerMsgVpnTopicEndpoint#permission}
   */
   readonly permission?: string;
   /**
@@ -173,7 +173,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as egress_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_enabled SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_enabled SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_enabled}
   */
   readonly redeliveryDelayEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -181,7 +181,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as egress_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `1000`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_initial_interval SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_initial_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_initial_interval SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_initial_interval}
   */
   readonly redeliveryDelayInitialInterval?: number;
   /**
@@ -189,7 +189,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as egress_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `64000`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_max_interval SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_max_interval SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_max_interval}
   */
   readonly redeliveryDelayMaxInterval?: number;
   /**
@@ -197,7 +197,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as egress_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `200`. Available since SEMP API version 2.33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_multiplier SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_delay_multiplier SolacebrokerMsgVpnTopicEndpoint#redelivery_delay_multiplier}
   */
   readonly redeliveryDelayMultiplier?: number;
   /**
@@ -205,7 +205,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `true`. Available since SEMP API version 2.18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_enabled SolacebrokerMsgVpnTopicEndpoint#redelivery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#redelivery_enabled SolacebrokerMsgVpnTopicEndpoint#redelivery_enabled}
   */
   readonly redeliveryEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -213,7 +213,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#reject_low_priority_msg_enabled SolacebrokerMsgVpnTopicEndpoint#reject_low_priority_msg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#reject_low_priority_msg_enabled SolacebrokerMsgVpnTopicEndpoint#reject_low_priority_msg_enabled}
   */
   readonly rejectLowPriorityMsgEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -221,7 +221,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#reject_low_priority_msg_limit SolacebrokerMsgVpnTopicEndpoint#reject_low_priority_msg_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#reject_low_priority_msg_limit SolacebrokerMsgVpnTopicEndpoint#reject_low_priority_msg_limit}
   */
   readonly rejectLowPriorityMsgLimit?: number;
   /**
@@ -236,15 +236,23 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#reject_msg_to_sender_on_discard_behavior SolacebrokerMsgVpnTopicEndpoint#reject_msg_to_sender_on_discard_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#reject_msg_to_sender_on_discard_behavior SolacebrokerMsgVpnTopicEndpoint#reject_msg_to_sender_on_discard_behavior}
   */
   readonly rejectMsgToSenderOnDiscardBehavior?: string;
+  /**
+  * Enable or disable the respecting of DMQ Eligible for messages in the Topic Endpoint.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.49.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#respect_dmq_eligible_enabled SolacebrokerMsgVpnTopicEndpoint#respect_dmq_eligible_enabled}
+  */
+  readonly respectDmqEligibleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the respecting of message priority. When enabled, messages contained in the Topic Endpoint are delivered in priority order, from 9 (highest) to 0 (lowest).
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as egress_enabled and ingress_enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`. Available since SEMP API version 2.8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#respect_msg_priority_enabled SolacebrokerMsgVpnTopicEndpoint#respect_msg_priority_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#respect_msg_priority_enabled SolacebrokerMsgVpnTopicEndpoint#respect_msg_priority_enabled}
   */
   readonly respectMsgPriorityEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -252,7 +260,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#respect_ttl_enabled SolacebrokerMsgVpnTopicEndpoint#respect_ttl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#respect_ttl_enabled SolacebrokerMsgVpnTopicEndpoint#respect_ttl_enabled}
   */
   readonly respectTtlEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -260,7 +268,7 @@ export interface SolacebrokerMsgVpnTopicEndpointConfig extends cdktf.TerraformMe
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#topic_endpoint_name SolacebrokerMsgVpnTopicEndpoint#topic_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#topic_endpoint_name SolacebrokerMsgVpnTopicEndpoint#topic_endpoint_name}
   */
   readonly topicEndpointName: string;
 }
@@ -270,7 +278,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_percent SolacebrokerMsgVpnTopicEndpoint#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_percent SolacebrokerMsgVpnTopicEndpoint#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -278,7 +286,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_value SolacebrokerMsgVpnTopicEndpoint#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_value SolacebrokerMsgVpnTopicEndpoint#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -286,7 +294,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_percent SolacebrokerMsgVpnTopicEndpoint#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_percent SolacebrokerMsgVpnTopicEndpoint#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -294,7 +302,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventBindCountThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_value SolacebrokerMsgVpnTopicEndpoint#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_value SolacebrokerMsgVpnTopicEndpoint#set_value}
   */
   readonly setValue?: number;
 }
@@ -479,7 +487,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_percent SolacebrokerMsgVpnTopicEndpoint#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_percent SolacebrokerMsgVpnTopicEndpoint#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -487,7 +495,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_value SolacebrokerMsgVpnTopicEndpoint#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_value SolacebrokerMsgVpnTopicEndpoint#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -495,7 +503,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `80`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_percent SolacebrokerMsgVpnTopicEndpoint#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_percent SolacebrokerMsgVpnTopicEndpoint#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -503,7 +511,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventRejectLowPriorityMsgLimitTh
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_value SolacebrokerMsgVpnTopicEndpoint#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_value SolacebrokerMsgVpnTopicEndpoint#set_value}
   */
   readonly setValue?: number;
 }
@@ -688,7 +696,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `18`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_percent SolacebrokerMsgVpnTopicEndpoint#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_percent SolacebrokerMsgVpnTopicEndpoint#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -696,7 +704,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_value SolacebrokerMsgVpnTopicEndpoint#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#clear_value SolacebrokerMsgVpnTopicEndpoint#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -704,7 +712,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_percent SolacebrokerMsgVpnTopicEndpoint#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_percent SolacebrokerMsgVpnTopicEndpoint#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -712,7 +720,7 @@ export interface SolacebrokerMsgVpnTopicEndpointEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_value SolacebrokerMsgVpnTopicEndpoint#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#set_value SolacebrokerMsgVpnTopicEndpoint#set_value}
   */
   readonly setValue?: number;
 }
@@ -893,7 +901,7 @@ export class SolacebrokerMsgVpnTopicEndpointEventSpoolUsageThresholdOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint}
 */
 export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
 
@@ -909,7 +917,7 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SolacebrokerMsgVpnTopicEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnTopicEndpoint to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnTopicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnTopicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnTopicEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -921,7 +929,7 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_topic_endpoint solacebroker_msg_vpn_topic_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -932,8 +940,8 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_topic_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -970,6 +978,7 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
     this._rejectLowPriorityMsgEnabled = config.rejectLowPriorityMsgEnabled;
     this._rejectLowPriorityMsgLimit = config.rejectLowPriorityMsgLimit;
     this._rejectMsgToSenderOnDiscardBehavior = config.rejectMsgToSenderOnDiscardBehavior;
+    this._respectDmqEligibleEnabled = config.respectDmqEligibleEnabled;
     this._respectMsgPriorityEnabled = config.respectMsgPriorityEnabled;
     this._respectTtlEnabled = config.respectTtlEnabled;
     this._topicEndpointName = config.topicEndpointName;
@@ -1408,6 +1417,22 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
     return this._rejectMsgToSenderOnDiscardBehavior;
   }
 
+  // respect_dmq_eligible_enabled - computed: false, optional: true, required: false
+  private _respectDmqEligibleEnabled?: boolean | cdktf.IResolvable; 
+  public get respectDmqEligibleEnabled() {
+    return this.getBooleanAttribute('respect_dmq_eligible_enabled');
+  }
+  public set respectDmqEligibleEnabled(value: boolean | cdktf.IResolvable) {
+    this._respectDmqEligibleEnabled = value;
+  }
+  public resetRespectDmqEligibleEnabled() {
+    this._respectDmqEligibleEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectDmqEligibleEnabledInput() {
+    return this._respectDmqEligibleEnabled;
+  }
+
   // respect_msg_priority_enabled - computed: false, optional: true, required: false
   private _respectMsgPriorityEnabled?: boolean | cdktf.IResolvable; 
   public get respectMsgPriorityEnabled() {
@@ -1486,6 +1511,7 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
       reject_low_priority_msg_enabled: cdktf.booleanToTerraform(this._rejectLowPriorityMsgEnabled),
       reject_low_priority_msg_limit: cdktf.numberToTerraform(this._rejectLowPriorityMsgLimit),
       reject_msg_to_sender_on_discard_behavior: cdktf.stringToTerraform(this._rejectMsgToSenderOnDiscardBehavior),
+      respect_dmq_eligible_enabled: cdktf.booleanToTerraform(this._respectDmqEligibleEnabled),
       respect_msg_priority_enabled: cdktf.booleanToTerraform(this._respectMsgPriorityEnabled),
       respect_ttl_enabled: cdktf.booleanToTerraform(this._respectTtlEnabled),
       topic_endpoint_name: cdktf.stringToTerraform(this._topicEndpointName),
@@ -1655,6 +1681,12 @@ export class SolacebrokerMsgVpnTopicEndpoint extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      respect_dmq_eligible_enabled: {
+        value: cdktf.booleanToHclTerraform(this._respectDmqEligibleEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       respect_msg_priority_enabled: {
         value: cdktf.booleanToHclTerraform(this._respectMsgPriorityEnabled),

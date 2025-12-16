@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#description PolicyDhcpServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#description PolicyDhcpServer#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#display_name PolicyDhcpServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#display_name PolicyDhcpServer#display_name}
   */
   readonly displayName: string;
   /**
   * Edge Cluster path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#edge_cluster_path PolicyDhcpServer#edge_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#edge_cluster_path PolicyDhcpServer#edge_cluster_path}
   */
   readonly edgeClusterPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#id PolicyDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#id PolicyDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface PolicyDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP Address lease time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#lease_time PolicyDhcpServer#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#lease_time PolicyDhcpServer#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#nsx_id PolicyDhcpServer#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#nsx_id PolicyDhcpServer#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The first edge node is assigned as active edge, and second one as standby edge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#preferred_edge_paths PolicyDhcpServer#preferred_edge_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#preferred_edge_paths PolicyDhcpServer#preferred_edge_paths}
   */
   readonly preferredEdgePaths?: string[];
   /**
   * DHCP server address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#server_addresses PolicyDhcpServer#server_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#server_addresses PolicyDhcpServer#server_addresses}
   */
   readonly serverAddresses?: string[];
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#context PolicyDhcpServer#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#context PolicyDhcpServer#context}
   */
   readonly context?: PolicyDhcpServerContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#tag PolicyDhcpServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#tag PolicyDhcpServer#tag}
   */
   readonly tag?: PolicyDhcpServerTag[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface PolicyDhcpServerContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#project_id PolicyDhcpServer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#project_id PolicyDhcpServer#project_id}
   */
   readonly projectId: string;
 }
@@ -154,11 +154,11 @@ export class PolicyDhcpServerContextOutputReference extends cdktf.ComplexObject 
 }
 export interface PolicyDhcpServerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#scope PolicyDhcpServer#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#scope PolicyDhcpServer#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#tag PolicyDhcpServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#tag PolicyDhcpServer#tag}
   */
   readonly tag?: string;
 }
@@ -303,7 +303,7 @@ export class PolicyDhcpServerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server nsxt_policy_dhcp_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server nsxt_policy_dhcp_server}
 */
 export class PolicyDhcpServer extends cdktf.TerraformResource {
 
@@ -319,7 +319,7 @@ export class PolicyDhcpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyDhcpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyDhcpServer to import
-  * @param importFromId The id of the existing PolicyDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyDhcpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class PolicyDhcpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_dhcp_server nsxt_policy_dhcp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_dhcp_server nsxt_policy_dhcp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class PolicyDhcpServer extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_dhcp_server',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

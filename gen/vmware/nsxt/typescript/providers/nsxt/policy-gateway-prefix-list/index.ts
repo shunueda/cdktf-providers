@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyGatewayPrefixListConfig extends cdktf.TerraformMetaArgume
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#description PolicyGatewayPrefixList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#description PolicyGatewayPrefixList#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#display_name PolicyGatewayPrefixList#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#display_name PolicyGatewayPrefixList#display_name}
   */
   readonly displayName: string;
   /**
   * Policy path for Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#gateway_path PolicyGatewayPrefixList#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#gateway_path PolicyGatewayPrefixList#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#id PolicyGatewayPrefixList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#id PolicyGatewayPrefixList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface PolicyGatewayPrefixListConfig extends cdktf.TerraformMetaArgume
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#nsx_id PolicyGatewayPrefixList#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#nsx_id PolicyGatewayPrefixList#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#prefix PolicyGatewayPrefixList#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#prefix PolicyGatewayPrefixList#prefix}
   */
   readonly prefix: PolicyGatewayPrefixListPrefix[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#tag PolicyGatewayPrefixList#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#tag PolicyGatewayPrefixList#tag}
   */
   readonly tag?: PolicyGatewayPrefixListTag[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface PolicyGatewayPrefixListPrefix {
   /**
   * Action for the prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#action PolicyGatewayPrefixList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#action PolicyGatewayPrefixList#action}
   */
   readonly action?: string;
   /**
   * Prefix length greater than or equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#ge PolicyGatewayPrefixList#ge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#ge PolicyGatewayPrefixList#ge}
   */
   readonly ge?: number;
   /**
   * Prefix length less than or equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#le PolicyGatewayPrefixList#le}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#le PolicyGatewayPrefixList#le}
   */
   readonly le?: number;
   /**
   * Network prefix in CIDR format. If not set it will match ANY network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#network PolicyGatewayPrefixList#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#network PolicyGatewayPrefixList#network}
   */
   readonly network?: string;
 }
@@ -276,11 +276,11 @@ export class PolicyGatewayPrefixListPrefixList extends cdktf.ComplexList {
 }
 export interface PolicyGatewayPrefixListTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#scope PolicyGatewayPrefixList#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#scope PolicyGatewayPrefixList#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#tag PolicyGatewayPrefixList#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#tag PolicyGatewayPrefixList#tag}
   */
   readonly tag?: string;
 }
@@ -425,7 +425,7 @@ export class PolicyGatewayPrefixListTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list nsxt_policy_gateway_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list nsxt_policy_gateway_prefix_list}
 */
 export class PolicyGatewayPrefixList extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class PolicyGatewayPrefixList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGatewayPrefixList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayPrefixList to import
-  * @param importFromId The id of the existing PolicyGatewayPrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayPrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayPrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class PolicyGatewayPrefixList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_prefix_list nsxt_policy_gateway_prefix_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_prefix_list nsxt_policy_gateway_prefix_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class PolicyGatewayPrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_gateway_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

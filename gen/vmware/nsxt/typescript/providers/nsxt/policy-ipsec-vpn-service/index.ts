@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyIpsecVpnServiceConfig extends cdktf.TerraformMetaArgument
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#description PolicyIpsecVpnService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#description PolicyIpsecVpnService#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#display_name PolicyIpsecVpnService#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#display_name PolicyIpsecVpnService#display_name}
   */
   readonly displayName: string;
   /**
   * Enable/Disable IPSec VPN service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#enabled PolicyIpsecVpnService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#enabled PolicyIpsecVpnService#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Policy path for the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#gateway_path PolicyIpsecVpnService#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#gateway_path PolicyIpsecVpnService#gateway_path}
   */
   readonly gatewayPath?: string;
   /**
   * Enable/Disable IPSec VPN service HA state sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#ha_sync PolicyIpsecVpnService#ha_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#ha_sync PolicyIpsecVpnService#ha_sync}
   */
   readonly haSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#id PolicyIpsecVpnService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#id PolicyIpsecVpnService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface PolicyIpsecVpnServiceConfig extends cdktf.TerraformMetaArgument
   /**
   * Log level for internet key exchange (IKE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#ike_log_level PolicyIpsecVpnService#ike_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#ike_log_level PolicyIpsecVpnService#ike_log_level}
   */
   readonly ikeLogLevel?: string;
   /**
   * Polciy path for the locale service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#locale_service_path PolicyIpsecVpnService#locale_service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#locale_service_path PolicyIpsecVpnService#locale_service_path}
   */
   readonly localeServicePath?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#nsx_id PolicyIpsecVpnService#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#nsx_id PolicyIpsecVpnService#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * bypass_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#bypass_rule PolicyIpsecVpnService#bypass_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#bypass_rule PolicyIpsecVpnService#bypass_rule}
   */
   readonly bypassRule?: PolicyIpsecVpnServiceBypassRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#tag PolicyIpsecVpnService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#tag PolicyIpsecVpnService#tag}
   */
   readonly tag?: PolicyIpsecVpnServiceTag[] | cdktf.IResolvable;
 }
@@ -79,19 +79,19 @@ export interface PolicyIpsecVpnServiceBypassRule {
   /**
   * PROTECT - Protect rules are defined per policy based IPSec VPN session. BYPASS - Bypass rules are defined per IPSec VPN service and affects all policy based IPSec VPN sessions. Bypass rules are prioritized over protect rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#action PolicyIpsecVpnService#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#action PolicyIpsecVpnService#action}
   */
   readonly action?: string;
   /**
   * List of remote subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#destinations PolicyIpsecVpnService#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#destinations PolicyIpsecVpnService#destinations}
   */
   readonly destinations?: string[];
   /**
   * List of local subnets. Specifying no value is interpreted as 0.0.0.0/0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#sources PolicyIpsecVpnService#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#sources PolicyIpsecVpnService#sources}
   */
   readonly sources?: string[];
 }
@@ -270,11 +270,11 @@ export class PolicyIpsecVpnServiceBypassRuleList extends cdktf.ComplexList {
 }
 export interface PolicyIpsecVpnServiceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#scope PolicyIpsecVpnService#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#scope PolicyIpsecVpnService#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#tag PolicyIpsecVpnService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#tag PolicyIpsecVpnService#tag}
   */
   readonly tag?: string;
 }
@@ -419,7 +419,7 @@ export class PolicyIpsecVpnServiceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service nsxt_policy_ipsec_vpn_service}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service nsxt_policy_ipsec_vpn_service}
 */
 export class PolicyIpsecVpnService extends cdktf.TerraformResource {
 
@@ -435,7 +435,7 @@ export class PolicyIpsecVpnService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpsecVpnService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpsecVpnService to import
-  * @param importFromId The id of the existing PolicyIpsecVpnService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpsecVpnService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpsecVpnService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class PolicyIpsecVpnService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ipsec_vpn_service nsxt_policy_ipsec_vpn_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ipsec_vpn_service nsxt_policy_ipsec_vpn_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class PolicyIpsecVpnService extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ipsec_vpn_service',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

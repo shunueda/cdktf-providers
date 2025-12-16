@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDlcStandardEngineResourceGroupConfigInformationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#id DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#id DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudDlcStandardEngineResourceGroupConfigInformation
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#result_output_file DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#result_output_file DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort Field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#sort_by DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#sort_by DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Ascending or descending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#sorting DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#sorting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#sorting DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#sorting}
   */
   readonly sorting?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#filters DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#filters DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#filters}
   */
   readonly filters?: DataTencentcloudDlcStandardEngineResourceGroupConfigInformationFilters[] | cdktf.IResolvable;
 }
@@ -305,13 +305,13 @@ export interface DataTencentcloudDlcStandardEngineResourceGroupConfigInformation
   /**
   * Attribute name. If there are multiple filters, the relationship between the filters is a logical OR relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#name DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#name DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#name}
   */
   readonly name: string;
   /**
   * Attribute value, if there are multiple Values in the same Filter, the relationship between the Values under the same Filter is a logical OR relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#values DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#values DataTencentcloudDlcStandardEngineResourceGroupConfigInformation#values}
   */
   readonly values: string[];
 }
@@ -450,7 +450,7 @@ export class DataTencentcloudDlcStandardEngineResourceGroupConfigInformationFilt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information tencentcloud_dlc_standard_engine_resource_group_config_information}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information tencentcloud_dlc_standard_engine_resource_group_config_information}
 */
 export class DataTencentcloudDlcStandardEngineResourceGroupConfigInformation extends cdktf.TerraformDataSource {
 
@@ -466,7 +466,7 @@ export class DataTencentcloudDlcStandardEngineResourceGroupConfigInformation ext
   * Generates CDKTF code for importing a DataTencentcloudDlcStandardEngineResourceGroupConfigInformation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcStandardEngineResourceGroupConfigInformation to import
-  * @param importFromId The id of the existing DataTencentcloudDlcStandardEngineResourceGroupConfigInformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcStandardEngineResourceGroupConfigInformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcStandardEngineResourceGroupConfigInformation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -478,7 +478,7 @@ export class DataTencentcloudDlcStandardEngineResourceGroupConfigInformation ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dlc_standard_engine_resource_group_config_information tencentcloud_dlc_standard_engine_resource_group_config_information} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dlc_standard_engine_resource_group_config_information tencentcloud_dlc_standard_engine_resource_group_config_information} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -489,8 +489,8 @@ export class DataTencentcloudDlcStandardEngineResourceGroupConfigInformation ext
       terraformResourceType: 'tencentcloud_dlc_standard_engine_resource_group_config_information',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

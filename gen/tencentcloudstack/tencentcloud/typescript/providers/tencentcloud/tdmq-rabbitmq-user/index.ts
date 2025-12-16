@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TdmqRabbitmqUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Describe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#description TdmqRabbitmqUser#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#description TdmqRabbitmqUser#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#id TdmqRabbitmqUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#id TdmqRabbitmqUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface TdmqRabbitmqUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#instance_id TdmqRabbitmqUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#instance_id TdmqRabbitmqUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * The maximum number of channels for this user, if not filled in, there is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#max_channels TdmqRabbitmqUser#max_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#max_channels TdmqRabbitmqUser#max_channels}
   */
   readonly maxChannels?: number;
   /**
   * The maximum number of connections for this user, if not filled in, there is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#max_connections TdmqRabbitmqUser#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#max_connections TdmqRabbitmqUser#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * Password, used when logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#password TdmqRabbitmqUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#password TdmqRabbitmqUser#password}
   */
   readonly password: string;
   /**
   * User tag, used to determine the permission range for changing user access to RabbitMQ Management. Management: regular console user, monitoring: management console user, other values: non console user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#tags TdmqRabbitmqUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#tags TdmqRabbitmqUser#tags}
   */
   readonly tags?: string[];
   /**
   * Username, used when logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#user TdmqRabbitmqUser#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#user TdmqRabbitmqUser#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user tencentcloud_tdmq_rabbitmq_user}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user tencentcloud_tdmq_rabbitmq_user}
 */
 export class TdmqRabbitmqUser extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TdmqRabbitmqUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRabbitmqUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRabbitmqUser to import
-  * @param importFromId The id of the existing TdmqRabbitmqUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRabbitmqUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRabbitmqUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TdmqRabbitmqUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_user tencentcloud_tdmq_rabbitmq_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_user tencentcloud_tdmq_rabbitmq_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TdmqRabbitmqUser extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rabbitmq_user',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

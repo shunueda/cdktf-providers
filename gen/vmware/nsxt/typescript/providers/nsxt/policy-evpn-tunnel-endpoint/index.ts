@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyEvpnTunnelEndpointConfig extends cdktf.TerraformMetaArgum
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#description PolicyEvpnTunnelEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#description PolicyEvpnTunnelEndpoint#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#display_name PolicyEvpnTunnelEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#display_name PolicyEvpnTunnelEndpoint#display_name}
   */
   readonly displayName: string;
   /**
   * Edge Node Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#edge_node_path PolicyEvpnTunnelEndpoint#edge_node_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#edge_node_path PolicyEvpnTunnelEndpoint#edge_node_path}
   */
   readonly edgeNodePath: string;
   /**
   * Path External Interfaceon Tier0 Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#external_interface_path PolicyEvpnTunnelEndpoint#external_interface_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#external_interface_path PolicyEvpnTunnelEndpoint#external_interface_path}
   */
   readonly externalInterfacePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#id PolicyEvpnTunnelEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#id PolicyEvpnTunnelEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,35 +41,35 @@ export interface PolicyEvpnTunnelEndpointConfig extends cdktf.TerraformMetaArgum
   /**
   * Local IPv4 IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#local_address PolicyEvpnTunnelEndpoint#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#local_address PolicyEvpnTunnelEndpoint#local_address}
   */
   readonly localAddress: string;
   /**
   * Maximum transmission unit specifies the size of the largest packet that a network protocol can transmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#mtu PolicyEvpnTunnelEndpoint#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#mtu PolicyEvpnTunnelEndpoint#mtu}
   */
   readonly mtu?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#nsx_id PolicyEvpnTunnelEndpoint#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#nsx_id PolicyEvpnTunnelEndpoint#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#tag PolicyEvpnTunnelEndpoint#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#tag PolicyEvpnTunnelEndpoint#tag}
   */
   readonly tag?: PolicyEvpnTunnelEndpointTag[] | cdktf.IResolvable;
 }
 export interface PolicyEvpnTunnelEndpointTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#scope PolicyEvpnTunnelEndpoint#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#scope PolicyEvpnTunnelEndpoint#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#tag PolicyEvpnTunnelEndpoint#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#tag PolicyEvpnTunnelEndpoint#tag}
   */
   readonly tag?: string;
 }
@@ -214,7 +214,7 @@ export class PolicyEvpnTunnelEndpointTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint nsxt_policy_evpn_tunnel_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint nsxt_policy_evpn_tunnel_endpoint}
 */
 export class PolicyEvpnTunnelEndpoint extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class PolicyEvpnTunnelEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEvpnTunnelEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEvpnTunnelEndpoint to import
-  * @param importFromId The id of the existing PolicyEvpnTunnelEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEvpnTunnelEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEvpnTunnelEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class PolicyEvpnTunnelEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tunnel_endpoint nsxt_policy_evpn_tunnel_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tunnel_endpoint nsxt_policy_evpn_tunnel_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class PolicyEvpnTunnelEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_evpn_tunnel_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DhcpServerIpPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#description DhcpServerIpPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#description DhcpServerIpPool#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#display_name DhcpServerIpPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#display_name DhcpServerIpPool#display_name}
   */
   readonly displayName?: string;
   /**
   * Error threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#error_threshold DhcpServerIpPool#error_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#error_threshold DhcpServerIpPool#error_threshold}
   */
   readonly errorThreshold?: number;
   /**
   * Gateway ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#gateway_ip DhcpServerIpPool#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#gateway_ip DhcpServerIpPool#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#id DhcpServerIpPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#id DhcpServerIpPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface DhcpServerIpPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lease time, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#lease_time DhcpServerIpPool#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#lease_time DhcpServerIpPool#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * Id of dhcp server this pool is serving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#logical_dhcp_server_id DhcpServerIpPool#logical_dhcp_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#logical_dhcp_server_id DhcpServerIpPool#logical_dhcp_server_id}
   */
   readonly logicalDhcpServerId: string;
   /**
   * Warning threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#warning_threshold DhcpServerIpPool#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#warning_threshold DhcpServerIpPool#warning_threshold}
   */
   readonly warningThreshold?: number;
   /**
   * dhcp_generic_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#dhcp_generic_option DhcpServerIpPool#dhcp_generic_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#dhcp_generic_option DhcpServerIpPool#dhcp_generic_option}
   */
   readonly dhcpGenericOption?: DhcpServerIpPoolDhcpGenericOption[] | cdktf.IResolvable;
   /**
   * dhcp_option_121 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#dhcp_option_121 DhcpServerIpPool#dhcp_option_121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#dhcp_option_121 DhcpServerIpPool#dhcp_option_121}
   */
   readonly dhcpOption121?: DhcpServerIpPoolDhcpOption121[] | cdktf.IResolvable;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#ip_range DhcpServerIpPool#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#ip_range DhcpServerIpPool#ip_range}
   */
   readonly ipRange?: DhcpServerIpPoolIpRange[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#tag DhcpServerIpPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#tag DhcpServerIpPool#tag}
   */
   readonly tag?: DhcpServerIpPoolTag[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface DhcpServerIpPoolDhcpGenericOption {
   /**
   * DHCP option code, [0-255]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#code DhcpServerIpPool#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#code DhcpServerIpPool#code}
   */
   readonly code: number;
   /**
   * DHCP option values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#values DhcpServerIpPool#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#values DhcpServerIpPool#values}
   */
   readonly values: string[];
 }
@@ -232,13 +232,13 @@ export interface DhcpServerIpPoolDhcpOption121 {
   /**
   * Destination in cidr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#network DhcpServerIpPool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#network DhcpServerIpPool#network}
   */
   readonly network: string;
   /**
   * Next hop IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#next_hop DhcpServerIpPool#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#next_hop DhcpServerIpPool#next_hop}
   */
   readonly nextHop: string;
 }
@@ -377,11 +377,11 @@ export class DhcpServerIpPoolDhcpOption121List extends cdktf.ComplexList {
 }
 export interface DhcpServerIpPoolIpRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#end DhcpServerIpPool#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#end DhcpServerIpPool#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#start DhcpServerIpPool#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#start DhcpServerIpPool#start}
   */
   readonly start: string;
 }
@@ -520,11 +520,11 @@ export class DhcpServerIpPoolIpRangeList extends cdktf.ComplexList {
 }
 export interface DhcpServerIpPoolTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#scope DhcpServerIpPool#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#scope DhcpServerIpPool#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#tag DhcpServerIpPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#tag DhcpServerIpPool#tag}
   */
   readonly tag?: string;
 }
@@ -669,7 +669,7 @@ export class DhcpServerIpPoolTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool nsxt_dhcp_server_ip_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool nsxt_dhcp_server_ip_pool}
 */
 export class DhcpServerIpPool extends cdktf.TerraformResource {
 
@@ -685,7 +685,7 @@ export class DhcpServerIpPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpServerIpPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpServerIpPool to import
-  * @param importFromId The id of the existing DhcpServerIpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpServerIpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpServerIpPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class DhcpServerIpPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/dhcp_server_ip_pool nsxt_dhcp_server_ip_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/dhcp_server_ip_pool nsxt_dhcp_server_ip_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class DhcpServerIpPool extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_dhcp_server_ip_pool',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

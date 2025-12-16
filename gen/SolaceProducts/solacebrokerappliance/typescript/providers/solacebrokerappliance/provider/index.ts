@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SolacebrokerapplianceProviderConfig {
   /**
   * A bearer token that will be sent in the Authorization header of SEMP requests. Requires TLS transport enabled. Conflicts with username and password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#bearer_token SolacebrokerapplianceProvider#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#bearer_token SolacebrokerapplianceProvider#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Disable validation of server SSL certificates, accept/ignore self-signed. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#insecure_skip_verify SolacebrokerapplianceProvider#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#insecure_skip_verify SolacebrokerapplianceProvider#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The password to connect to the broker with. Requires username and conflicts with bearer_token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#password SolacebrokerapplianceProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#password SolacebrokerapplianceProvider#password}
   */
   readonly password?: string;
   /**
   * A [duration](https://pkg.go.dev/maze.io/x/duration#ParseDuration) string indicating the minimum interval between requests; this serves as a rate limit. This setting does not apply to retries. Set to 0 for no rate limit. The default value is 100ms (which equates to a rate limit of 10 calls per second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#request_min_interval SolacebrokerapplianceProvider#request_min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#request_min_interval SolacebrokerapplianceProvider#request_min_interval}
   */
   readonly requestMinInterval?: string;
   /**
   * A [duration](https://pkg.go.dev/maze.io/x/duration#ParseDuration) string indicating the maximum time to wait for a SEMP request.  The default value is 1m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#request_timeout_duration SolacebrokerapplianceProvider#request_timeout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#request_timeout_duration SolacebrokerapplianceProvider#request_timeout_duration}
   */
   readonly requestTimeoutDuration?: string;
   /**
   * The number of retries for a SEMP call. The default value is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#retries SolacebrokerapplianceProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#retries SolacebrokerapplianceProvider#retries}
   */
   readonly retries?: number;
   /**
   * A [duration](https://pkg.go.dev/maze.io/x/duration#ParseDuration) string indicating the maximum retry interval. The default value is 30s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#retry_max_interval SolacebrokerapplianceProvider#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#retry_max_interval SolacebrokerapplianceProvider#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
   * A [duration](https://pkg.go.dev/maze.io/x/duration#ParseDuration) string indicating how long to wait after an initial failed request before the first retry.  Exponential backoff is used, up to the limit set by retry_max_interval. The default value is 3s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#retry_min_interval SolacebrokerapplianceProvider#retry_min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#retry_min_interval SolacebrokerapplianceProvider#retry_min_interval}
   */
   readonly retryMinInterval?: string;
   /**
   * Disable validation of the broker SEMP API for supported platform and minimum version. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#skip_api_check SolacebrokerapplianceProvider#skip_api_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#skip_api_check SolacebrokerapplianceProvider#skip_api_check}
   */
   readonly skipApiCheck?: boolean | cdktf.IResolvable;
   /**
   * The base URL of the event broker, for example `https://mybroker.example.org:<semp-service-port>/`. The trailing / can be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#url SolacebrokerapplianceProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#url SolacebrokerapplianceProvider#url}
   */
   readonly url: string;
   /**
   * The username to connect to the broker with.  Requires password and conflicts with bearer_token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#username SolacebrokerapplianceProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#username SolacebrokerapplianceProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#alias SolacebrokerapplianceProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#alias SolacebrokerapplianceProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs solacebrokerappliance}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs solacebrokerappliance}
 */
 export class SolacebrokerapplianceProvider extends cdktf.TerraformProvider {
 
@@ -98,7 +98,7 @@ export class SolacebrokerapplianceProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SolacebrokerapplianceProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerapplianceProvider to import
-  * @param importFromId The id of the existing SolacebrokerapplianceProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerapplianceProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerapplianceProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class SolacebrokerapplianceProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs solacebrokerappliance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs solacebrokerappliance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class SolacebrokerapplianceProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'solacebrokerappliance',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'SolaceProducts/solacebrokerappliance'
     });

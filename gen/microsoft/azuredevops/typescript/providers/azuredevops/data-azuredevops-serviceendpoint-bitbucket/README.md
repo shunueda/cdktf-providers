@@ -1,3 +1,3 @@
 # `data_azuredevops_serviceendpoint_bitbucket`
 
-Refer to the Terraform Registry for docs: [`data_azuredevops_serviceendpoint_bitbucket`](https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/serviceendpoint_bitbucket).
+Refer to the Terraform Registry for docs: [`data_azuredevops_serviceendpoint_bitbucket`](https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/data-sources/serviceendpoint_bitbucket).

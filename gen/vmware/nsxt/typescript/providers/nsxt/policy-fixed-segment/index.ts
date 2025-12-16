@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyFixedSegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy path to the connecting Tier-0 or Tier-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#connectivity_path PolicyFixedSegment#connectivity_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#connectivity_path PolicyFixedSegment#connectivity_path}
   */
   readonly connectivityPath: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#description PolicyFixedSegment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#description PolicyFixedSegment#description}
   */
   readonly description?: string;
   /**
   * Policy path to DHCP server or relay configuration to use for subnets configured on this segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dhcp_config_path PolicyFixedSegment#dhcp_config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dhcp_config_path PolicyFixedSegment#dhcp_config_path}
   */
   readonly dhcpConfigPath?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#display_name PolicyFixedSegment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#display_name PolicyFixedSegment#display_name}
   */
   readonly displayName: string;
   /**
   * DNS domain names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#domain_name PolicyFixedSegment#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#domain_name PolicyFixedSegment#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#id PolicyFixedSegment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#id PolicyFixedSegment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface PolicyFixedSegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Metadata Proxy Configuration Paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#metadata_proxy_paths PolicyFixedSegment#metadata_proxy_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#metadata_proxy_paths PolicyFixedSegment#metadata_proxy_paths}
   */
   readonly metadataProxyPaths?: string[];
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#nsx_id PolicyFixedSegment#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#nsx_id PolicyFixedSegment#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Overlay connectivity ID for this Segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#overlay_id PolicyFixedSegment#overlay_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#overlay_id PolicyFixedSegment#overlay_id}
   */
   readonly overlayId?: number;
   /**
   * Replication mode - MTEP or SOURCE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#replication_mode PolicyFixedSegment#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#replication_mode PolicyFixedSegment#replication_mode}
   */
   readonly replicationMode?: string;
   /**
   * Policy path to the transport zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#transport_zone_path PolicyFixedSegment#transport_zone_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#transport_zone_path PolicyFixedSegment#transport_zone_path}
   */
   readonly transportZonePath?: string;
   /**
   * VLAN IDs for VLAN backed Segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#vlan_ids PolicyFixedSegment#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#vlan_ids PolicyFixedSegment#vlan_ids}
   */
   readonly vlanIds?: string[];
   /**
   * advanced_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#advanced_config PolicyFixedSegment#advanced_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#advanced_config PolicyFixedSegment#advanced_config}
   */
   readonly advancedConfig?: PolicyFixedSegmentAdvancedConfig;
   /**
   * bridge_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#bridge_config PolicyFixedSegment#bridge_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#bridge_config PolicyFixedSegment#bridge_config}
   */
   readonly bridgeConfig?: PolicyFixedSegmentBridgeConfig[] | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#context PolicyFixedSegment#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#context PolicyFixedSegment#context}
   */
   readonly context?: PolicyFixedSegmentContext;
   /**
   * ignore_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#ignore_tags PolicyFixedSegment#ignore_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#ignore_tags PolicyFixedSegment#ignore_tags}
   */
   readonly ignoreTags?: PolicyFixedSegmentIgnoreTags;
   /**
   * l2_extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#l2_extension PolicyFixedSegment#l2_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#l2_extension PolicyFixedSegment#l2_extension}
   */
   readonly l2Extension?: PolicyFixedSegmentL2Extension;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#subnet PolicyFixedSegment#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#subnet PolicyFixedSegment#subnet}
   */
   readonly subnet?: PolicyFixedSegmentSubnet[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#tag PolicyFixedSegment#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#tag PolicyFixedSegment#tag}
   */
   readonly tag?: PolicyFixedSegmentTag[] | cdktf.IResolvable;
 }
@@ -127,43 +127,43 @@ export interface PolicyFixedSegmentAdvancedConfig {
   /**
   * Policy path to IP address pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#address_pool_path PolicyFixedSegment#address_pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#address_pool_path PolicyFixedSegment#address_pool_path}
   */
   readonly addressPoolPath?: string;
   /**
   * Connectivity configuration to manually connect (ON) or disconnect (OFF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#connectivity PolicyFixedSegment#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#connectivity PolicyFixedSegment#connectivity}
   */
   readonly connectivity?: string;
   /**
   * Flag to identify a hybrid logical switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#hybrid PolicyFixedSegment#hybrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#hybrid PolicyFixedSegment#hybrid}
   */
   readonly hybrid?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable local egress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#local_egress PolicyFixedSegment#local_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#local_egress PolicyFixedSegment#local_egress}
   */
   readonly localEgress?: boolean | cdktf.IResolvable;
   /**
   * Enable multicast on the downlink LRP created to connect the segment to Tier0/Tier1 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#multicast PolicyFixedSegment#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#multicast PolicyFixedSegment#multicast}
   */
   readonly multicast?: boolean | cdktf.IResolvable;
   /**
   * The name of the switching uplink teaming policy for the bridge endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#uplink_teaming_policy PolicyFixedSegment#uplink_teaming_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#uplink_teaming_policy PolicyFixedSegment#uplink_teaming_policy}
   */
   readonly uplinkTeamingPolicy?: string;
   /**
   * This URPF mode is applied to the downlink logical router port created while attaching this segment to gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#urpf_mode PolicyFixedSegment#urpf_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#urpf_mode PolicyFixedSegment#urpf_mode}
   */
   readonly urpfMode?: string;
 }
@@ -423,23 +423,23 @@ export interface PolicyFixedSegmentBridgeConfig {
   /**
   * profile path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#profile_path PolicyFixedSegment#profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#profile_path PolicyFixedSegment#profile_path}
   */
   readonly profilePath: string;
   /**
   * vlan transport zone path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#transport_zone_path PolicyFixedSegment#transport_zone_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#transport_zone_path PolicyFixedSegment#transport_zone_path}
   */
   readonly transportZonePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#uplink_teaming_policy PolicyFixedSegment#uplink_teaming_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#uplink_teaming_policy PolicyFixedSegment#uplink_teaming_policy}
   */
   readonly uplinkTeamingPolicy?: string;
   /**
   * VLAN specification for bridge endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#vlan_ids PolicyFixedSegment#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#vlan_ids PolicyFixedSegment#vlan_ids}
   */
   readonly vlanIds: string[];
 }
@@ -635,7 +635,7 @@ export interface PolicyFixedSegmentContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#project_id PolicyFixedSegment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#project_id PolicyFixedSegment#project_id}
   */
   readonly projectId: string;
 }
@@ -798,7 +798,7 @@ export interface PolicyFixedSegmentIgnoreTags {
   /**
   * List of scopes to ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#scopes PolicyFixedSegment#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#scopes PolicyFixedSegment#scopes}
   */
   readonly scopes: string[];
 }
@@ -887,13 +887,13 @@ export interface PolicyFixedSegmentL2Extension {
   /**
   * Policy paths of associated L2 VPN sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#l2vpn_paths PolicyFixedSegment#l2vpn_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#l2vpn_paths PolicyFixedSegment#l2vpn_paths}
   */
   readonly l2VpnPaths?: string[];
   /**
   * Tunnel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#tunnel_id PolicyFixedSegment#tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#tunnel_id PolicyFixedSegment#tunnel_id}
   */
   readonly tunnelId?: number;
 }
@@ -1008,13 +1008,13 @@ export interface PolicyFixedSegmentSubnetDhcpV4ConfigDhcpGenericOption {
   /**
   * DHCP option code, [0-255]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#code PolicyFixedSegment#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#code PolicyFixedSegment#code}
   */
   readonly code: number;
   /**
   * DHCP option values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#values PolicyFixedSegment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#values PolicyFixedSegment#values}
   */
   readonly values: string[];
 }
@@ -1155,13 +1155,13 @@ export interface PolicyFixedSegmentSubnetDhcpV4ConfigDhcpOption121 {
   /**
   * Destination in cidr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#network PolicyFixedSegment#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#network PolicyFixedSegment#network}
   */
   readonly network: string;
   /**
   * Next hop IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#next_hop PolicyFixedSegment#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#next_hop PolicyFixedSegment#next_hop}
   */
   readonly nextHop: string;
 }
@@ -1302,31 +1302,31 @@ export interface PolicyFixedSegmentSubnetDhcpV4Config {
   /**
   * IP addresses of DNS servers for subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dns_servers PolicyFixedSegment#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dns_servers PolicyFixedSegment#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * DHCP lease time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#lease_time PolicyFixedSegment#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#lease_time PolicyFixedSegment#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * IP address of the DHCP server in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#server_address PolicyFixedSegment#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#server_address PolicyFixedSegment#server_address}
   */
   readonly serverAddress?: string;
   /**
   * dhcp_generic_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dhcp_generic_option PolicyFixedSegment#dhcp_generic_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dhcp_generic_option PolicyFixedSegment#dhcp_generic_option}
   */
   readonly dhcpGenericOption?: PolicyFixedSegmentSubnetDhcpV4ConfigDhcpGenericOption[] | cdktf.IResolvable;
   /**
   * dhcp_option_121 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dhcp_option_121 PolicyFixedSegment#dhcp_option_121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dhcp_option_121 PolicyFixedSegment#dhcp_option_121}
   */
   readonly dhcpOption121?: PolicyFixedSegmentSubnetDhcpV4ConfigDhcpOption121[] | cdktf.IResolvable;
 }
@@ -1528,13 +1528,13 @@ export interface PolicyFixedSegmentSubnetDhcpV6ConfigExcludedRange {
   /**
   * The end IP Address for the range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#end PolicyFixedSegment#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#end PolicyFixedSegment#end}
   */
   readonly end: string;
   /**
   * The start IP Address for the range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#start PolicyFixedSegment#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#start PolicyFixedSegment#start}
   */
   readonly start: string;
 }
@@ -1675,43 +1675,43 @@ export interface PolicyFixedSegmentSubnetDhcpV6Config {
   /**
   * IP addresses of DNS servers for subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dns_servers PolicyFixedSegment#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dns_servers PolicyFixedSegment#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Domain names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#domain_names PolicyFixedSegment#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#domain_names PolicyFixedSegment#domain_names}
   */
   readonly domainNames?: string[];
   /**
   * DHCP lease time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#lease_time PolicyFixedSegment#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#lease_time PolicyFixedSegment#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * The time interval in seconds, in which the prefix is advertised as preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#preferred_time PolicyFixedSegment#preferred_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#preferred_time PolicyFixedSegment#preferred_time}
   */
   readonly preferredTime?: number;
   /**
   * IP address of the DHCP server in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#server_address PolicyFixedSegment#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#server_address PolicyFixedSegment#server_address}
   */
   readonly serverAddress?: string;
   /**
   * IPv6 address of SNTP servers for subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#sntp_servers PolicyFixedSegment#sntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#sntp_servers PolicyFixedSegment#sntp_servers}
   */
   readonly sntpServers?: string[];
   /**
   * excluded_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#excluded_range PolicyFixedSegment#excluded_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#excluded_range PolicyFixedSegment#excluded_range}
   */
   readonly excludedRange?: PolicyFixedSegmentSubnetDhcpV6ConfigExcludedRange[] | cdktf.IResolvable;
 }
@@ -1971,25 +1971,25 @@ export interface PolicyFixedSegmentSubnet {
   /**
   * Gateway IP address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#cidr PolicyFixedSegment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#cidr PolicyFixedSegment#cidr}
   */
   readonly cidr?: string;
   /**
   * DHCP address ranges for dynamic IP allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dhcp_ranges PolicyFixedSegment#dhcp_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dhcp_ranges PolicyFixedSegment#dhcp_ranges}
   */
   readonly dhcpRanges?: string[];
   /**
   * dhcp_v4_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dhcp_v4_config PolicyFixedSegment#dhcp_v4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dhcp_v4_config PolicyFixedSegment#dhcp_v4_config}
   */
   readonly dhcpV4Config?: PolicyFixedSegmentSubnetDhcpV4Config;
   /**
   * dhcp_v6_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#dhcp_v6_config PolicyFixedSegment#dhcp_v6_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#dhcp_v6_config PolicyFixedSegment#dhcp_v6_config}
   */
   readonly dhcpV6Config?: PolicyFixedSegmentSubnetDhcpV6Config;
 }
@@ -2197,11 +2197,11 @@ export class PolicyFixedSegmentSubnetList extends cdktf.ComplexList {
 }
 export interface PolicyFixedSegmentTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#scope PolicyFixedSegment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#scope PolicyFixedSegment#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#tag PolicyFixedSegment#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#tag PolicyFixedSegment#tag}
   */
   readonly tag?: string;
 }
@@ -2346,7 +2346,7 @@ export class PolicyFixedSegmentTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment nsxt_policy_fixed_segment}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment nsxt_policy_fixed_segment}
 */
 export class PolicyFixedSegment extends cdktf.TerraformResource {
 
@@ -2362,7 +2362,7 @@ export class PolicyFixedSegment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyFixedSegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyFixedSegment to import
-  * @param importFromId The id of the existing PolicyFixedSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyFixedSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyFixedSegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2374,7 +2374,7 @@ export class PolicyFixedSegment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_fixed_segment nsxt_policy_fixed_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_fixed_segment nsxt_policy_fixed_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2385,8 +2385,8 @@ export class PolicyFixedSegment extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_fixed_segment',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface PolicyBgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag to enable allowas_in option for BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#allow_as_in PolicyBgpNeighbor#allow_as_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#allow_as_in PolicyBgpNeighbor#allow_as_in}
   */
   readonly allowAsIn?: boolean | cdktf.IResolvable;
   /**
   * Policy path to the BGP for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#bgp_path PolicyBgpNeighbor#bgp_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#bgp_path PolicyBgpNeighbor#bgp_path}
   */
   readonly bgpPath: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#description PolicyBgpNeighbor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#description PolicyBgpNeighbor#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#display_name PolicyBgpNeighbor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#display_name PolicyBgpNeighbor#display_name}
   */
   readonly displayName: string;
   /**
   * BGP Graceful Restart Configuration Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#graceful_restart_mode PolicyBgpNeighbor#graceful_restart_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#graceful_restart_mode PolicyBgpNeighbor#graceful_restart_mode}
   */
   readonly gracefulRestartMode?: string;
   /**
   * Wait time in seconds before declaring peer dead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#hold_down_time PolicyBgpNeighbor#hold_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#hold_down_time PolicyBgpNeighbor#hold_down_time}
   */
   readonly holdDownTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#id PolicyBgpNeighbor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#id PolicyBgpNeighbor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,61 +53,61 @@ export interface PolicyBgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval between keep alive messages sent to peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#keep_alive_time PolicyBgpNeighbor#keep_alive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#keep_alive_time PolicyBgpNeighbor#keep_alive_time}
   */
   readonly keepAliveTime?: number;
   /**
   * Maximum number of hops allowed to reach BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#maximum_hop_limit PolicyBgpNeighbor#maximum_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#maximum_hop_limit PolicyBgpNeighbor#maximum_hop_limit}
   */
   readonly maximumHopLimit?: number;
   /**
   * Neighbor IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#neighbor_address PolicyBgpNeighbor#neighbor_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#neighbor_address PolicyBgpNeighbor#neighbor_address}
   */
   readonly neighborAddress: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#nsx_id PolicyBgpNeighbor#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#nsx_id PolicyBgpNeighbor#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Password for BGP neighbor authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#password PolicyBgpNeighbor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#password PolicyBgpNeighbor#password}
   */
   readonly password?: string;
   /**
   * ASN of the neighbor in ASPLAIN or ASDOT Format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#remote_as_num PolicyBgpNeighbor#remote_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#remote_as_num PolicyBgpNeighbor#remote_as_num}
   */
   readonly remoteAsNum: string;
   /**
   * Source IP Addresses for BGP peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#source_addresses PolicyBgpNeighbor#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#source_addresses PolicyBgpNeighbor#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
   * bfd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#bfd_config PolicyBgpNeighbor#bfd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#bfd_config PolicyBgpNeighbor#bfd_config}
   */
   readonly bfdConfig?: PolicyBgpNeighborBfdConfig;
   /**
   * route_filtering block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#route_filtering PolicyBgpNeighbor#route_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#route_filtering PolicyBgpNeighbor#route_filtering}
   */
   readonly routeFiltering?: PolicyBgpNeighborRouteFiltering[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#tag PolicyBgpNeighbor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#tag PolicyBgpNeighbor#tag}
   */
   readonly tag?: PolicyBgpNeighborTag[] | cdktf.IResolvable;
 }
@@ -115,19 +115,19 @@ export interface PolicyBgpNeighborBfdConfig {
   /**
   * Flag to enable/disable BFD configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#enabled PolicyBgpNeighbor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#enabled PolicyBgpNeighbor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Time interval between heartbeat packets in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#interval PolicyBgpNeighbor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#interval PolicyBgpNeighbor#interval}
   */
   readonly interval?: number;
   /**
   * Number of times heartbeat packet is missed before BFD declares the neighbor is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#multiple PolicyBgpNeighbor#multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#multiple PolicyBgpNeighbor#multiple}
   */
   readonly multiple?: number;
 }
@@ -271,31 +271,31 @@ export interface PolicyBgpNeighborRouteFiltering {
   /**
   * Address family type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#address_family PolicyBgpNeighbor#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#address_family PolicyBgpNeighbor#address_family}
   */
   readonly addressFamily: string;
   /**
   * Flag to enable/disable address family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#enabled PolicyBgpNeighbor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#enabled PolicyBgpNeighbor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Prefix-list or route map path for IN direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#in_route_filter PolicyBgpNeighbor#in_route_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#in_route_filter PolicyBgpNeighbor#in_route_filter}
   */
   readonly inRouteFilter?: string;
   /**
   * Maximum number of routes for the address family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#maximum_routes PolicyBgpNeighbor#maximum_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#maximum_routes PolicyBgpNeighbor#maximum_routes}
   */
   readonly maximumRoutes?: number;
   /**
   * Prefix-list or route map path for OUT direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#out_route_filter PolicyBgpNeighbor#out_route_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#out_route_filter PolicyBgpNeighbor#out_route_filter}
   */
   readonly outRouteFilter?: string;
 }
@@ -524,11 +524,11 @@ export class PolicyBgpNeighborRouteFilteringList extends cdktf.ComplexList {
 }
 export interface PolicyBgpNeighborTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#scope PolicyBgpNeighbor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#scope PolicyBgpNeighbor#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#tag PolicyBgpNeighbor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#tag PolicyBgpNeighbor#tag}
   */
   readonly tag?: string;
 }
@@ -673,7 +673,7 @@ export class PolicyBgpNeighborTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor nsxt_policy_bgp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor nsxt_policy_bgp_neighbor}
 */
 export class PolicyBgpNeighbor extends cdktf.TerraformResource {
 
@@ -689,7 +689,7 @@ export class PolicyBgpNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyBgpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyBgpNeighbor to import
-  * @param importFromId The id of the existing PolicyBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyBgpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -701,7 +701,7 @@ export class PolicyBgpNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_bgp_neighbor nsxt_policy_bgp_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_bgp_neighbor nsxt_policy_bgp_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -712,8 +712,8 @@ export class PolicyBgpNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_bgp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

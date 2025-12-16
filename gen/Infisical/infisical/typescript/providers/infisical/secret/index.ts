@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret
+// https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,59 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The environment slug of the secret to modify/create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#env_slug Secret#env_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#env_slug Secret#env_slug}
   */
   readonly envSlug: string;
   /**
   * The path to the folder where the given secret resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#folder_path Secret#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#folder_path Secret#folder_path}
   */
   readonly folderPath: string;
   /**
+  * Metadata associated with the secret as key-value pairs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#metadata Secret#metadata}
+  */
+  readonly metadata?: { [key: string]: string };
+  /**
   * The name of the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#name Secret#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#secret_reminder Secret#secret_reminder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#secret_reminder Secret#secret_reminder}
   */
   readonly secretReminder?: SecretSecretReminder;
   /**
   * Tag ids to be attached for the secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#tag_ids Secret#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#tag_ids Secret#tag_ids}
   */
   readonly tagIds?: string[];
   /**
   * The value of the secret in plain text. This is required if `value_wo` is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#value Secret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#value Secret#value}
   */
   readonly value?: string;
   /**
   * The value of the secret in plain text as a write-only secret. If set, the secret value will not be stored in state. This is required if `value` is not set. Requires Terraform version 1.11.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#value_wo Secret#value_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#value_wo Secret#value_wo}
   */
   readonly valueWo?: string;
   /**
   * Used together with value_wo to trigger an update. Increment this value when an update to the value_wo is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#value_wo_version Secret#value_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#value_wo_version Secret#value_wo_version}
   */
   readonly valueWoVersion?: number;
   /**
   * The Infisical project ID (Required for Machine Identity auth, and service tokens with multiple scopes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#workspace_id Secret#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#workspace_id Secret#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -64,13 +70,13 @@ export interface SecretSecretReminder {
   /**
   * Note for the secret rotation reminder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#note Secret#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#note Secret#note}
   */
   readonly note?: string;
   /**
   * Frequency of secret rotation reminder in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#repeat_days Secret#repeat_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#repeat_days Secret#repeat_days}
   */
   readonly repeatDays: number;
 }
@@ -190,7 +196,7 @@ export class SecretSecretReminderOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret infisical_secret}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret infisical_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -206,7 +212,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +224,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.54/docs/resources/secret infisical_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.55/docs/resources/secret infisical_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +235,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_secret',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.54',
-        providerVersionConstraint: '0.15.54'
+        providerVersion: '0.15.55',
+        providerVersionConstraint: '0.15.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -242,6 +248,7 @@ export class Secret extends cdktf.TerraformResource {
     });
     this._envSlug = config.envSlug;
     this._folderPath = config.folderPath;
+    this._metadata = config.metadata;
     this._name = config.name;
     this._secretReminder.internalValue = config.secretReminder;
     this._tagIds = config.tagIds;
@@ -289,6 +296,22 @@ export class Secret extends cdktf.TerraformResource {
   // last_updated - computed: true, optional: false, required: false
   public get lastUpdated() {
     return this.getStringAttribute('last_updated');
+  }
+
+  // metadata - computed: false, optional: true, required: false
+  private _metadata?: { [key: string]: string }; 
+  public get metadata() {
+    return this.getStringMapAttribute('metadata');
+  }
+  public set metadata(value: { [key: string]: string }) {
+    this._metadata = value;
+  }
+  public resetMetadata() {
+    this._metadata = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataInput() {
+    return this._metadata;
   }
 
   // name - computed: false, optional: false, required: true
@@ -408,6 +431,7 @@ export class Secret extends cdktf.TerraformResource {
     return {
       env_slug: cdktf.stringToTerraform(this._envSlug),
       folder_path: cdktf.stringToTerraform(this._folderPath),
+      metadata: cdktf.hashMapper(cdktf.stringToTerraform)(this._metadata),
       name: cdktf.stringToTerraform(this._name),
       secret_reminder: secretSecretReminderToTerraform(this._secretReminder.internalValue),
       tag_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tagIds),
@@ -431,6 +455,12 @@ export class Secret extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      metadata: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._metadata),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

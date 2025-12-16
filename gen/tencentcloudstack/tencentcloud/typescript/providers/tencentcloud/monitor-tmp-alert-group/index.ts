@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MonitorTmpAlertGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * Tencent cloud notification template id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#amp_receivers MonitorTmpAlertGroup#amp_receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#amp_receivers MonitorTmpAlertGroup#amp_receivers}
   */
   readonly ampReceivers?: string[];
   /**
   * Unique alert group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#group_name MonitorTmpAlertGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#group_name MonitorTmpAlertGroup#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#id MonitorTmpAlertGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#id MonitorTmpAlertGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface MonitorTmpAlertGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#instance_id MonitorTmpAlertGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#instance_id MonitorTmpAlertGroup#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Alert message send interval, default 1 hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#repeat_interval MonitorTmpAlertGroup#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#repeat_interval MonitorTmpAlertGroup#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
   * custom_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#custom_receiver MonitorTmpAlertGroup#custom_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#custom_receiver MonitorTmpAlertGroup#custom_receiver}
   */
   readonly customReceiver?: MonitorTmpAlertGroupCustomReceiver;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#rules MonitorTmpAlertGroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#rules MonitorTmpAlertGroup#rules}
   */
   readonly rules?: MonitorTmpAlertGroupRules[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface MonitorTmpAlertGroupCustomReceiverAllowedTimeRanges {
   /**
   * Time range end, seconds since 0 o'clock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#end MonitorTmpAlertGroup#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#end MonitorTmpAlertGroup#end}
   */
   readonly end?: string;
   /**
   * Time range start, seconds since 0 o'clock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#start MonitorTmpAlertGroup#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#start MonitorTmpAlertGroup#start}
   */
   readonly start?: string;
 }
@@ -208,31 +208,31 @@ export interface MonitorTmpAlertGroupCustomReceiver {
   /**
   * Only effect when alertmanager in user cluster, this cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#cluster_id MonitorTmpAlertGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#cluster_id MonitorTmpAlertGroup#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Only effect when alertmanager in user cluster, this cluster type (tke|eks|tdcc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#cluster_type MonitorTmpAlertGroup#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#cluster_type MonitorTmpAlertGroup#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * Custom receiver type, webhook|alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#type MonitorTmpAlertGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#type MonitorTmpAlertGroup#type}
   */
   readonly type?: string;
   /**
   * Custom receiver address, can be accessed by process in prometheus instance subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#url MonitorTmpAlertGroup#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#url MonitorTmpAlertGroup#url}
   */
   readonly url?: string;
   /**
   * allowed_time_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#allowed_time_ranges MonitorTmpAlertGroup#allowed_time_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#allowed_time_ranges MonitorTmpAlertGroup#allowed_time_ranges}
   */
   readonly allowedTimeRanges?: MonitorTmpAlertGroupCustomReceiverAllowedTimeRanges[] | cdktf.IResolvable;
 }
@@ -434,37 +434,37 @@ export interface MonitorTmpAlertGroupRules {
   /**
   * Annotation of alert rule. `summary`, `description` is special annotation in prometheus, mapping `Alarm Object`, `Alarm Information` in alarm message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#annotations MonitorTmpAlertGroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#annotations MonitorTmpAlertGroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Rule alarm duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#duration MonitorTmpAlertGroup#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#duration MonitorTmpAlertGroup#duration}
   */
   readonly duration?: string;
   /**
   * Prometheus alert expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#expr MonitorTmpAlertGroup#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#expr MonitorTmpAlertGroup#expr}
   */
   readonly expr?: string;
   /**
   * Labels of alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#labels MonitorTmpAlertGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#labels MonitorTmpAlertGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Alert rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#rule_name MonitorTmpAlertGroup#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#rule_name MonitorTmpAlertGroup#rule_name}
   */
   readonly ruleName?: string;
   /**
   * Rule state. `2`-enable, `3`-disable, default `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#state MonitorTmpAlertGroup#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#state MonitorTmpAlertGroup#state}
   */
   readonly state?: number;
 }
@@ -725,7 +725,7 @@ export class MonitorTmpAlertGroupRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group tencentcloud_monitor_tmp_alert_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group tencentcloud_monitor_tmp_alert_group}
 */
 export class MonitorTmpAlertGroup extends cdktf.TerraformResource {
 
@@ -741,7 +741,7 @@ export class MonitorTmpAlertGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpAlertGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpAlertGroup to import
-  * @param importFromId The id of the existing MonitorTmpAlertGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpAlertGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpAlertGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -753,7 +753,7 @@ export class MonitorTmpAlertGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/monitor_tmp_alert_group tencentcloud_monitor_tmp_alert_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/monitor_tmp_alert_group tencentcloud_monitor_tmp_alert_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -764,8 +764,8 @@ export class MonitorTmpAlertGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_alert_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

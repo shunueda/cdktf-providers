@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface VpcIpAddressAllocationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#allocation_ips VpcIpAddressAllocation#allocation_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#allocation_ips VpcIpAddressAllocation#allocation_ips}
   */
   readonly allocationIps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#allocation_size VpcIpAddressAllocation#allocation_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#allocation_size VpcIpAddressAllocation#allocation_size}
   */
   readonly allocationSize?: number;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#description VpcIpAddressAllocation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#description VpcIpAddressAllocation#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#display_name VpcIpAddressAllocation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#display_name VpcIpAddressAllocation#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#id VpcIpAddressAllocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#id VpcIpAddressAllocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#ip_address_block_visibility VpcIpAddressAllocation#ip_address_block_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#ip_address_block_visibility VpcIpAddressAllocation#ip_address_block_visibility}
   */
   readonly ipAddressBlockVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#ip_address_type VpcIpAddressAllocation#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#ip_address_type VpcIpAddressAllocation#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#ip_block VpcIpAddressAllocation#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#ip_block VpcIpAddressAllocation#ip_block}
   */
   readonly ipBlock?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#nsx_id VpcIpAddressAllocation#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#nsx_id VpcIpAddressAllocation#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#context VpcIpAddressAllocation#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#context VpcIpAddressAllocation#context}
   */
   readonly context: VpcIpAddressAllocationContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#tag VpcIpAddressAllocation#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#tag VpcIpAddressAllocation#tag}
   */
   readonly tag?: VpcIpAddressAllocationTag[] | cdktf.IResolvable;
 }
@@ -69,13 +69,13 @@ export interface VpcIpAddressAllocationContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#project_id VpcIpAddressAllocation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#project_id VpcIpAddressAllocation#project_id}
   */
   readonly projectId: string;
   /**
   * Id of the VPC which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#vpc_id VpcIpAddressAllocation#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#vpc_id VpcIpAddressAllocation#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -182,11 +182,11 @@ export class VpcIpAddressAllocationContextOutputReference extends cdktf.ComplexO
 }
 export interface VpcIpAddressAllocationTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#scope VpcIpAddressAllocation#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#scope VpcIpAddressAllocation#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#tag VpcIpAddressAllocation#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#tag VpcIpAddressAllocation#tag}
   */
   readonly tag?: string;
 }
@@ -331,7 +331,7 @@ export class VpcIpAddressAllocationTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation nsxt_vpc_ip_address_allocation}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation nsxt_vpc_ip_address_allocation}
 */
 export class VpcIpAddressAllocation extends cdktf.TerraformResource {
 
@@ -347,7 +347,7 @@ export class VpcIpAddressAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcIpAddressAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpAddressAllocation to import
-  * @param importFromId The id of the existing VpcIpAddressAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpAddressAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpAddressAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -359,7 +359,7 @@ export class VpcIpAddressAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_ip_address_allocation nsxt_vpc_ip_address_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_ip_address_allocation nsxt_vpc_ip_address_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,8 +370,8 @@ export class VpcIpAddressAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_ip_address_allocation',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

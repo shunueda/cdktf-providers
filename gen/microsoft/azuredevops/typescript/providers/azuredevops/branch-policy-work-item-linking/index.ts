@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyWorkItemLinkingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#blocking BranchPolicyWorkItemLinking#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#blocking BranchPolicyWorkItemLinking#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#enabled BranchPolicyWorkItemLinking#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#enabled BranchPolicyWorkItemLinking#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#id BranchPolicyWorkItemLinking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#id BranchPolicyWorkItemLinking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#project_id BranchPolicyWorkItemLinking#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#project_id BranchPolicyWorkItemLinking#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#settings BranchPolicyWorkItemLinking#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#settings BranchPolicyWorkItemLinking#settings}
   */
   readonly settings: BranchPolicyWorkItemLinkingSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#timeouts BranchPolicyWorkItemLinking#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#timeouts BranchPolicyWorkItemLinking#timeouts}
   */
   readonly timeouts?: BranchPolicyWorkItemLinkingTimeouts;
 }
 export interface BranchPolicyWorkItemLinkingSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#match_type BranchPolicyWorkItemLinking#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#match_type BranchPolicyWorkItemLinking#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#repository_id BranchPolicyWorkItemLinking#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#repository_id BranchPolicyWorkItemLinking#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#repository_ref BranchPolicyWorkItemLinking#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#repository_ref BranchPolicyWorkItemLinking#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -225,7 +225,7 @@ export interface BranchPolicyWorkItemLinkingSettings {
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#scope BranchPolicyWorkItemLinking#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#scope BranchPolicyWorkItemLinking#scope}
   */
   readonly scope: BranchPolicyWorkItemLinkingSettingsScope[] | cdktf.IResolvable;
 }
@@ -306,19 +306,19 @@ export class BranchPolicyWorkItemLinkingSettingsOutputReference extends cdktf.Co
 }
 export interface BranchPolicyWorkItemLinkingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#create BranchPolicyWorkItemLinking#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#create BranchPolicyWorkItemLinking#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#delete BranchPolicyWorkItemLinking#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#delete BranchPolicyWorkItemLinking#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#read BranchPolicyWorkItemLinking#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#read BranchPolicyWorkItemLinking#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#update BranchPolicyWorkItemLinking#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#update BranchPolicyWorkItemLinking#update}
   */
   readonly update?: string;
 }
@@ -499,7 +499,7 @@ export class BranchPolicyWorkItemLinkingTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking azuredevops_branch_policy_work_item_linking}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking azuredevops_branch_policy_work_item_linking}
 */
 export class BranchPolicyWorkItemLinking extends cdktf.TerraformResource {
 
@@ -515,7 +515,7 @@ export class BranchPolicyWorkItemLinking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyWorkItemLinking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyWorkItemLinking to import
-  * @param importFromId The id of the existing BranchPolicyWorkItemLinking that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyWorkItemLinking that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyWorkItemLinking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class BranchPolicyWorkItemLinking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_work_item_linking azuredevops_branch_policy_work_item_linking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/branch_policy_work_item_linking azuredevops_branch_policy_work_item_linking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class BranchPolicyWorkItemLinking extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_work_item_linking',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

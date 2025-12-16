@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ChdfsFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * file system capacity. min 1GB, max 1PB, CapacityQuota is N * 1073741824.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#capacity_quota ChdfsFileSystem#capacity_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#capacity_quota ChdfsFileSystem#capacity_quota}
   */
   readonly capacityQuota: number;
   /**
   * desc of the file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#description ChdfsFileSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#description ChdfsFileSystem#description}
   */
   readonly description?: string;
   /**
   * check the ranger address or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#enable_ranger ChdfsFileSystem#enable_ranger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#enable_ranger ChdfsFileSystem#enable_ranger}
   */
   readonly enableRanger?: boolean | cdktf.IResolvable;
   /**
   * file system name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#file_system_name ChdfsFileSystem#file_system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#file_system_name ChdfsFileSystem#file_system_name}
   */
   readonly fileSystemName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#id ChdfsFileSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#id ChdfsFileSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface ChdfsFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * check POSIX ACL or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#posix_acl ChdfsFileSystem#posix_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#posix_acl ChdfsFileSystem#posix_acl}
   */
   readonly posixAcl: boolean | cdktf.IResolvable;
   /**
   * ranger address list, default empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#ranger_service_addresses ChdfsFileSystem#ranger_service_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#ranger_service_addresses ChdfsFileSystem#ranger_service_addresses}
   */
   readonly rangerServiceAddresses?: string[];
   /**
   * super users of the file system, default empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#super_users ChdfsFileSystem#super_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#super_users ChdfsFileSystem#super_users}
   */
   readonly superUsers?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system tencentcloud_chdfs_file_system}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system tencentcloud_chdfs_file_system}
 */
 export class ChdfsFileSystem extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ChdfsFileSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChdfsFileSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChdfsFileSystem to import
-  * @param importFromId The id of the existing ChdfsFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChdfsFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChdfsFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ChdfsFileSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/chdfs_file_system tencentcloud_chdfs_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/chdfs_file_system tencentcloud_chdfs_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ChdfsFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_chdfs_file_system',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

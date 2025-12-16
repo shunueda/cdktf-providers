@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface OauthProfileClientAuthorizationParameterConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter#authorization_parameter_name OauthProfileClientAuthorizationParameter#authorization_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter#authorization_parameter_name OauthProfileClientAuthorizationParameter#authorization_parameter_name}
   */
   readonly authorizationParameterName: string;
   /**
@@ -20,7 +20,7 @@ export interface OauthProfileClientAuthorizationParameterConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/admin". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter#authorization_parameter_value OauthProfileClientAuthorizationParameter#authorization_parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter#authorization_parameter_value OauthProfileClientAuthorizationParameter#authorization_parameter_value}
   */
   readonly authorizationParameterValue?: string;
   /**
@@ -28,13 +28,13 @@ export interface OauthProfileClientAuthorizationParameterConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter#oauth_profile_name OauthProfileClientAuthorizationParameter#oauth_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter#oauth_profile_name OauthProfileClientAuthorizationParameter#oauth_profile_name}
   */
   readonly oauthProfileName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter solacebroker_oauth_profile_client_authorization_parameter}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter solacebroker_oauth_profile_client_authorization_parameter}
 */
 export class OauthProfileClientAuthorizationParameter extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class OauthProfileClientAuthorizationParameter extends cdktf.TerraformRes
   * Generates CDKTF code for importing a OauthProfileClientAuthorizationParameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OauthProfileClientAuthorizationParameter to import
-  * @param importFromId The id of the existing OauthProfileClientAuthorizationParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OauthProfileClientAuthorizationParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OauthProfileClientAuthorizationParameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class OauthProfileClientAuthorizationParameter extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/oauth_profile_client_authorization_parameter solacebroker_oauth_profile_client_authorization_parameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/oauth_profile_client_authorization_parameter solacebroker_oauth_profile_client_authorization_parameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class OauthProfileClientAuthorizationParameter extends cdktf.TerraformRes
       terraformResourceType: 'solacebroker_oauth_profile_client_authorization_parameter',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * The dataset this SLO is created in. Will be deprecated in a future release. Must be the same dataset as the SLI unless the SLI Derived Column is Environment-wide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#dataset Slo#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#dataset Slo#dataset}
   */
   readonly dataset?: string;
   /**
   * The datasets the SLO is evaluated on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#datasets Slo#datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#datasets Slo#datasets}
   */
   readonly datasets?: string[];
   /**
   * A description of the SLO's intent and context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
   * The name of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
@@ -36,31 +36,31 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   * The derived column used as the SLI must be in the same dataset as the SLO. Additionally,
   * the column evaluation should consistently return nil, true, or false, as these are the only valid values for an SLI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#sli Slo#sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#sli Slo#sli}
   */
   readonly sli: string;
   /**
   * A map of tags to assign to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#tags Slo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#tags Slo#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The percentage of qualified events that you expect to succeed during the `time_period`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#target_percentage Slo#target_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#target_percentage Slo#target_percentage}
   */
   readonly targetPercentage: number;
   /**
   * The time period, in days, over which your SLO will be evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#time_period Slo#time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#time_period Slo#time_period}
   */
   readonly timePeriod: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo honeycombio_slo}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo honeycombio_slo}
 */
 export class Slo extends cdktf.TerraformResource {
 
@@ -76,7 +76,7 @@ export class Slo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Slo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Slo to import
-  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Slo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -88,7 +88,7 @@ export class Slo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/slo honeycombio_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/slo honeycombio_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -99,8 +99,8 @@ export class Slo extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_slo',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

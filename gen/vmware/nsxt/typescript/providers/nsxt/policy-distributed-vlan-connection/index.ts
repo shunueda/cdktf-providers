@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface PolicyDistributedVlanConnectionConfig extends cdktf.TerraformMe
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#description PolicyDistributedVlanConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#description PolicyDistributedVlanConnection#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#display_name PolicyDistributedVlanConnection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#display_name PolicyDistributedVlanConnection#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#gateway_addresses PolicyDistributedVlanConnection#gateway_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#gateway_addresses PolicyDistributedVlanConnection#gateway_addresses}
   */
   readonly gatewayAddresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#id PolicyDistributedVlanConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#id PolicyDistributedVlanConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,27 +33,27 @@ export interface PolicyDistributedVlanConnectionConfig extends cdktf.TerraformMe
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#nsx_id PolicyDistributedVlanConnection#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#nsx_id PolicyDistributedVlanConnection#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#vlan_id PolicyDistributedVlanConnection#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#vlan_id PolicyDistributedVlanConnection#vlan_id}
   */
   readonly vlanId: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#tag PolicyDistributedVlanConnection#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#tag PolicyDistributedVlanConnection#tag}
   */
   readonly tag?: PolicyDistributedVlanConnectionTag[] | cdktf.IResolvable;
 }
 export interface PolicyDistributedVlanConnectionTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#scope PolicyDistributedVlanConnection#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#scope PolicyDistributedVlanConnection#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#tag PolicyDistributedVlanConnection#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#tag PolicyDistributedVlanConnection#tag}
   */
   readonly tag?: string;
 }
@@ -198,7 +198,7 @@ export class PolicyDistributedVlanConnectionTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection nsxt_policy_distributed_vlan_connection}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection nsxt_policy_distributed_vlan_connection}
 */
 export class PolicyDistributedVlanConnection extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class PolicyDistributedVlanConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyDistributedVlanConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyDistributedVlanConnection to import
-  * @param importFromId The id of the existing PolicyDistributedVlanConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyDistributedVlanConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyDistributedVlanConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class PolicyDistributedVlanConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_distributed_vlan_connection nsxt_policy_distributed_vlan_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_distributed_vlan_connection nsxt_policy_distributed_vlan_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class PolicyDistributedVlanConnection extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_distributed_vlan_connection',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

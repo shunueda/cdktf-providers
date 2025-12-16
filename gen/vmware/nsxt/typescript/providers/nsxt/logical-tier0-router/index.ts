@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface LogicalTier0RouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#description LogicalTier0Router#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#description LogicalTier0Router#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#display_name LogicalTier0Router#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#display_name LogicalTier0Router#display_name}
   */
   readonly displayName?: string;
   /**
   * Edge Cluster Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#edge_cluster_id LogicalTier0Router#edge_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#edge_cluster_id LogicalTier0Router#edge_cluster_id}
   */
   readonly edgeClusterId: string;
   /**
   * Failover mode which determines whether the preferred service router instance for given logical router will preempt the peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#failover_mode LogicalTier0Router#failover_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#failover_mode LogicalTier0Router#failover_mode}
   */
   readonly failoverMode?: string;
   /**
   * High availability mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#high_availability_mode LogicalTier0Router#high_availability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#high_availability_mode LogicalTier0Router#high_availability_mode}
   */
   readonly highAvailabilityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#id LogicalTier0Router#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#id LogicalTier0Router#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,13 +47,13 @@ export interface LogicalTier0RouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * firewall_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#firewall_sections LogicalTier0Router#firewall_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#firewall_sections LogicalTier0Router#firewall_sections}
   */
   readonly firewallSections?: LogicalTier0RouterFirewallSections[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#tag LogicalTier0Router#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#tag LogicalTier0Router#tag}
   */
   readonly tag?: LogicalTier0RouterTag[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface LogicalTier0RouterFirewallSections {
   /**
   * Identifier of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#target_id LogicalTier0Router#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#target_id LogicalTier0Router#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the NSX resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#target_type LogicalTier0Router#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#target_type LogicalTier0Router#target_type}
   */
   readonly targetType?: string;
 }
@@ -222,11 +222,11 @@ export class LogicalTier0RouterFirewallSectionsList extends cdktf.ComplexList {
 }
 export interface LogicalTier0RouterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#scope LogicalTier0Router#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#scope LogicalTier0Router#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#tag LogicalTier0Router#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#tag LogicalTier0Router#tag}
   */
   readonly tag?: string;
 }
@@ -371,7 +371,7 @@ export class LogicalTier0RouterTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router nsxt_logical_tier0_router}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router nsxt_logical_tier0_router}
 */
 export class LogicalTier0Router extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class LogicalTier0Router extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalTier0Router resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalTier0Router to import
-  * @param importFromId The id of the existing LogicalTier0Router that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalTier0Router that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalTier0Router to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class LogicalTier0Router extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_tier0_router nsxt_logical_tier0_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_tier0_router nsxt_logical_tier0_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class LogicalTier0Router extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_logical_tier0_router',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

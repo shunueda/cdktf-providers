@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicySiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#description PolicySite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#description PolicySite#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#display_name PolicySite#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#display_name PolicySite#display_name}
   */
   readonly displayName: string;
   /**
   * Fail onboarding if RTEPs misconfigured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#fail_if_rtep_misconfigured PolicySite#fail_if_rtep_misconfigured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#fail_if_rtep_misconfigured PolicySite#fail_if_rtep_misconfigured}
   */
   readonly failIfRtepMisconfigured?: boolean | cdktf.IResolvable;
   /**
   * Fail onboarding if maximum RTT exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#fail_if_rtt_exceeded PolicySite#fail_if_rtt_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#fail_if_rtt_exceeded PolicySite#fail_if_rtt_exceeded}
   */
   readonly failIfRttExceeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#id PolicySite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#id PolicySite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface PolicySiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum acceptable packet round trip time (RTT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#maximum_rtt PolicySite#maximum_rtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#maximum_rtt PolicySite#maximum_rtt}
   */
   readonly maximumRtt?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#nsx_id PolicySite#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#nsx_id PolicySite#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Persistent Site Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#site_type PolicySite#site_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#site_type PolicySite#site_type}
   */
   readonly siteType: string;
   /**
   * site_connection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#site_connection_info PolicySite#site_connection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#site_connection_info PolicySite#site_connection_info}
   */
   readonly siteConnectionInfo?: PolicySiteSiteConnectionInfo[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#tag PolicySite#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#tag PolicySite#tag}
   */
   readonly tag?: PolicySiteTag[] | cdktf.IResolvable;
 }
@@ -73,31 +73,31 @@ export interface PolicySiteSiteConnectionInfo {
   /**
   * Fully Qualified Domain Name of the Management Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#fqdn PolicySite#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#fqdn PolicySite#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#password PolicySite#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#password PolicySite#password}
   */
   readonly password?: string;
   /**
   * id of Site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#site_uuid PolicySite#site_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#site_uuid PolicySite#site_uuid}
   */
   readonly siteUuid?: string;
   /**
   * Thumbprint of Enforcement Point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#thumbprint PolicySite#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#thumbprint PolicySite#thumbprint}
   */
   readonly thumbprint?: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#username PolicySite#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#username PolicySite#username}
   */
   readonly username?: string;
 }
@@ -329,11 +329,11 @@ export class PolicySiteSiteConnectionInfoList extends cdktf.ComplexList {
 }
 export interface PolicySiteTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#scope PolicySite#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#scope PolicySite#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#tag PolicySite#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#tag PolicySite#tag}
   */
   readonly tag?: string;
 }
@@ -478,7 +478,7 @@ export class PolicySiteTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site nsxt_policy_site}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site nsxt_policy_site}
 */
 export class PolicySite extends cdktf.TerraformResource {
 
@@ -494,7 +494,7 @@ export class PolicySite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicySite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicySite to import
-  * @param importFromId The id of the existing PolicySite that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicySite that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicySite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -506,7 +506,7 @@ export class PolicySite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_site nsxt_policy_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_site nsxt_policy_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,8 +517,8 @@ export class PolicySite extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_site',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

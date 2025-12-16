@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudCssTimeShiftRecordDetailConfig extends cdktf.Te
   /**
   * Push path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#app_name DataTencentcloudCssTimeShiftRecordDetail#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#app_name DataTencentcloudCssTimeShiftRecordDetail#app_name}
   */
   readonly appName: string;
   /**
   * Push domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#domain DataTencentcloudCssTimeShiftRecordDetail#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#domain DataTencentcloudCssTimeShiftRecordDetail#domain}
   */
   readonly domain: string;
   /**
   * The streaming domain belongs to a group. If there is no domain group or the domain group is an empty string, it can be left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#domain_group DataTencentcloudCssTimeShiftRecordDetail#domain_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#domain_group DataTencentcloudCssTimeShiftRecordDetail#domain_group}
   */
   readonly domainGroup?: string;
   /**
   * The ending time of the query range is specified in Unix timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#end_time DataTencentcloudCssTimeShiftRecordDetail#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#end_time DataTencentcloudCssTimeShiftRecordDetail#end_time}
   */
   readonly endTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#id DataTencentcloudCssTimeShiftRecordDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#id DataTencentcloudCssTimeShiftRecordDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DataTencentcloudCssTimeShiftRecordDetailConfig extends cdktf.Te
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#result_output_file DataTencentcloudCssTimeShiftRecordDetail#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#result_output_file DataTencentcloudCssTimeShiftRecordDetail#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The starting time of the query range is specified in Unix timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#start_time DataTencentcloudCssTimeShiftRecordDetail#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#start_time DataTencentcloudCssTimeShiftRecordDetail#start_time}
   */
   readonly startTime: number;
   /**
   * Stream name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#stream_name DataTencentcloudCssTimeShiftRecordDetail#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#stream_name DataTencentcloudCssTimeShiftRecordDetail#stream_name}
   */
   readonly streamName: string;
   /**
   * The transcoding template ID can be left blank if it is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#trans_code_id DataTencentcloudCssTimeShiftRecordDetail#trans_code_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#trans_code_id DataTencentcloudCssTimeShiftRecordDetail#trans_code_id}
   */
   readonly transCodeId?: number;
 }
@@ -150,7 +150,7 @@ export class DataTencentcloudCssTimeShiftRecordDetailRecordListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail tencentcloud_css_time_shift_record_detail}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail tencentcloud_css_time_shift_record_detail}
 */
 export class DataTencentcloudCssTimeShiftRecordDetail extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataTencentcloudCssTimeShiftRecordDetail extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudCssTimeShiftRecordDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCssTimeShiftRecordDetail to import
-  * @param importFromId The id of the existing DataTencentcloudCssTimeShiftRecordDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCssTimeShiftRecordDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCssTimeShiftRecordDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataTencentcloudCssTimeShiftRecordDetail extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/css_time_shift_record_detail tencentcloud_css_time_shift_record_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_time_shift_record_detail tencentcloud_css_time_shift_record_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataTencentcloudCssTimeShiftRecordDetail extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_css_time_shift_record_detail',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

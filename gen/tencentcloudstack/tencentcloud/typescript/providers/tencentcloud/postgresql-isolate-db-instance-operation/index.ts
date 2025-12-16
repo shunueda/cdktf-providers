@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_isolate_db_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_isolate_db_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PostgresqlIsolateDbInstanceOperationConfig extends cdktf.Terraf
   /**
   * List of resource IDs. Note that currently you cannot isolate multiple instances at the same time. Only one instance ID can be passed in here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_isolate_db_instance_operation#db_instance_id_set PostgresqlIsolateDbInstanceOperation#db_instance_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_isolate_db_instance_operation#db_instance_id_set PostgresqlIsolateDbInstanceOperation#db_instance_id_set}
   */
   readonly dbInstanceIdSet: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_isolate_db_instance_operation#id PostgresqlIsolateDbInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_isolate_db_instance_operation#id PostgresqlIsolateDbInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface PostgresqlIsolateDbInstanceOperationConfig extends cdktf.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_isolate_db_instance_operation tencentcloud_postgresql_isolate_db_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_isolate_db_instance_operation tencentcloud_postgresql_isolate_db_instance_operation}
 */
 export class PostgresqlIsolateDbInstanceOperation extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class PostgresqlIsolateDbInstanceOperation extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a PostgresqlIsolateDbInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlIsolateDbInstanceOperation to import
-  * @param importFromId The id of the existing PostgresqlIsolateDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_isolate_db_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlIsolateDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_isolate_db_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlIsolateDbInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class PostgresqlIsolateDbInstanceOperation extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_isolate_db_instance_operation tencentcloud_postgresql_isolate_db_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_isolate_db_instance_operation tencentcloud_postgresql_isolate_db_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class PostgresqlIsolateDbInstanceOperation extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_postgresql_isolate_db_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version
+// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface CustomConnectorPluginVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#cloud CustomConnectorPluginVersion#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#cloud CustomConnectorPluginVersion#cloud}
   */
   readonly cloud: string;
   /**
   * A documentation link of the Custom Connector Plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#documentation_link CustomConnectorPluginVersion#documentation_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#documentation_link CustomConnectorPluginVersion#documentation_link}
   */
   readonly documentationLink?: string;
   /**
   * The path to the file that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#filename CustomConnectorPluginVersion#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#filename CustomConnectorPluginVersion#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#id CustomConnectorPluginVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#id CustomConnectorPluginVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,31 +33,31 @@ export interface CustomConnectorPluginVersionConfig extends cdktf.TerraformMetaA
   /**
   * The Plugin Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#plugin_id CustomConnectorPluginVersion#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#plugin_id CustomConnectorPluginVersion#plugin_id}
   */
   readonly pluginId: string;
   /**
   * A list of sensitive properties where a sensitive property is a connector configuration property that must be hidden after a user enters property value when setting up connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#sensitive_config_properties CustomConnectorPluginVersion#sensitive_config_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#sensitive_config_properties CustomConnectorPluginVersion#sensitive_config_properties}
   */
   readonly sensitiveConfigProperties?: string[];
   /**
   * The version of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#version CustomConnectorPluginVersion#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#version CustomConnectorPluginVersion#version}
   */
   readonly version: string;
   /**
   * connector_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#connector_class CustomConnectorPluginVersion#connector_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#connector_class CustomConnectorPluginVersion#connector_class}
   */
   readonly connectorClass: CustomConnectorPluginVersionConnectorClass[] | cdktf.IResolvable;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#environment CustomConnectorPluginVersion#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#environment CustomConnectorPluginVersion#environment}
   */
   readonly environment: CustomConnectorPluginVersionEnvironment;
 }
@@ -65,13 +65,13 @@ export interface CustomConnectorPluginVersionConnectorClass {
   /**
   * Java class or alias for connector. You can get connector class from connector documentation provided by developer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#connector_class_name CustomConnectorPluginVersion#connector_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#connector_class_name CustomConnectorPluginVersion#connector_class_name}
   */
   readonly connectorClassName: string;
   /**
   * Custom Connector type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#connector_type CustomConnectorPluginVersion#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#connector_type CustomConnectorPluginVersion#connector_type}
   */
   readonly connectorType: string;
 }
@@ -212,7 +212,7 @@ export interface CustomConnectorPluginVersionEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#id CustomConnectorPluginVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#id CustomConnectorPluginVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,7 +296,7 @@ export class CustomConnectorPluginVersionEnvironmentOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version confluent_custom_connector_plugin_version}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version confluent_custom_connector_plugin_version}
 */
 export class CustomConnectorPluginVersion extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class CustomConnectorPluginVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomConnectorPluginVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomConnectorPluginVersion to import
-  * @param importFromId The id of the existing CustomConnectorPluginVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomConnectorPluginVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomConnectorPluginVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class CustomConnectorPluginVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/custom_connector_plugin_version confluent_custom_connector_plugin_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/custom_connector_plugin_version confluent_custom_connector_plugin_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class CustomConnectorPluginVersion extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_custom_connector_plugin_version',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.55.0',
-        providerVersionConstraint: '2.55.0'
+        providerVersion: '2.56.0',
+        providerVersionConstraint: '2.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

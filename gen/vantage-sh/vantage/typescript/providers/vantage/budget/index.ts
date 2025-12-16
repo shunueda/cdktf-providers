@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BudgetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The tokens of any child Budgets when creating a hierarchical Budget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#child_budget_tokens Budget#child_budget_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#child_budget_tokens Budget#child_budget_tokens}
   */
   readonly childBudgetTokens?: string[];
   /**
   * The CostReport token. Ignored for hierarchical Budgets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#cost_report_token Budget#cost_report_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#cost_report_token Budget#cost_report_token}
   */
   readonly costReportToken?: string;
   /**
   * The name of the Budget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#name Budget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#name Budget#name}
   */
   readonly name: string;
   /**
   * The periods for the Budget. The start_at and end_at must be iso8601 formatted e.g. YYYY-MM-DD. Ignored for hierarchical Budgets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#periods Budget#periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#periods Budget#periods}
   */
   readonly periods?: BudgetPeriods[] | cdktf.IResolvable;
   /**
   * The token of the Workspace to add the Budget to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#workspace_token Budget#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#workspace_token Budget#workspace_token}
   */
   readonly workspaceToken?: string;
 }
@@ -127,19 +127,19 @@ export interface BudgetPeriods {
   /**
   * The amount of the period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#amount Budget#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#amount Budget#amount}
   */
   readonly amount: number;
   /**
   * The end date of the period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#end_at Budget#end_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#end_at Budget#end_at}
   */
   readonly endAt?: string;
   /**
   * The start date of the period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#start_at Budget#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#start_at Budget#start_at}
   */
   readonly startAt: string;
 }
@@ -307,7 +307,7 @@ export class BudgetPeriodsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget vantage_budget}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget vantage_budget}
 */
 export class Budget extends cdktf.TerraformResource {
 
@@ -323,7 +323,7 @@ export class Budget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Budget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Budget to import
-  * @param importFromId The id of the existing Budget that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Budget that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Budget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -335,7 +335,7 @@ export class Budget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/budget vantage_budget} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/budget vantage_budget} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,8 +346,8 @@ export class Budget extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_budget',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

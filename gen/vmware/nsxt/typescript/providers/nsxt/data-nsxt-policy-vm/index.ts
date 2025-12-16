@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataNsxtPolicyVmConfig extends cdktf.TerraformMetaArguments {
   /**
   * BIOS UUID of the Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#bios_id DataNsxtPolicyVm#bios_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#bios_id DataNsxtPolicyVm#bios_id}
   */
   readonly biosId?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#description DataNsxtPolicyVm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#description DataNsxtPolicyVm#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#display_name DataNsxtPolicyVm#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#display_name DataNsxtPolicyVm#display_name}
   */
   readonly displayName?: string;
   /**
   * External ID of the Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#external_id DataNsxtPolicyVm#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#external_id DataNsxtPolicyVm#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#id DataNsxtPolicyVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#id DataNsxtPolicyVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface DataNsxtPolicyVmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance UUID of the Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#instance_id DataNsxtPolicyVm#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#instance_id DataNsxtPolicyVm#instance_id}
   */
   readonly instanceId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#context DataNsxtPolicyVm#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#context DataNsxtPolicyVm#context}
   */
   readonly context?: DataNsxtPolicyVmContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#tag DataNsxtPolicyVm#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#tag DataNsxtPolicyVm#tag}
   */
   readonly tag?: DataNsxtPolicyVmTag[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface DataNsxtPolicyVmContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#project_id DataNsxtPolicyVm#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#project_id DataNsxtPolicyVm#project_id}
   */
   readonly projectId: string;
 }
@@ -142,11 +142,11 @@ export class DataNsxtPolicyVmContextOutputReference extends cdktf.ComplexObject 
 }
 export interface DataNsxtPolicyVmTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#scope DataNsxtPolicyVm#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#scope DataNsxtPolicyVm#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#tag DataNsxtPolicyVm#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#tag DataNsxtPolicyVm#tag}
   */
   readonly tag?: string;
 }
@@ -291,7 +291,7 @@ export class DataNsxtPolicyVmTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm nsxt_policy_vm}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm nsxt_policy_vm}
 */
 export class DataNsxtPolicyVm extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataNsxtPolicyVm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNsxtPolicyVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyVm to import
-  * @param importFromId The id of the existing DataNsxtPolicyVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataNsxtPolicyVm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_vm nsxt_policy_vm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_vm nsxt_policy_vm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataNsxtPolicyVm extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_policy_vm',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -449,6 +449,11 @@ export class DataNsxtPolicyVm extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get instanceIdInput() {
     return this._instanceId;
+  }
+
+  // vif_ids - computed: true, optional: false, required: false
+  public get vifIds() {
+    return this.getListAttribute('vif_ids');
   }
 
   // context - computed: false, optional: true, required: false

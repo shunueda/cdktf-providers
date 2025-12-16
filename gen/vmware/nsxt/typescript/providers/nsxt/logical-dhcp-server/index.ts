@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface LogicalDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#description LogicalDhcpServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#description LogicalDhcpServer#description}
   */
   readonly description?: string;
   /**
   * DHCP profile uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#dhcp_profile_id LogicalDhcpServer#dhcp_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#dhcp_profile_id LogicalDhcpServer#dhcp_profile_id}
   */
   readonly dhcpProfileId: string;
   /**
   * DHCP server ip in cidr format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#dhcp_server_ip LogicalDhcpServer#dhcp_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#dhcp_server_ip LogicalDhcpServer#dhcp_server_ip}
   */
   readonly dhcpServerIp: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#display_name LogicalDhcpServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#display_name LogicalDhcpServer#display_name}
   */
   readonly displayName?: string;
   /**
   * DNS IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#dns_name_servers LogicalDhcpServer#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#dns_name_servers LogicalDhcpServer#dns_name_servers}
   */
   readonly dnsNameServers?: string[];
   /**
   * Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#domain_name LogicalDhcpServer#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#domain_name LogicalDhcpServer#domain_name}
   */
   readonly domainName?: string;
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#gateway_ip LogicalDhcpServer#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#gateway_ip LogicalDhcpServer#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#id LogicalDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#id LogicalDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,19 +59,19 @@ export interface LogicalDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * dhcp_generic_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#dhcp_generic_option LogicalDhcpServer#dhcp_generic_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#dhcp_generic_option LogicalDhcpServer#dhcp_generic_option}
   */
   readonly dhcpGenericOption?: LogicalDhcpServerDhcpGenericOption[] | cdktf.IResolvable;
   /**
   * dhcp_option_121 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#dhcp_option_121 LogicalDhcpServer#dhcp_option_121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#dhcp_option_121 LogicalDhcpServer#dhcp_option_121}
   */
   readonly dhcpOption121?: LogicalDhcpServerDhcpOption121[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#tag LogicalDhcpServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#tag LogicalDhcpServer#tag}
   */
   readonly tag?: LogicalDhcpServerTag[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface LogicalDhcpServerDhcpGenericOption {
   /**
   * DHCP option code, [0-255]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#code LogicalDhcpServer#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#code LogicalDhcpServer#code}
   */
   readonly code: number;
   /**
   * DHCP option values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#values LogicalDhcpServer#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#values LogicalDhcpServer#values}
   */
   readonly values: string[];
 }
@@ -226,13 +226,13 @@ export interface LogicalDhcpServerDhcpOption121 {
   /**
   * Destination in cidr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#network LogicalDhcpServer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#network LogicalDhcpServer#network}
   */
   readonly network: string;
   /**
   * Next hop IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#next_hop LogicalDhcpServer#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#next_hop LogicalDhcpServer#next_hop}
   */
   readonly nextHop: string;
 }
@@ -371,11 +371,11 @@ export class LogicalDhcpServerDhcpOption121List extends cdktf.ComplexList {
 }
 export interface LogicalDhcpServerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#scope LogicalDhcpServer#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#scope LogicalDhcpServer#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#tag LogicalDhcpServer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#tag LogicalDhcpServer#tag}
   */
   readonly tag?: string;
 }
@@ -520,7 +520,7 @@ export class LogicalDhcpServerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server nsxt_logical_dhcp_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server nsxt_logical_dhcp_server}
 */
 export class LogicalDhcpServer extends cdktf.TerraformResource {
 
@@ -536,7 +536,7 @@ export class LogicalDhcpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalDhcpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalDhcpServer to import
-  * @param importFromId The id of the existing LogicalDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalDhcpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -548,7 +548,7 @@ export class LogicalDhcpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_dhcp_server nsxt_logical_dhcp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_dhcp_server nsxt_logical_dhcp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,8 +559,8 @@ export class LogicalDhcpServer extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_logical_dhcp_server',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

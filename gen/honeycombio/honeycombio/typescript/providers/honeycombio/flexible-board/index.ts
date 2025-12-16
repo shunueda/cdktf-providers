@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,57 @@ export interface FlexibleBoardConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the Board. Supports Markdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#description FlexibleBoard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#description FlexibleBoard#description}
   */
   readonly description?: string;
   /**
   * The name of the Board.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#name FlexibleBoard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#name FlexibleBoard#name}
   */
   readonly name: string;
   /**
   * A map of tags to assign to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#tags FlexibleBoard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#tags FlexibleBoard#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#panel FlexibleBoard#panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#panel FlexibleBoard#panel}
   */
   readonly panel?: FlexibleBoardPanel[] | cdktf.IResolvable;
+  /**
+  * preset_filter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#preset_filter FlexibleBoard#preset_filter}
+  */
+  readonly presetFilter?: FlexibleBoardPresetFilter[] | cdktf.IResolvable;
 }
 export interface FlexibleBoardPanelPosition {
   /**
   * The height of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#height FlexibleBoard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#height FlexibleBoard#height}
   */
   readonly height?: number;
   /**
   * The width of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#width FlexibleBoard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#width FlexibleBoard#width}
   */
   readonly width?: number;
   /**
   * The X coordinate of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#x_coordinate FlexibleBoard#x_coordinate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#x_coordinate FlexibleBoard#x_coordinate}
   */
   readonly xCoordinate?: number;
   /**
   * The Y coordinate of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#y_coordinate FlexibleBoard#y_coordinate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#y_coordinate FlexibleBoard#y_coordinate}
   */
   readonly yCoordinate?: number;
 }
@@ -237,25 +243,25 @@ export interface FlexibleBoardPanelQueryPanelVisualizationSettingsChart {
   /**
   * Index of the chart this configuration controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#chart_index FlexibleBoard#chart_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#chart_index FlexibleBoard#chart_index}
   */
   readonly chartIndex?: number;
   /**
   * Type of chart (e.g., 'line', 'bar').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#chart_type FlexibleBoard#chart_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#chart_type FlexibleBoard#chart_type}
   */
   readonly chartType?: string;
   /**
   * Omit missing values from the visualization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#omit_missing_values FlexibleBoard#omit_missing_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#omit_missing_values FlexibleBoard#omit_missing_values}
   */
   readonly omitMissingValues?: boolean | cdktf.IResolvable;
   /**
   * Use logarithmic scale on Y axis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#use_log_scale FlexibleBoard#use_log_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#use_log_scale FlexibleBoard#use_log_scale}
   */
   readonly useLogScale?: boolean | cdktf.IResolvable;
 }
@@ -460,37 +466,37 @@ export interface FlexibleBoardPanelQueryPanelVisualizationSettings {
   /**
   * Hide comparison values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#hide_compare FlexibleBoard#hide_compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#hide_compare FlexibleBoard#hide_compare}
   */
   readonly hideCompare?: boolean | cdktf.IResolvable;
   /**
   * Disable Graph tooltips in the results display when hovering over a graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#hide_hovers FlexibleBoard#hide_hovers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#hide_hovers FlexibleBoard#hide_hovers}
   */
   readonly hideHovers?: boolean | cdktf.IResolvable;
   /**
   * Hide markers from appearing on graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#hide_markers FlexibleBoard#hide_markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#hide_markers FlexibleBoard#hide_markers}
   */
   readonly hideMarkers?: boolean | cdktf.IResolvable;
   /**
   * Combine any visualized AVG, MIN, MAX, and PERCENTILE clauses into a single chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#prefer_overlaid_charts FlexibleBoard#prefer_overlaid_charts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#prefer_overlaid_charts FlexibleBoard#prefer_overlaid_charts}
   */
   readonly preferOverlaidCharts?: boolean | cdktf.IResolvable;
   /**
   * Display UTC Time X-Axis or Localtime X-Axis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#use_utc_xaxis FlexibleBoard#use_utc_xaxis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#use_utc_xaxis FlexibleBoard#use_utc_xaxis}
   */
   readonly useUtcXaxis?: boolean | cdktf.IResolvable;
   /**
   * chart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#chart FlexibleBoard#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#chart FlexibleBoard#chart}
   */
   readonly chart?: FlexibleBoardPanelQueryPanelVisualizationSettingsChart[] | cdktf.IResolvable;
 }
@@ -753,25 +759,25 @@ export interface FlexibleBoardPanelQueryPanel {
   /**
   * Query annotation ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_annotation_id FlexibleBoard#query_annotation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#query_annotation_id FlexibleBoard#query_annotation_id}
   */
   readonly queryAnnotationId: string;
   /**
   * Query ID to be rendered in the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_id FlexibleBoard#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#query_id FlexibleBoard#query_id}
   */
   readonly queryId: string;
   /**
   * The visual style of the query (e.g., 'graph', 'combo').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_style FlexibleBoard#query_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#query_style FlexibleBoard#query_style}
   */
   readonly queryStyle?: string;
   /**
   * visualization_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#visualization_settings FlexibleBoard#visualization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#visualization_settings FlexibleBoard#visualization_settings}
   */
   readonly visualizationSettings?: FlexibleBoardPanelQueryPanelVisualizationSettings[] | cdktf.IResolvable;
 }
@@ -970,7 +976,7 @@ export interface FlexibleBoardPanelSloPanel {
   /**
   * SLO ID to display in this panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#slo_id FlexibleBoard#slo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#slo_id FlexibleBoard#slo_id}
   */
   readonly sloId: string;
 }
@@ -1085,7 +1091,7 @@ export interface FlexibleBoardPanelTextPanel {
   /**
   * The content of the text panel. Supports Markdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#content FlexibleBoard#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#content FlexibleBoard#content}
   */
   readonly content: string;
 }
@@ -1200,31 +1206,31 @@ export interface FlexibleBoardPanel {
   /**
   * The panel type, either "query", "slo", or "text".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#type FlexibleBoard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#type FlexibleBoard#type}
   */
   readonly type: string;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#position FlexibleBoard#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#position FlexibleBoard#position}
   */
   readonly position?: FlexibleBoardPanelPosition;
   /**
   * query_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#query_panel FlexibleBoard#query_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#query_panel FlexibleBoard#query_panel}
   */
   readonly queryPanel?: FlexibleBoardPanelQueryPanel[] | cdktf.IResolvable;
   /**
   * slo_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#slo_panel FlexibleBoard#slo_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#slo_panel FlexibleBoard#slo_panel}
   */
   readonly sloPanel?: FlexibleBoardPanelSloPanel[] | cdktf.IResolvable;
   /**
   * text_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#text_panel FlexibleBoard#text_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#text_panel FlexibleBoard#text_panel}
   */
   readonly textPanel?: FlexibleBoardPanelTextPanel[] | cdktf.IResolvable;
 }
@@ -1451,9 +1457,156 @@ export class FlexibleBoardPanelList extends cdktf.ComplexList {
     return new FlexibleBoardPanelOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface FlexibleBoardPresetFilter {
+  /**
+  * The alias for the preset filter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#alias FlexibleBoard#alias}
+  */
+  readonly alias: string;
+  /**
+  * The column name for the preset filter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#column FlexibleBoard#column}
+  */
+  readonly column: string;
+}
+
+export function flexibleBoardPresetFilterToTerraform(struct?: FlexibleBoardPresetFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    alias: cdktf.stringToTerraform(struct!.alias),
+    column: cdktf.stringToTerraform(struct!.column),
+  }
+}
+
+
+export function flexibleBoardPresetFilterToHclTerraform(struct?: FlexibleBoardPresetFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    alias: {
+      value: cdktf.stringToHclTerraform(struct!.alias),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    column: {
+      value: cdktf.stringToHclTerraform(struct!.column),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FlexibleBoardPresetFilterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FlexibleBoardPresetFilter | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._alias !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.alias = this._alias;
+    }
+    if (this._column !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.column = this._column;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FlexibleBoardPresetFilter | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._alias = undefined;
+      this._column = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._alias = value.alias;
+      this._column = value.column;
+    }
+  }
+
+  // alias - computed: false, optional: false, required: true
+  private _alias?: string; 
+  public get alias() {
+    return this.getStringAttribute('alias');
+  }
+  public set alias(value: string) {
+    this._alias = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aliasInput() {
+    return this._alias;
+  }
+
+  // column - computed: false, optional: false, required: true
+  private _column?: string; 
+  public get column() {
+    return this.getStringAttribute('column');
+  }
+  public set column(value: string) {
+    this._column = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get columnInput() {
+    return this._column;
+  }
+}
+
+export class FlexibleBoardPresetFilterList extends cdktf.ComplexList {
+  public internalValue? : FlexibleBoardPresetFilter[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FlexibleBoardPresetFilterOutputReference {
+    return new FlexibleBoardPresetFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board honeycombio_flexible_board}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board honeycombio_flexible_board}
 */
 export class FlexibleBoard extends cdktf.TerraformResource {
 
@@ -1469,7 +1622,7 @@ export class FlexibleBoard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlexibleBoard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlexibleBoard to import
-  * @param importFromId The id of the existing FlexibleBoard that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlexibleBoard that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlexibleBoard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1481,7 +1634,7 @@ export class FlexibleBoard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/flexible_board honeycombio_flexible_board} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/flexible_board honeycombio_flexible_board} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1492,8 +1645,8 @@ export class FlexibleBoard extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_flexible_board',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1507,6 +1660,7 @@ export class FlexibleBoard extends cdktf.TerraformResource {
     this._name = config.name;
     this._tags = config.tags;
     this._panel.internalValue = config.panel;
+    this._presetFilter.internalValue = config.presetFilter;
   }
 
   // ==========
@@ -1584,6 +1738,22 @@ export class FlexibleBoard extends cdktf.TerraformResource {
     return this._panel.internalValue;
   }
 
+  // preset_filter - computed: false, optional: true, required: false
+  private _presetFilter = new FlexibleBoardPresetFilterList(this, "preset_filter", false);
+  public get presetFilter() {
+    return this._presetFilter;
+  }
+  public putPresetFilter(value: FlexibleBoardPresetFilter[] | cdktf.IResolvable) {
+    this._presetFilter.internalValue = value;
+  }
+  public resetPresetFilter() {
+    this._presetFilter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get presetFilterInput() {
+    return this._presetFilter.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1594,6 +1764,7 @@ export class FlexibleBoard extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       panel: cdktf.listMapper(flexibleBoardPanelToTerraform, true)(this._panel.internalValue),
+      preset_filter: cdktf.listMapper(flexibleBoardPresetFilterToTerraform, true)(this._presetFilter.internalValue),
     };
   }
 
@@ -1622,6 +1793,12 @@ export class FlexibleBoard extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "FlexibleBoardPanelList",
+      },
+      preset_filter: {
+        value: cdktf.listMapperHcl(flexibleBoardPresetFilterToHclTerraform, true)(this._presetFilter.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "FlexibleBoardPresetFilterList",
       },
     };
 

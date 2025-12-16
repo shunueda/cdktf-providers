@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyStaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#description PolicyStaticRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#description PolicyStaticRoute#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#display_name PolicyStaticRoute#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#display_name PolicyStaticRoute#display_name}
   */
   readonly displayName: string;
   /**
   * The NSX-T Policy path to the Tier0 or Tier1 Gateway for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#gateway_path PolicyStaticRoute#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#gateway_path PolicyStaticRoute#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#id PolicyStaticRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#id PolicyStaticRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PolicyStaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#network PolicyStaticRoute#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#network PolicyStaticRoute#network}
   */
   readonly network: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#nsx_id PolicyStaticRoute#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#nsx_id PolicyStaticRoute#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#context PolicyStaticRoute#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#context PolicyStaticRoute#context}
   */
   readonly context?: PolicyStaticRouteContext;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#next_hop PolicyStaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#next_hop PolicyStaticRoute#next_hop}
   */
   readonly nextHop: PolicyStaticRouteNextHop[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#tag PolicyStaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#tag PolicyStaticRoute#tag}
   */
   readonly tag?: PolicyStaticRouteTag[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface PolicyStaticRouteContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#project_id PolicyStaticRoute#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#project_id PolicyStaticRoute#project_id}
   */
   readonly projectId: string;
 }
@@ -150,19 +150,19 @@ export interface PolicyStaticRouteNextHop {
   /**
   * Cost associated with next hop route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#admin_distance PolicyStaticRoute#admin_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#admin_distance PolicyStaticRoute#admin_distance}
   */
   readonly adminDistance?: number;
   /**
   * Interface path associated with current route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#interface PolicyStaticRoute#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#interface PolicyStaticRoute#interface}
   */
   readonly interface?: string;
   /**
   * Next hop gateway IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#ip_address PolicyStaticRoute#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#ip_address PolicyStaticRoute#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -336,11 +336,11 @@ export class PolicyStaticRouteNextHopList extends cdktf.ComplexList {
 }
 export interface PolicyStaticRouteTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#scope PolicyStaticRoute#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#scope PolicyStaticRoute#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#tag PolicyStaticRoute#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#tag PolicyStaticRoute#tag}
   */
   readonly tag?: string;
 }
@@ -485,7 +485,7 @@ export class PolicyStaticRouteTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route nsxt_policy_static_route}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route nsxt_policy_static_route}
 */
 export class PolicyStaticRoute extends cdktf.TerraformResource {
 
@@ -501,7 +501,7 @@ export class PolicyStaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyStaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyStaticRoute to import
-  * @param importFromId The id of the existing PolicyStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyStaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -513,7 +513,7 @@ export class PolicyStaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route nsxt_policy_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route nsxt_policy_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -524,8 +524,8 @@ export class PolicyStaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_static_route',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

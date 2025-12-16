@@ -239,254 +239,254 @@ export interface SourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#group_id Source#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#group_id Source#group_id}
   */
   readonly groupId: string;
   /**
   * The id of this source instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#id Source#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#id Source#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_appscope Source#input_appscope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_appscope Source#input_appscope}
   */
   readonly inputAppscope?: SourceInputAppscope;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_azure_blob Source#input_azure_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_azure_blob Source#input_azure_blob}
   */
   readonly inputAzureBlob?: SourceInputAzureBlob;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_collection Source#input_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_collection Source#input_collection}
   */
   readonly inputCollection?: SourceInputCollection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_confluent_cloud Source#input_confluent_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_confluent_cloud Source#input_confluent_cloud}
   */
   readonly inputConfluentCloud?: SourceInputConfluentCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_cribl Source#input_cribl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_cribl Source#input_cribl}
   */
   readonly inputCribl?: SourceInputCribl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_cribl_http Source#input_cribl_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_cribl_http Source#input_cribl_http}
   */
   readonly inputCriblHttp?: SourceInputCriblHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_cribl_lake_http Source#input_cribl_lake_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_cribl_lake_http Source#input_cribl_lake_http}
   */
   readonly inputCriblLakeHttp?: SourceInputCriblLakeHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_cribl_tcp Source#input_cribl_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_cribl_tcp Source#input_cribl_tcp}
   */
   readonly inputCriblTcp?: SourceInputCriblTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_criblmetrics Source#input_criblmetrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_criblmetrics Source#input_criblmetrics}
   */
   readonly inputCriblmetrics?: SourceInputCriblmetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_crowdstrike Source#input_crowdstrike}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_crowdstrike Source#input_crowdstrike}
   */
   readonly inputCrowdstrike?: SourceInputCrowdstrike;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_datadog_agent Source#input_datadog_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_datadog_agent Source#input_datadog_agent}
   */
   readonly inputDatadogAgent?: SourceInputDatadogAgent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_datagen Source#input_datagen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_datagen Source#input_datagen}
   */
   readonly inputDatagen?: SourceInputDatagen;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_edge_prometheus Source#input_edge_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_edge_prometheus Source#input_edge_prometheus}
   */
   readonly inputEdgePrometheus?: SourceInputEdgePrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_elastic Source#input_elastic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_elastic Source#input_elastic}
   */
   readonly inputElastic?: SourceInputElastic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_eventhub Source#input_eventhub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_eventhub Source#input_eventhub}
   */
   readonly inputEventhub?: SourceInputEventhub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_exec Source#input_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_exec Source#input_exec}
   */
   readonly inputExec?: SourceInputExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_file Source#input_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_file Source#input_file}
   */
   readonly inputFile?: SourceInputFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_firehose Source#input_firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_firehose Source#input_firehose}
   */
   readonly inputFirehose?: SourceInputFirehose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_google_pubsub Source#input_google_pubsub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_google_pubsub Source#input_google_pubsub}
   */
   readonly inputGooglePubsub?: SourceInputGooglePubsub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_grafana Source#input_grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_grafana Source#input_grafana}
   */
   readonly inputGrafana?: SourceInputGrafana;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_http Source#input_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_http Source#input_http}
   */
   readonly inputHttp?: SourceInputHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_http_raw Source#input_http_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_http_raw Source#input_http_raw}
   */
   readonly inputHttpRaw?: SourceInputHttpRaw;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_journal_files Source#input_journal_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_journal_files Source#input_journal_files}
   */
   readonly inputJournalFiles?: SourceInputJournalFiles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_kafka Source#input_kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_kafka Source#input_kafka}
   */
   readonly inputKafka?: SourceInputKafka;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_kinesis Source#input_kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_kinesis Source#input_kinesis}
   */
   readonly inputKinesis?: SourceInputKinesis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_kube_events Source#input_kube_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_kube_events Source#input_kube_events}
   */
   readonly inputKubeEvents?: SourceInputKubeEvents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_kube_logs Source#input_kube_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_kube_logs Source#input_kube_logs}
   */
   readonly inputKubeLogs?: SourceInputKubeLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_kube_metrics Source#input_kube_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_kube_metrics Source#input_kube_metrics}
   */
   readonly inputKubeMetrics?: SourceInputKubeMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_loki Source#input_loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_loki Source#input_loki}
   */
   readonly inputLoki?: SourceInputLoki;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_metrics Source#input_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_metrics Source#input_metrics}
   */
   readonly inputMetrics?: SourceInputMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_model_driven_telemetry Source#input_model_driven_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_model_driven_telemetry Source#input_model_driven_telemetry}
   */
   readonly inputModelDrivenTelemetry?: SourceInputModelDrivenTelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_msk Source#input_msk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_msk Source#input_msk}
   */
   readonly inputMsk?: SourceInputMsk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_netflow Source#input_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_netflow Source#input_netflow}
   */
   readonly inputNetflow?: SourceInputNetflow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_office365_mgmt Source#input_office365_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_office365_mgmt Source#input_office365_mgmt}
   */
   readonly inputOffice365Mgmt?: SourceInputOffice365Mgmt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_office365_msg_trace Source#input_office365_msg_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_office365_msg_trace Source#input_office365_msg_trace}
   */
   readonly inputOffice365MsgTrace?: SourceInputOffice365MsgTrace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_office365_service Source#input_office365_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_office365_service Source#input_office365_service}
   */
   readonly inputOffice365Service?: SourceInputOffice365Service;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_open_telemetry Source#input_open_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_open_telemetry Source#input_open_telemetry}
   */
   readonly inputOpenTelemetry?: SourceInputOpenTelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_prometheus Source#input_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_prometheus Source#input_prometheus}
   */
   readonly inputPrometheus?: SourceInputPrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_prometheus_rw Source#input_prometheus_rw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_prometheus_rw Source#input_prometheus_rw}
   */
   readonly inputPrometheusRw?: SourceInputPrometheusRw;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_raw_udp Source#input_raw_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_raw_udp Source#input_raw_udp}
   */
   readonly inputRawUdp?: SourceInputRawUdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_s3 Source#input_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_s3 Source#input_s3}
   */
   readonly inputS3?: SourceInputS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_s3_inventory Source#input_s3_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_s3_inventory Source#input_s3_inventory}
   */
   readonly inputS3Inventory?: SourceInputS3Inventory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_security_lake Source#input_security_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_security_lake Source#input_security_lake}
   */
   readonly inputSecurityLake?: SourceInputSecurityLake;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_snmp Source#input_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_snmp Source#input_snmp}
   */
   readonly inputSnmp?: SourceInputSnmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_splunk Source#input_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_splunk Source#input_splunk}
   */
   readonly inputSplunk?: SourceInputSplunk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_splunk_hec Source#input_splunk_hec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_splunk_hec Source#input_splunk_hec}
   */
   readonly inputSplunkHec?: SourceInputSplunkHec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_splunk_search Source#input_splunk_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_splunk_search Source#input_splunk_search}
   */
   readonly inputSplunkSearch?: SourceInputSplunkSearch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_sqs Source#input_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_sqs Source#input_sqs}
   */
   readonly inputSqs?: SourceInputSqs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_syslog Source#input_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_syslog Source#input_syslog}
   */
   readonly inputSyslog?: SourceInputSyslog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_system_metrics Source#input_system_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_system_metrics Source#input_system_metrics}
   */
   readonly inputSystemMetrics?: SourceInputSystemMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_system_state Source#input_system_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_system_state Source#input_system_state}
   */
   readonly inputSystemState?: SourceInputSystemState;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_tcp Source#input_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_tcp Source#input_tcp}
   */
   readonly inputTcp?: SourceInputTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_tcpjson Source#input_tcpjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_tcpjson Source#input_tcpjson}
   */
   readonly inputTcpjson?: SourceInputTcpjson;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_wef Source#input_wef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_wef Source#input_wef}
   */
   readonly inputWef?: SourceInputWef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_win_event_logs Source#input_win_event_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_win_event_logs Source#input_win_event_logs}
   */
   readonly inputWinEventLogs?: SourceInputWinEventLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_windows_metrics Source#input_windows_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_windows_metrics Source#input_windows_metrics}
   */
   readonly inputWindowsMetrics?: SourceInputWindowsMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_wiz Source#input_wiz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_wiz Source#input_wiz}
   */
   readonly inputWiz?: SourceInputWiz;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#input_zscaler_hec Source#input_zscaler_hec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#input_zscaler_hec Source#input_zscaler_hec}
   */
   readonly inputZscalerHec?: SourceInputZscalerHec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source criblio_source}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source criblio_source}
 */
 export class Source extends cdktf.TerraformResource {
 
@@ -502,7 +502,7 @@ export class Source extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Source resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Source to import
-  * @param importFromId The id of the existing Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Source to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -514,7 +514,7 @@ export class Source extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/source criblio_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/source criblio_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -525,8 +525,8 @@ export class Source extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_source',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.60',
-        providerVersionConstraint: '1.20.60'
+        providerVersion: '1.20.62',
+        providerVersionConstraint: '1.20.62'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

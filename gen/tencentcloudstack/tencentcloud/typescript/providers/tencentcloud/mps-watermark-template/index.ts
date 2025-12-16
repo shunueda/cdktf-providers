@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MpsWatermarkTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#comment MpsWatermarkTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#comment MpsWatermarkTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Origin position, optional value:TopLeft: Indicates that the origin of the coordinates is at the upper left corner of the video image, and the origin of the watermark is the upper left corner of the picture or text.TopRight: Indicates that the origin of the coordinates is at the upper right corner of the video image, and the origin of the watermark is at the upper right corner of the picture or text.BottomLeft: Indicates that the origin of the coordinates is at the lower left corner of the video image, and the origin of the watermark is the lower left corner of the picture or text.BottomRight: Indicates that the origin of the coordinates is at the lower right corner of the video image, and the origin of the watermark is at the lower right corner of the picture or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#coordinate_origin MpsWatermarkTemplate#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#coordinate_origin MpsWatermarkTemplate#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#id MpsWatermarkTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#id MpsWatermarkTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface MpsWatermarkTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Watermark template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#name MpsWatermarkTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#name MpsWatermarkTemplate#name}
   */
   readonly name?: string;
   /**
   * Watermark type, optional value:image, text, svg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#type MpsWatermarkTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#type MpsWatermarkTemplate#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark from the origin of the coordinates of the video image. Support %, px two formats.When the string ends with %, it means that the watermark XPos specifies a percentage for the video width, such as 10% means that XPos is 10% of the video width.When the string ends with px, it means that the watermark XPos is the specified pixel, such as 100px means that the XPos is 100 pixels.Default value: 0px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#x_pos MpsWatermarkTemplate#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#x_pos MpsWatermarkTemplate#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark from the origin of the coordinates of the video image. Support %, px two formats.When the string ends with %, it means that the watermark YPos specifies a percentage for the video height, such as 10% means that YPos is 10% of the video height.When the string ends with px, it means that the watermark YPos is the specified pixel, such as 100px means that the YPos is 100 pixels.Default value: 0px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#y_pos MpsWatermarkTemplate#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#y_pos MpsWatermarkTemplate#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#image_template MpsWatermarkTemplate#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#image_template MpsWatermarkTemplate#image_template}
   */
   readonly imageTemplate?: MpsWatermarkTemplateImageTemplate;
   /**
   * svg_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#svg_template MpsWatermarkTemplate#svg_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#svg_template MpsWatermarkTemplate#svg_template}
   */
   readonly svgTemplate?: MpsWatermarkTemplateSvgTemplate;
   /**
   * text_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#text_template MpsWatermarkTemplate#text_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#text_template MpsWatermarkTemplate#text_template}
   */
   readonly textTemplate?: MpsWatermarkTemplateTextTemplate;
 }
@@ -73,25 +73,25 @@ export interface MpsWatermarkTemplateImageTemplate {
   /**
   * The height of the watermark. Support %, px two formats:When the string ends with %, it means that the watermark Height is the percentage size of the video height, such as 10% means that the Height is 10% of the video height.When the string ends with px, it means that the watermark Height unit is pixel, such as 100px means that the Height is 100 pixels. The value range is 0 or [8, 4096].Default value: 0px. Indicates that Height is scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#height MpsWatermarkTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#height MpsWatermarkTemplate#height}
   */
   readonly height?: string;
   /**
   * Watermark image[Base64](https://tools.ietf.org/html/rfc4648) encoded string. Support jpeg, png image format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#image_content MpsWatermarkTemplate#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#image_content MpsWatermarkTemplate#image_content}
   */
   readonly imageContent: string;
   /**
   * Watermark repeat type. Usage scenario: The watermark is a dynamic image. Ranges:once: After the dynamic watermark is played, it will no longer appear.repeat_last_frame: After the watermark is played, stay on the last frame.repeat: the watermark loops until the end of the video (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#repeat_type MpsWatermarkTemplate#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#repeat_type MpsWatermarkTemplate#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * The width of the watermark. Support %, px two formats:When the string ends with %, it means that the watermark Width is a percentage of the video width, such as 10% means that the Width is 10% of the video width.When the string ends with px, it means that the watermark Width unit is pixel, such as 100px means that the Width is 100 pixels. The value range is [8, 4096].Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#width MpsWatermarkTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#width MpsWatermarkTemplate#width}
   */
   readonly width?: string;
 }
@@ -261,13 +261,13 @@ export interface MpsWatermarkTemplateSvgTemplate {
   /**
   * The height of the watermark, supports px, W%, H%, S%, L% six formats:When the string ends with px, it means that the watermark Height unit is pixels, such as 100px means that the Height is 100 pixels; when filling 0px and Width is not 0px, it means that the height of the watermark is proportionally scaled according to the original SVG image; when both Width and Height are filled When 0px, it means that the height of the watermark takes the height of the original SVG image.When the string ends with W%, it means that the watermark Height is a percentage of the video width, such as 10W% means that the Height is 10% of the video width.When the string ends with H%, it means that the watermark Height is the percentage size of the video height, such as 10H% means that the Height is 10% of the video height.When the string ends with S%, it means that the watermark Height is the percentage size of the short side of the video, such as 10S% means that the Height is 10% of the short side of the video.When the string ends with L%, it means that the watermark Height is the percentage size of the long side of the video, such as 10L% means that the Height is 10% of the long side of the video.When the string ends with %, the meaning is the same as H%.Default value: 0px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#height MpsWatermarkTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#height MpsWatermarkTemplate#height}
   */
   readonly height?: string;
   /**
   * The width of the watermark, supports px, %, W%, H%, S%, L% six formats.When the string ends with px, it means that the watermark Width unit is pixels, such as 100px means that the Width is 100 pixels; when filling 0px and the Height is not 0px, it means that the width of the watermark is proportionally scaled according to the original SVG image; when both Width and Height are filled When 0px, it means that the width of the watermark takes the width of the original SVG image.When the string ends with W%, it means that the watermark Width is a percentage of the video width, such as 10W% means that the Width is 10% of the video width.When the string ends with H%, it means that the watermark Width is a percentage of the video height, such as 10H% means that the Width is 10% of the video height.When the string ends with S%, it means that the watermark Width is the percentage size of the short side of the video, such as 10S% means that the Width is 10% of the short side of the video.When the string ends with L%, it means that the watermark Width is the percentage size of the long side of the video, such as 10L% means that the Width is 10% of the long side of the video.When the string ends with %, it has the same meaning as W%.Default value: 10W%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#width MpsWatermarkTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#width MpsWatermarkTemplate#width}
   */
   readonly width?: string;
 }
@@ -382,25 +382,25 @@ export interface MpsWatermarkTemplateTextTemplate {
   /**
   * Text transparency, value range: (0, 1].0: fully transparent.1: fully opaque.Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#font_alpha MpsWatermarkTemplate#font_alpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#font_alpha MpsWatermarkTemplate#font_alpha}
   */
   readonly fontAlpha: number;
   /**
   * Font color, format: 0xRRGGBB, default value: 0xFFFFFF (white).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#font_color MpsWatermarkTemplate#font_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#font_color MpsWatermarkTemplate#font_color}
   */
   readonly fontColor: string;
   /**
   * Font size, format: Npx, N is a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#font_size MpsWatermarkTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#font_size MpsWatermarkTemplate#font_size}
   */
   readonly fontSize: string;
   /**
   * Font type, currently supports two:simkai.ttf: can support Chinese and English.arial.ttf: English only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#font_type MpsWatermarkTemplate#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#font_type MpsWatermarkTemplate#font_type}
   */
   readonly fontType: string;
 }
@@ -559,7 +559,7 @@ export class MpsWatermarkTemplateTextTemplateOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template tencentcloud_mps_watermark_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template tencentcloud_mps_watermark_template}
 */
 export class MpsWatermarkTemplate extends cdktf.TerraformResource {
 
@@ -575,7 +575,7 @@ export class MpsWatermarkTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsWatermarkTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsWatermarkTemplate to import
-  * @param importFromId The id of the existing MpsWatermarkTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsWatermarkTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsWatermarkTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class MpsWatermarkTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_watermark_template tencentcloud_mps_watermark_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_watermark_template tencentcloud_mps_watermark_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class MpsWatermarkTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_watermark_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

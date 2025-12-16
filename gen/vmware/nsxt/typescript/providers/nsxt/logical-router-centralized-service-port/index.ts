@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LogicalRouterCentralizedServicePortConfig extends cdktf.Terrafo
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#description LogicalRouterCentralizedServicePort#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#description LogicalRouterCentralizedServicePort#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#display_name LogicalRouterCentralizedServicePort#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#display_name LogicalRouterCentralizedServicePort#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#id LogicalRouterCentralizedServicePort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#id LogicalRouterCentralizedServicePort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface LogicalRouterCentralizedServicePortConfig extends cdktf.Terrafo
   /**
   * Logical router port subnet (ipAddress / prefix length)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#ip_address LogicalRouterCentralizedServicePort#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#ip_address LogicalRouterCentralizedServicePort#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Identifier for port on logical switch to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#linked_logical_switch_port_id LogicalRouterCentralizedServicePort#linked_logical_switch_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#linked_logical_switch_port_id LogicalRouterCentralizedServicePort#linked_logical_switch_port_id}
   */
   readonly linkedLogicalSwitchPortId: string;
   /**
   * Identifier for logical router on which this port is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#logical_router_id LogicalRouterCentralizedServicePort#logical_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#logical_router_id LogicalRouterCentralizedServicePort#logical_router_id}
   */
   readonly logicalRouterId: string;
   /**
   * Unicast Reverse Path Forwarding mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#urpf_mode LogicalRouterCentralizedServicePort#urpf_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#urpf_mode LogicalRouterCentralizedServicePort#urpf_mode}
   */
   readonly urpfMode?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#tag LogicalRouterCentralizedServicePort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#tag LogicalRouterCentralizedServicePort#tag}
   */
   readonly tag?: LogicalRouterCentralizedServicePortTag[] | cdktf.IResolvable;
 }
 export interface LogicalRouterCentralizedServicePortTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#scope LogicalRouterCentralizedServicePort#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#scope LogicalRouterCentralizedServicePort#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#tag LogicalRouterCentralizedServicePort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#tag LogicalRouterCentralizedServicePort#tag}
   */
   readonly tag?: string;
 }
@@ -208,7 +208,7 @@ export class LogicalRouterCentralizedServicePortTagList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port nsxt_logical_router_centralized_service_port}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port nsxt_logical_router_centralized_service_port}
 */
 export class LogicalRouterCentralizedServicePort extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class LogicalRouterCentralizedServicePort extends cdktf.TerraformResource
   * Generates CDKTF code for importing a LogicalRouterCentralizedServicePort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalRouterCentralizedServicePort to import
-  * @param importFromId The id of the existing LogicalRouterCentralizedServicePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalRouterCentralizedServicePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalRouterCentralizedServicePort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class LogicalRouterCentralizedServicePort extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/logical_router_centralized_service_port nsxt_logical_router_centralized_service_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/logical_router_centralized_service_port nsxt_logical_router_centralized_service_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class LogicalRouterCentralizedServicePort extends cdktf.TerraformResource
       terraformResourceType: 'nsxt_logical_router_centralized_service_port',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

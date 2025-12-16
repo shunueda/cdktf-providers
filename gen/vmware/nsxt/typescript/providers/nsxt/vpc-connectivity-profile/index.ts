@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface VpcConnectivityProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#description VpcConnectivityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#description VpcConnectivityProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#display_name VpcConnectivityProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#display_name VpcConnectivityProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#external_ip_blocks VpcConnectivityProfile#external_ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#external_ip_blocks VpcConnectivityProfile#external_ip_blocks}
   */
   readonly externalIpBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#id VpcConnectivityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#id VpcConnectivityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,33 +33,33 @@ export interface VpcConnectivityProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#nsx_id VpcConnectivityProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#nsx_id VpcConnectivityProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#private_tgw_ip_blocks VpcConnectivityProfile#private_tgw_ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#private_tgw_ip_blocks VpcConnectivityProfile#private_tgw_ip_blocks}
   */
   readonly privateTgwIpBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#transit_gateway_path VpcConnectivityProfile#transit_gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#transit_gateway_path VpcConnectivityProfile#transit_gateway_path}
   */
   readonly transitGatewayPath: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#context VpcConnectivityProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#context VpcConnectivityProfile#context}
   */
   readonly context: VpcConnectivityProfileContext;
   /**
   * service_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#service_gateway VpcConnectivityProfile#service_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#service_gateway VpcConnectivityProfile#service_gateway}
   */
   readonly serviceGateway?: VpcConnectivityProfileServiceGateway;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#tag VpcConnectivityProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#tag VpcConnectivityProfile#tag}
   */
   readonly tag?: VpcConnectivityProfileTag[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface VpcConnectivityProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#project_id VpcConnectivityProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#project_id VpcConnectivityProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -148,7 +148,7 @@ export class VpcConnectivityProfileContextOutputReference extends cdktf.ComplexO
 }
 export interface VpcConnectivityProfileServiceGatewayNatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#enable_default_snat VpcConnectivityProfile#enable_default_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#enable_default_snat VpcConnectivityProfile#enable_default_snat}
   */
   readonly enableDefaultSnat?: boolean | cdktf.IResolvable;
 }
@@ -232,11 +232,11 @@ export class VpcConnectivityProfileServiceGatewayNatConfigOutputReference extend
 }
 export interface VpcConnectivityProfileServiceGatewayQosConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#egress_qos_profile_path VpcConnectivityProfile#egress_qos_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#egress_qos_profile_path VpcConnectivityProfile#egress_qos_profile_path}
   */
   readonly egressQosProfilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#ingress_qos_profile_path VpcConnectivityProfile#ingress_qos_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#ingress_qos_profile_path VpcConnectivityProfile#ingress_qos_profile_path}
   */
   readonly ingressQosProfilePath?: string;
 }
@@ -349,23 +349,23 @@ export class VpcConnectivityProfileServiceGatewayQosConfigOutputReference extend
 }
 export interface VpcConnectivityProfileServiceGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#edge_cluster_paths VpcConnectivityProfile#edge_cluster_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#edge_cluster_paths VpcConnectivityProfile#edge_cluster_paths}
   */
   readonly edgeClusterPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#enable VpcConnectivityProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#enable VpcConnectivityProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * nat_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#nat_config VpcConnectivityProfile#nat_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#nat_config VpcConnectivityProfile#nat_config}
   */
   readonly natConfig?: VpcConnectivityProfileServiceGatewayNatConfig;
   /**
   * qos_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#qos_config VpcConnectivityProfile#qos_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#qos_config VpcConnectivityProfile#qos_config}
   */
   readonly qosConfig?: VpcConnectivityProfileServiceGatewayQosConfig;
 }
@@ -536,11 +536,11 @@ export class VpcConnectivityProfileServiceGatewayOutputReference extends cdktf.C
 }
 export interface VpcConnectivityProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#scope VpcConnectivityProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#scope VpcConnectivityProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#tag VpcConnectivityProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#tag VpcConnectivityProfile#tag}
   */
   readonly tag?: string;
 }
@@ -685,7 +685,7 @@ export class VpcConnectivityProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile nsxt_vpc_connectivity_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile nsxt_vpc_connectivity_profile}
 */
 export class VpcConnectivityProfile extends cdktf.TerraformResource {
 
@@ -701,7 +701,7 @@ export class VpcConnectivityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcConnectivityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcConnectivityProfile to import
-  * @param importFromId The id of the existing VpcConnectivityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcConnectivityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcConnectivityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -713,7 +713,7 @@ export class VpcConnectivityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_connectivity_profile nsxt_vpc_connectivity_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_connectivity_profile nsxt_vpc_connectivity_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -724,8 +724,8 @@ export class VpcConnectivityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_connectivity_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

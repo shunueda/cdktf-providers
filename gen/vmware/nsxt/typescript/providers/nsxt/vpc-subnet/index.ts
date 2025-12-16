@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface VpcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#access_mode VpcSubnet#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#access_mode VpcSubnet#access_mode}
   */
   readonly accessMode?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#description VpcSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#description VpcSubnet#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#display_name VpcSubnet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#display_name VpcSubnet#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#id VpcSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#id VpcSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#ip_addresses VpcSubnet#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#ip_addresses VpcSubnet#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#ip_blocks VpcSubnet#ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#ip_blocks VpcSubnet#ip_blocks}
   */
   readonly ipBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#ipv4_subnet_size VpcSubnet#ipv4_subnet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#ipv4_subnet_size VpcSubnet#ipv4_subnet_size}
   */
   readonly ipv4SubnetSize?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#nsx_id VpcSubnet#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#nsx_id VpcSubnet#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * advanced_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#advanced_config VpcSubnet#advanced_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#advanced_config VpcSubnet#advanced_config}
   */
   readonly advancedConfig?: VpcSubnetAdvancedConfig;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#context VpcSubnet#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#context VpcSubnet#context}
   */
   readonly context: VpcSubnetContext;
   /**
   * dhcp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#dhcp_config VpcSubnet#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#dhcp_config VpcSubnet#dhcp_config}
   */
   readonly dhcpConfig?: VpcSubnetDhcpConfig;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#tag VpcSubnet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#tag VpcSubnet#tag}
   */
   readonly tag?: VpcSubnetTag[] | cdktf.IResolvable;
 }
 export interface VpcSubnetAdvancedConfigExtraConfigConfigPair {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#key VpcSubnet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#key VpcSubnet#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#value VpcSubnet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#value VpcSubnet#value}
   */
   readonly value: string;
 }
@@ -188,7 +188,7 @@ export interface VpcSubnetAdvancedConfigExtraConfig {
   /**
   * config_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#config_pair VpcSubnet#config_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#config_pair VpcSubnet#config_pair}
   */
   readonly configPair: VpcSubnetAdvancedConfigExtraConfigConfigPair;
 }
@@ -301,7 +301,7 @@ export class VpcSubnetAdvancedConfigExtraConfigList extends cdktf.ComplexList {
 }
 export interface VpcSubnetAdvancedConfigStaticIpAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#enabled VpcSubnet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#enabled VpcSubnet#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -385,27 +385,27 @@ export class VpcSubnetAdvancedConfigStaticIpAllocationOutputReference extends cd
 }
 export interface VpcSubnetAdvancedConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#connectivity_state VpcSubnet#connectivity_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#connectivity_state VpcSubnet#connectivity_state}
   */
   readonly connectivityState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#dhcp_server_addresses VpcSubnet#dhcp_server_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#dhcp_server_addresses VpcSubnet#dhcp_server_addresses}
   */
   readonly dhcpServerAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#gateway_addresses VpcSubnet#gateway_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#gateway_addresses VpcSubnet#gateway_addresses}
   */
   readonly gatewayAddresses?: string[];
   /**
   * extra_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#extra_config VpcSubnet#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#extra_config VpcSubnet#extra_config}
   */
   readonly extraConfig?: VpcSubnetAdvancedConfigExtraConfig[] | cdktf.IResolvable;
   /**
   * static_ip_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#static_ip_allocation VpcSubnet#static_ip_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#static_ip_allocation VpcSubnet#static_ip_allocation}
   */
   readonly staticIpAllocation?: VpcSubnetAdvancedConfigStaticIpAllocation;
 }
@@ -607,13 +607,13 @@ export interface VpcSubnetContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#project_id VpcSubnet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#project_id VpcSubnet#project_id}
   */
   readonly projectId: string;
   /**
   * Id of the VPC which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#vpc_id VpcSubnet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#vpc_id VpcSubnet#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -720,11 +720,11 @@ export class VpcSubnetContextOutputReference extends cdktf.ComplexObject {
 }
 export interface VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOption121StaticRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#network VpcSubnet#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#network VpcSubnet#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#next_hop VpcSubnet#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#next_hop VpcSubnet#next_hop}
   */
   readonly nextHop?: string;
 }
@@ -871,7 +871,7 @@ export interface VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOption121 {
   /**
   * static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#static_route VpcSubnet#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#static_route VpcSubnet#static_route}
   */
   readonly staticRoute?: VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOption121StaticRoute[] | cdktf.IResolvable;
 }
@@ -955,11 +955,11 @@ export class VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOption121Output
 }
 export interface VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOther {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#code VpcSubnet#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#code VpcSubnet#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#values VpcSubnet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#values VpcSubnet#values}
   */
   readonly values?: string[];
 }
@@ -1106,13 +1106,13 @@ export interface VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptions {
   /**
   * option121 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#option121 VpcSubnet#option121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#option121 VpcSubnet#option121}
   */
   readonly option121?: VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOption121;
   /**
   * other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#other VpcSubnet#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#other VpcSubnet#other}
   */
   readonly other?: VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOther[] | cdktf.IResolvable;
 }
@@ -1225,13 +1225,13 @@ export class VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptionsOutputReference
 }
 export interface VpcSubnetDhcpConfigDhcpServerAdditionalConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#reserved_ip_ranges VpcSubnet#reserved_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#reserved_ip_ranges VpcSubnet#reserved_ip_ranges}
   */
   readonly reservedIpRanges?: string[];
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#options VpcSubnet#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#options VpcSubnet#options}
   */
   readonly options?: VpcSubnetDhcpConfigDhcpServerAdditionalConfigOptions;
 }
@@ -1344,13 +1344,13 @@ export class VpcSubnetDhcpConfigDhcpServerAdditionalConfigOutputReference extend
 }
 export interface VpcSubnetDhcpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#mode VpcSubnet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#mode VpcSubnet#mode}
   */
   readonly mode?: string;
   /**
   * dhcp_server_additional_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#dhcp_server_additional_config VpcSubnet#dhcp_server_additional_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#dhcp_server_additional_config VpcSubnet#dhcp_server_additional_config}
   */
   readonly dhcpServerAdditionalConfig?: VpcSubnetDhcpConfigDhcpServerAdditionalConfig;
 }
@@ -1463,11 +1463,11 @@ export class VpcSubnetDhcpConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface VpcSubnetTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#scope VpcSubnet#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#scope VpcSubnet#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#tag VpcSubnet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#tag VpcSubnet#tag}
   */
   readonly tag?: string;
 }
@@ -1612,7 +1612,7 @@ export class VpcSubnetTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet nsxt_vpc_subnet}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet nsxt_vpc_subnet}
 */
 export class VpcSubnet extends cdktf.TerraformResource {
 
@@ -1628,7 +1628,7 @@ export class VpcSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcSubnet to import
-  * @param importFromId The id of the existing VpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1640,7 +1640,7 @@ export class VpcSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/vpc_subnet nsxt_vpc_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/vpc_subnet nsxt_vpc_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1651,8 +1651,8 @@ export class VpcSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_subnet',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

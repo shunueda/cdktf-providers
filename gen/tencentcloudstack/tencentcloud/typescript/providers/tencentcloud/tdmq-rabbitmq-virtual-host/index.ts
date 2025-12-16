@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TdmqRabbitmqVirtualHostConfig extends cdktf.TerraformMetaArgume
   /**
   * describe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host#description TdmqRabbitmqVirtualHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host#description TdmqRabbitmqVirtualHost#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host#id TdmqRabbitmqVirtualHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host#id TdmqRabbitmqVirtualHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TdmqRabbitmqVirtualHostConfig extends cdktf.TerraformMetaArgume
   /**
   * Cluster instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host#instance_id TdmqRabbitmqVirtualHost#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host#instance_id TdmqRabbitmqVirtualHost#instance_id}
   */
   readonly instanceId: string;
   /**
   * Message track switch, true is on, false is off, default is off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host#trace_flag TdmqRabbitmqVirtualHost#trace_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host#trace_flag TdmqRabbitmqVirtualHost#trace_flag}
   */
   readonly traceFlag?: boolean | cdktf.IResolvable;
   /**
   * vhost name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host#virtual_host TdmqRabbitmqVirtualHost#virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host#virtual_host TdmqRabbitmqVirtualHost#virtual_host}
   */
   readonly virtualHost: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host tencentcloud_tdmq_rabbitmq_virtual_host}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host tencentcloud_tdmq_rabbitmq_virtual_host}
 */
 export class TdmqRabbitmqVirtualHost extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TdmqRabbitmqVirtualHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqRabbitmqVirtualHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqRabbitmqVirtualHost to import
-  * @param importFromId The id of the existing TdmqRabbitmqVirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqRabbitmqVirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqRabbitmqVirtualHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TdmqRabbitmqVirtualHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tdmq_rabbitmq_virtual_host tencentcloud_tdmq_rabbitmq_virtual_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_rabbitmq_virtual_host tencentcloud_tdmq_rabbitmq_virtual_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TdmqRabbitmqVirtualHost extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rabbitmq_virtual_host',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

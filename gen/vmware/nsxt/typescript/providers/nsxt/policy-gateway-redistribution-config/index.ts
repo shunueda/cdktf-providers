@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyGatewayRedistributionConfigConfig extends cdktf.Terraform
   /**
   * Flag to enable route redistribution for BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#bgp_enabled PolicyGatewayRedistributionConfig#bgp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#bgp_enabled PolicyGatewayRedistributionConfig#bgp_enabled}
   */
   readonly bgpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Policy path for Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#gateway_path PolicyGatewayRedistributionConfig#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#gateway_path PolicyGatewayRedistributionConfig#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#id PolicyGatewayRedistributionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#id PolicyGatewayRedistributionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PolicyGatewayRedistributionConfigConfig extends cdktf.Terraform
   /**
   * Flag to enable route redistribution for OSPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#ospf_enabled PolicyGatewayRedistributionConfig#ospf_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#ospf_enabled PolicyGatewayRedistributionConfig#ospf_enabled}
   */
   readonly ospfEnabled?: boolean | cdktf.IResolvable;
   /**
   * Path of the site the Tier0 redistribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#site_path PolicyGatewayRedistributionConfig#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#site_path PolicyGatewayRedistributionConfig#site_path}
   */
   readonly sitePath?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#rule PolicyGatewayRedistributionConfig#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#rule PolicyGatewayRedistributionConfig#rule}
   */
   readonly rule?: PolicyGatewayRedistributionConfigRule[] | cdktf.IResolvable;
 }
@@ -49,31 +49,31 @@ export interface PolicyGatewayRedistributionConfigRule {
   /**
   * BGP destination for this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#bgp PolicyGatewayRedistributionConfig#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#bgp PolicyGatewayRedistributionConfig#bgp}
   */
   readonly bgp?: boolean | cdktf.IResolvable;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#name PolicyGatewayRedistributionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#name PolicyGatewayRedistributionConfig#name}
   */
   readonly name?: string;
   /**
   * OSPF destination for this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#ospf PolicyGatewayRedistributionConfig#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#ospf PolicyGatewayRedistributionConfig#ospf}
   */
   readonly ospf?: boolean | cdktf.IResolvable;
   /**
   * Route map to be associated with the redistribution rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#route_map_path PolicyGatewayRedistributionConfig#route_map_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#route_map_path PolicyGatewayRedistributionConfig#route_map_path}
   */
   readonly routeMapPath?: string;
   /**
   * List of redistribution types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#types PolicyGatewayRedistributionConfig#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#types PolicyGatewayRedistributionConfig#types}
   */
   readonly types?: string[];
 }
@@ -305,7 +305,7 @@ export class PolicyGatewayRedistributionConfigRuleList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config nsxt_policy_gateway_redistribution_config}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config nsxt_policy_gateway_redistribution_config}
 */
 export class PolicyGatewayRedistributionConfig extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class PolicyGatewayRedistributionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyGatewayRedistributionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyGatewayRedistributionConfig to import
-  * @param importFromId The id of the existing PolicyGatewayRedistributionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyGatewayRedistributionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyGatewayRedistributionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class PolicyGatewayRedistributionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_gateway_redistribution_config nsxt_policy_gateway_redistribution_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_gateway_redistribution_config nsxt_policy_gateway_redistribution_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class PolicyGatewayRedistributionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_gateway_redistribution_config',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

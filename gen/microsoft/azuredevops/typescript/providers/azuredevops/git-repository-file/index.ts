@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface GitRepositoryFileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#author_email GitRepositoryFile#author_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#author_email GitRepositoryFile#author_email}
   */
   readonly authorEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#author_name GitRepositoryFile#author_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#author_name GitRepositoryFile#author_name}
   */
   readonly authorName?: string;
   /**
   * The branch name, defaults to "refs/heads/master"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#branch GitRepositoryFile#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#branch GitRepositoryFile#branch}
   */
   readonly branch?: string;
   /**
   * The commit message when creating or updating the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#commit_message GitRepositoryFile#commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#commit_message GitRepositoryFile#commit_message}
   */
   readonly commitMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#committer_email GitRepositoryFile#committer_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#committer_email GitRepositoryFile#committer_email}
   */
   readonly committerEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#committer_name GitRepositoryFile#committer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#committer_name GitRepositoryFile#committer_name}
   */
   readonly committerName?: string;
   /**
   * The file's content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#content GitRepositoryFile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#content GitRepositoryFile#content}
   */
   readonly content: string;
   /**
   * The file path to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#file GitRepositoryFile#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#file GitRepositoryFile#file}
   */
   readonly file: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#id GitRepositoryFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#id GitRepositoryFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,37 +57,37 @@ export interface GitRepositoryFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable overwriting existing files, defaults to "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#overwrite_on_create GitRepositoryFile#overwrite_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#overwrite_on_create GitRepositoryFile#overwrite_on_create}
   */
   readonly overwriteOnCreate?: boolean | cdktf.IResolvable;
   /**
   * The repository ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#repository_id GitRepositoryFile#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#repository_id GitRepositoryFile#repository_id}
   */
   readonly repositoryId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#timeouts GitRepositoryFile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#timeouts GitRepositoryFile#timeouts}
   */
   readonly timeouts?: GitRepositoryFileTimeouts;
 }
 export interface GitRepositoryFileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#create GitRepositoryFile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#create GitRepositoryFile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#delete GitRepositoryFile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#delete GitRepositoryFile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#read GitRepositoryFile#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#read GitRepositoryFile#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#update GitRepositoryFile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#update GitRepositoryFile#update}
   */
   readonly update?: string;
 }
@@ -268,7 +268,7 @@ export class GitRepositoryFileTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file azuredevops_git_repository_file}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file azuredevops_git_repository_file}
 */
 export class GitRepositoryFile extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class GitRepositoryFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitRepositoryFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitRepositoryFile to import
-  * @param importFromId The id of the existing GitRepositoryFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitRepositoryFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitRepositoryFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class GitRepositoryFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/git_repository_file azuredevops_git_repository_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/git_repository_file azuredevops_git_repository_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class GitRepositoryFile extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_git_repository_file',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

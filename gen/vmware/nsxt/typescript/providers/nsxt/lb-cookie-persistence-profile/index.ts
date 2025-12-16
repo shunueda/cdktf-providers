@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LbCookiePersistenceProfileConfig extends cdktf.TerraformMetaArg
   /**
   * A boolean flag which reflects whether once the server points by this cookie is down, a new server is selected, or the requests will be rejected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_fallback LbCookiePersistenceProfile#cookie_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_fallback LbCookiePersistenceProfile#cookie_fallback}
   */
   readonly cookieFallback?: boolean | cdktf.IResolvable;
   /**
   * A boolean flag which reflects whether the cookie value (server IP and port) would be encrypted or in plain text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_garble LbCookiePersistenceProfile#cookie_garble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_garble LbCookiePersistenceProfile#cookie_garble}
   */
   readonly cookieGarble?: boolean | cdktf.IResolvable;
   /**
   * The cookie persistence mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_mode LbCookiePersistenceProfile#cookie_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_mode LbCookiePersistenceProfile#cookie_mode}
   */
   readonly cookieMode?: string;
   /**
   * The name of the cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_name LbCookiePersistenceProfile#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_name LbCookiePersistenceProfile#cookie_name}
   */
   readonly cookieName: string;
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#description LbCookiePersistenceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#description LbCookiePersistenceProfile#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#display_name LbCookiePersistenceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#display_name LbCookiePersistenceProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#id LbCookiePersistenceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#id LbCookiePersistenceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,19 +53,19 @@ export interface LbCookiePersistenceProfileConfig extends cdktf.TerraformMetaArg
   /**
   * A boolean flag which reflects whether the cookie persistence is private or shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#persistence_shared LbCookiePersistenceProfile#persistence_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#persistence_shared LbCookiePersistenceProfile#persistence_shared}
   */
   readonly persistenceShared?: boolean | cdktf.IResolvable;
   /**
   * insert_mode_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#insert_mode_params LbCookiePersistenceProfile#insert_mode_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#insert_mode_params LbCookiePersistenceProfile#insert_mode_params}
   */
   readonly insertModeParams?: LbCookiePersistenceProfileInsertModeParams;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#tag LbCookiePersistenceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#tag LbCookiePersistenceProfile#tag}
   */
   readonly tag?: LbCookiePersistenceProfileTag[] | cdktf.IResolvable;
 }
@@ -73,31 +73,31 @@ export interface LbCookiePersistenceProfileInsertModeParams {
   /**
   * HTTP cookie domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_domain LbCookiePersistenceProfile#cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_domain LbCookiePersistenceProfile#cookie_domain}
   */
   readonly cookieDomain?: string;
   /**
   * Type of cookie expiration timing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_expiry_type LbCookiePersistenceProfile#cookie_expiry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_expiry_type LbCookiePersistenceProfile#cookie_expiry_type}
   */
   readonly cookieExpiryType?: string;
   /**
   * HTTP cookie path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#cookie_path LbCookiePersistenceProfile#cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#cookie_path LbCookiePersistenceProfile#cookie_path}
   */
   readonly cookiePath?: string;
   /**
   * Maximum interval (in seconds) the cookie is valid for from the last time it was seen in a request (required if cookie_expiry_type is set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#max_idle_time LbCookiePersistenceProfile#max_idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#max_idle_time LbCookiePersistenceProfile#max_idle_time}
   */
   readonly maxIdleTime?: number;
   /**
   * Maximum interval (in seconds) the cookie is valid for from the first time the cookie was seen in a request (required if cookie_expiry_type is SESSION_COOKIE_TIME expiration)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#max_life_time LbCookiePersistenceProfile#max_life_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#max_life_time LbCookiePersistenceProfile#max_life_time}
   */
   readonly maxLifeTime?: number;
 }
@@ -297,11 +297,11 @@ export class LbCookiePersistenceProfileInsertModeParamsOutputReference extends c
 }
 export interface LbCookiePersistenceProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#scope LbCookiePersistenceProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#scope LbCookiePersistenceProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#tag LbCookiePersistenceProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#tag LbCookiePersistenceProfile#tag}
   */
   readonly tag?: string;
 }
@@ -446,7 +446,7 @@ export class LbCookiePersistenceProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile nsxt_lb_cookie_persistence_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile nsxt_lb_cookie_persistence_profile}
 */
 export class LbCookiePersistenceProfile extends cdktf.TerraformResource {
 
@@ -462,7 +462,7 @@ export class LbCookiePersistenceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbCookiePersistenceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbCookiePersistenceProfile to import
-  * @param importFromId The id of the existing LbCookiePersistenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbCookiePersistenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbCookiePersistenceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class LbCookiePersistenceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/lb_cookie_persistence_profile nsxt_lb_cookie_persistence_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/lb_cookie_persistence_profile nsxt_lb_cookie_persistence_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class LbCookiePersistenceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_cookie_persistence_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

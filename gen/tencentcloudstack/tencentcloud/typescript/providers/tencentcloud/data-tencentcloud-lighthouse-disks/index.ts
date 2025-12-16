@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudLighthouseDisksConfig extends cdktf.TerraformMe
   /**
   * List of disk ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#disk_ids DataTencentcloudLighthouseDisks#disk_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#disk_ids DataTencentcloudLighthouseDisks#disk_ids}
   */
   readonly diskIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#id DataTencentcloudLighthouseDisks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#id DataTencentcloudLighthouseDisks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudLighthouseDisksConfig extends cdktf.TerraformMe
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#result_output_file DataTencentcloudLighthouseDisks#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#result_output_file DataTencentcloudLighthouseDisks#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#filters DataTencentcloudLighthouseDisks#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#filters DataTencentcloudLighthouseDisks#filters}
   */
   readonly filters?: DataTencentcloudLighthouseDisksFilters[] | cdktf.IResolvable;
 }
@@ -207,13 +207,13 @@ export interface DataTencentcloudLighthouseDisksFilters {
   /**
   * Fields to be filtered. Valid names: `disk-id`: Filters by disk id; `instance-id`: Filter by instance id; `disk-name`: Filter by disk name; `zone`: Filter by zone; `disk-usage`: Filter by disk usage(Values: `SYSTEM_DISK` or `DATA_DISK`); `disk-state`: Filter by disk state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#name DataTencentcloudLighthouseDisks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#name DataTencentcloudLighthouseDisks#name}
   */
   readonly name: string;
   /**
   * Value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#values DataTencentcloudLighthouseDisks#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#values DataTencentcloudLighthouseDisks#values}
   */
   readonly values: string[];
 }
@@ -352,7 +352,7 @@ export class DataTencentcloudLighthouseDisksFiltersList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks tencentcloud_lighthouse_disks}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks tencentcloud_lighthouse_disks}
 */
 export class DataTencentcloudLighthouseDisks extends cdktf.TerraformDataSource {
 
@@ -368,7 +368,7 @@ export class DataTencentcloudLighthouseDisks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudLighthouseDisks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudLighthouseDisks to import
-  * @param importFromId The id of the existing DataTencentcloudLighthouseDisks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudLighthouseDisks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudLighthouseDisks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class DataTencentcloudLighthouseDisks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/lighthouse_disks tencentcloud_lighthouse_disks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/lighthouse_disks tencentcloud_lighthouse_disks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class DataTencentcloudLighthouseDisks extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_lighthouse_disks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

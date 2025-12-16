@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PrivateDnsExtendEndPointConfig extends cdktf.TerraformMetaArgum
   /**
   * Outbound endpoint name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#end_point_name PrivateDnsExtendEndPoint#end_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#end_point_name PrivateDnsExtendEndPoint#end_point_name}
   */
   readonly endPointName: string;
   /**
   * The region of the outbound endpoint must be consistent with the region of the forwarding target VIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#end_point_region PrivateDnsExtendEndPoint#end_point_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#end_point_region PrivateDnsExtendEndPoint#end_point_region}
   */
   readonly endPointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#id PrivateDnsExtendEndPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#id PrivateDnsExtendEndPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface PrivateDnsExtendEndPointConfig extends cdktf.TerraformMetaArgum
   /**
   * forward_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#forward_ip PrivateDnsExtendEndPoint#forward_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#forward_ip PrivateDnsExtendEndPoint#forward_ip}
   */
   readonly forwardIp?: PrivateDnsExtendEndPointForwardIp;
 }
@@ -37,31 +37,31 @@ export interface PrivateDnsExtendEndPointForwardIp {
   /**
   * CCN id. Required when the access type is CCN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#access_gateway_id PrivateDnsExtendEndPoint#access_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#access_gateway_id PrivateDnsExtendEndPoint#access_gateway_id}
   */
   readonly accessGatewayId?: string;
   /**
   * Forwarding target IP network access type. CLB: The forwarding IP is the internal CLB VIP. CCN: Forwarding IP through CCN routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#access_type PrivateDnsExtendEndPoint#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#access_type PrivateDnsExtendEndPoint#access_type}
   */
   readonly accessType: string;
   /**
   * Forwarding target IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#host PrivateDnsExtendEndPoint#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#host PrivateDnsExtendEndPoint#host}
   */
   readonly host: string;
   /**
   * Specifies the forwarding IP port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#port PrivateDnsExtendEndPoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#port PrivateDnsExtendEndPoint#port}
   */
   readonly port: number;
   /**
   * Unique VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#vpc_id PrivateDnsExtendEndPoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#vpc_id PrivateDnsExtendEndPoint#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -274,7 +274,7 @@ export class PrivateDnsExtendEndPointForwardIpOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point tencentcloud_private_dns_extend_end_point}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point tencentcloud_private_dns_extend_end_point}
 */
 export class PrivateDnsExtendEndPoint extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class PrivateDnsExtendEndPoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateDnsExtendEndPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateDnsExtendEndPoint to import
-  * @param importFromId The id of the existing PrivateDnsExtendEndPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateDnsExtendEndPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateDnsExtendEndPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class PrivateDnsExtendEndPoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/private_dns_extend_end_point tencentcloud_private_dns_extend_end_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_extend_end_point tencentcloud_private_dns_extend_end_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class PrivateDnsExtendEndPoint extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_private_dns_extend_end_point',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

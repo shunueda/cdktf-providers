@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudInstancesSetConfig extends cdktf.TerraformMetaA
   /**
   * The available zone that the CVM instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#availability_zone DataTencentcloudInstancesSet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#availability_zone DataTencentcloudInstancesSet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#id DataTencentcloudInstancesSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#id DataTencentcloudInstancesSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataTencentcloudInstancesSetConfig extends cdktf.TerraformMetaA
   /**
   * ID of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#instance_id DataTencentcloudInstancesSet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#instance_id DataTencentcloudInstancesSet#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#instance_name DataTencentcloudInstancesSet#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#instance_name DataTencentcloudInstancesSet#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The project CVM belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#project_id DataTencentcloudInstancesSet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#project_id DataTencentcloudInstancesSet#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#result_output_file DataTencentcloudInstancesSet#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#result_output_file DataTencentcloudInstancesSet#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of a vpc subnetwork.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#subnet_id DataTencentcloudInstancesSet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#subnet_id DataTencentcloudInstancesSet#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tags of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#tags DataTencentcloudInstancesSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#tags DataTencentcloudInstancesSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the vpc to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#vpc_id DataTencentcloudInstancesSet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#vpc_id DataTencentcloudInstancesSet#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -362,7 +362,7 @@ export class DataTencentcloudInstancesSetInstanceListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set tencentcloud_instances_set}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set tencentcloud_instances_set}
 */
 export class DataTencentcloudInstancesSet extends cdktf.TerraformDataSource {
 
@@ -378,7 +378,7 @@ export class DataTencentcloudInstancesSet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudInstancesSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudInstancesSet to import
-  * @param importFromId The id of the existing DataTencentcloudInstancesSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudInstancesSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudInstancesSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class DataTencentcloudInstancesSet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instances_set tencentcloud_instances_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/instances_set tencentcloud_instances_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class DataTencentcloudInstancesSet extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_instances_set',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

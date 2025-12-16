@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyUserManagementRoleConfig extends cdktf.TerraformMetaArgum
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#description PolicyUserManagementRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#description PolicyUserManagementRole#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#display_name PolicyUserManagementRole#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#display_name PolicyUserManagementRole#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#id PolicyUserManagementRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#id PolicyUserManagementRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PolicyUserManagementRoleConfig extends cdktf.TerraformMetaArgum
   /**
   * Short identifier for the role. Must be all lower case with no spaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#role PolicyUserManagementRole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#role PolicyUserManagementRole#role}
   */
   readonly role: string;
   /**
   * feature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#feature PolicyUserManagementRole#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#feature PolicyUserManagementRole#feature}
   */
   readonly feature: PolicyUserManagementRoleFeature[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#tag PolicyUserManagementRole#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#tag PolicyUserManagementRole#tag}
   */
   readonly tag?: PolicyUserManagementRoleTag[] | cdktf.IResolvable;
 }
@@ -49,11 +49,11 @@ export interface PolicyUserManagementRoleFeature {
   /**
   * Feature Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#feature PolicyUserManagementRole#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#feature PolicyUserManagementRole#feature}
   */
   readonly feature: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#permission PolicyUserManagementRole#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#permission PolicyUserManagementRole#permission}
   */
   readonly permission: string;
 }
@@ -202,11 +202,11 @@ export class PolicyUserManagementRoleFeatureList extends cdktf.ComplexList {
 }
 export interface PolicyUserManagementRoleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#scope PolicyUserManagementRole#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#scope PolicyUserManagementRole#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#tag PolicyUserManagementRole#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#tag PolicyUserManagementRole#tag}
   */
   readonly tag?: string;
 }
@@ -351,7 +351,7 @@ export class PolicyUserManagementRoleTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role nsxt_policy_user_management_role}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role nsxt_policy_user_management_role}
 */
 export class PolicyUserManagementRole extends cdktf.TerraformResource {
 
@@ -367,7 +367,7 @@ export class PolicyUserManagementRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyUserManagementRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyUserManagementRole to import
-  * @param importFromId The id of the existing PolicyUserManagementRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyUserManagementRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyUserManagementRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -379,7 +379,7 @@ export class PolicyUserManagementRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_user_management_role nsxt_policy_user_management_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_user_management_role nsxt_policy_user_management_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -390,8 +390,8 @@ export class PolicyUserManagementRole extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_user_management_role',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

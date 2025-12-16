@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnDistributedCacheClusterGlobalCachingHomeClusterConfig ext
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#cache_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#cache_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#cache_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#cache_name}
   */
   readonly cacheName: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnDistributedCacheClusterGlobalCachingHomeClusterConfig ext
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#cluster_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#cluster_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnDistributedCacheClusterGlobalCachingHomeClusterConfig ext
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#home_cluster_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#home_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#home_cluster_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#home_cluster_name}
   */
   readonly homeClusterName: string;
   /**
@@ -36,13 +36,13 @@ export interface MsgVpnDistributedCacheClusterGlobalCachingHomeClusterConfig ext
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#msg_vpn_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#msg_vpn_name MsgVpnDistributedCacheClusterGlobalCachingHomeCluster#msg_vpn_name}
   */
   readonly msgVpnName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster}
 */
 export class MsgVpnDistributedCacheClusterGlobalCachingHomeCluster extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class MsgVpnDistributedCacheClusterGlobalCachingHomeCluster extends cdktf
   * Generates CDKTF code for importing a MsgVpnDistributedCacheClusterGlobalCachingHomeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnDistributedCacheClusterGlobalCachingHomeCluster to import
-  * @param importFromId The id of the existing MsgVpnDistributedCacheClusterGlobalCachingHomeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnDistributedCacheClusterGlobalCachingHomeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnDistributedCacheClusterGlobalCachingHomeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class MsgVpnDistributedCacheClusterGlobalCachingHomeCluster extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_global_caching_home_cluster solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class MsgVpnDistributedCacheClusterGlobalCachingHomeCluster extends cdktf
       terraformResourceType: 'solacebroker_msg_vpn_distributed_cache_cluster_global_caching_home_cluster',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

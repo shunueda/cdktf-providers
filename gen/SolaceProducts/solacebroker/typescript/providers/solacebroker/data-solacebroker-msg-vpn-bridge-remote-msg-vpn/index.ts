@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpnConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#bridge_name DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#bridge_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#bridge_name DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#bridge_name}
   */
   readonly bridgeName: string;
   /**
@@ -27,7 +27,7 @@ export interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpnConfig extends cdktf.Te
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#bridge_virtual_router DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#bridge_virtual_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#bridge_virtual_router DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#bridge_virtual_router}
   */
   readonly bridgeVirtualRouter: string;
   /**
@@ -35,7 +35,7 @@ export interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpnConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#msg_vpn_name DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#msg_vpn_name DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -43,7 +43,7 @@ export interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpnConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#remote_msg_vpn_interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#remote_msg_vpn_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#remote_msg_vpn_interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#remote_msg_vpn_interface}
   */
   readonly remoteMsgVpnInterface: string;
   /**
@@ -51,7 +51,7 @@ export interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpnConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#remote_msg_vpn_location DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#remote_msg_vpn_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#remote_msg_vpn_location DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#remote_msg_vpn_location}
   */
   readonly remoteMsgVpnLocation: string;
   /**
@@ -59,13 +59,13 @@ export interface DataSolacebrokerMsgVpnBridgeRemoteMsgVpnConfig extends cdktf.Te
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#remote_msg_vpn_name DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#remote_msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#remote_msg_vpn_name DataSolacebrokerMsgVpnBridgeRemoteMsgVpn#remote_msg_vpn_name}
   */
   readonly remoteMsgVpnName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn solacebroker_msg_vpn_bridge_remote_msg_vpn}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn solacebroker_msg_vpn_bridge_remote_msg_vpn}
 */
 export class DataSolacebrokerMsgVpnBridgeRemoteMsgVpn extends cdktf.TerraformDataSource {
 
@@ -81,7 +81,7 @@ export class DataSolacebrokerMsgVpnBridgeRemoteMsgVpn extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnBridgeRemoteMsgVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnBridgeRemoteMsgVpn to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnBridgeRemoteMsgVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnBridgeRemoteMsgVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnBridgeRemoteMsgVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DataSolacebrokerMsgVpnBridgeRemoteMsgVpn extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn solacebroker_msg_vpn_bridge_remote_msg_vpn} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_bridge_remote_msg_vpn solacebroker_msg_vpn_bridge_remote_msg_vpn} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DataSolacebrokerMsgVpnBridgeRemoteMsgVpn extends cdktf.TerraformDat
       terraformResourceType: 'solacebroker_msg_vpn_bridge_remote_msg_vpn',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

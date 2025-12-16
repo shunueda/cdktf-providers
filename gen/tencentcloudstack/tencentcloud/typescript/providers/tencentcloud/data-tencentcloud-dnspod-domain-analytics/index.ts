@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudDnspodDomainAnalyticsConfig extends cdktf.Terra
   /**
   * DATE: Statistics by day dimension HOUR: Statistics by hour dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#dns_format DataTencentcloudDnspodDomainAnalytics#dns_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#dns_format DataTencentcloudDnspodDomainAnalytics#dns_format}
   */
   readonly dnsFormat?: string;
   /**
   * The domain name to query for resolution volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#domain DataTencentcloudDnspodDomainAnalytics#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#domain DataTencentcloudDnspodDomainAnalytics#domain}
   */
   readonly domain: string;
   /**
   * Domain ID. The parameter DomainId has a higher priority than the parameter Domain. If the parameter DomainId is passed, the parameter Domain will be ignored. You can find all Domains and DomainIds through the DescribeDomainList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#domain_id DataTencentcloudDnspodDomainAnalytics#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#domain_id DataTencentcloudDnspodDomainAnalytics#domain_id}
   */
   readonly domainId?: number;
   /**
   * The end date of the query, format: YYYY-MM-DD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#end_date DataTencentcloudDnspodDomainAnalytics#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#end_date DataTencentcloudDnspodDomainAnalytics#end_date}
   */
   readonly endDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#id DataTencentcloudDnspodDomainAnalytics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#id DataTencentcloudDnspodDomainAnalytics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface DataTencentcloudDnspodDomainAnalyticsConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#result_output_file DataTencentcloudDnspodDomainAnalytics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#result_output_file DataTencentcloudDnspodDomainAnalytics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The start date of the query, format: YYYY-MM-DD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#start_date DataTencentcloudDnspodDomainAnalytics#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#start_date DataTencentcloudDnspodDomainAnalytics#start_date}
   */
   readonly startDate: string;
 }
@@ -495,7 +495,7 @@ export class DataTencentcloudDnspodDomainAnalyticsInfoList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics tencentcloud_dnspod_domain_analytics}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics tencentcloud_dnspod_domain_analytics}
 */
 export class DataTencentcloudDnspodDomainAnalytics extends cdktf.TerraformDataSource {
 
@@ -511,7 +511,7 @@ export class DataTencentcloudDnspodDomainAnalytics extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudDnspodDomainAnalytics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDnspodDomainAnalytics to import
-  * @param importFromId The id of the existing DataTencentcloudDnspodDomainAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDnspodDomainAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDnspodDomainAnalytics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -523,7 +523,7 @@ export class DataTencentcloudDnspodDomainAnalytics extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dnspod_domain_analytics tencentcloud_dnspod_domain_analytics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_domain_analytics tencentcloud_dnspod_domain_analytics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,8 +534,8 @@ export class DataTencentcloudDnspodDomainAnalytics extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_dnspod_domain_analytics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

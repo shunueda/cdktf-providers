@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,84 +10,84 @@ export interface PolicyLbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Active healthcheck is disabled by default and can be enabled using this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#active_monitor_path PolicyLbPool#active_monitor_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#active_monitor_path PolicyLbPool#active_monitor_path}
   */
   readonly activeMonitorPath?: string;
   /**
   * Used by the load balancer to initiate new connections to the servers to check their health. Active healthchecks are deactivated by default and can be activated using this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#active_monitor_paths PolicyLbPool#active_monitor_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#active_monitor_paths PolicyLbPool#active_monitor_paths}
   */
   readonly activeMonitorPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#algorithm PolicyLbPool#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#algorithm PolicyLbPool#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#description PolicyLbPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#description PolicyLbPool#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#display_name PolicyLbPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#display_name PolicyLbPool#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#id PolicyLbPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#id PolicyLbPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#min_active_members PolicyLbPool#min_active_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#min_active_members PolicyLbPool#min_active_members}
   */
   readonly minActiveMembers?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#nsx_id PolicyLbPool#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#nsx_id PolicyLbPool#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path for passive health monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#passive_monitor_path PolicyLbPool#passive_monitor_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#passive_monitor_path PolicyLbPool#passive_monitor_path}
   */
   readonly passiveMonitorPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#tcp_multiplexing_enabled PolicyLbPool#tcp_multiplexing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#tcp_multiplexing_enabled PolicyLbPool#tcp_multiplexing_enabled}
   */
   readonly tcpMultiplexingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#tcp_multiplexing_number PolicyLbPool#tcp_multiplexing_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#tcp_multiplexing_number PolicyLbPool#tcp_multiplexing_number}
   */
   readonly tcpMultiplexingNumber?: number;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#member PolicyLbPool#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#member PolicyLbPool#member}
   */
   readonly member?: PolicyLbPoolMember[] | cdktf.IResolvable;
   /**
   * member_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#member_group PolicyLbPool#member_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#member_group PolicyLbPool#member_group}
   */
   readonly memberGroup?: PolicyLbPoolMemberGroup;
   /**
   * snat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#snat PolicyLbPool#snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#snat PolicyLbPool#snat}
   */
   readonly snat?: PolicyLbPoolSnat;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#tag PolicyLbPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#tag PolicyLbPool#tag}
   */
   readonly tag?: PolicyLbPoolTag[] | cdktf.IResolvable;
 }
@@ -95,43 +95,43 @@ export interface PolicyLbPoolMember {
   /**
   * Member admin state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#admin_state PolicyLbPool#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#admin_state PolicyLbPool#admin_state}
   */
   readonly adminState?: string;
   /**
   * A boolean flag which reflects whether this is a backup pool member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#backup_member PolicyLbPool#backup_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#backup_member PolicyLbPool#backup_member}
   */
   readonly backupMember?: boolean | cdktf.IResolvable;
   /**
   * Pool member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#display_name PolicyLbPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#display_name PolicyLbPool#display_name}
   */
   readonly displayName?: string;
   /**
   * Pool member IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#ip_address PolicyLbPool#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#ip_address PolicyLbPool#ip_address}
   */
   readonly ipAddress: string;
   /**
   * To ensure members are not overloaded, connections to a member can be capped by the load balancer. When a member reaches this limit, it is skipped during server selection. If it is not specified, it means that connections are unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#max_concurrent_connections PolicyLbPool#max_concurrent_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#max_concurrent_connections PolicyLbPool#max_concurrent_connections}
   */
   readonly maxConcurrentConnections?: number;
   /**
   * If port is specified, all connections will be sent to this port. Only single port is supported. If unset, the same port the client connected to will be used, it could be overrode by default_pool_member_port setting in virtual server. The port should not specified for port range case
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#port PolicyLbPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#port PolicyLbPool#port}
   */
   readonly port?: string;
   /**
   * Pool member weight is used for WEIGHTED_ROUND_ROBIN balancing algorithm. The weight value would be ignored in other algorithms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#weight PolicyLbPool#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#weight PolicyLbPool#weight}
   */
   readonly weight?: number;
 }
@@ -420,31 +420,31 @@ export interface PolicyLbPoolMemberGroup {
   /**
   * Use IPv4 addresses as server IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#allow_ipv4 PolicyLbPool#allow_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#allow_ipv4 PolicyLbPool#allow_ipv4}
   */
   readonly allowIpv4?: boolean | cdktf.IResolvable;
   /**
   * Use IPv6 addresses as server IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#allow_ipv6 PolicyLbPool#allow_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#allow_ipv6 PolicyLbPool#allow_ipv6}
   */
   readonly allowIpv6?: boolean | cdktf.IResolvable;
   /**
   * The IP list of the Group would be used as pool member IP setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#group_path PolicyLbPool#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#group_path PolicyLbPool#group_path}
   */
   readonly groupPath: string;
   /**
   * Limits the max number of pool members to the specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#max_ip_list_size PolicyLbPool#max_ip_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#max_ip_list_size PolicyLbPool#max_ip_list_size}
   */
   readonly maxIpListSize?: number;
   /**
   * If port is specified, all connections will be sent to this port. If unset, the same port the client connected to will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#port PolicyLbPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#port PolicyLbPool#port}
   */
   readonly port?: string;
 }
@@ -643,13 +643,13 @@ export interface PolicyLbPoolSnat {
   /**
   * List of IP CIDRs or IP ranges for SNAT of type SNAT_IP_POOL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#ip_pool_addresses PolicyLbPool#ip_pool_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#ip_pool_addresses PolicyLbPool#ip_pool_addresses}
   */
   readonly ipPoolAddresses?: string[];
   /**
   * Type of SNAT performed to ensure reverse traffic from the server can be received and processed by the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#type PolicyLbPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#type PolicyLbPool#type}
   */
   readonly type?: string;
 }
@@ -762,11 +762,11 @@ export class PolicyLbPoolSnatOutputReference extends cdktf.ComplexObject {
 }
 export interface PolicyLbPoolTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#scope PolicyLbPool#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#scope PolicyLbPool#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#tag PolicyLbPool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#tag PolicyLbPool#tag}
   */
   readonly tag?: string;
 }
@@ -911,7 +911,7 @@ export class PolicyLbPoolTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool nsxt_policy_lb_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool nsxt_policy_lb_pool}
 */
 export class PolicyLbPool extends cdktf.TerraformResource {
 
@@ -927,7 +927,7 @@ export class PolicyLbPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbPool to import
-  * @param importFromId The id of the existing PolicyLbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -939,7 +939,7 @@ export class PolicyLbPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_pool nsxt_policy_lb_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_pool nsxt_policy_lb_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -950,8 +950,8 @@ export class PolicyLbPool extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_pool',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

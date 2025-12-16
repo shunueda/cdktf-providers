@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDcdbInstancesConfig extends cdktf.TerraformMeta
   /**
   * cluster excluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#excluster_type DataTencentcloudDcdbInstances#excluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#excluster_type DataTencentcloudDcdbInstances#excluster_type}
   */
   readonly exclusterType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#id DataTencentcloudDcdbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#id DataTencentcloudDcdbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataTencentcloudDcdbInstancesConfig extends cdktf.TerraformMeta
   /**
   * instance ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#instance_ids DataTencentcloudDcdbInstances#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#instance_ids DataTencentcloudDcdbInstances#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * search according to the cluster excluter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#is_filter_excluster DataTencentcloudDcdbInstances#is_filter_excluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#is_filter_excluster DataTencentcloudDcdbInstances#is_filter_excluster}
   */
   readonly isFilterExcluster?: boolean | cdktf.IResolvable;
   /**
   * search according to the vpc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#is_filter_vpc DataTencentcloudDcdbInstances#is_filter_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#is_filter_vpc DataTencentcloudDcdbInstances#is_filter_vpc}
   */
   readonly isFilterVpc?: boolean | cdktf.IResolvable;
   /**
   * project ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#project_ids DataTencentcloudDcdbInstances#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#project_ids DataTencentcloudDcdbInstances#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#result_output_file DataTencentcloudDcdbInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#result_output_file DataTencentcloudDcdbInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * search key, support fuzzy query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#search_key DataTencentcloudDcdbInstances#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#search_key DataTencentcloudDcdbInstances#search_key}
   */
   readonly searchKey?: string;
   /**
   * search name, support instancename, vip, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#search_name DataTencentcloudDcdbInstances#search_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#search_name DataTencentcloudDcdbInstances#search_name}
   */
   readonly searchName?: string;
   /**
   * subnet id, valid when IsFilterVpc is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#subnet_id DataTencentcloudDcdbInstances#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#subnet_id DataTencentcloudDcdbInstances#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * vpc id, valid when IsFilterVpc is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#vpc_id DataTencentcloudDcdbInstances#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#vpc_id DataTencentcloudDcdbInstances#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -509,7 +509,7 @@ export class DataTencentcloudDcdbInstancesListStructList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances tencentcloud_dcdb_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances tencentcloud_dcdb_instances}
 */
 export class DataTencentcloudDcdbInstances extends cdktf.TerraformDataSource {
 
@@ -525,7 +525,7 @@ export class DataTencentcloudDcdbInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDcdbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbInstances to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -537,7 +537,7 @@ export class DataTencentcloudDcdbInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_instances tencentcloud_dcdb_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_instances tencentcloud_dcdb_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -548,8 +548,8 @@ export class DataTencentcloudDcdbInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dcdb_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

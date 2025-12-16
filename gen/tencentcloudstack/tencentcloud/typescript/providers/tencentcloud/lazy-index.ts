@@ -36,6 +36,7 @@ Object.defineProperty(exports, 'apiGatewayUsagePlanAttachment', { get: function 
 Object.defineProperty(exports, 'apmApplicationConfig', { get: function () { return require('./apm-application-config'); } });
 Object.defineProperty(exports, 'apmAssociationConfig', { get: function () { return require('./apm-association-config'); } });
 Object.defineProperty(exports, 'apmInstance', { get: function () { return require('./apm-instance'); } });
+Object.defineProperty(exports, 'apmPrometheusRule', { get: function () { return require('./apm-prometheus-rule'); } });
 Object.defineProperty(exports, 'apmSampleConfig', { get: function () { return require('./apm-sample-config'); } });
 Object.defineProperty(exports, 'asAttachment', { get: function () { return require('./as-attachment'); } });
 Object.defineProperty(exports, 'asCompleteLifecycle', { get: function () { return require('./as-complete-lifecycle'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyEvpnTenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#description PolicyEvpnTenant#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#description PolicyEvpnTenant#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#display_name PolicyEvpnTenant#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#display_name PolicyEvpnTenant#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#id PolicyEvpnTenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#id PolicyEvpnTenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface PolicyEvpnTenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#nsx_id PolicyEvpnTenant#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#nsx_id PolicyEvpnTenant#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path to overlay transport zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#transport_zone_path PolicyEvpnTenant#transport_zone_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#transport_zone_path PolicyEvpnTenant#transport_zone_path}
   */
   readonly transportZonePath: string;
   /**
   * Policy path to the vni pool used for Evpn in ROUTE-SERVER mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#vni_pool_path PolicyEvpnTenant#vni_pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#vni_pool_path PolicyEvpnTenant#vni_pool_path}
   */
   readonly vniPoolPath: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#mapping PolicyEvpnTenant#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#mapping PolicyEvpnTenant#mapping}
   */
   readonly mapping: PolicyEvpnTenantMapping[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#tag PolicyEvpnTenant#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#tag PolicyEvpnTenant#tag}
   */
   readonly tag?: PolicyEvpnTenantTag[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface PolicyEvpnTenantMapping {
   /**
   * Values for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#vlans PolicyEvpnTenant#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#vlans PolicyEvpnTenant#vlans}
   */
   readonly vlans: string;
   /**
   * Values for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#vnis PolicyEvpnTenant#vnis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#vnis PolicyEvpnTenant#vnis}
   */
   readonly vnis: string;
 }
@@ -206,11 +206,11 @@ export class PolicyEvpnTenantMappingList extends cdktf.ComplexList {
 }
 export interface PolicyEvpnTenantTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#scope PolicyEvpnTenant#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#scope PolicyEvpnTenant#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#tag PolicyEvpnTenant#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#tag PolicyEvpnTenant#tag}
   */
   readonly tag?: string;
 }
@@ -355,7 +355,7 @@ export class PolicyEvpnTenantTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant nsxt_policy_evpn_tenant}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant nsxt_policy_evpn_tenant}
 */
 export class PolicyEvpnTenant extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class PolicyEvpnTenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyEvpnTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyEvpnTenant to import
-  * @param importFromId The id of the existing PolicyEvpnTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyEvpnTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyEvpnTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class PolicyEvpnTenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_evpn_tenant nsxt_policy_evpn_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_evpn_tenant nsxt_policy_evpn_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class PolicyEvpnTenant extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_evpn_tenant',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

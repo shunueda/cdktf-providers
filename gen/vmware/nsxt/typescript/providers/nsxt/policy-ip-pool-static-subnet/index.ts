@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface PolicyIpPoolStaticSubnetConfig extends cdktf.TerraformMetaArgum
   /**
   * Network address and prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#cidr PolicyIpPoolStaticSubnet#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#cidr PolicyIpPoolStaticSubnet#cidr}
   */
   readonly cidr: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#description PolicyIpPoolStaticSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#description PolicyIpPoolStaticSubnet#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#display_name PolicyIpPoolStaticSubnet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#display_name PolicyIpPoolStaticSubnet#display_name}
   */
   readonly displayName: string;
   /**
   * The collection of up to 3 DNS servers for the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#dns_nameservers PolicyIpPoolStaticSubnet#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#dns_nameservers PolicyIpPoolStaticSubnet#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * DNS suffix for the nameserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#dns_suffix PolicyIpPoolStaticSubnet#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#dns_suffix PolicyIpPoolStaticSubnet#dns_suffix}
   */
   readonly dnsSuffix?: string;
   /**
   * The default gateway address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#gateway PolicyIpPoolStaticSubnet#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#gateway PolicyIpPoolStaticSubnet#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#id PolicyIpPoolStaticSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#id PolicyIpPoolStaticSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,31 +53,31 @@ export interface PolicyIpPoolStaticSubnetConfig extends cdktf.TerraformMetaArgum
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#nsx_id PolicyIpPoolStaticSubnet#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#nsx_id PolicyIpPoolStaticSubnet#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Policy path to the IP Pool for this Subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#pool_path PolicyIpPoolStaticSubnet#pool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#pool_path PolicyIpPoolStaticSubnet#pool_path}
   */
   readonly poolPath: string;
   /**
   * allocation_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#allocation_range PolicyIpPoolStaticSubnet#allocation_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#allocation_range PolicyIpPoolStaticSubnet#allocation_range}
   */
   readonly allocationRange: PolicyIpPoolStaticSubnetAllocationRange[] | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#context PolicyIpPoolStaticSubnet#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#context PolicyIpPoolStaticSubnet#context}
   */
   readonly context?: PolicyIpPoolStaticSubnetContext;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#tag PolicyIpPoolStaticSubnet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#tag PolicyIpPoolStaticSubnet#tag}
   */
   readonly tag?: PolicyIpPoolStaticSubnetTag[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface PolicyIpPoolStaticSubnetAllocationRange {
   /**
   * The end IP Address for the range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#end PolicyIpPoolStaticSubnet#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#end PolicyIpPoolStaticSubnet#end}
   */
   readonly end: string;
   /**
   * The start IP Address for the range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#start PolicyIpPoolStaticSubnet#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#start PolicyIpPoolStaticSubnet#start}
   */
   readonly start: string;
 }
@@ -232,7 +232,7 @@ export interface PolicyIpPoolStaticSubnetContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#project_id PolicyIpPoolStaticSubnet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#project_id PolicyIpPoolStaticSubnet#project_id}
   */
   readonly projectId: string;
 }
@@ -313,11 +313,11 @@ export class PolicyIpPoolStaticSubnetContextOutputReference extends cdktf.Comple
 }
 export interface PolicyIpPoolStaticSubnetTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#scope PolicyIpPoolStaticSubnet#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#scope PolicyIpPoolStaticSubnet#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#tag PolicyIpPoolStaticSubnet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#tag PolicyIpPoolStaticSubnet#tag}
   */
   readonly tag?: string;
 }
@@ -462,7 +462,7 @@ export class PolicyIpPoolStaticSubnetTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet nsxt_policy_ip_pool_static_subnet}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet nsxt_policy_ip_pool_static_subnet}
 */
 export class PolicyIpPoolStaticSubnet extends cdktf.TerraformResource {
 
@@ -478,7 +478,7 @@ export class PolicyIpPoolStaticSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIpPoolStaticSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIpPoolStaticSubnet to import
-  * @param importFromId The id of the existing PolicyIpPoolStaticSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIpPoolStaticSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIpPoolStaticSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class PolicyIpPoolStaticSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_ip_pool_static_subnet nsxt_policy_ip_pool_static_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_ip_pool_static_subnet nsxt_policy_ip_pool_static_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class PolicyIpPoolStaticSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_ip_pool_static_subnet',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

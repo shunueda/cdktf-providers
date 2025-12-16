@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface MsgVpnDistributedCacheClusterTopicConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#cache_name MsgVpnDistributedCacheClusterTopic#cache_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#cache_name MsgVpnDistributedCacheClusterTopic#cache_name}
   */
   readonly cacheName: string;
   /**
@@ -20,7 +20,7 @@ export interface MsgVpnDistributedCacheClusterTopicConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#cluster_name MsgVpnDistributedCacheClusterTopic#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#cluster_name MsgVpnDistributedCacheClusterTopic#cluster_name}
   */
   readonly clusterName: string;
   /**
@@ -28,7 +28,7 @@ export interface MsgVpnDistributedCacheClusterTopicConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#msg_vpn_name MsgVpnDistributedCacheClusterTopic#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#msg_vpn_name MsgVpnDistributedCacheClusterTopic#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -36,13 +36,13 @@ export interface MsgVpnDistributedCacheClusterTopicConfig extends cdktf.Terrafor
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#topic MsgVpnDistributedCacheClusterTopic#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#topic MsgVpnDistributedCacheClusterTopic#topic}
   */
   readonly topic: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic solacebroker_msg_vpn_distributed_cache_cluster_topic}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic solacebroker_msg_vpn_distributed_cache_cluster_topic}
 */
 export class MsgVpnDistributedCacheClusterTopic extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class MsgVpnDistributedCacheClusterTopic extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a MsgVpnDistributedCacheClusterTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgVpnDistributedCacheClusterTopic to import
-  * @param importFromId The id of the existing MsgVpnDistributedCacheClusterTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgVpnDistributedCacheClusterTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgVpnDistributedCacheClusterTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class MsgVpnDistributedCacheClusterTopic extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/msg_vpn_distributed_cache_cluster_topic solacebroker_msg_vpn_distributed_cache_cluster_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/msg_vpn_distributed_cache_cluster_topic solacebroker_msg_vpn_distributed_cache_cluster_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class MsgVpnDistributedCacheClusterTopic extends cdktf.TerraformResource 
       terraformResourceType: 'solacebroker_msg_vpn_distributed_cache_cluster_topic',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

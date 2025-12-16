@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyL2VpnServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#description PolicyL2VpnService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#description PolicyL2VpnService#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#display_name PolicyL2VpnService#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#display_name PolicyL2VpnService#display_name}
   */
   readonly displayName: string;
   /**
   * This property applies only in SERVER mode. If set to true, traffic from any client will be replicated to all other clients. If set to false, traffic received from clients is only replicated to the local VPN endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#enable_hub PolicyL2VpnService#enable_hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#enable_hub PolicyL2VpnService#enable_hub}
   */
   readonly enableHub?: boolean | cdktf.IResolvable;
   /**
   * IP Pool to allocate local and peer endpoint IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#encap_ip_pool PolicyL2VpnService#encap_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#encap_ip_pool PolicyL2VpnService#encap_ip_pool}
   */
   readonly encapIpPool?: string[];
   /**
   * Policy path for the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#gateway_path PolicyL2VpnService#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#gateway_path PolicyL2VpnService#gateway_path}
   */
   readonly gatewayPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#id PolicyL2VpnService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#id PolicyL2VpnService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,35 +47,35 @@ export interface PolicyL2VpnServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Polciy path for the locale service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#locale_service_path PolicyL2VpnService#locale_service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#locale_service_path PolicyL2VpnService#locale_service_path}
   */
   readonly localeServicePath?: string;
   /**
   * Specify an L2VPN service mode as SERVER or CLIENT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#mode PolicyL2VpnService#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#mode PolicyL2VpnService#mode}
   */
   readonly mode?: string;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#nsx_id PolicyL2VpnService#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#nsx_id PolicyL2VpnService#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#tag PolicyL2VpnService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#tag PolicyL2VpnService#tag}
   */
   readonly tag?: PolicyL2VpnServiceTag[] | cdktf.IResolvable;
 }
 export interface PolicyL2VpnServiceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#scope PolicyL2VpnService#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#scope PolicyL2VpnService#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#tag PolicyL2VpnService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#tag PolicyL2VpnService#tag}
   */
   readonly tag?: string;
 }
@@ -220,7 +220,7 @@ export class PolicyL2VpnServiceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service nsxt_policy_l2_vpn_service}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service nsxt_policy_l2_vpn_service}
 */
 export class PolicyL2VpnService extends cdktf.TerraformResource {
 
@@ -236,7 +236,7 @@ export class PolicyL2VpnService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyL2VpnService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyL2VpnService to import
-  * @param importFromId The id of the existing PolicyL2VpnService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyL2VpnService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyL2VpnService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class PolicyL2VpnService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_service nsxt_policy_l2_vpn_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_service nsxt_policy_l2_vpn_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class PolicyL2VpnService extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_l2_vpn_service',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

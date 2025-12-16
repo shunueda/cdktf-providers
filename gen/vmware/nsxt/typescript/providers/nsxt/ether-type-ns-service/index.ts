@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EtherTypeNsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#description EtherTypeNsService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#description EtherTypeNsService#description}
   */
   readonly description?: string;
   /**
   * The display name of this resource. Defaults to ID if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#display_name EtherTypeNsService#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#display_name EtherTypeNsService#display_name}
   */
   readonly displayName?: string;
   /**
   * Type of the encapsulated protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#ether_type EtherTypeNsService#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#ether_type EtherTypeNsService#ether_type}
   */
   readonly etherType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#id EtherTypeNsService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#id EtherTypeNsService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,17 +35,17 @@ export interface EtherTypeNsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#tag EtherTypeNsService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#tag EtherTypeNsService#tag}
   */
   readonly tag?: EtherTypeNsServiceTag[] | cdktf.IResolvable;
 }
 export interface EtherTypeNsServiceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#scope EtherTypeNsService#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#scope EtherTypeNsService#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#tag EtherTypeNsService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#tag EtherTypeNsService#tag}
   */
   readonly tag?: string;
 }
@@ -190,7 +190,7 @@ export class EtherTypeNsServiceTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service nsxt_ether_type_ns_service}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service nsxt_ether_type_ns_service}
 */
 export class EtherTypeNsService extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class EtherTypeNsService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EtherTypeNsService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EtherTypeNsService to import
-  * @param importFromId The id of the existing EtherTypeNsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EtherTypeNsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EtherTypeNsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class EtherTypeNsService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/ether_type_ns_service nsxt_ether_type_ns_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/ether_type_ns_service nsxt_ether_type_ns_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class EtherTypeNsService extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_ether_type_ns_service',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "dnsimple": "1.10.0"
+    "dnsimple": "2.0.0"
   }
 }

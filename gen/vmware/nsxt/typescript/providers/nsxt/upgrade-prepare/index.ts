@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UpgradePrepareConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to accept the user agreement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#accept_user_agreement UpgradePrepare#accept_user_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#accept_user_agreement UpgradePrepare#accept_user_agreement}
   */
   readonly acceptUserAgreement: boolean | cdktf.IResolvable;
   /**
   * Timeout for uploading bundle in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#bundle_upload_timeout UpgradePrepare#bundle_upload_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#bundle_upload_timeout UpgradePrepare#bundle_upload_timeout}
   */
   readonly bundleUploadTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#id UpgradePrepare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#id UpgradePrepare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface UpgradePrepareConfig extends cdktf.TerraformMetaArguments {
   /**
   * URL of the NSXT Upgrade precheck bundle (Only applied to NSXT version >= 4.1.1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#precheck_bundle_url UpgradePrepare#precheck_bundle_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#precheck_bundle_url UpgradePrepare#precheck_bundle_url}
   */
   readonly precheckBundleUrl?: string;
   /**
   * Timeout for executing pre-upgrade checks in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#precheck_timeout UpgradePrepare#precheck_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#precheck_timeout UpgradePrepare#precheck_timeout}
   */
   readonly precheckTimeout?: number;
   /**
   * Timeout for upgrading upgrade coordinator in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#uc_upgrade_timeout UpgradePrepare#uc_upgrade_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#uc_upgrade_timeout UpgradePrepare#uc_upgrade_timeout}
   */
   readonly ucUpgradeTimeout?: number;
   /**
   * URL of the NSXT Upgrade bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#upgrade_bundle_url UpgradePrepare#upgrade_bundle_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#upgrade_bundle_url UpgradePrepare#upgrade_bundle_url}
   */
   readonly upgradeBundleUrl: string;
   /**
   * Target upgrade version for NSX, format is x.x.x..., should include at least 3 digits, example: 4.1.2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#version UpgradePrepare#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#version UpgradePrepare#version}
   */
   readonly version?: string;
 }
@@ -164,7 +164,7 @@ export class UpgradePrepareFailedPrechecksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare nsxt_upgrade_prepare}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare nsxt_upgrade_prepare}
 */
 export class UpgradePrepare extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class UpgradePrepare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpgradePrepare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpgradePrepare to import
-  * @param importFromId The id of the existing UpgradePrepare that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpgradePrepare that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpgradePrepare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class UpgradePrepare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/upgrade_prepare nsxt_upgrade_prepare} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/upgrade_prepare nsxt_upgrade_prepare} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class UpgradePrepare extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_upgrade_prepare',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

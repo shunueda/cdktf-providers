@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDcdbUpgradePriceConfig extends cdktf.TerraformM
   /**
   * Price unit. Valid values: `pent` (cent), `microPent` (microcent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#amount_unit DataTencentcloudDcdbUpgradePrice#amount_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#amount_unit DataTencentcloudDcdbUpgradePrice#amount_unit}
   */
   readonly amountUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#id DataTencentcloudDcdbUpgradePrice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#id DataTencentcloudDcdbUpgradePrice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataTencentcloudDcdbUpgradePriceConfig extends cdktf.TerraformM
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#instance_id DataTencentcloudDcdbUpgradePrice#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#instance_id DataTencentcloudDcdbUpgradePrice#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#result_output_file DataTencentcloudDcdbUpgradePrice#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#result_output_file DataTencentcloudDcdbUpgradePrice#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Upgrade type, ADD: add new shard, EXPAND: upgrade the existing shard, SPLIT: split existing shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#upgrade_type DataTencentcloudDcdbUpgradePrice#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#upgrade_type DataTencentcloudDcdbUpgradePrice#upgrade_type}
   */
   readonly upgradeType: string;
   /**
   * add_shard_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#add_shard_config DataTencentcloudDcdbUpgradePrice#add_shard_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#add_shard_config DataTencentcloudDcdbUpgradePrice#add_shard_config}
   */
   readonly addShardConfig?: DataTencentcloudDcdbUpgradePriceAddShardConfig;
   /**
   * expand_shard_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#expand_shard_config DataTencentcloudDcdbUpgradePrice#expand_shard_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#expand_shard_config DataTencentcloudDcdbUpgradePrice#expand_shard_config}
   */
   readonly expandShardConfig?: DataTencentcloudDcdbUpgradePriceExpandShardConfig;
   /**
   * split_shard_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#split_shard_config DataTencentcloudDcdbUpgradePrice#split_shard_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#split_shard_config DataTencentcloudDcdbUpgradePrice#split_shard_config}
   */
   readonly splitShardConfig?: DataTencentcloudDcdbUpgradePriceSplitShardConfig;
 }
@@ -61,19 +61,19 @@ export interface DataTencentcloudDcdbUpgradePriceAddShardConfig {
   /**
   * The number of new shards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_count DataTencentcloudDcdbUpgradePrice#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_count DataTencentcloudDcdbUpgradePrice#shard_count}
   */
   readonly shardCount: number;
   /**
   * Shard memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_memory DataTencentcloudDcdbUpgradePrice#shard_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_memory DataTencentcloudDcdbUpgradePrice#shard_memory}
   */
   readonly shardMemory: number;
   /**
   * Shard storage capacity in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_storage DataTencentcloudDcdbUpgradePrice#shard_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_storage DataTencentcloudDcdbUpgradePrice#shard_storage}
   */
   readonly shardStorage: number;
 }
@@ -208,25 +208,25 @@ export interface DataTencentcloudDcdbUpgradePriceExpandShardConfig {
   /**
   * List of shard ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_instance_ids DataTencentcloudDcdbUpgradePrice#shard_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_instance_ids DataTencentcloudDcdbUpgradePrice#shard_instance_ids}
   */
   readonly shardInstanceIds: string[];
   /**
   * Shard memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_memory DataTencentcloudDcdbUpgradePrice#shard_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_memory DataTencentcloudDcdbUpgradePrice#shard_memory}
   */
   readonly shardMemory: number;
   /**
   * Shard node count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_node_count DataTencentcloudDcdbUpgradePrice#shard_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_node_count DataTencentcloudDcdbUpgradePrice#shard_node_count}
   */
   readonly shardNodeCount?: number;
   /**
   * Shard storage capacity in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_storage DataTencentcloudDcdbUpgradePrice#shard_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_storage DataTencentcloudDcdbUpgradePrice#shard_storage}
   */
   readonly shardStorage: number;
 }
@@ -390,25 +390,25 @@ export interface DataTencentcloudDcdbUpgradePriceSplitShardConfig {
   /**
   * List of shard ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_instance_ids DataTencentcloudDcdbUpgradePrice#shard_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_instance_ids DataTencentcloudDcdbUpgradePrice#shard_instance_ids}
   */
   readonly shardInstanceIds: string[];
   /**
   * Shard memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_memory DataTencentcloudDcdbUpgradePrice#shard_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_memory DataTencentcloudDcdbUpgradePrice#shard_memory}
   */
   readonly shardMemory: number;
   /**
   * Shard storage capacity in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#shard_storage DataTencentcloudDcdbUpgradePrice#shard_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#shard_storage DataTencentcloudDcdbUpgradePrice#shard_storage}
   */
   readonly shardStorage: number;
   /**
   * Data split ratio, fixed at 50%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#split_rate DataTencentcloudDcdbUpgradePrice#split_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#split_rate DataTencentcloudDcdbUpgradePrice#split_rate}
   */
   readonly splitRate: number;
 }
@@ -567,7 +567,7 @@ export class DataTencentcloudDcdbUpgradePriceSplitShardConfigOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price tencentcloud_dcdb_upgrade_price}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price tencentcloud_dcdb_upgrade_price}
 */
 export class DataTencentcloudDcdbUpgradePrice extends cdktf.TerraformDataSource {
 
@@ -583,7 +583,7 @@ export class DataTencentcloudDcdbUpgradePrice extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudDcdbUpgradePrice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbUpgradePrice to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbUpgradePrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbUpgradePrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbUpgradePrice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -595,7 +595,7 @@ export class DataTencentcloudDcdbUpgradePrice extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_upgrade_price tencentcloud_dcdb_upgrade_price} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dcdb_upgrade_price tencentcloud_dcdb_upgrade_price} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -606,8 +606,8 @@ export class DataTencentcloudDcdbUpgradePrice extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_dcdb_upgrade_price',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

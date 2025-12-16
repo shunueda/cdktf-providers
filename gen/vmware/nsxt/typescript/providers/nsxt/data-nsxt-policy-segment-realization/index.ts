@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataNsxtPolicySegmentRealizationConfig extends cdktf.TerraformM
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization#id DataNsxtPolicySegmentRealization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization#id DataNsxtPolicySegmentRealization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataNsxtPolicySegmentRealizationConfig extends cdktf.TerraformM
   /**
   * The path for the policy segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization#path DataNsxtPolicySegmentRealization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization#path DataNsxtPolicySegmentRealization#path}
   */
   readonly path: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization#context DataNsxtPolicySegmentRealization#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization#context DataNsxtPolicySegmentRealization#context}
   */
   readonly context?: DataNsxtPolicySegmentRealizationContext;
 }
@@ -33,7 +33,7 @@ export interface DataNsxtPolicySegmentRealizationContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization#project_id DataNsxtPolicySegmentRealization#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization#project_id DataNsxtPolicySegmentRealization#project_id}
   */
   readonly projectId: string;
 }
@@ -114,7 +114,7 @@ export class DataNsxtPolicySegmentRealizationContextOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization nsxt_policy_segment_realization}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization nsxt_policy_segment_realization}
 */
 export class DataNsxtPolicySegmentRealization extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataNsxtPolicySegmentRealization extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNsxtPolicySegmentRealization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicySegmentRealization to import
-  * @param importFromId The id of the existing DataNsxtPolicySegmentRealization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicySegmentRealization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicySegmentRealization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataNsxtPolicySegmentRealization extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_segment_realization nsxt_policy_segment_realization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_segment_realization nsxt_policy_segment_realization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataNsxtPolicySegmentRealization extends cdktf.TerraformDataSource 
       terraformResourceType: 'nsxt_policy_segment_realization',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

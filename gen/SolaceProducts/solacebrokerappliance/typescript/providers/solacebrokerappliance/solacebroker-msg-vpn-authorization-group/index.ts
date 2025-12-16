@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group
+// https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#acl_profile_name SolacebrokerMsgVpnAuthorizationGroup#acl_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#acl_profile_name SolacebrokerMsgVpnAuthorizationGroup#acl_profile_name}
   */
   readonly aclProfileName?: string;
   /**
@@ -20,7 +20,7 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#authorization_group_name SolacebrokerMsgVpnAuthorizationGroup#authorization_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#authorization_group_name SolacebrokerMsgVpnAuthorizationGroup#authorization_group_name}
   */
   readonly authorizationGroupName: string;
   /**
@@ -28,7 +28,7 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `"default"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#client_profile_name SolacebrokerMsgVpnAuthorizationGroup#client_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#client_profile_name SolacebrokerMsgVpnAuthorizationGroup#client_profile_name}
   */
   readonly clientProfileName?: string;
   /**
@@ -36,7 +36,7 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only". The minimum access scope/level required to change this attribute is "vpn/read-write". Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#enabled SolacebrokerMsgVpnAuthorizationGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#enabled SolacebrokerMsgVpnAuthorizationGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -44,7 +44,7 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#msg_vpn_name SolacebrokerMsgVpnAuthorizationGroup#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#msg_vpn_name SolacebrokerMsgVpnAuthorizationGroup#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -52,7 +52,7 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#order_after_authorization_group_name SolacebrokerMsgVpnAuthorizationGroup#order_after_authorization_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#order_after_authorization_group_name SolacebrokerMsgVpnAuthorizationGroup#order_after_authorization_group_name}
   */
   readonly orderAfterAuthorizationGroupName?: string;
   /**
@@ -60,13 +60,13 @@ export interface SolacebrokerMsgVpnAuthorizationGroupConfig extends cdktf.Terraf
   * 
   * The minimum access scope/level required to change this attribute is "vpn/read-write". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Changes to this attribute are synchronized to HA mates and replication sites via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#order_before_authorization_group_name SolacebrokerMsgVpnAuthorizationGroup#order_before_authorization_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#order_before_authorization_group_name SolacebrokerMsgVpnAuthorizationGroup#order_before_authorization_group_name}
   */
   readonly orderBeforeAuthorizationGroupName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group solacebroker_msg_vpn_authorization_group}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group solacebroker_msg_vpn_authorization_group}
 */
 export class SolacebrokerMsgVpnAuthorizationGroup extends cdktf.TerraformResource {
 
@@ -82,7 +82,7 @@ export class SolacebrokerMsgVpnAuthorizationGroup extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a SolacebrokerMsgVpnAuthorizationGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SolacebrokerMsgVpnAuthorizationGroup to import
-  * @param importFromId The id of the existing SolacebrokerMsgVpnAuthorizationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SolacebrokerMsgVpnAuthorizationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SolacebrokerMsgVpnAuthorizationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -94,7 +94,7 @@ export class SolacebrokerMsgVpnAuthorizationGroup extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.2.0/docs/resources/solacebroker_msg_vpn_authorization_group solacebroker_msg_vpn_authorization_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/1.3.0/docs/resources/solacebroker_msg_vpn_authorization_group solacebroker_msg_vpn_authorization_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -105,8 +105,8 @@ export class SolacebrokerMsgVpnAuthorizationGroup extends cdktf.TerraformResourc
       terraformResourceType: 'solacebroker_msg_vpn_authorization_group',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataNsxtPolicyGatewayLocaleServiceConfig extends cdktf.Terrafor
   /**
   * Path for BGP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#bgp_path DataNsxtPolicyGatewayLocaleService#bgp_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#bgp_path DataNsxtPolicyGatewayLocaleService#bgp_path}
   */
   readonly bgpPath?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#description DataNsxtPolicyGatewayLocaleService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#description DataNsxtPolicyGatewayLocaleService#description}
   */
   readonly description?: string;
   /**
   * Display name of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#display_name DataNsxtPolicyGatewayLocaleService#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#display_name DataNsxtPolicyGatewayLocaleService#display_name}
   */
   readonly displayName?: string;
   /**
   * The path of the edge cluster connected to this Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#edge_cluster_path DataNsxtPolicyGatewayLocaleService#edge_cluster_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#edge_cluster_path DataNsxtPolicyGatewayLocaleService#edge_cluster_path}
   */
   readonly edgeClusterPath?: string;
   /**
   * Gateway path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#gateway_path DataNsxtPolicyGatewayLocaleService#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#gateway_path DataNsxtPolicyGatewayLocaleService#gateway_path}
   */
   readonly gatewayPath: string;
   /**
   * Unique ID of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#id DataNsxtPolicyGatewayLocaleService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#id DataNsxtPolicyGatewayLocaleService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ export interface DataNsxtPolicyGatewayLocaleServiceConfig extends cdktf.Terrafor
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#context DataNsxtPolicyGatewayLocaleService#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#context DataNsxtPolicyGatewayLocaleService#context}
   */
   readonly context?: DataNsxtPolicyGatewayLocaleServiceContext;
 }
@@ -57,7 +57,7 @@ export interface DataNsxtPolicyGatewayLocaleServiceContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#project_id DataNsxtPolicyGatewayLocaleService#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#project_id DataNsxtPolicyGatewayLocaleService#project_id}
   */
   readonly projectId: string;
 }
@@ -138,7 +138,7 @@ export class DataNsxtPolicyGatewayLocaleServiceContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service nsxt_policy_gateway_locale_service}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service nsxt_policy_gateway_locale_service}
 */
 export class DataNsxtPolicyGatewayLocaleService extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataNsxtPolicyGatewayLocaleService extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataNsxtPolicyGatewayLocaleService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNsxtPolicyGatewayLocaleService to import
-  * @param importFromId The id of the existing DataNsxtPolicyGatewayLocaleService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNsxtPolicyGatewayLocaleService that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNsxtPolicyGatewayLocaleService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataNsxtPolicyGatewayLocaleService extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/data-sources/policy_gateway_locale_service nsxt_policy_gateway_locale_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/data-sources/policy_gateway_locale_service nsxt_policy_gateway_locale_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataNsxtPolicyGatewayLocaleService extends cdktf.TerraformDataSourc
       terraformResourceType: 'nsxt_policy_gateway_locale_service',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

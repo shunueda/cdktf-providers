@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface PipelineAuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#id PipelineAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#id PipelineAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#pipeline_id PipelineAuthorization#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#pipeline_id PipelineAuthorization#pipeline_id}
   */
   readonly pipelineId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#pipeline_project_id PipelineAuthorization#pipeline_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#pipeline_project_id PipelineAuthorization#pipeline_project_id}
   */
   readonly pipelineProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#project_id PipelineAuthorization#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#project_id PipelineAuthorization#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#resource_id PipelineAuthorization#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#resource_id PipelineAuthorization#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#type PipelineAuthorization#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#type PipelineAuthorization#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#timeouts PipelineAuthorization#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#timeouts PipelineAuthorization#timeouts}
   */
   readonly timeouts?: PipelineAuthorizationTimeouts;
 }
 export interface PipelineAuthorizationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#create PipelineAuthorization#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#create PipelineAuthorization#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#delete PipelineAuthorization#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#delete PipelineAuthorization#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#read PipelineAuthorization#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#read PipelineAuthorization#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#update PipelineAuthorization#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#update PipelineAuthorization#update}
   */
   readonly update?: string;
 }
@@ -236,7 +236,7 @@ export class PipelineAuthorizationTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization azuredevops_pipeline_authorization}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization azuredevops_pipeline_authorization}
 */
 export class PipelineAuthorization extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class PipelineAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PipelineAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PipelineAuthorization to import
-  * @param importFromId The id of the existing PipelineAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PipelineAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PipelineAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class PipelineAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/pipeline_authorization azuredevops_pipeline_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.2/docs/resources/pipeline_authorization azuredevops_pipeline_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class PipelineAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_pipeline_authorization',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.1',
-        providerVersionConstraint: '1.12.1'
+        providerVersion: '1.12.2',
+        providerVersionConstraint: '1.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

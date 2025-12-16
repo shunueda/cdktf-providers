@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyComputeSubClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * Compute collection ID under which subcluster is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#compute_collection_id PolicyComputeSubCluster#compute_collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#compute_collection_id PolicyComputeSubCluster#compute_collection_id}
   */
   readonly computeCollectionId: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#description PolicyComputeSubCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#description PolicyComputeSubCluster#description}
   */
   readonly description?: string;
   /**
   * Discovered node IDs under this subcluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#discovered_node_ids PolicyComputeSubCluster#discovered_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#discovered_node_ids PolicyComputeSubCluster#discovered_node_ids}
   */
   readonly discoveredNodeIds?: string[];
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#display_name PolicyComputeSubCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#display_name PolicyComputeSubCluster#display_name}
   */
   readonly displayName: string;
   /**
   * ID of the enforcement point this subcluster belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#enforcement_point PolicyComputeSubCluster#enforcement_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#enforcement_point PolicyComputeSubCluster#enforcement_point}
   */
   readonly enforcementPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#id PolicyComputeSubCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#id PolicyComputeSubCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,29 +47,29 @@ export interface PolicyComputeSubClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#nsx_id PolicyComputeSubCluster#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#nsx_id PolicyComputeSubCluster#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Path to the site this subcluster belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#site_path PolicyComputeSubCluster#site_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#site_path PolicyComputeSubCluster#site_path}
   */
   readonly sitePath?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#tag PolicyComputeSubCluster#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#tag PolicyComputeSubCluster#tag}
   */
   readonly tag?: PolicyComputeSubClusterTag[] | cdktf.IResolvable;
 }
 export interface PolicyComputeSubClusterTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#scope PolicyComputeSubCluster#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#scope PolicyComputeSubCluster#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#tag PolicyComputeSubCluster#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#tag PolicyComputeSubCluster#tag}
   */
   readonly tag?: string;
 }
@@ -214,7 +214,7 @@ export class PolicyComputeSubClusterTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster nsxt_policy_compute_sub_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster nsxt_policy_compute_sub_cluster}
 */
 export class PolicyComputeSubCluster extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class PolicyComputeSubCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyComputeSubCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyComputeSubCluster to import
-  * @param importFromId The id of the existing PolicyComputeSubCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyComputeSubCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyComputeSubCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class PolicyComputeSubCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_compute_sub_cluster nsxt_policy_compute_sub_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_compute_sub_cluster nsxt_policy_compute_sub_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class PolicyComputeSubCluster extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_compute_sub_cluster',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

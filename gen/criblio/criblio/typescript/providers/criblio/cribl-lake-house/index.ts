@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house
+// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CriblLakeHouseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the lakehouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house#description CriblLakeHouse#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house#description CriblLakeHouse#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the lakehouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house#id CriblLakeHouse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house#id CriblLakeHouse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface CriblLakeHouseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Status of the lakehouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house#status CriblLakeHouse#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house#status CriblLakeHouse#status}
   */
   readonly status?: string;
   /**
   * Size of the lakehouse tier. Default: "small"; must be one of ["small", "medium", "large", "xlarge", "2xlarge", "3xlarge", "6xlarge"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house#tier_size CriblLakeHouse#tier_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house#tier_size CriblLakeHouse#tier_size}
   */
   readonly tierSize?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house criblio_cribl_lake_house}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house criblio_cribl_lake_house}
 */
 export class CriblLakeHouse extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class CriblLakeHouse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CriblLakeHouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CriblLakeHouse to import
-  * @param importFromId The id of the existing CriblLakeHouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CriblLakeHouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CriblLakeHouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class CriblLakeHouse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.60/docs/resources/cribl_lake_house criblio_cribl_lake_house} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/cribl_lake_house criblio_cribl_lake_house} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class CriblLakeHouse extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_cribl_lake_house',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.60',
-        providerVersionConstraint: '1.20.60'
+        providerVersion: '1.20.62',
+        providerVersionConstraint: '1.20.62'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

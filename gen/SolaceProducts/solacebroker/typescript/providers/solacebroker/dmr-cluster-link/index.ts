@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute is absent from a GET and not updated when absent in a PUT, subject to the exceptions [here](https://docs.solace.com/Admin/SEMP/SEMP-API-Archit.htm#HTTP_Methods). Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#authentication_basic_password DmrClusterLink#authentication_basic_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#authentication_basic_password DmrClusterLink#authentication_basic_password}
   */
   readonly authenticationBasicPassword?: string;
   /**
@@ -26,7 +26,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#authentication_scheme DmrClusterLink#authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#authentication_scheme DmrClusterLink#authentication_scheme}
   */
   readonly authenticationScheme?: string;
   /**
@@ -34,7 +34,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_control1_max_depth DmrClusterLink#client_profile_queue_control1_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_control1_max_depth DmrClusterLink#client_profile_queue_control1_max_depth}
   */
   readonly clientProfileQueueControl1MaxDepth?: number;
   /**
@@ -42,7 +42,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_control1_min_msg_burst DmrClusterLink#client_profile_queue_control1_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_control1_min_msg_burst DmrClusterLink#client_profile_queue_control1_min_msg_burst}
   */
   readonly clientProfileQueueControl1MinMsgBurst?: number;
   /**
@@ -50,7 +50,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_direct1_max_depth DmrClusterLink#client_profile_queue_direct1_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_direct1_max_depth DmrClusterLink#client_profile_queue_direct1_max_depth}
   */
   readonly clientProfileQueueDirect1MaxDepth?: number;
   /**
@@ -58,7 +58,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_direct1_min_msg_burst DmrClusterLink#client_profile_queue_direct1_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_direct1_min_msg_burst DmrClusterLink#client_profile_queue_direct1_min_msg_burst}
   */
   readonly clientProfileQueueDirect1MinMsgBurst?: number;
   /**
@@ -66,7 +66,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_direct2_max_depth DmrClusterLink#client_profile_queue_direct2_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_direct2_max_depth DmrClusterLink#client_profile_queue_direct2_max_depth}
   */
   readonly clientProfileQueueDirect2MaxDepth?: number;
   /**
@@ -74,7 +74,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_direct2_min_msg_burst DmrClusterLink#client_profile_queue_direct2_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_direct2_min_msg_burst DmrClusterLink#client_profile_queue_direct2_min_msg_burst}
   */
   readonly clientProfileQueueDirect2MinMsgBurst?: number;
   /**
@@ -82,7 +82,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_direct3_max_depth DmrClusterLink#client_profile_queue_direct3_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_direct3_max_depth DmrClusterLink#client_profile_queue_direct3_max_depth}
   */
   readonly clientProfileQueueDirect3MaxDepth?: number;
   /**
@@ -90,7 +90,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_direct3_min_msg_burst DmrClusterLink#client_profile_queue_direct3_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_direct3_min_msg_burst DmrClusterLink#client_profile_queue_direct3_min_msg_burst}
   */
   readonly clientProfileQueueDirect3MinMsgBurst?: number;
   /**
@@ -98,7 +98,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_guaranteed1_max_depth DmrClusterLink#client_profile_queue_guaranteed1_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_guaranteed1_max_depth DmrClusterLink#client_profile_queue_guaranteed1_max_depth}
   */
   readonly clientProfileQueueGuaranteed1MaxDepth?: number;
   /**
@@ -106,15 +106,15 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `255`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_queue_guaranteed1_min_msg_burst DmrClusterLink#client_profile_queue_guaranteed1_min_msg_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_queue_guaranteed1_min_msg_burst DmrClusterLink#client_profile_queue_guaranteed1_min_msg_burst}
   */
   readonly clientProfileQueueGuaranteed1MinMsgBurst?: number;
   /**
-  * The TCP initial congestion window size, in multiples of the TCP Maximum Segment Size (MSS). Changing the value from its default of 2 results in non-compliance with RFC 2581. Contact support before changing this value.
+  * Obsolete.
   * 
-  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `2`.
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". The default value is `2`. Deprecated since SEMP API version 2.48. The value is now ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_tcp_congestion_window_size DmrClusterLink#client_profile_tcp_congestion_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_tcp_congestion_window_size DmrClusterLink#client_profile_tcp_congestion_window_size}
   */
   readonly clientProfileTcpCongestionWindowSize?: number;
   /**
@@ -122,7 +122,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_tcp_keepalive_count DmrClusterLink#client_profile_tcp_keepalive_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_tcp_keepalive_count DmrClusterLink#client_profile_tcp_keepalive_count}
   */
   readonly clientProfileTcpKeepaliveCount?: number;
   /**
@@ -130,7 +130,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_tcp_keepalive_idle_time DmrClusterLink#client_profile_tcp_keepalive_idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_tcp_keepalive_idle_time DmrClusterLink#client_profile_tcp_keepalive_idle_time}
   */
   readonly clientProfileTcpKeepaliveIdleTime?: number;
   /**
@@ -138,7 +138,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_tcp_keepalive_interval DmrClusterLink#client_profile_tcp_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_tcp_keepalive_interval DmrClusterLink#client_profile_tcp_keepalive_interval}
   */
   readonly clientProfileTcpKeepaliveInterval?: number;
   /**
@@ -146,15 +146,15 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1460`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_tcp_max_segment_size DmrClusterLink#client_profile_tcp_max_segment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_tcp_max_segment_size DmrClusterLink#client_profile_tcp_max_segment_size}
   */
   readonly clientProfileTcpMaxSegmentSize?: number;
   /**
-  * The TCP maximum window size, in kilobytes. Changes are applied to all existing connections. This setting is ignored on the software broker.
+  * Obsolete.
   * 
-  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `256`.
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". The default value is `256`. Deprecated since SEMP API version 2.48. The value is now ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#client_profile_tcp_max_window_size DmrClusterLink#client_profile_tcp_max_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#client_profile_tcp_max_window_size DmrClusterLink#client_profile_tcp_max_window_size}
   */
   readonly clientProfileTcpMaxWindowSize?: number;
   /**
@@ -162,7 +162,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`. Available since SEMP API version 2.41.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#connection_retry_count DmrClusterLink#connection_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#connection_retry_count DmrClusterLink#connection_retry_count}
   */
   readonly connectionRetryCount?: number;
   /**
@@ -170,7 +170,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `3`. Available since SEMP API version 2.41.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#connection_retry_delay DmrClusterLink#connection_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#connection_retry_delay DmrClusterLink#connection_retry_delay}
   */
   readonly connectionRetryDelay?: number;
   /**
@@ -178,7 +178,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#dmr_cluster_name DmrClusterLink#dmr_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#dmr_cluster_name DmrClusterLink#dmr_cluster_name}
   */
   readonly dmrClusterName: string;
   /**
@@ -186,7 +186,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `255`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#egress_flow_window_size DmrClusterLink#egress_flow_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#egress_flow_window_size DmrClusterLink#egress_flow_window_size}
   */
   readonly egressFlowWindowSize?: number;
   /**
@@ -194,7 +194,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#enabled DmrClusterLink#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#enabled DmrClusterLink#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -209,7 +209,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#initiator DmrClusterLink#initiator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#initiator DmrClusterLink#initiator}
   */
   readonly initiator?: string;
   /**
@@ -217,13 +217,13 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `"#DEAD_MSG_QUEUE"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_dead_msg_queue DmrClusterLink#queue_dead_msg_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_dead_msg_queue DmrClusterLink#queue_dead_msg_queue}
   */
   readonly queueDeadMsgQueue?: string;
   /**
   * The thresholds for the message spool usage event of the Queue, relative to `queue_max_msg_spool_usage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_event_spool_usage_threshold DmrClusterLink#queue_event_spool_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_event_spool_usage_threshold DmrClusterLink#queue_event_spool_usage_threshold}
   */
   readonly queueEventSpoolUsageThreshold?: DmrClusterLinkQueueEventSpoolUsageThreshold;
   /**
@@ -231,7 +231,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_max_delivered_unacked_msgs_per_flow DmrClusterLink#queue_max_delivered_unacked_msgs_per_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_max_delivered_unacked_msgs_per_flow DmrClusterLink#queue_max_delivered_unacked_msgs_per_flow}
   */
   readonly queueMaxDeliveredUnackedMsgsPerFlow?: number;
   /**
@@ -239,7 +239,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `800000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_max_msg_spool_usage DmrClusterLink#queue_max_msg_spool_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_max_msg_spool_usage DmrClusterLink#queue_max_msg_spool_usage}
   */
   readonly queueMaxMsgSpoolUsage?: number;
   /**
@@ -247,7 +247,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_max_redelivery_count DmrClusterLink#queue_max_redelivery_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_max_redelivery_count DmrClusterLink#queue_max_redelivery_count}
   */
   readonly queueMaxRedeliveryCount?: number;
   /**
@@ -255,7 +255,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_max_ttl DmrClusterLink#queue_max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_max_ttl DmrClusterLink#queue_max_ttl}
   */
   readonly queueMaxTtl?: number;
   /**
@@ -270,15 +270,23 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_reject_msg_to_sender_on_discard_behavior DmrClusterLink#queue_reject_msg_to_sender_on_discard_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_reject_msg_to_sender_on_discard_behavior DmrClusterLink#queue_reject_msg_to_sender_on_discard_behavior}
   */
   readonly queueRejectMsgToSenderOnDiscardBehavior?: string;
+  /**
+  * Enable or disable the respecting of DMQ Eligible for messages in the Queue.
+  * 
+  * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`. Available since SEMP API version 2.49.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_respect_dmq_eligible_enabled DmrClusterLink#queue_respect_dmq_eligible_enabled}
+  */
+  readonly queueRespectDmqEligibleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the respecting of the time-to-live (TTL) for messages in the Queue. When enabled, expired messages are discarded or moved to the DMQ.
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#queue_respect_ttl_enabled DmrClusterLink#queue_respect_ttl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#queue_respect_ttl_enabled DmrClusterLink#queue_respect_ttl_enabled}
   */
   readonly queueRespectTtlEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -286,7 +294,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#remote_node_name DmrClusterLink#remote_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#remote_node_name DmrClusterLink#remote_node_name}
   */
   readonly remoteNodeName: string;
   /**
@@ -300,7 +308,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * </pre>
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#span DmrClusterLink#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#span DmrClusterLink#span}
   */
   readonly span?: string;
   /**
@@ -308,7 +316,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#transport_compressed_enabled DmrClusterLink#transport_compressed_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#transport_compressed_enabled DmrClusterLink#transport_compressed_enabled}
   */
   readonly transportCompressedEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -316,7 +324,7 @@ export interface DmrClusterLinkConfig extends cdktf.TerraformMetaArguments {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". Modifying this attribute while the object (or the relevant part of the object) is administratively enabled may be service impacting as enabled will be temporarily set to false to apply the change. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#transport_tls_enabled DmrClusterLink#transport_tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#transport_tls_enabled DmrClusterLink#transport_tls_enabled}
   */
   readonly transportTlsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -326,7 +334,7 @@ export interface DmrClusterLinkQueueEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#clear_percent DmrClusterLink#clear_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#clear_percent DmrClusterLink#clear_percent}
   */
   readonly clearPercent?: number;
   /**
@@ -334,7 +342,7 @@ export interface DmrClusterLinkQueueEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#clear_value DmrClusterLink#clear_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#clear_value DmrClusterLink#clear_value}
   */
   readonly clearValue?: number;
   /**
@@ -342,7 +350,7 @@ export interface DmrClusterLinkQueueEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default value is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#set_percent DmrClusterLink#set_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#set_percent DmrClusterLink#set_percent}
   */
   readonly setPercent?: number;
   /**
@@ -350,7 +358,7 @@ export interface DmrClusterLinkQueueEventSpoolUsageThreshold {
   * 
   * The minimum access scope/level required to retrieve this attribute is "global/read-only". The minimum access scope/level required to change this attribute is "global/mesh-manager". This attribute may not be returned in a GET. Changes to this attribute are synchronized to HA mates via config-sync. The default is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#set_value DmrClusterLink#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#set_value DmrClusterLink#set_value}
   */
   readonly setValue?: number;
 }
@@ -531,7 +539,7 @@ export class DmrClusterLinkQueueEventSpoolUsageThresholdOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link solacebroker_dmr_cluster_link}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link solacebroker_dmr_cluster_link}
 */
 export class DmrClusterLink extends cdktf.TerraformResource {
 
@@ -547,7 +555,7 @@ export class DmrClusterLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmrClusterLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmrClusterLink to import
-  * @param importFromId The id of the existing DmrClusterLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmrClusterLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmrClusterLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -559,7 +567,7 @@ export class DmrClusterLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/resources/dmr_cluster_link solacebroker_dmr_cluster_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/resources/dmr_cluster_link solacebroker_dmr_cluster_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -570,8 +578,8 @@ export class DmrClusterLink extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_dmr_cluster_link',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -612,6 +620,7 @@ export class DmrClusterLink extends cdktf.TerraformResource {
     this._queueMaxRedeliveryCount = config.queueMaxRedeliveryCount;
     this._queueMaxTtl = config.queueMaxTtl;
     this._queueRejectMsgToSenderOnDiscardBehavior = config.queueRejectMsgToSenderOnDiscardBehavior;
+    this._queueRespectDmqEligibleEnabled = config.queueRespectDmqEligibleEnabled;
     this._queueRespectTtlEnabled = config.queueRespectTtlEnabled;
     this._remoteNodeName = config.remoteNodeName;
     this._span = config.span;
@@ -1116,6 +1125,22 @@ export class DmrClusterLink extends cdktf.TerraformResource {
     return this._queueRejectMsgToSenderOnDiscardBehavior;
   }
 
+  // queue_respect_dmq_eligible_enabled - computed: false, optional: true, required: false
+  private _queueRespectDmqEligibleEnabled?: boolean | cdktf.IResolvable; 
+  public get queueRespectDmqEligibleEnabled() {
+    return this.getBooleanAttribute('queue_respect_dmq_eligible_enabled');
+  }
+  public set queueRespectDmqEligibleEnabled(value: boolean | cdktf.IResolvable) {
+    this._queueRespectDmqEligibleEnabled = value;
+  }
+  public resetQueueRespectDmqEligibleEnabled() {
+    this._queueRespectDmqEligibleEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queueRespectDmqEligibleEnabledInput() {
+    return this._queueRespectDmqEligibleEnabled;
+  }
+
   // queue_respect_ttl_enabled - computed: false, optional: true, required: false
   private _queueRespectTtlEnabled?: boolean | cdktf.IResolvable; 
   public get queueRespectTtlEnabled() {
@@ -1230,6 +1255,7 @@ export class DmrClusterLink extends cdktf.TerraformResource {
       queue_max_redelivery_count: cdktf.numberToTerraform(this._queueMaxRedeliveryCount),
       queue_max_ttl: cdktf.numberToTerraform(this._queueMaxTtl),
       queue_reject_msg_to_sender_on_discard_behavior: cdktf.stringToTerraform(this._queueRejectMsgToSenderOnDiscardBehavior),
+      queue_respect_dmq_eligible_enabled: cdktf.booleanToTerraform(this._queueRespectDmqEligibleEnabled),
       queue_respect_ttl_enabled: cdktf.booleanToTerraform(this._queueRespectTtlEnabled),
       remote_node_name: cdktf.stringToTerraform(this._remoteNodeName),
       span: cdktf.stringToTerraform(this._span),
@@ -1425,6 +1451,12 @@ export class DmrClusterLink extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      queue_respect_dmq_eligible_enabled: {
+        value: cdktf.booleanToHclTerraform(this._queueRespectDmqEligibleEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       queue_respect_ttl_enabled: {
         value: cdktf.booleanToHclTerraform(this._queueRespectTtlEnabled),

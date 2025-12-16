@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicySecurityPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * Category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#category PolicySecurityPolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#category PolicySecurityPolicy#category}
   */
   readonly category: string;
   /**
   * Comments for security policy lock/unlock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#comments PolicySecurityPolicy#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#comments PolicySecurityPolicy#comments}
   */
   readonly comments?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName: string;
   /**
   * The domain name to use for resources. If not specified 'default' is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#domain PolicySecurityPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#domain PolicySecurityPolicy#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#id PolicySecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#id PolicySecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface PolicySecurityPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * Indicates whether a security policy should be locked. If locked by a user, no other user would be able to modify this policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#locked PolicySecurityPolicy#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#locked PolicySecurityPolicy#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#nsx_id PolicySecurityPolicy#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#nsx_id PolicySecurityPolicy#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * The list of group paths where the rules in this policy will get applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
   */
   readonly scope?: string[];
   /**
   * This field is used to resolve conflicts between security policies across domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#sequence_number PolicySecurityPolicy#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#sequence_number PolicySecurityPolicy#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * When it is stateful, the state of the network connects are tracked and a stateful packet inspection is performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#stateful PolicySecurityPolicy#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#stateful PolicySecurityPolicy#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
   /**
   * Ensures that a 3 way TCP handshake is done before the data packets are sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#tcp_strict PolicySecurityPolicy#tcp_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#tcp_strict PolicySecurityPolicy#tcp_strict}
   */
   readonly tcpStrict?: boolean | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#context PolicySecurityPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#context PolicySecurityPolicy#context}
   */
   readonly context?: PolicySecurityPolicyContext;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#rule PolicySecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#rule PolicySecurityPolicy#rule}
   */
   readonly rule?: PolicySecurityPolicyRule[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
   */
   readonly tag?: PolicySecurityPolicyTag[] | cdktf.IResolvable;
 }
@@ -103,7 +103,7 @@ export interface PolicySecurityPolicyContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#project_id PolicySecurityPolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#project_id PolicySecurityPolicy#project_id}
   */
   readonly projectId: string;
 }
@@ -186,31 +186,31 @@ export interface PolicySecurityPolicyRuleServiceEntriesAlgorithmEntry {
   /**
   * Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#algorithm PolicySecurityPolicy#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#algorithm PolicySecurityPolicy#algorithm}
   */
   readonly algorithm: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * A single destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#destination_port PolicySecurityPolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#destination_port PolicySecurityPolicy#destination_port}
   */
   readonly destinationPort: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Set of source ports or ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#source_ports PolicySecurityPolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#source_ports PolicySecurityPolicy#source_ports}
   */
   readonly sourcePorts?: string[];
 }
@@ -438,19 +438,19 @@ export interface PolicySecurityPolicyRuleServiceEntriesEtherTypeEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Type of the encapsulated protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#ether_type PolicySecurityPolicy#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#ether_type PolicySecurityPolicy#ether_type}
   */
   readonly etherType: number;
 }
@@ -623,31 +623,31 @@ export interface PolicySecurityPolicyRuleServiceEntriesIcmpEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * ICMP message code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#icmp_code PolicySecurityPolicy#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#icmp_code PolicySecurityPolicy#icmp_code}
   */
   readonly icmpCode?: string;
   /**
   * ICMP message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#icmp_type PolicySecurityPolicy#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#icmp_type PolicySecurityPolicy#icmp_type}
   */
   readonly icmpType?: string;
   /**
   * Version of ICMP protocol (ICMPv4/ICMPv6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#protocol PolicySecurityPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#protocol PolicySecurityPolicy#protocol}
   */
   readonly protocol: string;
 }
@@ -878,13 +878,13 @@ export interface PolicySecurityPolicyRuleServiceEntriesIgmpEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName?: string;
 }
@@ -1031,19 +1031,19 @@ export interface PolicySecurityPolicyRuleServiceEntriesIpProtocolEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * IP protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#protocol PolicySecurityPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#protocol PolicySecurityPolicy#protocol}
   */
   readonly protocol: number;
 }
@@ -1216,31 +1216,31 @@ export interface PolicySecurityPolicyRuleServiceEntriesL4PortSetEntry {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Set of destination ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#destination_ports PolicySecurityPolicy#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#destination_ports PolicySecurityPolicy#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * L4 Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#protocol PolicySecurityPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#protocol PolicySecurityPolicy#protocol}
   */
   readonly protocol: string;
   /**
   * Set of source ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#source_ports PolicySecurityPolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#source_ports PolicySecurityPolicy#source_ports}
   */
   readonly sourcePorts?: string[];
 }
@@ -1471,37 +1471,37 @@ export interface PolicySecurityPolicyRuleServiceEntries {
   /**
   * algorithm_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#algorithm_entry PolicySecurityPolicy#algorithm_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#algorithm_entry PolicySecurityPolicy#algorithm_entry}
   */
   readonly algorithmEntry?: PolicySecurityPolicyRuleServiceEntriesAlgorithmEntry[] | cdktf.IResolvable;
   /**
   * ether_type_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#ether_type_entry PolicySecurityPolicy#ether_type_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#ether_type_entry PolicySecurityPolicy#ether_type_entry}
   */
   readonly etherTypeEntry?: PolicySecurityPolicyRuleServiceEntriesEtherTypeEntry[] | cdktf.IResolvable;
   /**
   * icmp_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#icmp_entry PolicySecurityPolicy#icmp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#icmp_entry PolicySecurityPolicy#icmp_entry}
   */
   readonly icmpEntry?: PolicySecurityPolicyRuleServiceEntriesIcmpEntry[] | cdktf.IResolvable;
   /**
   * igmp_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#igmp_entry PolicySecurityPolicy#igmp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#igmp_entry PolicySecurityPolicy#igmp_entry}
   */
   readonly igmpEntry?: PolicySecurityPolicyRuleServiceEntriesIgmpEntry[] | cdktf.IResolvable;
   /**
   * ip_protocol_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#ip_protocol_entry PolicySecurityPolicy#ip_protocol_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#ip_protocol_entry PolicySecurityPolicy#ip_protocol_entry}
   */
   readonly ipProtocolEntry?: PolicySecurityPolicyRuleServiceEntriesIpProtocolEntry[] | cdktf.IResolvable;
   /**
   * l4_port_set_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#l4_port_set_entry PolicySecurityPolicy#l4_port_set_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#l4_port_set_entry PolicySecurityPolicy#l4_port_set_entry}
   */
   readonly l4PortSetEntry?: PolicySecurityPolicyRuleServiceEntriesL4PortSetEntry[] | cdktf.IResolvable;
 }
@@ -1730,11 +1730,11 @@ export class PolicySecurityPolicyRuleServiceEntriesOutputReference extends cdktf
 }
 export interface PolicySecurityPolicyRuleTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
   */
   readonly tag?: string;
 }
@@ -1881,115 +1881,115 @@ export interface PolicySecurityPolicyRule {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#action PolicySecurityPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#action PolicySecurityPolicy#action}
   */
   readonly action?: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#description PolicySecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * List of destination groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#destination_groups PolicySecurityPolicy#destination_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#destination_groups PolicySecurityPolicy#destination_groups}
   */
   readonly destinationGroups?: string[];
   /**
   * Negation of destination groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#destinations_excluded PolicySecurityPolicy#destinations_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#destinations_excluded PolicySecurityPolicy#destinations_excluded}
   */
   readonly destinationsExcluded?: boolean | cdktf.IResolvable;
   /**
   * Traffic direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#direction PolicySecurityPolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#direction PolicySecurityPolicy#direction}
   */
   readonly direction?: string;
   /**
   * Flag to disable the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#disabled PolicySecurityPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#disabled PolicySecurityPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#display_name PolicySecurityPolicy#display_name}
   */
   readonly displayName: string;
   /**
   * IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#ip_version PolicySecurityPolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#ip_version PolicySecurityPolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Additional information (string) which will be propagated to the rule syslog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#log_label PolicySecurityPolicy#log_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#log_label PolicySecurityPolicy#log_label}
   */
   readonly logLabel?: string;
   /**
   * Flag to enable packet logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#logged PolicySecurityPolicy#logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#logged PolicySecurityPolicy#logged}
   */
   readonly logged?: boolean | cdktf.IResolvable;
   /**
   * Text for additional notes on changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#notes PolicySecurityPolicy#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#notes PolicySecurityPolicy#notes}
   */
   readonly notes?: string;
   /**
   * List of profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#profiles PolicySecurityPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#profiles PolicySecurityPolicy#profiles}
   */
   readonly profiles?: string[];
   /**
   * List of policy paths where the rule is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
   */
   readonly scope?: string[];
   /**
   * Sequence number of the this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#sequence_number PolicySecurityPolicy#sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#sequence_number PolicySecurityPolicy#sequence_number}
   */
   readonly sequenceNumber?: number;
   /**
   * List of services to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#services PolicySecurityPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#services PolicySecurityPolicy#services}
   */
   readonly services?: string[];
   /**
   * List of source groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#source_groups PolicySecurityPolicy#source_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#source_groups PolicySecurityPolicy#source_groups}
   */
   readonly sourceGroups?: string[];
   /**
   * Negation of source groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#sources_excluded PolicySecurityPolicy#sources_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#sources_excluded PolicySecurityPolicy#sources_excluded}
   */
   readonly sourcesExcluded?: boolean | cdktf.IResolvable;
   /**
   * service_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#service_entries PolicySecurityPolicy#service_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#service_entries PolicySecurityPolicy#service_entries}
   */
   readonly serviceEntries?: PolicySecurityPolicyRuleServiceEntries;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
   */
   readonly tag?: PolicySecurityPolicyRuleTag[] | cdktf.IResolvable;
 }
@@ -2644,11 +2644,11 @@ export class PolicySecurityPolicyRuleList extends cdktf.ComplexList {
 }
 export interface PolicySecurityPolicyTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#scope PolicySecurityPolicy#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#tag PolicySecurityPolicy#tag}
   */
   readonly tag?: string;
 }
@@ -2793,7 +2793,7 @@ export class PolicySecurityPolicyTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy nsxt_policy_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy nsxt_policy_security_policy}
 */
 export class PolicySecurityPolicy extends cdktf.TerraformResource {
 
@@ -2809,7 +2809,7 @@ export class PolicySecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicySecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicySecurityPolicy to import
-  * @param importFromId The id of the existing PolicySecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicySecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicySecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2821,7 +2821,7 @@ export class PolicySecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_security_policy nsxt_policy_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_security_policy nsxt_policy_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2832,8 +2832,8 @@ export class PolicySecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

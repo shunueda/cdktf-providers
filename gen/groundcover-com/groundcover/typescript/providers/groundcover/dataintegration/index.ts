@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataintegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster where the data integration runs. If unspecified, it will run in the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration#cluster Dataintegration#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration#cluster Dataintegration#cluster}
   */
   readonly cluster?: string;
   /**
   * The JSON configuration for the data integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration#config Dataintegration#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration#config Dataintegration#config}
   */
   readonly config: string;
   /**
   * Whether the data integration is paused. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration#is_paused Dataintegration#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration#is_paused Dataintegration#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
   * The type of data integration (e.g., 'cloudwatch', etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration#type Dataintegration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration#type Dataintegration#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration groundcover_dataintegration}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration groundcover_dataintegration}
 */
 export class Dataintegration extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Dataintegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dataintegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dataintegration to import
-  * @param importFromId The id of the existing Dataintegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dataintegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dataintegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Dataintegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/dataintegration groundcover_dataintegration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.1/docs/resources/dataintegration groundcover_dataintegration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Dataintegration extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_dataintegration',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

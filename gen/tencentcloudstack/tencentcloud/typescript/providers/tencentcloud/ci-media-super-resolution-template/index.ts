@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CiMediaSuperResolutionTemplateConfig extends cdktf.TerraformMet
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#bucket CiMediaSuperResolutionTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#bucket CiMediaSuperResolutionTemplate#bucket}
   */
   readonly bucket: string;
   /**
   * Auto scaling switch, off by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#enable_scale_up CiMediaSuperResolutionTemplate#enable_scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#enable_scale_up CiMediaSuperResolutionTemplate#enable_scale_up}
   */
   readonly enableScaleUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#id CiMediaSuperResolutionTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#id CiMediaSuperResolutionTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CiMediaSuperResolutionTemplateConfig extends cdktf.TerraformMet
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#name CiMediaSuperResolutionTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#name CiMediaSuperResolutionTemplate#name}
   */
   readonly name: string;
   /**
   * Resolution Options sdtohd: Standard Definition to Ultra Definition, hdto4k: HD to 4K.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#resolution CiMediaSuperResolutionTemplate#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#resolution CiMediaSuperResolutionTemplate#resolution}
   */
   readonly resolution: string;
   /**
   * version, default value Base, Base: basic version, Enhance: enhanced version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#version CiMediaSuperResolutionTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#version CiMediaSuperResolutionTemplate#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template tencentcloud_ci_media_super_resolution_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template tencentcloud_ci_media_super_resolution_template}
 */
 export class CiMediaSuperResolutionTemplate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CiMediaSuperResolutionTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaSuperResolutionTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaSuperResolutionTemplate to import
-  * @param importFromId The id of the existing CiMediaSuperResolutionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaSuperResolutionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaSuperResolutionTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CiMediaSuperResolutionTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ci_media_super_resolution_template tencentcloud_ci_media_super_resolution_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_super_resolution_template tencentcloud_ci_media_super_resolution_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CiMediaSuperResolutionTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_super_resolution_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

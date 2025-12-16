@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyLbPassiveMonitorProfileConfig extends cdktf.TerraformMeta
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#description PolicyLbPassiveMonitorProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#description PolicyLbPassiveMonitorProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#display_name PolicyLbPassiveMonitorProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#display_name PolicyLbPassiveMonitorProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#id PolicyLbPassiveMonitorProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#id PolicyLbPassiveMonitorProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface PolicyLbPassiveMonitorProfileConfig extends cdktf.TerraformMeta
   /**
   * Number of consecutive failures before a member is considered temporarily unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#max_fails PolicyLbPassiveMonitorProfile#max_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#max_fails PolicyLbPassiveMonitorProfile#max_fails}
   */
   readonly maxFails?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#nsx_id PolicyLbPassiveMonitorProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#nsx_id PolicyLbPassiveMonitorProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * Number of seconds the target has to respond to the monitor request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#timeout PolicyLbPassiveMonitorProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#timeout PolicyLbPassiveMonitorProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#tag PolicyLbPassiveMonitorProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#tag PolicyLbPassiveMonitorProfile#tag}
   */
   readonly tag?: PolicyLbPassiveMonitorProfileTag[] | cdktf.IResolvable;
 }
 export interface PolicyLbPassiveMonitorProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#scope PolicyLbPassiveMonitorProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#scope PolicyLbPassiveMonitorProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#tag PolicyLbPassiveMonitorProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#tag PolicyLbPassiveMonitorProfile#tag}
   */
   readonly tag?: string;
 }
@@ -202,7 +202,7 @@ export class PolicyLbPassiveMonitorProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile nsxt_policy_lb_passive_monitor_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile nsxt_policy_lb_passive_monitor_profile}
 */
 export class PolicyLbPassiveMonitorProfile extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class PolicyLbPassiveMonitorProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbPassiveMonitorProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbPassiveMonitorProfile to import
-  * @param importFromId The id of the existing PolicyLbPassiveMonitorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbPassiveMonitorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbPassiveMonitorProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class PolicyLbPassiveMonitorProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_passive_monitor_profile nsxt_policy_lb_passive_monitor_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_passive_monitor_profile nsxt_policy_lb_passive_monitor_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class PolicyLbPassiveMonitorProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_passive_monitor_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

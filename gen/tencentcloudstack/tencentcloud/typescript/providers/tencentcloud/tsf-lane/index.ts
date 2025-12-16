@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TsfLaneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#id TsfLane#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#id TsfLane#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface TsfLaneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lane name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#lane_name TsfLane#lane_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#lane_name TsfLane#lane_name}
   */
   readonly laneName: string;
   /**
   * Program id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#program_id_list TsfLane#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#program_id_list TsfLane#program_id_list}
   */
   readonly programIdList?: string[];
   /**
   * Lane Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#remark TsfLane#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#remark TsfLane#remark}
   */
   readonly remark: string;
   /**
   * lane_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#lane_group_list TsfLane#lane_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#lane_group_list TsfLane#lane_group_list}
   */
   readonly laneGroupList: TsfLaneLaneGroupListStruct[] | cdktf.IResolvable;
 }
@@ -43,73 +43,73 @@ export interface TsfLaneLaneGroupListStruct {
   /**
   * application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#application_id TsfLane#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#application_id TsfLane#application_id}
   */
   readonly applicationId?: string;
   /**
   * application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#application_name TsfLane#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#application_name TsfLane#application_name}
   */
   readonly applicationName?: string;
   /**
   * cluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#cluster_type TsfLane#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#cluster_type TsfLane#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * creation time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#create_time TsfLane#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#create_time TsfLane#create_time}
   */
   readonly createTime?: number;
   /**
   * Whether to enter the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#entrance TsfLane#entrance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#entrance TsfLane#entrance}
   */
   readonly entrance: boolean | cdktf.IResolvable;
   /**
   * Deployment group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#group_id TsfLane#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#group_id TsfLane#group_id}
   */
   readonly groupId: string;
   /**
   * deployment group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#group_name TsfLane#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#group_name TsfLane#group_name}
   */
   readonly groupName?: string;
   /**
   * Swimlane deployment group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#lane_group_id TsfLane#lane_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#lane_group_id TsfLane#lane_group_id}
   */
   readonly laneGroupId?: string;
   /**
   * Lane ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#lane_id TsfLane#lane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#lane_id TsfLane#lane_id}
   */
   readonly laneId?: string;
   /**
   * Namespace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#namespace_id TsfLane#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#namespace_id TsfLane#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#namespace_name TsfLane#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#namespace_name TsfLane#namespace_name}
   */
   readonly namespaceName?: string;
   /**
   * update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#update_time TsfLane#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#update_time TsfLane#update_time}
   */
   readonly updateTime?: number;
 }
@@ -538,7 +538,7 @@ export class TsfLaneLaneGroupListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane tencentcloud_tsf_lane}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane tencentcloud_tsf_lane}
 */
 export class TsfLane extends cdktf.TerraformResource {
 
@@ -554,7 +554,7 @@ export class TsfLane extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfLane resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfLane to import
-  * @param importFromId The id of the existing TsfLane that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfLane that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfLane to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -566,7 +566,7 @@ export class TsfLane extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_lane tencentcloud_tsf_lane} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_lane tencentcloud_tsf_lane} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -577,8 +577,8 @@ export class TsfLane extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_lane',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.44',
-        providerVersionConstraint: '1.82.44'
+        providerVersion: '1.82.45',
+        providerVersionConstraint: '1.82.45'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

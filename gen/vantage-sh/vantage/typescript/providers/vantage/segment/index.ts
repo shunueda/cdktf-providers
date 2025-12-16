@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the Segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#description Segment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#description Segment#description}
   */
   readonly description?: string;
   /**
   * The filter query language to apply to the Segment. Additional documentation available at https://docs.vantage.sh/vql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#filter Segment#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#filter Segment#filter}
   */
   readonly filter?: string;
   /**
   * The token of the parent Segment this new Segment belongs to. Determines the Workspace the segment is assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#parent_segment_token Segment#parent_segment_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#parent_segment_token Segment#parent_segment_token}
   */
   readonly parentSegmentToken?: string;
   /**
   * The priority of the Segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#priority Segment#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#priority Segment#priority}
   */
   readonly priority?: number;
   /**
   * The title of the Segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#title Segment#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#title Segment#title}
   */
   readonly title: string;
   /**
   * Whether or not to track unallocated resources in this Segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#track_unallocated Segment#track_unallocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#track_unallocated Segment#track_unallocated}
   */
   readonly trackUnallocated?: boolean | cdktf.IResolvable;
   /**
   * Workspace token to add the segment to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#workspace_token Segment#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#workspace_token Segment#workspace_token}
   */
   readonly workspaceToken?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment vantage_segment}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment vantage_segment}
 */
 export class Segment extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Segment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Segment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Segment to import
-  * @param importFromId The id of the existing Segment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Segment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Segment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Segment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.68/docs/resources/segment vantage_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/segment vantage_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Segment extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_segment',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68',
-        providerVersionConstraint: '0.1.68'
+        providerVersion: '0.1.70',
+        providerVersionConstraint: '0.1.70'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

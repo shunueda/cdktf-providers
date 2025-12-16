@@ -1,3 +1,3 @@
 # `latitudesh_ssh_key`
 
-Refer to the Terraform Registry for docs: [`latitudesh_ssh_key`](https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/ssh_key).
+Refer to the Terraform Registry for docs: [`latitudesh_ssh_key`](https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/ssh_key).

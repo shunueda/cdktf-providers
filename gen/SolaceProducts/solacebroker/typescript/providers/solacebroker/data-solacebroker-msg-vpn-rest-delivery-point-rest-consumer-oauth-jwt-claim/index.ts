@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim
+// https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClai
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#msg_vpn_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#msg_vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#msg_vpn_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#msg_vpn_name}
   */
   readonly msgVpnName: string;
   /**
@@ -20,7 +20,7 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClai
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#oauth_jwt_claim_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#oauth_jwt_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#oauth_jwt_claim_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#oauth_jwt_claim_name}
   */
   readonly oauthJwtClaimName: string;
   /**
@@ -28,7 +28,7 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClai
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#rest_consumer_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#rest_consumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#rest_consumer_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#rest_consumer_name}
   */
   readonly restConsumerName: string;
   /**
@@ -36,13 +36,13 @@ export interface DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClai
   * 
   * The minimum access scope/level required to retrieve this attribute is "vpn/read-only".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#rest_delivery_point_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#rest_delivery_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#rest_delivery_point_name DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim#rest_delivery_point_name}
   */
   readonly restDeliveryPointName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim solacebroker_msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim}
+* Represents a {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim solacebroker_msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim}
 */
 export class DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim extends cdktf.TerraformDataSource {
 
@@ -58,7 +58,7 @@ export class DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim ex
   * Generates CDKTF code for importing a DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim to import
-  * @param importFromId The id of the existing DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.2.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim solacebroker_msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/solaceproducts/solacebroker/1.3.0/docs/data-sources/msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim solacebroker_msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class DataSolacebrokerMsgVpnRestDeliveryPointRestConsumerOauthJwtClaim ex
       terraformResourceType: 'solacebroker_msg_vpn_rest_delivery_point_rest_consumer_oauth_jwt_claim',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

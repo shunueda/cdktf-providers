@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PolicyContextProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#display_name PolicyContextProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#display_name PolicyContextProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#id PolicyContextProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#id PolicyContextProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface PolicyContextProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#nsx_id PolicyContextProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#nsx_id PolicyContextProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * app_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#app_id PolicyContextProfile#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#app_id PolicyContextProfile#app_id}
   */
   readonly appId?: PolicyContextProfileAppId[] | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#context PolicyContextProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#context PolicyContextProfile#context}
   */
   readonly context?: PolicyContextProfileContext;
   /**
   * custom_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#custom_url PolicyContextProfile#custom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#custom_url PolicyContextProfile#custom_url}
   */
   readonly customUrl?: PolicyContextProfileCustomUrl;
   /**
   * domain_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#domain_name PolicyContextProfile#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#domain_name PolicyContextProfile#domain_name}
   */
   readonly domainName?: PolicyContextProfileDomainName;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#tag PolicyContextProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#tag PolicyContextProfile#tag}
   */
   readonly tag?: PolicyContextProfileTag[] | cdktf.IResolvable;
   /**
   * url_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#url_category PolicyContextProfile#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#url_category PolicyContextProfile#url_category}
   */
   readonly urlCategory?: PolicyContextProfileUrlCategory;
 }
@@ -73,19 +73,19 @@ export interface PolicyContextProfileAppIdSubAttribute {
   /**
   * Values for sub attribute key cifs_smb_version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#cifs_smb_version PolicyContextProfile#cifs_smb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#cifs_smb_version PolicyContextProfile#cifs_smb_version}
   */
   readonly cifsSmbVersion?: string[];
   /**
   * Values for sub attribute key tls_cipher_suite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#tls_cipher_suite PolicyContextProfile#tls_cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#tls_cipher_suite PolicyContextProfile#tls_cipher_suite}
   */
   readonly tlsCipherSuite?: string[];
   /**
   * Values for sub attribute key tls_version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#tls_version PolicyContextProfile#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#tls_version PolicyContextProfile#tls_version}
   */
   readonly tlsVersion?: string[];
 }
@@ -229,19 +229,19 @@ export interface PolicyContextProfileAppId {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
   */
   readonly description?: string;
   /**
   * Values for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
   */
   readonly value: string[];
   /**
   * sub_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#sub_attribute PolicyContextProfile#sub_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#sub_attribute PolicyContextProfile#sub_attribute}
   */
   readonly subAttribute?: PolicyContextProfileAppIdSubAttribute;
 }
@@ -419,7 +419,7 @@ export interface PolicyContextProfileContext {
   /**
   * Id of the project which the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#project_id PolicyContextProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#project_id PolicyContextProfile#project_id}
   */
   readonly projectId: string;
 }
@@ -502,19 +502,19 @@ export interface PolicyContextProfileCustomUrl {
   /**
   * True value for this flag will be treated as a partial match for custom url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#custom_url_partial_match PolicyContextProfile#custom_url_partial_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#custom_url_partial_match PolicyContextProfile#custom_url_partial_match}
   */
   readonly customUrlPartialMatch?: boolean | cdktf.IResolvable;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
   */
   readonly description?: string;
   /**
   * Values for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
   */
   readonly value: string[];
 }
@@ -655,13 +655,13 @@ export interface PolicyContextProfileDomainName {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
   */
   readonly description?: string;
   /**
   * Values for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
   */
   readonly value: string[];
 }
@@ -771,11 +771,11 @@ export class PolicyContextProfileDomainNameOutputReference extends cdktf.Complex
 }
 export interface PolicyContextProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#scope PolicyContextProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#scope PolicyContextProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#tag PolicyContextProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#tag PolicyContextProfile#tag}
   */
   readonly tag?: string;
 }
@@ -922,13 +922,13 @@ export interface PolicyContextProfileUrlCategory {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#description PolicyContextProfile#description}
   */
   readonly description?: string;
   /**
   * Values for attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#value PolicyContextProfile#value}
   */
   readonly value: string[];
 }
@@ -1038,7 +1038,7 @@ export class PolicyContextProfileUrlCategoryOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile nsxt_policy_context_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile nsxt_policy_context_profile}
 */
 export class PolicyContextProfile extends cdktf.TerraformResource {
 
@@ -1054,7 +1054,7 @@ export class PolicyContextProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyContextProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyContextProfile to import
-  * @param importFromId The id of the existing PolicyContextProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyContextProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyContextProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1066,7 +1066,7 @@ export class PolicyContextProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_context_profile nsxt_policy_context_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_context_profile nsxt_policy_context_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1077,8 +1077,8 @@ export class PolicyContextProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_context_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

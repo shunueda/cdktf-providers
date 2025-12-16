@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PolicyL2VpnSessionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#description PolicyL2VpnSession#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#description PolicyL2VpnSession#description}
   */
   readonly description?: string;
   /**
   * The traffic direction apply to the MSS clamping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#direction PolicyL2VpnSession#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#direction PolicyL2VpnSession#direction}
   */
   readonly direction?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#display_name PolicyL2VpnSession#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#display_name PolicyL2VpnSession#display_name}
   */
   readonly displayName: string;
   /**
   * Enable/Disable IPSec VPN session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#enabled PolicyL2VpnSession#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#enabled PolicyL2VpnSession#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#id PolicyL2VpnSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#id PolicyL2VpnSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,59 +41,59 @@ export interface PolicyL2VpnSessionConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP Address of the local tunnel port. This property only applies in CLIENT mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#local_address PolicyL2VpnSession#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#local_address PolicyL2VpnSession#local_address}
   */
   readonly localAddress?: string;
   /**
   * Maximum amount of data the host will accept in a Tcp segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#max_segment_size PolicyL2VpnSession#max_segment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#max_segment_size PolicyL2VpnSession#max_segment_size}
   */
   readonly maxSegmentSize?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#nsx_id PolicyL2VpnSession#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#nsx_id PolicyL2VpnSession#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * IP Address of the peer tunnel port. This property only applies in CLIENT mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#peer_address PolicyL2VpnSession#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#peer_address PolicyL2VpnSession#peer_address}
   */
   readonly peerAddress?: string;
   /**
   * Encapsulation protocol used by the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#protocol PolicyL2VpnSession#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#protocol PolicyL2VpnSession#protocol}
   */
   readonly protocol?: string;
   /**
   * Policy path for L2 VPN service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#service_path PolicyL2VpnSession#service_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#service_path PolicyL2VpnSession#service_path}
   */
   readonly servicePath: string;
   /**
   * List of transport tunnels(vpn sessions path) for redundancy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#transport_tunnels PolicyL2VpnSession#transport_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#transport_tunnels PolicyL2VpnSession#transport_tunnels}
   */
   readonly transportTunnels: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#tag PolicyL2VpnSession#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#tag PolicyL2VpnSession#tag}
   */
   readonly tag?: PolicyL2VpnSessionTag[] | cdktf.IResolvable;
 }
 export interface PolicyL2VpnSessionTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#scope PolicyL2VpnSession#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#scope PolicyL2VpnSession#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#tag PolicyL2VpnSession#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#tag PolicyL2VpnSession#tag}
   */
   readonly tag?: string;
 }
@@ -238,7 +238,7 @@ export class PolicyL2VpnSessionTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session nsxt_policy_l2_vpn_session}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session nsxt_policy_l2_vpn_session}
 */
 export class PolicyL2VpnSession extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class PolicyL2VpnSession extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyL2VpnSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyL2VpnSession to import
-  * @param importFromId The id of the existing PolicyL2VpnSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyL2VpnSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyL2VpnSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class PolicyL2VpnSession extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_l2_vpn_session nsxt_policy_l2_vpn_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_l2_vpn_session nsxt_policy_l2_vpn_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class PolicyL2VpnSession extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_l2_vpn_session',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

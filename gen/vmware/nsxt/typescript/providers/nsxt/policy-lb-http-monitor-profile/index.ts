@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyLbHttpMonitorProfileConfig extends cdktf.TerraformMetaArg
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#description PolicyLbHttpMonitorProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#description PolicyLbHttpMonitorProfile#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#display_name PolicyLbHttpMonitorProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#display_name PolicyLbHttpMonitorProfile#display_name}
   */
   readonly displayName: string;
   /**
   * Number of consecutive checks that must fail before marking it down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#fall_count PolicyLbHttpMonitorProfile#fall_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#fall_count PolicyLbHttpMonitorProfile#fall_count}
   */
   readonly fallCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#id PolicyLbHttpMonitorProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#id PolicyLbHttpMonitorProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface PolicyLbHttpMonitorProfileConfig extends cdktf.TerraformMetaArg
   /**
   * The frequency at which the system issues the monitor check (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#interval PolicyLbHttpMonitorProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#interval PolicyLbHttpMonitorProfile#interval}
   */
   readonly interval?: number;
   /**
   * If the monitor port is specified, it would override pool member port setting for healthcheck. A port range is not supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#monitor_port PolicyLbHttpMonitorProfile#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#monitor_port PolicyLbHttpMonitorProfile#monitor_port}
   */
   readonly monitorPort?: number;
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#nsx_id PolicyLbHttpMonitorProfile#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#nsx_id PolicyLbHttpMonitorProfile#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * String to send as HTTP health check request body. Valid only for certain HTTP methods like POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#request_body PolicyLbHttpMonitorProfile#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#request_body PolicyLbHttpMonitorProfile#request_body}
   */
   readonly requestBody?: string;
   /**
   * Health check method for HTTP monitor type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#request_method PolicyLbHttpMonitorProfile#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#request_method PolicyLbHttpMonitorProfile#request_method}
   */
   readonly requestMethod?: string;
   /**
   * URL used for HTTP monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#request_url PolicyLbHttpMonitorProfile#request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#request_url PolicyLbHttpMonitorProfile#request_url}
   */
   readonly requestUrl?: string;
   /**
   * HTTP request version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#request_version PolicyLbHttpMonitorProfile#request_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#request_version PolicyLbHttpMonitorProfile#request_version}
   */
   readonly requestVersion?: string;
   /**
   * If HTTP specified, healthcheck HTTP response body is matched against the specified string (regular expressions not supported), and succeeds only if there is a match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#response_body PolicyLbHttpMonitorProfile#response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#response_body PolicyLbHttpMonitorProfile#response_body}
   */
   readonly responseBody?: string;
   /**
   * The HTTP response status code should be a valid HTTP status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#response_status_codes PolicyLbHttpMonitorProfile#response_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#response_status_codes PolicyLbHttpMonitorProfile#response_status_codes}
   */
   readonly responseStatusCodes?: number[];
   /**
   * Number of consecutive checks that must pass before marking it up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#rise_count PolicyLbHttpMonitorProfile#rise_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#rise_count PolicyLbHttpMonitorProfile#rise_count}
   */
   readonly riseCount?: number;
   /**
   * Number of seconds the target has to respond to the monitor request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#timeout PolicyLbHttpMonitorProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#timeout PolicyLbHttpMonitorProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#request_header PolicyLbHttpMonitorProfile#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#request_header PolicyLbHttpMonitorProfile#request_header}
   */
   readonly requestHeader?: PolicyLbHttpMonitorProfileRequestHeader[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#tag PolicyLbHttpMonitorProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#tag PolicyLbHttpMonitorProfile#tag}
   */
   readonly tag?: PolicyLbHttpMonitorProfileTag[] | cdktf.IResolvable;
 }
@@ -115,13 +115,13 @@ export interface PolicyLbHttpMonitorProfileRequestHeader {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#name PolicyLbHttpMonitorProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#name PolicyLbHttpMonitorProfile#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#value PolicyLbHttpMonitorProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#value PolicyLbHttpMonitorProfile#value}
   */
   readonly value: string;
 }
@@ -260,11 +260,11 @@ export class PolicyLbHttpMonitorProfileRequestHeaderList extends cdktf.ComplexLi
 }
 export interface PolicyLbHttpMonitorProfileTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#scope PolicyLbHttpMonitorProfile#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#scope PolicyLbHttpMonitorProfile#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#tag PolicyLbHttpMonitorProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#tag PolicyLbHttpMonitorProfile#tag}
   */
   readonly tag?: string;
 }
@@ -409,7 +409,7 @@ export class PolicyLbHttpMonitorProfileTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile nsxt_policy_lb_http_monitor_profile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile nsxt_policy_lb_http_monitor_profile}
 */
 export class PolicyLbHttpMonitorProfile extends cdktf.TerraformResource {
 
@@ -425,7 +425,7 @@ export class PolicyLbHttpMonitorProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyLbHttpMonitorProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyLbHttpMonitorProfile to import
-  * @param importFromId The id of the existing PolicyLbHttpMonitorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyLbHttpMonitorProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyLbHttpMonitorProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class PolicyLbHttpMonitorProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_lb_http_monitor_profile nsxt_policy_lb_http_monitor_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_lb_http_monitor_profile nsxt_policy_lb_http_monitor_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class PolicyLbHttpMonitorProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_lb_http_monitor_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

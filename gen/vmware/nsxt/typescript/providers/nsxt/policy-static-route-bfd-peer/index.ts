@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer
+// https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PolicyStaticRouteBfdPeerConfig extends cdktf.TerraformMetaArgum
   /**
   * Policy path for BFD Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#bfd_profile_path PolicyStaticRouteBfdPeer#bfd_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#bfd_profile_path PolicyStaticRouteBfdPeer#bfd_profile_path}
   */
   readonly bfdProfilePath: string;
   /**
   * Description for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#description PolicyStaticRouteBfdPeer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#description PolicyStaticRouteBfdPeer#description}
   */
   readonly description?: string;
   /**
   * Display name for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#display_name PolicyStaticRouteBfdPeer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#display_name PolicyStaticRouteBfdPeer#display_name}
   */
   readonly displayName: string;
   /**
   * Flag to enable/disable this peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#enabled PolicyStaticRouteBfdPeer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#enabled PolicyStaticRouteBfdPeer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Policy path for Tier0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#gateway_path PolicyStaticRouteBfdPeer#gateway_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#gateway_path PolicyStaticRouteBfdPeer#gateway_path}
   */
   readonly gatewayPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#id PolicyStaticRouteBfdPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#id PolicyStaticRouteBfdPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,35 +47,35 @@ export interface PolicyStaticRouteBfdPeerConfig extends cdktf.TerraformMetaArgum
   /**
   * NSX ID for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#nsx_id PolicyStaticRouteBfdPeer#nsx_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#nsx_id PolicyStaticRouteBfdPeer#nsx_id}
   */
   readonly nsxId?: string;
   /**
   * IPv4 Address of the peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#peer_address PolicyStaticRouteBfdPeer#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#peer_address PolicyStaticRouteBfdPeer#peer_address}
   */
   readonly peerAddress: string;
   /**
   * Array of Tier0 external interface IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#source_addresses PolicyStaticRouteBfdPeer#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#source_addresses PolicyStaticRouteBfdPeer#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#tag PolicyStaticRouteBfdPeer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#tag PolicyStaticRouteBfdPeer#tag}
   */
   readonly tag?: PolicyStaticRouteBfdPeerTag[] | cdktf.IResolvable;
 }
 export interface PolicyStaticRouteBfdPeerTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#scope PolicyStaticRouteBfdPeer#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#scope PolicyStaticRouteBfdPeer#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#tag PolicyStaticRouteBfdPeer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#tag PolicyStaticRouteBfdPeer#tag}
   */
   readonly tag?: string;
 }
@@ -220,7 +220,7 @@ export class PolicyStaticRouteBfdPeerTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer nsxt_policy_static_route_bfd_peer}
+* Represents a {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer nsxt_policy_static_route_bfd_peer}
 */
 export class PolicyStaticRouteBfdPeer extends cdktf.TerraformResource {
 
@@ -236,7 +236,7 @@ export class PolicyStaticRouteBfdPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyStaticRouteBfdPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyStaticRouteBfdPeer to import
-  * @param importFromId The id of the existing PolicyStaticRouteBfdPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyStaticRouteBfdPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyStaticRouteBfdPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class PolicyStaticRouteBfdPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.10.0/docs/resources/policy_static_route_bfd_peer nsxt_policy_static_route_bfd_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/nsxt/3.11.0/docs/resources/policy_static_route_bfd_peer nsxt_policy_static_route_bfd_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class PolicyStaticRouteBfdPeer extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_static_route_bfd_peer',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0',
-        providerVersionConstraint: '3.10.0'
+        providerVersion: '3.11.0',
+        providerVersionConstraint: '3.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

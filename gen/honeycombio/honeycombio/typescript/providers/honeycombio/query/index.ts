@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query
+// https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface QueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The dataset this Query is associated with. If not set, it will be Environment-wide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query#dataset Query#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query#dataset Query#dataset}
   */
   readonly dataset?: string;
   /**
   * A JSON object describing the query according to the Query Specification. While the JSON can be constructed manually, it is easiest to use the `honeycombio_query_specification` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query#query_json Query#query_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query#query_json Query#query_json}
   */
   readonly queryJson: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query honeycombio_query}
+* Represents a {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query honeycombio_query}
 */
 export class Query extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Query extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Query resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Query to import
-  * @param importFromId The id of the existing Query that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Query that should be imported. Refer to the {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Query to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Query extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.43.0/docs/resources/query honeycombio_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/honeycombio/honeycombio/0.44.0/docs/resources/query honeycombio_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Query extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_query',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.43.0',
-        providerVersionConstraint: '0.43.0'
+        providerVersion: '0.44.0',
+        providerVersionConstraint: '0.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

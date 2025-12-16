@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact
+// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ConnectArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
   * The artifact file for Connect Artifact in JAR or ZIP format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#artifact_file ConnectArtifact#artifact_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#artifact_file ConnectArtifact#artifact_file}
   */
   readonly artifactFile?: string;
   /**
   * Cloud provider where the Connect Artifact archive is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#cloud ConnectArtifact#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#cloud ConnectArtifact#cloud}
   */
   readonly cloud: string;
   /**
   * Archive format of the Connect Artifact. Supported formats are JAR and ZIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#content_format ConnectArtifact#content_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#content_format ConnectArtifact#content_format}
   */
   readonly contentFormat: string;
   /**
   * Description of the Connect Artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#description ConnectArtifact#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#description ConnectArtifact#description}
   */
   readonly description?: string;
   /**
   * The unique name of the Connect Artifact per cloud, environment scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#display_name ConnectArtifact#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#display_name ConnectArtifact#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#id ConnectArtifact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#id ConnectArtifact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface ConnectArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#environment ConnectArtifact#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#environment ConnectArtifact#environment}
   */
   readonly environment: ConnectArtifactEnvironment;
 }
@@ -55,7 +55,7 @@ export interface ConnectArtifactEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#id ConnectArtifact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#id ConnectArtifact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,7 +139,7 @@ export class ConnectArtifactEnvironmentOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact confluent_connect_artifact}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact confluent_connect_artifact}
 */
 export class ConnectArtifact extends cdktf.TerraformResource {
 
@@ -155,7 +155,7 @@ export class ConnectArtifact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectArtifact to import
-  * @param importFromId The id of the existing ConnectArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class ConnectArtifact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/connect_artifact confluent_connect_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connect_artifact confluent_connect_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class ConnectArtifact extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_connect_artifact',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.55.0',
-        providerVersionConstraint: '2.55.0'
+        providerVersion: '2.56.0',
+        providerVersionConstraint: '2.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
