@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginSamlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#config GatewayPluginSaml#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#config GatewayPluginSaml#config}
   */
   readonly config: GatewayPluginSamlConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#control_plane_id GatewayPluginSaml#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#control_plane_id GatewayPluginSaml#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#created_at GatewayPluginSaml#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#created_at GatewayPluginSaml#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#enabled GatewayPluginSaml#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#enabled GatewayPluginSaml#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginSamlConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#instance_name GatewayPluginSaml#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#instance_name GatewayPluginSaml#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#ordering GatewayPluginSaml#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#ordering GatewayPluginSaml#ordering}
   */
   readonly ordering?: GatewayPluginSamlOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#partials GatewayPluginSaml#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#partials GatewayPluginSaml#partials}
   */
   readonly partials?: GatewayPluginSamlPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#protocols GatewayPluginSaml#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#protocols GatewayPluginSaml#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#route GatewayPluginSaml#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#route GatewayPluginSaml#route}
   */
   readonly route?: GatewayPluginSamlRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#service GatewayPluginSaml#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#service GatewayPluginSaml#service}
   */
   readonly service?: GatewayPluginSamlService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#tags GatewayPluginSaml#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#tags GatewayPluginSaml#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#updated_at GatewayPluginSaml#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#updated_at GatewayPluginSaml#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,13 +89,13 @@ export interface GatewayPluginSamlConfigRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#ip GatewayPluginSaml#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#ip GatewayPluginSaml#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#port GatewayPluginSaml#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#port GatewayPluginSaml#port}
   */
   readonly port?: number;
 }
@@ -242,13 +242,13 @@ export interface GatewayPluginSamlConfigRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#host GatewayPluginSaml#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#host GatewayPluginSaml#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#port GatewayPluginSaml#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#port GatewayPluginSaml#port}
   */
   readonly port?: number;
 }
@@ -395,139 +395,139 @@ export interface GatewayPluginSamlConfigRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#cluster_max_redirections GatewayPluginSaml#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#cluster_max_redirections GatewayPluginSaml#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#cluster_nodes GatewayPluginSaml#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#cluster_nodes GatewayPluginSaml#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginSamlConfigRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#connect_timeout GatewayPluginSaml#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#connect_timeout GatewayPluginSaml#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#connection_is_proxied GatewayPluginSaml#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#connection_is_proxied GatewayPluginSaml#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#database GatewayPluginSaml#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#database GatewayPluginSaml#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#host GatewayPluginSaml#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#host GatewayPluginSaml#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#keepalive_backlog GatewayPluginSaml#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#keepalive_backlog GatewayPluginSaml#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#keepalive_pool_size GatewayPluginSaml#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#keepalive_pool_size GatewayPluginSaml#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#password GatewayPluginSaml#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#password GatewayPluginSaml#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#port GatewayPluginSaml#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#port GatewayPluginSaml#port}
   */
   readonly port?: number;
   /**
   * The Redis session key prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#prefix GatewayPluginSaml#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#prefix GatewayPluginSaml#prefix}
   */
   readonly prefix?: string;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#read_timeout GatewayPluginSaml#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#read_timeout GatewayPluginSaml#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#send_timeout GatewayPluginSaml#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#send_timeout GatewayPluginSaml#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#sentinel_master GatewayPluginSaml#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#sentinel_master GatewayPluginSaml#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#sentinel_nodes GatewayPluginSaml#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#sentinel_nodes GatewayPluginSaml#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginSamlConfigRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#sentinel_password GatewayPluginSaml#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#sentinel_password GatewayPluginSaml#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#sentinel_role GatewayPluginSaml#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#sentinel_role GatewayPluginSaml#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#sentinel_username GatewayPluginSaml#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#sentinel_username GatewayPluginSaml#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#server_name GatewayPluginSaml#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#server_name GatewayPluginSaml#server_name}
   */
   readonly serverName?: string;
   /**
   * The Redis unix socket path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#socket GatewayPluginSaml#socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#socket GatewayPluginSaml#socket}
   */
   readonly socket?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#ssl GatewayPluginSaml#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#ssl GatewayPluginSaml#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#ssl_verify GatewayPluginSaml#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#ssl_verify GatewayPluginSaml#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#username GatewayPluginSaml#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#username GatewayPluginSaml#username}
   */
   readonly username?: string;
 }
@@ -1261,241 +1261,241 @@ export interface GatewayPluginSamlConfigA {
   /**
   * An optional string (consumer UUID or username) value to use as an “anonymous” consumer. If not set, a Kong Consumer must exist for the SAML IdP user credentials, mapping the username format to the Kong Consumer username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#anonymous GatewayPluginSaml#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#anonymous GatewayPluginSaml#anonymous}
   */
   readonly anonymous?: string;
   /**
   * A string representing a URL path, such as /path/to/resource. Must start with a forward slash (/) and must not contain empty segments (i.e., two consecutive forward slashes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#assertion_consumer_path GatewayPluginSaml#assertion_consumer_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#assertion_consumer_path GatewayPluginSaml#assertion_consumer_path}
   */
   readonly assertionConsumerPath: string;
   /**
   * The public certificate provided by the IdP. This is used to validate responses from the IdP.  Only include the contents of the certificate. Do not include the header (`BEGIN CERTIFICATE`) and footer (`END CERTIFICATE`) lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#idp_certificate GatewayPluginSaml#idp_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#idp_certificate GatewayPluginSaml#idp_certificate}
   */
   readonly idpCertificate?: string;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#idp_sso_url GatewayPluginSaml#idp_sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#idp_sso_url GatewayPluginSaml#idp_sso_url}
   */
   readonly idpSsoUrl: string;
   /**
   * The unique identifier of the IdP application. Formatted as a URL containing information about the IdP so the SP can validate that the SAML assertions it receives are issued from the correct IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#issuer GatewayPluginSaml#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#issuer GatewayPluginSaml#issuer}
   */
   readonly issuer: string;
   /**
   * The requested `NameId` format. Options available are: - `Unspecified` - `EmailAddress` - `Persistent` - `Transient`. Default: "EmailAddress"; must be one of ["EmailAddress", "Persistent", "Transient", "Unspecified"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#nameid_format GatewayPluginSaml#nameid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#nameid_format GatewayPluginSaml#nameid_format}
   */
   readonly nameidFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#redis GatewayPluginSaml#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#redis GatewayPluginSaml#redis}
   */
   readonly redis?: GatewayPluginSamlConfigRedis;
   /**
   * The digest algorithm for Authn requests: - `SHA256` - `SHA1`. Default: "SHA256"; must be one of ["SHA1", "SHA256"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#request_digest_algorithm GatewayPluginSaml#request_digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#request_digest_algorithm GatewayPluginSaml#request_digest_algorithm}
   */
   readonly requestDigestAlgorithm?: string;
   /**
   * The signature algorithm for signing Authn requests. Options available are: - `SHA256` - `SHA384` - `SHA512`. Default: "SHA256"; must be one of ["SHA256", "SHA384", "SHA512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#request_signature_algorithm GatewayPluginSaml#request_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#request_signature_algorithm GatewayPluginSaml#request_signature_algorithm}
   */
   readonly requestSignatureAlgorithm?: string;
   /**
   * The certificate for signing requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#request_signing_certificate GatewayPluginSaml#request_signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#request_signing_certificate GatewayPluginSaml#request_signing_certificate}
   */
   readonly requestSigningCertificate?: string;
   /**
   * The private key for signing requests.  If this parameter is set, requests sent to the IdP are signed.  The `request_signing_certificate` parameter must be set as well.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#request_signing_key GatewayPluginSaml#request_signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#request_signing_key GatewayPluginSaml#request_signing_key}
   */
   readonly requestSigningKey?: string;
   /**
   * The algorithm for verifying digest in SAML responses: - `SHA256` - `SHA1`. Default: "SHA256"; must be one of ["SHA1", "SHA256"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#response_digest_algorithm GatewayPluginSaml#response_digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#response_digest_algorithm GatewayPluginSaml#response_digest_algorithm}
   */
   readonly responseDigestAlgorithm?: string;
   /**
   * The private encryption key required to decrypt encrypted assertions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#response_encryption_key GatewayPluginSaml#response_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#response_encryption_key GatewayPluginSaml#response_encryption_key}
   */
   readonly responseEncryptionKey?: string;
   /**
   * The algorithm for validating signatures in SAML responses. Options available are: - `SHA256` - `SHA384` - `SHA512`. Default: "SHA256"; must be one of ["SHA256", "SHA384", "SHA512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#response_signature_algorithm GatewayPluginSaml#response_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#response_signature_algorithm GatewayPluginSaml#response_signature_algorithm}
   */
   readonly responseSignatureAlgorithm?: string;
   /**
   * The session cookie absolute timeout in seconds. Specifies how long the session can be used until it is no longer valid. Default: 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_absolute_timeout GatewayPluginSaml#session_absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_absolute_timeout GatewayPluginSaml#session_absolute_timeout}
   */
   readonly sessionAbsoluteTimeout?: number;
   /**
   * The session audience, for example "my-application". Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_audience GatewayPluginSaml#session_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_audience GatewayPluginSaml#session_audience}
   */
   readonly sessionAudience?: string;
   /**
   * The session cookie domain flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_cookie_domain GatewayPluginSaml#session_cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_cookie_domain GatewayPluginSaml#session_cookie_domain}
   */
   readonly sessionCookieDomain?: string;
   /**
   * Forbids JavaScript from accessing the cookie, for example, through the `Document.cookie` property. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_cookie_http_only GatewayPluginSaml#session_cookie_http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_cookie_http_only GatewayPluginSaml#session_cookie_http_only}
   */
   readonly sessionCookieHttpOnly?: boolean | cdktf.IResolvable;
   /**
   * The session cookie name. Default: "session"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_cookie_name GatewayPluginSaml#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_cookie_name GatewayPluginSaml#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
   * A string representing a URL path, such as /path/to/resource. Must start with a forward slash (/) and must not contain empty segments (i.e., two consecutive forward slashes). Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_cookie_path GatewayPluginSaml#session_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_cookie_path GatewayPluginSaml#session_cookie_path}
   */
   readonly sessionCookiePath?: string;
   /**
   * Controls whether a cookie is sent with cross-origin requests, providing some protection against cross-site request forgery attacks. Default: "Lax"; must be one of ["Default", "Lax", "None", "Strict"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_cookie_same_site GatewayPluginSaml#session_cookie_same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_cookie_same_site GatewayPluginSaml#session_cookie_same_site}
   */
   readonly sessionCookieSameSite?: string;
   /**
   * The cookie is only sent to the server when a request is made with the https:scheme (except on localhost), and therefore is more resistant to man-in-the-middle attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_cookie_secure GatewayPluginSaml#session_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_cookie_secure GatewayPluginSaml#session_cookie_secure}
   */
   readonly sessionCookieSecure?: boolean | cdktf.IResolvable;
   /**
   * When set to `true`, audiences are forced to share the same subject. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_enforce_same_subject GatewayPluginSaml#session_enforce_same_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_enforce_same_subject GatewayPluginSaml#session_enforce_same_subject}
   */
   readonly sessionEnforceSameSubject?: boolean | cdktf.IResolvable;
   /**
   * When set to `true`, the storage key (session ID) is hashed for extra security. Hashing the storage key means it is impossible to decrypt data from the storage without a cookie. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_hash_storage_key GatewayPluginSaml#session_hash_storage_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_hash_storage_key GatewayPluginSaml#session_hash_storage_key}
   */
   readonly sessionHashStorageKey?: boolean | cdktf.IResolvable;
   /**
   * When set to `true`, the value of subject is hashed before being stored. Only applies when `session_store_metadata` is enabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_hash_subject GatewayPluginSaml#session_hash_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_hash_subject GatewayPluginSaml#session_hash_subject}
   */
   readonly sessionHashSubject?: boolean | cdktf.IResolvable;
   /**
   * The session cookie idle time in seconds. Default: 900
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_idling_timeout GatewayPluginSaml#session_idling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_idling_timeout GatewayPluginSaml#session_idling_timeout}
   */
   readonly sessionIdlingTimeout?: number;
   /**
   * The memcached host. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_memcached_host GatewayPluginSaml#session_memcached_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_memcached_host GatewayPluginSaml#session_memcached_host}
   */
   readonly sessionMemcachedHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 11211
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_memcached_port GatewayPluginSaml#session_memcached_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_memcached_port GatewayPluginSaml#session_memcached_port}
   */
   readonly sessionMemcachedPort?: number;
   /**
   * The memcached session key prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_memcached_prefix GatewayPluginSaml#session_memcached_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_memcached_prefix GatewayPluginSaml#session_memcached_prefix}
   */
   readonly sessionMemcachedPrefix?: string;
   /**
   * The memcached unix socket path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_memcached_socket GatewayPluginSaml#session_memcached_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_memcached_socket GatewayPluginSaml#session_memcached_socket}
   */
   readonly sessionMemcachedSocket?: string;
   /**
   * Enables or disables persistent sessions. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_remember GatewayPluginSaml#session_remember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_remember GatewayPluginSaml#session_remember}
   */
   readonly sessionRemember?: boolean | cdktf.IResolvable;
   /**
   * Persistent session absolute timeout in seconds. Default: 2592000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_remember_absolute_timeout GatewayPluginSaml#session_remember_absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_remember_absolute_timeout GatewayPluginSaml#session_remember_absolute_timeout}
   */
   readonly sessionRememberAbsoluteTimeout?: number;
   /**
   * Persistent session cookie name. Default: "remember"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_remember_cookie_name GatewayPluginSaml#session_remember_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_remember_cookie_name GatewayPluginSaml#session_remember_cookie_name}
   */
   readonly sessionRememberCookieName?: string;
   /**
   * Persistent session rolling timeout in seconds. Default: 604800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_remember_rolling_timeout GatewayPluginSaml#session_remember_rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_remember_rolling_timeout GatewayPluginSaml#session_remember_rolling_timeout}
   */
   readonly sessionRememberRollingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_request_headers GatewayPluginSaml#session_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_request_headers GatewayPluginSaml#session_request_headers}
   */
   readonly sessionRequestHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_response_headers GatewayPluginSaml#session_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_response_headers GatewayPluginSaml#session_response_headers}
   */
   readonly sessionResponseHeaders?: string[];
   /**
   * The session cookie absolute timeout in seconds. Specifies how long the session can be used until it is no longer valid. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_rolling_timeout GatewayPluginSaml#session_rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_rolling_timeout GatewayPluginSaml#session_rolling_timeout}
   */
   readonly sessionRollingTimeout?: number;
   /**
   * The session secret. This must be a random string of 32 characters from the base64 alphabet (letters, numbers, `/`, `_` and `+`). It is used as the secret key for encrypting session data as well as state information that is sent to the IdP in the authentication exchange.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_secret GatewayPluginSaml#session_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_secret GatewayPluginSaml#session_secret}
   */
   readonly sessionSecret: string;
   /**
   * The session storage for session data: - `cookie`: stores session data with the session cookie. The session cannot be invalidated or revoked without changing the session secret, but is stateless, and doesn't require a database. - `memcached`: stores session data in memcached - `redis`: stores session data in Redis. Default: "cookie"; must be one of ["cookie", "memcache", "memcached", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_storage GatewayPluginSaml#session_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_storage GatewayPluginSaml#session_storage}
   */
   readonly sessionStorage?: string;
   /**
   * Configures whether or not session metadata should be stored. This includes information about the active sessions for the `specific_audience` belonging to a specific subject. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#session_store_metadata GatewayPluginSaml#session_store_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#session_store_metadata GatewayPluginSaml#session_store_metadata}
   */
   readonly sessionStoreMetadata?: boolean | cdktf.IResolvable;
   /**
   * Enable signature validation for SAML responses. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#validate_assertion_signature GatewayPluginSaml#validate_assertion_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#validate_assertion_signature GatewayPluginSaml#validate_assertion_signature}
   */
   readonly validateAssertionSignature?: boolean | cdktf.IResolvable;
 }
@@ -2737,7 +2737,7 @@ export class GatewayPluginSamlConfigAOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginSamlOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#access GatewayPluginSaml#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#access GatewayPluginSaml#access}
   */
   readonly access?: string[];
 }
@@ -2831,7 +2831,7 @@ export class GatewayPluginSamlOrderingAfterOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginSamlOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#access GatewayPluginSaml#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#access GatewayPluginSaml#access}
   */
   readonly access?: string[];
 }
@@ -2925,11 +2925,11 @@ export class GatewayPluginSamlOrderingBeforeOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginSamlOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#after GatewayPluginSaml#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#after GatewayPluginSaml#after}
   */
   readonly after?: GatewayPluginSamlOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#before GatewayPluginSaml#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#before GatewayPluginSaml#before}
   */
   readonly before?: GatewayPluginSamlOrderingBefore;
 }
@@ -3054,7 +3054,7 @@ export interface GatewayPluginSamlPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3063,11 +3063,11 @@ export interface GatewayPluginSamlPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#name GatewayPluginSaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#name GatewayPluginSaml#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#path GatewayPluginSaml#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#path GatewayPluginSaml#path}
   */
   readonly path?: string;
 }
@@ -3241,7 +3241,7 @@ export class GatewayPluginSamlPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginSamlRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3338,7 +3338,7 @@ export class GatewayPluginSamlRouteOutputReference extends cdktf.ComplexObject {
 }
 export interface GatewayPluginSamlService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#id GatewayPluginSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3435,7 +3435,7 @@ export class GatewayPluginSamlServiceOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml konnect_gateway_plugin_saml}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml konnect_gateway_plugin_saml}
 */
 export class GatewayPluginSaml extends cdktf.TerraformResource {
 
@@ -3451,7 +3451,7 @@ export class GatewayPluginSaml extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginSaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginSaml to import
-  * @param importFromId The id of the existing GatewayPluginSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginSaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3463,7 +3463,7 @@ export class GatewayPluginSaml extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_saml konnect_gateway_plugin_saml} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_saml konnect_gateway_plugin_saml} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3474,8 +3474,8 @@ export class GatewayPluginSaml extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_saml',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

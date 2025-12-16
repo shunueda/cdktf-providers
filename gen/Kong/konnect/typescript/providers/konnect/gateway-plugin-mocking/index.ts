@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginMockingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#config GatewayPluginMocking#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#config GatewayPluginMocking#config}
   */
   readonly config?: GatewayPluginMockingConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#consumer GatewayPluginMocking#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#consumer GatewayPluginMocking#consumer}
   */
   readonly consumer?: GatewayPluginMockingConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#control_plane_id GatewayPluginMocking#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#control_plane_id GatewayPluginMocking#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#created_at GatewayPluginMocking#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#created_at GatewayPluginMocking#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#enabled GatewayPluginMocking#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#enabled GatewayPluginMocking#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginMockingConfig extends cdktf.TerraformMetaArguments
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#instance_name GatewayPluginMocking#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#instance_name GatewayPluginMocking#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#ordering GatewayPluginMocking#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#ordering GatewayPluginMocking#ordering}
   */
   readonly ordering?: GatewayPluginMockingOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#partials GatewayPluginMocking#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#partials GatewayPluginMocking#partials}
   */
   readonly partials?: GatewayPluginMockingPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#protocols GatewayPluginMocking#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#protocols GatewayPluginMocking#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#route GatewayPluginMocking#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#route GatewayPluginMocking#route}
   */
   readonly route?: GatewayPluginMockingRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#service GatewayPluginMocking#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#service GatewayPluginMocking#service}
   */
   readonly service?: GatewayPluginMockingService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#tags GatewayPluginMocking#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#tags GatewayPluginMocking#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#updated_at GatewayPluginMocking#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#updated_at GatewayPluginMocking#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,61 +95,61 @@ export interface GatewayPluginMockingConfigA {
   /**
   * The contents of the specification file. You must use this option for hybrid or DB-less mode. You can include the full specification as part of the configuration. In Kong Manager, you can copy and paste the contents of the spec directly into the `Config.Api Specification` text field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#api_specification GatewayPluginMocking#api_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#api_specification GatewayPluginMocking#api_specification}
   */
   readonly apiSpecification?: string;
   /**
   * The path and name of the specification file loaded into Kong Gateway's database. You cannot use this option for DB-less or hybrid mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#api_specification_filename GatewayPluginMocking#api_specification_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#api_specification_filename GatewayPluginMocking#api_specification_filename}
   */
   readonly apiSpecificationFilename?: string;
   /**
   * The base path to be used for path match evaluation. This value is ignored if `include_base_path` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#custom_base_path GatewayPluginMocking#custom_base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#custom_base_path GatewayPluginMocking#custom_base_path}
   */
   readonly customBasePath?: string;
   /**
   * Indicates whether to include the base path when performing path match evaluation. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#include_base_path GatewayPluginMocking#include_base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#include_base_path GatewayPluginMocking#include_base_path}
   */
   readonly includeBasePath?: boolean | cdktf.IResolvable;
   /**
   * A global list of the HTTP status codes that can only be selected and returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#included_status_codes GatewayPluginMocking#included_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#included_status_codes GatewayPluginMocking#included_status_codes}
   */
   readonly includedStatusCodes?: number[];
   /**
   * The maximum value in seconds of delay time. Set this value when `random_delay` is enabled and you want to adjust the default. The value must be greater than the `min_delay_time`. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#max_delay_time GatewayPluginMocking#max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#max_delay_time GatewayPluginMocking#max_delay_time}
   */
   readonly maxDelayTime?: number;
   /**
   * The minimum value in seconds of delay time. Set this value when `random_delay` is enabled and you want to adjust the default. The value must be less than the `max_delay_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#min_delay_time GatewayPluginMocking#min_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#min_delay_time GatewayPluginMocking#min_delay_time}
   */
   readonly minDelayTime?: number;
   /**
   * Enables a random delay in the mocked response. Introduces delays to simulate real-time response times by APIs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#random_delay GatewayPluginMocking#random_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#random_delay GatewayPluginMocking#random_delay}
   */
   readonly randomDelay?: boolean | cdktf.IResolvable;
   /**
   * Randomly selects one example and returns it. This parameter requires the spec to have multiple examples configured. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#random_examples GatewayPluginMocking#random_examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#random_examples GatewayPluginMocking#random_examples}
   */
   readonly randomExamples?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to randomly select an HTTP status code from the responses of the corresponding API method. The default value is `false`, which means the minimum HTTP status code is always selected and returned. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#random_status_code GatewayPluginMocking#random_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#random_status_code GatewayPluginMocking#random_status_code}
   */
   readonly randomStatusCode?: boolean | cdktf.IResolvable;
 }
@@ -504,7 +504,7 @@ export class GatewayPluginMockingConfigAOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginMockingConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -601,7 +601,7 @@ export class GatewayPluginMockingConsumerOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginMockingOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#access GatewayPluginMocking#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#access GatewayPluginMocking#access}
   */
   readonly access?: string[];
 }
@@ -695,7 +695,7 @@ export class GatewayPluginMockingOrderingAfterOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginMockingOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#access GatewayPluginMocking#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#access GatewayPluginMocking#access}
   */
   readonly access?: string[];
 }
@@ -789,11 +789,11 @@ export class GatewayPluginMockingOrderingBeforeOutputReference extends cdktf.Com
 }
 export interface GatewayPluginMockingOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#after GatewayPluginMocking#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#after GatewayPluginMocking#after}
   */
   readonly after?: GatewayPluginMockingOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#before GatewayPluginMocking#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#before GatewayPluginMocking#before}
   */
   readonly before?: GatewayPluginMockingOrderingBefore;
 }
@@ -918,7 +918,7 @@ export interface GatewayPluginMockingPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -927,11 +927,11 @@ export interface GatewayPluginMockingPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#name GatewayPluginMocking#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#name GatewayPluginMocking#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#path GatewayPluginMocking#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#path GatewayPluginMocking#path}
   */
   readonly path?: string;
 }
@@ -1105,7 +1105,7 @@ export class GatewayPluginMockingPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginMockingRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1202,7 +1202,7 @@ export class GatewayPluginMockingRouteOutputReference extends cdktf.ComplexObjec
 }
 export interface GatewayPluginMockingService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#id GatewayPluginMocking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1299,7 +1299,7 @@ export class GatewayPluginMockingServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking konnect_gateway_plugin_mocking}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking konnect_gateway_plugin_mocking}
 */
 export class GatewayPluginMocking extends cdktf.TerraformResource {
 
@@ -1315,7 +1315,7 @@ export class GatewayPluginMocking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginMocking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginMocking to import
-  * @param importFromId The id of the existing GatewayPluginMocking that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginMocking that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginMocking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1327,7 +1327,7 @@ export class GatewayPluginMocking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mocking konnect_gateway_plugin_mocking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mocking konnect_gateway_plugin_mocking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1338,8 +1338,8 @@ export class GatewayPluginMocking extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_mocking',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

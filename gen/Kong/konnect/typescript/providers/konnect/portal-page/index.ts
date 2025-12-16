@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PortalPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The renderable markdown content of a page in a portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#content PortalPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#content PortalPage#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#description PortalPage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#description PortalPage#description}
   */
   readonly description?: string;
   /**
@@ -22,13 +22,13 @@ export interface PortalPageConfig extends cdktf.TerraformMetaArguments {
   * 
   * Specify the `id` of another page as the `parent_page_id` to add some hierarchy to your pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#parent_page_id PortalPage#parent_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#parent_page_id PortalPage#parent_page_id}
   */
   readonly parentPageId?: string;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#portal_id PortalPage#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#portal_id PortalPage#portal_id}
   */
   readonly portalId: string;
   /**
@@ -37,19 +37,19 @@ export interface PortalPageConfig extends cdktf.TerraformMetaArguments {
   * For example, if a parent page has the slug `slug1` and this page’s slug is `slug2`, the resulting path will be `/slug1/slug2`. 
   * This enables nested page structures like `/slug1/slug2/slug3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#slug PortalPage#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#slug PortalPage#slug}
   */
   readonly slug: string;
   /**
   * Whether the resource is visible on a given portal. Defaults to unpublished. must be one of ["published", "unpublished"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#status PortalPage#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#status PortalPage#status}
   */
   readonly status?: string;
   /**
   * The title of a page in a portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#title PortalPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#title PortalPage#title}
   */
   readonly title?: string;
   /**
@@ -57,13 +57,13 @@ export interface PortalPageConfig extends cdktf.TerraformMetaArguments {
   * If not provided, the default_page_visibility value of the portal will be used.
   * must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#visibility PortalPage#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#visibility PortalPage#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page konnect_portal_page}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page konnect_portal_page}
 */
 export class PortalPage extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class PortalPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalPage to import
-  * @param importFromId The id of the existing PortalPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class PortalPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_page konnect_portal_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_page konnect_portal_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class PortalPage extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_page',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

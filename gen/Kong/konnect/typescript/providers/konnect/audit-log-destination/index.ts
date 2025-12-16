@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AuditLogDestinationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The value to include in the `Authorization` header when sending audit logs to the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination#authorization AuditLogDestination#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination#authorization AuditLogDestination#authorization}
   */
   readonly authorization?: string;
   /**
   * The endpoint that will receive audit log messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination#endpoint AuditLogDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination#endpoint AuditLogDestination#endpoint}
   */
   readonly endpoint: string;
   /**
   * The output format of each log messages. Default: "cef"; must be one of ["cef", "json", "cps"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination#log_format AuditLogDestination#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination#log_format AuditLogDestination#log_format}
   */
   readonly logFormat?: string;
   /**
   * The name of the audit log destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination#name AuditLogDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination#name AuditLogDestination#name}
   */
   readonly name: string;
   /**
@@ -37,13 +37,13 @@ export interface AuditLogDestinationConfig extends cdktf.TerraformMetaArguments 
   * This option should be considered only for self-signed SSL certificates used in a non-production environment.
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination#skip_ssl_verification AuditLogDestination#skip_ssl_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination#skip_ssl_verification AuditLogDestination#skip_ssl_verification}
   */
   readonly skipSslVerification?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination konnect_audit_log_destination}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination konnect_audit_log_destination}
 */
 export class AuditLogDestination extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class AuditLogDestination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuditLogDestination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditLogDestination to import
-  * @param importFromId The id of the existing AuditLogDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditLogDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditLogDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class AuditLogDestination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log_destination konnect_audit_log_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log_destination konnect_audit_log_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class AuditLogDestination extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_audit_log_destination',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

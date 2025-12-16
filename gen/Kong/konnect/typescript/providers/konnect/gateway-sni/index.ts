@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GatewaySniConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id (a UUID) of the certificate with which to associate the SNI hostname. The Certificate must have a valid private key associated with it to be used by the SNI object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#certificate GatewaySni#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#certificate GatewaySni#certificate}
   */
   readonly certificate: GatewaySniCertificate;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#control_plane_id GatewaySni#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#control_plane_id GatewaySni#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#created_at GatewaySni#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#created_at GatewaySni#created_at}
   */
   readonly createdAt?: number;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#id GatewaySni#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#id GatewaySni#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,25 +37,25 @@ export interface GatewaySniConfig extends cdktf.TerraformMetaArguments {
   /**
   * The SNI name to associate with the given certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#name GatewaySni#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#name GatewaySni#name}
   */
   readonly name: string;
   /**
   * An optional set of strings associated with the SNIs for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#tags GatewaySni#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#tags GatewaySni#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#updated_at GatewaySni#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#updated_at GatewaySni#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewaySniCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#id GatewaySni#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#id GatewaySni#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -152,7 +152,7 @@ export class GatewaySniCertificateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni konnect_gateway_sni}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni konnect_gateway_sni}
 */
 export class GatewaySni extends cdktf.TerraformResource {
 
@@ -168,7 +168,7 @@ export class GatewaySni extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewaySni resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewaySni to import
-  * @param importFromId The id of the existing GatewaySni that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewaySni that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewaySni to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -180,7 +180,7 @@ export class GatewaySni extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_sni konnect_gateway_sni} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_sni konnect_gateway_sni} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -191,8 +191,8 @@ export class GatewaySni extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_sni',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

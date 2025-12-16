@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GatewayCustomPluginStreamingConfig extends cdktf.TerraformMetaA
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#control_plane_id GatewayCustomPluginStreaming#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#control_plane_id GatewayCustomPluginStreaming#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#created_at GatewayCustomPluginStreaming#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#created_at GatewayCustomPluginStreaming#created_at}
   */
   readonly createdAt?: number;
   /**
   * The handler for the given custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#handler GatewayCustomPluginStreaming#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#handler GatewayCustomPluginStreaming#handler}
   */
   readonly handler: string;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#id GatewayCustomPluginStreaming#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#id GatewayCustomPluginStreaming#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,31 +37,31 @@ export interface GatewayCustomPluginStreamingConfig extends cdktf.TerraformMetaA
   /**
   * The name to associate with the given custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#name GatewayCustomPluginStreaming#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#name GatewayCustomPluginStreaming#name}
   */
   readonly name: string;
   /**
   * The schema for the given custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#schema GatewayCustomPluginStreaming#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#schema GatewayCustomPluginStreaming#schema}
   */
   readonly schema: string;
   /**
   * A set of strings representing tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#tags GatewayCustomPluginStreaming#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#tags GatewayCustomPluginStreaming#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#updated_at GatewayCustomPluginStreaming#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#updated_at GatewayCustomPluginStreaming#updated_at}
   */
   readonly updatedAt?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming konnect_gateway_custom_plugin_streaming}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming konnect_gateway_custom_plugin_streaming}
 */
 export class GatewayCustomPluginStreaming extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class GatewayCustomPluginStreaming extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayCustomPluginStreaming resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayCustomPluginStreaming to import
-  * @param importFromId The id of the existing GatewayCustomPluginStreaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayCustomPluginStreaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayCustomPluginStreaming to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class GatewayCustomPluginStreaming extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin_streaming konnect_gateway_custom_plugin_streaming} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin_streaming konnect_gateway_custom_plugin_streaming} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class GatewayCustomPluginStreaming extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_custom_plugin_streaming',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

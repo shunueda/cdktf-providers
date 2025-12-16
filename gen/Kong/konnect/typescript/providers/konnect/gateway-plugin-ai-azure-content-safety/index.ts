@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiAzureContentSafetyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#config GatewayPluginAiAzureContentSafety#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#config GatewayPluginAiAzureContentSafety#config}
   */
   readonly config: GatewayPluginAiAzureContentSafetyConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#control_plane_id GatewayPluginAiAzureContentSafety#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#control_plane_id GatewayPluginAiAzureContentSafety#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#created_at GatewayPluginAiAzureContentSafety#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#created_at GatewayPluginAiAzureContentSafety#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#enabled GatewayPluginAiAzureContentSafety#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#enabled GatewayPluginAiAzureContentSafety#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginAiAzureContentSafetyConfig extends cdktf.Terraform
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#instance_name GatewayPluginAiAzureContentSafety#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#instance_name GatewayPluginAiAzureContentSafety#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#ordering GatewayPluginAiAzureContentSafety#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#ordering GatewayPluginAiAzureContentSafety#ordering}
   */
   readonly ordering?: GatewayPluginAiAzureContentSafetyOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#partials GatewayPluginAiAzureContentSafety#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#partials GatewayPluginAiAzureContentSafety#partials}
   */
   readonly partials?: GatewayPluginAiAzureContentSafetyPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#protocols GatewayPluginAiAzureContentSafety#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#protocols GatewayPluginAiAzureContentSafety#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#route GatewayPluginAiAzureContentSafety#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#route GatewayPluginAiAzureContentSafety#route}
   */
   readonly route?: GatewayPluginAiAzureContentSafetyRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#service GatewayPluginAiAzureContentSafety#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#service GatewayPluginAiAzureContentSafety#service}
   */
   readonly service?: GatewayPluginAiAzureContentSafetyService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#tags GatewayPluginAiAzureContentSafety#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#tags GatewayPluginAiAzureContentSafety#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#updated_at GatewayPluginAiAzureContentSafety#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#updated_at GatewayPluginAiAzureContentSafety#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,13 +89,13 @@ export interface GatewayPluginAiAzureContentSafetyConfigCategories {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#name GatewayPluginAiAzureContentSafety#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#name GatewayPluginAiAzureContentSafety#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#rejection_level GatewayPluginAiAzureContentSafety#rejection_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#rejection_level GatewayPluginAiAzureContentSafety#rejection_level}
   */
   readonly rejectionLevel?: number;
 }
@@ -242,97 +242,97 @@ export interface GatewayPluginAiAzureContentSafetyConfigA {
   /**
   * Sets the ?api-version URL parameter, used for defining the Azure Content Services interchange format. Default: "2023-10-01"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#azure_api_version GatewayPluginAiAzureContentSafety#azure_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#azure_api_version GatewayPluginAiAzureContentSafety#azure_api_version}
   */
   readonly azureApiVersion?: string;
   /**
   * If `azure_use_managed_identity` is true, set the client ID if required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#azure_client_id GatewayPluginAiAzureContentSafety#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#azure_client_id GatewayPluginAiAzureContentSafety#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * If `azure_use_managed_identity` is true, set the client secret if required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#azure_client_secret GatewayPluginAiAzureContentSafety#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#azure_client_secret GatewayPluginAiAzureContentSafety#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * If `azure_use_managed_identity` is true, set the tenant ID if required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#azure_tenant_id GatewayPluginAiAzureContentSafety#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#azure_tenant_id GatewayPluginAiAzureContentSafety#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * If checked, uses (if set) `azure_client_id`, `azure_client_secret`, and/or `azure_tenant_id` for Azure authentication, via Managed or User-assigned identity. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#azure_use_managed_identity GatewayPluginAiAzureContentSafety#azure_use_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#azure_use_managed_identity GatewayPluginAiAzureContentSafety#azure_use_managed_identity}
   */
   readonly azureUseManagedIdentity?: boolean | cdktf.IResolvable;
   /**
   * Use these configured blocklists (in Azure Content Services) when inspecting content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#blocklist_names GatewayPluginAiAzureContentSafety#blocklist_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#blocklist_names GatewayPluginAiAzureContentSafety#blocklist_names}
   */
   readonly blocklistNames?: string[];
   /**
   * Array of categories, and their thresholds, to measure on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#categories GatewayPluginAiAzureContentSafety#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#categories GatewayPluginAiAzureContentSafety#categories}
   */
   readonly categories?: GatewayPluginAiAzureContentSafetyConfigCategories[] | cdktf.IResolvable;
   /**
   * If `azure_use_managed_identity` is true, set the API key to call Content Safety.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#content_safety_key GatewayPluginAiAzureContentSafety#content_safety_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#content_safety_key GatewayPluginAiAzureContentSafety#content_safety_key}
   */
   readonly contentSafetyKey?: string;
   /**
   * Full URL, inc protocol, of the Azure Content Safety instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#content_safety_url GatewayPluginAiAzureContentSafety#content_safety_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#content_safety_url GatewayPluginAiAzureContentSafety#content_safety_url}
   */
   readonly contentSafetyUrl: string;
   /**
   * The guard mode to use for the request. Default: "INPUT"; must be one of ["BOTH", "INPUT", "OUTPUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#guarding_mode GatewayPluginAiAzureContentSafety#guarding_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#guarding_mode GatewayPluginAiAzureContentSafety#guarding_mode}
   */
   readonly guardingMode?: string;
   /**
   * Tells Azure to reject the request if any blocklist filter is hit. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#halt_on_blocklist_hit GatewayPluginAiAzureContentSafety#halt_on_blocklist_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#halt_on_blocklist_hit GatewayPluginAiAzureContentSafety#halt_on_blocklist_hit}
   */
   readonly haltOnBlocklistHit?: boolean | cdktf.IResolvable;
   /**
   * See https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter#content-filtering-categories. Default: "FourSeverityLevels"; must be one of ["EightSeverityLevels", "FourSeverityLevels"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#output_type GatewayPluginAiAzureContentSafety#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#output_type GatewayPluginAiAzureContentSafety#output_type}
   */
   readonly outputType?: string;
   /**
   * The amount of bytes receiving from upstream to be buffered before sending to the guardrails service. This only applies to the response content guard. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#response_buffer_size GatewayPluginAiAzureContentSafety#response_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#response_buffer_size GatewayPluginAiAzureContentSafety#response_buffer_size}
   */
   readonly responseBufferSize?: number;
   /**
   * Set true to tell the caller why their request was rejected, if so. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#reveal_failure_reason GatewayPluginAiAzureContentSafety#reveal_failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#reveal_failure_reason GatewayPluginAiAzureContentSafety#reveal_failure_reason}
   */
   readonly revealFailureReason?: boolean | cdktf.IResolvable;
   /**
   * Stop processing if an error occurs. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#stop_on_error GatewayPluginAiAzureContentSafety#stop_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#stop_on_error GatewayPluginAiAzureContentSafety#stop_on_error}
   */
   readonly stopOnError?: boolean | cdktf.IResolvable;
   /**
   * Select where to pick the 'text' for the Azure Content Services request. Default: "concatenate_all_content"; must be one of ["concatenate_all_content", "concatenate_user_content"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#text_source GatewayPluginAiAzureContentSafety#text_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#text_source GatewayPluginAiAzureContentSafety#text_source}
   */
   readonly textSource?: string;
 }
@@ -858,7 +858,7 @@ export class GatewayPluginAiAzureContentSafetyConfigAOutputReference extends cdk
 }
 export interface GatewayPluginAiAzureContentSafetyOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#access GatewayPluginAiAzureContentSafety#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#access GatewayPluginAiAzureContentSafety#access}
   */
   readonly access?: string[];
 }
@@ -952,7 +952,7 @@ export class GatewayPluginAiAzureContentSafetyOrderingAfterOutputReference exten
 }
 export interface GatewayPluginAiAzureContentSafetyOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#access GatewayPluginAiAzureContentSafety#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#access GatewayPluginAiAzureContentSafety#access}
   */
   readonly access?: string[];
 }
@@ -1046,11 +1046,11 @@ export class GatewayPluginAiAzureContentSafetyOrderingBeforeOutputReference exte
 }
 export interface GatewayPluginAiAzureContentSafetyOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#after GatewayPluginAiAzureContentSafety#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#after GatewayPluginAiAzureContentSafety#after}
   */
   readonly after?: GatewayPluginAiAzureContentSafetyOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#before GatewayPluginAiAzureContentSafety#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#before GatewayPluginAiAzureContentSafety#before}
   */
   readonly before?: GatewayPluginAiAzureContentSafetyOrderingBefore;
 }
@@ -1175,7 +1175,7 @@ export interface GatewayPluginAiAzureContentSafetyPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1184,11 +1184,11 @@ export interface GatewayPluginAiAzureContentSafetyPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#name GatewayPluginAiAzureContentSafety#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#name GatewayPluginAiAzureContentSafety#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#path GatewayPluginAiAzureContentSafety#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#path GatewayPluginAiAzureContentSafety#path}
   */
   readonly path?: string;
 }
@@ -1362,7 +1362,7 @@ export class GatewayPluginAiAzureContentSafetyPartialsList extends cdktf.Complex
 }
 export interface GatewayPluginAiAzureContentSafetyRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1459,7 +1459,7 @@ export class GatewayPluginAiAzureContentSafetyRouteOutputReference extends cdktf
 }
 export interface GatewayPluginAiAzureContentSafetyService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#id GatewayPluginAiAzureContentSafety#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1556,7 +1556,7 @@ export class GatewayPluginAiAzureContentSafetyServiceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety konnect_gateway_plugin_ai_azure_content_safety}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety konnect_gateway_plugin_ai_azure_content_safety}
 */
 export class GatewayPluginAiAzureContentSafety extends cdktf.TerraformResource {
 
@@ -1572,7 +1572,7 @@ export class GatewayPluginAiAzureContentSafety extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiAzureContentSafety resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiAzureContentSafety to import
-  * @param importFromId The id of the existing GatewayPluginAiAzureContentSafety that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiAzureContentSafety that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiAzureContentSafety to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1584,7 +1584,7 @@ export class GatewayPluginAiAzureContentSafety extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_azure_content_safety konnect_gateway_plugin_ai_azure_content_safety} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_azure_content_safety konnect_gateway_plugin_ai_azure_content_safety} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1595,8 +1595,8 @@ export class GatewayPluginAiAzureContentSafety extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_azure_content_safety',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginJweDecryptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#config GatewayPluginJweDecrypt#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#config GatewayPluginJweDecrypt#config}
   */
   readonly config: GatewayPluginJweDecryptConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#control_plane_id GatewayPluginJweDecrypt#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#control_plane_id GatewayPluginJweDecrypt#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#created_at GatewayPluginJweDecrypt#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#created_at GatewayPluginJweDecrypt#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#enabled GatewayPluginJweDecrypt#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#enabled GatewayPluginJweDecrypt#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginJweDecryptConfig extends cdktf.TerraformMetaArgume
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#instance_name GatewayPluginJweDecrypt#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#instance_name GatewayPluginJweDecrypt#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#ordering GatewayPluginJweDecrypt#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#ordering GatewayPluginJweDecrypt#ordering}
   */
   readonly ordering?: GatewayPluginJweDecryptOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#partials GatewayPluginJweDecrypt#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#partials GatewayPluginJweDecrypt#partials}
   */
   readonly partials?: GatewayPluginJweDecryptPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#protocols GatewayPluginJweDecrypt#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#protocols GatewayPluginJweDecrypt#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#route GatewayPluginJweDecrypt#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#route GatewayPluginJweDecrypt#route}
   */
   readonly route?: GatewayPluginJweDecryptRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#service GatewayPluginJweDecrypt#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#service GatewayPluginJweDecrypt#service}
   */
   readonly service?: GatewayPluginJweDecryptService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#tags GatewayPluginJweDecrypt#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#tags GatewayPluginJweDecrypt#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#updated_at GatewayPluginJweDecrypt#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#updated_at GatewayPluginJweDecrypt#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,25 +89,25 @@ export interface GatewayPluginJweDecryptConfigA {
   /**
   * The name of the header that is used to set the decrypted value. Default: "Authorization"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#forward_header_name GatewayPluginJweDecrypt#forward_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#forward_header_name GatewayPluginJweDecrypt#forward_header_name}
   */
   readonly forwardHeaderName?: string;
   /**
   * Denote the name or names of all Key Sets that should be inspected when trying to find a suitable key to decrypt the JWE token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#key_sets GatewayPluginJweDecrypt#key_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#key_sets GatewayPluginJweDecrypt#key_sets}
   */
   readonly keySets: string[];
   /**
   * The name of the header to look for the JWE token. Default: "Authorization"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#lookup_header_name GatewayPluginJweDecrypt#lookup_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#lookup_header_name GatewayPluginJweDecrypt#lookup_header_name}
   */
   readonly lookupHeaderName?: string;
   /**
   * Defines how the plugin behaves in cases where no token was found in the request. When using `strict` mode, the request requires a token to be present and subsequently raise an error if none could be found. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#strict GatewayPluginJweDecrypt#strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#strict GatewayPluginJweDecrypt#strict}
   */
   readonly strict?: boolean | cdktf.IResolvable;
 }
@@ -285,7 +285,7 @@ export class GatewayPluginJweDecryptConfigAOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginJweDecryptOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#access GatewayPluginJweDecrypt#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#access GatewayPluginJweDecrypt#access}
   */
   readonly access?: string[];
 }
@@ -379,7 +379,7 @@ export class GatewayPluginJweDecryptOrderingAfterOutputReference extends cdktf.C
 }
 export interface GatewayPluginJweDecryptOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#access GatewayPluginJweDecrypt#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#access GatewayPluginJweDecrypt#access}
   */
   readonly access?: string[];
 }
@@ -473,11 +473,11 @@ export class GatewayPluginJweDecryptOrderingBeforeOutputReference extends cdktf.
 }
 export interface GatewayPluginJweDecryptOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#after GatewayPluginJweDecrypt#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#after GatewayPluginJweDecrypt#after}
   */
   readonly after?: GatewayPluginJweDecryptOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#before GatewayPluginJweDecrypt#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#before GatewayPluginJweDecrypt#before}
   */
   readonly before?: GatewayPluginJweDecryptOrderingBefore;
 }
@@ -602,7 +602,7 @@ export interface GatewayPluginJweDecryptPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -611,11 +611,11 @@ export interface GatewayPluginJweDecryptPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#name GatewayPluginJweDecrypt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#name GatewayPluginJweDecrypt#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#path GatewayPluginJweDecrypt#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#path GatewayPluginJweDecrypt#path}
   */
   readonly path?: string;
 }
@@ -789,7 +789,7 @@ export class GatewayPluginJweDecryptPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginJweDecryptRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -886,7 +886,7 @@ export class GatewayPluginJweDecryptRouteOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginJweDecryptService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#id GatewayPluginJweDecrypt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -983,7 +983,7 @@ export class GatewayPluginJweDecryptServiceOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt konnect_gateway_plugin_jwe_decrypt}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt konnect_gateway_plugin_jwe_decrypt}
 */
 export class GatewayPluginJweDecrypt extends cdktf.TerraformResource {
 
@@ -999,7 +999,7 @@ export class GatewayPluginJweDecrypt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginJweDecrypt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginJweDecrypt to import
-  * @param importFromId The id of the existing GatewayPluginJweDecrypt that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginJweDecrypt that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginJweDecrypt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1011,7 +1011,7 @@ export class GatewayPluginJweDecrypt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwe_decrypt konnect_gateway_plugin_jwe_decrypt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwe_decrypt konnect_gateway_plugin_jwe_decrypt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1022,8 +1022,8 @@ export class GatewayPluginJweDecrypt extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_jwe_decrypt',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

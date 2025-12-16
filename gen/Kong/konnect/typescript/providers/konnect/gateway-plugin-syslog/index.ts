@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginSyslogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#config GatewayPluginSyslog#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#config GatewayPluginSyslog#config}
   */
   readonly config?: GatewayPluginSyslogConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#consumer GatewayPluginSyslog#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#consumer GatewayPluginSyslog#consumer}
   */
   readonly consumer?: GatewayPluginSyslogConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#control_plane_id GatewayPluginSyslog#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#control_plane_id GatewayPluginSyslog#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#created_at GatewayPluginSyslog#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#created_at GatewayPluginSyslog#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#enabled GatewayPluginSyslog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#enabled GatewayPluginSyslog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginSyslogConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#instance_name GatewayPluginSyslog#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#instance_name GatewayPluginSyslog#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#ordering GatewayPluginSyslog#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#ordering GatewayPluginSyslog#ordering}
   */
   readonly ordering?: GatewayPluginSyslogOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#partials GatewayPluginSyslog#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#partials GatewayPluginSyslog#partials}
   */
   readonly partials?: GatewayPluginSyslogPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#protocols GatewayPluginSyslog#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#protocols GatewayPluginSyslog#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#route GatewayPluginSyslog#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#route GatewayPluginSyslog#route}
   */
   readonly route?: GatewayPluginSyslogRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#service GatewayPluginSyslog#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#service GatewayPluginSyslog#service}
   */
   readonly service?: GatewayPluginSyslogService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#tags GatewayPluginSyslog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#tags GatewayPluginSyslog#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#updated_at GatewayPluginSyslog#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#updated_at GatewayPluginSyslog#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,37 +95,37 @@ export interface GatewayPluginSyslogConfigA {
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#client_errors_severity GatewayPluginSyslog#client_errors_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#client_errors_severity GatewayPluginSyslog#client_errors_severity}
   */
   readonly clientErrorsSeverity?: string;
   /**
   * Lua code as a key-value map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#custom_fields_by_lua GatewayPluginSyslog#custom_fields_by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#custom_fields_by_lua GatewayPluginSyslog#custom_fields_by_lua}
   */
   readonly customFieldsByLua?: { [key: string]: string };
   /**
   * The facility is used by the operating system to decide how to handle each log message. Default: "user"; must be one of ["auth", "authpriv", "cron", "daemon", "ftp", "kern", "local0", "local1", "local2", "local3", "local4", "local5", "local6", "local7", "lpr", "mail", "news", "syslog", "user", "uucp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#facility GatewayPluginSyslog#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#facility GatewayPluginSyslog#facility}
   */
   readonly facility?: string;
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#log_level GatewayPluginSyslog#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#log_level GatewayPluginSyslog#log_level}
   */
   readonly logLevel?: string;
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#server_errors_severity GatewayPluginSyslog#server_errors_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#server_errors_severity GatewayPluginSyslog#server_errors_severity}
   */
   readonly serverErrorsSeverity?: string;
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#successful_severity GatewayPluginSyslog#successful_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#successful_severity GatewayPluginSyslog#successful_severity}
   */
   readonly successfulSeverity?: string;
 }
@@ -364,7 +364,7 @@ export class GatewayPluginSyslogConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginSyslogConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -461,7 +461,7 @@ export class GatewayPluginSyslogConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginSyslogOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#access GatewayPluginSyslog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#access GatewayPluginSyslog#access}
   */
   readonly access?: string[];
 }
@@ -555,7 +555,7 @@ export class GatewayPluginSyslogOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginSyslogOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#access GatewayPluginSyslog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#access GatewayPluginSyslog#access}
   */
   readonly access?: string[];
 }
@@ -649,11 +649,11 @@ export class GatewayPluginSyslogOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginSyslogOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#after GatewayPluginSyslog#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#after GatewayPluginSyslog#after}
   */
   readonly after?: GatewayPluginSyslogOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#before GatewayPluginSyslog#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#before GatewayPluginSyslog#before}
   */
   readonly before?: GatewayPluginSyslogOrderingBefore;
 }
@@ -778,7 +778,7 @@ export interface GatewayPluginSyslogPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,11 +787,11 @@ export interface GatewayPluginSyslogPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#name GatewayPluginSyslog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#name GatewayPluginSyslog#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#path GatewayPluginSyslog#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#path GatewayPluginSyslog#path}
   */
   readonly path?: string;
 }
@@ -965,7 +965,7 @@ export class GatewayPluginSyslogPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginSyslogRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1062,7 +1062,7 @@ export class GatewayPluginSyslogRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginSyslogService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#id GatewayPluginSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1159,7 +1159,7 @@ export class GatewayPluginSyslogServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog konnect_gateway_plugin_syslog}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog konnect_gateway_plugin_syslog}
 */
 export class GatewayPluginSyslog extends cdktf.TerraformResource {
 
@@ -1175,7 +1175,7 @@ export class GatewayPluginSyslog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginSyslog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginSyslog to import
-  * @param importFromId The id of the existing GatewayPluginSyslog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginSyslog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginSyslog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1187,7 +1187,7 @@ export class GatewayPluginSyslog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_syslog konnect_gateway_plugin_syslog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_syslog konnect_gateway_plugin_syslog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1198,8 +1198,8 @@ export class GatewayPluginSyslog extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_syslog',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginCorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#config GatewayPluginCors#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#config GatewayPluginCors#config}
   */
   readonly config?: GatewayPluginCorsConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#control_plane_id GatewayPluginCors#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#control_plane_id GatewayPluginCors#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#created_at GatewayPluginCors#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#created_at GatewayPluginCors#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#enabled GatewayPluginCors#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#enabled GatewayPluginCors#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginCorsConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#instance_name GatewayPluginCors#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#instance_name GatewayPluginCors#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#ordering GatewayPluginCors#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#ordering GatewayPluginCors#ordering}
   */
   readonly ordering?: GatewayPluginCorsOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#partials GatewayPluginCors#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#partials GatewayPluginCors#partials}
   */
   readonly partials?: GatewayPluginCorsPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#protocols GatewayPluginCors#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#protocols GatewayPluginCors#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#route GatewayPluginCors#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#route GatewayPluginCors#route}
   */
   readonly route?: GatewayPluginCorsRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#service GatewayPluginCors#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#service GatewayPluginCors#service}
   */
   readonly service?: GatewayPluginCorsService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#tags GatewayPluginCors#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#tags GatewayPluginCors#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#updated_at GatewayPluginCors#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#updated_at GatewayPluginCors#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,55 +89,55 @@ export interface GatewayPluginCorsConfigA {
   /**
   * A boolean value that skip cors response headers when origin header of request is empty. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#allow_origin_absent GatewayPluginCors#allow_origin_absent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#allow_origin_absent GatewayPluginCors#allow_origin_absent}
   */
   readonly allowOriginAbsent?: boolean | cdktf.IResolvable;
   /**
   * Flag to determine whether the `Access-Control-Allow-Credentials` header should be sent with `true` as the value. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#credentials GatewayPluginCors#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#credentials GatewayPluginCors#credentials}
   */
   readonly credentials?: boolean | cdktf.IResolvable;
   /**
   * Value for the `Access-Control-Expose-Headers` header. If not specified, no custom headers are exposed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#exposed_headers GatewayPluginCors#exposed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#exposed_headers GatewayPluginCors#exposed_headers}
   */
   readonly exposedHeaders?: string[];
   /**
   * Value for the `Access-Control-Allow-Headers` header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#headers GatewayPluginCors#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#headers GatewayPluginCors#headers}
   */
   readonly headers?: string[];
   /**
   * Indicates how long the results of the preflight request can be cached, in `seconds`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#max_age GatewayPluginCors#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#max_age GatewayPluginCors#max_age}
   */
   readonly maxAge?: number;
   /**
   * 'Value for the `Access-Control-Allow-Methods` header. Available options include `GET`, `HEAD`, `PUT`, `PATCH`, `POST`, `DELETE`, `OPTIONS`, `TRACE`, `CONNECT`. By default, all options are allowed.'. Default: ["CONNECT","DELETE","GET","HEAD","OPTIONS","PATCH","POST","PUT","TRACE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#methods GatewayPluginCors#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#methods GatewayPluginCors#methods}
   */
   readonly methods?: string[];
   /**
   * List of allowed domains for the `Access-Control-Allow-Origin` header. If you want to allow all origins, add `*` as a single value to this configuration field. The accepted values can either be flat strings or PCRE regexes. NOTE: If you don't specify any allowed domains, all origins are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#origins GatewayPluginCors#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#origins GatewayPluginCors#origins}
   */
   readonly origins?: string[];
   /**
   * A boolean value that instructs the plugin to proxy the `OPTIONS` preflight request to the Upstream service. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#preflight_continue GatewayPluginCors#preflight_continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#preflight_continue GatewayPluginCors#preflight_continue}
   */
   readonly preflightContinue?: boolean | cdktf.IResolvable;
   /**
   * Flag to determine whether the `Access-Control-Allow-Private-Network` header should be sent with `true` as the value. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#private_network GatewayPluginCors#private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#private_network GatewayPluginCors#private_network}
   */
   readonly privateNetwork?: boolean | cdktf.IResolvable;
 }
@@ -463,7 +463,7 @@ export class GatewayPluginCorsConfigAOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginCorsOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#access GatewayPluginCors#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#access GatewayPluginCors#access}
   */
   readonly access?: string[];
 }
@@ -557,7 +557,7 @@ export class GatewayPluginCorsOrderingAfterOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginCorsOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#access GatewayPluginCors#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#access GatewayPluginCors#access}
   */
   readonly access?: string[];
 }
@@ -651,11 +651,11 @@ export class GatewayPluginCorsOrderingBeforeOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginCorsOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#after GatewayPluginCors#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#after GatewayPluginCors#after}
   */
   readonly after?: GatewayPluginCorsOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#before GatewayPluginCors#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#before GatewayPluginCors#before}
   */
   readonly before?: GatewayPluginCorsOrderingBefore;
 }
@@ -780,7 +780,7 @@ export interface GatewayPluginCorsPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -789,11 +789,11 @@ export interface GatewayPluginCorsPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#name GatewayPluginCors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#name GatewayPluginCors#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#path GatewayPluginCors#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#path GatewayPluginCors#path}
   */
   readonly path?: string;
 }
@@ -967,7 +967,7 @@ export class GatewayPluginCorsPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginCorsRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1064,7 +1064,7 @@ export class GatewayPluginCorsRouteOutputReference extends cdktf.ComplexObject {
 }
 export interface GatewayPluginCorsService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#id GatewayPluginCors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1161,7 +1161,7 @@ export class GatewayPluginCorsServiceOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors konnect_gateway_plugin_cors}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors konnect_gateway_plugin_cors}
 */
 export class GatewayPluginCors extends cdktf.TerraformResource {
 
@@ -1177,7 +1177,7 @@ export class GatewayPluginCors extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginCors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginCors to import
-  * @param importFromId The id of the existing GatewayPluginCors that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginCors that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginCors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1189,7 +1189,7 @@ export class GatewayPluginCors extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_cors konnect_gateway_plugin_cors} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_cors konnect_gateway_plugin_cors} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1200,8 +1200,8 @@ export class GatewayPluginCors extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_cors',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

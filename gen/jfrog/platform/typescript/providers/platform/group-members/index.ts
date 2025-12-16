@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group_members
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GroupMembersConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of users assigned to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group_members#members GroupMembers#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group_members#members GroupMembers#members}
   */
   readonly members: string[];
   /**
   * Name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group_members#name GroupMembers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group_members#name GroupMembers#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group_members platform_group_members}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group_members platform_group_members}
 */
 export class GroupMembers extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GroupMembers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupMembers to import
-  * @param importFromId The id of the existing GroupMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GroupMembers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group_members platform_group_members} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group_members platform_group_members} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GroupMembers extends cdktf.TerraformResource {
       terraformResourceType: 'platform_group_members',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

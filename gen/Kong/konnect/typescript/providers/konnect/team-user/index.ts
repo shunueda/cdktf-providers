@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team_user
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TeamUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the team. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team_user#team_id TeamUser#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team_user#team_id TeamUser#team_id}
   */
   readonly teamId: string;
   /**
   * The user ID for the user being added to a team. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team_user#user_id TeamUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team_user#user_id TeamUser#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team_user konnect_team_user}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team_user konnect_team_user}
 */
 export class TeamUser extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class TeamUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamUser to import
-  * @param importFromId The id of the existing TeamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TeamUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team_user konnect_team_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team_user konnect_team_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class TeamUser extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_team_user',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

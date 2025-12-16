@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginOpentelemetryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#config GatewayPluginOpentelemetry#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#config GatewayPluginOpentelemetry#config}
   */
   readonly config?: GatewayPluginOpentelemetryConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#consumer GatewayPluginOpentelemetry#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#consumer GatewayPluginOpentelemetry#consumer}
   */
   readonly consumer?: GatewayPluginOpentelemetryConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#control_plane_id GatewayPluginOpentelemetry#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#control_plane_id GatewayPluginOpentelemetry#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#created_at GatewayPluginOpentelemetry#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#created_at GatewayPluginOpentelemetry#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#enabled GatewayPluginOpentelemetry#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#enabled GatewayPluginOpentelemetry#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginOpentelemetryConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#instance_name GatewayPluginOpentelemetry#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#instance_name GatewayPluginOpentelemetry#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#ordering GatewayPluginOpentelemetry#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#ordering GatewayPluginOpentelemetry#ordering}
   */
   readonly ordering?: GatewayPluginOpentelemetryOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#partials GatewayPluginOpentelemetry#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#partials GatewayPluginOpentelemetry#partials}
   */
   readonly partials?: GatewayPluginOpentelemetryPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#protocols GatewayPluginOpentelemetry#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#protocols GatewayPluginOpentelemetry#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#route GatewayPluginOpentelemetry#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#route GatewayPluginOpentelemetry#route}
   */
   readonly route?: GatewayPluginOpentelemetryRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#service GatewayPluginOpentelemetry#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#service GatewayPluginOpentelemetry#service}
   */
   readonly service?: GatewayPluginOpentelemetryService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#tags GatewayPluginOpentelemetry#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#tags GatewayPluginOpentelemetry#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#updated_at GatewayPluginOpentelemetry#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#updated_at GatewayPluginOpentelemetry#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,25 +95,25 @@ export interface GatewayPluginOpentelemetryConfigPropagation {
   /**
   * Header names to clear after context extraction. This allows to extract the context from a certain header and then remove it from the request, useful when extraction and injection are performed on different header formats and the original header should not be sent to the upstream. If left empty, no headers are cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#clear GatewayPluginOpentelemetry#clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#clear GatewayPluginOpentelemetry#clear}
   */
   readonly clear?: string[];
   /**
   * The default header format to use when extractors did not match any format in the incoming headers and `inject` is configured with the value: `preserve`. This can happen when no tracing header was found in the request, or the incoming tracing header formats were not included in `extract`. Default: "w3c"; must be one of ["aws", "b3", "b3-single", "datadog", "gcp", "instana", "jaeger", "ot", "w3c"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#default_format GatewayPluginOpentelemetry#default_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#default_format GatewayPluginOpentelemetry#default_format}
   */
   readonly defaultFormat?: string;
   /**
   * Header formats used to extract tracing context from incoming requests. If multiple values are specified, the first one found will be used for extraction. If left empty, Kong will not extract any tracing context information from incoming requests and generate a trace with no parent and a new trace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#extract GatewayPluginOpentelemetry#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#extract GatewayPluginOpentelemetry#extract}
   */
   readonly extract?: string[];
   /**
   * Header formats used to inject tracing context. The value `preserve` will use the same header format as the incoming request. If multiple values are specified, all of them will be used during injection. If left empty, Kong will not inject any tracing context information in outgoing requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#inject GatewayPluginOpentelemetry#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#inject GatewayPluginOpentelemetry#inject}
   */
   readonly inject?: string[];
 }
@@ -296,49 +296,49 @@ export interface GatewayPluginOpentelemetryConfigQueue {
   /**
   * The number of of queue delivery timers. -1 indicates unlimited. Default: 1; must be one of ["-1", "1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#concurrency_limit GatewayPluginOpentelemetry#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#concurrency_limit GatewayPluginOpentelemetry#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Time in seconds before the initial retry is made for a failing batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#initial_retry_delay GatewayPluginOpentelemetry#initial_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#initial_retry_delay GatewayPluginOpentelemetry#initial_retry_delay}
   */
   readonly initialRetryDelay?: number;
   /**
   * Maximum number of entries that can be processed at a time. Default: 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#max_batch_size GatewayPluginOpentelemetry#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#max_batch_size GatewayPluginOpentelemetry#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Maximum number of bytes that can be waiting on a queue, requires string content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#max_bytes GatewayPluginOpentelemetry#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#max_bytes GatewayPluginOpentelemetry#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum number of (fractional) seconds to elapse after the first entry was queued before the queue starts calling the handler. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#max_coalescing_delay GatewayPluginOpentelemetry#max_coalescing_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#max_coalescing_delay GatewayPluginOpentelemetry#max_coalescing_delay}
   */
   readonly maxCoalescingDelay?: number;
   /**
   * Maximum number of entries that can be waiting on the queue. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#max_entries GatewayPluginOpentelemetry#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#max_entries GatewayPluginOpentelemetry#max_entries}
   */
   readonly maxEntries?: number;
   /**
   * Maximum time in seconds between retries, caps exponential backoff. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#max_retry_delay GatewayPluginOpentelemetry#max_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#max_retry_delay GatewayPluginOpentelemetry#max_retry_delay}
   */
   readonly maxRetryDelay?: number;
   /**
   * Time in seconds before the queue gives up calling a failed handler for a batch. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#max_retry_time GatewayPluginOpentelemetry#max_retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#max_retry_time GatewayPluginOpentelemetry#max_retry_time}
   */
   readonly maxRetryTime?: number;
 }
@@ -637,83 +637,83 @@ export interface GatewayPluginOpentelemetryConfigA {
   /**
   * The delay, in seconds, between two consecutive batches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#batch_flush_delay GatewayPluginOpentelemetry#batch_flush_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#batch_flush_delay GatewayPluginOpentelemetry#batch_flush_delay}
   */
   readonly batchFlushDelay?: number;
   /**
   * The number of spans to be sent in a single batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#batch_span_count GatewayPluginOpentelemetry#batch_span_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#batch_span_count GatewayPluginOpentelemetry#batch_span_count}
   */
   readonly batchSpanCount?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#connect_timeout GatewayPluginOpentelemetry#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#connect_timeout GatewayPluginOpentelemetry#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Default: "preserve"; must be one of ["aws", "b3", "b3-single", "datadog", "gcp", "ignore", "instana", "jaeger", "ot", "preserve", "w3c"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#header_type GatewayPluginOpentelemetry#header_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#header_type GatewayPluginOpentelemetry#header_type}
   */
   readonly headerType?: string;
   /**
   * The custom headers to be added in the HTTP request sent to the OTLP server. This setting is useful for adding the authentication headers (token) for the APM backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#headers GatewayPluginOpentelemetry#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#headers GatewayPluginOpentelemetry#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#http_response_header_for_traceid GatewayPluginOpentelemetry#http_response_header_for_traceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#http_response_header_for_traceid GatewayPluginOpentelemetry#http_response_header_for_traceid}
   */
   readonly httpResponseHeaderForTraceid?: string;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#logs_endpoint GatewayPluginOpentelemetry#logs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#logs_endpoint GatewayPluginOpentelemetry#logs_endpoint}
   */
   readonly logsEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#propagation GatewayPluginOpentelemetry#propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#propagation GatewayPluginOpentelemetry#propagation}
   */
   readonly propagation?: GatewayPluginOpentelemetryConfigPropagation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#queue GatewayPluginOpentelemetry#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#queue GatewayPluginOpentelemetry#queue}
   */
   readonly queue?: GatewayPluginOpentelemetryConfigQueue;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#read_timeout GatewayPluginOpentelemetry#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#read_timeout GatewayPluginOpentelemetry#read_timeout}
   */
   readonly readTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#resource_attributes GatewayPluginOpentelemetry#resource_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#resource_attributes GatewayPluginOpentelemetry#resource_attributes}
   */
   readonly resourceAttributes?: { [key: string]: string };
   /**
   * Tracing sampling rate for configuring the probability-based sampler. When set, this value supersedes the global `tracing_sampling_rate` setting from kong.conf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#sampling_rate GatewayPluginOpentelemetry#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#sampling_rate GatewayPluginOpentelemetry#sampling_rate}
   */
   readonly samplingRate?: number;
   /**
   * The sampling strategy to use for OTLP `traces`. Set `parent_drop_probability_fallback` if you want parent-based sampling when the parent span contains a `false` sampled flag, and fallback to probability-based sampling otherwise. Set `parent_probability_fallback` if you want parent-based sampling when the parent span contains a valid sampled flag (`true` or `false`), and fallback to probability-based sampling otherwise. Default: "parent_drop_probability_fallback"; must be one of ["parent_drop_probability_fallback", "parent_probability_fallback"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#sampling_strategy GatewayPluginOpentelemetry#sampling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#sampling_strategy GatewayPluginOpentelemetry#sampling_strategy}
   */
   readonly samplingStrategy?: string;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#send_timeout GatewayPluginOpentelemetry#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#send_timeout GatewayPluginOpentelemetry#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#traces_endpoint GatewayPluginOpentelemetry#traces_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#traces_endpoint GatewayPluginOpentelemetry#traces_endpoint}
   */
   readonly tracesEndpoint?: string;
 }
@@ -1213,7 +1213,7 @@ export class GatewayPluginOpentelemetryConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginOpentelemetryConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1310,7 +1310,7 @@ export class GatewayPluginOpentelemetryConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginOpentelemetryOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#access GatewayPluginOpentelemetry#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#access GatewayPluginOpentelemetry#access}
   */
   readonly access?: string[];
 }
@@ -1404,7 +1404,7 @@ export class GatewayPluginOpentelemetryOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginOpentelemetryOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#access GatewayPluginOpentelemetry#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#access GatewayPluginOpentelemetry#access}
   */
   readonly access?: string[];
 }
@@ -1498,11 +1498,11 @@ export class GatewayPluginOpentelemetryOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginOpentelemetryOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#after GatewayPluginOpentelemetry#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#after GatewayPluginOpentelemetry#after}
   */
   readonly after?: GatewayPluginOpentelemetryOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#before GatewayPluginOpentelemetry#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#before GatewayPluginOpentelemetry#before}
   */
   readonly before?: GatewayPluginOpentelemetryOrderingBefore;
 }
@@ -1627,7 +1627,7 @@ export interface GatewayPluginOpentelemetryPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1636,11 +1636,11 @@ export interface GatewayPluginOpentelemetryPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#name GatewayPluginOpentelemetry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#name GatewayPluginOpentelemetry#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#path GatewayPluginOpentelemetry#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#path GatewayPluginOpentelemetry#path}
   */
   readonly path?: string;
 }
@@ -1814,7 +1814,7 @@ export class GatewayPluginOpentelemetryPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginOpentelemetryRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1911,7 +1911,7 @@ export class GatewayPluginOpentelemetryRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginOpentelemetryService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#id GatewayPluginOpentelemetry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2008,7 +2008,7 @@ export class GatewayPluginOpentelemetryServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry konnect_gateway_plugin_opentelemetry}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry konnect_gateway_plugin_opentelemetry}
 */
 export class GatewayPluginOpentelemetry extends cdktf.TerraformResource {
 
@@ -2024,7 +2024,7 @@ export class GatewayPluginOpentelemetry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginOpentelemetry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginOpentelemetry to import
-  * @param importFromId The id of the existing GatewayPluginOpentelemetry that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginOpentelemetry that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginOpentelemetry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2036,7 +2036,7 @@ export class GatewayPluginOpentelemetry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opentelemetry konnect_gateway_plugin_opentelemetry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opentelemetry konnect_gateway_plugin_opentelemetry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2047,8 +2047,8 @@ export class GatewayPluginOpentelemetry extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_opentelemetry',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

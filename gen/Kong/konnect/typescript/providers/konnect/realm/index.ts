@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface RealmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow all control planes to use the realm. When this value is set it takes precedence on `allowed_control_planes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#allow_all_control_planes Realm#allow_all_control_planes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#allow_all_control_planes Realm#allow_all_control_planes}
   */
   readonly allowAllControlPlanes?: boolean | cdktf.IResolvable;
   /**
   * List of control plane ids that are allowed to use the realm. This is used when `allow_all_control_planes` value
   * is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#allowed_control_planes Realm#allowed_control_planes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#allowed_control_planes Realm#allowed_control_planes}
   */
   readonly allowedControlPlanes?: string[];
   /**
   * A list of consumer groups to automatically add to any consumers created within this Realm.
   * If `consumer_groups` are provided on the Consumer object _and_ on the Realm, the Consumer will be placed in all defined consumer groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#consumer_groups Realm#consumer_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#consumer_groups Realm#consumer_groups}
   */
   readonly consumerGroups?: string[];
   /**
@@ -33,11 +33,11 @@ export interface RealmConfig extends cdktf.TerraformMetaArguments {
   * This will IRREVERSIBLY DELETE ALL REGISTERED CONSUMERS AND THEIR CREDENTIALS. Only set to "true" if you want this behavior.
   * Default: "false"; must be one of ["true", "false"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#force_destroy Realm#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#force_destroy Realm#force_destroy}
   */
   readonly forceDestroy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#name Realm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#name Realm#name}
   */
   readonly name: string;
   /**
@@ -48,7 +48,7 @@ export interface RealmConfig extends cdktf.TerraformMetaArguments {
   * are invalid.
   * Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#negative_ttl Realm#negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#negative_ttl Realm#negative_ttl}
   */
   readonly negativeTtl?: number;
   /**
@@ -56,13 +56,13 @@ export interface RealmConfig extends cdktf.TerraformMetaArguments {
   * successfully loaded from Konnect.
   * Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#ttl Realm#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#ttl Realm#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm konnect_realm}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm konnect_realm}
 */
 export class Realm extends cdktf.TerraformResource {
 
@@ -78,7 +78,7 @@ export class Realm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Realm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Realm to import
-  * @param importFromId The id of the existing Realm that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Realm that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Realm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -90,7 +90,7 @@ export class Realm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/realm konnect_realm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/realm konnect_realm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -101,8 +101,8 @@ export class Realm extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_realm',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

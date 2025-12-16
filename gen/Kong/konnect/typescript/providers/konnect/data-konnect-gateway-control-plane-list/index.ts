@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,20 @@ export interface DataKonnectGatewayControlPlaneListConfig extends cdktf.Terrafor
   /**
   * Filters a collection of control-planes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#filter DataKonnectGatewayControlPlaneList#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#filter DataKonnectGatewayControlPlaneList#filter}
   */
   readonly filter?: DataKonnectGatewayControlPlaneListFilter;
   /**
   * Filter control planes in the response by associated labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#filter_labels DataKonnectGatewayControlPlaneList#filter_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#filter_labels DataKonnectGatewayControlPlaneList#filter_labels}
   */
   readonly filterLabels?: string;
   /**
   * Sorts a collection of control-planes. Supported sort attributes are:
   *   - created_at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#sort DataKonnectGatewayControlPlaneList#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#sort DataKonnectGatewayControlPlaneList#sort}
   */
   readonly sort?: string;
 }
@@ -291,11 +291,15 @@ export class DataKonnectGatewayControlPlaneListDataList extends cdktf.ComplexLis
 }
 export interface DataKonnectGatewayControlPlaneListFilterClusterType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#eq DataKonnectGatewayControlPlaneList#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#eq DataKonnectGatewayControlPlaneList#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#neq DataKonnectGatewayControlPlaneList#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#neq DataKonnectGatewayControlPlaneList#neq}
   */
   readonly neq?: string;
 }
@@ -418,11 +422,15 @@ export class DataKonnectGatewayControlPlaneListFilterClusterTypeOutputReference 
 }
 export interface DataKonnectGatewayControlPlaneListFilterId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#eq DataKonnectGatewayControlPlaneList#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#eq DataKonnectGatewayControlPlaneList#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#oeq DataKonnectGatewayControlPlaneList#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#oeq DataKonnectGatewayControlPlaneList#oeq}
   */
   readonly oeq?: string;
 }
@@ -545,15 +553,21 @@ export class DataKonnectGatewayControlPlaneListFilterIdOutputReference extends c
 }
 export interface DataKonnectGatewayControlPlaneListFilterName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#contains DataKonnectGatewayControlPlaneList#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#contains DataKonnectGatewayControlPlaneList#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#eq DataKonnectGatewayControlPlaneList#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#eq DataKonnectGatewayControlPlaneList#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#neq DataKonnectGatewayControlPlaneList#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#neq DataKonnectGatewayControlPlaneList#neq}
   */
   readonly neq?: string;
 }
@@ -707,28 +721,28 @@ export interface DataKonnectGatewayControlPlaneListFilter {
   /**
   * Filter by a boolean value (true/false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#cloud_gateway DataKonnectGatewayControlPlaneList#cloud_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#cloud_gateway DataKonnectGatewayControlPlaneList#cloud_gateway}
   */
   readonly cloudGateway?: boolean | cdktf.IResolvable;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `neq`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#cluster_type DataKonnectGatewayControlPlaneList#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#cluster_type DataKonnectGatewayControlPlaneList#cluster_type}
   */
   readonly clusterType?: DataKonnectGatewayControlPlaneListFilterClusterType;
   /**
-  * Returns entities that exact match any of the comma-delimited phrases in the filter string.
+  * Filter using **one** of the following operators: `eq`, `oeq`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#id DataKonnectGatewayControlPlaneList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#id DataKonnectGatewayControlPlaneList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: DataKonnectGatewayControlPlaneListFilterId;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `neq`, `contains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#name DataKonnectGatewayControlPlaneList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#name DataKonnectGatewayControlPlaneList#name}
   */
   readonly name?: DataKonnectGatewayControlPlaneListFilterName;
 }
@@ -909,7 +923,7 @@ export class DataKonnectGatewayControlPlaneListFilterOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list konnect_gateway_control_plane_list}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list konnect_gateway_control_plane_list}
 */
 export class DataKonnectGatewayControlPlaneList extends cdktf.TerraformDataSource {
 
@@ -925,7 +939,7 @@ export class DataKonnectGatewayControlPlaneList extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataKonnectGatewayControlPlaneList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKonnectGatewayControlPlaneList to import
-  * @param importFromId The id of the existing DataKonnectGatewayControlPlaneList that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKonnectGatewayControlPlaneList that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKonnectGatewayControlPlaneList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -937,7 +951,7 @@ export class DataKonnectGatewayControlPlaneList extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/gateway_control_plane_list konnect_gateway_control_plane_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/gateway_control_plane_list konnect_gateway_control_plane_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -948,8 +962,8 @@ export class DataKonnectGatewayControlPlaneList extends cdktf.TerraformDataSourc
       terraformResourceType: 'konnect_gateway_control_plane_list',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ApiProductDocumentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API product identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#api_product_id ApiProductDocument#api_product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#api_product_id ApiProductDocument#api_product_id}
   */
   readonly apiProductId: string;
   /**
   * Can be markdown string content or base64 encoded string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#content ApiProductDocument#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#content ApiProductDocument#content}
   */
   readonly content?: string;
   /**
   * metadata of the document
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#metadata ApiProductDocument#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#metadata ApiProductDocument#metadata}
   */
   readonly metadata?: ApiProductDocumentMetadata;
   /**
   * parent document id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#parent_document_id ApiProductDocument#parent_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#parent_document_id ApiProductDocument#parent_document_id}
   */
   readonly parentDocumentId?: string;
   /**
   * document slug. must be unique accross documents belonging to an api product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#slug ApiProductDocument#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#slug ApiProductDocument#slug}
   */
   readonly slug: string;
   /**
   * must be one of ["published", "unpublished"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#status ApiProductDocument#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#status ApiProductDocument#status}
   */
   readonly status: string;
   /**
   * document title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#title ApiProductDocument#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#title ApiProductDocument#title}
   */
   readonly title: string;
 }
@@ -111,7 +111,7 @@ export class ApiProductDocumentMetadataOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document konnect_api_product_document}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document konnect_api_product_document}
 */
 export class ApiProductDocument extends cdktf.TerraformResource {
 
@@ -127,7 +127,7 @@ export class ApiProductDocument extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiProductDocument resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiProductDocument to import
-  * @param importFromId The id of the existing ApiProductDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiProductDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiProductDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class ApiProductDocument extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_document konnect_api_product_document} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_document konnect_api_product_document} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class ApiProductDocument extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_api_product_document',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

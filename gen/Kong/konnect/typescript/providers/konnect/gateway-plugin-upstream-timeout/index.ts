@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginUpstreamTimeoutConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#config GatewayPluginUpstreamTimeout#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#config GatewayPluginUpstreamTimeout#config}
   */
   readonly config?: GatewayPluginUpstreamTimeoutConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#consumer GatewayPluginUpstreamTimeout#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#consumer GatewayPluginUpstreamTimeout#consumer}
   */
   readonly consumer?: GatewayPluginUpstreamTimeoutConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#control_plane_id GatewayPluginUpstreamTimeout#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#control_plane_id GatewayPluginUpstreamTimeout#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#created_at GatewayPluginUpstreamTimeout#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#created_at GatewayPluginUpstreamTimeout#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#enabled GatewayPluginUpstreamTimeout#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#enabled GatewayPluginUpstreamTimeout#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginUpstreamTimeoutConfig extends cdktf.TerraformMetaA
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#instance_name GatewayPluginUpstreamTimeout#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#instance_name GatewayPluginUpstreamTimeout#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#ordering GatewayPluginUpstreamTimeout#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#ordering GatewayPluginUpstreamTimeout#ordering}
   */
   readonly ordering?: GatewayPluginUpstreamTimeoutOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#partials GatewayPluginUpstreamTimeout#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#partials GatewayPluginUpstreamTimeout#partials}
   */
   readonly partials?: GatewayPluginUpstreamTimeoutPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#protocols GatewayPluginUpstreamTimeout#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#protocols GatewayPluginUpstreamTimeout#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#route GatewayPluginUpstreamTimeout#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#route GatewayPluginUpstreamTimeout#route}
   */
   readonly route?: GatewayPluginUpstreamTimeoutRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#service GatewayPluginUpstreamTimeout#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#service GatewayPluginUpstreamTimeout#service}
   */
   readonly service?: GatewayPluginUpstreamTimeoutService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#tags GatewayPluginUpstreamTimeout#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#tags GatewayPluginUpstreamTimeout#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#updated_at GatewayPluginUpstreamTimeout#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#updated_at GatewayPluginUpstreamTimeout#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,19 +95,19 @@ export interface GatewayPluginUpstreamTimeoutConfigA {
   /**
   * The timeout in milliseconds for establishing a connection to the upstream server. Must be an integer between 1 and 2^31-2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#connect_timeout GatewayPluginUpstreamTimeout#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#connect_timeout GatewayPluginUpstreamTimeout#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * The timeout in milliseconds between two successive read operations for transmitting a request to the upstream server. Must be an integer between 1 and 2^31-2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#read_timeout GatewayPluginUpstreamTimeout#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#read_timeout GatewayPluginUpstreamTimeout#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * The timeout in milliseconds between two successive write operations for transmitting a request to the upstream server. Must be an integer between 1 and 2^31-2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#send_timeout GatewayPluginUpstreamTimeout#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#send_timeout GatewayPluginUpstreamTimeout#send_timeout}
   */
   readonly sendTimeout?: number;
 }
@@ -259,7 +259,7 @@ export class GatewayPluginUpstreamTimeoutConfigAOutputReference extends cdktf.Co
 }
 export interface GatewayPluginUpstreamTimeoutConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -356,7 +356,7 @@ export class GatewayPluginUpstreamTimeoutConsumerOutputReference extends cdktf.C
 }
 export interface GatewayPluginUpstreamTimeoutOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#access GatewayPluginUpstreamTimeout#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#access GatewayPluginUpstreamTimeout#access}
   */
   readonly access?: string[];
 }
@@ -450,7 +450,7 @@ export class GatewayPluginUpstreamTimeoutOrderingAfterOutputReference extends cd
 }
 export interface GatewayPluginUpstreamTimeoutOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#access GatewayPluginUpstreamTimeout#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#access GatewayPluginUpstreamTimeout#access}
   */
   readonly access?: string[];
 }
@@ -544,11 +544,11 @@ export class GatewayPluginUpstreamTimeoutOrderingBeforeOutputReference extends c
 }
 export interface GatewayPluginUpstreamTimeoutOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#after GatewayPluginUpstreamTimeout#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#after GatewayPluginUpstreamTimeout#after}
   */
   readonly after?: GatewayPluginUpstreamTimeoutOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#before GatewayPluginUpstreamTimeout#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#before GatewayPluginUpstreamTimeout#before}
   */
   readonly before?: GatewayPluginUpstreamTimeoutOrderingBefore;
 }
@@ -673,7 +673,7 @@ export interface GatewayPluginUpstreamTimeoutPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -682,11 +682,11 @@ export interface GatewayPluginUpstreamTimeoutPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#name GatewayPluginUpstreamTimeout#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#name GatewayPluginUpstreamTimeout#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#path GatewayPluginUpstreamTimeout#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#path GatewayPluginUpstreamTimeout#path}
   */
   readonly path?: string;
 }
@@ -860,7 +860,7 @@ export class GatewayPluginUpstreamTimeoutPartialsList extends cdktf.ComplexList 
 }
 export interface GatewayPluginUpstreamTimeoutRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,7 +957,7 @@ export class GatewayPluginUpstreamTimeoutRouteOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginUpstreamTimeoutService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#id GatewayPluginUpstreamTimeout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1054,7 +1054,7 @@ export class GatewayPluginUpstreamTimeoutServiceOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout konnect_gateway_plugin_upstream_timeout}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout konnect_gateway_plugin_upstream_timeout}
 */
 export class GatewayPluginUpstreamTimeout extends cdktf.TerraformResource {
 
@@ -1070,7 +1070,7 @@ export class GatewayPluginUpstreamTimeout extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginUpstreamTimeout resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginUpstreamTimeout to import
-  * @param importFromId The id of the existing GatewayPluginUpstreamTimeout that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginUpstreamTimeout that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginUpstreamTimeout to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1082,7 +1082,7 @@ export class GatewayPluginUpstreamTimeout extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_timeout konnect_gateway_plugin_upstream_timeout} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_timeout konnect_gateway_plugin_upstream_timeout} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1093,8 +1093,8 @@ export class GatewayPluginUpstreamTimeout extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_upstream_timeout',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

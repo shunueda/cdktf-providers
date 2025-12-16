@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRateLimitingAdvancedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#config GatewayPluginRateLimitingAdvanced#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#config GatewayPluginRateLimitingAdvanced#config}
   */
   readonly config: GatewayPluginRateLimitingAdvancedConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#consumer GatewayPluginRateLimitingAdvanced#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#consumer GatewayPluginRateLimitingAdvanced#consumer}
   */
   readonly consumer?: GatewayPluginRateLimitingAdvancedConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#consumer_group GatewayPluginRateLimitingAdvanced#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#consumer_group GatewayPluginRateLimitingAdvanced#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginRateLimitingAdvancedConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#control_plane_id GatewayPluginRateLimitingAdvanced#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#control_plane_id GatewayPluginRateLimitingAdvanced#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#created_at GatewayPluginRateLimitingAdvanced#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#created_at GatewayPluginRateLimitingAdvanced#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#enabled GatewayPluginRateLimitingAdvanced#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#enabled GatewayPluginRateLimitingAdvanced#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginRateLimitingAdvancedConfig extends cdktf.Terraform
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#instance_name GatewayPluginRateLimitingAdvanced#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#instance_name GatewayPluginRateLimitingAdvanced#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#ordering GatewayPluginRateLimitingAdvanced#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#ordering GatewayPluginRateLimitingAdvanced#ordering}
   */
   readonly ordering?: GatewayPluginRateLimitingAdvancedOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#partials GatewayPluginRateLimitingAdvanced#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#partials GatewayPluginRateLimitingAdvanced#partials}
   */
   readonly partials?: GatewayPluginRateLimitingAdvancedPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#protocols GatewayPluginRateLimitingAdvanced#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#protocols GatewayPluginRateLimitingAdvanced#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#route GatewayPluginRateLimitingAdvanced#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#route GatewayPluginRateLimitingAdvanced#route}
   */
   readonly route?: GatewayPluginRateLimitingAdvancedRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#service GatewayPluginRateLimitingAdvanced#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#service GatewayPluginRateLimitingAdvanced#service}
   */
   readonly service?: GatewayPluginRateLimitingAdvancedService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#tags GatewayPluginRateLimitingAdvanced#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#tags GatewayPluginRateLimitingAdvanced#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#updated_at GatewayPluginRateLimitingAdvanced#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#updated_at GatewayPluginRateLimitingAdvanced#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,13 +101,13 @@ export interface GatewayPluginRateLimitingAdvancedConfigRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#ip GatewayPluginRateLimitingAdvanced#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#ip GatewayPluginRateLimitingAdvanced#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#port GatewayPluginRateLimitingAdvanced#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#port GatewayPluginRateLimitingAdvanced#port}
   */
   readonly port?: number;
 }
@@ -254,13 +254,13 @@ export interface GatewayPluginRateLimitingAdvancedConfigRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#host GatewayPluginRateLimitingAdvanced#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#host GatewayPluginRateLimitingAdvanced#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#port GatewayPluginRateLimitingAdvanced#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#port GatewayPluginRateLimitingAdvanced#port}
   */
   readonly port?: number;
 }
@@ -407,133 +407,133 @@ export interface GatewayPluginRateLimitingAdvancedConfigRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#cluster_max_redirections GatewayPluginRateLimitingAdvanced#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#cluster_max_redirections GatewayPluginRateLimitingAdvanced#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#cluster_nodes GatewayPluginRateLimitingAdvanced#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#cluster_nodes GatewayPluginRateLimitingAdvanced#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginRateLimitingAdvancedConfigRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#connect_timeout GatewayPluginRateLimitingAdvanced#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#connect_timeout GatewayPluginRateLimitingAdvanced#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#connection_is_proxied GatewayPluginRateLimitingAdvanced#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#connection_is_proxied GatewayPluginRateLimitingAdvanced#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#database GatewayPluginRateLimitingAdvanced#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#database GatewayPluginRateLimitingAdvanced#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#host GatewayPluginRateLimitingAdvanced#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#host GatewayPluginRateLimitingAdvanced#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#keepalive_backlog GatewayPluginRateLimitingAdvanced#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#keepalive_backlog GatewayPluginRateLimitingAdvanced#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#keepalive_pool_size GatewayPluginRateLimitingAdvanced#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#keepalive_pool_size GatewayPluginRateLimitingAdvanced#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#password GatewayPluginRateLimitingAdvanced#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#password GatewayPluginRateLimitingAdvanced#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#port GatewayPluginRateLimitingAdvanced#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#port GatewayPluginRateLimitingAdvanced#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#read_timeout GatewayPluginRateLimitingAdvanced#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#read_timeout GatewayPluginRateLimitingAdvanced#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * If the `connection_is_proxied` is enabled, this field indicates the proxy type and version you are using. For example, you can enable this optioin when you want authentication between Kong and Envoy proxy. must be "envoy_v1.31"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#redis_proxy_type GatewayPluginRateLimitingAdvanced#redis_proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#redis_proxy_type GatewayPluginRateLimitingAdvanced#redis_proxy_type}
   */
   readonly redisProxyType?: string;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#send_timeout GatewayPluginRateLimitingAdvanced#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#send_timeout GatewayPluginRateLimitingAdvanced#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_master GatewayPluginRateLimitingAdvanced#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_master GatewayPluginRateLimitingAdvanced#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_nodes GatewayPluginRateLimitingAdvanced#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_nodes GatewayPluginRateLimitingAdvanced#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginRateLimitingAdvancedConfigRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_password GatewayPluginRateLimitingAdvanced#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_password GatewayPluginRateLimitingAdvanced#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_role GatewayPluginRateLimitingAdvanced#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_role GatewayPluginRateLimitingAdvanced#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_username GatewayPluginRateLimitingAdvanced#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#sentinel_username GatewayPluginRateLimitingAdvanced#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#server_name GatewayPluginRateLimitingAdvanced#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#server_name GatewayPluginRateLimitingAdvanced#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#ssl GatewayPluginRateLimitingAdvanced#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#ssl GatewayPluginRateLimitingAdvanced#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#ssl_verify GatewayPluginRateLimitingAdvanced#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#ssl_verify GatewayPluginRateLimitingAdvanced#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#username GatewayPluginRateLimitingAdvanced#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#username GatewayPluginRateLimitingAdvanced#username}
   */
   readonly username?: string;
 }
@@ -1238,25 +1238,25 @@ export interface GatewayPluginRateLimitingAdvancedConfigThrottling {
   /**
   * Determines if the throttling feature is enabled or not. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#enabled GatewayPluginRateLimitingAdvanced#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#enabled GatewayPluginRateLimitingAdvanced#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The period between two successive retries for an individual request (in seconds). Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#interval GatewayPluginRateLimitingAdvanced#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#interval GatewayPluginRateLimitingAdvanced#interval}
   */
   readonly interval?: number;
   /**
   * The maximum number of requests allowed for throttling. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#queue_limit GatewayPluginRateLimitingAdvanced#queue_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#queue_limit GatewayPluginRateLimitingAdvanced#queue_limit}
   */
   readonly queueLimit?: number;
   /**
   * The maximum number of retries for an individual request. Default: 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#retry_times GatewayPluginRateLimitingAdvanced#retry_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#retry_times GatewayPluginRateLimitingAdvanced#retry_times}
   */
   readonly retryTimes?: number;
 }
@@ -1439,123 +1439,123 @@ export interface GatewayPluginRateLimitingAdvancedConfigA {
   /**
   * Similar to `identifer`, but supports combining multiple items. The priority of `compound_identifier` is higher than `identifier`, which means if `compound_identifer` is set, it will be used, otherwise `identifier` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#compound_identifier GatewayPluginRateLimitingAdvanced#compound_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#compound_identifier GatewayPluginRateLimitingAdvanced#compound_identifier}
   */
   readonly compoundIdentifier?: string[];
   /**
   * List of consumer groups allowed to override the rate limiting settings for the given Route or Service. Required if `enforce_consumer_groups` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#consumer_groups GatewayPluginRateLimitingAdvanced#consumer_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#consumer_groups GatewayPluginRateLimitingAdvanced#consumer_groups}
   */
   readonly consumerGroups?: string[];
   /**
   * The shared dictionary where counters are stored. When the plugin is configured to synchronize counter data externally (that is `config.strategy` is `cluster` or `redis` and `config.sync_rate` isn't `-1`), this dictionary serves as a buffer to populate counters in the data store on each synchronization cycle. Default: "kong_rate_limiting_counters"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#dictionary_name GatewayPluginRateLimitingAdvanced#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#dictionary_name GatewayPluginRateLimitingAdvanced#dictionary_name}
   */
   readonly dictionaryName?: string;
   /**
   * If set to `true`, this doesn't count denied requests (status = `429`). If set to `false`, all requests, including denied ones, are counted. This parameter only affects the `sliding` window_type. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#disable_penalty GatewayPluginRateLimitingAdvanced#disable_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#disable_penalty GatewayPluginRateLimitingAdvanced#disable_penalty}
   */
   readonly disablePenalty?: boolean | cdktf.IResolvable;
   /**
   * Determines if consumer groups are allowed to override the rate limiting settings for the given Route or Service. Flipping `enforce_consumer_groups` from `true` to `false` disables the group override, but does not clear the list of consumer groups. You can then flip `enforce_consumer_groups` to `true` to re-enforce the groups. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#enforce_consumer_groups GatewayPluginRateLimitingAdvanced#enforce_consumer_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#enforce_consumer_groups GatewayPluginRateLimitingAdvanced#enforce_consumer_groups}
   */
   readonly enforceConsumerGroups?: boolean | cdktf.IResolvable;
   /**
   * Set a custom error code to return when the rate limit is exceeded. Default: 429
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#error_code GatewayPluginRateLimitingAdvanced#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#error_code GatewayPluginRateLimitingAdvanced#error_code}
   */
   readonly errorCode?: number;
   /**
   * Set a custom error message to return when the rate limit is exceeded. Default: "API rate limit exceeded"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#error_message GatewayPluginRateLimitingAdvanced#error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#error_message GatewayPluginRateLimitingAdvanced#error_message}
   */
   readonly errorMessage?: string;
   /**
   * A string representing an HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#header_name GatewayPluginRateLimitingAdvanced#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#header_name GatewayPluginRateLimitingAdvanced#header_name}
   */
   readonly headerName?: string;
   /**
   * Optionally hide informative response headers that would otherwise provide information about the current status of limits and counters. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#hide_client_headers GatewayPluginRateLimitingAdvanced#hide_client_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#hide_client_headers GatewayPluginRateLimitingAdvanced#hide_client_headers}
   */
   readonly hideClientHeaders?: boolean | cdktf.IResolvable;
   /**
   * The type of identifier used to generate the rate limit key. Defines the scope used to increment the rate limiting counters. Can be `ip`, `credential`, `consumer`, `service`, `header`, `path` or `consumer-group`. Note if `identifier` is `consumer-group`, the plugin must be applied on a consumer group entity. Because a consumer may belong to multiple consumer groups, the plugin needs to know explicitly which consumer group to limit the rate. Default: "consumer"; must be one of ["consumer", "consumer-group", "credential", "header", "ip", "path", "service"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#identifier GatewayPluginRateLimitingAdvanced#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#identifier GatewayPluginRateLimitingAdvanced#identifier}
   */
   readonly identifier?: string;
   /**
   * One or more requests-per-window limits to apply. There must be a matching number of window limits and sizes specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#limit GatewayPluginRateLimitingAdvanced#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#limit GatewayPluginRateLimitingAdvanced#limit}
   */
   readonly limit: number[];
   /**
   * The shared dictionary where concurrency control locks are stored. The default shared dictionary is `kong_locks`. The shared dictionary should be declare in nginx-kong.conf. Default: "kong_locks"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#lock_dictionary_name GatewayPluginRateLimitingAdvanced#lock_dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#lock_dictionary_name GatewayPluginRateLimitingAdvanced#lock_dictionary_name}
   */
   readonly lockDictionaryName?: string;
   /**
   * The rate limiting library namespace to use for this plugin instance. Counter data and sync configuration is isolated in each namespace. NOTE: For the plugin instances sharing the same namespace, all the configurations that are required for synchronizing counters, e.g. `strategy`, `redis`, `sync_rate`, `dictionary_name`, need to be the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#namespace GatewayPluginRateLimitingAdvanced#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#namespace GatewayPluginRateLimitingAdvanced#namespace}
   */
   readonly namespace?: string;
   /**
   * A string representing a URL path, such as /path/to/resource. Must start with a forward slash (/) and must not contain empty segments (i.e., two consecutive forward slashes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#path GatewayPluginRateLimitingAdvanced#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#path GatewayPluginRateLimitingAdvanced#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#redis GatewayPluginRateLimitingAdvanced#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#redis GatewayPluginRateLimitingAdvanced#redis}
   */
   readonly redis?: GatewayPluginRateLimitingAdvancedConfigRedis;
   /**
   * The upper bound of a jitter (random delay) in seconds to be added to the `Retry-After` header of denied requests (status = `429`) in order to prevent all the clients from coming back at the same time. The lower bound of the jitter is `0`; in this case, the `Retry-After` header is equal to the `RateLimit-Reset` header. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#retry_after_jitter_max GatewayPluginRateLimitingAdvanced#retry_after_jitter_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#retry_after_jitter_max GatewayPluginRateLimitingAdvanced#retry_after_jitter_max}
   */
   readonly retryAfterJitterMax?: number;
   /**
   * The rate-limiting strategy to use for retrieving and incrementing the limits. Available values are: `local` and `cluster`. Default: "local"; must be one of ["cluster", "local", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#strategy GatewayPluginRateLimitingAdvanced#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#strategy GatewayPluginRateLimitingAdvanced#strategy}
   */
   readonly strategy?: string;
   /**
   * How often to sync counter data to the central data store. A value of 0 results in synchronous behavior; a value of -1 ignores sync behavior entirely and only stores counters in node memory. A value greater than 0 will sync the counters in the specified number of seconds. The minimum allowed interval is 0.02 seconds (20ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#sync_rate GatewayPluginRateLimitingAdvanced#sync_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#sync_rate GatewayPluginRateLimitingAdvanced#sync_rate}
   */
   readonly syncRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#throttling GatewayPluginRateLimitingAdvanced#throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#throttling GatewayPluginRateLimitingAdvanced#throttling}
   */
   readonly throttling?: GatewayPluginRateLimitingAdvancedConfigThrottling;
   /**
   * One or more window sizes to apply a limit to (defined in seconds). There must be a matching number of window limits and sizes specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#window_size GatewayPluginRateLimitingAdvanced#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#window_size GatewayPluginRateLimitingAdvanced#window_size}
   */
   readonly windowSize: number[];
   /**
   * Sets the time window type to either `sliding` (default) or `fixed`. Sliding windows apply the rate limiting logic while taking into account previous hit rates (from the window that immediately precedes the current) using a dynamic weight. Fixed windows consist of buckets that are statically assigned to a definitive time range, each request is mapped to only one fixed window based on its timestamp and will affect only that window's counters. Default: "sliding"; must be one of ["fixed", "sliding"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#window_type GatewayPluginRateLimitingAdvanced#window_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#window_type GatewayPluginRateLimitingAdvanced#window_type}
   */
   readonly windowType?: string;
 }
@@ -2223,7 +2223,7 @@ export class GatewayPluginRateLimitingAdvancedConfigAOutputReference extends cdk
 }
 export interface GatewayPluginRateLimitingAdvancedConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2320,7 +2320,7 @@ export class GatewayPluginRateLimitingAdvancedConsumerOutputReference extends cd
 }
 export interface GatewayPluginRateLimitingAdvancedConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2417,7 +2417,7 @@ export class GatewayPluginRateLimitingAdvancedConsumerGroupOutputReference exten
 }
 export interface GatewayPluginRateLimitingAdvancedOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#access GatewayPluginRateLimitingAdvanced#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#access GatewayPluginRateLimitingAdvanced#access}
   */
   readonly access?: string[];
 }
@@ -2511,7 +2511,7 @@ export class GatewayPluginRateLimitingAdvancedOrderingAfterOutputReference exten
 }
 export interface GatewayPluginRateLimitingAdvancedOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#access GatewayPluginRateLimitingAdvanced#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#access GatewayPluginRateLimitingAdvanced#access}
   */
   readonly access?: string[];
 }
@@ -2605,11 +2605,11 @@ export class GatewayPluginRateLimitingAdvancedOrderingBeforeOutputReference exte
 }
 export interface GatewayPluginRateLimitingAdvancedOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#after GatewayPluginRateLimitingAdvanced#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#after GatewayPluginRateLimitingAdvanced#after}
   */
   readonly after?: GatewayPluginRateLimitingAdvancedOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#before GatewayPluginRateLimitingAdvanced#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#before GatewayPluginRateLimitingAdvanced#before}
   */
   readonly before?: GatewayPluginRateLimitingAdvancedOrderingBefore;
 }
@@ -2734,7 +2734,7 @@ export interface GatewayPluginRateLimitingAdvancedPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2743,11 +2743,11 @@ export interface GatewayPluginRateLimitingAdvancedPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#name GatewayPluginRateLimitingAdvanced#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#name GatewayPluginRateLimitingAdvanced#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#path GatewayPluginRateLimitingAdvanced#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#path GatewayPluginRateLimitingAdvanced#path}
   */
   readonly path?: string;
 }
@@ -2921,7 +2921,7 @@ export class GatewayPluginRateLimitingAdvancedPartialsList extends cdktf.Complex
 }
 export interface GatewayPluginRateLimitingAdvancedRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3018,7 +3018,7 @@ export class GatewayPluginRateLimitingAdvancedRouteOutputReference extends cdktf
 }
 export interface GatewayPluginRateLimitingAdvancedService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#id GatewayPluginRateLimitingAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3115,7 +3115,7 @@ export class GatewayPluginRateLimitingAdvancedServiceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced konnect_gateway_plugin_rate_limiting_advanced}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced konnect_gateway_plugin_rate_limiting_advanced}
 */
 export class GatewayPluginRateLimitingAdvanced extends cdktf.TerraformResource {
 
@@ -3131,7 +3131,7 @@ export class GatewayPluginRateLimitingAdvanced extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginRateLimitingAdvanced resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRateLimitingAdvanced to import
-  * @param importFromId The id of the existing GatewayPluginRateLimitingAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRateLimitingAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRateLimitingAdvanced to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3143,7 +3143,7 @@ export class GatewayPluginRateLimitingAdvanced extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_rate_limiting_advanced konnect_gateway_plugin_rate_limiting_advanced} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_rate_limiting_advanced konnect_gateway_plugin_rate_limiting_advanced} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3154,8 +3154,8 @@ export class GatewayPluginRateLimitingAdvanced extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_rate_limiting_advanced',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

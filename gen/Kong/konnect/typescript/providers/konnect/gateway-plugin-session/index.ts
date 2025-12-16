@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginSessionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#config GatewayPluginSession#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#config GatewayPluginSession#config}
   */
   readonly config?: GatewayPluginSessionConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#control_plane_id GatewayPluginSession#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#control_plane_id GatewayPluginSession#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#created_at GatewayPluginSession#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#created_at GatewayPluginSession#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#enabled GatewayPluginSession#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#enabled GatewayPluginSession#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginSessionConfig extends cdktf.TerraformMetaArguments
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#instance_name GatewayPluginSession#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#instance_name GatewayPluginSession#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#ordering GatewayPluginSession#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#ordering GatewayPluginSession#ordering}
   */
   readonly ordering?: GatewayPluginSessionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#partials GatewayPluginSession#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#partials GatewayPluginSession#partials}
   */
   readonly partials?: GatewayPluginSessionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#protocols GatewayPluginSession#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#protocols GatewayPluginSession#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#route GatewayPluginSession#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#route GatewayPluginSession#route}
   */
   readonly route?: GatewayPluginSessionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#service GatewayPluginSession#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#service GatewayPluginSession#service}
   */
   readonly service?: GatewayPluginSessionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#tags GatewayPluginSession#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#tags GatewayPluginSession#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#updated_at GatewayPluginSession#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#updated_at GatewayPluginSession#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,157 +89,157 @@ export interface GatewayPluginSessionConfigA {
   /**
   * The session cookie absolute timeout, in seconds. Specifies how long the session can be used until it is no longer valid. Default: 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#absolute_timeout GatewayPluginSession#absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#absolute_timeout GatewayPluginSession#absolute_timeout}
   */
   readonly absoluteTimeout?: number;
   /**
   * The session audience, which is the intended target application. For example `"my-application"`. Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#audience GatewayPluginSession#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#audience GatewayPluginSession#audience}
   */
   readonly audience?: string;
   /**
   * Bind the session to data acquired from the HTTP request or connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#bind GatewayPluginSession#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#bind GatewayPluginSession#bind}
   */
   readonly bind?: string[];
   /**
   * The domain with which the cookie is intended to be exchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#cookie_domain GatewayPluginSession#cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#cookie_domain GatewayPluginSession#cookie_domain}
   */
   readonly cookieDomain?: string;
   /**
   * Applies the `HttpOnly` tag so that the cookie is sent only to a server. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#cookie_http_only GatewayPluginSession#cookie_http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#cookie_http_only GatewayPluginSession#cookie_http_only}
   */
   readonly cookieHttpOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of the cookie. Default: "session"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#cookie_name GatewayPluginSession#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#cookie_name GatewayPluginSession#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The resource in the host where the cookie is available. Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#cookie_path GatewayPluginSession#cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#cookie_path GatewayPluginSession#cookie_path}
   */
   readonly cookiePath?: string;
   /**
   * Determines whether and how a cookie may be sent with cross-site requests. Default: "Strict"; must be one of ["Default", "Lax", "None", "Strict"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#cookie_same_site GatewayPluginSession#cookie_same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#cookie_same_site GatewayPluginSession#cookie_same_site}
   */
   readonly cookieSameSite?: string;
   /**
   * Applies the Secure directive so that the cookie may be sent to the server only with an encrypted request over the HTTPS protocol. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#cookie_secure GatewayPluginSession#cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#cookie_secure GatewayPluginSession#cookie_secure}
   */
   readonly cookieSecure?: boolean | cdktf.IResolvable;
   /**
   * Whether to hash or not the subject when store_metadata is enabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#hash_subject GatewayPluginSession#hash_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#hash_subject GatewayPluginSession#hash_subject}
   */
   readonly hashSubject?: boolean | cdktf.IResolvable;
   /**
   * The session cookie idle time, in seconds. Default: 900
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#idling_timeout GatewayPluginSession#idling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#idling_timeout GatewayPluginSession#idling_timeout}
   */
   readonly idlingTimeout?: number;
   /**
   * A set of HTTP methods that the plugin will respond to. Default: ["DELETE","POST"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#logout_methods GatewayPluginSession#logout_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#logout_methods GatewayPluginSession#logout_methods}
   */
   readonly logoutMethods?: string[];
   /**
   * The POST argument passed to logout requests. Do not change this property. Default: "session_logout"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#logout_post_arg GatewayPluginSession#logout_post_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#logout_post_arg GatewayPluginSession#logout_post_arg}
   */
   readonly logoutPostArg?: string;
   /**
   * The query argument passed to logout requests. Default: "session_logout"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#logout_query_arg GatewayPluginSession#logout_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#logout_query_arg GatewayPluginSession#logout_query_arg}
   */
   readonly logoutQueryArg?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#read_body_for_logout GatewayPluginSession#read_body_for_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#read_body_for_logout GatewayPluginSession#read_body_for_logout}
   */
   readonly readBodyForLogout?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables persistent sessions. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#remember GatewayPluginSession#remember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#remember GatewayPluginSession#remember}
   */
   readonly remember?: boolean | cdktf.IResolvable;
   /**
   * The persistent session absolute timeout limit, in seconds. Default: 2592000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#remember_absolute_timeout GatewayPluginSession#remember_absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#remember_absolute_timeout GatewayPluginSession#remember_absolute_timeout}
   */
   readonly rememberAbsoluteTimeout?: number;
   /**
   * Persistent session cookie name. Use with the `remember` configuration parameter. Default: "remember"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#remember_cookie_name GatewayPluginSession#remember_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#remember_cookie_name GatewayPluginSession#remember_cookie_name}
   */
   readonly rememberCookieName?: string;
   /**
   * The persistent session rolling timeout window, in seconds. Default: 604800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#remember_rolling_timeout GatewayPluginSession#remember_rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#remember_rolling_timeout GatewayPluginSession#remember_rolling_timeout}
   */
   readonly rememberRollingTimeout?: number;
   /**
   * List of information to include, as headers, in the response to the downstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#request_headers GatewayPluginSession#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#request_headers GatewayPluginSession#request_headers}
   */
   readonly requestHeaders?: string[];
   /**
   * List of information to include, as headers, in the response to the downstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#response_headers GatewayPluginSession#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#response_headers GatewayPluginSession#response_headers}
   */
   readonly responseHeaders?: string[];
   /**
   * The session cookie rolling timeout, in seconds. Specifies how long the session can be used until it needs to be renewed. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#rolling_timeout GatewayPluginSession#rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#rolling_timeout GatewayPluginSession#rolling_timeout}
   */
   readonly rollingTimeout?: number;
   /**
   * The secret that is used in keyed HMAC generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#secret GatewayPluginSession#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#secret GatewayPluginSession#secret}
   */
   readonly secret?: string;
   /**
   * The duration, in seconds, after which an old cookie is discarded, starting from the moment when the session becomes outdated and is replaced by a new one. Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#stale_ttl GatewayPluginSession#stale_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#stale_ttl GatewayPluginSession#stale_ttl}
   */
   readonly staleTtl?: number;
   /**
   * Determines where the session data is stored. `kong`: Stores encrypted session data into Kong's current database strategy; the cookie will not contain any session data. `cookie`: Stores encrypted session data within the cookie itself. Default: "cookie"; must be one of ["cookie", "kong"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#storage GatewayPluginSession#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#storage GatewayPluginSession#storage}
   */
   readonly storage?: string;
   /**
   * Whether to also store metadata of sessions, such as collecting data of sessions for a specific audience belonging to a specific subject. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#store_metadata GatewayPluginSession#store_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#store_metadata GatewayPluginSession#store_metadata}
   */
   readonly storeMetadata?: boolean | cdktf.IResolvable;
 }
@@ -1058,7 +1058,7 @@ export class GatewayPluginSessionConfigAOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginSessionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#access GatewayPluginSession#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#access GatewayPluginSession#access}
   */
   readonly access?: string[];
 }
@@ -1152,7 +1152,7 @@ export class GatewayPluginSessionOrderingAfterOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginSessionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#access GatewayPluginSession#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#access GatewayPluginSession#access}
   */
   readonly access?: string[];
 }
@@ -1246,11 +1246,11 @@ export class GatewayPluginSessionOrderingBeforeOutputReference extends cdktf.Com
 }
 export interface GatewayPluginSessionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#after GatewayPluginSession#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#after GatewayPluginSession#after}
   */
   readonly after?: GatewayPluginSessionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#before GatewayPluginSession#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#before GatewayPluginSession#before}
   */
   readonly before?: GatewayPluginSessionOrderingBefore;
 }
@@ -1375,7 +1375,7 @@ export interface GatewayPluginSessionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1384,11 +1384,11 @@ export interface GatewayPluginSessionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#name GatewayPluginSession#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#name GatewayPluginSession#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#path GatewayPluginSession#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#path GatewayPluginSession#path}
   */
   readonly path?: string;
 }
@@ -1562,7 +1562,7 @@ export class GatewayPluginSessionPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginSessionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1659,7 +1659,7 @@ export class GatewayPluginSessionRouteOutputReference extends cdktf.ComplexObjec
 }
 export interface GatewayPluginSessionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#id GatewayPluginSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1756,7 +1756,7 @@ export class GatewayPluginSessionServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session konnect_gateway_plugin_session}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session konnect_gateway_plugin_session}
 */
 export class GatewayPluginSession extends cdktf.TerraformResource {
 
@@ -1772,7 +1772,7 @@ export class GatewayPluginSession extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginSession to import
-  * @param importFromId The id of the existing GatewayPluginSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1784,7 +1784,7 @@ export class GatewayPluginSession extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_session konnect_gateway_plugin_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_session konnect_gateway_plugin_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1795,8 +1795,8 @@ export class GatewayPluginSession extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_session',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudGatewayNetworkConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of availability zones that the network is attached to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network#availability_zones CloudGatewayNetwork#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network#availability_zones CloudGatewayNetwork#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
   * CIDR block configuration for the network. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network#cidr_block CloudGatewayNetwork#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network#cidr_block CloudGatewayNetwork#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network#cloud_gateway_provider_account_id CloudGatewayNetwork#cloud_gateway_provider_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network#cloud_gateway_provider_account_id CloudGatewayNetwork#cloud_gateway_provider_account_id}
   */
   readonly cloudGatewayProviderAccountId: string;
   /**
   * Human-readable name of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network#name CloudGatewayNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network#name CloudGatewayNetwork#name}
   */
   readonly name: string;
   /**
   * Region ID for cloud provider region. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network#region CloudGatewayNetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network#region CloudGatewayNetwork#region}
   */
   readonly region: string;
 }
@@ -99,7 +99,7 @@ export class CloudGatewayNetworkProviderMetadataOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network konnect_cloud_gateway_network}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network konnect_cloud_gateway_network}
 */
 export class CloudGatewayNetwork extends cdktf.TerraformResource {
 
@@ -115,7 +115,7 @@ export class CloudGatewayNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGatewayNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGatewayNetwork to import
-  * @param importFromId The id of the existing CloudGatewayNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGatewayNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGatewayNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -127,7 +127,7 @@ export class CloudGatewayNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_network konnect_cloud_gateway_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_network konnect_cloud_gateway_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,8 +138,8 @@ export class CloudGatewayNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_cloud_gateway_network',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

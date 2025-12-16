@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PortalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the portal supports developer authentication. If disabled, developers cannot register for accounts or create applications. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#authentication_enabled Portal#authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#authentication_enabled Portal#authentication_enabled}
   */
   readonly authenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether requests from applications to register for APIs will be automatically approved, or if they will be set to pending until approved by an admin. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#auto_approve_applications Portal#auto_approve_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#auto_approve_applications Portal#auto_approve_applications}
   */
   readonly autoApproveApplications?: boolean | cdktf.IResolvable;
   /**
   * Whether developer account registrations will be automatically approved, or if they will be set to pending until approved by an admin. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#auto_approve_developers Portal#auto_approve_developers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#auto_approve_developers Portal#auto_approve_developers}
   */
   readonly autoApproveDevelopers?: boolean | cdktf.IResolvable;
   /**
   * The default visibility of APIs in the portal. If set to `public`, newly published APIs are visible to unauthenticated developers. If set to `private`, newly published APIs are hidden from unauthenticated developers. must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#default_api_visibility Portal#default_api_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#default_api_visibility Portal#default_api_visibility}
   */
   readonly defaultApiVisibility?: string;
   /**
   * The default authentication strategy for APIs published to the portal. Newly published APIs will use this authentication strategy unless overridden during publication. If set to `null`, API publications will not use an authentication strategy unless set during publication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#default_application_auth_strategy_id Portal#default_application_auth_strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#default_application_auth_strategy_id Portal#default_application_auth_strategy_id}
   */
   readonly defaultApplicationAuthStrategyId?: string;
   /**
   * The default visibility of pages in the portal. If set to `public`, newly created pages are visible to unauthenticated developers. If set to `private`, newly created pages are hidden from unauthenticated developers. must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#default_page_visibility Portal#default_page_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#default_page_visibility Portal#default_page_visibility}
   */
   readonly defaultPageVisibility?: string;
   /**
   * A description of the portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#description Portal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#description Portal#description}
   */
   readonly description?: string;
   /**
   * The display name of the portal. This value will be the portal's `name` in Portal API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#display_name Portal#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#display_name Portal#display_name}
   */
   readonly displayName?: string;
   /**
@@ -61,7 +61,7 @@ export interface PortalConfig extends cdktf.TerraformMetaArguments {
   * This will IRREVERSIBLY DELETE ALL REGISTERED DEVELOPERS AND THEIR CREDENTIALS. Only set to "true" if you want this behavior.
   * Default: "false"; must be one of ["true", "false"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#force_destroy Portal#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#force_destroy Portal#force_destroy}
   */
   readonly forceDestroy?: string;
   /**
@@ -71,25 +71,25 @@ export interface PortalConfig extends cdktf.TerraformMetaArguments {
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#labels Portal#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#labels Portal#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the portal, used to distinguish it from other portals. Name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#name Portal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#name Portal#name}
   */
   readonly name: string;
   /**
   * Whether the portal resources are protected by Role Based Access Control (RBAC). If enabled, developers view or register for APIs until unless assigned to teams with access to view and consume specific APIs. Authentication must be enabled to use RBAC. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#rbac_enabled Portal#rbac_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#rbac_enabled Portal#rbac_enabled}
   */
   readonly rbacEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal konnect_portal}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal konnect_portal}
 */
 export class Portal extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class Portal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Portal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Portal to import
-  * @param importFromId The id of the existing Portal that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Portal that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Portal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class Portal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal konnect_portal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal konnect_portal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class Portal extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

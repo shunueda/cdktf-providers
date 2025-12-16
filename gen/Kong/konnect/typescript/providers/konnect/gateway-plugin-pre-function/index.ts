@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginPreFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#config GatewayPluginPreFunction#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#config GatewayPluginPreFunction#config}
   */
   readonly config?: GatewayPluginPreFunctionConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#control_plane_id GatewayPluginPreFunction#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#control_plane_id GatewayPluginPreFunction#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#created_at GatewayPluginPreFunction#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#created_at GatewayPluginPreFunction#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#enabled GatewayPluginPreFunction#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#enabled GatewayPluginPreFunction#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginPreFunctionConfig extends cdktf.TerraformMetaArgum
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#instance_name GatewayPluginPreFunction#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#instance_name GatewayPluginPreFunction#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#ordering GatewayPluginPreFunction#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#ordering GatewayPluginPreFunction#ordering}
   */
   readonly ordering?: GatewayPluginPreFunctionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#partials GatewayPluginPreFunction#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#partials GatewayPluginPreFunction#partials}
   */
   readonly partials?: GatewayPluginPreFunctionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#protocols GatewayPluginPreFunction#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#protocols GatewayPluginPreFunction#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#route GatewayPluginPreFunction#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#route GatewayPluginPreFunction#route}
   */
   readonly route?: GatewayPluginPreFunctionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#service GatewayPluginPreFunction#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#service GatewayPluginPreFunction#service}
   */
   readonly service?: GatewayPluginPreFunctionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#tags GatewayPluginPreFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#tags GatewayPluginPreFunction#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#updated_at GatewayPluginPreFunction#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#updated_at GatewayPluginPreFunction#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,61 +89,61 @@ export interface GatewayPluginPreFunctionConfigA {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#access GatewayPluginPreFunction#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#access GatewayPluginPreFunction#access}
   */
   readonly access?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#body_filter GatewayPluginPreFunction#body_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#body_filter GatewayPluginPreFunction#body_filter}
   */
   readonly bodyFilter?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#certificate GatewayPluginPreFunction#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#certificate GatewayPluginPreFunction#certificate}
   */
   readonly certificate?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#header_filter GatewayPluginPreFunction#header_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#header_filter GatewayPluginPreFunction#header_filter}
   */
   readonly headerFilter?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#log GatewayPluginPreFunction#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#log GatewayPluginPreFunction#log}
   */
   readonly log?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#rewrite GatewayPluginPreFunction#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#rewrite GatewayPluginPreFunction#rewrite}
   */
   readonly rewrite?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#ws_client_frame GatewayPluginPreFunction#ws_client_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#ws_client_frame GatewayPluginPreFunction#ws_client_frame}
   */
   readonly wsClientFrame?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#ws_close GatewayPluginPreFunction#ws_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#ws_close GatewayPluginPreFunction#ws_close}
   */
   readonly wsClose?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#ws_handshake GatewayPluginPreFunction#ws_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#ws_handshake GatewayPluginPreFunction#ws_handshake}
   */
   readonly wsHandshake?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#ws_upstream_frame GatewayPluginPreFunction#ws_upstream_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#ws_upstream_frame GatewayPluginPreFunction#ws_upstream_frame}
   */
   readonly wsUpstreamFrame?: string[];
 }
@@ -498,7 +498,7 @@ export class GatewayPluginPreFunctionConfigAOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginPreFunctionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#access GatewayPluginPreFunction#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#access GatewayPluginPreFunction#access}
   */
   readonly access?: string[];
 }
@@ -592,7 +592,7 @@ export class GatewayPluginPreFunctionOrderingAfterOutputReference extends cdktf.
 }
 export interface GatewayPluginPreFunctionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#access GatewayPluginPreFunction#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#access GatewayPluginPreFunction#access}
   */
   readonly access?: string[];
 }
@@ -686,11 +686,11 @@ export class GatewayPluginPreFunctionOrderingBeforeOutputReference extends cdktf
 }
 export interface GatewayPluginPreFunctionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#after GatewayPluginPreFunction#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#after GatewayPluginPreFunction#after}
   */
   readonly after?: GatewayPluginPreFunctionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#before GatewayPluginPreFunction#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#before GatewayPluginPreFunction#before}
   */
   readonly before?: GatewayPluginPreFunctionOrderingBefore;
 }
@@ -815,7 +815,7 @@ export interface GatewayPluginPreFunctionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -824,11 +824,11 @@ export interface GatewayPluginPreFunctionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#name GatewayPluginPreFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#name GatewayPluginPreFunction#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#path GatewayPluginPreFunction#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#path GatewayPluginPreFunction#path}
   */
   readonly path?: string;
 }
@@ -1002,7 +1002,7 @@ export class GatewayPluginPreFunctionPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginPreFunctionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1099,7 +1099,7 @@ export class GatewayPluginPreFunctionRouteOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginPreFunctionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#id GatewayPluginPreFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1196,7 +1196,7 @@ export class GatewayPluginPreFunctionServiceOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function konnect_gateway_plugin_pre_function}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function konnect_gateway_plugin_pre_function}
 */
 export class GatewayPluginPreFunction extends cdktf.TerraformResource {
 
@@ -1212,7 +1212,7 @@ export class GatewayPluginPreFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginPreFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginPreFunction to import
-  * @param importFromId The id of the existing GatewayPluginPreFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginPreFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginPreFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1224,7 +1224,7 @@ export class GatewayPluginPreFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_pre_function konnect_gateway_plugin_pre_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_pre_function konnect_gateway_plugin_pre_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1235,8 +1235,8 @@ export class GatewayPluginPreFunction extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_pre_function',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

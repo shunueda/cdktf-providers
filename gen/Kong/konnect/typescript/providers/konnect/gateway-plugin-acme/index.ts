@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAcmeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#config GatewayPluginAcme#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#config GatewayPluginAcme#config}
   */
   readonly config: GatewayPluginAcmeConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#control_plane_id GatewayPluginAcme#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#control_plane_id GatewayPluginAcme#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#created_at GatewayPluginAcme#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#created_at GatewayPluginAcme#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#enabled GatewayPluginAcme#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#enabled GatewayPluginAcme#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#id GatewayPluginAcme#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#id GatewayPluginAcme#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,35 +41,35 @@ export interface GatewayPluginAcmeConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#instance_name GatewayPluginAcme#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#instance_name GatewayPluginAcme#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#ordering GatewayPluginAcme#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#ordering GatewayPluginAcme#ordering}
   */
   readonly ordering?: GatewayPluginAcmeOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#partials GatewayPluginAcme#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#partials GatewayPluginAcme#partials}
   */
   readonly partials?: GatewayPluginAcmePartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#protocols GatewayPluginAcme#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#protocols GatewayPluginAcme#protocols}
   */
   readonly protocols?: string[];
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#tags GatewayPluginAcme#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#tags GatewayPluginAcme#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#updated_at GatewayPluginAcme#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#updated_at GatewayPluginAcme#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -77,13 +77,13 @@ export interface GatewayPluginAcmeConfigAccountKey {
   /**
   * The Key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#key_id GatewayPluginAcme#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#key_id GatewayPluginAcme#key_id}
   */
   readonly keyId: string;
   /**
   * The ID of the key set to associate the Key ID with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#key_set GatewayPluginAcme#key_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#key_set GatewayPluginAcme#key_set}
   */
   readonly keySet?: string;
 }
@@ -205,37 +205,37 @@ export interface GatewayPluginAcmeConfigStorageConfigConsul {
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#host GatewayPluginAcme#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#host GatewayPluginAcme#host}
   */
   readonly host?: string;
   /**
   * Boolean representation of https. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#https GatewayPluginAcme#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#https GatewayPluginAcme#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * KV prefix path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#kv_path GatewayPluginAcme#kv_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#kv_path GatewayPluginAcme#kv_path}
   */
   readonly kvPath?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#port GatewayPluginAcme#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#port GatewayPluginAcme#port}
   */
   readonly port?: number;
   /**
   * Timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#timeout GatewayPluginAcme#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#timeout GatewayPluginAcme#timeout}
   */
   readonly timeout?: number;
   /**
   * Consul ACL token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#token GatewayPluginAcme#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#token GatewayPluginAcme#token}
   */
   readonly token?: string;
 }
@@ -476,13 +476,13 @@ export interface GatewayPluginAcmeConfigStorageConfigRedisExtraOptions {
   /**
   * A namespace to prepend to all keys stored in Redis. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#namespace GatewayPluginAcme#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#namespace GatewayPluginAcme#namespace}
   */
   readonly namespace?: string;
   /**
   * The number of keys to return in Redis SCAN calls. Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#scan_count GatewayPluginAcme#scan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#scan_count GatewayPluginAcme#scan_count}
   */
   readonly scanCount?: number;
 }
@@ -607,61 +607,61 @@ export interface GatewayPluginAcmeConfigStorageConfigRedis {
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#database GatewayPluginAcme#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#database GatewayPluginAcme#database}
   */
   readonly database?: number;
   /**
   * Custom ACME Redis options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#extra_options GatewayPluginAcme#extra_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#extra_options GatewayPluginAcme#extra_options}
   */
   readonly extraOptions?: GatewayPluginAcmeConfigStorageConfigRedisExtraOptions;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#host GatewayPluginAcme#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#host GatewayPluginAcme#host}
   */
   readonly host?: string;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#password GatewayPluginAcme#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#password GatewayPluginAcme#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#port GatewayPluginAcme#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#port GatewayPluginAcme#port}
   */
   readonly port?: number;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#server_name GatewayPluginAcme#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#server_name GatewayPluginAcme#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#ssl GatewayPluginAcme#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#ssl GatewayPluginAcme#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#ssl_verify GatewayPluginAcme#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#ssl_verify GatewayPluginAcme#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#timeout GatewayPluginAcme#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#timeout GatewayPluginAcme#timeout}
   */
   readonly timeout?: number;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#username GatewayPluginAcme#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#username GatewayPluginAcme#username}
   */
   readonly username?: string;
 }
@@ -1018,7 +1018,7 @@ export interface GatewayPluginAcmeConfigStorageConfigShm {
   /**
   * Name of shared memory zone used for Kong API gateway storage. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#shm_name GatewayPluginAcme#shm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#shm_name GatewayPluginAcme#shm_name}
   */
   readonly shmName?: string;
 }
@@ -1114,73 +1114,73 @@ export interface GatewayPluginAcmeConfigStorageConfigVault {
   /**
   * Auth Method, default to token, can be 'token' or 'kubernetes'. Default: "token"; must be one of ["kubernetes", "token"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#auth_method GatewayPluginAcme#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#auth_method GatewayPluginAcme#auth_method}
   */
   readonly authMethod?: string;
   /**
   * Vault's authentication path to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#auth_path GatewayPluginAcme#auth_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#auth_path GatewayPluginAcme#auth_path}
   */
   readonly authPath?: string;
   /**
   * The role to try and assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#auth_role GatewayPluginAcme#auth_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#auth_role GatewayPluginAcme#auth_role}
   */
   readonly authRole?: string;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#host GatewayPluginAcme#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#host GatewayPluginAcme#host}
   */
   readonly host?: string;
   /**
   * Boolean representation of https. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#https GatewayPluginAcme#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#https GatewayPluginAcme#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * The path to the JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#jwt_path GatewayPluginAcme#jwt_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#jwt_path GatewayPluginAcme#jwt_path}
   */
   readonly jwtPath?: string;
   /**
   * KV prefix path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#kv_path GatewayPluginAcme#kv_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#kv_path GatewayPluginAcme#kv_path}
   */
   readonly kvPath?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#port GatewayPluginAcme#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#port GatewayPluginAcme#port}
   */
   readonly port?: number;
   /**
   * Timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#timeout GatewayPluginAcme#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#timeout GatewayPluginAcme#timeout}
   */
   readonly timeout?: number;
   /**
   * SNI used in request, default to host if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#tls_server_name GatewayPluginAcme#tls_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#tls_server_name GatewayPluginAcme#tls_server_name}
   */
   readonly tlsServerName?: string;
   /**
   * Turn on TLS verification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#tls_verify GatewayPluginAcme#tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#tls_verify GatewayPluginAcme#tls_verify}
   */
   readonly tlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Consul ACL token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#token GatewayPluginAcme#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#token GatewayPluginAcme#token}
   */
   readonly token?: string;
 }
@@ -1593,23 +1593,23 @@ export class GatewayPluginAcmeConfigStorageConfigVaultOutputReference extends cd
 }
 export interface GatewayPluginAcmeConfigStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#consul GatewayPluginAcme#consul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#consul GatewayPluginAcme#consul}
   */
   readonly consul?: GatewayPluginAcmeConfigStorageConfigConsul;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#kong GatewayPluginAcme#kong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#kong GatewayPluginAcme#kong}
   */
   readonly kong?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#redis GatewayPluginAcme#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#redis GatewayPluginAcme#redis}
   */
   readonly redis?: GatewayPluginAcmeConfigStorageConfigRedis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#shm GatewayPluginAcme#shm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#shm GatewayPluginAcme#shm}
   */
   readonly shm?: GatewayPluginAcmeConfigStorageConfigShm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#vault GatewayPluginAcme#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#vault GatewayPluginAcme#vault}
   */
   readonly vault?: GatewayPluginAcmeConfigStorageConfigVault;
 }
@@ -1821,55 +1821,55 @@ export interface GatewayPluginAcmeConfigA {
   /**
   * The account identifier. Can be reused in a different plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#account_email GatewayPluginAcme#account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#account_email GatewayPluginAcme#account_email}
   */
   readonly accountEmail: string;
   /**
   * The private key associated with the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#account_key GatewayPluginAcme#account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#account_key GatewayPluginAcme#account_key}
   */
   readonly accountKey?: GatewayPluginAcmeConfigAccountKey;
   /**
   * If set to `true`, the plugin allows all domains and ignores any values in the `domains` list. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#allow_any_domain GatewayPluginAcme#allow_any_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#allow_any_domain GatewayPluginAcme#allow_any_domain}
   */
   readonly allowAnyDomain?: boolean | cdktf.IResolvable;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search. Default: "https://acme-v02.api.letsencrypt.org/directory"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#api_uri GatewayPluginAcme#api_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#api_uri GatewayPluginAcme#api_uri}
   */
   readonly apiUri?: string;
   /**
   * The certificate type to create. The possible values are `rsa` for RSA certificate or `ecc` for EC certificate. Default: "rsa"; must be one of ["ecc", "rsa"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#cert_type GatewayPluginAcme#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#cert_type GatewayPluginAcme#cert_type}
   */
   readonly certType?: string;
   /**
   * An array of strings representing hosts. A valid host is a string containing one or more labels separated by periods, with at most one wildcard label ('*')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#domains GatewayPluginAcme#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#domains GatewayPluginAcme#domains}
   */
   readonly domains?: string[];
   /**
   * External account binding (EAB) base64-encoded URL string of the HMAC key. You usually don't need to set this unless it is explicitly required by the CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#eab_hmac_key GatewayPluginAcme#eab_hmac_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#eab_hmac_key GatewayPluginAcme#eab_hmac_key}
   */
   readonly eabHmacKey?: string;
   /**
   * External account binding (EAB) key id. You usually don't need to set this unless it is explicitly required by the CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#eab_kid GatewayPluginAcme#eab_kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#eab_kid GatewayPluginAcme#eab_kid}
   */
   readonly eabKid?: string;
   /**
   * A boolean value that controls whether to include the IPv4 address in the common name field of generated certificates. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#enable_ipv4_common_name GatewayPluginAcme#enable_ipv4_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#enable_ipv4_common_name GatewayPluginAcme#enable_ipv4_common_name}
   */
   readonly enableIpv4CommonName?: boolean | cdktf.IResolvable;
   /**
@@ -1877,41 +1877,41 @@ export interface GatewayPluginAcmeConfigA {
   * new certificate and a renewal certificate.
   * Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#fail_backoff_minutes GatewayPluginAcme#fail_backoff_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#fail_backoff_minutes GatewayPluginAcme#fail_backoff_minutes}
   */
   readonly failBackoffMinutes?: number;
   /**
   * A string value that specifies the preferred certificate chain to use when generating certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#preferred_chain GatewayPluginAcme#preferred_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#preferred_chain GatewayPluginAcme#preferred_chain}
   */
   readonly preferredChain?: string;
   /**
   * Days remaining to renew the certificate before it expires. Default: 14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#renew_threshold_days GatewayPluginAcme#renew_threshold_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#renew_threshold_days GatewayPluginAcme#renew_threshold_days}
   */
   readonly renewThresholdDays?: number;
   /**
   * RSA private key size for the certificate. The possible values are 2048, 3072, or 4096. Default: 4096; must be one of ["2048", "3072", "4096"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#rsa_key_size GatewayPluginAcme#rsa_key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#rsa_key_size GatewayPluginAcme#rsa_key_size}
   */
   readonly rsaKeySize?: number;
   /**
   * The backend storage type to use. In DB-less mode and Konnect, `kong` storage is unavailable. In hybrid mode and Konnect, `shm` storage is unavailable. `shm` storage does not persist during Kong restarts and does not work for Kong running on different machines, so consider using one of `kong`, `redis`, `consul`, or `vault` in production. Default: "shm"; must be one of ["consul", "kong", "redis", "shm", "vault"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#storage GatewayPluginAcme#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#storage GatewayPluginAcme#storage}
   */
   readonly storage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#storage_config GatewayPluginAcme#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#storage_config GatewayPluginAcme#storage_config}
   */
   readonly storageConfig?: GatewayPluginAcmeConfigStorageConfig;
   /**
   * If you are using Let's Encrypt, you must set this to `true` to agree the terms of service. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#tos_accepted GatewayPluginAcme#tos_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#tos_accepted GatewayPluginAcme#tos_accepted}
   */
   readonly tosAccepted?: boolean | cdktf.IResolvable;
 }
@@ -2437,7 +2437,7 @@ export class GatewayPluginAcmeConfigAOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginAcmeOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#access GatewayPluginAcme#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#access GatewayPluginAcme#access}
   */
   readonly access?: string[];
 }
@@ -2531,7 +2531,7 @@ export class GatewayPluginAcmeOrderingAfterOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginAcmeOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#access GatewayPluginAcme#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#access GatewayPluginAcme#access}
   */
   readonly access?: string[];
 }
@@ -2625,11 +2625,11 @@ export class GatewayPluginAcmeOrderingBeforeOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginAcmeOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#after GatewayPluginAcme#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#after GatewayPluginAcme#after}
   */
   readonly after?: GatewayPluginAcmeOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#before GatewayPluginAcme#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#before GatewayPluginAcme#before}
   */
   readonly before?: GatewayPluginAcmeOrderingBefore;
 }
@@ -2754,7 +2754,7 @@ export interface GatewayPluginAcmePartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#id GatewayPluginAcme#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#id GatewayPluginAcme#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2763,11 +2763,11 @@ export interface GatewayPluginAcmePartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#name GatewayPluginAcme#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#name GatewayPluginAcme#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#path GatewayPluginAcme#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#path GatewayPluginAcme#path}
   */
   readonly path?: string;
 }
@@ -2941,7 +2941,7 @@ export class GatewayPluginAcmePartialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme konnect_gateway_plugin_acme}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme konnect_gateway_plugin_acme}
 */
 export class GatewayPluginAcme extends cdktf.TerraformResource {
 
@@ -2957,7 +2957,7 @@ export class GatewayPluginAcme extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAcme resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAcme to import
-  * @param importFromId The id of the existing GatewayPluginAcme that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAcme that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAcme to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2969,7 +2969,7 @@ export class GatewayPluginAcme extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_acme konnect_gateway_plugin_acme} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_acme konnect_gateway_plugin_acme} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2980,8 +2980,8 @@ export class GatewayPluginAcme extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_acme',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

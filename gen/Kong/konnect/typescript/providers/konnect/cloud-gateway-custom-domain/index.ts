@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudGatewayCustomDomainConfig extends cdktf.TerraformMetaArgum
   /**
   * Set of control-plane geos supported for deploying cloud-gateways configurations. must be one of ["us", "eu", "au", "me", "in", "sg"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain#control_plane_geo CloudGatewayCustomDomain#control_plane_geo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain#control_plane_geo CloudGatewayCustomDomain#control_plane_geo}
   */
   readonly controlPlaneGeo: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain#control_plane_id CloudGatewayCustomDomain#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain#control_plane_id CloudGatewayCustomDomain#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Domain name of the custom domain. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain#domain CloudGatewayCustomDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain#domain CloudGatewayCustomDomain#domain}
   */
   readonly domain: string;
 }
@@ -87,7 +87,7 @@ export class CloudGatewayCustomDomainStateMetadataOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain konnect_cloud_gateway_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain konnect_cloud_gateway_custom_domain}
 */
 export class CloudGatewayCustomDomain extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class CloudGatewayCustomDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGatewayCustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGatewayCustomDomain to import
-  * @param importFromId The id of the existing CloudGatewayCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGatewayCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGatewayCustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class CloudGatewayCustomDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_custom_domain konnect_cloud_gateway_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_custom_domain konnect_cloud_gateway_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class CloudGatewayCustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_cloud_gateway_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiPromptDecoratorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#config GatewayPluginAiPromptDecorator#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#config GatewayPluginAiPromptDecorator#config}
   */
   readonly config?: GatewayPluginAiPromptDecoratorConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#consumer GatewayPluginAiPromptDecorator#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#consumer GatewayPluginAiPromptDecorator#consumer}
   */
   readonly consumer?: GatewayPluginAiPromptDecoratorConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#consumer_group GatewayPluginAiPromptDecorator#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#consumer_group GatewayPluginAiPromptDecorator#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiPromptDecoratorConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#control_plane_id GatewayPluginAiPromptDecorator#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#control_plane_id GatewayPluginAiPromptDecorator#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#created_at GatewayPluginAiPromptDecorator#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#created_at GatewayPluginAiPromptDecorator#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#enabled GatewayPluginAiPromptDecorator#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#enabled GatewayPluginAiPromptDecorator#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiPromptDecoratorConfig extends cdktf.TerraformMet
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#instance_name GatewayPluginAiPromptDecorator#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#instance_name GatewayPluginAiPromptDecorator#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#ordering GatewayPluginAiPromptDecorator#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#ordering GatewayPluginAiPromptDecorator#ordering}
   */
   readonly ordering?: GatewayPluginAiPromptDecoratorOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#partials GatewayPluginAiPromptDecorator#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#partials GatewayPluginAiPromptDecorator#partials}
   */
   readonly partials?: GatewayPluginAiPromptDecoratorPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#protocols GatewayPluginAiPromptDecorator#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#protocols GatewayPluginAiPromptDecorator#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#route GatewayPluginAiPromptDecorator#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#route GatewayPluginAiPromptDecorator#route}
   */
   readonly route?: GatewayPluginAiPromptDecoratorRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#service GatewayPluginAiPromptDecorator#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#service GatewayPluginAiPromptDecorator#service}
   */
   readonly service?: GatewayPluginAiPromptDecoratorService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#tags GatewayPluginAiPromptDecorator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#tags GatewayPluginAiPromptDecorator#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#updated_at GatewayPluginAiPromptDecorator#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#updated_at GatewayPluginAiPromptDecorator#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,13 +101,13 @@ export interface GatewayPluginAiPromptDecoratorConfigPromptsAppend {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#content GatewayPluginAiPromptDecorator#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#content GatewayPluginAiPromptDecorator#content}
   */
   readonly content?: string;
   /**
   * Default: "system"; must be one of ["assistant", "system", "user"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#role GatewayPluginAiPromptDecorator#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#role GatewayPluginAiPromptDecorator#role}
   */
   readonly role?: string;
 }
@@ -254,13 +254,13 @@ export interface GatewayPluginAiPromptDecoratorConfigPromptsPrepend {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#content GatewayPluginAiPromptDecorator#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#content GatewayPluginAiPromptDecorator#content}
   */
   readonly content?: string;
   /**
   * Default: "system"; must be one of ["assistant", "system", "user"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#role GatewayPluginAiPromptDecorator#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#role GatewayPluginAiPromptDecorator#role}
   */
   readonly role?: string;
 }
@@ -407,13 +407,13 @@ export interface GatewayPluginAiPromptDecoratorConfigPrompts {
   /**
   * Insert chat messages at the end of the chat message array. This array preserves exact order when adding messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#append GatewayPluginAiPromptDecorator#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#append GatewayPluginAiPromptDecorator#append}
   */
   readonly append?: GatewayPluginAiPromptDecoratorConfigPromptsAppend[] | cdktf.IResolvable;
   /**
   * Insert chat messages at the beginning of the chat message array. This array preserves exact order when adding messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#prepend GatewayPluginAiPromptDecorator#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#prepend GatewayPluginAiPromptDecorator#prepend}
   */
   readonly prepend?: GatewayPluginAiPromptDecoratorConfigPromptsPrepend[] | cdktf.IResolvable;
 }
@@ -538,17 +538,17 @@ export interface GatewayPluginAiPromptDecoratorConfigA {
   /**
   * LLM input and output format and schema to use. Default: "openai"; must be one of ["bedrock", "cohere", "gemini", "huggingface", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#llm_format GatewayPluginAiPromptDecorator#llm_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#llm_format GatewayPluginAiPromptDecorator#llm_format}
   */
   readonly llmFormat?: string;
   /**
   * max allowed body size allowed to be introspected. 0 means unlimited, but the size of this body will still be limited by Nginx's client_max_body_size. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#max_request_body_size GatewayPluginAiPromptDecorator#max_request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#max_request_body_size GatewayPluginAiPromptDecorator#max_request_body_size}
   */
   readonly maxRequestBodySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#prompts GatewayPluginAiPromptDecorator#prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#prompts GatewayPluginAiPromptDecorator#prompts}
   */
   readonly prompts?: GatewayPluginAiPromptDecoratorConfigPrompts;
 }
@@ -700,7 +700,7 @@ export class GatewayPluginAiPromptDecoratorConfigAOutputReference extends cdktf.
 }
 export interface GatewayPluginAiPromptDecoratorConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -797,7 +797,7 @@ export class GatewayPluginAiPromptDecoratorConsumerOutputReference extends cdktf
 }
 export interface GatewayPluginAiPromptDecoratorConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -894,7 +894,7 @@ export class GatewayPluginAiPromptDecoratorConsumerGroupOutputReference extends 
 }
 export interface GatewayPluginAiPromptDecoratorOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#access GatewayPluginAiPromptDecorator#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#access GatewayPluginAiPromptDecorator#access}
   */
   readonly access?: string[];
 }
@@ -988,7 +988,7 @@ export class GatewayPluginAiPromptDecoratorOrderingAfterOutputReference extends 
 }
 export interface GatewayPluginAiPromptDecoratorOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#access GatewayPluginAiPromptDecorator#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#access GatewayPluginAiPromptDecorator#access}
   */
   readonly access?: string[];
 }
@@ -1082,11 +1082,11 @@ export class GatewayPluginAiPromptDecoratorOrderingBeforeOutputReference extends
 }
 export interface GatewayPluginAiPromptDecoratorOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#after GatewayPluginAiPromptDecorator#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#after GatewayPluginAiPromptDecorator#after}
   */
   readonly after?: GatewayPluginAiPromptDecoratorOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#before GatewayPluginAiPromptDecorator#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#before GatewayPluginAiPromptDecorator#before}
   */
   readonly before?: GatewayPluginAiPromptDecoratorOrderingBefore;
 }
@@ -1211,7 +1211,7 @@ export interface GatewayPluginAiPromptDecoratorPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1220,11 +1220,11 @@ export interface GatewayPluginAiPromptDecoratorPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#name GatewayPluginAiPromptDecorator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#name GatewayPluginAiPromptDecorator#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#path GatewayPluginAiPromptDecorator#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#path GatewayPluginAiPromptDecorator#path}
   */
   readonly path?: string;
 }
@@ -1398,7 +1398,7 @@ export class GatewayPluginAiPromptDecoratorPartialsList extends cdktf.ComplexLis
 }
 export interface GatewayPluginAiPromptDecoratorRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1495,7 +1495,7 @@ export class GatewayPluginAiPromptDecoratorRouteOutputReference extends cdktf.Co
 }
 export interface GatewayPluginAiPromptDecoratorService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#id GatewayPluginAiPromptDecorator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1592,7 +1592,7 @@ export class GatewayPluginAiPromptDecoratorServiceOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator konnect_gateway_plugin_ai_prompt_decorator}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator konnect_gateway_plugin_ai_prompt_decorator}
 */
 export class GatewayPluginAiPromptDecorator extends cdktf.TerraformResource {
 
@@ -1608,7 +1608,7 @@ export class GatewayPluginAiPromptDecorator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiPromptDecorator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiPromptDecorator to import
-  * @param importFromId The id of the existing GatewayPluginAiPromptDecorator that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiPromptDecorator that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiPromptDecorator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1620,7 +1620,7 @@ export class GatewayPluginAiPromptDecorator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_decorator konnect_gateway_plugin_ai_prompt_decorator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_decorator konnect_gateway_plugin_ai_prompt_decorator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1631,8 +1631,8 @@ export class GatewayPluginAiPromptDecorator extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_prompt_decorator',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

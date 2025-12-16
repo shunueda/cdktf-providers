@@ -1,3 +1,3 @@
 # `data_criblio_global_var`
 
-Refer to the Terraform Registry for docs: [`data_criblio_global_var`](https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/global_var).
+Refer to the Terraform Registry for docs: [`data_criblio_global_var`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/global_var).

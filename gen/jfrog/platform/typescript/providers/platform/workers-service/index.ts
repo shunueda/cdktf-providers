@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface WorkersServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The worker action with which the worker is associated. Valid values: BEFORE_DOWNLOAD, AFTER_DOWNLOAD, BEFORE_UPLOAD, AFTER_CREATE, AFTER_BUILD_INFO_SAVE, AFTER_MOVE, BEFORE_PROPERTY_CREATE, BEFORE_PROPERTY_DELETE, AFTER_PROPERTY_CREATE, AFTER_PROPERTY_DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#action WorkersService#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#action WorkersService#action}
   */
   readonly action: string;
   /**
   * Description of the worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#description WorkersService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#description WorkersService#description}
   */
   readonly description?: string;
   /**
   * Whether to enable the worker immediately after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#enabled WorkersService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#enabled WorkersService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Defines the repositories to be used or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#filter_criteria WorkersService#filter_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#filter_criteria WorkersService#filter_criteria}
   */
   readonly filterCriteria: WorkersServiceFilterCriteria;
   /**
   * The unique ID of the worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#key WorkersService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#key WorkersService#key}
   */
   readonly key: string;
   /**
   * The secrets to be added to the worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#secrets WorkersService#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#secrets WorkersService#secrets}
   */
   readonly secrets?: WorkersServiceSecrets[] | cdktf.IResolvable;
   /**
   * The worker script in TypeScript or JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#source_code WorkersService#source_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#source_code WorkersService#source_code}
   */
   readonly sourceCode: string;
 }
@@ -54,19 +54,19 @@ export interface WorkersServiceFilterCriteriaArtifactFilterCriteria {
   /**
   * Define patterns to for all repository paths for repositories to be excluded in the repoKeys. Defines those repositories that do not trigger the worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#exclude_patterns WorkersService#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#exclude_patterns WorkersService#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * Define patterns to match all repository paths for repositories identified in the repoKeys. Defines those repositories that trigger the worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#include_patterns WorkersService#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#include_patterns WorkersService#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Defines which repositories are used when an action event occurs to trigger the worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#repo_keys WorkersService#repo_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#repo_keys WorkersService#repo_keys}
   */
   readonly repoKeys: string[];
 }
@@ -215,7 +215,7 @@ export class WorkersServiceFilterCriteriaArtifactFilterCriteriaOutputReference e
 }
 export interface WorkersServiceFilterCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#artifact_filter_criteria WorkersService#artifact_filter_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#artifact_filter_criteria WorkersService#artifact_filter_criteria}
   */
   readonly artifactFilterCriteria: WorkersServiceFilterCriteriaArtifactFilterCriteria;
 }
@@ -308,13 +308,13 @@ export interface WorkersServiceSecrets {
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#key WorkersService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#key WorkersService#key}
   */
   readonly key: string;
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#value WorkersService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#value WorkersService#value}
   */
   readonly value: string;
 }
@@ -453,7 +453,7 @@ export class WorkersServiceSecretsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service platform_workers_service}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service platform_workers_service}
 */
 export class WorkersService extends cdktf.TerraformResource {
 
@@ -469,7 +469,7 @@ export class WorkersService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkersService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkersService to import
-  * @param importFromId The id of the existing WorkersService that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkersService that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkersService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class WorkersService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/workers_service platform_workers_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/workers_service platform_workers_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class WorkersService extends cdktf.TerraformResource {
       terraformResourceType: 'platform_workers_service',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

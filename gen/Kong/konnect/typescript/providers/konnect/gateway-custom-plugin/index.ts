@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface GatewayCustomPluginConfig extends cdktf.TerraformMetaArguments 
   /**
   * Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#config GatewayCustomPlugin#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#config GatewayCustomPlugin#config}
   */
   readonly config: { [key: string]: any };
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#consumer GatewayCustomPlugin#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#consumer GatewayCustomPlugin#consumer}
   */
   readonly consumer?: GatewayCustomPluginConsumer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#consumer_group GatewayCustomPlugin#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#consumer_group GatewayCustomPlugin#consumer_group}
   */
   readonly consumerGroup?: GatewayCustomPluginConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#control_plane_id GatewayCustomPlugin#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#control_plane_id GatewayCustomPlugin#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Whether the plugin is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#enabled GatewayCustomPlugin#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#enabled GatewayCustomPlugin#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#instance_name GatewayCustomPlugin#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#instance_name GatewayCustomPlugin#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Plugin Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#name GatewayCustomPlugin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#name GatewayCustomPlugin#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#ordering GatewayCustomPlugin#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#ordering GatewayCustomPlugin#ordering}
   */
   readonly ordering?: GatewayCustomPluginOrdering;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support `"tcp"` and `"tls"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#protocols GatewayCustomPlugin#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#protocols GatewayCustomPlugin#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the Route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#route GatewayCustomPlugin#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#route GatewayCustomPlugin#route}
   */
   readonly route?: GatewayCustomPluginRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#service GatewayCustomPlugin#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#service GatewayCustomPlugin#service}
   */
   readonly service?: GatewayCustomPluginService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#tags GatewayCustomPlugin#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#tags GatewayCustomPlugin#tags}
   */
   readonly tags?: string[];
 }
 export interface GatewayCustomPluginConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ export class GatewayCustomPluginConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayCustomPluginConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -270,7 +270,7 @@ export class GatewayCustomPluginConsumerGroupOutputReference extends cdktf.Compl
 }
 export interface GatewayCustomPluginOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#access GatewayCustomPlugin#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#access GatewayCustomPlugin#access}
   */
   readonly access?: string[];
 }
@@ -364,7 +364,7 @@ export class GatewayCustomPluginOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayCustomPluginOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#access GatewayCustomPlugin#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#access GatewayCustomPlugin#access}
   */
   readonly access?: string[];
 }
@@ -458,11 +458,11 @@ export class GatewayCustomPluginOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayCustomPluginOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#after GatewayCustomPlugin#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#after GatewayCustomPlugin#after}
   */
   readonly after?: GatewayCustomPluginOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#before GatewayCustomPlugin#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#before GatewayCustomPlugin#before}
   */
   readonly before?: GatewayCustomPluginOrderingBefore;
 }
@@ -585,7 +585,7 @@ export class GatewayCustomPluginOrderingOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayCustomPluginRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -682,7 +682,7 @@ export class GatewayCustomPluginRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayCustomPluginService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#id GatewayCustomPlugin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -779,7 +779,7 @@ export class GatewayCustomPluginServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin konnect_gateway_custom_plugin}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin konnect_gateway_custom_plugin}
 */
 export class GatewayCustomPlugin extends cdktf.TerraformResource {
 
@@ -795,7 +795,7 @@ export class GatewayCustomPlugin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayCustomPlugin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayCustomPlugin to import
-  * @param importFromId The id of the existing GatewayCustomPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayCustomPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayCustomPlugin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -807,7 +807,7 @@ export class GatewayCustomPlugin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_custom_plugin konnect_gateway_custom_plugin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_custom_plugin konnect_gateway_custom_plugin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -818,8 +818,8 @@ export class GatewayCustomPlugin extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_custom_plugin',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

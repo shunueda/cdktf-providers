@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginStatsdConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#config GatewayPluginStatsd#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#config GatewayPluginStatsd#config}
   */
   readonly config?: GatewayPluginStatsdConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#consumer GatewayPluginStatsd#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#consumer GatewayPluginStatsd#consumer}
   */
   readonly consumer?: GatewayPluginStatsdConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#control_plane_id GatewayPluginStatsd#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#control_plane_id GatewayPluginStatsd#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#created_at GatewayPluginStatsd#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#created_at GatewayPluginStatsd#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#enabled GatewayPluginStatsd#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#enabled GatewayPluginStatsd#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginStatsdConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#instance_name GatewayPluginStatsd#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#instance_name GatewayPluginStatsd#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#ordering GatewayPluginStatsd#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#ordering GatewayPluginStatsd#ordering}
   */
   readonly ordering?: GatewayPluginStatsdOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#partials GatewayPluginStatsd#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#partials GatewayPluginStatsd#partials}
   */
   readonly partials?: GatewayPluginStatsdPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#protocols GatewayPluginStatsd#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#protocols GatewayPluginStatsd#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#route GatewayPluginStatsd#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#route GatewayPluginStatsd#route}
   */
   readonly route?: GatewayPluginStatsdRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#service GatewayPluginStatsd#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#service GatewayPluginStatsd#service}
   */
   readonly service?: GatewayPluginStatsdService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#tags GatewayPluginStatsd#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#tags GatewayPluginStatsd#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#updated_at GatewayPluginStatsd#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#updated_at GatewayPluginStatsd#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,37 +95,37 @@ export interface GatewayPluginStatsdConfigMetrics {
   /**
   * Authenticated user detail. must be one of ["consumer_id", "custom_id", "username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#consumer_identifier GatewayPluginStatsd#consumer_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#consumer_identifier GatewayPluginStatsd#consumer_identifier}
   */
   readonly consumerIdentifier?: string;
   /**
   * StatsD metric’s name. Not Null; must be one of ["cache_datastore_hits_total", "cache_datastore_misses_total", "kong_latency", "latency", "request_count", "request_per_user", "request_size", "response_size", "shdict_usage", "status_count", "status_count_per_user", "status_count_per_user_per_route", "status_count_per_workspace", "unique_users", "upstream_latency"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#name GatewayPluginStatsd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#name GatewayPluginStatsd#name}
   */
   readonly name?: string;
   /**
   * Sampling rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#sample_rate GatewayPluginStatsd#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#sample_rate GatewayPluginStatsd#sample_rate}
   */
   readonly sampleRate?: number;
   /**
   * Service detail. must be one of ["service_host", "service_id", "service_name", "service_name_or_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#service_identifier GatewayPluginStatsd#service_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#service_identifier GatewayPluginStatsd#service_identifier}
   */
   readonly serviceIdentifier?: string;
   /**
   * Determines what sort of event a metric represents. Not Null; must be one of ["counter", "gauge", "histogram", "meter", "set", "timer"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#stat_type GatewayPluginStatsd#stat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#stat_type GatewayPluginStatsd#stat_type}
   */
   readonly statType?: string;
   /**
   * Workspace detail. must be one of ["workspace_id", "workspace_name"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#workspace_identifier GatewayPluginStatsd#workspace_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#workspace_identifier GatewayPluginStatsd#workspace_identifier}
   */
   readonly workspaceIdentifier?: string;
 }
@@ -388,49 +388,49 @@ export interface GatewayPluginStatsdConfigQueue {
   /**
   * The number of of queue delivery timers. -1 indicates unlimited. Default: 1; must be one of ["-1", "1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#concurrency_limit GatewayPluginStatsd#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#concurrency_limit GatewayPluginStatsd#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Time in seconds before the initial retry is made for a failing batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#initial_retry_delay GatewayPluginStatsd#initial_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#initial_retry_delay GatewayPluginStatsd#initial_retry_delay}
   */
   readonly initialRetryDelay?: number;
   /**
   * Maximum number of entries that can be processed at a time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#max_batch_size GatewayPluginStatsd#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#max_batch_size GatewayPluginStatsd#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Maximum number of bytes that can be waiting on a queue, requires string content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#max_bytes GatewayPluginStatsd#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#max_bytes GatewayPluginStatsd#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum number of (fractional) seconds to elapse after the first entry was queued before the queue starts calling the handler. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#max_coalescing_delay GatewayPluginStatsd#max_coalescing_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#max_coalescing_delay GatewayPluginStatsd#max_coalescing_delay}
   */
   readonly maxCoalescingDelay?: number;
   /**
   * Maximum number of entries that can be waiting on the queue. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#max_entries GatewayPluginStatsd#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#max_entries GatewayPluginStatsd#max_entries}
   */
   readonly maxEntries?: number;
   /**
   * Maximum time in seconds between retries, caps exponential backoff. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#max_retry_delay GatewayPluginStatsd#max_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#max_retry_delay GatewayPluginStatsd#max_retry_delay}
   */
   readonly maxRetryDelay?: number;
   /**
   * Time in seconds before the queue gives up calling a failed handler for a batch. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#max_retry_time GatewayPluginStatsd#max_retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#max_retry_time GatewayPluginStatsd#max_retry_time}
   */
   readonly maxRetryTime?: number;
 }
@@ -729,89 +729,89 @@ export interface GatewayPluginStatsdConfigA {
   /**
   * List of status code ranges that are allowed to be logged in metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#allow_status_codes GatewayPluginStatsd#allow_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#allow_status_codes GatewayPluginStatsd#allow_status_codes}
   */
   readonly allowStatusCodes?: string[];
   /**
   * Default: "custom_id"; must be one of ["consumer_id", "custom_id", "username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#consumer_identifier_default GatewayPluginStatsd#consumer_identifier_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#consumer_identifier_default GatewayPluginStatsd#consumer_identifier_default}
   */
   readonly consumerIdentifierDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#flush_timeout GatewayPluginStatsd#flush_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#flush_timeout GatewayPluginStatsd#flush_timeout}
   */
   readonly flushTimeout?: number;
   /**
   * The IP address or hostname of StatsD server to send data to. Default: "localhost"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#host GatewayPluginStatsd#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#host GatewayPluginStatsd#host}
   */
   readonly host?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#hostname_in_prefix GatewayPluginStatsd#hostname_in_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#hostname_in_prefix GatewayPluginStatsd#hostname_in_prefix}
   */
   readonly hostnameInPrefix?: boolean | cdktf.IResolvable;
   /**
   * List of metrics to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#metrics GatewayPluginStatsd#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#metrics GatewayPluginStatsd#metrics}
   */
   readonly metrics?: GatewayPluginStatsdConfigMetrics[] | cdktf.IResolvable;
   /**
   * The port of StatsD server to send data to. Default: 8125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#port GatewayPluginStatsd#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#port GatewayPluginStatsd#port}
   */
   readonly port?: number;
   /**
   * String to prefix to each metric's name. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#prefix GatewayPluginStatsd#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#prefix GatewayPluginStatsd#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#queue GatewayPluginStatsd#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#queue GatewayPluginStatsd#queue}
   */
   readonly queue?: GatewayPluginStatsdConfigQueue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#queue_size GatewayPluginStatsd#queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#queue_size GatewayPluginStatsd#queue_size}
   */
   readonly queueSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#retry_count GatewayPluginStatsd#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#retry_count GatewayPluginStatsd#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Default: "service_name_or_host"; must be one of ["service_host", "service_id", "service_name", "service_name_or_host"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#service_identifier_default GatewayPluginStatsd#service_identifier_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#service_identifier_default GatewayPluginStatsd#service_identifier_default}
   */
   readonly serviceIdentifierDefault?: string;
   /**
   * must be one of ["dogstatsd", "influxdb", "librato", "signalfx"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#tag_style GatewayPluginStatsd#tag_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#tag_style GatewayPluginStatsd#tag_style}
   */
   readonly tagStyle?: string;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#udp_packet_size GatewayPluginStatsd#udp_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#udp_packet_size GatewayPluginStatsd#udp_packet_size}
   */
   readonly udpPacketSize?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#use_tcp GatewayPluginStatsd#use_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#use_tcp GatewayPluginStatsd#use_tcp}
   */
   readonly useTcp?: boolean | cdktf.IResolvable;
   /**
   * Default: "workspace_id"; must be one of ["workspace_id", "workspace_name"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#workspace_identifier_default GatewayPluginStatsd#workspace_identifier_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#workspace_identifier_default GatewayPluginStatsd#workspace_identifier_default}
   */
   readonly workspaceIdentifierDefault?: string;
 }
@@ -1340,7 +1340,7 @@ export class GatewayPluginStatsdConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginStatsdConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1437,7 +1437,7 @@ export class GatewayPluginStatsdConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginStatsdOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#access GatewayPluginStatsd#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#access GatewayPluginStatsd#access}
   */
   readonly access?: string[];
 }
@@ -1531,7 +1531,7 @@ export class GatewayPluginStatsdOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginStatsdOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#access GatewayPluginStatsd#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#access GatewayPluginStatsd#access}
   */
   readonly access?: string[];
 }
@@ -1625,11 +1625,11 @@ export class GatewayPluginStatsdOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginStatsdOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#after GatewayPluginStatsd#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#after GatewayPluginStatsd#after}
   */
   readonly after?: GatewayPluginStatsdOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#before GatewayPluginStatsd#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#before GatewayPluginStatsd#before}
   */
   readonly before?: GatewayPluginStatsdOrderingBefore;
 }
@@ -1754,7 +1754,7 @@ export interface GatewayPluginStatsdPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1763,11 +1763,11 @@ export interface GatewayPluginStatsdPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#name GatewayPluginStatsd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#name GatewayPluginStatsd#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#path GatewayPluginStatsd#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#path GatewayPluginStatsd#path}
   */
   readonly path?: string;
 }
@@ -1941,7 +1941,7 @@ export class GatewayPluginStatsdPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginStatsdRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2038,7 +2038,7 @@ export class GatewayPluginStatsdRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginStatsdService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#id GatewayPluginStatsd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2135,7 +2135,7 @@ export class GatewayPluginStatsdServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd konnect_gateway_plugin_statsd}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd konnect_gateway_plugin_statsd}
 */
 export class GatewayPluginStatsd extends cdktf.TerraformResource {
 
@@ -2151,7 +2151,7 @@ export class GatewayPluginStatsd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginStatsd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginStatsd to import
-  * @param importFromId The id of the existing GatewayPluginStatsd that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginStatsd that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginStatsd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2163,7 +2163,7 @@ export class GatewayPluginStatsd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_statsd konnect_gateway_plugin_statsd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_statsd konnect_gateway_plugin_statsd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2174,8 +2174,8 @@ export class GatewayPluginStatsd extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_statsd',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

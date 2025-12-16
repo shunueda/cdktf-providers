@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginBasicAuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#config GatewayPluginBasicAuth#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#config GatewayPluginBasicAuth#config}
   */
   readonly config?: GatewayPluginBasicAuthConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#control_plane_id GatewayPluginBasicAuth#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#control_plane_id GatewayPluginBasicAuth#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#created_at GatewayPluginBasicAuth#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#created_at GatewayPluginBasicAuth#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#enabled GatewayPluginBasicAuth#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#enabled GatewayPluginBasicAuth#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginBasicAuthConfig extends cdktf.TerraformMetaArgumen
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#instance_name GatewayPluginBasicAuth#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#instance_name GatewayPluginBasicAuth#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#ordering GatewayPluginBasicAuth#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#ordering GatewayPluginBasicAuth#ordering}
   */
   readonly ordering?: GatewayPluginBasicAuthOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#partials GatewayPluginBasicAuth#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#partials GatewayPluginBasicAuth#partials}
   */
   readonly partials?: GatewayPluginBasicAuthPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpc","grpcs","http","https","ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#protocols GatewayPluginBasicAuth#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#protocols GatewayPluginBasicAuth#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#route GatewayPluginBasicAuth#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#route GatewayPluginBasicAuth#route}
   */
   readonly route?: GatewayPluginBasicAuthRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#service GatewayPluginBasicAuth#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#service GatewayPluginBasicAuth#service}
   */
   readonly service?: GatewayPluginBasicAuthService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#tags GatewayPluginBasicAuth#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#tags GatewayPluginBasicAuth#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#updated_at GatewayPluginBasicAuth#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#updated_at GatewayPluginBasicAuth#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,19 +89,19 @@ export interface GatewayPluginBasicAuthConfigA {
   /**
   * An optional string (Consumer UUID or username) value to use as an “anonymous” consumer if authentication fails. If empty (default null), the request will fail with an authentication failure `4xx`. Please note that this value must refer to the Consumer `id` or `username` attribute, and **not** its `custom_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#anonymous GatewayPluginBasicAuth#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#anonymous GatewayPluginBasicAuth#anonymous}
   */
   readonly anonymous?: string;
   /**
   * An optional boolean value telling the plugin to show or hide the credential from the upstream service. If `true`, the plugin will strip the credential from the request (i.e. the `Authorization` header) before proxying it. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#hide_credentials GatewayPluginBasicAuth#hide_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#hide_credentials GatewayPluginBasicAuth#hide_credentials}
   */
   readonly hideCredentials?: boolean | cdktf.IResolvable;
   /**
   * When authentication fails the plugin sends `WWW-Authenticate` header with `realm` attribute value. Default: "service"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#realm GatewayPluginBasicAuth#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#realm GatewayPluginBasicAuth#realm}
   */
   readonly realm?: string;
 }
@@ -253,7 +253,7 @@ export class GatewayPluginBasicAuthConfigAOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginBasicAuthOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#access GatewayPluginBasicAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#access GatewayPluginBasicAuth#access}
   */
   readonly access?: string[];
 }
@@ -347,7 +347,7 @@ export class GatewayPluginBasicAuthOrderingAfterOutputReference extends cdktf.Co
 }
 export interface GatewayPluginBasicAuthOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#access GatewayPluginBasicAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#access GatewayPluginBasicAuth#access}
   */
   readonly access?: string[];
 }
@@ -441,11 +441,11 @@ export class GatewayPluginBasicAuthOrderingBeforeOutputReference extends cdktf.C
 }
 export interface GatewayPluginBasicAuthOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#after GatewayPluginBasicAuth#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#after GatewayPluginBasicAuth#after}
   */
   readonly after?: GatewayPluginBasicAuthOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#before GatewayPluginBasicAuth#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#before GatewayPluginBasicAuth#before}
   */
   readonly before?: GatewayPluginBasicAuthOrderingBefore;
 }
@@ -570,7 +570,7 @@ export interface GatewayPluginBasicAuthPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -579,11 +579,11 @@ export interface GatewayPluginBasicAuthPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#name GatewayPluginBasicAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#name GatewayPluginBasicAuth#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#path GatewayPluginBasicAuth#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#path GatewayPluginBasicAuth#path}
   */
   readonly path?: string;
 }
@@ -757,7 +757,7 @@ export class GatewayPluginBasicAuthPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginBasicAuthRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -854,7 +854,7 @@ export class GatewayPluginBasicAuthRouteOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginBasicAuthService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#id GatewayPluginBasicAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -951,7 +951,7 @@ export class GatewayPluginBasicAuthServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth konnect_gateway_plugin_basic_auth}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth konnect_gateway_plugin_basic_auth}
 */
 export class GatewayPluginBasicAuth extends cdktf.TerraformResource {
 
@@ -967,7 +967,7 @@ export class GatewayPluginBasicAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginBasicAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginBasicAuth to import
-  * @param importFromId The id of the existing GatewayPluginBasicAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginBasicAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginBasicAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -979,7 +979,7 @@ export class GatewayPluginBasicAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_basic_auth konnect_gateway_plugin_basic_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_basic_auth konnect_gateway_plugin_basic_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -990,8 +990,8 @@ export class GatewayPluginBasicAuth extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_basic_auth',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

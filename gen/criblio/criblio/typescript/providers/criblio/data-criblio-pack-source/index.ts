@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source
+// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioPackSourceConfig extends cdktf.TerraformMetaArgument
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source#group_id DataCriblioPackSource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source#group_id DataCriblioPackSource#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET for pack source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source#id DataCriblioPackSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source#id DataCriblioPackSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataCriblioPackSourceConfig extends cdktf.TerraformMetaArgument
   /**
   * pack ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source#pack DataCriblioPackSource#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source#pack DataCriblioPackSource#pack}
   */
   readonly pack: string;
 }
@@ -412,7 +412,7 @@ export class DataCriblioPackSourceItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source criblio_pack_source}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source criblio_pack_source}
 */
 export class DataCriblioPackSource extends cdktf.TerraformDataSource {
 
@@ -428,7 +428,7 @@ export class DataCriblioPackSource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioPackSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioPackSource to import
-  * @param importFromId The id of the existing DataCriblioPackSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioPackSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioPackSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -440,7 +440,7 @@ export class DataCriblioPackSource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pack_source criblio_pack_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pack_source criblio_pack_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,8 +451,8 @@ export class DataCriblioPackSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_pack_source',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.62',
-        providerVersionConstraint: '1.20.62'
+        providerVersion: '1.20.64',
+        providerVersionConstraint: '1.20.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

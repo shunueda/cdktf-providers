@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginDatadogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#config GatewayPluginDatadog#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#config GatewayPluginDatadog#config}
   */
   readonly config?: GatewayPluginDatadogConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#consumer GatewayPluginDatadog#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#consumer GatewayPluginDatadog#consumer}
   */
   readonly consumer?: GatewayPluginDatadogConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#control_plane_id GatewayPluginDatadog#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#control_plane_id GatewayPluginDatadog#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#created_at GatewayPluginDatadog#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#created_at GatewayPluginDatadog#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#enabled GatewayPluginDatadog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#enabled GatewayPluginDatadog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginDatadogConfig extends cdktf.TerraformMetaArguments
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#instance_name GatewayPluginDatadog#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#instance_name GatewayPluginDatadog#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#ordering GatewayPluginDatadog#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#ordering GatewayPluginDatadog#ordering}
   */
   readonly ordering?: GatewayPluginDatadogOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#partials GatewayPluginDatadog#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#partials GatewayPluginDatadog#partials}
   */
   readonly partials?: GatewayPluginDatadogPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#protocols GatewayPluginDatadog#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#protocols GatewayPluginDatadog#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#route GatewayPluginDatadog#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#route GatewayPluginDatadog#route}
   */
   readonly route?: GatewayPluginDatadogRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#service GatewayPluginDatadog#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#service GatewayPluginDatadog#service}
   */
   readonly service?: GatewayPluginDatadogService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#tags GatewayPluginDatadog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#tags GatewayPluginDatadog#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#updated_at GatewayPluginDatadog#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#updated_at GatewayPluginDatadog#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,31 +95,31 @@ export interface GatewayPluginDatadogConfigMetrics {
   /**
   * Authenticated user detail. must be one of ["consumer_id", "custom_id", "username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#consumer_identifier GatewayPluginDatadog#consumer_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#consumer_identifier GatewayPluginDatadog#consumer_identifier}
   */
   readonly consumerIdentifier?: string;
   /**
   * Datadog metric’s name. Not Null; must be one of ["kong_latency", "latency", "request_count", "request_size", "response_size", "upstream_latency"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#name GatewayPluginDatadog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#name GatewayPluginDatadog#name}
   */
   readonly name?: string;
   /**
   * Sampling rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#sample_rate GatewayPluginDatadog#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#sample_rate GatewayPluginDatadog#sample_rate}
   */
   readonly sampleRate?: number;
   /**
   * Determines what sort of event the metric represents. Not Null; must be one of ["counter", "distribution", "gauge", "histogram", "meter", "set", "timer"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#stat_type GatewayPluginDatadog#stat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#stat_type GatewayPluginDatadog#stat_type}
   */
   readonly statType?: string;
   /**
   * List of tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#tags GatewayPluginDatadog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#tags GatewayPluginDatadog#tags}
   */
   readonly tags?: string[];
 }
@@ -353,49 +353,49 @@ export interface GatewayPluginDatadogConfigQueue {
   /**
   * The number of of queue delivery timers. -1 indicates unlimited. Default: 1; must be one of ["-1", "1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#concurrency_limit GatewayPluginDatadog#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#concurrency_limit GatewayPluginDatadog#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Time in seconds before the initial retry is made for a failing batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#initial_retry_delay GatewayPluginDatadog#initial_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#initial_retry_delay GatewayPluginDatadog#initial_retry_delay}
   */
   readonly initialRetryDelay?: number;
   /**
   * Maximum number of entries that can be processed at a time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#max_batch_size GatewayPluginDatadog#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#max_batch_size GatewayPluginDatadog#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Maximum number of bytes that can be waiting on a queue, requires string content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#max_bytes GatewayPluginDatadog#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#max_bytes GatewayPluginDatadog#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum number of (fractional) seconds to elapse after the first entry was queued before the queue starts calling the handler. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#max_coalescing_delay GatewayPluginDatadog#max_coalescing_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#max_coalescing_delay GatewayPluginDatadog#max_coalescing_delay}
   */
   readonly maxCoalescingDelay?: number;
   /**
   * Maximum number of entries that can be waiting on the queue. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#max_entries GatewayPluginDatadog#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#max_entries GatewayPluginDatadog#max_entries}
   */
   readonly maxEntries?: number;
   /**
   * Maximum time in seconds between retries, caps exponential backoff. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#max_retry_delay GatewayPluginDatadog#max_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#max_retry_delay GatewayPluginDatadog#max_retry_delay}
   */
   readonly maxRetryDelay?: number;
   /**
   * Time in seconds before the queue gives up calling a failed handler for a batch. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#max_retry_time GatewayPluginDatadog#max_retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#max_retry_time GatewayPluginDatadog#max_retry_time}
   */
   readonly maxRetryTime?: number;
 }
@@ -694,65 +694,65 @@ export interface GatewayPluginDatadogConfigA {
   /**
   * String to be attached as tag of the consumer. Default: "consumer"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#consumer_tag GatewayPluginDatadog#consumer_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#consumer_tag GatewayPluginDatadog#consumer_tag}
   */
   readonly consumerTag?: string;
   /**
   * Optional time in seconds. If `queue_size` > 1, this is the max idle time before sending a log with less than `queue_size` records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#flush_timeout GatewayPluginDatadog#flush_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#flush_timeout GatewayPluginDatadog#flush_timeout}
   */
   readonly flushTimeout?: number;
   /**
   * A string representing a host name, such as example.com. Default: "localhost"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#host GatewayPluginDatadog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#host GatewayPluginDatadog#host}
   */
   readonly host?: string;
   /**
   * List of metrics to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#metrics GatewayPluginDatadog#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#metrics GatewayPluginDatadog#metrics}
   */
   readonly metrics?: GatewayPluginDatadogConfigMetrics[] | cdktf.IResolvable;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 8125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#port GatewayPluginDatadog#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#port GatewayPluginDatadog#port}
   */
   readonly port?: number;
   /**
   * String to be attached as a prefix to a metric's name. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#prefix GatewayPluginDatadog#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#prefix GatewayPluginDatadog#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#queue GatewayPluginDatadog#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#queue GatewayPluginDatadog#queue}
   */
   readonly queue?: GatewayPluginDatadogConfigQueue;
   /**
   * Maximum number of log entries to be sent on each message to the upstream server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#queue_size GatewayPluginDatadog#queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#queue_size GatewayPluginDatadog#queue_size}
   */
   readonly queueSize?: number;
   /**
   * Number of times to retry when sending data to the upstream server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#retry_count GatewayPluginDatadog#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#retry_count GatewayPluginDatadog#retry_count}
   */
   readonly retryCount?: number;
   /**
   * String to be attached as the name of the service. Default: "name"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#service_name_tag GatewayPluginDatadog#service_name_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#service_name_tag GatewayPluginDatadog#service_name_tag}
   */
   readonly serviceNameTag?: string;
   /**
   * String to be attached as the tag of the HTTP status. Default: "status"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#status_tag GatewayPluginDatadog#status_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#status_tag GatewayPluginDatadog#status_tag}
   */
   readonly statusTag?: string;
 }
@@ -1136,7 +1136,7 @@ export class GatewayPluginDatadogConfigAOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginDatadogConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1233,7 +1233,7 @@ export class GatewayPluginDatadogConsumerOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginDatadogOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#access GatewayPluginDatadog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#access GatewayPluginDatadog#access}
   */
   readonly access?: string[];
 }
@@ -1327,7 +1327,7 @@ export class GatewayPluginDatadogOrderingAfterOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginDatadogOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#access GatewayPluginDatadog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#access GatewayPluginDatadog#access}
   */
   readonly access?: string[];
 }
@@ -1421,11 +1421,11 @@ export class GatewayPluginDatadogOrderingBeforeOutputReference extends cdktf.Com
 }
 export interface GatewayPluginDatadogOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#after GatewayPluginDatadog#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#after GatewayPluginDatadog#after}
   */
   readonly after?: GatewayPluginDatadogOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#before GatewayPluginDatadog#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#before GatewayPluginDatadog#before}
   */
   readonly before?: GatewayPluginDatadogOrderingBefore;
 }
@@ -1550,7 +1550,7 @@ export interface GatewayPluginDatadogPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1559,11 +1559,11 @@ export interface GatewayPluginDatadogPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#name GatewayPluginDatadog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#name GatewayPluginDatadog#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#path GatewayPluginDatadog#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#path GatewayPluginDatadog#path}
   */
   readonly path?: string;
 }
@@ -1737,7 +1737,7 @@ export class GatewayPluginDatadogPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginDatadogRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1834,7 +1834,7 @@ export class GatewayPluginDatadogRouteOutputReference extends cdktf.ComplexObjec
 }
 export interface GatewayPluginDatadogService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#id GatewayPluginDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1931,7 +1931,7 @@ export class GatewayPluginDatadogServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog konnect_gateway_plugin_datadog}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog konnect_gateway_plugin_datadog}
 */
 export class GatewayPluginDatadog extends cdktf.TerraformResource {
 
@@ -1947,7 +1947,7 @@ export class GatewayPluginDatadog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginDatadog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginDatadog to import
-  * @param importFromId The id of the existing GatewayPluginDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginDatadog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1959,7 +1959,7 @@ export class GatewayPluginDatadog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datadog konnect_gateway_plugin_datadog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datadog konnect_gateway_plugin_datadog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1970,8 +1970,8 @@ export class GatewayPluginDatadog extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_datadog',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

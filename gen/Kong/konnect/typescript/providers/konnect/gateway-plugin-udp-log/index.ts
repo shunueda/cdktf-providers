@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginUdpLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#config GatewayPluginUdpLog#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#config GatewayPluginUdpLog#config}
   */
   readonly config: GatewayPluginUdpLogConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#consumer GatewayPluginUdpLog#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#consumer GatewayPluginUdpLog#consumer}
   */
   readonly consumer?: GatewayPluginUdpLogConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#control_plane_id GatewayPluginUdpLog#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#control_plane_id GatewayPluginUdpLog#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#created_at GatewayPluginUdpLog#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#created_at GatewayPluginUdpLog#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#enabled GatewayPluginUdpLog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#enabled GatewayPluginUdpLog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginUdpLogConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#instance_name GatewayPluginUdpLog#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#instance_name GatewayPluginUdpLog#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#ordering GatewayPluginUdpLog#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#ordering GatewayPluginUdpLog#ordering}
   */
   readonly ordering?: GatewayPluginUdpLogOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#partials GatewayPluginUdpLog#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#partials GatewayPluginUdpLog#partials}
   */
   readonly partials?: GatewayPluginUdpLogPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#protocols GatewayPluginUdpLog#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#protocols GatewayPluginUdpLog#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#route GatewayPluginUdpLog#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#route GatewayPluginUdpLog#route}
   */
   readonly route?: GatewayPluginUdpLogRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#service GatewayPluginUdpLog#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#service GatewayPluginUdpLog#service}
   */
   readonly service?: GatewayPluginUdpLogService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#tags GatewayPluginUdpLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#tags GatewayPluginUdpLog#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#updated_at GatewayPluginUdpLog#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#updated_at GatewayPluginUdpLog#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,25 +95,25 @@ export interface GatewayPluginUdpLogConfigA {
   /**
   * Lua code as a key-value map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#custom_fields_by_lua GatewayPluginUdpLog#custom_fields_by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#custom_fields_by_lua GatewayPluginUdpLog#custom_fields_by_lua}
   */
   readonly customFieldsByLua?: { [key: string]: string };
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#host GatewayPluginUdpLog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#host GatewayPluginUdpLog#host}
   */
   readonly host: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#port GatewayPluginUdpLog#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#port GatewayPluginUdpLog#port}
   */
   readonly port: number;
   /**
   * An optional timeout in milliseconds when sending data to the upstream server. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#timeout GatewayPluginUdpLog#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#timeout GatewayPluginUdpLog#timeout}
   */
   readonly timeout?: number;
 }
@@ -288,7 +288,7 @@ export class GatewayPluginUdpLogConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginUdpLogConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -385,7 +385,7 @@ export class GatewayPluginUdpLogConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginUdpLogOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#access GatewayPluginUdpLog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#access GatewayPluginUdpLog#access}
   */
   readonly access?: string[];
 }
@@ -479,7 +479,7 @@ export class GatewayPluginUdpLogOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginUdpLogOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#access GatewayPluginUdpLog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#access GatewayPluginUdpLog#access}
   */
   readonly access?: string[];
 }
@@ -573,11 +573,11 @@ export class GatewayPluginUdpLogOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginUdpLogOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#after GatewayPluginUdpLog#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#after GatewayPluginUdpLog#after}
   */
   readonly after?: GatewayPluginUdpLogOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#before GatewayPluginUdpLog#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#before GatewayPluginUdpLog#before}
   */
   readonly before?: GatewayPluginUdpLogOrderingBefore;
 }
@@ -702,7 +702,7 @@ export interface GatewayPluginUdpLogPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -711,11 +711,11 @@ export interface GatewayPluginUdpLogPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#name GatewayPluginUdpLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#name GatewayPluginUdpLog#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#path GatewayPluginUdpLog#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#path GatewayPluginUdpLog#path}
   */
   readonly path?: string;
 }
@@ -889,7 +889,7 @@ export class GatewayPluginUdpLogPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginUdpLogRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -986,7 +986,7 @@ export class GatewayPluginUdpLogRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginUdpLogService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#id GatewayPluginUdpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1083,7 +1083,7 @@ export class GatewayPluginUdpLogServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log konnect_gateway_plugin_udp_log}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log konnect_gateway_plugin_udp_log}
 */
 export class GatewayPluginUdpLog extends cdktf.TerraformResource {
 
@@ -1099,7 +1099,7 @@ export class GatewayPluginUdpLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginUdpLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginUdpLog to import
-  * @param importFromId The id of the existing GatewayPluginUdpLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginUdpLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginUdpLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1111,7 +1111,7 @@ export class GatewayPluginUdpLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_udp_log konnect_gateway_plugin_udp_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_udp_log konnect_gateway_plugin_udp_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1122,8 +1122,8 @@ export class GatewayPluginUdpLog extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_udp_log',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

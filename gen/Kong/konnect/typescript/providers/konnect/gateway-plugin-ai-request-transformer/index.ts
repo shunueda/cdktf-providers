@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiRequestTransformerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#config GatewayPluginAiRequestTransformer#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#config GatewayPluginAiRequestTransformer#config}
   */
   readonly config: GatewayPluginAiRequestTransformerConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#consumer_group GatewayPluginAiRequestTransformer#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#consumer_group GatewayPluginAiRequestTransformer#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiRequestTransformerConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#control_plane_id GatewayPluginAiRequestTransformer#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#control_plane_id GatewayPluginAiRequestTransformer#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#created_at GatewayPluginAiRequestTransformer#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#created_at GatewayPluginAiRequestTransformer#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#enabled GatewayPluginAiRequestTransformer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#enabled GatewayPluginAiRequestTransformer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginAiRequestTransformerConfig extends cdktf.Terraform
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#instance_name GatewayPluginAiRequestTransformer#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#instance_name GatewayPluginAiRequestTransformer#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#ordering GatewayPluginAiRequestTransformer#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#ordering GatewayPluginAiRequestTransformer#ordering}
   */
   readonly ordering?: GatewayPluginAiRequestTransformerOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#partials GatewayPluginAiRequestTransformer#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#partials GatewayPluginAiRequestTransformer#partials}
   */
   readonly partials?: GatewayPluginAiRequestTransformerPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#protocols GatewayPluginAiRequestTransformer#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#protocols GatewayPluginAiRequestTransformer#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#route GatewayPluginAiRequestTransformer#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#route GatewayPluginAiRequestTransformer#route}
   */
   readonly route?: GatewayPluginAiRequestTransformerRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#service GatewayPluginAiRequestTransformer#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#service GatewayPluginAiRequestTransformer#service}
   */
   readonly service?: GatewayPluginAiRequestTransformerService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#tags GatewayPluginAiRequestTransformer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#tags GatewayPluginAiRequestTransformer#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#updated_at GatewayPluginAiRequestTransformer#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#updated_at GatewayPluginAiRequestTransformer#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,85 +95,85 @@ export interface GatewayPluginAiRequestTransformerConfigLlmAuth {
   /**
   * If enabled, the authorization header or parameter can be overridden in the request by the value configured in the plugin. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#allow_override GatewayPluginAiRequestTransformer#allow_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#allow_override GatewayPluginAiRequestTransformer#allow_override}
   */
   readonly allowOverride?: boolean | cdktf.IResolvable;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_ACCESS_KEY_ID environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#aws_access_key_id GatewayPluginAiRequestTransformer#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#aws_access_key_id GatewayPluginAiRequestTransformer#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_SECRET_ACCESS_KEY environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#aws_secret_access_key GatewayPluginAiRequestTransformer#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#aws_secret_access_key GatewayPluginAiRequestTransformer#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_client_id GatewayPluginAiRequestTransformer#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_client_id GatewayPluginAiRequestTransformer#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_client_secret GatewayPluginAiRequestTransformer#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_client_secret GatewayPluginAiRequestTransformer#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_tenant_id GatewayPluginAiRequestTransformer#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_tenant_id GatewayPluginAiRequestTransformer#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Set true to use the Azure Cloud Managed Identity (or user-assigned identity) to authenticate with Azure-provider models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_use_managed_identity GatewayPluginAiRequestTransformer#azure_use_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_use_managed_identity GatewayPluginAiRequestTransformer#azure_use_managed_identity}
   */
   readonly azureUseManagedIdentity?: boolean | cdktf.IResolvable;
   /**
   * Set this field to the full JSON of the GCP service account to authenticate, if required. If null (and gcp_use_service_account is true), Kong will attempt to read from environment variable `GCP_SERVICE_ACCOUNT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#gcp_service_account_json GatewayPluginAiRequestTransformer#gcp_service_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#gcp_service_account_json GatewayPluginAiRequestTransformer#gcp_service_account_json}
   */
   readonly gcpServiceAccountJson?: string;
   /**
   * Use service account auth for GCP-based providers and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#gcp_use_service_account GatewayPluginAiRequestTransformer#gcp_use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#gcp_use_service_account GatewayPluginAiRequestTransformer#gcp_use_service_account}
   */
   readonly gcpUseServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * If AI model requires authentication via Authorization or API key header, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#header_name GatewayPluginAiRequestTransformer#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#header_name GatewayPluginAiRequestTransformer#header_name}
   */
   readonly headerName?: string;
   /**
   * Specify the full auth header value for 'header_name', for example 'Bearer key' or just 'key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#header_value GatewayPluginAiRequestTransformer#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#header_value GatewayPluginAiRequestTransformer#header_value}
   */
   readonly headerValue?: string;
   /**
   * Specify whether the 'param_name' and 'param_value' options go in a query string, or the POST form/JSON body. must be one of ["body", "query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#param_location GatewayPluginAiRequestTransformer#param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#param_location GatewayPluginAiRequestTransformer#param_location}
   */
   readonly paramLocation?: string;
   /**
   * If AI model requires authentication via query parameter, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#param_name GatewayPluginAiRequestTransformer#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#param_name GatewayPluginAiRequestTransformer#param_name}
   */
   readonly paramName?: string;
   /**
   * Specify the full parameter value for 'param_name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#param_value GatewayPluginAiRequestTransformer#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#param_value GatewayPluginAiRequestTransformer#param_value}
   */
   readonly paramValue?: string;
 }
@@ -646,13 +646,13 @@ export interface GatewayPluginAiRequestTransformerConfigLlmLogging {
   /**
   * If enabled, will log the request and response body into the Kong log plugin(s) output. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#log_payloads GatewayPluginAiRequestTransformer#log_payloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#log_payloads GatewayPluginAiRequestTransformer#log_payloads}
   */
   readonly logPayloads?: boolean | cdktf.IResolvable;
   /**
   * If enabled and supported by the driver, will add model usage and token metrics into the Kong log plugin(s) output. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#log_statistics GatewayPluginAiRequestTransformer#log_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#log_statistics GatewayPluginAiRequestTransformer#log_statistics}
   */
   readonly logStatistics?: boolean | cdktf.IResolvable;
 }
@@ -777,37 +777,37 @@ export interface GatewayPluginAiRequestTransformerConfigLlmModelOptionsBedrock {
   /**
   * If using AWS providers (Bedrock) you can assume a different role after authentication with the current IAM context is successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#aws_assume_role_arn GatewayPluginAiRequestTransformer#aws_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#aws_assume_role_arn GatewayPluginAiRequestTransformer#aws_assume_role_arn}
   */
   readonly awsAssumeRoleArn?: string;
   /**
   * If using AWS providers (Bedrock) you can override the `AWS_REGION` environment variable by setting this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#aws_region GatewayPluginAiRequestTransformer#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#aws_region GatewayPluginAiRequestTransformer#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * If using AWS providers (Bedrock), set the identifier of the assumed role session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#aws_role_session_name GatewayPluginAiRequestTransformer#aws_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#aws_role_session_name GatewayPluginAiRequestTransformer#aws_role_session_name}
   */
   readonly awsRoleSessionName?: string;
   /**
   * If using AWS providers (Bedrock), override the STS endpoint URL when assuming a different role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#aws_sts_endpoint_url GatewayPluginAiRequestTransformer#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#aws_sts_endpoint_url GatewayPluginAiRequestTransformer#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
   * If using AWS providers (Bedrock), set to true to normalize the embeddings. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#embeddings_normalize GatewayPluginAiRequestTransformer#embeddings_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#embeddings_normalize GatewayPluginAiRequestTransformer#embeddings_normalize}
   */
   readonly embeddingsNormalize?: boolean | cdktf.IResolvable;
   /**
   * Force the client's performance configuration 'latency' for all requests. Leave empty to let the consumer select the performance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#performance_config_latency GatewayPluginAiRequestTransformer#performance_config_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#performance_config_latency GatewayPluginAiRequestTransformer#performance_config_latency}
   */
   readonly performanceConfigLatency?: string;
 }
@@ -1048,13 +1048,13 @@ export interface GatewayPluginAiRequestTransformerConfigLlmModelOptionsCohere {
   /**
   * The purpose of the input text to calculate embedding vectors. Default: "classification"; must be one of ["classification", "clustering", "image", "search_document", "search_query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#embedding_input_type GatewayPluginAiRequestTransformer#embedding_input_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#embedding_input_type GatewayPluginAiRequestTransformer#embedding_input_type}
   */
   readonly embeddingInputType?: string;
   /**
   * Wait for the model if it is not ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#wait_for_model GatewayPluginAiRequestTransformer#wait_for_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#wait_for_model GatewayPluginAiRequestTransformer#wait_for_model}
   */
   readonly waitForModel?: boolean | cdktf.IResolvable;
 }
@@ -1179,25 +1179,25 @@ export interface GatewayPluginAiRequestTransformerConfigLlmModelOptionsGemini {
   /**
   * If running Gemini on Vertex, specify the regional API endpoint (hostname only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#api_endpoint GatewayPluginAiRequestTransformer#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#api_endpoint GatewayPluginAiRequestTransformer#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * If running Gemini on Vertex Model Garden, specify the endpoint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#endpoint_id GatewayPluginAiRequestTransformer#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#endpoint_id GatewayPluginAiRequestTransformer#endpoint_id}
   */
   readonly endpointId?: string;
   /**
   * If running Gemini on Vertex, specify the location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#location_id GatewayPluginAiRequestTransformer#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#location_id GatewayPluginAiRequestTransformer#location_id}
   */
   readonly locationId?: string;
   /**
   * If running Gemini on Vertex, specify the project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#project_id GatewayPluginAiRequestTransformer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#project_id GatewayPluginAiRequestTransformer#project_id}
   */
   readonly projectId?: string;
 }
@@ -1380,13 +1380,13 @@ export interface GatewayPluginAiRequestTransformerConfigLlmModelOptionsHuggingfa
   /**
   * Use the cache layer on the inference API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#use_cache GatewayPluginAiRequestTransformer#use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#use_cache GatewayPluginAiRequestTransformer#use_cache}
   */
   readonly useCache?: boolean | cdktf.IResolvable;
   /**
   * Wait for the model if it is not ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#wait_for_model GatewayPluginAiRequestTransformer#wait_for_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#wait_for_model GatewayPluginAiRequestTransformer#wait_for_model}
   */
   readonly waitForModel?: boolean | cdktf.IResolvable;
 }
@@ -1511,107 +1511,107 @@ export interface GatewayPluginAiRequestTransformerConfigLlmModelOptions {
   /**
   * Defines the schema/API version, if using Anthropic provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#anthropic_version GatewayPluginAiRequestTransformer#anthropic_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#anthropic_version GatewayPluginAiRequestTransformer#anthropic_version}
   */
   readonly anthropicVersion?: string;
   /**
   * 'api-version' for Azure OpenAI instances. Default: "2023-05-15"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_api_version GatewayPluginAiRequestTransformer#azure_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_api_version GatewayPluginAiRequestTransformer#azure_api_version}
   */
   readonly azureApiVersion?: string;
   /**
   * Deployment ID for Azure OpenAI instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_deployment_id GatewayPluginAiRequestTransformer#azure_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_deployment_id GatewayPluginAiRequestTransformer#azure_deployment_id}
   */
   readonly azureDeploymentId?: string;
   /**
   * Instance name for Azure OpenAI hosted models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#azure_instance GatewayPluginAiRequestTransformer#azure_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#azure_instance GatewayPluginAiRequestTransformer#azure_instance}
   */
   readonly azureInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#bedrock GatewayPluginAiRequestTransformer#bedrock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#bedrock GatewayPluginAiRequestTransformer#bedrock}
   */
   readonly bedrock?: GatewayPluginAiRequestTransformerConfigLlmModelOptionsBedrock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#cohere GatewayPluginAiRequestTransformer#cohere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#cohere GatewayPluginAiRequestTransformer#cohere}
   */
   readonly cohere?: GatewayPluginAiRequestTransformerConfigLlmModelOptionsCohere;
   /**
   * If using embeddings models, set the number of dimensions to generate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#embeddings_dimensions GatewayPluginAiRequestTransformer#embeddings_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#embeddings_dimensions GatewayPluginAiRequestTransformer#embeddings_dimensions}
   */
   readonly embeddingsDimensions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#gemini GatewayPluginAiRequestTransformer#gemini}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#gemini GatewayPluginAiRequestTransformer#gemini}
   */
   readonly gemini?: GatewayPluginAiRequestTransformerConfigLlmModelOptionsGemini;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#huggingface GatewayPluginAiRequestTransformer#huggingface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#huggingface GatewayPluginAiRequestTransformer#huggingface}
   */
   readonly huggingface?: GatewayPluginAiRequestTransformerConfigLlmModelOptionsHuggingface;
   /**
   * Defines the cost per 1M tokens in your prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#input_cost GatewayPluginAiRequestTransformer#input_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#input_cost GatewayPluginAiRequestTransformer#input_cost}
   */
   readonly inputCost?: number;
   /**
   * If using llama2 provider, select the upstream message format. must be one of ["ollama", "openai", "raw"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#llama2_format GatewayPluginAiRequestTransformer#llama2_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#llama2_format GatewayPluginAiRequestTransformer#llama2_format}
   */
   readonly llama2Format?: string;
   /**
   * Defines the max_tokens, if using chat or completion models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#max_tokens GatewayPluginAiRequestTransformer#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#max_tokens GatewayPluginAiRequestTransformer#max_tokens}
   */
   readonly maxTokens?: number;
   /**
   * If using mistral provider, select the upstream message format. must be one of ["ollama", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#mistral_format GatewayPluginAiRequestTransformer#mistral_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#mistral_format GatewayPluginAiRequestTransformer#mistral_format}
   */
   readonly mistralFormat?: string;
   /**
   * Defines the cost per 1M tokens in the output of the AI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#output_cost GatewayPluginAiRequestTransformer#output_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#output_cost GatewayPluginAiRequestTransformer#output_cost}
   */
   readonly outputCost?: number;
   /**
   * Defines the matching temperature, if using chat or completion models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#temperature GatewayPluginAiRequestTransformer#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#temperature GatewayPluginAiRequestTransformer#temperature}
   */
   readonly temperature?: number;
   /**
   * Defines the top-k most likely tokens, if supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#top_k GatewayPluginAiRequestTransformer#top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#top_k GatewayPluginAiRequestTransformer#top_k}
   */
   readonly topK?: number;
   /**
   * Defines the top-p probability mass, if supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#top_p GatewayPluginAiRequestTransformer#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#top_p GatewayPluginAiRequestTransformer#top_p}
   */
   readonly topP?: number;
   /**
   * Manually specify or override the AI operation path, used when e.g. using the 'preserve' route_type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#upstream_path GatewayPluginAiRequestTransformer#upstream_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#upstream_path GatewayPluginAiRequestTransformer#upstream_path}
   */
   readonly upstreamPath?: string;
   /**
   * Manually specify or override the full URL to the AI operation endpoints, when calling (self-)hosted models, or for running via a private endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#upstream_url GatewayPluginAiRequestTransformer#upstream_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#upstream_url GatewayPluginAiRequestTransformer#upstream_url}
   */
   readonly upstreamUrl?: string;
 }
@@ -2229,19 +2229,19 @@ export interface GatewayPluginAiRequestTransformerConfigLlmModel {
   /**
   * Model name to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#name GatewayPluginAiRequestTransformer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#name GatewayPluginAiRequestTransformer#name}
   */
   readonly name?: string;
   /**
   * Key/value settings for the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#options GatewayPluginAiRequestTransformer#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#options GatewayPluginAiRequestTransformer#options}
   */
   readonly options?: GatewayPluginAiRequestTransformerConfigLlmModelOptions;
   /**
   * AI provider request format - Kong translates requests to and from the specified backend compatible formats. must be one of ["anthropic", "azure", "bedrock", "cohere", "gemini", "huggingface", "llama2", "mistral", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#provider GatewayPluginAiRequestTransformer#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#provider GatewayPluginAiRequestTransformer#provider}
   */
   readonly provider: string;
 }
@@ -2390,21 +2390,21 @@ export class GatewayPluginAiRequestTransformerConfigLlmModelOutputReference exte
 }
 export interface GatewayPluginAiRequestTransformerConfigLlm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#auth GatewayPluginAiRequestTransformer#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#auth GatewayPluginAiRequestTransformer#auth}
   */
   readonly auth?: GatewayPluginAiRequestTransformerConfigLlmAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#logging GatewayPluginAiRequestTransformer#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#logging GatewayPluginAiRequestTransformer#logging}
   */
   readonly logging?: GatewayPluginAiRequestTransformerConfigLlmLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#model GatewayPluginAiRequestTransformer#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#model GatewayPluginAiRequestTransformer#model}
   */
   readonly model: GatewayPluginAiRequestTransformerConfigLlmModel;
   /**
   * The model's operation implementation, for this provider. must be one of ["audio/v1/audio/speech", "audio/v1/audio/transcriptions", "audio/v1/audio/translations", "image/v1/images/edits", "image/v1/images/generations", "llm/v1/assistants", "llm/v1/batches", "llm/v1/chat", "llm/v1/completions", "llm/v1/embeddings", "llm/v1/files", "llm/v1/responses", "preserve", "realtime/v1/realtime"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#route_type GatewayPluginAiRequestTransformer#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#route_type GatewayPluginAiRequestTransformer#route_type}
   */
   readonly routeType: string;
 }
@@ -2581,59 +2581,59 @@ export interface GatewayPluginAiRequestTransformerConfigA {
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#http_proxy_host GatewayPluginAiRequestTransformer#http_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#http_proxy_host GatewayPluginAiRequestTransformer#http_proxy_host}
   */
   readonly httpProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#http_proxy_port GatewayPluginAiRequestTransformer#http_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#http_proxy_port GatewayPluginAiRequestTransformer#http_proxy_port}
   */
   readonly httpProxyPort?: number;
   /**
   * Timeout in milliseconds for the AI upstream service. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#http_timeout GatewayPluginAiRequestTransformer#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#http_timeout GatewayPluginAiRequestTransformer#http_timeout}
   */
   readonly httpTimeout?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#https_proxy_host GatewayPluginAiRequestTransformer#https_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#https_proxy_host GatewayPluginAiRequestTransformer#https_proxy_host}
   */
   readonly httpsProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#https_proxy_port GatewayPluginAiRequestTransformer#https_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#https_proxy_port GatewayPluginAiRequestTransformer#https_proxy_port}
   */
   readonly httpsProxyPort?: number;
   /**
   * Verify the TLS certificate of the AI upstream service. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#https_verify GatewayPluginAiRequestTransformer#https_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#https_verify GatewayPluginAiRequestTransformer#https_verify}
   */
   readonly httpsVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#llm GatewayPluginAiRequestTransformer#llm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#llm GatewayPluginAiRequestTransformer#llm}
   */
   readonly llm: GatewayPluginAiRequestTransformerConfigLlm;
   /**
   * max allowed body size allowed to be introspected. 0 means unlimited, but the size of this body will still be limited by Nginx's client_max_body_size. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#max_request_body_size GatewayPluginAiRequestTransformer#max_request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#max_request_body_size GatewayPluginAiRequestTransformer#max_request_body_size}
   */
   readonly maxRequestBodySize?: number;
   /**
   * Use this prompt to tune the LLM system/assistant message for the incoming proxy request (from the client), and what you are expecting in return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#prompt GatewayPluginAiRequestTransformer#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#prompt GatewayPluginAiRequestTransformer#prompt}
   */
   readonly prompt: string;
   /**
   * Defines the regular expression that must match to indicate a successful AI transformation at the request phase. The first match will be set as the outgoing body. If the AI service's response doesn't match this pattern, it is marked as a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#transformation_extract_pattern GatewayPluginAiRequestTransformer#transformation_extract_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#transformation_extract_pattern GatewayPluginAiRequestTransformer#transformation_extract_pattern}
   */
   readonly transformationExtractPattern?: string;
 }
@@ -2982,7 +2982,7 @@ export class GatewayPluginAiRequestTransformerConfigAOutputReference extends cdk
 }
 export interface GatewayPluginAiRequestTransformerConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3079,7 +3079,7 @@ export class GatewayPluginAiRequestTransformerConsumerGroupOutputReference exten
 }
 export interface GatewayPluginAiRequestTransformerOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#access GatewayPluginAiRequestTransformer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#access GatewayPluginAiRequestTransformer#access}
   */
   readonly access?: string[];
 }
@@ -3173,7 +3173,7 @@ export class GatewayPluginAiRequestTransformerOrderingAfterOutputReference exten
 }
 export interface GatewayPluginAiRequestTransformerOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#access GatewayPluginAiRequestTransformer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#access GatewayPluginAiRequestTransformer#access}
   */
   readonly access?: string[];
 }
@@ -3267,11 +3267,11 @@ export class GatewayPluginAiRequestTransformerOrderingBeforeOutputReference exte
 }
 export interface GatewayPluginAiRequestTransformerOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#after GatewayPluginAiRequestTransformer#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#after GatewayPluginAiRequestTransformer#after}
   */
   readonly after?: GatewayPluginAiRequestTransformerOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#before GatewayPluginAiRequestTransformer#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#before GatewayPluginAiRequestTransformer#before}
   */
   readonly before?: GatewayPluginAiRequestTransformerOrderingBefore;
 }
@@ -3396,7 +3396,7 @@ export interface GatewayPluginAiRequestTransformerPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3405,11 +3405,11 @@ export interface GatewayPluginAiRequestTransformerPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#name GatewayPluginAiRequestTransformer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#name GatewayPluginAiRequestTransformer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#path GatewayPluginAiRequestTransformer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#path GatewayPluginAiRequestTransformer#path}
   */
   readonly path?: string;
 }
@@ -3583,7 +3583,7 @@ export class GatewayPluginAiRequestTransformerPartialsList extends cdktf.Complex
 }
 export interface GatewayPluginAiRequestTransformerRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3680,7 +3680,7 @@ export class GatewayPluginAiRequestTransformerRouteOutputReference extends cdktf
 }
 export interface GatewayPluginAiRequestTransformerService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#id GatewayPluginAiRequestTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3777,7 +3777,7 @@ export class GatewayPluginAiRequestTransformerServiceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer konnect_gateway_plugin_ai_request_transformer}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer konnect_gateway_plugin_ai_request_transformer}
 */
 export class GatewayPluginAiRequestTransformer extends cdktf.TerraformResource {
 
@@ -3793,7 +3793,7 @@ export class GatewayPluginAiRequestTransformer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiRequestTransformer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiRequestTransformer to import
-  * @param importFromId The id of the existing GatewayPluginAiRequestTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiRequestTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiRequestTransformer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3805,7 +3805,7 @@ export class GatewayPluginAiRequestTransformer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_request_transformer konnect_gateway_plugin_ai_request_transformer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_request_transformer konnect_gateway_plugin_ai_request_transformer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3816,8 +3816,8 @@ export class GatewayPluginAiRequestTransformer extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_request_transformer',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginDegraphqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#config GatewayPluginDegraphql#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#config GatewayPluginDegraphql#config}
   */
   readonly config?: GatewayPluginDegraphqlConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#control_plane_id GatewayPluginDegraphql#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#control_plane_id GatewayPluginDegraphql#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#created_at GatewayPluginDegraphql#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#created_at GatewayPluginDegraphql#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#enabled GatewayPluginDegraphql#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#enabled GatewayPluginDegraphql#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginDegraphqlConfig extends cdktf.TerraformMetaArgumen
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#instance_name GatewayPluginDegraphql#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#instance_name GatewayPluginDegraphql#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#ordering GatewayPluginDegraphql#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#ordering GatewayPluginDegraphql#ordering}
   */
   readonly ordering?: GatewayPluginDegraphqlOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#partials GatewayPluginDegraphql#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#partials GatewayPluginDegraphql#partials}
   */
   readonly partials?: GatewayPluginDegraphqlPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#protocols GatewayPluginDegraphql#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#protocols GatewayPluginDegraphql#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#route GatewayPluginDegraphql#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#route GatewayPluginDegraphql#route}
   */
   readonly route?: GatewayPluginDegraphqlRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#service GatewayPluginDegraphql#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#service GatewayPluginDegraphql#service}
   */
   readonly service?: GatewayPluginDegraphqlService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#tags GatewayPluginDegraphql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#tags GatewayPluginDegraphql#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#updated_at GatewayPluginDegraphql#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#updated_at GatewayPluginDegraphql#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,7 +89,7 @@ export interface GatewayPluginDegraphqlConfigA {
   /**
   * The GraphQL endpoint serve path. Default: "/graphql"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#graphql_server_path GatewayPluginDegraphql#graphql_server_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#graphql_server_path GatewayPluginDegraphql#graphql_server_path}
   */
   readonly graphqlServerPath?: string;
 }
@@ -183,7 +183,7 @@ export class GatewayPluginDegraphqlConfigAOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginDegraphqlOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#access GatewayPluginDegraphql#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#access GatewayPluginDegraphql#access}
   */
   readonly access?: string[];
 }
@@ -277,7 +277,7 @@ export class GatewayPluginDegraphqlOrderingAfterOutputReference extends cdktf.Co
 }
 export interface GatewayPluginDegraphqlOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#access GatewayPluginDegraphql#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#access GatewayPluginDegraphql#access}
   */
   readonly access?: string[];
 }
@@ -371,11 +371,11 @@ export class GatewayPluginDegraphqlOrderingBeforeOutputReference extends cdktf.C
 }
 export interface GatewayPluginDegraphqlOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#after GatewayPluginDegraphql#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#after GatewayPluginDegraphql#after}
   */
   readonly after?: GatewayPluginDegraphqlOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#before GatewayPluginDegraphql#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#before GatewayPluginDegraphql#before}
   */
   readonly before?: GatewayPluginDegraphqlOrderingBefore;
 }
@@ -500,7 +500,7 @@ export interface GatewayPluginDegraphqlPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -509,11 +509,11 @@ export interface GatewayPluginDegraphqlPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#name GatewayPluginDegraphql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#name GatewayPluginDegraphql#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#path GatewayPluginDegraphql#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#path GatewayPluginDegraphql#path}
   */
   readonly path?: string;
 }
@@ -687,7 +687,7 @@ export class GatewayPluginDegraphqlPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginDegraphqlRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -784,7 +784,7 @@ export class GatewayPluginDegraphqlRouteOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginDegraphqlService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#id GatewayPluginDegraphql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -881,7 +881,7 @@ export class GatewayPluginDegraphqlServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql konnect_gateway_plugin_degraphql}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql konnect_gateway_plugin_degraphql}
 */
 export class GatewayPluginDegraphql extends cdktf.TerraformResource {
 
@@ -897,7 +897,7 @@ export class GatewayPluginDegraphql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginDegraphql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginDegraphql to import
-  * @param importFromId The id of the existing GatewayPluginDegraphql that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginDegraphql that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginDegraphql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -909,7 +909,7 @@ export class GatewayPluginDegraphql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_degraphql konnect_gateway_plugin_degraphql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_degraphql konnect_gateway_plugin_degraphql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -920,8 +920,8 @@ export class GatewayPluginDegraphql extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_degraphql',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

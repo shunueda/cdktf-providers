@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginTcpLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#config GatewayPluginTcpLog#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#config GatewayPluginTcpLog#config}
   */
   readonly config: GatewayPluginTcpLogConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#consumer GatewayPluginTcpLog#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#consumer GatewayPluginTcpLog#consumer}
   */
   readonly consumer?: GatewayPluginTcpLogConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#control_plane_id GatewayPluginTcpLog#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#control_plane_id GatewayPluginTcpLog#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#created_at GatewayPluginTcpLog#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#created_at GatewayPluginTcpLog#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#enabled GatewayPluginTcpLog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#enabled GatewayPluginTcpLog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginTcpLogConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#instance_name GatewayPluginTcpLog#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#instance_name GatewayPluginTcpLog#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#ordering GatewayPluginTcpLog#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#ordering GatewayPluginTcpLog#ordering}
   */
   readonly ordering?: GatewayPluginTcpLogOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#partials GatewayPluginTcpLog#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#partials GatewayPluginTcpLog#partials}
   */
   readonly partials?: GatewayPluginTcpLogPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#protocols GatewayPluginTcpLog#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#protocols GatewayPluginTcpLog#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#route GatewayPluginTcpLog#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#route GatewayPluginTcpLog#route}
   */
   readonly route?: GatewayPluginTcpLogRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#service GatewayPluginTcpLog#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#service GatewayPluginTcpLog#service}
   */
   readonly service?: GatewayPluginTcpLogService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#tags GatewayPluginTcpLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#tags GatewayPluginTcpLog#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#updated_at GatewayPluginTcpLog#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#updated_at GatewayPluginTcpLog#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,43 +95,43 @@ export interface GatewayPluginTcpLogConfigA {
   /**
   * A list of key-value pairs, where the key is the name of a log field and the value is a chunk of Lua code, whose return value sets or replaces the log field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#custom_fields_by_lua GatewayPluginTcpLog#custom_fields_by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#custom_fields_by_lua GatewayPluginTcpLog#custom_fields_by_lua}
   */
   readonly customFieldsByLua?: { [key: string]: string };
   /**
   * The IP address or host name to send data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#host GatewayPluginTcpLog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#host GatewayPluginTcpLog#host}
   */
   readonly host: string;
   /**
   * An optional value in milliseconds that defines how long an idle connection lives before being closed. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#keepalive GatewayPluginTcpLog#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#keepalive GatewayPluginTcpLog#keepalive}
   */
   readonly keepalive?: number;
   /**
   * The port to send data to on the upstream server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#port GatewayPluginTcpLog#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#port GatewayPluginTcpLog#port}
   */
   readonly port: number;
   /**
   * An optional timeout in milliseconds when sending data to the upstream server. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#timeout GatewayPluginTcpLog#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#timeout GatewayPluginTcpLog#timeout}
   */
   readonly timeout?: number;
   /**
   * Indicates whether to perform a TLS handshake against the remote server. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#tls GatewayPluginTcpLog#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#tls GatewayPluginTcpLog#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * An optional string that defines the SNI (Server Name Indication) hostname to send in the TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#tls_sni GatewayPluginTcpLog#tls_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#tls_sni GatewayPluginTcpLog#tls_sni}
   */
   readonly tlsSni?: string;
 }
@@ -393,7 +393,7 @@ export class GatewayPluginTcpLogConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginTcpLogConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -490,7 +490,7 @@ export class GatewayPluginTcpLogConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginTcpLogOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#access GatewayPluginTcpLog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#access GatewayPluginTcpLog#access}
   */
   readonly access?: string[];
 }
@@ -584,7 +584,7 @@ export class GatewayPluginTcpLogOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginTcpLogOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#access GatewayPluginTcpLog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#access GatewayPluginTcpLog#access}
   */
   readonly access?: string[];
 }
@@ -678,11 +678,11 @@ export class GatewayPluginTcpLogOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginTcpLogOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#after GatewayPluginTcpLog#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#after GatewayPluginTcpLog#after}
   */
   readonly after?: GatewayPluginTcpLogOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#before GatewayPluginTcpLog#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#before GatewayPluginTcpLog#before}
   */
   readonly before?: GatewayPluginTcpLogOrderingBefore;
 }
@@ -807,7 +807,7 @@ export interface GatewayPluginTcpLogPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -816,11 +816,11 @@ export interface GatewayPluginTcpLogPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#name GatewayPluginTcpLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#name GatewayPluginTcpLog#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#path GatewayPluginTcpLog#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#path GatewayPluginTcpLog#path}
   */
   readonly path?: string;
 }
@@ -994,7 +994,7 @@ export class GatewayPluginTcpLogPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginTcpLogRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1091,7 +1091,7 @@ export class GatewayPluginTcpLogRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginTcpLogService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#id GatewayPluginTcpLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1188,7 +1188,7 @@ export class GatewayPluginTcpLogServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log konnect_gateway_plugin_tcp_log}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log konnect_gateway_plugin_tcp_log}
 */
 export class GatewayPluginTcpLog extends cdktf.TerraformResource {
 
@@ -1204,7 +1204,7 @@ export class GatewayPluginTcpLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginTcpLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginTcpLog to import
-  * @param importFromId The id of the existing GatewayPluginTcpLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginTcpLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginTcpLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1216,7 +1216,7 @@ export class GatewayPluginTcpLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tcp_log konnect_gateway_plugin_tcp_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tcp_log konnect_gateway_plugin_tcp_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1227,8 +1227,8 @@ export class GatewayPluginTcpLog extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_tcp_log',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

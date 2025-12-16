@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/cloud_gateway_provider_account_list
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/cloud_gateway_provider_account_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataKonnectCloudGatewayProviderAccountListConfig extends cdktf.
   /**
   * Determines which page of the entities to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/cloud_gateway_provider_account_list#page_number DataKonnectCloudGatewayProviderAccountList#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/cloud_gateway_provider_account_list#page_number DataKonnectCloudGatewayProviderAccountList#page_number}
   */
   readonly pageNumber?: number;
   /**
   * The maximum number of items to include per page. The last page of a collection may include fewer items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/cloud_gateway_provider_account_list#page_size DataKonnectCloudGatewayProviderAccountList#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/cloud_gateway_provider_account_list#page_size DataKonnectCloudGatewayProviderAccountList#page_size}
   */
   readonly pageSize?: number;
 }
@@ -117,7 +117,7 @@ export class DataKonnectCloudGatewayProviderAccountListDataList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/cloud_gateway_provider_account_list konnect_cloud_gateway_provider_account_list}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/cloud_gateway_provider_account_list konnect_cloud_gateway_provider_account_list}
 */
 export class DataKonnectCloudGatewayProviderAccountList extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataKonnectCloudGatewayProviderAccountList extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataKonnectCloudGatewayProviderAccountList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKonnectCloudGatewayProviderAccountList to import
-  * @param importFromId The id of the existing DataKonnectCloudGatewayProviderAccountList that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/cloud_gateway_provider_account_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKonnectCloudGatewayProviderAccountList that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/cloud_gateway_provider_account_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKonnectCloudGatewayProviderAccountList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataKonnectCloudGatewayProviderAccountList extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/cloud_gateway_provider_account_list konnect_cloud_gateway_provider_account_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/cloud_gateway_provider_account_list konnect_cloud_gateway_provider_account_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataKonnectCloudGatewayProviderAccountList extends cdktf.TerraformD
       terraformResourceType: 'konnect_cloud_gateway_provider_account_list',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

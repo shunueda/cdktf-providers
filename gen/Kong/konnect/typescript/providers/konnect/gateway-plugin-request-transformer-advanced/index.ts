@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRequestTransformerAdvancedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#config GatewayPluginRequestTransformerAdvanced#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#config GatewayPluginRequestTransformerAdvanced#config}
   */
   readonly config?: GatewayPluginRequestTransformerAdvancedConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#consumer GatewayPluginRequestTransformerAdvanced#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#consumer GatewayPluginRequestTransformerAdvanced#consumer}
   */
   readonly consumer?: GatewayPluginRequestTransformerAdvancedConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#consumer_group GatewayPluginRequestTransformerAdvanced#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#consumer_group GatewayPluginRequestTransformerAdvanced#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginRequestTransformerAdvancedConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#control_plane_id GatewayPluginRequestTransformerAdvanced#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#control_plane_id GatewayPluginRequestTransformerAdvanced#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#created_at GatewayPluginRequestTransformerAdvanced#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#created_at GatewayPluginRequestTransformerAdvanced#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#enabled GatewayPluginRequestTransformerAdvanced#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#enabled GatewayPluginRequestTransformerAdvanced#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginRequestTransformerAdvancedConfig extends cdktf.Ter
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#instance_name GatewayPluginRequestTransformerAdvanced#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#instance_name GatewayPluginRequestTransformerAdvanced#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#ordering GatewayPluginRequestTransformerAdvanced#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#ordering GatewayPluginRequestTransformerAdvanced#ordering}
   */
   readonly ordering?: GatewayPluginRequestTransformerAdvancedOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#partials GatewayPluginRequestTransformerAdvanced#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#partials GatewayPluginRequestTransformerAdvanced#partials}
   */
   readonly partials?: GatewayPluginRequestTransformerAdvancedPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#protocols GatewayPluginRequestTransformerAdvanced#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#protocols GatewayPluginRequestTransformerAdvanced#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#route GatewayPluginRequestTransformerAdvanced#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#route GatewayPluginRequestTransformerAdvanced#route}
   */
   readonly route?: GatewayPluginRequestTransformerAdvancedRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#service GatewayPluginRequestTransformerAdvanced#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#service GatewayPluginRequestTransformerAdvanced#service}
   */
   readonly service?: GatewayPluginRequestTransformerAdvancedService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#tags GatewayPluginRequestTransformerAdvanced#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#tags GatewayPluginRequestTransformerAdvanced#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#updated_at GatewayPluginRequestTransformerAdvanced#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#updated_at GatewayPluginRequestTransformerAdvanced#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,25 +101,25 @@ export interface GatewayPluginRequestTransformerAdvancedConfigAdd {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
   */
   readonly body?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#json_types GatewayPluginRequestTransformerAdvanced#json_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#json_types GatewayPluginRequestTransformerAdvanced#json_types}
   */
   readonly jsonTypes?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
   */
   readonly querystring?: string[];
 }
@@ -300,7 +300,7 @@ export class GatewayPluginRequestTransformerAdvancedConfigAddOutputReference ext
 }
 export interface GatewayPluginRequestTransformerAdvancedConfigAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
   */
   readonly body?: string[];
 }
@@ -396,25 +396,25 @@ export interface GatewayPluginRequestTransformerAdvancedConfigAppend {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
   */
   readonly body?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#json_types GatewayPluginRequestTransformerAdvanced#json_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#json_types GatewayPluginRequestTransformerAdvanced#json_types}
   */
   readonly jsonTypes?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
   */
   readonly querystring?: string[];
 }
@@ -597,19 +597,19 @@ export interface GatewayPluginRequestTransformerAdvancedConfigRemove {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
   */
   readonly body?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
   */
   readonly querystring?: string[];
 }
@@ -763,19 +763,19 @@ export interface GatewayPluginRequestTransformerAdvancedConfigRename {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
   */
   readonly body?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
   */
   readonly querystring?: string[];
 }
@@ -929,29 +929,29 @@ export interface GatewayPluginRequestTransformerAdvancedConfigReplace {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#body GatewayPluginRequestTransformerAdvanced#body}
   */
   readonly body?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#headers GatewayPluginRequestTransformerAdvanced#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#json_types GatewayPluginRequestTransformerAdvanced#json_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#json_types GatewayPluginRequestTransformerAdvanced#json_types}
   */
   readonly jsonTypes?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#querystring GatewayPluginRequestTransformerAdvanced#querystring}
   */
   readonly querystring?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#uri GatewayPluginRequestTransformerAdvanced#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#uri GatewayPluginRequestTransformerAdvanced#uri}
   */
   readonly uri?: string;
 }
@@ -1161,39 +1161,39 @@ export class GatewayPluginRequestTransformerAdvancedConfigReplaceOutputReference
 }
 export interface GatewayPluginRequestTransformerAdvancedConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#add GatewayPluginRequestTransformerAdvanced#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#add GatewayPluginRequestTransformerAdvanced#add}
   */
   readonly add?: GatewayPluginRequestTransformerAdvancedConfigAdd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#allow GatewayPluginRequestTransformerAdvanced#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#allow GatewayPluginRequestTransformerAdvanced#allow}
   */
   readonly allow?: GatewayPluginRequestTransformerAdvancedConfigAllow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#append GatewayPluginRequestTransformerAdvanced#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#append GatewayPluginRequestTransformerAdvanced#append}
   */
   readonly append?: GatewayPluginRequestTransformerAdvancedConfigAppend;
   /**
   * Specify whether dots (for example, `customers.info.phone`) should be treated as part of a property name or used to descend into nested JSON objects. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#dots_in_keys GatewayPluginRequestTransformerAdvanced#dots_in_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#dots_in_keys GatewayPluginRequestTransformerAdvanced#dots_in_keys}
   */
   readonly dotsInKeys?: boolean | cdktf.IResolvable;
   /**
   * A string representing an HTTP method, such as GET, POST, PUT, or DELETE. The string must contain only uppercase letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#http_method GatewayPluginRequestTransformerAdvanced#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#http_method GatewayPluginRequestTransformerAdvanced#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#remove GatewayPluginRequestTransformerAdvanced#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#remove GatewayPluginRequestTransformerAdvanced#remove}
   */
   readonly remove?: GatewayPluginRequestTransformerAdvancedConfigRemove;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#rename GatewayPluginRequestTransformerAdvanced#rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#rename GatewayPluginRequestTransformerAdvanced#rename}
   */
   readonly rename?: GatewayPluginRequestTransformerAdvancedConfigRename;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#replace GatewayPluginRequestTransformerAdvanced#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#replace GatewayPluginRequestTransformerAdvanced#replace}
   */
   readonly replace?: GatewayPluginRequestTransformerAdvancedConfigReplace;
 }
@@ -1490,7 +1490,7 @@ export class GatewayPluginRequestTransformerAdvancedConfigAOutputReference exten
 }
 export interface GatewayPluginRequestTransformerAdvancedConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1587,7 +1587,7 @@ export class GatewayPluginRequestTransformerAdvancedConsumerOutputReference exte
 }
 export interface GatewayPluginRequestTransformerAdvancedConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1684,7 +1684,7 @@ export class GatewayPluginRequestTransformerAdvancedConsumerGroupOutputReference
 }
 export interface GatewayPluginRequestTransformerAdvancedOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#access GatewayPluginRequestTransformerAdvanced#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#access GatewayPluginRequestTransformerAdvanced#access}
   */
   readonly access?: string[];
 }
@@ -1778,7 +1778,7 @@ export class GatewayPluginRequestTransformerAdvancedOrderingAfterOutputReference
 }
 export interface GatewayPluginRequestTransformerAdvancedOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#access GatewayPluginRequestTransformerAdvanced#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#access GatewayPluginRequestTransformerAdvanced#access}
   */
   readonly access?: string[];
 }
@@ -1872,11 +1872,11 @@ export class GatewayPluginRequestTransformerAdvancedOrderingBeforeOutputReferenc
 }
 export interface GatewayPluginRequestTransformerAdvancedOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#after GatewayPluginRequestTransformerAdvanced#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#after GatewayPluginRequestTransformerAdvanced#after}
   */
   readonly after?: GatewayPluginRequestTransformerAdvancedOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#before GatewayPluginRequestTransformerAdvanced#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#before GatewayPluginRequestTransformerAdvanced#before}
   */
   readonly before?: GatewayPluginRequestTransformerAdvancedOrderingBefore;
 }
@@ -2001,7 +2001,7 @@ export interface GatewayPluginRequestTransformerAdvancedPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2010,11 +2010,11 @@ export interface GatewayPluginRequestTransformerAdvancedPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#name GatewayPluginRequestTransformerAdvanced#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#name GatewayPluginRequestTransformerAdvanced#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#path GatewayPluginRequestTransformerAdvanced#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#path GatewayPluginRequestTransformerAdvanced#path}
   */
   readonly path?: string;
 }
@@ -2188,7 +2188,7 @@ export class GatewayPluginRequestTransformerAdvancedPartialsList extends cdktf.C
 }
 export interface GatewayPluginRequestTransformerAdvancedRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2285,7 +2285,7 @@ export class GatewayPluginRequestTransformerAdvancedRouteOutputReference extends
 }
 export interface GatewayPluginRequestTransformerAdvancedService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#id GatewayPluginRequestTransformerAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2382,7 +2382,7 @@ export class GatewayPluginRequestTransformerAdvancedServiceOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced konnect_gateway_plugin_request_transformer_advanced}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced konnect_gateway_plugin_request_transformer_advanced}
 */
 export class GatewayPluginRequestTransformerAdvanced extends cdktf.TerraformResource {
 
@@ -2398,7 +2398,7 @@ export class GatewayPluginRequestTransformerAdvanced extends cdktf.TerraformReso
   * Generates CDKTF code for importing a GatewayPluginRequestTransformerAdvanced resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRequestTransformerAdvanced to import
-  * @param importFromId The id of the existing GatewayPluginRequestTransformerAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRequestTransformerAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRequestTransformerAdvanced to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2410,7 +2410,7 @@ export class GatewayPluginRequestTransformerAdvanced extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_transformer_advanced konnect_gateway_plugin_request_transformer_advanced} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_transformer_advanced konnect_gateway_plugin_request_transformer_advanced} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2421,8 +2421,8 @@ export class GatewayPluginRequestTransformerAdvanced extends cdktf.TerraformReso
       terraformResourceType: 'konnect_gateway_plugin_request_transformer_advanced',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,41 +11,41 @@ export interface CentralizedConsumerConfig extends cdktf.TerraformMetaArguments 
   * A list of consumer groups that the Consumer is in.
   * If `consumer_groups` are provided on the Consumer object _and_ on the Realm, the Consumer will be placed in all defined consumer groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#consumer_groups CentralizedConsumer#consumer_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#consumer_groups CentralizedConsumer#consumer_groups}
   */
   readonly consumerGroups?: string[];
   /**
   * Field for storing an existing unique ID for the Consumer - useful for mapping Kong with users in your existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#custom_id CentralizedConsumer#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#custom_id CentralizedConsumer#custom_id}
   */
   readonly customId?: string;
   /**
   * ID of the realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#realm_id CentralizedConsumer#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#realm_id CentralizedConsumer#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#tags CentralizedConsumer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#tags CentralizedConsumer#tags}
   */
   readonly tags?: string[];
   /**
   * Type of the consumer. Default: "proxy"; must be one of ["proxy", "developer", "admin", "application"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#type CentralizedConsumer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#type CentralizedConsumer#type}
   */
   readonly type?: string;
   /**
   * The unique username of the Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#username CentralizedConsumer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#username CentralizedConsumer#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer konnect_centralized_consumer}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer konnect_centralized_consumer}
 */
 export class CentralizedConsumer extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class CentralizedConsumer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CentralizedConsumer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CentralizedConsumer to import
-  * @param importFromId The id of the existing CentralizedConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CentralizedConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CentralizedConsumer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class CentralizedConsumer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer konnect_centralized_consumer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer konnect_centralized_consumer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class CentralizedConsumer extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_centralized_consumer',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

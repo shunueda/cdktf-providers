@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Any users added to this group will automatically be assigned with admin privileges in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#admin_privileges Group#admin_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#admin_privileges Group#admin_privileges}
   */
   readonly adminPrivileges?: boolean | cdktf.IResolvable;
   /**
   * When this parameter is set, any new users defined in the system are automatically assigned to this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#auto_join Group#auto_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#auto_join Group#auto_join}
   */
   readonly autoJoin?: boolean | cdktf.IResolvable;
   /**
   * A description for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * New external group ID used to configure the corresponding group in Azure AD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#external_id Group#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#external_id Group#external_id}
   */
   readonly externalId?: string;
   /**
   * List of users assigned to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#members Group#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#members Group#members}
   */
   readonly members?: string[];
   /**
   * Name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * When set to `true`, this resource will ignore the `members` attributes and allow memberships to be managed by `platform_group_members` resource instead. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#use_group_members_resource Group#use_group_members_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#use_group_members_resource Group#use_group_members_resource}
   */
   readonly useGroupMembersResource?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group platform_group}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group platform_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/group platform_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/group platform_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'platform_group',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

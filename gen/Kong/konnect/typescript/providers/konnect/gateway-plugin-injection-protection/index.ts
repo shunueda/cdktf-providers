@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginInjectionProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#config GatewayPluginInjectionProtection#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#config GatewayPluginInjectionProtection#config}
   */
   readonly config?: GatewayPluginInjectionProtectionConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#control_plane_id GatewayPluginInjectionProtection#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#control_plane_id GatewayPluginInjectionProtection#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#created_at GatewayPluginInjectionProtection#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#created_at GatewayPluginInjectionProtection#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#enabled GatewayPluginInjectionProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#enabled GatewayPluginInjectionProtection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginInjectionProtectionConfig extends cdktf.TerraformM
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#instance_name GatewayPluginInjectionProtection#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#instance_name GatewayPluginInjectionProtection#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#ordering GatewayPluginInjectionProtection#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#ordering GatewayPluginInjectionProtection#ordering}
   */
   readonly ordering?: GatewayPluginInjectionProtectionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#partials GatewayPluginInjectionProtection#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#partials GatewayPluginInjectionProtection#partials}
   */
   readonly partials?: GatewayPluginInjectionProtectionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#protocols GatewayPluginInjectionProtection#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#protocols GatewayPluginInjectionProtection#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#route GatewayPluginInjectionProtection#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#route GatewayPluginInjectionProtection#route}
   */
   readonly route?: GatewayPluginInjectionProtectionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#service GatewayPluginInjectionProtection#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#service GatewayPluginInjectionProtection#service}
   */
   readonly service?: GatewayPluginInjectionProtectionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#tags GatewayPluginInjectionProtection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#tags GatewayPluginInjectionProtection#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#updated_at GatewayPluginInjectionProtection#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#updated_at GatewayPluginInjectionProtection#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,13 +89,13 @@ export interface GatewayPluginInjectionProtectionConfigCustomInjections {
   /**
   * A unique name for this injection. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#name GatewayPluginInjectionProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#name GatewayPluginInjectionProtection#name}
   */
   readonly name?: string;
   /**
   * The regex to match against. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#regex GatewayPluginInjectionProtection#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#regex GatewayPluginInjectionProtection#regex}
   */
   readonly regex?: string;
 }
@@ -242,37 +242,37 @@ export interface GatewayPluginInjectionProtectionConfigA {
   /**
   * Custom regexes to check for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#custom_injections GatewayPluginInjectionProtection#custom_injections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#custom_injections GatewayPluginInjectionProtection#custom_injections}
   */
   readonly customInjections?: GatewayPluginInjectionProtectionConfigCustomInjections[] | cdktf.IResolvable;
   /**
   * Enforcement mode of the security policy. Default: "block"; must be one of ["block", "log_only"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#enforcement_mode GatewayPluginInjectionProtection#enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#enforcement_mode GatewayPluginInjectionProtection#enforcement_mode}
   */
   readonly enforcementMode?: string;
   /**
   * The response message when validation fails. Default: "Bad Request"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#error_message GatewayPluginInjectionProtection#error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#error_message GatewayPluginInjectionProtection#error_message}
   */
   readonly errorMessage?: string;
   /**
   * The response status code when validation fails. Default: 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#error_status_code GatewayPluginInjectionProtection#error_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#error_status_code GatewayPluginInjectionProtection#error_status_code}
   */
   readonly errorStatusCode?: number;
   /**
   * The type of injections to check for. Default: ["sql"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#injection_types GatewayPluginInjectionProtection#injection_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#injection_types GatewayPluginInjectionProtection#injection_types}
   */
   readonly injectionTypes?: string[];
   /**
   * The locations to check for injection. Default: ["path_and_query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#locations GatewayPluginInjectionProtection#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#locations GatewayPluginInjectionProtection#locations}
   */
   readonly locations?: string[];
 }
@@ -511,7 +511,7 @@ export class GatewayPluginInjectionProtectionConfigAOutputReference extends cdkt
 }
 export interface GatewayPluginInjectionProtectionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#access GatewayPluginInjectionProtection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#access GatewayPluginInjectionProtection#access}
   */
   readonly access?: string[];
 }
@@ -605,7 +605,7 @@ export class GatewayPluginInjectionProtectionOrderingAfterOutputReference extend
 }
 export interface GatewayPluginInjectionProtectionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#access GatewayPluginInjectionProtection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#access GatewayPluginInjectionProtection#access}
   */
   readonly access?: string[];
 }
@@ -699,11 +699,11 @@ export class GatewayPluginInjectionProtectionOrderingBeforeOutputReference exten
 }
 export interface GatewayPluginInjectionProtectionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#after GatewayPluginInjectionProtection#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#after GatewayPluginInjectionProtection#after}
   */
   readonly after?: GatewayPluginInjectionProtectionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#before GatewayPluginInjectionProtection#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#before GatewayPluginInjectionProtection#before}
   */
   readonly before?: GatewayPluginInjectionProtectionOrderingBefore;
 }
@@ -828,7 +828,7 @@ export interface GatewayPluginInjectionProtectionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -837,11 +837,11 @@ export interface GatewayPluginInjectionProtectionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#name GatewayPluginInjectionProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#name GatewayPluginInjectionProtection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#path GatewayPluginInjectionProtection#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#path GatewayPluginInjectionProtection#path}
   */
   readonly path?: string;
 }
@@ -1015,7 +1015,7 @@ export class GatewayPluginInjectionProtectionPartialsList extends cdktf.ComplexL
 }
 export interface GatewayPluginInjectionProtectionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1112,7 +1112,7 @@ export class GatewayPluginInjectionProtectionRouteOutputReference extends cdktf.
 }
 export interface GatewayPluginInjectionProtectionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#id GatewayPluginInjectionProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1209,7 +1209,7 @@ export class GatewayPluginInjectionProtectionServiceOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection konnect_gateway_plugin_injection_protection}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection konnect_gateway_plugin_injection_protection}
 */
 export class GatewayPluginInjectionProtection extends cdktf.TerraformResource {
 
@@ -1225,7 +1225,7 @@ export class GatewayPluginInjectionProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginInjectionProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginInjectionProtection to import
-  * @param importFromId The id of the existing GatewayPluginInjectionProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginInjectionProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginInjectionProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1237,7 +1237,7 @@ export class GatewayPluginInjectionProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_injection_protection konnect_gateway_plugin_injection_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_injection_protection konnect_gateway_plugin_injection_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1248,8 +1248,8 @@ export class GatewayPluginInjectionProtection extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_injection_protection',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

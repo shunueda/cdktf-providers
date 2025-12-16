@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface GatewayPartialConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#control_plane_id GatewayPartial#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#control_plane_id GatewayPartial#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#redis_ce GatewayPartial#redis_ce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#redis_ce GatewayPartial#redis_ce}
   */
   readonly redisCe?: GatewayPartialRedisCe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#redis_ee GatewayPartial#redis_ee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#redis_ee GatewayPartial#redis_ee}
   */
   readonly redisEe?: GatewayPartialRedisEe;
 }
@@ -26,55 +26,55 @@ export interface GatewayPartialRedisCeConfig {
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#database GatewayPartial#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#database GatewayPartial#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#host GatewayPartial#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#host GatewayPartial#host}
   */
   readonly host?: string;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#password GatewayPartial#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#password GatewayPartial#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#port GatewayPartial#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#port GatewayPartial#port}
   */
   readonly port?: number;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#server_name GatewayPartial#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#server_name GatewayPartial#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#ssl GatewayPartial#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#ssl GatewayPartial#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#ssl_verify GatewayPartial#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#ssl_verify GatewayPartial#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#timeout GatewayPartial#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#timeout GatewayPartial#timeout}
   */
   readonly timeout?: number;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#username GatewayPartial#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#username GatewayPartial#username}
   */
   readonly username?: string;
 }
@@ -402,19 +402,19 @@ export interface GatewayPartialRedisCe {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#config GatewayPartial#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#config GatewayPartial#config}
   */
   readonly config?: GatewayPartialRedisCeConfig;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#created_at GatewayPartial#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#created_at GatewayPartial#created_at}
   */
   readonly createdAt?: number;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#id GatewayPartial#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#id GatewayPartial#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -423,19 +423,19 @@ export interface GatewayPartialRedisCe {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#name GatewayPartial#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#name GatewayPartial#name}
   */
   readonly name?: string;
   /**
   * A set of strings representing tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#tags GatewayPartial#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#tags GatewayPartial#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#updated_at GatewayPartial#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#updated_at GatewayPartial#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -624,7 +624,7 @@ export class GatewayPartialRedisCeOutputReference extends cdktf.ComplexObject {
     return this._id;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -640,7 +640,7 @@ export class GatewayPartialRedisCeOutputReference extends cdktf.ComplexObject {
     return this._name;
   }
 
-  // tags - computed: true, optional: true, required: false
+  // tags - computed: false, optional: true, required: false
   private _tags?: string[]; 
   public get tags() {
     return this.getListAttribute('tags');
@@ -676,13 +676,13 @@ export interface GatewayPartialRedisEeConfigClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#ip GatewayPartial#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#ip GatewayPartial#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#port GatewayPartial#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#port GatewayPartial#port}
   */
   readonly port?: number;
 }
@@ -829,13 +829,13 @@ export interface GatewayPartialRedisEeConfigSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#host GatewayPartial#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#host GatewayPartial#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#port GatewayPartial#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#port GatewayPartial#port}
   */
   readonly port?: number;
 }
@@ -982,127 +982,127 @@ export interface GatewayPartialRedisEeConfig {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#cluster_max_redirections GatewayPartial#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#cluster_max_redirections GatewayPartial#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#cluster_nodes GatewayPartial#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#cluster_nodes GatewayPartial#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPartialRedisEeConfigClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#connect_timeout GatewayPartial#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#connect_timeout GatewayPartial#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#connection_is_proxied GatewayPartial#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#connection_is_proxied GatewayPartial#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#database GatewayPartial#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#database GatewayPartial#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#host GatewayPartial#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#host GatewayPartial#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#keepalive_backlog GatewayPartial#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#keepalive_backlog GatewayPartial#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#keepalive_pool_size GatewayPartial#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#keepalive_pool_size GatewayPartial#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#password GatewayPartial#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#password GatewayPartial#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#port GatewayPartial#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#port GatewayPartial#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#read_timeout GatewayPartial#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#read_timeout GatewayPartial#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#send_timeout GatewayPartial#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#send_timeout GatewayPartial#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#sentinel_master GatewayPartial#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#sentinel_master GatewayPartial#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#sentinel_nodes GatewayPartial#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#sentinel_nodes GatewayPartial#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPartialRedisEeConfigSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#sentinel_password GatewayPartial#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#sentinel_password GatewayPartial#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#sentinel_role GatewayPartial#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#sentinel_role GatewayPartial#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#sentinel_username GatewayPartial#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#sentinel_username GatewayPartial#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#server_name GatewayPartial#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#server_name GatewayPartial#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#ssl GatewayPartial#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#ssl GatewayPartial#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#ssl_verify GatewayPartial#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#ssl_verify GatewayPartial#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#username GatewayPartial#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#username GatewayPartial#username}
   */
   readonly username?: string;
 }
@@ -1778,19 +1778,19 @@ export interface GatewayPartialRedisEe {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#config GatewayPartial#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#config GatewayPartial#config}
   */
   readonly config?: GatewayPartialRedisEeConfig;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#created_at GatewayPartial#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#created_at GatewayPartial#created_at}
   */
   readonly createdAt?: number;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#id GatewayPartial#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#id GatewayPartial#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1799,19 +1799,19 @@ export interface GatewayPartialRedisEe {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#name GatewayPartial#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#name GatewayPartial#name}
   */
   readonly name?: string;
   /**
   * A set of strings representing tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#tags GatewayPartial#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#tags GatewayPartial#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#updated_at GatewayPartial#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#updated_at GatewayPartial#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -2000,7 +2000,7 @@ export class GatewayPartialRedisEeOutputReference extends cdktf.ComplexObject {
     return this._id;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2016,7 +2016,7 @@ export class GatewayPartialRedisEeOutputReference extends cdktf.ComplexObject {
     return this._name;
   }
 
-  // tags - computed: true, optional: true, required: false
+  // tags - computed: false, optional: true, required: false
   private _tags?: string[]; 
   public get tags() {
     return this.getListAttribute('tags');
@@ -2050,7 +2050,7 @@ export class GatewayPartialRedisEeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial konnect_gateway_partial}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial konnect_gateway_partial}
 */
 export class GatewayPartial extends cdktf.TerraformResource {
 
@@ -2066,7 +2066,7 @@ export class GatewayPartial extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPartial resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPartial to import
-  * @param importFromId The id of the existing GatewayPartial that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPartial that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPartial to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2078,7 +2078,7 @@ export class GatewayPartial extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_partial konnect_gateway_partial} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_partial konnect_gateway_partial} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2089,8 +2089,8 @@ export class GatewayPartial extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_partial',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2137,7 +2137,7 @@ export class GatewayPartial extends cdktf.TerraformResource {
     return this.getStringAttribute('name');
   }
 
-  // redis_ce - computed: true, optional: true, required: false
+  // redis_ce - computed: false, optional: true, required: false
   private _redisCe = new GatewayPartialRedisCeOutputReference(this, "redis_ce");
   public get redisCe() {
     return this._redisCe;
@@ -2153,7 +2153,7 @@ export class GatewayPartial extends cdktf.TerraformResource {
     return this._redisCe.internalValue;
   }
 
-  // redis_ee - computed: true, optional: true, required: false
+  // redis_ee - computed: false, optional: true, required: false
   private _redisEe = new GatewayPartialRedisEeOutputReference(this, "redis_ee");
   public get redisEe() {
     return this._redisEe;

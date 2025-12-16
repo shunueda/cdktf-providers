@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes
+// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RoutesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#comments Routes#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#comments Routes#comments}
   */
   readonly comments?: RoutesComments[] | cdktf.IResolvable;
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#group_id Routes#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#group_id Routes#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#groups Routes#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#groups Routes#groups}
   */
   readonly groups?: { [key: string]: RoutesGroups } | cdktf.IResolvable;
   /**
   * Routes ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#id Routes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#id Routes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface RoutesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Pipeline routing rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#routes Routes#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#routes Routes#routes}
   */
   readonly routes: RoutesRoutes[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface RoutesComments {
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#additional_properties Routes#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#additional_properties Routes#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Optional, short description of this Route's purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#comment Routes#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#comment Routes#comment}
   */
   readonly comment?: string;
 }
@@ -196,19 +196,19 @@ export interface RoutesGroups {
   /**
   * Short description of this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#description Routes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#description Routes#description}
   */
   readonly description?: string;
   /**
   * Whether this group is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#disabled Routes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#disabled Routes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#name Routes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#name Routes#name}
   */
   readonly name?: string;
 }
@@ -382,59 +382,59 @@ export interface RoutesRoutes {
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#additional_properties Routes#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#additional_properties Routes#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#description Routes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#description Routes#description}
   */
   readonly description?: string;
   /**
   * Disable this routing rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#disabled Routes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#disabled Routes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Enable to use a JavaScript expression that evaluates to the name of the Description below. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#enable_output_expression Routes#enable_output_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#enable_output_expression Routes#enable_output_expression}
   */
   readonly enableOutputExpression?: boolean | cdktf.IResolvable;
   /**
   * JavaScript expression to select data to route. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#filter Routes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#filter Routes#filter}
   */
   readonly filter?: string;
   /**
   * Flag to control whether the event gets consumed by this Route (Final), or cloned into it. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#final Routes#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#final Routes#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#name Routes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#name Routes#name}
   */
   readonly name?: string;
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#output Routes#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#output Routes#output}
   */
   readonly output?: string;
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#output_expression Routes#output_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#output_expression Routes#output_expression}
   */
   readonly outputExpression?: string;
   /**
   * Pipeline to send the matching data to. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#pipeline Routes#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#pipeline Routes#pipeline}
   */
   readonly pipeline?: string;
 }
@@ -816,7 +816,7 @@ export class RoutesRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes criblio_routes}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes criblio_routes}
 */
 export class Routes extends cdktf.TerraformResource {
 
@@ -832,7 +832,7 @@ export class Routes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Routes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Routes to import
-  * @param importFromId The id of the existing Routes that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Routes that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Routes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class Routes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/routes criblio_routes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/routes criblio_routes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class Routes extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_routes',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.62',
-        providerVersionConstraint: '1.20.62'
+        providerVersion: '1.20.64',
+        providerVersionConstraint: '1.20.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

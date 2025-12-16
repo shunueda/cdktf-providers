@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface OidcConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Informational field that you can use to include details of the audience that uses the OIDC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#audience OidcConfiguration#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#audience OidcConfiguration#audience}
   */
   readonly audience?: string;
   /**
   * Description of the OIDC provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#description OidcConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#description OidcConfiguration#description}
   */
   readonly description?: string;
   /**
   * Only settable when `provider_type` is GitHub or GitHubEnterprise. When set, Allows authentication without any restrictions. For security best practices, it is recommended to add restrictions to limit access and enforce stricter controls. Use with caution, as this may grant broader access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#enable_permissive_configuration OidcConfiguration#enable_permissive_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#enable_permissive_configuration OidcConfiguration#enable_permissive_configuration}
   */
   readonly enablePermissiveConfiguration?: boolean | cdktf.IResolvable;
   /**
   * OIDC issuer URL. For GitHub actions, the URL must start with https://token.actions.githubusercontent.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#issuer_url OidcConfiguration#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#issuer_url OidcConfiguration#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * Name of the OIDC provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#name OidcConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#name OidcConfiguration#name}
   */
   readonly name: string;
   /**
   * This field is mandatory, when `provider_type` is GitHub or GitHubEnterprise. Informational field that you can use to include details of the organization that uses the OIDC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#organization OidcConfiguration#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#organization OidcConfiguration#organization}
   */
   readonly organization?: string;
   /**
   * If set, this Identity Configuration will be available in the scope of the given project (editable by platform admin and project admin). If not set, this Identity Configuration will be global and only editable by platform admin. Once set, the projectKey cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#project_key OidcConfiguration#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#project_key OidcConfiguration#project_key}
   */
   readonly projectKey?: string;
   /**
   * Type of OIDC provider. Can be `generic`, `GitHub`, `GitHubEnterprise` or `Azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#provider_type OidcConfiguration#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#provider_type OidcConfiguration#provider_type}
   */
   readonly providerType: string;
   /**
   * This enables and disables the default proxy for OIDC integration. If enabled, the OIDC mechanism will utilize the default proxy for all OIDC requests. If disabled, the OIDC mechanism does not use any proxy for all OIDC requests. Before enabling this functionality you must configure the default proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#use_default_proxy OidcConfiguration#use_default_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#use_default_proxy OidcConfiguration#use_default_proxy}
   */
   readonly useDefaultProxy?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration platform_oidc_configuration}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration platform_oidc_configuration}
 */
 export class OidcConfiguration extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class OidcConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OidcConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OidcConfiguration to import
-  * @param importFromId The id of the existing OidcConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OidcConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OidcConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class OidcConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_configuration platform_oidc_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_configuration platform_oidc_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class OidcConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'platform_oidc_configuration',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

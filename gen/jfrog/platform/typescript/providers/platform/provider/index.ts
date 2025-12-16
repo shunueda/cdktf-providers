@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PlatformProviderConfig {
   /**
   * This is a access token that can be given to you by your admin under `Platform Configuration -> User Management -> Access Tokens`. This can also be sourced from the `JFROG_ACCESS_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs#access_token PlatformProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs#access_token PlatformProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * OIDC provider name. See [Configure an OIDC Integration](https://jfrog.com/help/r/jfrog-platform-administration-documentation/configure-an-oidc-integration) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs#oidc_provider_name PlatformProvider#oidc_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs#oidc_provider_name PlatformProvider#oidc_provider_name}
   */
   readonly oidcProviderName?: string;
   /**
   * Terraform Cloud Workload Identity Token tag name. Use for generating multiple TFC workload identity tokens. When set, the provider will attempt to use env var with this tag name as suffix. **Note:** this is case sensitive, so if set to `JFROG`, then env var `TFC_WORKLOAD_IDENTITY_TOKEN_JFROG` is used instead of `TFC_WORKLOAD_IDENTITY_TOKEN`. See [Generating Multiple Tokens](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/manual-generation#generating-multiple-tokens) on HCP Terraform for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs#tfc_credential_tag_name PlatformProvider#tfc_credential_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs#tfc_credential_tag_name PlatformProvider#tfc_credential_tag_name}
   */
   readonly tfcCredentialTagName?: string;
   /**
   * JFrog Platform URL. This can also be sourced from the `JFROG_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs#url PlatformProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs#url PlatformProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs#alias PlatformProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs#alias PlatformProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs platform}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs platform}
 */
 export class PlatformProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class PlatformProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PlatformProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformProvider to import
-  * @param importFromId The id of the existing PlatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class PlatformProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs platform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs platform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class PlatformProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'platform',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       terraformProviderSource: 'jfrog/platform'
     });

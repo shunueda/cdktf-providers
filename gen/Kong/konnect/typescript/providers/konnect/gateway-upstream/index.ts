@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface GatewayUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Which load balancing algorithm to use. Default: "round-robin"; must be one of ["consistent-hashing", "latency", "least-connections", "round-robin", "sticky-sessions"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#algorithm GatewayUpstream#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#algorithm GatewayUpstream#algorithm}
   */
   readonly algorithm?: string;
   /**
   * If set, the certificate to be used as client certificate while TLS handshaking to the upstream server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#client_certificate GatewayUpstream#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#client_certificate GatewayUpstream#client_certificate}
   */
   readonly clientCertificate?: GatewayUpstreamClientCertificate;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#control_plane_id GatewayUpstream#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#control_plane_id GatewayUpstream#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#created_at GatewayUpstream#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#created_at GatewayUpstream#created_at}
   */
   readonly createdAt?: number;
   /**
   * What to use as hashing input if the primary `hash_on` does not return a hash (eg. header is missing, or no Consumer identified). Not available if `hash_on` is set to `cookie`. Default: "none"; must be one of ["consumer", "cookie", "header", "ip", "none", "path", "query_arg", "uri_capture"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_fallback GatewayUpstream#hash_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_fallback GatewayUpstream#hash_fallback}
   */
   readonly hashFallback?: string;
   /**
   * The header name to take the value from as hash input. Only required when `hash_fallback` is set to `header`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_fallback_header GatewayUpstream#hash_fallback_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_fallback_header GatewayUpstream#hash_fallback_header}
   */
   readonly hashFallbackHeader?: string;
   /**
   * The name of the query string argument to take the value from as hash input. Only required when `hash_fallback` is set to `query_arg`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_fallback_query_arg GatewayUpstream#hash_fallback_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_fallback_query_arg GatewayUpstream#hash_fallback_query_arg}
   */
   readonly hashFallbackQueryArg?: string;
   /**
   * The name of the route URI capture to take the value from as hash input. Only required when `hash_fallback` is set to `uri_capture`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_fallback_uri_capture GatewayUpstream#hash_fallback_uri_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_fallback_uri_capture GatewayUpstream#hash_fallback_uri_capture}
   */
   readonly hashFallbackUriCapture?: string;
   /**
   * What to use as hashing input. Using `none` results in a weighted-round-robin scheme with no hashing. Default: "none"; must be one of ["consumer", "cookie", "header", "ip", "none", "path", "query_arg", "uri_capture"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_on GatewayUpstream#hash_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_on GatewayUpstream#hash_on}
   */
   readonly hashOn?: string;
   /**
   * The cookie name to take the value from as hash input. Only required when `hash_on` or `hash_fallback` is set to `cookie`. If the specified cookie is not in the request, Kong will generate a value and set the cookie in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_on_cookie GatewayUpstream#hash_on_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_on_cookie GatewayUpstream#hash_on_cookie}
   */
   readonly hashOnCookie?: string;
   /**
   * The cookie path to set in the response headers. Only required when `hash_on` or `hash_fallback` is set to `cookie`. Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_on_cookie_path GatewayUpstream#hash_on_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_on_cookie_path GatewayUpstream#hash_on_cookie_path}
   */
   readonly hashOnCookiePath?: string;
   /**
   * The header name to take the value from as hash input. Only required when `hash_on` is set to `header`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_on_header GatewayUpstream#hash_on_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_on_header GatewayUpstream#hash_on_header}
   */
   readonly hashOnHeader?: string;
   /**
   * The name of the query string argument to take the value from as hash input. Only required when `hash_on` is set to `query_arg`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_on_query_arg GatewayUpstream#hash_on_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_on_query_arg GatewayUpstream#hash_on_query_arg}
   */
   readonly hashOnQueryArg?: string;
   /**
   * The name of the route URI capture to take the value from as hash input. Only required when `hash_on` is set to `uri_capture`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#hash_on_uri_capture GatewayUpstream#hash_on_uri_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#hash_on_uri_capture GatewayUpstream#hash_on_uri_capture}
   */
   readonly hashOnUriCapture?: string;
   /**
   * The array of healthchecks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#healthchecks GatewayUpstream#healthchecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#healthchecks GatewayUpstream#healthchecks}
   */
   readonly healthchecks?: GatewayUpstreamHealthchecks;
   /**
   * The hostname to be used as `Host` header when proxying requests through Kong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#host_header GatewayUpstream#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#host_header GatewayUpstream#host_header}
   */
   readonly hostHeader?: string;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#id GatewayUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#id GatewayUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,49 +115,49 @@ export interface GatewayUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * This is a hostname, which must be equal to the `host` of a Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#name GatewayUpstream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#name GatewayUpstream#name}
   */
   readonly name: string;
   /**
   * The number of slots in the load balancer algorithm. If `algorithm` is set to `round-robin`, this setting determines the maximum number of slots. If `algorithm` is set to `consistent-hashing`, this setting determines the actual number of slots in the algorithm. Accepts an integer in the range `10`-`65536`. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#slots GatewayUpstream#slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#slots GatewayUpstream#slots}
   */
   readonly slots?: number;
   /**
   * The cookie name to keep sticky sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#sticky_sessions_cookie GatewayUpstream#sticky_sessions_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#sticky_sessions_cookie GatewayUpstream#sticky_sessions_cookie}
   */
   readonly stickySessionsCookie?: string;
   /**
   * A string representing a URL path, such as /path/to/resource. Must start with a forward slash (/) and must not contain empty segments (i.e., two consecutive forward slashes). Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#sticky_sessions_cookie_path GatewayUpstream#sticky_sessions_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#sticky_sessions_cookie_path GatewayUpstream#sticky_sessions_cookie_path}
   */
   readonly stickySessionsCookiePath?: string;
   /**
   * An optional set of strings associated with the Upstream for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#tags GatewayUpstream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#tags GatewayUpstream#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#updated_at GatewayUpstream#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#updated_at GatewayUpstream#updated_at}
   */
   readonly updatedAt?: number;
   /**
   * If set, the balancer will use SRV hostname(if DNS Answer has SRV record) as the proxy upstream `Host`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#use_srv_name GatewayUpstream#use_srv_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#use_srv_name GatewayUpstream#use_srv_name}
   */
   readonly useSrvName?: boolean | cdktf.IResolvable;
 }
 export interface GatewayUpstreamClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#id GatewayUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#id GatewayUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -256,19 +256,19 @@ export interface GatewayUpstreamHealthchecksActiveHealthy {
   /**
   * Default: [200,302]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
   */
   readonly httpStatuses?: number[];
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#interval GatewayUpstream#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#interval GatewayUpstream#interval}
   */
   readonly interval?: number;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#successes GatewayUpstream#successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#successes GatewayUpstream#successes}
   */
   readonly successes?: number;
 }
@@ -422,31 +422,31 @@ export interface GatewayUpstreamHealthchecksActiveUnhealthy {
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_failures GatewayUpstream#http_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_failures GatewayUpstream#http_failures}
   */
   readonly httpFailures?: number;
   /**
   * Default: [429,404,500,501,502,503,504,505]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
   */
   readonly httpStatuses?: number[];
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#interval GatewayUpstream#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#interval GatewayUpstream#interval}
   */
   readonly interval?: number;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#tcp_failures GatewayUpstream#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#tcp_failures GatewayUpstream#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#timeouts GatewayUpstream#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#timeouts GatewayUpstream#timeouts}
   */
   readonly timeouts?: number;
 }
@@ -658,51 +658,51 @@ export interface GatewayUpstreamHealthchecksActive {
   /**
   * Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#concurrency GatewayUpstream#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#concurrency GatewayUpstream#concurrency}
   */
   readonly concurrency?: number;
   /**
   * A map of header names to arrays of header values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#headers GatewayUpstream#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#headers GatewayUpstream#headers}
   */
   readonly headers?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#healthy GatewayUpstream#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#healthy GatewayUpstream#healthy}
   */
   readonly healthy?: GatewayUpstreamHealthchecksActiveHealthy;
   /**
   * A string representing a URL path, such as /path/to/resource. Must start with a forward slash (/) and must not contain empty segments (i.e., two consecutive forward slashes). Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_path GatewayUpstream#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_path GatewayUpstream#http_path}
   */
   readonly httpPath?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#https_sni GatewayUpstream#https_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#https_sni GatewayUpstream#https_sni}
   */
   readonly httpsSni?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#https_verify_certificate GatewayUpstream#https_verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#https_verify_certificate GatewayUpstream#https_verify_certificate}
   */
   readonly httpsVerifyCertificate?: boolean | cdktf.IResolvable;
   /**
   * Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#timeout GatewayUpstream#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#timeout GatewayUpstream#timeout}
   */
   readonly timeout?: number;
   /**
   * Default: "http"; must be one of ["grpc", "grpcs", "http", "https", "tcp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#type GatewayUpstream#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#type GatewayUpstream#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#unhealthy GatewayUpstream#unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#unhealthy GatewayUpstream#unhealthy}
   */
   readonly unhealthy?: GatewayUpstreamHealthchecksActiveUnhealthy;
 }
@@ -1030,13 +1030,13 @@ export interface GatewayUpstreamHealthchecksPassiveHealthy {
   /**
   * Default: [200,201,202,203,204,205,206,207,208,226,300,301,302,303,304,305,306,307,308]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
   */
   readonly httpStatuses?: number[];
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#successes GatewayUpstream#successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#successes GatewayUpstream#successes}
   */
   readonly successes?: number;
 }
@@ -1161,25 +1161,25 @@ export interface GatewayUpstreamHealthchecksPassiveUnhealthy {
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_failures GatewayUpstream#http_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_failures GatewayUpstream#http_failures}
   */
   readonly httpFailures?: number;
   /**
   * Default: [429,500,503]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#http_statuses GatewayUpstream#http_statuses}
   */
   readonly httpStatuses?: number[];
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#tcp_failures GatewayUpstream#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#tcp_failures GatewayUpstream#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#timeouts GatewayUpstream#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#timeouts GatewayUpstream#timeouts}
   */
   readonly timeouts?: number;
 }
@@ -1360,17 +1360,17 @@ export class GatewayUpstreamHealthchecksPassiveUnhealthyOutputReference extends 
 }
 export interface GatewayUpstreamHealthchecksPassive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#healthy GatewayUpstream#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#healthy GatewayUpstream#healthy}
   */
   readonly healthy?: GatewayUpstreamHealthchecksPassiveHealthy;
   /**
   * Default: "http"; must be one of ["grpc", "grpcs", "http", "https", "tcp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#type GatewayUpstream#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#type GatewayUpstream#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#unhealthy GatewayUpstream#unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#unhealthy GatewayUpstream#unhealthy}
   */
   readonly unhealthy?: GatewayUpstreamHealthchecksPassiveUnhealthy;
 }
@@ -1522,17 +1522,17 @@ export class GatewayUpstreamHealthchecksPassiveOutputReference extends cdktf.Com
 }
 export interface GatewayUpstreamHealthchecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#active GatewayUpstream#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#active GatewayUpstream#active}
   */
   readonly active?: GatewayUpstreamHealthchecksActive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#passive GatewayUpstream#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#passive GatewayUpstream#passive}
   */
   readonly passive?: GatewayUpstreamHealthchecksPassive;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#threshold GatewayUpstream#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#threshold GatewayUpstream#threshold}
   */
   readonly threshold?: number;
 }
@@ -1684,7 +1684,7 @@ export class GatewayUpstreamHealthchecksOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream konnect_gateway_upstream}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream konnect_gateway_upstream}
 */
 export class GatewayUpstream extends cdktf.TerraformResource {
 
@@ -1700,7 +1700,7 @@ export class GatewayUpstream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayUpstream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayUpstream to import
-  * @param importFromId The id of the existing GatewayUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayUpstream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1712,7 +1712,7 @@ export class GatewayUpstream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_upstream konnect_gateway_upstream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_upstream konnect_gateway_upstream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1723,8 +1723,8 @@ export class GatewayUpstream extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_upstream',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

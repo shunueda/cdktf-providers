@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiSemanticCacheConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#config GatewayPluginAiSemanticCache#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#config GatewayPluginAiSemanticCache#config}
   */
   readonly config: GatewayPluginAiSemanticCacheConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#consumer GatewayPluginAiSemanticCache#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#consumer GatewayPluginAiSemanticCache#consumer}
   */
   readonly consumer?: GatewayPluginAiSemanticCacheConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#consumer_group GatewayPluginAiSemanticCache#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#consumer_group GatewayPluginAiSemanticCache#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiSemanticCacheConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#control_plane_id GatewayPluginAiSemanticCache#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#control_plane_id GatewayPluginAiSemanticCache#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#created_at GatewayPluginAiSemanticCache#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#created_at GatewayPluginAiSemanticCache#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#enabled GatewayPluginAiSemanticCache#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#enabled GatewayPluginAiSemanticCache#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiSemanticCacheConfig extends cdktf.TerraformMetaA
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#instance_name GatewayPluginAiSemanticCache#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#instance_name GatewayPluginAiSemanticCache#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ordering GatewayPluginAiSemanticCache#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ordering GatewayPluginAiSemanticCache#ordering}
   */
   readonly ordering?: GatewayPluginAiSemanticCacheOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#partials GatewayPluginAiSemanticCache#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#partials GatewayPluginAiSemanticCache#partials}
   */
   readonly partials?: GatewayPluginAiSemanticCachePartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#protocols GatewayPluginAiSemanticCache#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#protocols GatewayPluginAiSemanticCache#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#route GatewayPluginAiSemanticCache#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#route GatewayPluginAiSemanticCache#route}
   */
   readonly route?: GatewayPluginAiSemanticCacheRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#service GatewayPluginAiSemanticCache#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#service GatewayPluginAiSemanticCache#service}
   */
   readonly service?: GatewayPluginAiSemanticCacheService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#tags GatewayPluginAiSemanticCache#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#tags GatewayPluginAiSemanticCache#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#updated_at GatewayPluginAiSemanticCache#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#updated_at GatewayPluginAiSemanticCache#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,85 +101,85 @@ export interface GatewayPluginAiSemanticCacheConfigEmbeddingsAuth {
   /**
   * If enabled, the authorization header or parameter can be overridden in the request by the value configured in the plugin. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#allow_override GatewayPluginAiSemanticCache#allow_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#allow_override GatewayPluginAiSemanticCache#allow_override}
   */
   readonly allowOverride?: boolean | cdktf.IResolvable;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_ACCESS_KEY_ID environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#aws_access_key_id GatewayPluginAiSemanticCache#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#aws_access_key_id GatewayPluginAiSemanticCache#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_SECRET_ACCESS_KEY environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#aws_secret_access_key GatewayPluginAiSemanticCache#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#aws_secret_access_key GatewayPluginAiSemanticCache#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#azure_client_id GatewayPluginAiSemanticCache#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#azure_client_id GatewayPluginAiSemanticCache#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#azure_client_secret GatewayPluginAiSemanticCache#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#azure_client_secret GatewayPluginAiSemanticCache#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#azure_tenant_id GatewayPluginAiSemanticCache#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#azure_tenant_id GatewayPluginAiSemanticCache#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Set true to use the Azure Cloud Managed Identity (or user-assigned identity) to authenticate with Azure-provider models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#azure_use_managed_identity GatewayPluginAiSemanticCache#azure_use_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#azure_use_managed_identity GatewayPluginAiSemanticCache#azure_use_managed_identity}
   */
   readonly azureUseManagedIdentity?: boolean | cdktf.IResolvable;
   /**
   * Set this field to the full JSON of the GCP service account to authenticate, if required. If null (and gcp_use_service_account is true), Kong will attempt to read from environment variable `GCP_SERVICE_ACCOUNT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#gcp_service_account_json GatewayPluginAiSemanticCache#gcp_service_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#gcp_service_account_json GatewayPluginAiSemanticCache#gcp_service_account_json}
   */
   readonly gcpServiceAccountJson?: string;
   /**
   * Use service account auth for GCP-based providers and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#gcp_use_service_account GatewayPluginAiSemanticCache#gcp_use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#gcp_use_service_account GatewayPluginAiSemanticCache#gcp_use_service_account}
   */
   readonly gcpUseServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * If AI model requires authentication via Authorization or API key header, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#header_name GatewayPluginAiSemanticCache#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#header_name GatewayPluginAiSemanticCache#header_name}
   */
   readonly headerName?: string;
   /**
   * Specify the full auth header value for 'header_name', for example 'Bearer key' or just 'key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#header_value GatewayPluginAiSemanticCache#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#header_value GatewayPluginAiSemanticCache#header_value}
   */
   readonly headerValue?: string;
   /**
   * Specify whether the 'param_name' and 'param_value' options go in a query string, or the POST form/JSON body. must be one of ["body", "query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#param_location GatewayPluginAiSemanticCache#param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#param_location GatewayPluginAiSemanticCache#param_location}
   */
   readonly paramLocation?: string;
   /**
   * If AI model requires authentication via query parameter, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#param_name GatewayPluginAiSemanticCache#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#param_name GatewayPluginAiSemanticCache#param_name}
   */
   readonly paramName?: string;
   /**
   * Specify the full parameter value for 'param_name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#param_value GatewayPluginAiSemanticCache#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#param_value GatewayPluginAiSemanticCache#param_value}
   */
   readonly paramValue?: string;
 }
@@ -652,19 +652,19 @@ export interface GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsAzure {
   /**
   * 'api-version' for Azure OpenAI instances. Default: "2023-05-15"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#api_version GatewayPluginAiSemanticCache#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#api_version GatewayPluginAiSemanticCache#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Deployment ID for Azure OpenAI instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#deployment_id GatewayPluginAiSemanticCache#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#deployment_id GatewayPluginAiSemanticCache#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * Instance name for Azure OpenAI hosted models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#instance GatewayPluginAiSemanticCache#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#instance GatewayPluginAiSemanticCache#instance}
   */
   readonly instance?: string;
 }
@@ -818,37 +818,37 @@ export interface GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsBedrock
   /**
   * If using AWS providers (Bedrock) you can assume a different role after authentication with the current IAM context is successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#aws_assume_role_arn GatewayPluginAiSemanticCache#aws_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#aws_assume_role_arn GatewayPluginAiSemanticCache#aws_assume_role_arn}
   */
   readonly awsAssumeRoleArn?: string;
   /**
   * If using AWS providers (Bedrock) you can override the `AWS_REGION` environment variable by setting this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#aws_region GatewayPluginAiSemanticCache#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#aws_region GatewayPluginAiSemanticCache#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * If using AWS providers (Bedrock), set the identifier of the assumed role session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#aws_role_session_name GatewayPluginAiSemanticCache#aws_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#aws_role_session_name GatewayPluginAiSemanticCache#aws_role_session_name}
   */
   readonly awsRoleSessionName?: string;
   /**
   * If using AWS providers (Bedrock), override the STS endpoint URL when assuming a different role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#aws_sts_endpoint_url GatewayPluginAiSemanticCache#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#aws_sts_endpoint_url GatewayPluginAiSemanticCache#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
   * If using AWS providers (Bedrock), set to true to normalize the embeddings. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#embeddings_normalize GatewayPluginAiSemanticCache#embeddings_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#embeddings_normalize GatewayPluginAiSemanticCache#embeddings_normalize}
   */
   readonly embeddingsNormalize?: boolean | cdktf.IResolvable;
   /**
   * Force the client's performance configuration 'latency' for all requests. Leave empty to let the consumer select the performance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#performance_config_latency GatewayPluginAiSemanticCache#performance_config_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#performance_config_latency GatewayPluginAiSemanticCache#performance_config_latency}
   */
   readonly performanceConfigLatency?: string;
 }
@@ -1089,19 +1089,19 @@ export interface GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsGemini 
   /**
   * If running Gemini on Vertex, specify the regional API endpoint (hostname only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#api_endpoint GatewayPluginAiSemanticCache#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#api_endpoint GatewayPluginAiSemanticCache#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * If running Gemini on Vertex, specify the location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#location_id GatewayPluginAiSemanticCache#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#location_id GatewayPluginAiSemanticCache#location_id}
   */
   readonly locationId?: string;
   /**
   * If running Gemini on Vertex, specify the project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#project_id GatewayPluginAiSemanticCache#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#project_id GatewayPluginAiSemanticCache#project_id}
   */
   readonly projectId?: string;
 }
@@ -1255,13 +1255,13 @@ export interface GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsHugging
   /**
   * Use the cache layer on the inference API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#use_cache GatewayPluginAiSemanticCache#use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#use_cache GatewayPluginAiSemanticCache#use_cache}
   */
   readonly useCache?: boolean | cdktf.IResolvable;
   /**
   * Wait for the model if it is not ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#wait_for_model GatewayPluginAiSemanticCache#wait_for_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#wait_for_model GatewayPluginAiSemanticCache#wait_for_model}
   */
   readonly waitForModel?: boolean | cdktf.IResolvable;
 }
@@ -1384,25 +1384,25 @@ export class GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsHuggingface
 }
 export interface GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#azure GatewayPluginAiSemanticCache#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#azure GatewayPluginAiSemanticCache#azure}
   */
   readonly azure?: GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#bedrock GatewayPluginAiSemanticCache#bedrock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#bedrock GatewayPluginAiSemanticCache#bedrock}
   */
   readonly bedrock?: GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsBedrock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#gemini GatewayPluginAiSemanticCache#gemini}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#gemini GatewayPluginAiSemanticCache#gemini}
   */
   readonly gemini?: GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsGemini;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#huggingface GatewayPluginAiSemanticCache#huggingface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#huggingface GatewayPluginAiSemanticCache#huggingface}
   */
   readonly huggingface?: GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptionsHuggingface;
   /**
   * upstream url for the embeddings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#upstream_url GatewayPluginAiSemanticCache#upstream_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#upstream_url GatewayPluginAiSemanticCache#upstream_url}
   */
   readonly upstreamUrl?: string;
 }
@@ -1614,19 +1614,19 @@ export interface GatewayPluginAiSemanticCacheConfigEmbeddingsModel {
   /**
   * Model name to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#name GatewayPluginAiSemanticCache#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#name GatewayPluginAiSemanticCache#name}
   */
   readonly name: string;
   /**
   * Key/value settings for the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#options GatewayPluginAiSemanticCache#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#options GatewayPluginAiSemanticCache#options}
   */
   readonly options?: GatewayPluginAiSemanticCacheConfigEmbeddingsModelOptions;
   /**
   * AI provider format to use for embeddings API. must be one of ["azure", "bedrock", "gemini", "huggingface", "mistral", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#provider GatewayPluginAiSemanticCache#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#provider GatewayPluginAiSemanticCache#provider}
   */
   readonly provider: string;
 }
@@ -1772,11 +1772,11 @@ export class GatewayPluginAiSemanticCacheConfigEmbeddingsModelOutputReference ex
 }
 export interface GatewayPluginAiSemanticCacheConfigEmbeddings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#auth GatewayPluginAiSemanticCache#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#auth GatewayPluginAiSemanticCache#auth}
   */
   readonly auth?: GatewayPluginAiSemanticCacheConfigEmbeddingsAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#model GatewayPluginAiSemanticCache#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#model GatewayPluginAiSemanticCache#model}
   */
   readonly model: GatewayPluginAiSemanticCacheConfigEmbeddingsModel;
 }
@@ -1898,73 +1898,73 @@ export interface GatewayPluginAiSemanticCacheConfigVectordbPgvector {
   /**
   * the database of the pgvector database. Default: "kong-pgvector"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#database GatewayPluginAiSemanticCache#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#database GatewayPluginAiSemanticCache#database}
   */
   readonly database?: string;
   /**
   * the host of the pgvector database. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#host GatewayPluginAiSemanticCache#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#host GatewayPluginAiSemanticCache#host}
   */
   readonly host?: string;
   /**
   * the password of the pgvector database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#password GatewayPluginAiSemanticCache#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#password GatewayPluginAiSemanticCache#password}
   */
   readonly password?: string;
   /**
   * the port of the pgvector database. Default: 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
   */
   readonly port?: number;
   /**
   * whether to use ssl for the pgvector database. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl GatewayPluginAiSemanticCache#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl GatewayPluginAiSemanticCache#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * the path of ssl cert to use for the pgvector database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl_cert GatewayPluginAiSemanticCache#ssl_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl_cert GatewayPluginAiSemanticCache#ssl_cert}
   */
   readonly sslCert?: string;
   /**
   * the path of ssl cert key to use for the pgvector database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl_cert_key GatewayPluginAiSemanticCache#ssl_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl_cert_key GatewayPluginAiSemanticCache#ssl_cert_key}
   */
   readonly sslCertKey?: string;
   /**
   * whether ssl is required for the pgvector database. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl_required GatewayPluginAiSemanticCache#ssl_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl_required GatewayPluginAiSemanticCache#ssl_required}
   */
   readonly sslRequired?: boolean | cdktf.IResolvable;
   /**
   * whether to verify ssl for the pgvector database. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl_verify GatewayPluginAiSemanticCache#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl_verify GatewayPluginAiSemanticCache#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * the ssl version to use for the pgvector database. Default: "tlsv1_2"; must be one of ["any", "tlsv1_2", "tlsv1_3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl_version GatewayPluginAiSemanticCache#ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl_version GatewayPluginAiSemanticCache#ssl_version}
   */
   readonly sslVersion?: string;
   /**
   * the timeout of the pgvector database. Default: 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#timeout GatewayPluginAiSemanticCache#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#timeout GatewayPluginAiSemanticCache#timeout}
   */
   readonly timeout?: number;
   /**
   * the user of the pgvector database. Default: "postgres"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#user GatewayPluginAiSemanticCache#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#user GatewayPluginAiSemanticCache#user}
   */
   readonly user?: string;
 }
@@ -2379,13 +2379,13 @@ export interface GatewayPluginAiSemanticCacheConfigVectordbRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ip GatewayPluginAiSemanticCache#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ip GatewayPluginAiSemanticCache#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
   */
   readonly port?: number;
 }
@@ -2532,13 +2532,13 @@ export interface GatewayPluginAiSemanticCacheConfigVectordbRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#host GatewayPluginAiSemanticCache#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#host GatewayPluginAiSemanticCache#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
   */
   readonly port?: number;
 }
@@ -2685,127 +2685,127 @@ export interface GatewayPluginAiSemanticCacheConfigVectordbRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#cluster_max_redirections GatewayPluginAiSemanticCache#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#cluster_max_redirections GatewayPluginAiSemanticCache#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#cluster_nodes GatewayPluginAiSemanticCache#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#cluster_nodes GatewayPluginAiSemanticCache#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginAiSemanticCacheConfigVectordbRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#connect_timeout GatewayPluginAiSemanticCache#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#connect_timeout GatewayPluginAiSemanticCache#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#connection_is_proxied GatewayPluginAiSemanticCache#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#connection_is_proxied GatewayPluginAiSemanticCache#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#database GatewayPluginAiSemanticCache#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#database GatewayPluginAiSemanticCache#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#host GatewayPluginAiSemanticCache#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#host GatewayPluginAiSemanticCache#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#keepalive_backlog GatewayPluginAiSemanticCache#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#keepalive_backlog GatewayPluginAiSemanticCache#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#keepalive_pool_size GatewayPluginAiSemanticCache#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#keepalive_pool_size GatewayPluginAiSemanticCache#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#password GatewayPluginAiSemanticCache#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#password GatewayPluginAiSemanticCache#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#port GatewayPluginAiSemanticCache#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#read_timeout GatewayPluginAiSemanticCache#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#read_timeout GatewayPluginAiSemanticCache#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#send_timeout GatewayPluginAiSemanticCache#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#send_timeout GatewayPluginAiSemanticCache#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_master GatewayPluginAiSemanticCache#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_master GatewayPluginAiSemanticCache#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_nodes GatewayPluginAiSemanticCache#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_nodes GatewayPluginAiSemanticCache#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginAiSemanticCacheConfigVectordbRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_password GatewayPluginAiSemanticCache#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_password GatewayPluginAiSemanticCache#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_role GatewayPluginAiSemanticCache#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_role GatewayPluginAiSemanticCache#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_username GatewayPluginAiSemanticCache#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#sentinel_username GatewayPluginAiSemanticCache#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#server_name GatewayPluginAiSemanticCache#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#server_name GatewayPluginAiSemanticCache#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl GatewayPluginAiSemanticCache#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl GatewayPluginAiSemanticCache#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ssl_verify GatewayPluginAiSemanticCache#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ssl_verify GatewayPluginAiSemanticCache#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#username GatewayPluginAiSemanticCache#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#username GatewayPluginAiSemanticCache#username}
   */
   readonly username?: string;
 }
@@ -3481,33 +3481,33 @@ export interface GatewayPluginAiSemanticCacheConfigVectordb {
   /**
   * the desired dimensionality for the vectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#dimensions GatewayPluginAiSemanticCache#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#dimensions GatewayPluginAiSemanticCache#dimensions}
   */
   readonly dimensions: number;
   /**
   * the distance metric to use for vector searches. must be one of ["cosine", "euclidean"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#distance_metric GatewayPluginAiSemanticCache#distance_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#distance_metric GatewayPluginAiSemanticCache#distance_metric}
   */
   readonly distanceMetric: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#pgvector GatewayPluginAiSemanticCache#pgvector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#pgvector GatewayPluginAiSemanticCache#pgvector}
   */
   readonly pgvector?: GatewayPluginAiSemanticCacheConfigVectordbPgvector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#redis GatewayPluginAiSemanticCache#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#redis GatewayPluginAiSemanticCache#redis}
   */
   readonly redis?: GatewayPluginAiSemanticCacheConfigVectordbRedis;
   /**
   * which vector database driver to use. must be one of ["pgvector", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#strategy GatewayPluginAiSemanticCache#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#strategy GatewayPluginAiSemanticCache#strategy}
   */
   readonly strategy: string;
   /**
   * the default similarity threshold for accepting semantic search results (float)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#threshold GatewayPluginAiSemanticCache#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#threshold GatewayPluginAiSemanticCache#threshold}
   */
   readonly threshold: number;
 }
@@ -3736,63 +3736,63 @@ export interface GatewayPluginAiSemanticCacheConfigA {
   /**
   * When enabled, respect the Cache-Control behaviors defined in RFC7234. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#cache_control GatewayPluginAiSemanticCache#cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#cache_control GatewayPluginAiSemanticCache#cache_control}
   */
   readonly cacheControl?: boolean | cdktf.IResolvable;
   /**
   * TTL in seconds of cache entities. Must be a value greater than 0. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#cache_ttl GatewayPluginAiSemanticCache#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#cache_ttl GatewayPluginAiSemanticCache#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#embeddings GatewayPluginAiSemanticCache#embeddings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#embeddings GatewayPluginAiSemanticCache#embeddings}
   */
   readonly embeddings: GatewayPluginAiSemanticCacheConfigEmbeddings;
   /**
   * When enabled, a first check for exact query will be done. It will impact DB size. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#exact_caching GatewayPluginAiSemanticCache#exact_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#exact_caching GatewayPluginAiSemanticCache#exact_caching}
   */
   readonly exactCaching?: boolean | cdktf.IResolvable;
   /**
   * Ignore and discard any assistant prompts when Vectorizing the request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ignore_assistant_prompts GatewayPluginAiSemanticCache#ignore_assistant_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ignore_assistant_prompts GatewayPluginAiSemanticCache#ignore_assistant_prompts}
   */
   readonly ignoreAssistantPrompts?: boolean | cdktf.IResolvable;
   /**
   * Ignore and discard any system prompts when Vectorizing the request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ignore_system_prompts GatewayPluginAiSemanticCache#ignore_system_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ignore_system_prompts GatewayPluginAiSemanticCache#ignore_system_prompts}
   */
   readonly ignoreSystemPrompts?: boolean | cdktf.IResolvable;
   /**
   * Ignore and discard any tool prompts when Vectorizing the request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#ignore_tool_prompts GatewayPluginAiSemanticCache#ignore_tool_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#ignore_tool_prompts GatewayPluginAiSemanticCache#ignore_tool_prompts}
   */
   readonly ignoreToolPrompts?: boolean | cdktf.IResolvable;
   /**
   * LLM input and output format and schema to use. Default: "openai"; must be one of ["bedrock", "cohere", "gemini", "huggingface", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#llm_format GatewayPluginAiSemanticCache#llm_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#llm_format GatewayPluginAiSemanticCache#llm_format}
   */
   readonly llmFormat?: string;
   /**
   * Number of messages in the chat history to Vectorize/Cache. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#message_countback GatewayPluginAiSemanticCache#message_countback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#message_countback GatewayPluginAiSemanticCache#message_countback}
   */
   readonly messageCountback?: number;
   /**
   * Halt the LLM request process in case of a caching system failure. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#stop_on_failure GatewayPluginAiSemanticCache#stop_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#stop_on_failure GatewayPluginAiSemanticCache#stop_on_failure}
   */
   readonly stopOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#vectordb GatewayPluginAiSemanticCache#vectordb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#vectordb GatewayPluginAiSemanticCache#vectordb}
   */
   readonly vectordb: GatewayPluginAiSemanticCacheConfigVectordb;
 }
@@ -4170,7 +4170,7 @@ export class GatewayPluginAiSemanticCacheConfigAOutputReference extends cdktf.Co
 }
 export interface GatewayPluginAiSemanticCacheConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4267,7 +4267,7 @@ export class GatewayPluginAiSemanticCacheConsumerOutputReference extends cdktf.C
 }
 export interface GatewayPluginAiSemanticCacheConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4364,7 +4364,7 @@ export class GatewayPluginAiSemanticCacheConsumerGroupOutputReference extends cd
 }
 export interface GatewayPluginAiSemanticCacheOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#access GatewayPluginAiSemanticCache#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#access GatewayPluginAiSemanticCache#access}
   */
   readonly access?: string[];
 }
@@ -4458,7 +4458,7 @@ export class GatewayPluginAiSemanticCacheOrderingAfterOutputReference extends cd
 }
 export interface GatewayPluginAiSemanticCacheOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#access GatewayPluginAiSemanticCache#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#access GatewayPluginAiSemanticCache#access}
   */
   readonly access?: string[];
 }
@@ -4552,11 +4552,11 @@ export class GatewayPluginAiSemanticCacheOrderingBeforeOutputReference extends c
 }
 export interface GatewayPluginAiSemanticCacheOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#after GatewayPluginAiSemanticCache#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#after GatewayPluginAiSemanticCache#after}
   */
   readonly after?: GatewayPluginAiSemanticCacheOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#before GatewayPluginAiSemanticCache#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#before GatewayPluginAiSemanticCache#before}
   */
   readonly before?: GatewayPluginAiSemanticCacheOrderingBefore;
 }
@@ -4681,7 +4681,7 @@ export interface GatewayPluginAiSemanticCachePartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4690,11 +4690,11 @@ export interface GatewayPluginAiSemanticCachePartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#name GatewayPluginAiSemanticCache#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#name GatewayPluginAiSemanticCache#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#path GatewayPluginAiSemanticCache#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#path GatewayPluginAiSemanticCache#path}
   */
   readonly path?: string;
 }
@@ -4868,7 +4868,7 @@ export class GatewayPluginAiSemanticCachePartialsList extends cdktf.ComplexList 
 }
 export interface GatewayPluginAiSemanticCacheRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4965,7 +4965,7 @@ export class GatewayPluginAiSemanticCacheRouteOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginAiSemanticCacheService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#id GatewayPluginAiSemanticCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5062,7 +5062,7 @@ export class GatewayPluginAiSemanticCacheServiceOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache konnect_gateway_plugin_ai_semantic_cache}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache konnect_gateway_plugin_ai_semantic_cache}
 */
 export class GatewayPluginAiSemanticCache extends cdktf.TerraformResource {
 
@@ -5078,7 +5078,7 @@ export class GatewayPluginAiSemanticCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiSemanticCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiSemanticCache to import
-  * @param importFromId The id of the existing GatewayPluginAiSemanticCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiSemanticCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiSemanticCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5090,7 +5090,7 @@ export class GatewayPluginAiSemanticCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_cache konnect_gateway_plugin_ai_semantic_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_cache konnect_gateway_plugin_ai_semantic_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5101,8 +5101,8 @@ export class GatewayPluginAiSemanticCache extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_semantic_cache',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

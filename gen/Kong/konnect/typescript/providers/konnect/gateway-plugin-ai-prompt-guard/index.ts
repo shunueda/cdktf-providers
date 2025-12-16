@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiPromptGuardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#config GatewayPluginAiPromptGuard#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#config GatewayPluginAiPromptGuard#config}
   */
   readonly config?: GatewayPluginAiPromptGuardConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#consumer GatewayPluginAiPromptGuard#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#consumer GatewayPluginAiPromptGuard#consumer}
   */
   readonly consumer?: GatewayPluginAiPromptGuardConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#consumer_group GatewayPluginAiPromptGuard#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#consumer_group GatewayPluginAiPromptGuard#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiPromptGuardConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#control_plane_id GatewayPluginAiPromptGuard#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#control_plane_id GatewayPluginAiPromptGuard#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#created_at GatewayPluginAiPromptGuard#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#created_at GatewayPluginAiPromptGuard#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#enabled GatewayPluginAiPromptGuard#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#enabled GatewayPluginAiPromptGuard#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiPromptGuardConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#instance_name GatewayPluginAiPromptGuard#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#instance_name GatewayPluginAiPromptGuard#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#ordering GatewayPluginAiPromptGuard#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#ordering GatewayPluginAiPromptGuard#ordering}
   */
   readonly ordering?: GatewayPluginAiPromptGuardOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#partials GatewayPluginAiPromptGuard#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#partials GatewayPluginAiPromptGuard#partials}
   */
   readonly partials?: GatewayPluginAiPromptGuardPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#protocols GatewayPluginAiPromptGuard#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#protocols GatewayPluginAiPromptGuard#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#route GatewayPluginAiPromptGuard#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#route GatewayPluginAiPromptGuard#route}
   */
   readonly route?: GatewayPluginAiPromptGuardRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#service GatewayPluginAiPromptGuard#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#service GatewayPluginAiPromptGuard#service}
   */
   readonly service?: GatewayPluginAiPromptGuardService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#tags GatewayPluginAiPromptGuard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#tags GatewayPluginAiPromptGuard#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#updated_at GatewayPluginAiPromptGuard#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#updated_at GatewayPluginAiPromptGuard#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,43 +101,43 @@ export interface GatewayPluginAiPromptGuardConfigA {
   /**
   * If true, will ignore all previous chat prompts from the conversation history. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#allow_all_conversation_history GatewayPluginAiPromptGuard#allow_all_conversation_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#allow_all_conversation_history GatewayPluginAiPromptGuard#allow_all_conversation_history}
   */
   readonly allowAllConversationHistory?: boolean | cdktf.IResolvable;
   /**
   * Array of valid regex patterns, or valid questions from the 'user' role in chat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#allow_patterns GatewayPluginAiPromptGuard#allow_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#allow_patterns GatewayPluginAiPromptGuard#allow_patterns}
   */
   readonly allowPatterns?: string[];
   /**
   * Array of invalid regex patterns, or invalid questions from the 'user' role in chat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#deny_patterns GatewayPluginAiPromptGuard#deny_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#deny_patterns GatewayPluginAiPromptGuard#deny_patterns}
   */
   readonly denyPatterns?: string[];
   /**
   * Generative AI category of the request. Default: "text/generation"; must be one of ["audio/speech", "audio/transcription", "image/generation", "realtime/generation", "text/embeddings", "text/generation"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#genai_category GatewayPluginAiPromptGuard#genai_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#genai_category GatewayPluginAiPromptGuard#genai_category}
   */
   readonly genaiCategory?: string;
   /**
   * LLM input and output format and schema to use. Default: "openai"; must be one of ["bedrock", "cohere", "gemini", "huggingface", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#llm_format GatewayPluginAiPromptGuard#llm_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#llm_format GatewayPluginAiPromptGuard#llm_format}
   */
   readonly llmFormat?: string;
   /**
   * If true, will match all roles in addition to 'user' role in conversation history. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#match_all_roles GatewayPluginAiPromptGuard#match_all_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#match_all_roles GatewayPluginAiPromptGuard#match_all_roles}
   */
   readonly matchAllRoles?: boolean | cdktf.IResolvable;
   /**
   * max allowed body size allowed to be introspected. 0 means unlimited, but the size of this body will still be limited by Nginx's client_max_body_size. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#max_request_body_size GatewayPluginAiPromptGuard#max_request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#max_request_body_size GatewayPluginAiPromptGuard#max_request_body_size}
   */
   readonly maxRequestBodySize?: number;
 }
@@ -405,7 +405,7 @@ export class GatewayPluginAiPromptGuardConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginAiPromptGuardConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -502,7 +502,7 @@ export class GatewayPluginAiPromptGuardConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginAiPromptGuardConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -599,7 +599,7 @@ export class GatewayPluginAiPromptGuardConsumerGroupOutputReference extends cdkt
 }
 export interface GatewayPluginAiPromptGuardOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#access GatewayPluginAiPromptGuard#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#access GatewayPluginAiPromptGuard#access}
   */
   readonly access?: string[];
 }
@@ -693,7 +693,7 @@ export class GatewayPluginAiPromptGuardOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginAiPromptGuardOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#access GatewayPluginAiPromptGuard#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#access GatewayPluginAiPromptGuard#access}
   */
   readonly access?: string[];
 }
@@ -787,11 +787,11 @@ export class GatewayPluginAiPromptGuardOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginAiPromptGuardOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#after GatewayPluginAiPromptGuard#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#after GatewayPluginAiPromptGuard#after}
   */
   readonly after?: GatewayPluginAiPromptGuardOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#before GatewayPluginAiPromptGuard#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#before GatewayPluginAiPromptGuard#before}
   */
   readonly before?: GatewayPluginAiPromptGuardOrderingBefore;
 }
@@ -916,7 +916,7 @@ export interface GatewayPluginAiPromptGuardPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -925,11 +925,11 @@ export interface GatewayPluginAiPromptGuardPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#name GatewayPluginAiPromptGuard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#name GatewayPluginAiPromptGuard#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#path GatewayPluginAiPromptGuard#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#path GatewayPluginAiPromptGuard#path}
   */
   readonly path?: string;
 }
@@ -1103,7 +1103,7 @@ export class GatewayPluginAiPromptGuardPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAiPromptGuardRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1200,7 +1200,7 @@ export class GatewayPluginAiPromptGuardRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginAiPromptGuardService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#id GatewayPluginAiPromptGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1297,7 +1297,7 @@ export class GatewayPluginAiPromptGuardServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard konnect_gateway_plugin_ai_prompt_guard}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard konnect_gateway_plugin_ai_prompt_guard}
 */
 export class GatewayPluginAiPromptGuard extends cdktf.TerraformResource {
 
@@ -1313,7 +1313,7 @@ export class GatewayPluginAiPromptGuard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiPromptGuard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiPromptGuard to import
-  * @param importFromId The id of the existing GatewayPluginAiPromptGuard that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiPromptGuard that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiPromptGuard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1325,7 +1325,7 @@ export class GatewayPluginAiPromptGuard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_guard konnect_gateway_plugin_ai_prompt_guard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_guard konnect_gateway_plugin_ai_prompt_guard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1336,8 +1336,8 @@ export class GatewayPluginAiPromptGuard extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_prompt_guard',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

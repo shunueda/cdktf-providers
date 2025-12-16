@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRequestValidatorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#config GatewayPluginRequestValidator#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#config GatewayPluginRequestValidator#config}
   */
   readonly config?: GatewayPluginRequestValidatorConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#consumer GatewayPluginRequestValidator#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#consumer GatewayPluginRequestValidator#consumer}
   */
   readonly consumer?: GatewayPluginRequestValidatorConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#control_plane_id GatewayPluginRequestValidator#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#control_plane_id GatewayPluginRequestValidator#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#created_at GatewayPluginRequestValidator#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#created_at GatewayPluginRequestValidator#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#enabled GatewayPluginRequestValidator#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#enabled GatewayPluginRequestValidator#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginRequestValidatorConfig extends cdktf.TerraformMeta
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#instance_name GatewayPluginRequestValidator#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#instance_name GatewayPluginRequestValidator#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#ordering GatewayPluginRequestValidator#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#ordering GatewayPluginRequestValidator#ordering}
   */
   readonly ordering?: GatewayPluginRequestValidatorOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#partials GatewayPluginRequestValidator#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#partials GatewayPluginRequestValidator#partials}
   */
   readonly partials?: GatewayPluginRequestValidatorPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#protocols GatewayPluginRequestValidator#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#protocols GatewayPluginRequestValidator#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#route GatewayPluginRequestValidator#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#route GatewayPluginRequestValidator#route}
   */
   readonly route?: GatewayPluginRequestValidatorRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#service GatewayPluginRequestValidator#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#service GatewayPluginRequestValidator#service}
   */
   readonly service?: GatewayPluginRequestValidatorService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#tags GatewayPluginRequestValidator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#tags GatewayPluginRequestValidator#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#updated_at GatewayPluginRequestValidator#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#updated_at GatewayPluginRequestValidator#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,37 +95,37 @@ export interface GatewayPluginRequestValidatorConfigParameterSchema {
   /**
   * Required when `schema` and `style` are set. When `explode` is `true`, parameter values of type `array` or `object` generate separate parameters for each value of the array or key-value pair of the map. For other types of parameters, this property has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#explode GatewayPluginRequestValidator#explode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#explode GatewayPluginRequestValidator#explode}
   */
   readonly explode?: boolean | cdktf.IResolvable;
   /**
   * The location of the parameter. Not Null; must be one of ["header", "path", "query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#in GatewayPluginRequestValidator#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#in GatewayPluginRequestValidator#in}
   */
   readonly in?: string;
   /**
   * The name of the parameter. Parameter names are case-sensitive, and correspond to the parameter name used by the `in` property. If `in` is `path`, the `name` field MUST correspond to the named capture group from the configured `route`. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#name GatewayPluginRequestValidator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#name GatewayPluginRequestValidator#name}
   */
   readonly name?: string;
   /**
   * Determines whether this parameter is mandatory. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#required GatewayPluginRequestValidator#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#required GatewayPluginRequestValidator#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Required when `style` and `explode` are set. This is the schema defining the type used for the parameter. It is validated using `draft4` for JSON Schema draft 4 compliant validator. In addition to being a valid JSON Schema, the parameter schema MUST have a top-level `type` property to enable proper deserialization before validating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#schema GatewayPluginRequestValidator#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#schema GatewayPluginRequestValidator#schema}
   */
   readonly schema?: string;
   /**
   * Required when `schema` and `explode` are set. Describes how the parameter value will be deserialized depending on the type of the parameter value. must be one of ["deepObject", "form", "label", "matrix", "pipeDelimited", "simple", "spaceDelimited"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#style GatewayPluginRequestValidator#style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#style GatewayPluginRequestValidator#style}
   */
   readonly style?: string;
 }
@@ -388,37 +388,37 @@ export interface GatewayPluginRequestValidatorConfigA {
   /**
   * List of allowed content types. The value can be configured with the `charset` parameter. For example, `application/json; charset=UTF-8`. Default: ["application/json"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#allowed_content_types GatewayPluginRequestValidator#allowed_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#allowed_content_types GatewayPluginRequestValidator#allowed_content_types}
   */
   readonly allowedContentTypes?: string[];
   /**
   * The request body schema specification. One of `body_schema` or `parameter_schema` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#body_schema GatewayPluginRequestValidator#body_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#body_schema GatewayPluginRequestValidator#body_schema}
   */
   readonly bodySchema?: string;
   /**
   * Determines whether to enable parameters validation of request content-type. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#content_type_parameter_validation GatewayPluginRequestValidator#content_type_parameter_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#content_type_parameter_validation GatewayPluginRequestValidator#content_type_parameter_validation}
   */
   readonly contentTypeParameterValidation?: boolean | cdktf.IResolvable;
   /**
   * Array of parameter validator specification. One of `body_schema` or `parameter_schema` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#parameter_schema GatewayPluginRequestValidator#parameter_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#parameter_schema GatewayPluginRequestValidator#parameter_schema}
   */
   readonly parameterSchema?: GatewayPluginRequestValidatorConfigParameterSchema[] | cdktf.IResolvable;
   /**
   * If enabled, the plugin returns more verbose and detailed validation errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#verbose_response GatewayPluginRequestValidator#verbose_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#verbose_response GatewayPluginRequestValidator#verbose_response}
   */
   readonly verboseResponse?: boolean | cdktf.IResolvable;
   /**
   * Which validator to use. Supported values are `kong` (default) for using Kong's own schema validator, or `draft4`, `draft7`, `draft201909`, and `draft202012` for using their respective JSON Schema Draft compliant validators. Default: "kong"; must be one of ["draft201909", "draft202012", "draft4", "draft6", "draft7", "kong"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#version GatewayPluginRequestValidator#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#version GatewayPluginRequestValidator#version}
   */
   readonly version?: string;
 }
@@ -657,7 +657,7 @@ export class GatewayPluginRequestValidatorConfigAOutputReference extends cdktf.C
 }
 export interface GatewayPluginRequestValidatorConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -754,7 +754,7 @@ export class GatewayPluginRequestValidatorConsumerOutputReference extends cdktf.
 }
 export interface GatewayPluginRequestValidatorOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#access GatewayPluginRequestValidator#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#access GatewayPluginRequestValidator#access}
   */
   readonly access?: string[];
 }
@@ -848,7 +848,7 @@ export class GatewayPluginRequestValidatorOrderingAfterOutputReference extends c
 }
 export interface GatewayPluginRequestValidatorOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#access GatewayPluginRequestValidator#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#access GatewayPluginRequestValidator#access}
   */
   readonly access?: string[];
 }
@@ -942,11 +942,11 @@ export class GatewayPluginRequestValidatorOrderingBeforeOutputReference extends 
 }
 export interface GatewayPluginRequestValidatorOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#after GatewayPluginRequestValidator#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#after GatewayPluginRequestValidator#after}
   */
   readonly after?: GatewayPluginRequestValidatorOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#before GatewayPluginRequestValidator#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#before GatewayPluginRequestValidator#before}
   */
   readonly before?: GatewayPluginRequestValidatorOrderingBefore;
 }
@@ -1071,7 +1071,7 @@ export interface GatewayPluginRequestValidatorPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1080,11 +1080,11 @@ export interface GatewayPluginRequestValidatorPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#name GatewayPluginRequestValidator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#name GatewayPluginRequestValidator#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#path GatewayPluginRequestValidator#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#path GatewayPluginRequestValidator#path}
   */
   readonly path?: string;
 }
@@ -1258,7 +1258,7 @@ export class GatewayPluginRequestValidatorPartialsList extends cdktf.ComplexList
 }
 export interface GatewayPluginRequestValidatorRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1355,7 +1355,7 @@ export class GatewayPluginRequestValidatorRouteOutputReference extends cdktf.Com
 }
 export interface GatewayPluginRequestValidatorService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#id GatewayPluginRequestValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1452,7 +1452,7 @@ export class GatewayPluginRequestValidatorServiceOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator konnect_gateway_plugin_request_validator}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator konnect_gateway_plugin_request_validator}
 */
 export class GatewayPluginRequestValidator extends cdktf.TerraformResource {
 
@@ -1468,7 +1468,7 @@ export class GatewayPluginRequestValidator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginRequestValidator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRequestValidator to import
-  * @param importFromId The id of the existing GatewayPluginRequestValidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRequestValidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRequestValidator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1480,7 +1480,7 @@ export class GatewayPluginRequestValidator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_validator konnect_gateway_plugin_request_validator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_validator konnect_gateway_plugin_request_validator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1491,8 +1491,8 @@ export class GatewayPluginRequestValidator extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_request_validator',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

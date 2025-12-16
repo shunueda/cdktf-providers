@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface HttpSsoSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto created users will have access to their profile page and will be able to perform actions such as generating an API key. Default to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings#allow_user_to_access_profile HttpSsoSettings#allow_user_to_access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings#allow_user_to_access_profile HttpSsoSettings#allow_user_to_access_profile}
   */
   readonly allowUserToAccessProfile?: boolean | cdktf.IResolvable;
   /**
   * When set, authenticated users are automatically created in Artifactory. When not set, for every request from an SSO user, the user is temporarily associated with default groups (if such groups are defined), and the permissions for these groups apply. Without automatic user creation, you must manually create the user inside Artifactory to manage user permissions not attached to their default groups. Default to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings#auto_create_user HttpSsoSettings#auto_create_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings#auto_create_user HttpSsoSettings#auto_create_user}
   */
   readonly autoCreateUser?: boolean | cdktf.IResolvable;
   /**
   * When set, Artifactory trusts incoming requests and reuses the remote user originally set on the request by the SSO of the HTTP server. This is useful if you want to use existing enterprise SSO integrations, such as the powerful authentication schemes provided by Apache (mod_auth_ldap, mod_auth_ntlm, mod_auth_kerb, etc.). When Artifactory is deployed as a webapp on Tomcat behind Apache: If using mod_jk, be sure to use the `JkEnvVar REMOTE_USER` directive in Apache's configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings#proxied HttpSsoSettings#proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings#proxied HttpSsoSettings#proxied}
   */
   readonly proxied: boolean | cdktf.IResolvable;
   /**
   * The name of the HTTP request variable to use for extracting the user identity. Default to `REMOTE_USER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings#remote_user_request_variable HttpSsoSettings#remote_user_request_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings#remote_user_request_variable HttpSsoSettings#remote_user_request_variable}
   */
   readonly remoteUserRequestVariable?: string;
   /**
   * When set, the user will be associated with the groups returned in the LDAP login response. Note that the user's association with the returned groups is persistent if the `auto_create_user` is set. Default to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings#sync_ldap_groups HttpSsoSettings#sync_ldap_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings#sync_ldap_groups HttpSsoSettings#sync_ldap_groups}
   */
   readonly syncLdapGroups?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings platform_http_sso_settings}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings platform_http_sso_settings}
 */
 export class HttpSsoSettings extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class HttpSsoSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpSsoSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpSsoSettings to import
-  * @param importFromId The id of the existing HttpSsoSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpSsoSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpSsoSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class HttpSsoSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/http_sso_settings platform_http_sso_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/http_sso_settings platform_http_sso_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class HttpSsoSettings extends cdktf.TerraformResource {
       terraformResourceType: 'platform_http_sso_settings',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

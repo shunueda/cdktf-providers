@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CloudGatewayConfigurationConfig extends cdktf.TerraformMetaArgu
   /**
   * Type of API access data-plane groups will support for a configuration. Default: "private+public"; must be one of ["private", "public", "private+public"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#api_access CloudGatewayConfiguration#api_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#api_access CloudGatewayConfiguration#api_access}
   */
   readonly apiAccess?: string;
   /**
   * Set of control-plane geos supported for deploying cloud-gateways configurations. must be one of ["us", "eu", "au", "me", "in", "sg"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#control_plane_geo CloudGatewayConfiguration#control_plane_geo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#control_plane_geo CloudGatewayConfiguration#control_plane_geo}
   */
   readonly controlPlaneGeo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#control_plane_id CloudGatewayConfiguration#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#control_plane_id CloudGatewayConfiguration#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * List of data-plane groups that describe where to deploy instances, along with how many instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#dataplane_groups CloudGatewayConfiguration#dataplane_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#dataplane_groups CloudGatewayConfiguration#dataplane_groups}
   */
   readonly dataplaneGroups: CloudGatewayConfigurationDataplaneGroups[] | cdktf.IResolvable;
   /**
   * Supported gateway version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#version CloudGatewayConfiguration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#version CloudGatewayConfiguration#version}
   */
   readonly version: string;
 }
@@ -40,19 +40,19 @@ export interface CloudGatewayConfigurationDataplaneGroupsAutoscaleConfigurationD
   /**
   * Base number of requests per second that the deployment target should support. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#base_rps CloudGatewayConfiguration#base_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#base_rps CloudGatewayConfiguration#base_rps}
   */
   readonly baseRps?: number;
   /**
   * Not Null; must be "autopilot"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#kind CloudGatewayConfiguration#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#kind CloudGatewayConfiguration#kind}
   */
   readonly kind?: string;
   /**
   * Max number of requests per second that the deployment target should support. If not set, this defaults to 10x base_rps. This field is deprecated and shouldn't be used in new configurations as it will be removed in a future version. max_rps is now calculated as 10x base_rps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#max_rps CloudGatewayConfiguration#max_rps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#max_rps CloudGatewayConfiguration#max_rps}
   */
   readonly maxRps?: number;
 }
@@ -206,19 +206,19 @@ export interface CloudGatewayConfigurationDataplaneGroupsAutoscaleConfigurationD
   /**
   * Instance type name to indicate capacity. Not Null; must be one of ["small", "medium", "large"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#instance_type CloudGatewayConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#instance_type CloudGatewayConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Not Null; must be "static"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#kind CloudGatewayConfiguration#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#kind CloudGatewayConfiguration#kind}
   */
   readonly kind?: string;
   /**
   * Number of data-planes the deployment target will contain. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#requested_instances CloudGatewayConfiguration#requested_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#requested_instances CloudGatewayConfiguration#requested_instances}
   */
   readonly requestedInstances?: number;
 }
@@ -372,13 +372,13 @@ export interface CloudGatewayConfigurationDataplaneGroupsAutoscale {
   /**
   * Object that describes the autopilot autoscaling strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#configuration_data_plane_group_autoscale_autopilot CloudGatewayConfiguration#configuration_data_plane_group_autoscale_autopilot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#configuration_data_plane_group_autoscale_autopilot CloudGatewayConfiguration#configuration_data_plane_group_autoscale_autopilot}
   */
   readonly configurationDataPlaneGroupAutoscaleAutopilot?: CloudGatewayConfigurationDataplaneGroupsAutoscaleConfigurationDataPlaneGroupAutoscaleAutopilot;
   /**
   * Object that describes the static autoscaling strategy. Deprecated in favor of the autopilot autoscaling strategy. Static autoscaling will be removed in a future version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#configuration_data_plane_group_autoscale_static CloudGatewayConfiguration#configuration_data_plane_group_autoscale_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#configuration_data_plane_group_autoscale_static CloudGatewayConfiguration#configuration_data_plane_group_autoscale_static}
   */
   readonly configurationDataPlaneGroupAutoscaleStatic?: CloudGatewayConfigurationDataplaneGroupsAutoscaleConfigurationDataPlaneGroupAutoscaleStatic;
 }
@@ -503,13 +503,13 @@ export interface CloudGatewayConfigurationDataplaneGroupsEnvironment {
   /**
   * Name of the environment variable field to set for the data-plane group. Must be prefixed by KONG_. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#name CloudGatewayConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#name CloudGatewayConfiguration#name}
   */
   readonly name?: string;
   /**
   * Value assigned to the environment variable field for the data-plane group. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#value CloudGatewayConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#value CloudGatewayConfiguration#value}
   */
   readonly value?: string;
 }
@@ -656,31 +656,31 @@ export interface CloudGatewayConfigurationDataplaneGroups {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#autoscale CloudGatewayConfiguration#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#autoscale CloudGatewayConfiguration#autoscale}
   */
   readonly autoscale?: CloudGatewayConfigurationDataplaneGroupsAutoscale;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#cloud_gateway_network_id CloudGatewayConfiguration#cloud_gateway_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#cloud_gateway_network_id CloudGatewayConfiguration#cloud_gateway_network_id}
   */
   readonly cloudGatewayNetworkId?: string;
   /**
   * Array of environment variables to set for a data-plane group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#environment CloudGatewayConfiguration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#environment CloudGatewayConfiguration#environment}
   */
   readonly environment?: CloudGatewayConfigurationDataplaneGroupsEnvironment[] | cdktf.IResolvable;
   /**
   * Name of cloud provider. Not Null; must be one of ["aws", "azure"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#provider CloudGatewayConfiguration#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#provider CloudGatewayConfiguration#provider}
   */
   readonly provider?: string;
   /**
   * Region ID for cloud provider region. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#region CloudGatewayConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#region CloudGatewayConfiguration#region}
   */
   readonly region?: string;
 }
@@ -942,7 +942,7 @@ export class CloudGatewayConfigurationDataplaneGroupsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration konnect_cloud_gateway_configuration}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration konnect_cloud_gateway_configuration}
 */
 export class CloudGatewayConfiguration extends cdktf.TerraformResource {
 
@@ -958,7 +958,7 @@ export class CloudGatewayConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGatewayConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGatewayConfiguration to import
-  * @param importFromId The id of the existing CloudGatewayConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGatewayConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGatewayConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -970,7 +970,7 @@ export class CloudGatewayConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_configuration konnect_cloud_gateway_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_configuration konnect_cloud_gateway_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -981,8 +981,8 @@ export class CloudGatewayConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_cloud_gateway_configuration',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

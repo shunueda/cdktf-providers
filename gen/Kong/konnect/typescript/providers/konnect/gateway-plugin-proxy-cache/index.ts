@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginProxyCacheConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#config GatewayPluginProxyCache#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#config GatewayPluginProxyCache#config}
   */
   readonly config: GatewayPluginProxyCacheConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#consumer GatewayPluginProxyCache#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#consumer GatewayPluginProxyCache#consumer}
   */
   readonly consumer?: GatewayPluginProxyCacheConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#consumer_group GatewayPluginProxyCache#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#consumer_group GatewayPluginProxyCache#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginProxyCacheConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#control_plane_id GatewayPluginProxyCache#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#control_plane_id GatewayPluginProxyCache#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#created_at GatewayPluginProxyCache#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#created_at GatewayPluginProxyCache#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#enabled GatewayPluginProxyCache#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#enabled GatewayPluginProxyCache#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginProxyCacheConfig extends cdktf.TerraformMetaArgume
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#instance_name GatewayPluginProxyCache#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#instance_name GatewayPluginProxyCache#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#ordering GatewayPluginProxyCache#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#ordering GatewayPluginProxyCache#ordering}
   */
   readonly ordering?: GatewayPluginProxyCacheOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#partials GatewayPluginProxyCache#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#partials GatewayPluginProxyCache#partials}
   */
   readonly partials?: GatewayPluginProxyCachePartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#protocols GatewayPluginProxyCache#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#protocols GatewayPluginProxyCache#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#route GatewayPluginProxyCache#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#route GatewayPluginProxyCache#route}
   */
   readonly route?: GatewayPluginProxyCacheRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#service GatewayPluginProxyCache#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#service GatewayPluginProxyCache#service}
   */
   readonly service?: GatewayPluginProxyCacheService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#tags GatewayPluginProxyCache#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#tags GatewayPluginProxyCache#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#updated_at GatewayPluginProxyCache#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#updated_at GatewayPluginProxyCache#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,7 +101,7 @@ export interface GatewayPluginProxyCacheConfigMemory {
   /**
   * The name of the shared dictionary in which to hold cache entities when the memory strategy is selected. Note that this dictionary currently must be defined manually in the Kong Nginx template. Default: "kong_db_cache"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#dictionary_name GatewayPluginProxyCache#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#dictionary_name GatewayPluginProxyCache#dictionary_name}
   */
   readonly dictionaryName?: string;
 }
@@ -197,19 +197,19 @@ export interface GatewayPluginProxyCacheConfigResponseHeaders {
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#age GatewayPluginProxyCache#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#age GatewayPluginProxyCache#age}
   */
   readonly age?: boolean | cdktf.IResolvable;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#x_cache_key GatewayPluginProxyCache#x_cache_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#x_cache_key GatewayPluginProxyCache#x_cache_key}
   */
   readonly xCacheKey?: boolean | cdktf.IResolvable;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#x_cache_status GatewayPluginProxyCache#x_cache_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#x_cache_status GatewayPluginProxyCache#x_cache_status}
   */
   readonly xCacheStatus?: boolean | cdktf.IResolvable;
 }
@@ -363,71 +363,71 @@ export interface GatewayPluginProxyCacheConfigA {
   /**
   * When enabled, respect the Cache-Control behaviors defined in RFC7234. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#cache_control GatewayPluginProxyCache#cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#cache_control GatewayPluginProxyCache#cache_control}
   */
   readonly cacheControl?: boolean | cdktf.IResolvable;
   /**
   * TTL, in seconds, of cache entities. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#cache_ttl GatewayPluginProxyCache#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#cache_ttl GatewayPluginProxyCache#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
   * Upstream response content types considered cacheable. The plugin performs an **exact match** against each specified value. Default: ["application/json","text/plain"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#content_type GatewayPluginProxyCache#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#content_type GatewayPluginProxyCache#content_type}
   */
   readonly contentType?: string[];
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#ignore_uri_case GatewayPluginProxyCache#ignore_uri_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#ignore_uri_case GatewayPluginProxyCache#ignore_uri_case}
   */
   readonly ignoreUriCase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#memory GatewayPluginProxyCache#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#memory GatewayPluginProxyCache#memory}
   */
   readonly memory?: GatewayPluginProxyCacheConfigMemory;
   /**
   * Downstream request methods considered cacheable. Default: ["GET","HEAD"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#request_method GatewayPluginProxyCache#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#request_method GatewayPluginProxyCache#request_method}
   */
   readonly requestMethod?: string[];
   /**
   * Upstream response status code considered cacheable. Default: [200,301,404]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#response_code GatewayPluginProxyCache#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#response_code GatewayPluginProxyCache#response_code}
   */
   readonly responseCode?: number[];
   /**
   * Caching related diagnostic headers that should be included in cached responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#response_headers GatewayPluginProxyCache#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#response_headers GatewayPluginProxyCache#response_headers}
   */
   readonly responseHeaders?: GatewayPluginProxyCacheConfigResponseHeaders;
   /**
   * Number of seconds to keep resources in the storage backend. This value is independent of `cache_ttl` or resource TTLs defined by Cache-Control behaviors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#storage_ttl GatewayPluginProxyCache#storage_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#storage_ttl GatewayPluginProxyCache#storage_ttl}
   */
   readonly storageTtl?: number;
   /**
   * The backing data store in which to hold cache entities. must be "memory"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#strategy GatewayPluginProxyCache#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#strategy GatewayPluginProxyCache#strategy}
   */
   readonly strategy: string;
   /**
   * Relevant headers considered for the cache key. If undefined, none of the headers are taken into consideration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#vary_headers GatewayPluginProxyCache#vary_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#vary_headers GatewayPluginProxyCache#vary_headers}
   */
   readonly varyHeaders?: string[];
   /**
   * Relevant query parameters considered for the cache key. If undefined, all params are taken into consideration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#vary_query_params GatewayPluginProxyCache#vary_query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#vary_query_params GatewayPluginProxyCache#vary_query_params}
   */
   readonly varyQueryParams?: string[];
 }
@@ -837,7 +837,7 @@ export class GatewayPluginProxyCacheConfigAOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginProxyCacheConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -934,7 +934,7 @@ export class GatewayPluginProxyCacheConsumerOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginProxyCacheConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1031,7 +1031,7 @@ export class GatewayPluginProxyCacheConsumerGroupOutputReference extends cdktf.C
 }
 export interface GatewayPluginProxyCacheOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#access GatewayPluginProxyCache#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#access GatewayPluginProxyCache#access}
   */
   readonly access?: string[];
 }
@@ -1125,7 +1125,7 @@ export class GatewayPluginProxyCacheOrderingAfterOutputReference extends cdktf.C
 }
 export interface GatewayPluginProxyCacheOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#access GatewayPluginProxyCache#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#access GatewayPluginProxyCache#access}
   */
   readonly access?: string[];
 }
@@ -1219,11 +1219,11 @@ export class GatewayPluginProxyCacheOrderingBeforeOutputReference extends cdktf.
 }
 export interface GatewayPluginProxyCacheOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#after GatewayPluginProxyCache#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#after GatewayPluginProxyCache#after}
   */
   readonly after?: GatewayPluginProxyCacheOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#before GatewayPluginProxyCache#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#before GatewayPluginProxyCache#before}
   */
   readonly before?: GatewayPluginProxyCacheOrderingBefore;
 }
@@ -1348,7 +1348,7 @@ export interface GatewayPluginProxyCachePartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1357,11 +1357,11 @@ export interface GatewayPluginProxyCachePartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#name GatewayPluginProxyCache#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#name GatewayPluginProxyCache#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#path GatewayPluginProxyCache#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#path GatewayPluginProxyCache#path}
   */
   readonly path?: string;
 }
@@ -1535,7 +1535,7 @@ export class GatewayPluginProxyCachePartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginProxyCacheRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1632,7 +1632,7 @@ export class GatewayPluginProxyCacheRouteOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginProxyCacheService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#id GatewayPluginProxyCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1729,7 +1729,7 @@ export class GatewayPluginProxyCacheServiceOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache konnect_gateway_plugin_proxy_cache}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache konnect_gateway_plugin_proxy_cache}
 */
 export class GatewayPluginProxyCache extends cdktf.TerraformResource {
 
@@ -1745,7 +1745,7 @@ export class GatewayPluginProxyCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginProxyCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginProxyCache to import
-  * @param importFromId The id of the existing GatewayPluginProxyCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginProxyCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginProxyCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1757,7 +1757,7 @@ export class GatewayPluginProxyCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_proxy_cache konnect_gateway_plugin_proxy_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_proxy_cache konnect_gateway_plugin_proxy_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1768,8 +1768,8 @@ export class GatewayPluginProxyCache extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_proxy_cache',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

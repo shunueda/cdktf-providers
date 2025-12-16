@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines the repositories to be used or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#artifact Permission#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#artifact Permission#artifact}
   */
   readonly artifact?: PermissionArtifact;
   /**
   * Defines the builds to be used or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#build Permission#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#build Permission#build}
   */
   readonly buildAttribute?: PermissionBuild;
   /**
   * Defines the destinations to be used or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#destination Permission#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#destination Permission#destination}
   */
   readonly destination?: PermissionDestination;
   /**
   * Permission name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
   * Defines the pipeline sources to be used or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#pipeline_source Permission#pipeline_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#pipeline_source Permission#pipeline_source}
   */
   readonly pipelineSource?: PermissionPipelineSource;
   /**
   * Defines the release bundles to be used or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#release_bundle Permission#release_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#release_bundle Permission#release_bundle}
   */
   readonly releaseBundle?: PermissionReleaseBundle;
 }
 export interface PermissionArtifactActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -57,7 +57,7 @@ export interface PermissionArtifactActionsGroups {
   * **SCAN**: Triggers Xray scans on artifacts in repositories. Creates and deletes custom issues and license.
   * **MANAGE**: Allows changing the permission settings for other users in this permission target. It does not permit adding/removing resources to the permission target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -196,7 +196,7 @@ export class PermissionArtifactActionsGroupsList extends cdktf.ComplexList {
 }
 export interface PermissionArtifactActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -207,7 +207,7 @@ export interface PermissionArtifactActionsUsers {
   * **SCAN**: Triggers Xray scans on artifacts in repositories. Creates and deletes custom issues and license.
   * **MANAGE**: Allows changing the permission settings for other users in this permission target. It does not permit adding/removing resources to the permission target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -346,11 +346,11 @@ export class PermissionArtifactActionsUsersList extends cdktf.ComplexList {
 }
 export interface PermissionArtifactActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#groups Permission#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#groups Permission#groups}
   */
   readonly groups?: PermissionArtifactActionsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#users Permission#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#users Permission#users}
   */
   readonly users?: PermissionArtifactActionsUsers[] | cdktf.IResolvable;
 }
@@ -475,19 +475,19 @@ export interface PermissionArtifactTargets {
   /**
   * Simple comma separated wildcard patterns for **existing and future** repository artifact paths (with no leading slash). Ant-style path expressions are supported (*, **, ?). For example: `org/apache/**`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * Simple comma separated wildcard patterns for **existing and future** repository artifact paths (with no leading slash). Ant-style path expressions are supported (*, **, ?). For example: `org/apache/**`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#include_patterns Permission#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#include_patterns Permission#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Specify repository key as name. Use `ANY LOCAL`, `ANY REMOTE`, or `ANY DISTRIBUTION` for any repository type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
 }
@@ -660,11 +660,13 @@ export interface PermissionArtifact {
   /**
   * Either one of `users` or `groups` attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#actions Permission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#actions Permission#actions}
   */
   readonly actions?: PermissionArtifactActions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#targets Permission#targets}
+  * When `artifact` is specified, `targets` must contain at least one target. Empty targets are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#targets Permission#targets}
   */
   readonly targets: PermissionArtifactTargets[] | cdktf.IResolvable;
 }
@@ -784,7 +786,7 @@ export class PermissionArtifactOutputReference extends cdktf.ComplexObject {
 }
 export interface PermissionBuildActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -795,7 +797,7 @@ export interface PermissionBuildActionsGroups {
   * **SCAN**: Triggers Xray scans on builds. Creates and deletes custom issues and license.
   * **MANAGE**: Allows changing build info permission settings for other users in this permission target. It does not permit adding/removing resources to the permission target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -934,7 +936,7 @@ export class PermissionBuildActionsGroupsList extends cdktf.ComplexList {
 }
 export interface PermissionBuildActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -945,7 +947,7 @@ export interface PermissionBuildActionsUsers {
   * **SCAN**: Triggers Xray scans on builds. Creates and deletes custom issues and license.
   * **MANAGE**: Allows changing build info permission settings for other users in this permission target. It does not permit adding/removing resources to the permission target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -1084,11 +1086,11 @@ export class PermissionBuildActionsUsersList extends cdktf.ComplexList {
 }
 export interface PermissionBuildActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#groups Permission#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#groups Permission#groups}
   */
   readonly groups?: PermissionBuildActionsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#users Permission#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#users Permission#users}
   */
   readonly users?: PermissionBuildActionsUsers[] | cdktf.IResolvable;
 }
@@ -1213,19 +1215,19 @@ export interface PermissionBuildTargets {
   /**
   * Use Ant-style wildcard patterns to specify **existing and future** build names (i.e. artifact paths) in the build info repository (without a leading slash) that will be excluded from this permission target. Ant-style path expressions are supported (*, **, ?). For example, an `apache/**` pattern will exclude the "apache" build info from the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * Use Ant-style wildcard patterns to specify **existing and future** build names (i.e. artifact paths) in the build info repository (without a leading slash) that will be included in this permission target. Ant-style path expressions are supported (*, **, ?). For example, an `apache/**` pattern will include the "apache" build info in the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#include_patterns Permission#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#include_patterns Permission#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
-  * Only `artifactory-build-info` is allowed for name. Specify build name as part of the `include_patterns` or `exclude_patterns`.
+  * Specify build info repository name. Any custom build info repository name is allowed (e.g. `artifactory-build-info` or a custom repository). Specify build name as part of the `include_patterns` or `exclude_patterns`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
 }
@@ -1398,11 +1400,13 @@ export interface PermissionBuild {
   /**
   * Either one of `users` or `groups` attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#actions Permission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#actions Permission#actions}
   */
   readonly actions?: PermissionBuildActions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#targets Permission#targets}
+  * When `build` is specified, `targets` must contain exactly one target. Multiple targets are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#targets Permission#targets}
   */
   readonly targets: PermissionBuildTargets[] | cdktf.IResolvable;
 }
@@ -1522,7 +1526,7 @@ export class PermissionBuildOutputReference extends cdktf.ComplexObject {
 }
 export interface PermissionDestinationActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -1530,7 +1534,7 @@ export interface PermissionDestinationActionsGroups {
   * **DELETE**: Deletes Release Bundles from the selected destinations.
   * **MANAGE**: Adds and deletes users who can distribute Release Bundles on assigned destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -1669,7 +1673,7 @@ export class PermissionDestinationActionsGroupsList extends cdktf.ComplexList {
 }
 export interface PermissionDestinationActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -1677,7 +1681,7 @@ export interface PermissionDestinationActionsUsers {
   * **DELETE**: Deletes Release Bundles from the selected destinations.
   * **MANAGE**: Adds and deletes users who can distribute Release Bundles on assigned destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -1816,11 +1820,11 @@ export class PermissionDestinationActionsUsersList extends cdktf.ComplexList {
 }
 export interface PermissionDestinationActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#groups Permission#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#groups Permission#groups}
   */
   readonly groups?: PermissionDestinationActionsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#users Permission#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#users Permission#users}
   */
   readonly users?: PermissionDestinationActionsUsers[] | cdktf.IResolvable;
 }
@@ -1945,19 +1949,19 @@ export interface PermissionDestinationTargets {
   /**
   * Simple wildcard patterns for existing and future JPD or city names. Ant-style path expressions are supported (*, **, ?). For example: `site_*` or `New*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * Simple wildcard patterns for existing and future JPD or city names. Ant-style path expressions are supported (*, **, ?). For example: `site_*` or `New*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#include_patterns Permission#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#include_patterns Permission#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Specify destination name as name. Use `*` to include all destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
 }
@@ -2130,11 +2134,13 @@ export interface PermissionDestination {
   /**
   * Either one of `users` or `groups` attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#actions Permission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#actions Permission#actions}
   */
   readonly actions?: PermissionDestinationActions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#targets Permission#targets}
+  * When `destination` is specified, `targets` must contain at least one target. Empty targets are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#targets Permission#targets}
   */
   readonly targets: PermissionDestinationTargets[] | cdktf.IResolvable;
 }
@@ -2254,7 +2260,7 @@ export class PermissionDestinationOutputReference extends cdktf.ComplexObject {
 }
 export interface PermissionPipelineSourceActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -2262,7 +2268,7 @@ export interface PermissionPipelineSourceActionsGroups {
   * **EXECUTE**: Manually trigger execution of steps.
   * **MANAGE**: Create and edit pipeline sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -2401,7 +2407,7 @@ export class PermissionPipelineSourceActionsGroupsList extends cdktf.ComplexList
 }
 export interface PermissionPipelineSourceActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -2409,7 +2415,7 @@ export interface PermissionPipelineSourceActionsUsers {
   * **EXECUTE**: Manually trigger execution of steps.
   * **MANAGE**: Create and edit pipeline sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -2548,11 +2554,11 @@ export class PermissionPipelineSourceActionsUsersList extends cdktf.ComplexList 
 }
 export interface PermissionPipelineSourceActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#groups Permission#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#groups Permission#groups}
   */
   readonly groups?: PermissionPipelineSourceActionsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#users Permission#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#users Permission#users}
   */
   readonly users?: PermissionPipelineSourceActionsUsers[] | cdktf.IResolvable;
 }
@@ -2677,7 +2683,7 @@ export interface PermissionPipelineSourceTargets {
   /**
   * Use Ant-style wildcard patterns to specify the full repository name of the **existing and future** pipeline sources that will be excluded from this permission. The pattern should have the following format: `{FULL_REPOSITORY_NAME_PATTERN}/**`. Ant-style path expressions are supported (*, **, ?). For example, the pattern `* /*test* /**` will exclude all repositories that contain the word "test" regardless of the repository owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2685,7 +2691,7 @@ export interface PermissionPipelineSourceTargets {
   /**
   * Use Ant-style wildcard patterns to specify the full repository name of the **existing and future** pipeline sources that will be included in this permission. The pattern should have the following format: `{FULL_REPOSITORY_NAME_PATTERN}/**`. Ant-style path expressions are supported (*, **, ?). For example, the pattern `* /*test* /**` will include all repositories that contain the word "test" regardless of the repository owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#include_patterns Permission#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#include_patterns Permission#include_patterns}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2693,7 +2699,7 @@ export interface PermissionPipelineSourceTargets {
   /**
   * Specify pipeline source name as name. Use `*` to include all pipeline sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
 }
@@ -2866,11 +2872,13 @@ export interface PermissionPipelineSource {
   /**
   * Either one of `users` or `groups` attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#actions Permission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#actions Permission#actions}
   */
   readonly actions?: PermissionPipelineSourceActions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#targets Permission#targets}
+  * When `pipeline_source` is specified, `targets` must contain at least one target. Empty targets are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#targets Permission#targets}
   */
   readonly targets: PermissionPipelineSourceTargets[] | cdktf.IResolvable;
 }
@@ -2990,7 +2998,7 @@ export class PermissionPipelineSourceOutputReference extends cdktf.ComplexObject
 }
 export interface PermissionReleaseBundleActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -3002,7 +3010,7 @@ export interface PermissionReleaseBundleActionsGroups {
   * **SCAN** Xray Metadata: Triggers Xray scans on Release Bundles. Creates and deletes custom issues and license.
   * **MANAGE**: Allows changing Release Bundle permission settings for other users in this permission target. It does not permit adding/removing resources to the permission target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -3141,7 +3149,7 @@ export class PermissionReleaseBundleActionsGroupsList extends cdktf.ComplexList 
 }
 export interface PermissionReleaseBundleActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
@@ -3153,7 +3161,7 @@ export interface PermissionReleaseBundleActionsUsers {
   * **SCAN** Xray Metadata: Triggers Xray scans on Release Bundles. Creates and deletes custom issues and license.
   * **MANAGE**: Allows changing Release Bundle permission settings for other users in this permission target. It does not permit adding/removing resources to the permission target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#permissions Permission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#permissions Permission#permissions}
   */
   readonly permissions: string[];
 }
@@ -3292,11 +3300,11 @@ export class PermissionReleaseBundleActionsUsersList extends cdktf.ComplexList {
 }
 export interface PermissionReleaseBundleActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#groups Permission#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#groups Permission#groups}
   */
   readonly groups?: PermissionReleaseBundleActionsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#users Permission#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#users Permission#users}
   */
   readonly users?: PermissionReleaseBundleActionsUsers[] | cdktf.IResolvable;
 }
@@ -3421,7 +3429,7 @@ export interface PermissionReleaseBundleTargets {
   /**
   * Simple wildcard patterns for **existing and future** Release Bundle names. Ant-style path expressions are supported (*, **, ?). For example: `product_* /**`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#exclude_patterns Permission#exclude_patterns}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -3429,7 +3437,7 @@ export interface PermissionReleaseBundleTargets {
   /**
   * Simple wildcard patterns for **existing and future** Release Bundle names. Ant-style path expressions are supported (*, **, ?). For example: `product_* /**`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#include_patterns Permission#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#include_patterns Permission#include_patterns}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -3437,7 +3445,7 @@ export interface PermissionReleaseBundleTargets {
   /**
   * Specify release bundle repository key as name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
 }
@@ -3610,11 +3618,13 @@ export interface PermissionReleaseBundle {
   /**
   * Either one of `users` or `groups` attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#actions Permission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#actions Permission#actions}
   */
   readonly actions?: PermissionReleaseBundleActions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#targets Permission#targets}
+  * When `release_bundle` is specified, `targets` must contain at least one target. Empty targets are not allowed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#targets Permission#targets}
   */
   readonly targets: PermissionReleaseBundleTargets[] | cdktf.IResolvable;
 }
@@ -3734,7 +3744,7 @@ export class PermissionReleaseBundleOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission platform_permission}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission platform_permission}
 */
 export class Permission extends cdktf.TerraformResource {
 
@@ -3750,7 +3760,7 @@ export class Permission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Permission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Permission to import
-  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Permission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3762,7 +3772,7 @@ export class Permission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/permission platform_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/permission platform_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3773,8 +3783,8 @@ export class Permission extends cdktf.TerraformResource {
       terraformResourceType: 'platform_permission',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

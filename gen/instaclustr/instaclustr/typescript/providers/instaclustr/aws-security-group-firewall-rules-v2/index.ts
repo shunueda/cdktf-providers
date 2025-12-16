@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsSecurityGroupFirewallRulesV2Config extends cdktf.TerraformMe
   /**
   * ID of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#cluster_id AwsSecurityGroupFirewallRulesV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#cluster_id AwsSecurityGroupFirewallRulesV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#id AwsSecurityGroupFirewallRulesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#id AwsSecurityGroupFirewallRulesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface AwsSecurityGroupFirewallRulesV2Config extends cdktf.TerraformMe
   /**
   * The status of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#status AwsSecurityGroupFirewallRulesV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#status AwsSecurityGroupFirewallRulesV2#status}
   */
   readonly status?: string;
   /**
   * firewall_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#firewall_rule AwsSecurityGroupFirewallRulesV2#firewall_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#firewall_rule AwsSecurityGroupFirewallRulesV2#firewall_rule}
   */
   readonly firewallRule: AwsSecurityGroupFirewallRulesV2FirewallRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#timeouts AwsSecurityGroupFirewallRulesV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#timeouts AwsSecurityGroupFirewallRulesV2#timeouts}
   */
   readonly timeouts?: AwsSecurityGroupFirewallRulesV2Timeouts;
 }
@@ -43,13 +43,13 @@ export interface AwsSecurityGroupFirewallRulesV2FirewallRule {
   /**
   * The reason (if needed) for the deferred status of the AWS security group firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#deferred_reason AwsSecurityGroupFirewallRulesV2#deferred_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#deferred_reason AwsSecurityGroupFirewallRulesV2#deferred_reason}
   */
   readonly deferredReason?: string;
   /**
   * ID of the AWS security group firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#id AwsSecurityGroupFirewallRulesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#id AwsSecurityGroupFirewallRulesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,13 +58,13 @@ export interface AwsSecurityGroupFirewallRulesV2FirewallRule {
   /**
   * The security group ID of the AWS security group firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#security_group_id AwsSecurityGroupFirewallRulesV2#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#security_group_id AwsSecurityGroupFirewallRulesV2#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * The type of firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#type AwsSecurityGroupFirewallRulesV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#type AwsSecurityGroupFirewallRulesV2#type}
   */
   readonly type: string;
 }
@@ -261,15 +261,15 @@ export class AwsSecurityGroupFirewallRulesV2FirewallRuleList extends cdktf.Compl
 }
 export interface AwsSecurityGroupFirewallRulesV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#create AwsSecurityGroupFirewallRulesV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#create AwsSecurityGroupFirewallRulesV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#default AwsSecurityGroupFirewallRulesV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#default AwsSecurityGroupFirewallRulesV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#update AwsSecurityGroupFirewallRulesV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#update AwsSecurityGroupFirewallRulesV2#update}
   */
   readonly update?: string;
 }
@@ -421,7 +421,7 @@ export class AwsSecurityGroupFirewallRulesV2TimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2 instaclustr_aws_security_group_firewall_rules_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2 instaclustr_aws_security_group_firewall_rules_v2}
 */
 export class AwsSecurityGroupFirewallRulesV2 extends cdktf.TerraformResource {
 
@@ -437,7 +437,7 @@ export class AwsSecurityGroupFirewallRulesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsSecurityGroupFirewallRulesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsSecurityGroupFirewallRulesV2 to import
-  * @param importFromId The id of the existing AwsSecurityGroupFirewallRulesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsSecurityGroupFirewallRulesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsSecurityGroupFirewallRulesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class AwsSecurityGroupFirewallRulesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/aws_security_group_firewall_rules_v2 instaclustr_aws_security_group_firewall_rules_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/aws_security_group_firewall_rules_v2 instaclustr_aws_security_group_firewall_rules_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class AwsSecurityGroupFirewallRulesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_aws_security_group_firewall_rules_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.36',
-        providerVersionConstraint: '2.1.36'
+        providerVersion: '2.1.37',
+        providerVersionConstraint: '2.1.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

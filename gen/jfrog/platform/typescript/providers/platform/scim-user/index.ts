@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ScimUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#active ScimUser#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#active ScimUser#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#emails ScimUser#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#emails ScimUser#emails}
   */
   readonly emails: ScimUserEmails[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#username ScimUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#username ScimUser#username}
   */
   readonly username: string;
 }
 export interface ScimUserEmails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#primary ScimUser#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#primary ScimUser#primary}
   */
   readonly primary: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#value ScimUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#value ScimUser#value}
   */
   readonly value: string;
 }
@@ -165,7 +165,7 @@ export class ScimUserEmailsList extends cdktf.ComplexList {
 }
 export interface ScimUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#value ScimUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#value ScimUser#value}
   */
   readonly value: string;
 }
@@ -268,7 +268,7 @@ export class ScimUserGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user platform_scim_user}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user platform_scim_user}
 */
 export class ScimUser extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class ScimUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScimUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScimUser to import
-  * @param importFromId The id of the existing ScimUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScimUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScimUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class ScimUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/scim_user platform_scim_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/scim_user platform_scim_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class ScimUser extends cdktf.TerraformResource {
       terraformResourceType: 'platform_scim_user',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

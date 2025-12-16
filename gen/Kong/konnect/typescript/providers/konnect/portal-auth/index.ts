@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,73 @@ export interface PortalAuthConfig extends cdktf.TerraformMetaArguments {
   /**
   * The organization has basic auth enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#basic_auth_enabled PortalAuth#basic_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#basic_auth_enabled PortalAuth#basic_auth_enabled}
   */
   readonly basicAuthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Whether IdP groups determine the Konnect Portal teams a developer has. This will soon replace oidc_team_mapping_enabled.
+  * Whether IdP groups determine the Konnect Portal teams a developer has.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#idp_mapping_enabled PortalAuth#idp_mapping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#idp_mapping_enabled PortalAuth#idp_mapping_enabled}
   */
   readonly idpMappingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether a Konnect Identity Admin assigns teams to a developer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#konnect_mapping_enabled PortalAuth#konnect_mapping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#konnect_mapping_enabled PortalAuth#konnect_mapping_enabled}
   */
   readonly konnectMappingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * The organization has OIDC disabled.
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_auth_enabled PortalAuth#oidc_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_auth_enabled PortalAuth#oidc_auth_enabled}
   */
   readonly oidcAuthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Mappings from a portal developer atribute to an Identity Provider claim.
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_claim_mappings PortalAuth#oidc_claim_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_claim_mappings PortalAuth#oidc_claim_mappings}
   */
   readonly oidcClaimMappings?: PortalAuthOidcClaimMappings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_client_id PortalAuth#oidc_client_id}
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_client_id PortalAuth#oidc_client_id}
   */
   readonly oidcClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_client_secret PortalAuth#oidc_client_secret}
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_client_secret PortalAuth#oidc_client_secret}
   */
   readonly oidcClientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_issuer PortalAuth#oidc_issuer}
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_issuer PortalAuth#oidc_issuer}
   */
   readonly oidcIssuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_scopes PortalAuth#oidc_scopes}
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_scopes PortalAuth#oidc_scopes}
   */
   readonly oidcScopes?: string[];
   /**
-  * Whether IdP groups determine the Konnect Portal teams a developer has.
+  * IdP groups determine the Portal Teams a developer has. Replaced by idp_mapping_enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#oidc_team_mapping_enabled PortalAuth#oidc_team_mapping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#oidc_team_mapping_enabled PortalAuth#oidc_team_mapping_enabled}
   */
   readonly oidcTeamMappingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#portal_id PortalAuth#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#portal_id PortalAuth#portal_id}
   */
   readonly portalId: string;
   /**
-  * The portal has SAML enabled or disabled.
+  * Deprecated. Use the [Identity Provider API](https://developer.konghq.com/api/konnect/portal-management/v3/#/operations/update-portal-identity-provider) instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#saml_auth_enabled PortalAuth#saml_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#saml_auth_enabled PortalAuth#saml_auth_enabled}
   */
   readonly samlAuthEnabled?: boolean | cdktf.IResolvable;
 }
@@ -76,19 +84,19 @@ export interface PortalAuthOidcClaimMappings {
   /**
   * Default: "email"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#email PortalAuth#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#email PortalAuth#email}
   */
   readonly email?: string;
   /**
   * Default: "groups"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#groups PortalAuth#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#groups PortalAuth#groups}
   */
   readonly groups?: string;
   /**
   * Default: "name"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#name PortalAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#name PortalAuth#name}
   */
   readonly name?: string;
 }
@@ -374,7 +382,7 @@ export class PortalAuthOidcConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth konnect_portal_auth}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth konnect_portal_auth}
 */
 export class PortalAuth extends cdktf.TerraformResource {
 
@@ -390,7 +398,7 @@ export class PortalAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalAuth to import
-  * @param importFromId The id of the existing PortalAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +410,7 @@ export class PortalAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_auth konnect_portal_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_auth konnect_portal_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +421,8 @@ export class PortalAuth extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_auth',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -506,7 +514,7 @@ export class PortalAuth extends cdktf.TerraformResource {
     return this._oidcAuthEnabled;
   }
 
-  // oidc_claim_mappings - computed: false, optional: true, required: false
+  // oidc_claim_mappings - computed: true, optional: true, required: false
   private _oidcClaimMappings = new PortalAuthOidcClaimMappingsOutputReference(this, "oidc_claim_mappings");
   public get oidcClaimMappings() {
     return this._oidcClaimMappings;

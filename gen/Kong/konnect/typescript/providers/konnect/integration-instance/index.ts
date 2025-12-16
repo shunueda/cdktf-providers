@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,31 +12,31 @@ export interface IntegrationInstanceConfig extends cdktf.TerraformMetaArguments 
   * The expected schema depends on the integration type and is dynamically registered at runtime.
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance#config IntegrationInstance#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance#config IntegrationInstance#config}
   */
   readonly config: string;
   /**
   * Optionally provide a description of the integration instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance#description IntegrationInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance#description IntegrationInstance#description}
   */
   readonly description?: string;
   /**
   * The display name of the integration instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance#display_name IntegrationInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance#display_name IntegrationInstance#display_name}
   */
   readonly displayName: string;
   /**
   * The type of integration instance to create. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance#integration_name IntegrationInstance#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance#integration_name IntegrationInstance#integration_name}
   */
   readonly integrationName: string;
   /**
   * The machine name of the integration instance that uniquely identifies it within the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance#name IntegrationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance#name IntegrationInstance#name}
   */
   readonly name: string;
 }
@@ -101,7 +101,7 @@ export class IntegrationInstanceIntegrationOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance konnect_integration_instance}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance konnect_integration_instance}
 */
 export class IntegrationInstance extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class IntegrationInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationInstance to import
-  * @param importFromId The id of the existing IntegrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class IntegrationInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance konnect_integration_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance konnect_integration_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class IntegrationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_integration_instance',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

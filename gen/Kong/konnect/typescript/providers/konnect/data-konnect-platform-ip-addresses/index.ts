@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/platform_ip_addresses
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/platform_ip_addresses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataKonnectPlatformIpAddressesConfig extends cdktf.TerraformMet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/platform_ip_addresses konnect_platform_ip_addresses}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/platform_ip_addresses konnect_platform_ip_addresses}
 */
 export class DataKonnectPlatformIpAddresses extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataKonnectPlatformIpAddresses extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKonnectPlatformIpAddresses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKonnectPlatformIpAddresses to import
-  * @param importFromId The id of the existing DataKonnectPlatformIpAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/platform_ip_addresses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKonnectPlatformIpAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/platform_ip_addresses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKonnectPlatformIpAddresses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataKonnectPlatformIpAddresses extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/platform_ip_addresses konnect_platform_ip_addresses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/platform_ip_addresses konnect_platform_ip_addresses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataKonnectPlatformIpAddresses extends cdktf.TerraformDataSource {
       terraformResourceType: 'konnect_platform_ip_addresses',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

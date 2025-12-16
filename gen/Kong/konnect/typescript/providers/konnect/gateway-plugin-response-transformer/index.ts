@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginResponseTransformerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#config GatewayPluginResponseTransformer#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#config GatewayPluginResponseTransformer#config}
   */
   readonly config?: GatewayPluginResponseTransformerConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#consumer GatewayPluginResponseTransformer#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#consumer GatewayPluginResponseTransformer#consumer}
   */
   readonly consumer?: GatewayPluginResponseTransformerConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#consumer_group GatewayPluginResponseTransformer#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#consumer_group GatewayPluginResponseTransformer#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginResponseTransformerConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#control_plane_id GatewayPluginResponseTransformer#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#control_plane_id GatewayPluginResponseTransformer#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#created_at GatewayPluginResponseTransformer#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#created_at GatewayPluginResponseTransformer#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#enabled GatewayPluginResponseTransformer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#enabled GatewayPluginResponseTransformer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginResponseTransformerConfig extends cdktf.TerraformM
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#instance_name GatewayPluginResponseTransformer#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#instance_name GatewayPluginResponseTransformer#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#ordering GatewayPluginResponseTransformer#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#ordering GatewayPluginResponseTransformer#ordering}
   */
   readonly ordering?: GatewayPluginResponseTransformerOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#partials GatewayPluginResponseTransformer#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#partials GatewayPluginResponseTransformer#partials}
   */
   readonly partials?: GatewayPluginResponseTransformerPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#protocols GatewayPluginResponseTransformer#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#protocols GatewayPluginResponseTransformer#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#route GatewayPluginResponseTransformer#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#route GatewayPluginResponseTransformer#route}
   */
   readonly route?: GatewayPluginResponseTransformerRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#service GatewayPluginResponseTransformer#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#service GatewayPluginResponseTransformer#service}
   */
   readonly service?: GatewayPluginResponseTransformerService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#tags GatewayPluginResponseTransformer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#tags GatewayPluginResponseTransformer#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#updated_at GatewayPluginResponseTransformer#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#updated_at GatewayPluginResponseTransformer#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,13 +101,13 @@ export interface GatewayPluginResponseTransformerConfigAdd {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
   */
   readonly json?: string[];
   /**
@@ -115,7 +115,7 @@ export interface GatewayPluginResponseTransformerConfigAdd {
   * JSON properties. Each string element can be one of: boolean, number, or string.
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json_types GatewayPluginResponseTransformer#json_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json_types GatewayPluginResponseTransformer#json_types}
   */
   readonly jsonTypes?: string[];
 }
@@ -269,13 +269,13 @@ export interface GatewayPluginResponseTransformerConfigAppend {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
   */
   readonly json?: string[];
   /**
@@ -283,7 +283,7 @@ export interface GatewayPluginResponseTransformerConfigAppend {
   * JSON properties. Each string element can be one of: boolean, number, or string.
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json_types GatewayPluginResponseTransformer#json_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json_types GatewayPluginResponseTransformer#json_types}
   */
   readonly jsonTypes?: string[];
 }
@@ -437,13 +437,13 @@ export interface GatewayPluginResponseTransformerConfigRemove {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
   */
   readonly json?: string[];
 }
@@ -568,13 +568,13 @@ export interface GatewayPluginResponseTransformerConfigRename {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
   */
   readonly json?: string[];
 }
@@ -699,13 +699,13 @@ export interface GatewayPluginResponseTransformerConfigReplace {
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#headers GatewayPluginResponseTransformer#headers}
   */
   readonly headers?: string[];
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json GatewayPluginResponseTransformer#json}
   */
   readonly json?: string[];
   /**
@@ -713,7 +713,7 @@ export interface GatewayPluginResponseTransformerConfigReplace {
   * JSON properties. Each string element can be one of: boolean, number, or string.
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#json_types GatewayPluginResponseTransformer#json_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#json_types GatewayPluginResponseTransformer#json_types}
   */
   readonly jsonTypes?: string[];
 }
@@ -865,23 +865,23 @@ export class GatewayPluginResponseTransformerConfigReplaceOutputReference extend
 }
 export interface GatewayPluginResponseTransformerConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#add GatewayPluginResponseTransformer#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#add GatewayPluginResponseTransformer#add}
   */
   readonly add?: GatewayPluginResponseTransformerConfigAdd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#append GatewayPluginResponseTransformer#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#append GatewayPluginResponseTransformer#append}
   */
   readonly append?: GatewayPluginResponseTransformerConfigAppend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#remove GatewayPluginResponseTransformer#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#remove GatewayPluginResponseTransformer#remove}
   */
   readonly remove?: GatewayPluginResponseTransformerConfigRemove;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#rename GatewayPluginResponseTransformer#rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#rename GatewayPluginResponseTransformer#rename}
   */
   readonly rename?: GatewayPluginResponseTransformerConfigRename;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#replace GatewayPluginResponseTransformer#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#replace GatewayPluginResponseTransformer#replace}
   */
   readonly replace?: GatewayPluginResponseTransformerConfigReplace;
 }
@@ -1091,7 +1091,7 @@ export class GatewayPluginResponseTransformerConfigAOutputReference extends cdkt
 }
 export interface GatewayPluginResponseTransformerConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1188,7 +1188,7 @@ export class GatewayPluginResponseTransformerConsumerOutputReference extends cdk
 }
 export interface GatewayPluginResponseTransformerConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1285,7 +1285,7 @@ export class GatewayPluginResponseTransformerConsumerGroupOutputReference extend
 }
 export interface GatewayPluginResponseTransformerOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#access GatewayPluginResponseTransformer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#access GatewayPluginResponseTransformer#access}
   */
   readonly access?: string[];
 }
@@ -1379,7 +1379,7 @@ export class GatewayPluginResponseTransformerOrderingAfterOutputReference extend
 }
 export interface GatewayPluginResponseTransformerOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#access GatewayPluginResponseTransformer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#access GatewayPluginResponseTransformer#access}
   */
   readonly access?: string[];
 }
@@ -1473,11 +1473,11 @@ export class GatewayPluginResponseTransformerOrderingBeforeOutputReference exten
 }
 export interface GatewayPluginResponseTransformerOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#after GatewayPluginResponseTransformer#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#after GatewayPluginResponseTransformer#after}
   */
   readonly after?: GatewayPluginResponseTransformerOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#before GatewayPluginResponseTransformer#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#before GatewayPluginResponseTransformer#before}
   */
   readonly before?: GatewayPluginResponseTransformerOrderingBefore;
 }
@@ -1602,7 +1602,7 @@ export interface GatewayPluginResponseTransformerPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1611,11 +1611,11 @@ export interface GatewayPluginResponseTransformerPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#name GatewayPluginResponseTransformer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#name GatewayPluginResponseTransformer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#path GatewayPluginResponseTransformer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#path GatewayPluginResponseTransformer#path}
   */
   readonly path?: string;
 }
@@ -1789,7 +1789,7 @@ export class GatewayPluginResponseTransformerPartialsList extends cdktf.ComplexL
 }
 export interface GatewayPluginResponseTransformerRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1886,7 +1886,7 @@ export class GatewayPluginResponseTransformerRouteOutputReference extends cdktf.
 }
 export interface GatewayPluginResponseTransformerService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#id GatewayPluginResponseTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1983,7 +1983,7 @@ export class GatewayPluginResponseTransformerServiceOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer konnect_gateway_plugin_response_transformer}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer konnect_gateway_plugin_response_transformer}
 */
 export class GatewayPluginResponseTransformer extends cdktf.TerraformResource {
 
@@ -1999,7 +1999,7 @@ export class GatewayPluginResponseTransformer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginResponseTransformer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginResponseTransformer to import
-  * @param importFromId The id of the existing GatewayPluginResponseTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginResponseTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginResponseTransformer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2011,7 +2011,7 @@ export class GatewayPluginResponseTransformer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_transformer konnect_gateway_plugin_response_transformer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_transformer konnect_gateway_plugin_response_transformer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2022,8 +2022,8 @@ export class GatewayPluginResponseTransformer extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_response_transformer',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginCanaryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#config GatewayPluginCanary#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#config GatewayPluginCanary#config}
   */
   readonly config?: GatewayPluginCanaryConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#control_plane_id GatewayPluginCanary#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#control_plane_id GatewayPluginCanary#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#created_at GatewayPluginCanary#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#created_at GatewayPluginCanary#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#enabled GatewayPluginCanary#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#enabled GatewayPluginCanary#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginCanaryConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#instance_name GatewayPluginCanary#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#instance_name GatewayPluginCanary#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#ordering GatewayPluginCanary#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#ordering GatewayPluginCanary#ordering}
   */
   readonly ordering?: GatewayPluginCanaryOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#partials GatewayPluginCanary#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#partials GatewayPluginCanary#partials}
   */
   readonly partials?: GatewayPluginCanaryPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#protocols GatewayPluginCanary#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#protocols GatewayPluginCanary#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#route GatewayPluginCanary#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#route GatewayPluginCanary#route}
   */
   readonly route?: GatewayPluginCanaryRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#service GatewayPluginCanary#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#service GatewayPluginCanary#service}
   */
   readonly service?: GatewayPluginCanaryService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#tags GatewayPluginCanary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#tags GatewayPluginCanary#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#updated_at GatewayPluginCanary#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#updated_at GatewayPluginCanary#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,19 +89,19 @@ export interface GatewayPluginCanaryConfigA {
   /**
   * A string representing an HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#canary_by_header_name GatewayPluginCanary#canary_by_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#canary_by_header_name GatewayPluginCanary#canary_by_header_name}
   */
   readonly canaryByHeaderName?: string;
   /**
   * The duration of the canary release in seconds. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#duration GatewayPluginCanary#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#duration GatewayPluginCanary#duration}
   */
   readonly duration?: number;
   /**
   * The groups allowed to access the canary release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#groups GatewayPluginCanary#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#groups GatewayPluginCanary#groups}
   */
   readonly groups?: string[];
   /**
@@ -115,55 +115,55 @@ export interface GatewayPluginCanaryConfigA {
   * * `header`: The hash will be based on the specified header value.
   * Default: "consumer"; must be one of ["allow", "consumer", "deny", "header", "ip", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#hash GatewayPluginCanary#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#hash GatewayPluginCanary#hash}
   */
   readonly hash?: string;
   /**
   * A string representing an HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#hash_header GatewayPluginCanary#hash_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#hash_header GatewayPluginCanary#hash_header}
   */
   readonly hashHeader?: string;
   /**
   * The percentage of traffic to be routed to the canary release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#percentage GatewayPluginCanary#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#percentage GatewayPluginCanary#percentage}
   */
   readonly percentage?: number;
   /**
   * Future time in seconds since epoch, when the canary release will start. Ignored when `percentage` is set, or when using `allow` or `deny` in `hash`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#start GatewayPluginCanary#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#start GatewayPluginCanary#start}
   */
   readonly start?: number;
   /**
   * The number of steps for the canary release. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#steps GatewayPluginCanary#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#steps GatewayPluginCanary#steps}
   */
   readonly steps?: number;
   /**
   * Specifies whether to fallback to the upstream server if the canary release fails. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#upstream_fallback GatewayPluginCanary#upstream_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#upstream_fallback GatewayPluginCanary#upstream_fallback}
   */
   readonly upstreamFallback?: boolean | cdktf.IResolvable;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#upstream_host GatewayPluginCanary#upstream_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#upstream_host GatewayPluginCanary#upstream_host}
   */
   readonly upstreamHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#upstream_port GatewayPluginCanary#upstream_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#upstream_port GatewayPluginCanary#upstream_port}
   */
   readonly upstreamPort?: number;
   /**
   * The URI of the upstream server to be used for the canary release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#upstream_uri GatewayPluginCanary#upstream_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#upstream_uri GatewayPluginCanary#upstream_uri}
   */
   readonly upstreamUri?: string;
 }
@@ -576,7 +576,7 @@ export class GatewayPluginCanaryConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginCanaryOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#access GatewayPluginCanary#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#access GatewayPluginCanary#access}
   */
   readonly access?: string[];
 }
@@ -670,7 +670,7 @@ export class GatewayPluginCanaryOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginCanaryOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#access GatewayPluginCanary#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#access GatewayPluginCanary#access}
   */
   readonly access?: string[];
 }
@@ -764,11 +764,11 @@ export class GatewayPluginCanaryOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginCanaryOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#after GatewayPluginCanary#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#after GatewayPluginCanary#after}
   */
   readonly after?: GatewayPluginCanaryOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#before GatewayPluginCanary#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#before GatewayPluginCanary#before}
   */
   readonly before?: GatewayPluginCanaryOrderingBefore;
 }
@@ -893,7 +893,7 @@ export interface GatewayPluginCanaryPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -902,11 +902,11 @@ export interface GatewayPluginCanaryPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#name GatewayPluginCanary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#name GatewayPluginCanary#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#path GatewayPluginCanary#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#path GatewayPluginCanary#path}
   */
   readonly path?: string;
 }
@@ -1080,7 +1080,7 @@ export class GatewayPluginCanaryPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginCanaryRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1177,7 +1177,7 @@ export class GatewayPluginCanaryRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginCanaryService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#id GatewayPluginCanary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1274,7 +1274,7 @@ export class GatewayPluginCanaryServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary konnect_gateway_plugin_canary}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary konnect_gateway_plugin_canary}
 */
 export class GatewayPluginCanary extends cdktf.TerraformResource {
 
@@ -1290,7 +1290,7 @@ export class GatewayPluginCanary extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginCanary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginCanary to import
-  * @param importFromId The id of the existing GatewayPluginCanary that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginCanary that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginCanary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1302,7 +1302,7 @@ export class GatewayPluginCanary extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_canary konnect_gateway_plugin_canary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_canary konnect_gateway_plugin_canary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1313,8 +1313,8 @@ export class GatewayPluginCanary extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_canary',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

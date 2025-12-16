@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GatewayConsumerGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#control_plane_id GatewayConsumerGroup#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#control_plane_id GatewayConsumerGroup#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#created_at GatewayConsumerGroup#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#created_at GatewayConsumerGroup#created_at}
   */
   readonly createdAt?: number;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#id GatewayConsumerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#id GatewayConsumerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,25 +31,25 @@ export interface GatewayConsumerGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#name GatewayConsumerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#name GatewayConsumerGroup#name}
   */
   readonly name: string;
   /**
   * A set of strings representing tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#tags GatewayConsumerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#tags GatewayConsumerGroup#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#updated_at GatewayConsumerGroup#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#updated_at GatewayConsumerGroup#updated_at}
   */
   readonly updatedAt?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group konnect_gateway_consumer_group}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group konnect_gateway_consumer_group}
 */
 export class GatewayConsumerGroup extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class GatewayConsumerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayConsumerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayConsumerGroup to import
-  * @param importFromId The id of the existing GatewayConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayConsumerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class GatewayConsumerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_consumer_group konnect_gateway_consumer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_consumer_group konnect_gateway_consumer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class GatewayConsumerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_consumer_group',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

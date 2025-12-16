@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginJwtConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#config GatewayPluginJwt#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#config GatewayPluginJwt#config}
   */
   readonly config?: GatewayPluginJwtConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#control_plane_id GatewayPluginJwt#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#control_plane_id GatewayPluginJwt#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#created_at GatewayPluginJwt#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#created_at GatewayPluginJwt#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#enabled GatewayPluginJwt#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#enabled GatewayPluginJwt#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginJwtConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#instance_name GatewayPluginJwt#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#instance_name GatewayPluginJwt#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#ordering GatewayPluginJwt#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#ordering GatewayPluginJwt#ordering}
   */
   readonly ordering?: GatewayPluginJwtOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#partials GatewayPluginJwt#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#partials GatewayPluginJwt#partials}
   */
   readonly partials?: GatewayPluginJwtPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#protocols GatewayPluginJwt#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#protocols GatewayPluginJwt#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#route GatewayPluginJwt#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#route GatewayPluginJwt#route}
   */
   readonly route?: GatewayPluginJwtRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#service GatewayPluginJwt#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#service GatewayPluginJwt#service}
   */
   readonly service?: GatewayPluginJwtService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#tags GatewayPluginJwt#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#tags GatewayPluginJwt#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#updated_at GatewayPluginJwt#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#updated_at GatewayPluginJwt#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,61 +89,61 @@ export interface GatewayPluginJwtConfigA {
   /**
   * An optional string (consumer UUID or username) value to use as an “anonymous” consumer if authentication fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#anonymous GatewayPluginJwt#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#anonymous GatewayPluginJwt#anonymous}
   */
   readonly anonymous?: string;
   /**
   * A list of registered claims (according to RFC 7519) that Kong can verify as well. Accepted values: one of exp or nbf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#claims_to_verify GatewayPluginJwt#claims_to_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#claims_to_verify GatewayPluginJwt#claims_to_verify}
   */
   readonly claimsToVerify?: string[];
   /**
   * A list of cookie names that Kong will inspect to retrieve JWTs. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#cookie_names GatewayPluginJwt#cookie_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#cookie_names GatewayPluginJwt#cookie_names}
   */
   readonly cookieNames?: string[];
   /**
   * A list of HTTP header names that Kong will inspect to retrieve JWTs. Default: ["authorization"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#header_names GatewayPluginJwt#header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#header_names GatewayPluginJwt#header_names}
   */
   readonly headerNames?: string[];
   /**
   * The name of the claim in which the key identifying the secret must be passed. The plugin will attempt to read this claim from the JWT payload and the header, in that order. Default: "iss"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#key_claim_name GatewayPluginJwt#key_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#key_claim_name GatewayPluginJwt#key_claim_name}
   */
   readonly keyClaimName?: string;
   /**
   * A value between 0 and 31536000 (365 days) limiting the lifetime of the JWT to maximum_expiration seconds in the future. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#maximum_expiration GatewayPluginJwt#maximum_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#maximum_expiration GatewayPluginJwt#maximum_expiration}
   */
   readonly maximumExpiration?: number;
   /**
   * When authentication fails the plugin sends `WWW-Authenticate` header with `realm` attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#realm GatewayPluginJwt#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#realm GatewayPluginJwt#realm}
   */
   readonly realm?: string;
   /**
   * A boolean value that indicates whether the plugin should run (and try to authenticate) on OPTIONS preflight requests. If set to false, then OPTIONS requests will always be allowed. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#run_on_preflight GatewayPluginJwt#run_on_preflight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#run_on_preflight GatewayPluginJwt#run_on_preflight}
   */
   readonly runOnPreflight?: boolean | cdktf.IResolvable;
   /**
   * If true, the plugin assumes the credential’s secret to be base64 encoded. You will need to create a base64-encoded secret for your Consumer, and sign your JWT with the original secret. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#secret_is_base64 GatewayPluginJwt#secret_is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#secret_is_base64 GatewayPluginJwt#secret_is_base64}
   */
   readonly secretIsBase64?: boolean | cdktf.IResolvable;
   /**
   * A list of querystring parameters that Kong will inspect to retrieve JWTs. Default: ["jwt"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#uri_param_names GatewayPluginJwt#uri_param_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#uri_param_names GatewayPluginJwt#uri_param_names}
   */
   readonly uriParamNames?: string[];
 }
@@ -498,7 +498,7 @@ export class GatewayPluginJwtConfigAOutputReference extends cdktf.ComplexObject 
 }
 export interface GatewayPluginJwtOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#access GatewayPluginJwt#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#access GatewayPluginJwt#access}
   */
   readonly access?: string[];
 }
@@ -592,7 +592,7 @@ export class GatewayPluginJwtOrderingAfterOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginJwtOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#access GatewayPluginJwt#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#access GatewayPluginJwt#access}
   */
   readonly access?: string[];
 }
@@ -686,11 +686,11 @@ export class GatewayPluginJwtOrderingBeforeOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginJwtOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#after GatewayPluginJwt#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#after GatewayPluginJwt#after}
   */
   readonly after?: GatewayPluginJwtOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#before GatewayPluginJwt#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#before GatewayPluginJwt#before}
   */
   readonly before?: GatewayPluginJwtOrderingBefore;
 }
@@ -815,7 +815,7 @@ export interface GatewayPluginJwtPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -824,11 +824,11 @@ export interface GatewayPluginJwtPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#name GatewayPluginJwt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#name GatewayPluginJwt#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#path GatewayPluginJwt#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#path GatewayPluginJwt#path}
   */
   readonly path?: string;
 }
@@ -1002,7 +1002,7 @@ export class GatewayPluginJwtPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginJwtRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1099,7 +1099,7 @@ export class GatewayPluginJwtRouteOutputReference extends cdktf.ComplexObject {
 }
 export interface GatewayPluginJwtService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#id GatewayPluginJwt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1196,7 +1196,7 @@ export class GatewayPluginJwtServiceOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt konnect_gateway_plugin_jwt}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt konnect_gateway_plugin_jwt}
 */
 export class GatewayPluginJwt extends cdktf.TerraformResource {
 
@@ -1212,7 +1212,7 @@ export class GatewayPluginJwt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginJwt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginJwt to import
-  * @param importFromId The id of the existing GatewayPluginJwt that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginJwt that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginJwt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1224,7 +1224,7 @@ export class GatewayPluginJwt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt konnect_gateway_plugin_jwt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt konnect_gateway_plugin_jwt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1235,8 +1235,8 @@ export class GatewayPluginJwt extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_jwt',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

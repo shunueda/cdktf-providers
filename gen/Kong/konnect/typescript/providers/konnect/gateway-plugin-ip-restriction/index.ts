@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginIpRestrictionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#config GatewayPluginIpRestriction#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#config GatewayPluginIpRestriction#config}
   */
   readonly config?: GatewayPluginIpRestrictionConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#consumer GatewayPluginIpRestriction#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#consumer GatewayPluginIpRestriction#consumer}
   */
   readonly consumer?: GatewayPluginIpRestrictionConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#consumer_group GatewayPluginIpRestriction#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#consumer_group GatewayPluginIpRestriction#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginIpRestrictionConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#control_plane_id GatewayPluginIpRestriction#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#control_plane_id GatewayPluginIpRestriction#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#created_at GatewayPluginIpRestriction#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#created_at GatewayPluginIpRestriction#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#enabled GatewayPluginIpRestriction#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#enabled GatewayPluginIpRestriction#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginIpRestrictionConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#instance_name GatewayPluginIpRestriction#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#instance_name GatewayPluginIpRestriction#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#ordering GatewayPluginIpRestriction#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#ordering GatewayPluginIpRestriction#ordering}
   */
   readonly ordering?: GatewayPluginIpRestrictionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#partials GatewayPluginIpRestriction#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#partials GatewayPluginIpRestriction#partials}
   */
   readonly partials?: GatewayPluginIpRestrictionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https","tcp","tls"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#protocols GatewayPluginIpRestriction#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#protocols GatewayPluginIpRestriction#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#route GatewayPluginIpRestriction#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#route GatewayPluginIpRestriction#route}
   */
   readonly route?: GatewayPluginIpRestrictionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#service GatewayPluginIpRestriction#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#service GatewayPluginIpRestriction#service}
   */
   readonly service?: GatewayPluginIpRestrictionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#tags GatewayPluginIpRestriction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#tags GatewayPluginIpRestriction#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#updated_at GatewayPluginIpRestriction#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#updated_at GatewayPluginIpRestriction#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,25 +101,25 @@ export interface GatewayPluginIpRestrictionConfigA {
   /**
   * List of IPs or CIDR ranges to allow. One of `config.allow` or `config.deny` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#allow GatewayPluginIpRestriction#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#allow GatewayPluginIpRestriction#allow}
   */
   readonly allow?: string[];
   /**
   * List of IPs or CIDR ranges to deny. One of `config.allow` or `config.deny` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#deny GatewayPluginIpRestriction#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#deny GatewayPluginIpRestriction#deny}
   */
   readonly deny?: string[];
   /**
   * The message to send as a response body to rejected requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#message GatewayPluginIpRestriction#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#message GatewayPluginIpRestriction#message}
   */
   readonly message?: string;
   /**
   * The HTTP status of the requests that will be rejected by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#status GatewayPluginIpRestriction#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#status GatewayPluginIpRestriction#status}
   */
   readonly status?: number;
 }
@@ -300,7 +300,7 @@ export class GatewayPluginIpRestrictionConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginIpRestrictionConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -397,7 +397,7 @@ export class GatewayPluginIpRestrictionConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginIpRestrictionConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -494,7 +494,7 @@ export class GatewayPluginIpRestrictionConsumerGroupOutputReference extends cdkt
 }
 export interface GatewayPluginIpRestrictionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#access GatewayPluginIpRestriction#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#access GatewayPluginIpRestriction#access}
   */
   readonly access?: string[];
 }
@@ -588,7 +588,7 @@ export class GatewayPluginIpRestrictionOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginIpRestrictionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#access GatewayPluginIpRestriction#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#access GatewayPluginIpRestriction#access}
   */
   readonly access?: string[];
 }
@@ -682,11 +682,11 @@ export class GatewayPluginIpRestrictionOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginIpRestrictionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#after GatewayPluginIpRestriction#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#after GatewayPluginIpRestriction#after}
   */
   readonly after?: GatewayPluginIpRestrictionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#before GatewayPluginIpRestriction#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#before GatewayPluginIpRestriction#before}
   */
   readonly before?: GatewayPluginIpRestrictionOrderingBefore;
 }
@@ -811,7 +811,7 @@ export interface GatewayPluginIpRestrictionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,11 +820,11 @@ export interface GatewayPluginIpRestrictionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#name GatewayPluginIpRestriction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#name GatewayPluginIpRestriction#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#path GatewayPluginIpRestriction#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#path GatewayPluginIpRestriction#path}
   */
   readonly path?: string;
 }
@@ -998,7 +998,7 @@ export class GatewayPluginIpRestrictionPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginIpRestrictionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1095,7 +1095,7 @@ export class GatewayPluginIpRestrictionRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginIpRestrictionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#id GatewayPluginIpRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1192,7 +1192,7 @@ export class GatewayPluginIpRestrictionServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction konnect_gateway_plugin_ip_restriction}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction konnect_gateway_plugin_ip_restriction}
 */
 export class GatewayPluginIpRestriction extends cdktf.TerraformResource {
 
@@ -1208,7 +1208,7 @@ export class GatewayPluginIpRestriction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginIpRestriction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginIpRestriction to import
-  * @param importFromId The id of the existing GatewayPluginIpRestriction that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginIpRestriction that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginIpRestriction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1220,7 +1220,7 @@ export class GatewayPluginIpRestriction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ip_restriction konnect_gateway_plugin_ip_restriction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ip_restriction konnect_gateway_plugin_ip_restriction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1231,8 +1231,8 @@ export class GatewayPluginIpRestriction extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ip_restriction',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

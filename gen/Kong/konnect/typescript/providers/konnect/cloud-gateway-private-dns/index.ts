@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudGatewayPrivateDnsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Human-readable name of the Private DNS. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#name CloudGatewayPrivateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#name CloudGatewayPrivateDns#name}
   */
   readonly name?: string;
   /**
   * The network to operate on. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#network_id CloudGatewayPrivateDns#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#network_id CloudGatewayPrivateDns#network_id}
   */
   readonly networkId: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#private_dns_attachment_config CloudGatewayPrivateDns#private_dns_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#private_dns_attachment_config CloudGatewayPrivateDns#private_dns_attachment_config}
   */
   readonly privateDnsAttachmentConfig?: CloudGatewayPrivateDnsPrivateDnsAttachmentConfig;
 }
@@ -741,7 +741,7 @@ export interface CloudGatewayPrivateDnsPrivateDnsAttachmentConfigAwsPrivateDnsRe
   /**
   * IP addresses of remote DNS servers used by the Private DNS Resolver for DNS resolution. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#remote_dns_server_ip_addresses CloudGatewayPrivateDns#remote_dns_server_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#remote_dns_server_ip_addresses CloudGatewayPrivateDns#remote_dns_server_ip_addresses}
   */
   readonly remoteDnsServerIpAddresses: string[];
 }
@@ -854,13 +854,13 @@ export interface CloudGatewayPrivateDnsPrivateDnsAttachmentConfigAwsPrivateDnsRe
   /**
   * Object that contains mappings from proxied internal domains to remote DNS server IP address for a Private DNS Resolver. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#dns_config CloudGatewayPrivateDns#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#dns_config CloudGatewayPrivateDns#dns_config}
   */
   readonly dnsConfig: { [key: string]: CloudGatewayPrivateDnsPrivateDnsAttachmentConfigAwsPrivateDnsResolverAttachmentConfigDnsConfig } | cdktf.IResolvable;
   /**
   * must be "aws-outbound-resolver"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#kind CloudGatewayPrivateDns#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#kind CloudGatewayPrivateDns#kind}
   */
   readonly kind: string;
 }
@@ -979,13 +979,13 @@ export interface CloudGatewayPrivateDnsPrivateDnsAttachmentConfigAwsPrivateHoste
   /**
   * AWS Hosted Zone to create attachment to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#hosted_zone_id CloudGatewayPrivateDns#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#hosted_zone_id CloudGatewayPrivateDns#hosted_zone_id}
   */
   readonly hostedZoneId: string;
   /**
   * must be "aws-private-hosted-zone-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#kind CloudGatewayPrivateDns#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#kind CloudGatewayPrivateDns#kind}
   */
   readonly kind: string;
 }
@@ -1104,25 +1104,25 @@ export interface CloudGatewayPrivateDnsPrivateDnsAttachmentConfigGcpPrivateHoste
   /**
   * Domain name to create attachment to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#domain_name CloudGatewayPrivateDns#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#domain_name CloudGatewayPrivateDns#domain_name}
   */
   readonly domainName: string;
   /**
   * must be "gcp-private-hosted-zone-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#kind CloudGatewayPrivateDns#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#kind CloudGatewayPrivateDns#kind}
   */
   readonly kind: string;
   /**
   * Customer's GCP Project ID. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#peer_project_id CloudGatewayPrivateDns#peer_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#peer_project_id CloudGatewayPrivateDns#peer_project_id}
   */
   readonly peerProjectId: string;
   /**
   * Customer's GCP VPC ID. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#peer_vpc_name CloudGatewayPrivateDns#peer_vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#peer_vpc_name CloudGatewayPrivateDns#peer_vpc_name}
   */
   readonly peerVpcName: string;
 }
@@ -1293,19 +1293,19 @@ export interface CloudGatewayPrivateDnsPrivateDnsAttachmentConfig {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#aws_private_dns_resolver_attachment_config CloudGatewayPrivateDns#aws_private_dns_resolver_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#aws_private_dns_resolver_attachment_config CloudGatewayPrivateDns#aws_private_dns_resolver_attachment_config}
   */
   readonly awsPrivateDnsResolverAttachmentConfig?: CloudGatewayPrivateDnsPrivateDnsAttachmentConfigAwsPrivateDnsResolverAttachmentConfig;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#aws_private_hosted_zone_attachment_config CloudGatewayPrivateDns#aws_private_hosted_zone_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#aws_private_hosted_zone_attachment_config CloudGatewayPrivateDns#aws_private_hosted_zone_attachment_config}
   */
   readonly awsPrivateHostedZoneAttachmentConfig?: CloudGatewayPrivateDnsPrivateDnsAttachmentConfigAwsPrivateHostedZoneAttachmentConfig;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#gcp_private_hosted_zone_attachment_config CloudGatewayPrivateDns#gcp_private_hosted_zone_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#gcp_private_hosted_zone_attachment_config CloudGatewayPrivateDns#gcp_private_hosted_zone_attachment_config}
   */
   readonly gcpPrivateHostedZoneAttachmentConfig?: CloudGatewayPrivateDnsPrivateDnsAttachmentConfigGcpPrivateHostedZoneAttachmentConfig;
 }
@@ -1457,7 +1457,7 @@ export class CloudGatewayPrivateDnsPrivateDnsAttachmentConfigOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns konnect_cloud_gateway_private_dns}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns konnect_cloud_gateway_private_dns}
 */
 export class CloudGatewayPrivateDns extends cdktf.TerraformResource {
 
@@ -1473,7 +1473,7 @@ export class CloudGatewayPrivateDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGatewayPrivateDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGatewayPrivateDns to import
-  * @param importFromId The id of the existing CloudGatewayPrivateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGatewayPrivateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGatewayPrivateDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1485,7 +1485,7 @@ export class CloudGatewayPrivateDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_private_dns konnect_cloud_gateway_private_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_private_dns konnect_cloud_gateway_private_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1496,8 +1496,8 @@ export class CloudGatewayPrivateDns extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_cloud_gateway_private_dns',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

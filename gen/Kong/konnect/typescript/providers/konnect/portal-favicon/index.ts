@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_favicon
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_favicon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PortalFaviconConfig extends cdktf.TerraformMetaArguments {
   /**
   * must be a data URL with base64 image data, e.g., data:image/jpeg;base64,<BASE64_IMAGE_DATA>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_favicon#data PortalFavicon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_favicon#data PortalFavicon#data}
   */
   readonly data: string;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_favicon#portal_id PortalFavicon#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_favicon#portal_id PortalFavicon#portal_id}
   */
   readonly portalId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_favicon konnect_portal_favicon}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_favicon konnect_portal_favicon}
 */
 export class PortalFavicon extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class PortalFavicon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalFavicon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalFavicon to import
-  * @param importFromId The id of the existing PortalFavicon that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_favicon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalFavicon that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_favicon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalFavicon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class PortalFavicon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_favicon konnect_portal_favicon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_favicon konnect_portal_favicon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class PortalFavicon extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_favicon',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

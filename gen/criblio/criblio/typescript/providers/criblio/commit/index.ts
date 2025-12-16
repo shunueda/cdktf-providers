@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit
+// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CommitConfig extends cdktf.TerraformMetaArguments {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit#effective Commit#effective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit#effective Commit#effective}
   */
   readonly effective?: boolean | cdktf.IResolvable;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit#files Commit#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit#files Commit#files}
   */
   readonly files?: string[];
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit#group Commit#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit#group Commit#group}
   */
   readonly group?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit#message Commit#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit#message Commit#message}
   */
   readonly message: string;
 }
@@ -324,7 +324,7 @@ export class CommitItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit criblio_commit}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit criblio_commit}
 */
 export class Commit extends cdktf.TerraformResource {
 
@@ -340,7 +340,7 @@ export class Commit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Commit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Commit to import
-  * @param importFromId The id of the existing Commit that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Commit that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Commit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class Commit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/commit criblio_commit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/commit criblio_commit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class Commit extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_commit',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.62',
-        providerVersionConstraint: '1.20.62'
+        providerVersion: '1.20.64',
+        providerVersionConstraint: '1.20.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

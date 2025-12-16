@@ -1,3 +1,3 @@
 # `data_criblio_database_connection`
 
-Refer to the Terraform Registry for docs: [`data_criblio_database_connection`](https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/database_connection).
+Refer to the Terraform Registry for docs: [`data_criblio_database_connection`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/database_connection).

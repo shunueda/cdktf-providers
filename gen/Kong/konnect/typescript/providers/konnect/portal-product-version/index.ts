@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PortalProductVersionConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether the application registration on this portal for the api product version is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#application_registration_enabled PortalProductVersion#application_registration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#application_registration_enabled PortalProductVersion#application_registration_enabled}
   */
   readonly applicationRegistrationEnabled: boolean | cdktf.IResolvable;
   /**
   * A list of authentication strategy IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#auth_strategy_ids PortalProductVersion#auth_strategy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#auth_strategy_ids PortalProductVersion#auth_strategy_ids}
   */
   readonly authStrategyIds: string[];
   /**
   * Whether the application registration auto approval on this portal for the api product version is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#auto_approve_registration PortalProductVersion#auto_approve_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#auto_approve_registration PortalProductVersion#auto_approve_registration}
   */
   readonly autoApproveRegistration: boolean | cdktf.IResolvable;
   /**
   * Whether the api product version on the portal is deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#deprecated PortalProductVersion#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#deprecated PortalProductVersion#deprecated}
   */
   readonly deprecated: boolean | cdktf.IResolvable;
   /**
   * Whether to notify developers who are affected by this change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#notify_developers PortalProductVersion#notify_developers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#notify_developers PortalProductVersion#notify_developers}
   */
   readonly notifyDevelopers?: boolean | cdktf.IResolvable;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#portal_id PortalProductVersion#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#portal_id PortalProductVersion#portal_id}
   */
   readonly portalId: string;
   /**
   * API product version identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#product_version_id PortalProductVersion#product_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#product_version_id PortalProductVersion#product_version_id}
   */
   readonly productVersionId: string;
   /**
   * Publication status of the API product version on the portal. must be one of ["published", "unpublished"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#publish_status PortalProductVersion#publish_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#publish_status PortalProductVersion#publish_status}
   */
   readonly publishStatus: string;
 }
@@ -283,7 +283,7 @@ export class PortalProductVersionAuthStrategiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version konnect_portal_product_version}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version konnect_portal_product_version}
 */
 export class PortalProductVersion extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class PortalProductVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalProductVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalProductVersion to import
-  * @param importFromId The id of the existing PortalProductVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalProductVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalProductVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class PortalProductVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_product_version konnect_portal_product_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_product_version konnect_portal_product_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class PortalProductVersion extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_product_version',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

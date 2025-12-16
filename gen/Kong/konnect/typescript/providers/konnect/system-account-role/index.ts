@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SystemAccountRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the system account. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role#account_id SystemAccountRole#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role#account_id SystemAccountRole#account_id}
   */
   readonly accountId: string;
   /**
   * The ID of the entity. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role#entity_id SystemAccountRole#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role#entity_id SystemAccountRole#entity_id}
   */
   readonly entityId?: string;
   /**
   * Region of the team. must be one of ["us", "eu", "au", "me", "in", "sg", "*"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role#entity_region SystemAccountRole#entity_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role#entity_region SystemAccountRole#entity_region}
   */
   readonly entityRegion?: string;
   /**
   * The type of entity. must be one of ["APIs", "API Products", "Application Auth Strategies", "Audit Logs", "Control Planes", "Dashboards", "DCR Providers", "Identity", "Mesh Control Planes", "Networks", "Portals", "Service Hub"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role#entity_type_name SystemAccountRole#entity_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role#entity_type_name SystemAccountRole#entity_type_name}
   */
   readonly entityTypeName?: string;
   /**
   * The desired role. must be one of ["Admin", "Appearance Maintainer", "Application Registration", "Certificate Admin", "Cloud Gateway Cluster Admin", "Cloud Gateway Cluster Viewer", "Consumer Admin", "Connector", "Creator", "Deployer", "Discovery Admin", "Discovery Viewer", "Gateway Service Admin", "Integration Admin", "Integration Viewer", "Key Admin", "Maintainer", "Network Admin", "Network Creator", "Network Viewer", "Plugin Admin", "Plugins Admin", "Product Publisher", "Publisher", "Route Admin", "SNI Admin", "Scorecard Admin", "Scorecard Viewer", "Service Admin", "Service Creator", "Service Viewer", "Upstream Admin", "Vault Admin", "Viewer"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role#role_name SystemAccountRole#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role#role_name SystemAccountRole#role_name}
   */
   readonly roleName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role konnect_system_account_role}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role konnect_system_account_role}
 */
 export class SystemAccountRole extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SystemAccountRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemAccountRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemAccountRole to import
-  * @param importFromId The id of the existing SystemAccountRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemAccountRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemAccountRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SystemAccountRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/system_account_role konnect_system_account_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/system_account_role konnect_system_account_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SystemAccountRole extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_system_account_role',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

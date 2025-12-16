@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApiDocumentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID API identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#api_id ApiDocument#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#api_id ApiDocument#api_id}
   */
   readonly apiId: string;
   /**
   * Raw markdown content to display in your Portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#content ApiDocument#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#content ApiDocument#content}
   */
   readonly content: string;
   /**
@@ -24,7 +24,7 @@ export interface ApiDocumentConfig extends cdktf.TerraformMetaArguments {
   * 
   * Specify the `id` of another API Document as the `parent_document_id` to add some heirarchy do your documents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#parent_document_id ApiDocument#parent_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#parent_document_id ApiDocument#parent_document_id}
   */
   readonly parentDocumentId?: string;
   /**
@@ -32,25 +32,25 @@ export interface ApiDocumentConfig extends cdktf.TerraformMetaArguments {
   * 
   * Defaults to `slugify(title)`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#slug ApiDocument#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#slug ApiDocument#slug}
   */
   readonly slug?: string;
   /**
   * If `status=published` the document will be visible in your live portal. Default: "unpublished"; must be one of ["published", "unpublished"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#status ApiDocument#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#status ApiDocument#status}
   */
   readonly status?: string;
   /**
   * The title of the document. Used to populate the `<title>` tag for the page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#title ApiDocument#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#title ApiDocument#title}
   */
   readonly title?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document konnect_api_document}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document konnect_api_document}
 */
 export class ApiDocument extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class ApiDocument extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiDocument resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiDocument to import
-  * @param importFromId The id of the existing ApiDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class ApiDocument extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_document konnect_api_document} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_document konnect_api_document} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class ApiDocument extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_api_document',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

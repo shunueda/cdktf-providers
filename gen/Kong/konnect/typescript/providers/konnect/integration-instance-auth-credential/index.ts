@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface IntegrationInstanceAuthCredentialConfig extends cdktf.Terraform
   /**
   * The `id` of the integration instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#integration_instance_id IntegrationInstanceAuthCredential#integration_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#integration_instance_id IntegrationInstanceAuthCredential#integration_instance_id}
   */
   readonly integrationInstanceId: string;
   /**
   * Payload used to create an `Multi Key` credential for an integration instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#multi_key_auth IntegrationInstanceAuthCredential#multi_key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#multi_key_auth IntegrationInstanceAuthCredential#multi_key_auth}
   */
   readonly multiKeyAuth?: IntegrationInstanceAuthCredentialMultiKeyAuth;
 }
@@ -168,13 +168,13 @@ export interface IntegrationInstanceAuthCredentialMultiKeyAuthConfigHeaders {
   /**
   * The key used to populate the request header. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#key IntegrationInstanceAuthCredential#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#key IntegrationInstanceAuthCredential#key}
   */
   readonly key: string;
   /**
   * Name of the request header. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#name IntegrationInstanceAuthCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#name IntegrationInstanceAuthCredential#name}
   */
   readonly name: string;
 }
@@ -317,7 +317,7 @@ export interface IntegrationInstanceAuthCredentialMultiKeyAuthConfig {
   * Header names are defined by the integration within its `Multi Key` authorization strategy definition.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#headers IntegrationInstanceAuthCredential#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#headers IntegrationInstanceAuthCredential#headers}
   */
   readonly headers: IntegrationInstanceAuthCredentialMultiKeyAuthConfigHeaders[] | cdktf.IResolvable;
 }
@@ -410,7 +410,7 @@ export interface IntegrationInstanceAuthCredentialMultiKeyAuth {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#config IntegrationInstanceAuthCredential#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#config IntegrationInstanceAuthCredential#config}
   */
   readonly config: IntegrationInstanceAuthCredentialMultiKeyAuthConfig;
 }
@@ -726,7 +726,7 @@ export class IntegrationInstanceAuthCredentialMultiKeyAuthCredentialOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential konnect_integration_instance_auth_credential}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential konnect_integration_instance_auth_credential}
 */
 export class IntegrationInstanceAuthCredential extends cdktf.TerraformResource {
 
@@ -742,7 +742,7 @@ export class IntegrationInstanceAuthCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationInstanceAuthCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationInstanceAuthCredential to import
-  * @param importFromId The id of the existing IntegrationInstanceAuthCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationInstanceAuthCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationInstanceAuthCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -754,7 +754,7 @@ export class IntegrationInstanceAuthCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_credential konnect_integration_instance_auth_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_credential konnect_integration_instance_auth_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -765,8 +765,8 @@ export class IntegrationInstanceAuthCredential extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_integration_instance_auth_credential',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

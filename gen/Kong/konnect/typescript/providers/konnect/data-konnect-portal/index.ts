@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataKonnectPortalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter portals returned in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#filter DataKonnectPortal#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#filter DataKonnectPortal#filter}
   */
   readonly filter?: DataKonnectPortalFilter;
   /**
   * Determines which page of the entities to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#page_number DataKonnectPortal#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#page_number DataKonnectPortal#page_number}
   */
   readonly pageNumber?: number;
   /**
   * The maximum number of items to include per page. The last page of a collection may include fewer items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#page_size DataKonnectPortal#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#page_size DataKonnectPortal#page_size}
   */
   readonly pageSize?: number;
   /**
@@ -38,29 +38,39 @@ export interface DataKonnectPortalConfig extends cdktf.TerraformMetaArguments {
   *   - created_at
   *   - updated_at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#sort DataKonnectPortal#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#sort DataKonnectPortal#sort}
   */
   readonly sort?: string;
 }
 export interface DataKonnectPortalFilterCanonicalDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#contains DataKonnectPortal#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#contains DataKonnectPortal#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
+  * The field contains any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
   */
   readonly ocontains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -270,23 +280,33 @@ export class DataKonnectPortalFilterCanonicalDomainOutputReference extends cdktf
 }
 export interface DataKonnectPortalFilterDefaultApiVisibility {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#contains DataKonnectPortal#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#contains DataKonnectPortal#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
+  * The field contains any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
   */
   readonly ocontains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -496,15 +516,21 @@ export class DataKonnectPortalFilterDefaultApiVisibilityOutputReference extends 
 }
 export interface DataKonnectPortalFilterDefaultApplicationAuthStrategyId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -656,23 +682,33 @@ export class DataKonnectPortalFilterDefaultApplicationAuthStrategyIdOutputRefere
 }
 export interface DataKonnectPortalFilterDefaultDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#contains DataKonnectPortal#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#contains DataKonnectPortal#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
+  * The field contains any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
   */
   readonly ocontains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -882,23 +918,33 @@ export class DataKonnectPortalFilterDefaultDomainOutputReference extends cdktf.C
 }
 export interface DataKonnectPortalFilterDefaultPageVisibility {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#contains DataKonnectPortal#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#contains DataKonnectPortal#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
+  * The field contains any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
   */
   readonly ocontains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -1108,23 +1154,33 @@ export class DataKonnectPortalFilterDefaultPageVisibilityOutputReference extends
 }
 export interface DataKonnectPortalFilterDescription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#contains DataKonnectPortal#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#contains DataKonnectPortal#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
+  * The field contains any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
   */
   readonly ocontains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -1334,15 +1390,21 @@ export class DataKonnectPortalFilterDescriptionOutputReference extends cdktf.Com
 }
 export interface DataKonnectPortalFilterId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -1494,23 +1556,33 @@ export class DataKonnectPortalFilterIdOutputReference extends cdktf.ComplexObjec
 }
 export interface DataKonnectPortalFilterName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#contains DataKonnectPortal#contains}
+  * The field contains the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#contains DataKonnectPortal#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#eq DataKonnectPortal#eq}
+  * The field exactly matches the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#eq DataKonnectPortal#eq}
   */
   readonly eq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#neq DataKonnectPortal#neq}
+  * The field does not match the provided value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#neq DataKonnectPortal#neq}
   */
   readonly neq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
+  * The field contains any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#ocontains DataKonnectPortal#ocontains}
   */
   readonly ocontains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
+  * The field matches any of the provided values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#oeq DataKonnectPortal#oeq}
   */
   readonly oeq?: string;
 }
@@ -1722,76 +1794,76 @@ export interface DataKonnectPortalFilter {
   /**
   * Filter by a boolean value (true/false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#authentication_enabled DataKonnectPortal#authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#authentication_enabled DataKonnectPortal#authentication_enabled}
   */
   readonly authenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Filter by a boolean value (true/false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#auto_approve_applications DataKonnectPortal#auto_approve_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#auto_approve_applications DataKonnectPortal#auto_approve_applications}
   */
   readonly autoApproveApplications?: boolean | cdktf.IResolvable;
   /**
   * Filter by a boolean value (true/false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#auto_approve_developers DataKonnectPortal#auto_approve_developers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#auto_approve_developers DataKonnectPortal#auto_approve_developers}
   */
   readonly autoApproveDevelopers?: boolean | cdktf.IResolvable;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`, `contains`, `ocontains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#canonical_domain DataKonnectPortal#canonical_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#canonical_domain DataKonnectPortal#canonical_domain}
   */
   readonly canonicalDomain?: DataKonnectPortalFilterCanonicalDomain;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`, `contains`, `ocontains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#default_api_visibility DataKonnectPortal#default_api_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#default_api_visibility DataKonnectPortal#default_api_visibility}
   */
   readonly defaultApiVisibility?: DataKonnectPortalFilterDefaultApiVisibility;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#default_application_auth_strategy_id DataKonnectPortal#default_application_auth_strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#default_application_auth_strategy_id DataKonnectPortal#default_application_auth_strategy_id}
   */
   readonly defaultApplicationAuthStrategyId?: DataKonnectPortalFilterDefaultApplicationAuthStrategyId;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`, `contains`, `ocontains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#default_domain DataKonnectPortal#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#default_domain DataKonnectPortal#default_domain}
   */
   readonly defaultDomain?: DataKonnectPortalFilterDefaultDomain;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`, `contains`, `ocontains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#default_page_visibility DataKonnectPortal#default_page_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#default_page_visibility DataKonnectPortal#default_page_visibility}
   */
   readonly defaultPageVisibility?: DataKonnectPortalFilterDefaultPageVisibility;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`, `contains`, `ocontains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#description DataKonnectPortal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#description DataKonnectPortal#description}
   */
   readonly description?: DataKonnectPortalFilterDescription;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#id DataKonnectPortal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#id DataKonnectPortal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: DataKonnectPortalFilterId;
   /**
-  * Filters on the given string field value by exact match inequality.
+  * Filter using **one** of the following operators: `eq`, `oeq`, `neq`, `contains`, `ocontains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#name DataKonnectPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#name DataKonnectPortal#name}
   */
   readonly name?: DataKonnectPortalFilterName;
   /**
   * Filter by a boolean value (true/false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#rbac_enabled DataKonnectPortal#rbac_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#rbac_enabled DataKonnectPortal#rbac_enabled}
   */
   readonly rbacEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2204,7 +2276,7 @@ export class DataKonnectPortalFilterOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal konnect_portal}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal konnect_portal}
 */
 export class DataKonnectPortal extends cdktf.TerraformDataSource {
 
@@ -2220,7 +2292,7 @@ export class DataKonnectPortal extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKonnectPortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKonnectPortal to import
-  * @param importFromId The id of the existing DataKonnectPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKonnectPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKonnectPortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2232,7 +2304,7 @@ export class DataKonnectPortal extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal konnect_portal} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal konnect_portal} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2243,8 +2315,8 @@ export class DataKonnectPortal extends cdktf.TerraformDataSource {
       terraformResourceType: 'konnect_portal',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

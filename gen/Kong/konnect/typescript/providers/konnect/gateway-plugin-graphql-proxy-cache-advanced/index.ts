@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginGraphqlProxyCacheAdvancedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#config GatewayPluginGraphqlProxyCacheAdvanced#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#config GatewayPluginGraphqlProxyCacheAdvanced#config}
   */
   readonly config?: GatewayPluginGraphqlProxyCacheAdvancedConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#consumer GatewayPluginGraphqlProxyCacheAdvanced#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#consumer GatewayPluginGraphqlProxyCacheAdvanced#consumer}
   */
   readonly consumer?: GatewayPluginGraphqlProxyCacheAdvancedConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#control_plane_id GatewayPluginGraphqlProxyCacheAdvanced#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#control_plane_id GatewayPluginGraphqlProxyCacheAdvanced#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#created_at GatewayPluginGraphqlProxyCacheAdvanced#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#created_at GatewayPluginGraphqlProxyCacheAdvanced#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#enabled GatewayPluginGraphqlProxyCacheAdvanced#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#enabled GatewayPluginGraphqlProxyCacheAdvanced#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedConfig extends cdktf.Terr
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#instance_name GatewayPluginGraphqlProxyCacheAdvanced#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#instance_name GatewayPluginGraphqlProxyCacheAdvanced#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ordering GatewayPluginGraphqlProxyCacheAdvanced#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ordering GatewayPluginGraphqlProxyCacheAdvanced#ordering}
   */
   readonly ordering?: GatewayPluginGraphqlProxyCacheAdvancedOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#partials GatewayPluginGraphqlProxyCacheAdvanced#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#partials GatewayPluginGraphqlProxyCacheAdvanced#partials}
   */
   readonly partials?: GatewayPluginGraphqlProxyCacheAdvancedPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#protocols GatewayPluginGraphqlProxyCacheAdvanced#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#protocols GatewayPluginGraphqlProxyCacheAdvanced#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#route GatewayPluginGraphqlProxyCacheAdvanced#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#route GatewayPluginGraphqlProxyCacheAdvanced#route}
   */
   readonly route?: GatewayPluginGraphqlProxyCacheAdvancedRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#service GatewayPluginGraphqlProxyCacheAdvanced#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#service GatewayPluginGraphqlProxyCacheAdvanced#service}
   */
   readonly service?: GatewayPluginGraphqlProxyCacheAdvancedService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#tags GatewayPluginGraphqlProxyCacheAdvanced#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#tags GatewayPluginGraphqlProxyCacheAdvanced#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#updated_at GatewayPluginGraphqlProxyCacheAdvanced#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#updated_at GatewayPluginGraphqlProxyCacheAdvanced#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,7 +95,7 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedConfigMemory {
   /**
   * The name of the shared dictionary in which to hold cache entities when the memory strategy is selected. This dictionary currently must be defined manually in the Kong Nginx template. Default: "kong_db_cache"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#dictionary_name GatewayPluginGraphqlProxyCacheAdvanced#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#dictionary_name GatewayPluginGraphqlProxyCacheAdvanced#dictionary_name}
   */
   readonly dictionaryName?: string;
 }
@@ -191,13 +191,13 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedConfigRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ip GatewayPluginGraphqlProxyCacheAdvanced#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ip GatewayPluginGraphqlProxyCacheAdvanced#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#port GatewayPluginGraphqlProxyCacheAdvanced#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#port GatewayPluginGraphqlProxyCacheAdvanced#port}
   */
   readonly port?: number;
 }
@@ -344,13 +344,13 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedConfigRedisSentinelNodes 
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#host GatewayPluginGraphqlProxyCacheAdvanced#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#host GatewayPluginGraphqlProxyCacheAdvanced#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#port GatewayPluginGraphqlProxyCacheAdvanced#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#port GatewayPluginGraphqlProxyCacheAdvanced#port}
   */
   readonly port?: number;
 }
@@ -497,127 +497,127 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedConfigRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#cluster_max_redirections GatewayPluginGraphqlProxyCacheAdvanced#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#cluster_max_redirections GatewayPluginGraphqlProxyCacheAdvanced#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#cluster_nodes GatewayPluginGraphqlProxyCacheAdvanced#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#cluster_nodes GatewayPluginGraphqlProxyCacheAdvanced#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginGraphqlProxyCacheAdvancedConfigRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#connect_timeout GatewayPluginGraphqlProxyCacheAdvanced#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#connect_timeout GatewayPluginGraphqlProxyCacheAdvanced#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#connection_is_proxied GatewayPluginGraphqlProxyCacheAdvanced#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#connection_is_proxied GatewayPluginGraphqlProxyCacheAdvanced#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#database GatewayPluginGraphqlProxyCacheAdvanced#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#database GatewayPluginGraphqlProxyCacheAdvanced#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#host GatewayPluginGraphqlProxyCacheAdvanced#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#host GatewayPluginGraphqlProxyCacheAdvanced#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#keepalive_backlog GatewayPluginGraphqlProxyCacheAdvanced#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#keepalive_backlog GatewayPluginGraphqlProxyCacheAdvanced#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#keepalive_pool_size GatewayPluginGraphqlProxyCacheAdvanced#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#keepalive_pool_size GatewayPluginGraphqlProxyCacheAdvanced#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#password GatewayPluginGraphqlProxyCacheAdvanced#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#password GatewayPluginGraphqlProxyCacheAdvanced#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#port GatewayPluginGraphqlProxyCacheAdvanced#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#port GatewayPluginGraphqlProxyCacheAdvanced#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#read_timeout GatewayPluginGraphqlProxyCacheAdvanced#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#read_timeout GatewayPluginGraphqlProxyCacheAdvanced#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#send_timeout GatewayPluginGraphqlProxyCacheAdvanced#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#send_timeout GatewayPluginGraphqlProxyCacheAdvanced#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_master GatewayPluginGraphqlProxyCacheAdvanced#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_master GatewayPluginGraphqlProxyCacheAdvanced#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_nodes GatewayPluginGraphqlProxyCacheAdvanced#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_nodes GatewayPluginGraphqlProxyCacheAdvanced#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginGraphqlProxyCacheAdvancedConfigRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_password GatewayPluginGraphqlProxyCacheAdvanced#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_password GatewayPluginGraphqlProxyCacheAdvanced#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_role GatewayPluginGraphqlProxyCacheAdvanced#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_role GatewayPluginGraphqlProxyCacheAdvanced#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_username GatewayPluginGraphqlProxyCacheAdvanced#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#sentinel_username GatewayPluginGraphqlProxyCacheAdvanced#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#server_name GatewayPluginGraphqlProxyCacheAdvanced#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#server_name GatewayPluginGraphqlProxyCacheAdvanced#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ssl GatewayPluginGraphqlProxyCacheAdvanced#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ssl GatewayPluginGraphqlProxyCacheAdvanced#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ssl_verify GatewayPluginGraphqlProxyCacheAdvanced#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#ssl_verify GatewayPluginGraphqlProxyCacheAdvanced#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#username GatewayPluginGraphqlProxyCacheAdvanced#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#username GatewayPluginGraphqlProxyCacheAdvanced#username}
   */
   readonly username?: string;
 }
@@ -1293,33 +1293,33 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedConfigA {
   /**
   * Unhandled errors while trying to retrieve a cache entry (such as redis down) are resolved with `Bypass`, with the request going upstream. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#bypass_on_err GatewayPluginGraphqlProxyCacheAdvanced#bypass_on_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#bypass_on_err GatewayPluginGraphqlProxyCacheAdvanced#bypass_on_err}
   */
   readonly bypassOnErr?: boolean | cdktf.IResolvable;
   /**
   * TTL in seconds of cache entities. Must be a value greater than 0. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#cache_ttl GatewayPluginGraphqlProxyCacheAdvanced#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#cache_ttl GatewayPluginGraphqlProxyCacheAdvanced#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#memory GatewayPluginGraphqlProxyCacheAdvanced#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#memory GatewayPluginGraphqlProxyCacheAdvanced#memory}
   */
   readonly memory?: GatewayPluginGraphqlProxyCacheAdvancedConfigMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#redis GatewayPluginGraphqlProxyCacheAdvanced#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#redis GatewayPluginGraphqlProxyCacheAdvanced#redis}
   */
   readonly redis?: GatewayPluginGraphqlProxyCacheAdvancedConfigRedis;
   /**
   * The backing data store in which to hold cached entities. Accepted value is `memory`. Default: "memory"; must be one of ["memory", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#strategy GatewayPluginGraphqlProxyCacheAdvanced#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#strategy GatewayPluginGraphqlProxyCacheAdvanced#strategy}
   */
   readonly strategy?: string;
   /**
   * Relevant headers considered for the cache key. If undefined, none of the headers are taken into consideration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#vary_headers GatewayPluginGraphqlProxyCacheAdvanced#vary_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#vary_headers GatewayPluginGraphqlProxyCacheAdvanced#vary_headers}
   */
   readonly varyHeaders?: string[];
 }
@@ -1558,7 +1558,7 @@ export class GatewayPluginGraphqlProxyCacheAdvancedConfigAOutputReference extend
 }
 export interface GatewayPluginGraphqlProxyCacheAdvancedConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1655,7 +1655,7 @@ export class GatewayPluginGraphqlProxyCacheAdvancedConsumerOutputReference exten
 }
 export interface GatewayPluginGraphqlProxyCacheAdvancedOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#access GatewayPluginGraphqlProxyCacheAdvanced#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#access GatewayPluginGraphqlProxyCacheAdvanced#access}
   */
   readonly access?: string[];
 }
@@ -1749,7 +1749,7 @@ export class GatewayPluginGraphqlProxyCacheAdvancedOrderingAfterOutputReference 
 }
 export interface GatewayPluginGraphqlProxyCacheAdvancedOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#access GatewayPluginGraphqlProxyCacheAdvanced#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#access GatewayPluginGraphqlProxyCacheAdvanced#access}
   */
   readonly access?: string[];
 }
@@ -1843,11 +1843,11 @@ export class GatewayPluginGraphqlProxyCacheAdvancedOrderingBeforeOutputReference
 }
 export interface GatewayPluginGraphqlProxyCacheAdvancedOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#after GatewayPluginGraphqlProxyCacheAdvanced#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#after GatewayPluginGraphqlProxyCacheAdvanced#after}
   */
   readonly after?: GatewayPluginGraphqlProxyCacheAdvancedOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#before GatewayPluginGraphqlProxyCacheAdvanced#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#before GatewayPluginGraphqlProxyCacheAdvanced#before}
   */
   readonly before?: GatewayPluginGraphqlProxyCacheAdvancedOrderingBefore;
 }
@@ -1972,7 +1972,7 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1981,11 +1981,11 @@ export interface GatewayPluginGraphqlProxyCacheAdvancedPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#name GatewayPluginGraphqlProxyCacheAdvanced#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#name GatewayPluginGraphqlProxyCacheAdvanced#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#path GatewayPluginGraphqlProxyCacheAdvanced#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#path GatewayPluginGraphqlProxyCacheAdvanced#path}
   */
   readonly path?: string;
 }
@@ -2159,7 +2159,7 @@ export class GatewayPluginGraphqlProxyCacheAdvancedPartialsList extends cdktf.Co
 }
 export interface GatewayPluginGraphqlProxyCacheAdvancedRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2256,7 +2256,7 @@ export class GatewayPluginGraphqlProxyCacheAdvancedRouteOutputReference extends 
 }
 export interface GatewayPluginGraphqlProxyCacheAdvancedService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#id GatewayPluginGraphqlProxyCacheAdvanced#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2353,7 +2353,7 @@ export class GatewayPluginGraphqlProxyCacheAdvancedServiceOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced konnect_gateway_plugin_graphql_proxy_cache_advanced}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced konnect_gateway_plugin_graphql_proxy_cache_advanced}
 */
 export class GatewayPluginGraphqlProxyCacheAdvanced extends cdktf.TerraformResource {
 
@@ -2369,7 +2369,7 @@ export class GatewayPluginGraphqlProxyCacheAdvanced extends cdktf.TerraformResou
   * Generates CDKTF code for importing a GatewayPluginGraphqlProxyCacheAdvanced resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginGraphqlProxyCacheAdvanced to import
-  * @param importFromId The id of the existing GatewayPluginGraphqlProxyCacheAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginGraphqlProxyCacheAdvanced that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginGraphqlProxyCacheAdvanced to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2381,7 +2381,7 @@ export class GatewayPluginGraphqlProxyCacheAdvanced extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_graphql_proxy_cache_advanced konnect_gateway_plugin_graphql_proxy_cache_advanced} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_graphql_proxy_cache_advanced konnect_gateway_plugin_graphql_proxy_cache_advanced} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2392,8 +2392,8 @@ export class GatewayPluginGraphqlProxyCacheAdvanced extends cdktf.TerraformResou
       terraformResourceType: 'konnect_gateway_plugin_graphql_proxy_cache_advanced',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

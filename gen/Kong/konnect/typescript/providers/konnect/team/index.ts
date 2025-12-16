@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the new team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team#description Team#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team#description Team#description}
   */
   readonly description?: string;
   /**
@@ -18,19 +18,19 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team#labels Team#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team#labels Team#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A name for the team being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team#name Team#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team konnect_team}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team konnect_team}
 */
 export class Team extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class Team extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
-  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class Team extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/team konnect_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/team konnect_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_team',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

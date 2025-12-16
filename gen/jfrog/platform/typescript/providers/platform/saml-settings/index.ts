@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface SamlSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * When set, auto created users will have access to their profile page and will be able to perform actions such as generating an API key. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#allow_user_to_access_profile SamlSettings#allow_user_to_access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#allow_user_to_access_profile SamlSettings#allow_user_to_access_profile}
   */
   readonly allowUserToAccessProfile?: boolean | cdktf.IResolvable;
   /**
   * When set, clicking on the login link will direct users to the configured SAML login URL. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#auto_redirect SamlSettings#auto_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#auto_redirect SamlSettings#auto_redirect}
   */
   readonly autoRedirect?: boolean | cdktf.IResolvable;
   /**
   * When set, authenticated users are automatically created in Artifactory. When not set, for every request from an SSO user, the user is temporarily associated with default groups (if such groups are defined), and the permissions for these groups apply. Without automatic user creation, you must manually create the user inside Artifactory to manage user permissions not attached to their default groups. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#auto_user_creation SamlSettings#auto_user_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#auto_user_creation SamlSettings#auto_user_creation}
   */
   readonly autoUserCreation?: boolean | cdktf.IResolvable;
   /**
   * The certificate for SAML Authentication in Base64 format. NOTE! The certificate must contain the public key to allow Artifactory to verify sign-in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#certificate SamlSettings#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#certificate SamlSettings#certificate}
   */
   readonly certificate: string;
   /**
   * If `auto_user_creation` is enabled or an internal user exists, the system will set the user's email to the value in this attribute that is returned by the SAML login XML response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#email_attribute SamlSettings#email_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#email_attribute SamlSettings#email_attribute}
   */
   readonly emailAttribute?: string;
   /**
   * When set, SAML integration is enabled and users may be authenticated via a SAML server. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#enable SamlSettings#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#enable SamlSettings#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * The group attribute in the SAML login XML response. Note that the system will search for a case-sensitive match to an existing group..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#group_attribute SamlSettings#group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#group_attribute SamlSettings#group_attribute}
   */
   readonly groupAttribute?: string;
   /**
   * List of LDAP group setting names. Only support in Artifactory 7.98 or later. See [Enabling Synchronization of LDAP Groups for SAML SSO](https://jfrog.com/help/r/jfrog-platform-administration-documentation/enabling-synchronization-of-ldap-groups-for-saml-sso) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#ldap_group_settings SamlSettings#ldap_group_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#ldap_group_settings SamlSettings#ldap_group_settings}
   */
   readonly ldapGroupSettings?: string[];
   /**
   * The identity provider login URL (when you try to login, the service provider redirects to this URL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#login_url SamlSettings#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#login_url SamlSettings#login_url}
   */
   readonly loginUrl: string;
   /**
   * The identity provider logout URL (when you try to logout, the service provider redirects to this URL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#logout_url SamlSettings#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#logout_url SamlSettings#logout_url}
   */
   readonly logoutUrl: string;
   /**
   * SAML Settings name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#name SamlSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#name SamlSettings#name}
   */
   readonly name: string;
   /**
   * The username attribute used to configure the SSO URL for the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#name_id_attribute SamlSettings#name_id_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#name_id_attribute SamlSettings#name_id_attribute}
   */
   readonly nameIdAttribute?: string;
   /**
   * The SAML service provider name. This should be a URI that is also known as the entityID, providerID, or entity identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#service_provider_name SamlSettings#service_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#service_provider_name SamlSettings#service_provider_name}
   */
   readonly serviceProviderName: string;
   /**
   * When set, in addition to the groups the user is already associated with, he will also be associated with the groups returned in the SAML login response. Note that the user's association with the returned groups is not persistent. It is only valid for the current login session. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#sync_groups SamlSettings#sync_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#sync_groups SamlSettings#sync_groups}
   */
   readonly syncGroups?: boolean | cdktf.IResolvable;
   /**
   * When set, an X.509 public certificate will be created by Artifactory. Download this certificate and upload it to your IDP and choose your own encryption algorithm. This process will let you encrypt the assertion section in your SAML response. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#use_encrypted_assertion SamlSettings#use_encrypted_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#use_encrypted_assertion SamlSettings#use_encrypted_assertion}
   */
   readonly useEncryptedAssertion?: boolean | cdktf.IResolvable;
   /**
   * Set this flag to specify who the assertion is intended for. The "audience" will be the service provider and is typically a URL but can technically be formatted as any string of data. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#verify_audience_restriction SamlSettings#verify_audience_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#verify_audience_restriction SamlSettings#verify_audience_restriction}
   */
   readonly verifyAudienceRestriction?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings platform_saml_settings}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings platform_saml_settings}
 */
 export class SamlSettings extends cdktf.TerraformResource {
 
@@ -122,7 +122,7 @@ export class SamlSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlSettings to import
-  * @param importFromId The id of the existing SamlSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class SamlSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/saml_settings platform_saml_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/saml_settings platform_saml_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class SamlSettings extends cdktf.TerraformResource {
       terraformResourceType: 'platform_saml_settings',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

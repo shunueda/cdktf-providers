@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginDatakitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#config GatewayPluginDatakit#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#config GatewayPluginDatakit#config}
   */
   readonly config: GatewayPluginDatakitConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#consumer GatewayPluginDatakit#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#consumer GatewayPluginDatakit#consumer}
   */
   readonly consumer?: GatewayPluginDatakitConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#consumer_group GatewayPluginDatakit#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#consumer_group GatewayPluginDatakit#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginDatakitConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#control_plane_id GatewayPluginDatakit#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#control_plane_id GatewayPluginDatakit#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#created_at GatewayPluginDatakit#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#created_at GatewayPluginDatakit#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#enabled GatewayPluginDatakit#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#enabled GatewayPluginDatakit#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginDatakitConfig extends cdktf.TerraformMetaArguments
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#instance_name GatewayPluginDatakit#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#instance_name GatewayPluginDatakit#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ordering GatewayPluginDatakit#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ordering GatewayPluginDatakit#ordering}
   */
   readonly ordering?: GatewayPluginDatakitOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#partials GatewayPluginDatakit#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#partials GatewayPluginDatakit#partials}
   */
   readonly partials?: GatewayPluginDatakitPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#protocols GatewayPluginDatakit#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#protocols GatewayPluginDatakit#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#route GatewayPluginDatakit#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#route GatewayPluginDatakit#route}
   */
   readonly route?: GatewayPluginDatakitRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#service GatewayPluginDatakit#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#service GatewayPluginDatakit#service}
   */
   readonly service?: GatewayPluginDatakitService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#tags GatewayPluginDatakit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#tags GatewayPluginDatakit#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#updated_at GatewayPluginDatakit#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#updated_at GatewayPluginDatakit#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,13 +101,13 @@ export interface GatewayPluginDatakitConfigNodesBranchOutputs {
   /**
   * node output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#else GatewayPluginDatakit#else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#else GatewayPluginDatakit#else}
   */
   readonly else?: string;
   /**
   * node output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#then GatewayPluginDatakit#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#then GatewayPluginDatakit#then}
   */
   readonly then?: string;
 }
@@ -232,37 +232,37 @@ export interface GatewayPluginDatakitConfigNodesBranch {
   /**
   * nodes to execute if the input condition is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#else GatewayPluginDatakit#else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#else GatewayPluginDatakit#else}
   */
   readonly else?: string[];
   /**
   * branch node input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
   */
   readonly input?: string;
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * branch node output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
   */
   readonly output?: string;
   /**
   * branch node outputs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
   */
   readonly outputs?: GatewayPluginDatakitConfigNodesBranchOutputs;
   /**
   * nodes to execute if the input condition is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#then GatewayPluginDatakit#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#then GatewayPluginDatakit#then}
   */
   readonly then?: string[];
 }
@@ -403,7 +403,7 @@ export class GatewayPluginDatakitConfigNodesBranchOutputReference extends cdktf.
     }
   }
 
-  // else - computed: true, optional: true, required: false
+  // else - computed: false, optional: true, required: false
   private _else?: string[]; 
   public get else() {
     return this.getListAttribute('else');
@@ -419,7 +419,7 @@ export class GatewayPluginDatakitConfigNodesBranchOutputReference extends cdktf.
     return this._else;
   }
 
-  // input - computed: true, optional: true, required: false
+  // input - computed: false, optional: true, required: false
   private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
@@ -435,7 +435,7 @@ export class GatewayPluginDatakitConfigNodesBranchOutputReference extends cdktf.
     return this._input;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -451,7 +451,7 @@ export class GatewayPluginDatakitConfigNodesBranchOutputReference extends cdktf.
     return this._name;
   }
 
-  // output - computed: true, optional: true, required: false
+  // output - computed: false, optional: true, required: false
   private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
@@ -483,7 +483,7 @@ export class GatewayPluginDatakitConfigNodesBranchOutputReference extends cdktf.
     return this._outputs.internalValue;
   }
 
-  // then - computed: true, optional: true, required: false
+  // then - computed: false, optional: true, required: false
   private _then?: string[]; 
   public get then() {
     return this.getListAttribute('then');
@@ -503,19 +503,19 @@ export interface GatewayPluginDatakitConfigNodesCacheInputs {
   /**
   * The data to be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#data GatewayPluginDatakit#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#data GatewayPluginDatakit#data}
   */
   readonly data?: string;
   /**
   * The cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#key GatewayPluginDatakit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#key GatewayPluginDatakit#key}
   */
   readonly key?: string;
   /**
   * The TTL in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ttl GatewayPluginDatakit#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ttl GatewayPluginDatakit#ttl}
   */
   readonly ttl?: string;
 }
@@ -669,25 +669,25 @@ export interface GatewayPluginDatakitConfigNodesCacheOutputs {
   /**
   * The data that was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#data GatewayPluginDatakit#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#data GatewayPluginDatakit#data}
   */
   readonly data?: string;
   /**
   * Signals a cache hit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#hit GatewayPluginDatakit#hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#hit GatewayPluginDatakit#hit}
   */
   readonly hit?: string;
   /**
   * Signals a cache miss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#miss GatewayPluginDatakit#miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#miss GatewayPluginDatakit#miss}
   */
   readonly miss?: string;
   /**
   * Signals whether data was stored in cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#stored GatewayPluginDatakit#stored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#stored GatewayPluginDatakit#stored}
   */
   readonly stored?: string;
 }
@@ -868,41 +868,41 @@ export class GatewayPluginDatakitConfigNodesCacheOutputsOutputReference extends 
 }
 export interface GatewayPluginDatakitConfigNodesCache {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#bypass_on_error GatewayPluginDatakit#bypass_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#bypass_on_error GatewayPluginDatakit#bypass_on_error}
   */
   readonly bypassOnError?: boolean | cdktf.IResolvable;
   /**
   * cache node input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
   */
   readonly input?: string;
   /**
   * cache node inputs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
   */
   readonly inputs?: GatewayPluginDatakitConfigNodesCacheInputs;
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * cache node output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
   */
   readonly output?: string;
   /**
   * cache node outputs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
   */
   readonly outputs?: GatewayPluginDatakitConfigNodesCacheOutputs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ttl GatewayPluginDatakit#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ttl GatewayPluginDatakit#ttl}
   */
   readonly ttl?: number;
 }
@@ -1056,7 +1056,7 @@ export class GatewayPluginDatakitConfigNodesCacheOutputReference extends cdktf.C
     }
   }
 
-  // bypass_on_error - computed: true, optional: true, required: false
+  // bypass_on_error - computed: false, optional: true, required: false
   private _bypassOnError?: boolean | cdktf.IResolvable; 
   public get bypassOnError() {
     return this.getBooleanAttribute('bypass_on_error');
@@ -1072,7 +1072,7 @@ export class GatewayPluginDatakitConfigNodesCacheOutputReference extends cdktf.C
     return this._bypassOnError;
   }
 
-  // input - computed: true, optional: true, required: false
+  // input - computed: false, optional: true, required: false
   private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
@@ -1104,7 +1104,7 @@ export class GatewayPluginDatakitConfigNodesCacheOutputReference extends cdktf.C
     return this._inputs.internalValue;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -1120,7 +1120,7 @@ export class GatewayPluginDatakitConfigNodesCacheOutputReference extends cdktf.C
     return this._name;
   }
 
-  // output - computed: true, optional: true, required: false
+  // output - computed: false, optional: true, required: false
   private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
@@ -1152,7 +1152,7 @@ export class GatewayPluginDatakitConfigNodesCacheOutputReference extends cdktf.C
     return this._outputs.internalValue;
   }
 
-  // ttl - computed: true, optional: true, required: false
+  // ttl - computed: false, optional: true, required: false
   private _ttl?: number; 
   public get ttl() {
     return this.getNumberAttribute('ttl');
@@ -1172,19 +1172,19 @@ export interface GatewayPluginDatakitConfigNodesCallInputs {
   /**
   * HTTP request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#body GatewayPluginDatakit#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#body GatewayPluginDatakit#body}
   */
   readonly body?: string;
   /**
   * HTTP request headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#headers GatewayPluginDatakit#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#headers GatewayPluginDatakit#headers}
   */
   readonly headers?: string;
   /**
   * HTTP request query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#query GatewayPluginDatakit#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#query GatewayPluginDatakit#query}
   */
   readonly query?: string;
 }
@@ -1338,19 +1338,19 @@ export interface GatewayPluginDatakitConfigNodesCallOutputs {
   /**
   * HTTP response body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#body GatewayPluginDatakit#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#body GatewayPluginDatakit#body}
   */
   readonly body?: string;
   /**
   * HTTP response headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#headers GatewayPluginDatakit#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#headers GatewayPluginDatakit#headers}
   */
   readonly headers?: string;
   /**
   * HTTP response status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#status GatewayPluginDatakit#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#status GatewayPluginDatakit#status}
   */
   readonly status?: string;
 }
@@ -1504,55 +1504,55 @@ export interface GatewayPluginDatakitConfigNodesCall {
   /**
   * call node input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
   */
   readonly input?: string;
   /**
   * call node inputs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
   */
   readonly inputs?: GatewayPluginDatakitConfigNodesCallInputs;
   /**
   * A string representing an HTTP method, such as GET, POST, PUT, or DELETE. The string must contain only uppercase letters. Default: "GET"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#method GatewayPluginDatakit#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#method GatewayPluginDatakit#method}
   */
   readonly method?: string;
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * call node output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
   */
   readonly output?: string;
   /**
   * call node outputs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
   */
   readonly outputs?: GatewayPluginDatakitConfigNodesCallOutputs;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ssl_server_name GatewayPluginDatakit#ssl_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ssl_server_name GatewayPluginDatakit#ssl_server_name}
   */
   readonly sslServerName?: string;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#timeout GatewayPluginDatakit#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#timeout GatewayPluginDatakit#timeout}
   */
   readonly timeout?: number;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#url GatewayPluginDatakit#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#url GatewayPluginDatakit#url}
   */
   readonly url?: string;
 }
@@ -1732,7 +1732,7 @@ export class GatewayPluginDatakitConfigNodesCallOutputReference extends cdktf.Co
     }
   }
 
-  // input - computed: true, optional: true, required: false
+  // input - computed: false, optional: true, required: false
   private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
@@ -1780,7 +1780,7 @@ export class GatewayPluginDatakitConfigNodesCallOutputReference extends cdktf.Co
     return this._method;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -1796,7 +1796,7 @@ export class GatewayPluginDatakitConfigNodesCallOutputReference extends cdktf.Co
     return this._name;
   }
 
-  // output - computed: true, optional: true, required: false
+  // output - computed: false, optional: true, required: false
   private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
@@ -1828,7 +1828,7 @@ export class GatewayPluginDatakitConfigNodesCallOutputReference extends cdktf.Co
     return this._outputs.internalValue;
   }
 
-  // ssl_server_name - computed: true, optional: true, required: false
+  // ssl_server_name - computed: false, optional: true, required: false
   private _sslServerName?: string; 
   public get sslServerName() {
     return this.getStringAttribute('ssl_server_name');
@@ -1844,7 +1844,7 @@ export class GatewayPluginDatakitConfigNodesCallOutputReference extends cdktf.Co
     return this._sslServerName;
   }
 
-  // timeout - computed: true, optional: true, required: false
+  // timeout - computed: false, optional: true, required: false
   private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
@@ -1880,13 +1880,13 @@ export interface GatewayPluginDatakitConfigNodesExitInputs {
   /**
   * HTTP response body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#body GatewayPluginDatakit#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#body GatewayPluginDatakit#body}
   */
   readonly body?: string;
   /**
   * HTTP response headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#headers GatewayPluginDatakit#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#headers GatewayPluginDatakit#headers}
   */
   readonly headers?: string;
 }
@@ -2011,29 +2011,29 @@ export interface GatewayPluginDatakitConfigNodesExit {
   /**
   * exit node input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
   */
   readonly input?: string;
   /**
   * exit node inputs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
   */
   readonly inputs?: GatewayPluginDatakitConfigNodesExitInputs;
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * HTTP status code. Default: 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#status GatewayPluginDatakit#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#status GatewayPluginDatakit#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#warn_headers_sent GatewayPluginDatakit#warn_headers_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#warn_headers_sent GatewayPluginDatakit#warn_headers_sent}
   */
   readonly warnHeadersSent?: boolean | cdktf.IResolvable;
 }
@@ -2161,7 +2161,7 @@ export class GatewayPluginDatakitConfigNodesExitOutputReference extends cdktf.Co
     }
   }
 
-  // input - computed: true, optional: true, required: false
+  // input - computed: false, optional: true, required: false
   private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
@@ -2193,7 +2193,7 @@ export class GatewayPluginDatakitConfigNodesExitOutputReference extends cdktf.Co
     return this._inputs.internalValue;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2225,7 +2225,7 @@ export class GatewayPluginDatakitConfigNodesExitOutputReference extends cdktf.Co
     return this._status;
   }
 
-  // warn_headers_sent - computed: true, optional: true, required: false
+  // warn_headers_sent - computed: false, optional: true, required: false
   private _warnHeadersSent?: boolean | cdktf.IResolvable; 
   public get warnHeadersSent() {
     return this.getBooleanAttribute('warn_headers_sent');
@@ -2245,31 +2245,31 @@ export interface GatewayPluginDatakitConfigNodesJq {
   /**
   * filter input(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
   */
   readonly input?: string;
   /**
   * filter input(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#inputs GatewayPluginDatakit#inputs}
   */
   readonly inputs?: { [key: string]: string };
   /**
   * The jq filter text. Refer to https://jqlang.org/manual/ for full documentation. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#jq GatewayPluginDatakit#jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#jq GatewayPluginDatakit#jq}
   */
   readonly jq?: string;
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * filter output(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
   */
   readonly output?: string;
 }
@@ -2397,7 +2397,7 @@ export class GatewayPluginDatakitConfigNodesJqOutputReference extends cdktf.Comp
     }
   }
 
-  // input - computed: true, optional: true, required: false
+  // input - computed: false, optional: true, required: false
   private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
@@ -2413,7 +2413,7 @@ export class GatewayPluginDatakitConfigNodesJqOutputReference extends cdktf.Comp
     return this._input;
   }
 
-  // inputs - computed: true, optional: true, required: false
+  // inputs - computed: false, optional: true, required: false
   private _inputs?: { [key: string]: string }; 
   public get inputs() {
     return this.getStringMapAttribute('inputs');
@@ -2445,7 +2445,7 @@ export class GatewayPluginDatakitConfigNodesJqOutputReference extends cdktf.Comp
     return this._jq;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2461,7 +2461,7 @@ export class GatewayPluginDatakitConfigNodesJqOutputReference extends cdktf.Comp
     return this._name;
   }
 
-  // output - computed: true, optional: true, required: false
+  // output - computed: false, optional: true, required: false
   private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
@@ -2481,31 +2481,31 @@ export interface GatewayPluginDatakitConfigNodesProperty {
   /**
   * The expected mime type of the property value. When set to `application/json`, SET operations will JSON-encode input data before writing it, and GET operations will JSON-decode output data after reading it. Otherwise, this setting has no effect. must be one of ["application/json", "application/octet-stream", "text/plain"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#content_type GatewayPluginDatakit#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#content_type GatewayPluginDatakit#content_type}
   */
   readonly contentType?: string;
   /**
   * Property input source. When connected, this node operates in SET mode and writes input data to the property. Otherwise, the node operates in GET mode and reads the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#input GatewayPluginDatakit#input}
   */
   readonly input?: string;
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * Property output. This can be connected regardless of whether the node is operating in GET mode or SET mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
   */
   readonly output?: string;
   /**
   * The property name to get/set. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#property GatewayPluginDatakit#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#property GatewayPluginDatakit#property}
   */
   readonly property?: string;
 }
@@ -2649,7 +2649,7 @@ export class GatewayPluginDatakitConfigNodesPropertyOutputReference extends cdkt
     return this._contentType;
   }
 
-  // input - computed: true, optional: true, required: false
+  // input - computed: false, optional: true, required: false
   private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
@@ -2665,7 +2665,7 @@ export class GatewayPluginDatakitConfigNodesPropertyOutputReference extends cdkt
     return this._input;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2681,7 +2681,7 @@ export class GatewayPluginDatakitConfigNodesPropertyOutputReference extends cdkt
     return this._name;
   }
 
-  // output - computed: true, optional: true, required: false
+  // output - computed: false, optional: true, required: false
   private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
@@ -2717,25 +2717,25 @@ export interface GatewayPluginDatakitConfigNodesStatic {
   /**
   * A label that uniquely identifies the node within the plugin configuration so that it can be used for input/output connections. Must be valid `snake_case` or `kebab-case`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
   * The entire `.values` map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#output GatewayPluginDatakit#output}
   */
   readonly output?: string;
   /**
   * Individual items from `.values`, referenced by key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#outputs GatewayPluginDatakit#outputs}
   */
   readonly outputs?: { [key: string]: string };
   /**
   * An object with string keys and freeform values. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#values GatewayPluginDatakit#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#values GatewayPluginDatakit#values}
   */
   readonly values?: string;
 }
@@ -2850,7 +2850,7 @@ export class GatewayPluginDatakitConfigNodesStaticOutputReference extends cdktf.
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2866,7 +2866,7 @@ export class GatewayPluginDatakitConfigNodesStaticOutputReference extends cdktf.
     return this._name;
   }
 
-  // output - computed: true, optional: true, required: false
+  // output - computed: false, optional: true, required: false
   private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
@@ -2882,7 +2882,7 @@ export class GatewayPluginDatakitConfigNodesStaticOutputReference extends cdktf.
     return this._output;
   }
 
-  // outputs - computed: true, optional: true, required: false
+  // outputs - computed: false, optional: true, required: false
   private _outputs?: { [key: string]: string }; 
   public get outputs() {
     return this.getStringMapAttribute('outputs');
@@ -2918,43 +2918,43 @@ export interface GatewayPluginDatakitConfigNodes {
   /**
   * Execute different nodes based on some input condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#branch GatewayPluginDatakit#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#branch GatewayPluginDatakit#branch}
   */
   readonly branch?: GatewayPluginDatakitConfigNodesBranch;
   /**
   * Fetch cached data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#cache GatewayPluginDatakit#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#cache GatewayPluginDatakit#cache}
   */
   readonly cache?: GatewayPluginDatakitConfigNodesCache;
   /**
   * Make an external HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#call GatewayPluginDatakit#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#call GatewayPluginDatakit#call}
   */
   readonly call?: GatewayPluginDatakitConfigNodesCall;
   /**
   * Terminate the request and send a response to the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#exit GatewayPluginDatakit#exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#exit GatewayPluginDatakit#exit}
   */
   readonly exit?: GatewayPluginDatakitConfigNodesExit;
   /**
   * Process data using `jq` syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#jq GatewayPluginDatakit#jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#jq GatewayPluginDatakit#jq}
   */
   readonly jq?: GatewayPluginDatakitConfigNodesJq;
   /**
   * Get or set a property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#property GatewayPluginDatakit#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#property GatewayPluginDatakit#property}
   */
   readonly property?: GatewayPluginDatakitConfigNodesProperty;
   /**
   * Produce reusable outputs from statically-configured values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#static GatewayPluginDatakit#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#static GatewayPluginDatakit#static}
   */
   readonly static?: GatewayPluginDatakitConfigNodesStatic;
 }
@@ -3110,7 +3110,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     }
   }
 
-  // branch - computed: true, optional: true, required: false
+  // branch - computed: false, optional: true, required: false
   private _branch = new GatewayPluginDatakitConfigNodesBranchOutputReference(this, "branch");
   public get branch() {
     return this._branch;
@@ -3126,7 +3126,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     return this._branch.internalValue;
   }
 
-  // cache - computed: true, optional: true, required: false
+  // cache - computed: false, optional: true, required: false
   private _cache = new GatewayPluginDatakitConfigNodesCacheOutputReference(this, "cache");
   public get cache() {
     return this._cache;
@@ -3142,7 +3142,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     return this._cache.internalValue;
   }
 
-  // call - computed: true, optional: true, required: false
+  // call - computed: false, optional: true, required: false
   private _call = new GatewayPluginDatakitConfigNodesCallOutputReference(this, "call");
   public get call() {
     return this._call;
@@ -3158,7 +3158,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     return this._call.internalValue;
   }
 
-  // exit - computed: true, optional: true, required: false
+  // exit - computed: false, optional: true, required: false
   private _exit = new GatewayPluginDatakitConfigNodesExitOutputReference(this, "exit");
   public get exit() {
     return this._exit;
@@ -3174,7 +3174,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     return this._exit.internalValue;
   }
 
-  // jq - computed: true, optional: true, required: false
+  // jq - computed: false, optional: true, required: false
   private _jq = new GatewayPluginDatakitConfigNodesJqOutputReference(this, "jq");
   public get jq() {
     return this._jq;
@@ -3190,7 +3190,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     return this._jq.internalValue;
   }
 
-  // property - computed: true, optional: true, required: false
+  // property - computed: false, optional: true, required: false
   private _property = new GatewayPluginDatakitConfigNodesPropertyOutputReference(this, "property");
   public get property() {
     return this._property;
@@ -3206,7 +3206,7 @@ export class GatewayPluginDatakitConfigNodesOutputReference extends cdktf.Comple
     return this._property.internalValue;
   }
 
-  // static - computed: true, optional: true, required: false
+  // static - computed: false, optional: true, required: false
   private _static = new GatewayPluginDatakitConfigNodesStaticOutputReference(this, "static");
   public get static() {
     return this._static;
@@ -3246,7 +3246,7 @@ export interface GatewayPluginDatakitConfigResourcesCacheMemory {
   /**
   * The name of the shared dictionary in which to hold cache entities when the memory strategy is selected. Note that this dictionary currently must be defined manually in the Kong Nginx template. Default: "kong_db_cache"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#dictionary_name GatewayPluginDatakit#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#dictionary_name GatewayPluginDatakit#dictionary_name}
   */
   readonly dictionaryName?: string;
 }
@@ -3342,13 +3342,13 @@ export interface GatewayPluginDatakitConfigResourcesCacheRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ip GatewayPluginDatakit#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ip GatewayPluginDatakit#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#port GatewayPluginDatakit#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#port GatewayPluginDatakit#port}
   */
   readonly port?: number;
 }
@@ -3495,13 +3495,13 @@ export interface GatewayPluginDatakitConfigResourcesCacheRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#host GatewayPluginDatakit#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#host GatewayPluginDatakit#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#port GatewayPluginDatakit#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#port GatewayPluginDatakit#port}
   */
   readonly port?: number;
 }
@@ -3648,127 +3648,127 @@ export interface GatewayPluginDatakitConfigResourcesCacheRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#cluster_max_redirections GatewayPluginDatakit#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#cluster_max_redirections GatewayPluginDatakit#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#cluster_nodes GatewayPluginDatakit#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#cluster_nodes GatewayPluginDatakit#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginDatakitConfigResourcesCacheRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#connect_timeout GatewayPluginDatakit#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#connect_timeout GatewayPluginDatakit#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#connection_is_proxied GatewayPluginDatakit#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#connection_is_proxied GatewayPluginDatakit#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#database GatewayPluginDatakit#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#database GatewayPluginDatakit#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#host GatewayPluginDatakit#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#host GatewayPluginDatakit#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#keepalive_backlog GatewayPluginDatakit#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#keepalive_backlog GatewayPluginDatakit#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#keepalive_pool_size GatewayPluginDatakit#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#keepalive_pool_size GatewayPluginDatakit#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#password GatewayPluginDatakit#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#password GatewayPluginDatakit#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#port GatewayPluginDatakit#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#port GatewayPluginDatakit#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#read_timeout GatewayPluginDatakit#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#read_timeout GatewayPluginDatakit#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#send_timeout GatewayPluginDatakit#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#send_timeout GatewayPluginDatakit#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#sentinel_master GatewayPluginDatakit#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#sentinel_master GatewayPluginDatakit#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#sentinel_nodes GatewayPluginDatakit#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#sentinel_nodes GatewayPluginDatakit#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginDatakitConfigResourcesCacheRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#sentinel_password GatewayPluginDatakit#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#sentinel_password GatewayPluginDatakit#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#sentinel_role GatewayPluginDatakit#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#sentinel_role GatewayPluginDatakit#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#sentinel_username GatewayPluginDatakit#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#sentinel_username GatewayPluginDatakit#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#server_name GatewayPluginDatakit#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#server_name GatewayPluginDatakit#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ssl GatewayPluginDatakit#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ssl GatewayPluginDatakit#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#ssl_verify GatewayPluginDatakit#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#ssl_verify GatewayPluginDatakit#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#username GatewayPluginDatakit#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#username GatewayPluginDatakit#username}
   */
   readonly username?: string;
 }
@@ -4442,17 +4442,17 @@ export class GatewayPluginDatakitConfigResourcesCacheRedisOutputReference extend
 }
 export interface GatewayPluginDatakitConfigResourcesCache {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#memory GatewayPluginDatakit#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#memory GatewayPluginDatakit#memory}
   */
   readonly memory?: GatewayPluginDatakitConfigResourcesCacheMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#redis GatewayPluginDatakit#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#redis GatewayPluginDatakit#redis}
   */
   readonly redis?: GatewayPluginDatakitConfigResourcesCacheRedis;
   /**
   * The backing data store in which to hold cache entities. Accepted values are: `memory` and `redis`. must be one of ["memory", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#strategy GatewayPluginDatakit#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#strategy GatewayPluginDatakit#strategy}
   */
   readonly strategy?: string;
 }
@@ -4604,11 +4604,11 @@ export class GatewayPluginDatakitConfigResourcesCacheOutputReference extends cdk
 }
 export interface GatewayPluginDatakitConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#cache GatewayPluginDatakit#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#cache GatewayPluginDatakit#cache}
   */
   readonly cache?: GatewayPluginDatakitConfigResourcesCache;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#vault GatewayPluginDatakit#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#vault GatewayPluginDatakit#vault}
   */
   readonly vault?: { [key: string]: string };
 }
@@ -4733,15 +4733,15 @@ export interface GatewayPluginDatakitConfigA {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#debug GatewayPluginDatakit#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#debug GatewayPluginDatakit#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#nodes GatewayPluginDatakit#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#nodes GatewayPluginDatakit#nodes}
   */
   readonly nodes: GatewayPluginDatakitConfigNodes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#resources GatewayPluginDatakit#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#resources GatewayPluginDatakit#resources}
   */
   readonly resources?: GatewayPluginDatakitConfigResources;
 }
@@ -4890,7 +4890,7 @@ export class GatewayPluginDatakitConfigAOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginDatakitConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4987,7 +4987,7 @@ export class GatewayPluginDatakitConsumerOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginDatakitConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5084,7 +5084,7 @@ export class GatewayPluginDatakitConsumerGroupOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginDatakitOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#access GatewayPluginDatakit#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#access GatewayPluginDatakit#access}
   */
   readonly access?: string[];
 }
@@ -5178,7 +5178,7 @@ export class GatewayPluginDatakitOrderingAfterOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginDatakitOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#access GatewayPluginDatakit#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#access GatewayPluginDatakit#access}
   */
   readonly access?: string[];
 }
@@ -5272,11 +5272,11 @@ export class GatewayPluginDatakitOrderingBeforeOutputReference extends cdktf.Com
 }
 export interface GatewayPluginDatakitOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#after GatewayPluginDatakit#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#after GatewayPluginDatakit#after}
   */
   readonly after?: GatewayPluginDatakitOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#before GatewayPluginDatakit#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#before GatewayPluginDatakit#before}
   */
   readonly before?: GatewayPluginDatakitOrderingBefore;
 }
@@ -5401,7 +5401,7 @@ export interface GatewayPluginDatakitPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5410,11 +5410,11 @@ export interface GatewayPluginDatakitPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#name GatewayPluginDatakit#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#path GatewayPluginDatakit#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#path GatewayPluginDatakit#path}
   */
   readonly path?: string;
 }
@@ -5588,7 +5588,7 @@ export class GatewayPluginDatakitPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginDatakitRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5685,7 +5685,7 @@ export class GatewayPluginDatakitRouteOutputReference extends cdktf.ComplexObjec
 }
 export interface GatewayPluginDatakitService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#id GatewayPluginDatakit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5782,7 +5782,7 @@ export class GatewayPluginDatakitServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit konnect_gateway_plugin_datakit}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit konnect_gateway_plugin_datakit}
 */
 export class GatewayPluginDatakit extends cdktf.TerraformResource {
 
@@ -5798,7 +5798,7 @@ export class GatewayPluginDatakit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginDatakit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginDatakit to import
-  * @param importFromId The id of the existing GatewayPluginDatakit that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginDatakit that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginDatakit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5810,7 +5810,7 @@ export class GatewayPluginDatakit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_datakit konnect_gateway_plugin_datakit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_datakit konnect_gateway_plugin_datakit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5821,8 +5821,8 @@ export class GatewayPluginDatakit extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_datakit',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

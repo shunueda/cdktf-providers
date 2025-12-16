@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification
+// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The condition that triggers this notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#condition Notification#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#condition Notification#condition}
   */
   readonly condition: string;
   /**
   * Configuration specific to the notification condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#conf Notification#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#conf Notification#conf}
   */
   readonly conf?: NotificationConf;
   /**
   * Whether the notification is disabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#disabled Notification#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#disabled Notification#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Group identifier for the notification. Default: "default_search"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#group Notification#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#group Notification#group}
   */
   readonly group?: string;
   /**
   * Unique identifier for the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#id Notification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#id Notification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,13 +43,13 @@ export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration for notification targets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#target_configs Notification#target_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#target_configs Notification#target_configs}
   */
   readonly targetConfigs?: NotificationTargetConfigs[] | cdktf.IResolvable;
   /**
   * Targets to send any notifications to. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#targets Notification#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#targets Notification#targets}
   */
   readonly targets?: string[];
 }
@@ -57,31 +57,31 @@ export interface NotificationConf {
   /**
   * Message template for the notification. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#message Notification#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#message Notification#message}
   */
   readonly message?: string;
   /**
   * ID of the saved query this notification is associated with. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#saved_query_id Notification#saved_query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#saved_query_id Notification#saved_query_id}
   */
   readonly savedQueryId?: string;
   /**
   * Comparison operator (e.g., >, <, =)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#trigger_comparator Notification#trigger_comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#trigger_comparator Notification#trigger_comparator}
   */
   readonly triggerComparator?: string;
   /**
   * Threshold count for the trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#trigger_count Notification#trigger_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#trigger_count Notification#trigger_count}
   */
   readonly triggerCount?: number;
   /**
   * Type of trigger (e.g., resultsCount)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#trigger_type Notification#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#trigger_type Notification#trigger_type}
   */
   readonly triggerType?: string;
 }
@@ -293,13 +293,13 @@ export interface NotificationTargetConfigsConf {
   /**
   * Type of attachment for the notification. Default: "inline"; must be one of ["inline", "attachment"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#attachment_type Notification#attachment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#attachment_type Notification#attachment_type}
   */
   readonly attachmentType?: string;
   /**
   * Whether to include search results in the notification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#include_results Notification#include_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#include_results Notification#include_results}
   */
   readonly includeResults?: boolean | cdktf.IResolvable;
 }
@@ -422,13 +422,13 @@ export class NotificationTargetConfigsConfOutputReference extends cdktf.ComplexO
 }
 export interface NotificationTargetConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#conf Notification#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#conf Notification#conf}
   */
   readonly conf?: NotificationTargetConfigsConf;
   /**
   * ID of the notification target. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#id Notification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#id Notification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -576,7 +576,7 @@ export class NotificationTargetConfigsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification criblio_notification}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification criblio_notification}
 */
 export class Notification extends cdktf.TerraformResource {
 
@@ -592,7 +592,7 @@ export class Notification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notification to import
-  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -604,7 +604,7 @@ export class Notification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/notification criblio_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/notification criblio_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -615,8 +615,8 @@ export class Notification extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_notification',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.62',
-        providerVersionConstraint: '1.20.62'
+        providerVersion: '1.20.64',
+        providerVersionConstraint: '1.20.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

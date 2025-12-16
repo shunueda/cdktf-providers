@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ReverseProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Docker access method. The default value is SUBDOMAIN. Supported values: SUBDOMAIN, REPOPATHPREFIX, PORTPERREPO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#docker_reverse_proxy_method ReverseProxy#docker_reverse_proxy_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#docker_reverse_proxy_method ReverseProxy#docker_reverse_proxy_method}
   */
   readonly dockerReverseProxyMethod?: string;
   /**
   * The port for access via HTTP. The default value is 80. Only settable when `server_provider` is set to `NIGNIX` or `APACHE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#http_port ReverseProxy#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#http_port ReverseProxy#http_port}
   */
   readonly httpPort?: number;
   /**
   * The port for access via HTTPS. The default value is 443. Only settable when `use_https` is set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#https_port ReverseProxy#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#https_port ReverseProxy#https_port}
   */
   readonly httpsPort?: number;
   /**
   * The internal server name for Artifactory which will be used by the web server to access the Artifactory machine. If the web server is installed on the same machine as Artifactory you can use localhost, otherwise use the IP or hostname. Must be set when `server_provider` is set to `NIGNIX` or `APACHE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#internal_hostname ReverseProxy#internal_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#internal_hostname ReverseProxy#internal_hostname}
   */
   readonly internalHostname?: string;
   /**
   * The server name that will be used to access Artifactory. Should be correlated with the base URL value. Must be set when `server_provider` is set to `NIGNIX` or `APACHE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#public_server_name ReverseProxy#public_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#public_server_name ReverseProxy#public_server_name}
   */
   readonly publicServerName?: string;
   /**
   * Set the server provider type. Supported values: DIRECT, NGINX, APACHE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#server_provider ReverseProxy#server_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#server_provider ReverseProxy#server_provider}
   */
   readonly serverProvider: string;
   /**
   * The full path of the certificate file on the web server, e.g. `/etc/ssl/certs/myserver.crt`. Must be set when `use_https` is set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#ssl_certificate_path ReverseProxy#ssl_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#ssl_certificate_path ReverseProxy#ssl_certificate_path}
   */
   readonly sslCertificatePath?: string;
   /**
   * The full path of the key file on the web server, e.g. `/etc/ssl/private/myserver.key`. Must be set when `use_https` is set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#ssl_key_path ReverseProxy#ssl_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#ssl_key_path ReverseProxy#ssl_key_path}
   */
   readonly sslKeyPath?: string;
   /**
   * When set, Artifactory will be accessible via HTTPS at the corresponding port that is set. Only settable when `server_provider` is set to `NIGNIX` or `APACHE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#use_https ReverseProxy#use_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#use_https ReverseProxy#use_https}
   */
   readonly useHttps?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy platform_reverse_proxy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy platform_reverse_proxy}
 */
 export class ReverseProxy extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class ReverseProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReverseProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReverseProxy to import
-  * @param importFromId The id of the existing ReverseProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReverseProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReverseProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class ReverseProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/reverse_proxy platform_reverse_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/reverse_proxy platform_reverse_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class ReverseProxy extends cdktf.TerraformResource {
       terraformResourceType: 'platform_reverse_proxy',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

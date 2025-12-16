@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginKafkaConsumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#config GatewayPluginKafkaConsume#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#config GatewayPluginKafkaConsume#config}
   */
   readonly config: GatewayPluginKafkaConsumeConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#consumer GatewayPluginKafkaConsume#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#consumer GatewayPluginKafkaConsume#consumer}
   */
   readonly consumer?: GatewayPluginKafkaConsumeConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#control_plane_id GatewayPluginKafkaConsume#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#control_plane_id GatewayPluginKafkaConsume#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#created_at GatewayPluginKafkaConsume#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#created_at GatewayPluginKafkaConsume#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#enabled GatewayPluginKafkaConsume#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#enabled GatewayPluginKafkaConsume#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,41 +47,41 @@ export interface GatewayPluginKafkaConsumeConfig extends cdktf.TerraformMetaArgu
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#instance_name GatewayPluginKafkaConsume#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#instance_name GatewayPluginKafkaConsume#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ordering GatewayPluginKafkaConsume#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ordering GatewayPluginKafkaConsume#ordering}
   */
   readonly ordering?: GatewayPluginKafkaConsumeOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#partials GatewayPluginKafkaConsume#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#partials GatewayPluginKafkaConsume#partials}
   */
   readonly partials?: GatewayPluginKafkaConsumePartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpc","grpcs","http","https","ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#protocols GatewayPluginKafkaConsume#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#protocols GatewayPluginKafkaConsume#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#route GatewayPluginKafkaConsume#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#route GatewayPluginKafkaConsume#route}
   */
   readonly route?: GatewayPluginKafkaConsumeRoute;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#tags GatewayPluginKafkaConsume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#tags GatewayPluginKafkaConsume#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#updated_at GatewayPluginKafkaConsume#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#updated_at GatewayPluginKafkaConsume#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,31 +89,31 @@ export interface GatewayPluginKafkaConsumeConfigAuthentication {
   /**
   * The SASL authentication mechanism.  Supported options: `PLAIN` or `SCRAM-SHA-256`. must be one of ["PLAIN", "SCRAM-SHA-256", "SCRAM-SHA-512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#mechanism GatewayPluginKafkaConsume#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#mechanism GatewayPluginKafkaConsume#mechanism}
   */
   readonly mechanism?: string;
   /**
   * Password for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
   */
   readonly password?: string;
   /**
   * The authentication strategy for the plugin, the only option for the value is `sasl`. must be "sasl"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#strategy GatewayPluginKafkaConsume#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#strategy GatewayPluginKafkaConsume#strategy}
   */
   readonly strategy?: string;
   /**
   * Enable this to indicate `DelegationToken` authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#tokenauth GatewayPluginKafkaConsume#tokenauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#tokenauth GatewayPluginKafkaConsume#tokenauth}
   */
   readonly tokenauth?: boolean | cdktf.IResolvable;
   /**
   * Username for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#user GatewayPluginKafkaConsume#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#user GatewayPluginKafkaConsume#user}
   */
   readonly user?: string;
 }
@@ -325,13 +325,13 @@ export interface GatewayPluginKafkaConsumeConfigBootstrapServers {
   /**
   * A string representing a host name, such as example.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#host GatewayPluginKafkaConsume#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#host GatewayPluginKafkaConsume#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#port GatewayPluginKafkaConsume#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#port GatewayPluginKafkaConsume#port}
   */
   readonly port?: number;
 }
@@ -478,13 +478,13 @@ export interface GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthentic
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
   */
   readonly password?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
   */
   readonly username?: string;
 }
@@ -609,61 +609,61 @@ export interface GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthentic
   /**
   * List of audiences passed to the IdP when obtaining a new token. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#audience GatewayPluginKafkaConsume#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#audience GatewayPluginKafkaConsume#audience}
   */
   readonly audience?: string[];
   /**
   * The client ID for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#client_id GatewayPluginKafkaConsume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#client_id GatewayPluginKafkaConsume#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#client_secret GatewayPluginKafkaConsume#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#client_secret GatewayPluginKafkaConsume#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth grant type to be used. Default: "client_credentials"; must be one of ["client_credentials", "password"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#grant_type GatewayPluginKafkaConsume#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#grant_type GatewayPluginKafkaConsume#grant_type}
   */
   readonly grantType?: string;
   /**
   * The password to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
   */
   readonly password?: string;
   /**
   * List of scopes to request from the IdP when obtaining a new token. Default: ["openid"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#scopes GatewayPluginKafkaConsume#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#scopes GatewayPluginKafkaConsume#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token endpoint URI. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#token_endpoint GatewayPluginKafkaConsume#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#token_endpoint GatewayPluginKafkaConsume#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Extra headers to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#token_headers GatewayPluginKafkaConsume#token_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#token_headers GatewayPluginKafkaConsume#token_headers}
   */
   readonly tokenHeaders?: { [key: string]: string };
   /**
   * Extra post arguments to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#token_post_args GatewayPluginKafkaConsume#token_post_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#token_post_args GatewayPluginKafkaConsume#token_post_args}
   */
   readonly tokenPostArgs?: { [key: string]: string };
   /**
   * The username to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
   */
   readonly username?: string;
 }
@@ -1020,67 +1020,67 @@ export interface GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthentic
   /**
   * The authentication method used in client requests to the IdP. Supported values are: `client_secret_basic` to send `client_id` and `client_secret` in the `Authorization: Basic` header, `client_secret_post` to send `client_id` and `client_secret` as part of the request body, or `client_secret_jwt` to send a JWT signed with the `client_secret` using the client assertion as part of the body. Default: "client_secret_post"; must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#auth_method GatewayPluginKafkaConsume#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#auth_method GatewayPluginKafkaConsume#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The algorithm to use with JWT when using `client_secret_jwt` authentication. Default: "HS512"; must be one of ["HS256", "HS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#client_secret_jwt_alg GatewayPluginKafkaConsume#client_secret_jwt_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#client_secret_jwt_alg GatewayPluginKafkaConsume#client_secret_jwt_alg}
   */
   readonly clientSecretJwtAlg?: string;
   /**
   * The proxy to use when making HTTP requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#http_proxy GatewayPluginKafkaConsume#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#http_proxy GatewayPluginKafkaConsume#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `http_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#http_proxy_authorization GatewayPluginKafkaConsume#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#http_proxy_authorization GatewayPluginKafkaConsume#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for requests made by this plugin. Supported values: `1.1` for HTTP 1.1 and `1.0` for HTTP 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#http_version GatewayPluginKafkaConsume#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#http_version GatewayPluginKafkaConsume#http_version}
   */
   readonly httpVersion?: number;
   /**
   * The proxy to use when making HTTPS requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#https_proxy GatewayPluginKafkaConsume#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#https_proxy GatewayPluginKafkaConsume#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `https_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#https_proxy_authorization GatewayPluginKafkaConsume#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#https_proxy_authorization GatewayPluginKafkaConsume#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * Whether to use keepalive connections to the IdP. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#keep_alive GatewayPluginKafkaConsume#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#keep_alive GatewayPluginKafkaConsume#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of hosts that should not be proxied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#no_proxy GatewayPluginKafkaConsume#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#no_proxy GatewayPluginKafkaConsume#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Whether to verify the certificate presented by the IdP when using HTTPS. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network I/O timeout for requests to the IdP in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#timeout GatewayPluginKafkaConsume#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#timeout GatewayPluginKafkaConsume#timeout}
   */
   readonly timeout?: number;
 }
@@ -1464,21 +1464,21 @@ export class GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthenticatio
 }
 export interface GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#basic GatewayPluginKafkaConsume#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#basic GatewayPluginKafkaConsume#basic}
   */
   readonly basic?: GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthenticationBasic;
   /**
   * Authentication mode to use with the schema registry. Default: "none"; must be one of ["basic", "none", "oauth2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#mode GatewayPluginKafkaConsume#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#mode GatewayPluginKafkaConsume#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#oauth2 GatewayPluginKafkaConsume#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#oauth2 GatewayPluginKafkaConsume#oauth2}
   */
   readonly oauth2?: GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthenticationOauth2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#oauth2_client GatewayPluginKafkaConsume#oauth2_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#oauth2_client GatewayPluginKafkaConsume#oauth2_client}
   */
   readonly oauth2Client?: GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthenticationOauth2Client;
 }
@@ -1659,25 +1659,25 @@ export class GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthenticatio
 }
 export interface GatewayPluginKafkaConsumeConfigSchemaRegistryConfluent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#authentication GatewayPluginKafkaConsume#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#authentication GatewayPluginKafkaConsume#authentication}
   */
   readonly authentication?: GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentAuthentication;
   /**
   * Set to false to disable SSL certificate verification when connecting to the schema registry. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * The TTL in seconds for the schema registry cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ttl GatewayPluginKafkaConsume#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ttl GatewayPluginKafkaConsume#ttl}
   */
   readonly ttl?: number;
   /**
   * The URL of the schema registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#url GatewayPluginKafkaConsume#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#url GatewayPluginKafkaConsume#url}
   */
   readonly url?: string;
 }
@@ -1858,7 +1858,7 @@ export class GatewayPluginKafkaConsumeConfigSchemaRegistryConfluentOutputReferen
 }
 export interface GatewayPluginKafkaConsumeConfigSchemaRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#confluent GatewayPluginKafkaConsume#confluent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#confluent GatewayPluginKafkaConsume#confluent}
   */
   readonly confluent?: GatewayPluginKafkaConsumeConfigSchemaRegistryConfluent;
 }
@@ -1954,13 +1954,13 @@ export interface GatewayPluginKafkaConsumeConfigSecurity {
   /**
   * UUID of certificate entity for mTLS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#certificate_id GatewayPluginKafkaConsume#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#certificate_id GatewayPluginKafkaConsume#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Enables TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ssl GatewayPluginKafkaConsume#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ssl GatewayPluginKafkaConsume#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
 }
@@ -2085,13 +2085,13 @@ export interface GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAut
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
   */
   readonly password?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
   */
   readonly username?: string;
 }
@@ -2216,61 +2216,61 @@ export interface GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAut
   /**
   * List of audiences passed to the IdP when obtaining a new token. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#audience GatewayPluginKafkaConsume#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#audience GatewayPluginKafkaConsume#audience}
   */
   readonly audience?: string[];
   /**
   * The client ID for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#client_id GatewayPluginKafkaConsume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#client_id GatewayPluginKafkaConsume#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#client_secret GatewayPluginKafkaConsume#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#client_secret GatewayPluginKafkaConsume#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth grant type to be used. Default: "client_credentials"; must be one of ["client_credentials", "password"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#grant_type GatewayPluginKafkaConsume#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#grant_type GatewayPluginKafkaConsume#grant_type}
   */
   readonly grantType?: string;
   /**
   * The password to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#password GatewayPluginKafkaConsume#password}
   */
   readonly password?: string;
   /**
   * List of scopes to request from the IdP when obtaining a new token. Default: ["openid"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#scopes GatewayPluginKafkaConsume#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#scopes GatewayPluginKafkaConsume#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token endpoint URI. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#token_endpoint GatewayPluginKafkaConsume#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#token_endpoint GatewayPluginKafkaConsume#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Extra headers to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#token_headers GatewayPluginKafkaConsume#token_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#token_headers GatewayPluginKafkaConsume#token_headers}
   */
   readonly tokenHeaders?: { [key: string]: string };
   /**
   * Extra post arguments to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#token_post_args GatewayPluginKafkaConsume#token_post_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#token_post_args GatewayPluginKafkaConsume#token_post_args}
   */
   readonly tokenPostArgs?: { [key: string]: string };
   /**
   * The username to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#username GatewayPluginKafkaConsume#username}
   */
   readonly username?: string;
 }
@@ -2627,67 +2627,67 @@ export interface GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAut
   /**
   * The authentication method used in client requests to the IdP. Supported values are: `client_secret_basic` to send `client_id` and `client_secret` in the `Authorization: Basic` header, `client_secret_post` to send `client_id` and `client_secret` as part of the request body, or `client_secret_jwt` to send a JWT signed with the `client_secret` using the client assertion as part of the body. Default: "client_secret_post"; must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#auth_method GatewayPluginKafkaConsume#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#auth_method GatewayPluginKafkaConsume#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The algorithm to use with JWT when using `client_secret_jwt` authentication. Default: "HS512"; must be one of ["HS256", "HS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#client_secret_jwt_alg GatewayPluginKafkaConsume#client_secret_jwt_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#client_secret_jwt_alg GatewayPluginKafkaConsume#client_secret_jwt_alg}
   */
   readonly clientSecretJwtAlg?: string;
   /**
   * The proxy to use when making HTTP requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#http_proxy GatewayPluginKafkaConsume#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#http_proxy GatewayPluginKafkaConsume#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `http_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#http_proxy_authorization GatewayPluginKafkaConsume#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#http_proxy_authorization GatewayPluginKafkaConsume#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for requests made by this plugin. Supported values: `1.1` for HTTP 1.1 and `1.0` for HTTP 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#http_version GatewayPluginKafkaConsume#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#http_version GatewayPluginKafkaConsume#http_version}
   */
   readonly httpVersion?: number;
   /**
   * The proxy to use when making HTTPS requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#https_proxy GatewayPluginKafkaConsume#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#https_proxy GatewayPluginKafkaConsume#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `https_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#https_proxy_authorization GatewayPluginKafkaConsume#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#https_proxy_authorization GatewayPluginKafkaConsume#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * Whether to use keepalive connections to the IdP. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#keep_alive GatewayPluginKafkaConsume#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#keep_alive GatewayPluginKafkaConsume#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of hosts that should not be proxied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#no_proxy GatewayPluginKafkaConsume#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#no_proxy GatewayPluginKafkaConsume#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Whether to verify the certificate presented by the IdP when using HTTPS. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network I/O timeout for requests to the IdP in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#timeout GatewayPluginKafkaConsume#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#timeout GatewayPluginKafkaConsume#timeout}
   */
   readonly timeout?: number;
 }
@@ -3071,21 +3071,21 @@ export class GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthent
 }
 export interface GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#basic GatewayPluginKafkaConsume#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#basic GatewayPluginKafkaConsume#basic}
   */
   readonly basic?: GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthenticationBasic;
   /**
   * Authentication mode to use with the schema registry. Default: "none"; must be one of ["basic", "none", "oauth2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#mode GatewayPluginKafkaConsume#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#mode GatewayPluginKafkaConsume#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#oauth2 GatewayPluginKafkaConsume#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#oauth2 GatewayPluginKafkaConsume#oauth2}
   */
   readonly oauth2?: GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthenticationOauth2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#oauth2_client GatewayPluginKafkaConsume#oauth2_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#oauth2_client GatewayPluginKafkaConsume#oauth2_client}
   */
   readonly oauth2Client?: GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthenticationOauth2Client;
 }
@@ -3266,25 +3266,25 @@ export class GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthent
 }
 export interface GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#authentication GatewayPluginKafkaConsume#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#authentication GatewayPluginKafkaConsume#authentication}
   */
   readonly authentication?: GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentAuthentication;
   /**
   * Set to false to disable SSL certificate verification when connecting to the schema registry. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ssl_verify GatewayPluginKafkaConsume#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * The TTL in seconds for the schema registry cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#ttl GatewayPluginKafkaConsume#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#ttl GatewayPluginKafkaConsume#ttl}
   */
   readonly ttl?: number;
   /**
   * The URL of the schema registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#url GatewayPluginKafkaConsume#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#url GatewayPluginKafkaConsume#url}
   */
   readonly url?: string;
 }
@@ -3465,7 +3465,7 @@ export class GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluentOutputR
 }
 export interface GatewayPluginKafkaConsumeConfigTopicsSchemaRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#confluent GatewayPluginKafkaConsume#confluent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#confluent GatewayPluginKafkaConsume#confluent}
   */
   readonly confluent?: GatewayPluginKafkaConsumeConfigTopicsSchemaRegistryConfluent;
 }
@@ -3561,13 +3561,13 @@ export interface GatewayPluginKafkaConsumeConfigTopics {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#name GatewayPluginKafkaConsume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#name GatewayPluginKafkaConsume#name}
   */
   readonly name?: string;
   /**
   * The plugin-global schema registry configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#schema_registry GatewayPluginKafkaConsume#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#schema_registry GatewayPluginKafkaConsume#schema_registry}
   */
   readonly schemaRegistry?: GatewayPluginKafkaConsumeConfigTopicsSchemaRegistry;
 }
@@ -3712,77 +3712,77 @@ export class GatewayPluginKafkaConsumeConfigTopicsList extends cdktf.ComplexList
 }
 export interface GatewayPluginKafkaConsumeConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#authentication GatewayPluginKafkaConsume#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#authentication GatewayPluginKafkaConsume#authentication}
   */
   readonly authentication?: GatewayPluginKafkaConsumeConfigAuthentication;
   /**
   * The offset to start from when there is no initial offset in the consumer group. Default: "latest"; must be one of ["earliest", "latest"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#auto_offset_reset GatewayPluginKafkaConsume#auto_offset_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#auto_offset_reset GatewayPluginKafkaConsume#auto_offset_reset}
   */
   readonly autoOffsetReset?: string;
   /**
   * Set of bootstrap brokers in a `{host: host, port: port}` list format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#bootstrap_servers GatewayPluginKafkaConsume#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#bootstrap_servers GatewayPluginKafkaConsume#bootstrap_servers}
   */
   readonly bootstrapServers: GatewayPluginKafkaConsumeConfigBootstrapServers[] | cdktf.IResolvable;
   /**
   * An identifier for the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#cluster_name GatewayPluginKafkaConsume#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#cluster_name GatewayPluginKafkaConsume#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The strategy to use for committing offsets. Default: "auto"; must be one of ["auto", "off"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#commit_strategy GatewayPluginKafkaConsume#commit_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#commit_strategy GatewayPluginKafkaConsume#commit_strategy}
   */
   readonly commitStrategy?: string;
   /**
   * The topic to use for the Dead Letter Queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#dlq_topic GatewayPluginKafkaConsume#dlq_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#dlq_topic GatewayPluginKafkaConsume#dlq_topic}
   */
   readonly dlqTopic?: string;
   /**
   * Enables Dead Letter Queue. When enabled, if the message doesn't conform to the schema (from Schema Registry) or there's an error in the `message_by_lua_functions`, it will be forwarded to `dlq_topic` that can be processed later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#enable_dlq GatewayPluginKafkaConsume#enable_dlq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#enable_dlq GatewayPluginKafkaConsume#enable_dlq}
   */
   readonly enableDlq?: boolean | cdktf.IResolvable;
   /**
   * The Lua functions that manipulates the message being sent to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#message_by_lua_functions GatewayPluginKafkaConsume#message_by_lua_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#message_by_lua_functions GatewayPluginKafkaConsume#message_by_lua_functions}
   */
   readonly messageByLuaFunctions?: string[];
   /**
   * The deserializer to use for the consumed messages. Default: "noop"; must be one of ["json", "noop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#message_deserializer GatewayPluginKafkaConsume#message_deserializer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#message_deserializer GatewayPluginKafkaConsume#message_deserializer}
   */
   readonly messageDeserializer?: string;
   /**
   * The mode of operation for the plugin. Default: "http-get"; must be one of ["http-get", "server-sent-events", "websocket"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#mode GatewayPluginKafkaConsume#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#mode GatewayPluginKafkaConsume#mode}
   */
   readonly mode?: string;
   /**
   * The plugin-global schema registry configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#schema_registry GatewayPluginKafkaConsume#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#schema_registry GatewayPluginKafkaConsume#schema_registry}
   */
   readonly schemaRegistry?: GatewayPluginKafkaConsumeConfigSchemaRegistry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#security GatewayPluginKafkaConsume#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#security GatewayPluginKafkaConsume#security}
   */
   readonly security?: GatewayPluginKafkaConsumeConfigSecurity;
   /**
   * The Kafka topics and their configuration you want to consume from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#topics GatewayPluginKafkaConsume#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#topics GatewayPluginKafkaConsume#topics}
   */
   readonly topics: GatewayPluginKafkaConsumeConfigTopics[] | cdktf.IResolvable;
 }
@@ -4218,7 +4218,7 @@ export class GatewayPluginKafkaConsumeConfigAOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginKafkaConsumeConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4315,7 +4315,7 @@ export class GatewayPluginKafkaConsumeConsumerOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginKafkaConsumeOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#access GatewayPluginKafkaConsume#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#access GatewayPluginKafkaConsume#access}
   */
   readonly access?: string[];
 }
@@ -4409,7 +4409,7 @@ export class GatewayPluginKafkaConsumeOrderingAfterOutputReference extends cdktf
 }
 export interface GatewayPluginKafkaConsumeOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#access GatewayPluginKafkaConsume#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#access GatewayPluginKafkaConsume#access}
   */
   readonly access?: string[];
 }
@@ -4503,11 +4503,11 @@ export class GatewayPluginKafkaConsumeOrderingBeforeOutputReference extends cdkt
 }
 export interface GatewayPluginKafkaConsumeOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#after GatewayPluginKafkaConsume#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#after GatewayPluginKafkaConsume#after}
   */
   readonly after?: GatewayPluginKafkaConsumeOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#before GatewayPluginKafkaConsume#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#before GatewayPluginKafkaConsume#before}
   */
   readonly before?: GatewayPluginKafkaConsumeOrderingBefore;
 }
@@ -4632,7 +4632,7 @@ export interface GatewayPluginKafkaConsumePartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4641,11 +4641,11 @@ export interface GatewayPluginKafkaConsumePartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#name GatewayPluginKafkaConsume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#name GatewayPluginKafkaConsume#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#path GatewayPluginKafkaConsume#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#path GatewayPluginKafkaConsume#path}
   */
   readonly path?: string;
 }
@@ -4819,7 +4819,7 @@ export class GatewayPluginKafkaConsumePartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginKafkaConsumeRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#id GatewayPluginKafkaConsume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4916,7 +4916,7 @@ export class GatewayPluginKafkaConsumeRouteOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume konnect_gateway_plugin_kafka_consume}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume konnect_gateway_plugin_kafka_consume}
 */
 export class GatewayPluginKafkaConsume extends cdktf.TerraformResource {
 
@@ -4932,7 +4932,7 @@ export class GatewayPluginKafkaConsume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginKafkaConsume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginKafkaConsume to import
-  * @param importFromId The id of the existing GatewayPluginKafkaConsume that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginKafkaConsume that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginKafkaConsume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4944,7 +4944,7 @@ export class GatewayPluginKafkaConsume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_consume konnect_gateway_plugin_kafka_consume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_consume konnect_gateway_plugin_kafka_consume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4955,8 +4955,8 @@ export class GatewayPluginKafkaConsume extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_kafka_consume',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

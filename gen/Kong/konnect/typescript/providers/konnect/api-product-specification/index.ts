@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApiProductSpecificationConfig extends cdktf.TerraformMetaArgume
   /**
   * The API product identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification#api_product_id ApiProductSpecification#api_product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification#api_product_id ApiProductSpecification#api_product_id}
   */
   readonly apiProductId: string;
   /**
   * The API product version identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification#api_product_version_id ApiProductSpecification#api_product_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification#api_product_version_id ApiProductSpecification#api_product_version_id}
   */
   readonly apiProductVersionId: string;
   /**
   * The base64 encoded contents of the API product version specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification#content ApiProductSpecification#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification#content ApiProductSpecification#content}
   */
   readonly content: string;
   /**
   * The name of the API product version specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification#name ApiProductSpecification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification#name ApiProductSpecification#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification konnect_api_product_specification}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification konnect_api_product_specification}
 */
 export class ApiProductSpecification extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ApiProductSpecification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiProductSpecification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiProductSpecification to import
-  * @param importFromId The id of the existing ApiProductSpecification that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiProductSpecification that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiProductSpecification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ApiProductSpecification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_specification konnect_api_product_specification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_specification konnect_api_product_specification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ApiProductSpecification extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_api_product_specification',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

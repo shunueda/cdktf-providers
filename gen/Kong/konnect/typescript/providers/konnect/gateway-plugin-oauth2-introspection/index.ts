@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginOauth2IntrospectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#config GatewayPluginOauth2Introspection#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#config GatewayPluginOauth2Introspection#config}
   */
   readonly config: GatewayPluginOauth2IntrospectionConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#control_plane_id GatewayPluginOauth2Introspection#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#control_plane_id GatewayPluginOauth2Introspection#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#created_at GatewayPluginOauth2Introspection#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#created_at GatewayPluginOauth2Introspection#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#enabled GatewayPluginOauth2Introspection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#enabled GatewayPluginOauth2Introspection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginOauth2IntrospectionConfig extends cdktf.TerraformM
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#instance_name GatewayPluginOauth2Introspection#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#instance_name GatewayPluginOauth2Introspection#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#ordering GatewayPluginOauth2Introspection#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#ordering GatewayPluginOauth2Introspection#ordering}
   */
   readonly ordering?: GatewayPluginOauth2IntrospectionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#partials GatewayPluginOauth2Introspection#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#partials GatewayPluginOauth2Introspection#partials}
   */
   readonly partials?: GatewayPluginOauth2IntrospectionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#protocols GatewayPluginOauth2Introspection#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#protocols GatewayPluginOauth2Introspection#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#route GatewayPluginOauth2Introspection#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#route GatewayPluginOauth2Introspection#route}
   */
   readonly route?: GatewayPluginOauth2IntrospectionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#service GatewayPluginOauth2Introspection#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#service GatewayPluginOauth2Introspection#service}
   */
   readonly service?: GatewayPluginOauth2IntrospectionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#tags GatewayPluginOauth2Introspection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#tags GatewayPluginOauth2Introspection#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#updated_at GatewayPluginOauth2Introspection#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#updated_at GatewayPluginOauth2Introspection#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,79 +89,79 @@ export interface GatewayPluginOauth2IntrospectionConfigA {
   /**
   * An optional string (consumer UUID or username) value to use as an “anonymous” consumer if authentication fails. If empty (default null), the request fails with an authentication failure `4xx`. Note that this value must refer to the consumer `id` or `username` attribute, and **not** its `custom_id`. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#anonymous GatewayPluginOauth2Introspection#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#anonymous GatewayPluginOauth2Introspection#anonymous}
   */
   readonly anonymous?: string;
   /**
   * The value to set as the `Authorization` header when querying the introspection endpoint. This depends on the OAuth 2.0 server, but usually is the `client_id` and `client_secret` as a Base64-encoded Basic Auth string (`Basic MG9hNWl...`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#authorization_value GatewayPluginOauth2Introspection#authorization_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#authorization_value GatewayPluginOauth2Introspection#authorization_value}
   */
   readonly authorizationValue: string;
   /**
   * A string indicating whether to associate OAuth2 `username` or `client_id` with the consumer's username. OAuth2 `username` is mapped to a consumer's `username` field, while an OAuth2 `client_id` maps to a consumer's `custom_id`. Default: "username"; must be one of ["client_id", "username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#consumer_by GatewayPluginOauth2Introspection#consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#consumer_by GatewayPluginOauth2Introspection#consumer_by}
   */
   readonly consumerBy?: string;
   /**
   * A list of custom claims to be forwarded from the introspection response to the upstream request. Claims are forwarded in headers with prefix `X-Credential-{claim-name}`. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#custom_claims_forward GatewayPluginOauth2Introspection#custom_claims_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#custom_claims_forward GatewayPluginOauth2Introspection#custom_claims_forward}
   */
   readonly customClaimsForward?: string[];
   /**
   * A list of custom headers to be added in the introspection request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#custom_introspection_headers GatewayPluginOauth2Introspection#custom_introspection_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#custom_introspection_headers GatewayPluginOauth2Introspection#custom_introspection_headers}
   */
   readonly customIntrospectionHeaders?: { [key: string]: string };
   /**
   * An optional boolean value telling the plugin to hide the credential to the upstream API server. It will be removed by Kong before proxying the request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#hide_credentials GatewayPluginOauth2Introspection#hide_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#hide_credentials GatewayPluginOauth2Introspection#hide_credentials}
   */
   readonly hideCredentials?: boolean | cdktf.IResolvable;
   /**
   * A boolean indicating whether to forward information about the current downstream request to the introspect endpoint. If true, headers `X-Request-Path` and `X-Request-Http-Method` will be inserted into the introspect request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#introspect_request GatewayPluginOauth2Introspection#introspect_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#introspect_request GatewayPluginOauth2Introspection#introspect_request}
   */
   readonly introspectRequest?: boolean | cdktf.IResolvable;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#introspection_url GatewayPluginOauth2Introspection#introspection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#introspection_url GatewayPluginOauth2Introspection#introspection_url}
   */
   readonly introspectionUrl: string;
   /**
   * An optional value in milliseconds that defines how long an idle connection lives before being closed. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#keepalive GatewayPluginOauth2Introspection#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#keepalive GatewayPluginOauth2Introspection#keepalive}
   */
   readonly keepalive?: number;
   /**
   * A boolean value that indicates whether the plugin should run (and try to authenticate) on `OPTIONS` preflight requests. If set to `false`, then `OPTIONS` requests will always be allowed. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#run_on_preflight GatewayPluginOauth2Introspection#run_on_preflight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#run_on_preflight GatewayPluginOauth2Introspection#run_on_preflight}
   */
   readonly runOnPreflight?: boolean | cdktf.IResolvable;
   /**
   * An optional timeout in milliseconds when sending data to the upstream server. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#timeout GatewayPluginOauth2Introspection#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#timeout GatewayPluginOauth2Introspection#timeout}
   */
   readonly timeout?: number;
   /**
   * The `token_type_hint` value to associate to introspection requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#token_type_hint GatewayPluginOauth2Introspection#token_type_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#token_type_hint GatewayPluginOauth2Introspection#token_type_hint}
   */
   readonly tokenTypeHint?: string;
   /**
   * The TTL in seconds for the introspection response. Set to 0 to disable the expiration. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#ttl GatewayPluginOauth2Introspection#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#ttl GatewayPluginOauth2Introspection#ttl}
   */
   readonly ttl?: number;
 }
@@ -597,7 +597,7 @@ export class GatewayPluginOauth2IntrospectionConfigAOutputReference extends cdkt
 }
 export interface GatewayPluginOauth2IntrospectionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#access GatewayPluginOauth2Introspection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#access GatewayPluginOauth2Introspection#access}
   */
   readonly access?: string[];
 }
@@ -691,7 +691,7 @@ export class GatewayPluginOauth2IntrospectionOrderingAfterOutputReference extend
 }
 export interface GatewayPluginOauth2IntrospectionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#access GatewayPluginOauth2Introspection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#access GatewayPluginOauth2Introspection#access}
   */
   readonly access?: string[];
 }
@@ -785,11 +785,11 @@ export class GatewayPluginOauth2IntrospectionOrderingBeforeOutputReference exten
 }
 export interface GatewayPluginOauth2IntrospectionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#after GatewayPluginOauth2Introspection#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#after GatewayPluginOauth2Introspection#after}
   */
   readonly after?: GatewayPluginOauth2IntrospectionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#before GatewayPluginOauth2Introspection#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#before GatewayPluginOauth2Introspection#before}
   */
   readonly before?: GatewayPluginOauth2IntrospectionOrderingBefore;
 }
@@ -914,7 +914,7 @@ export interface GatewayPluginOauth2IntrospectionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -923,11 +923,11 @@ export interface GatewayPluginOauth2IntrospectionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#name GatewayPluginOauth2Introspection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#name GatewayPluginOauth2Introspection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#path GatewayPluginOauth2Introspection#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#path GatewayPluginOauth2Introspection#path}
   */
   readonly path?: string;
 }
@@ -1101,7 +1101,7 @@ export class GatewayPluginOauth2IntrospectionPartialsList extends cdktf.ComplexL
 }
 export interface GatewayPluginOauth2IntrospectionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1198,7 +1198,7 @@ export class GatewayPluginOauth2IntrospectionRouteOutputReference extends cdktf.
 }
 export interface GatewayPluginOauth2IntrospectionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#id GatewayPluginOauth2Introspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1295,7 +1295,7 @@ export class GatewayPluginOauth2IntrospectionServiceOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection konnect_gateway_plugin_oauth2_introspection}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection konnect_gateway_plugin_oauth2_introspection}
 */
 export class GatewayPluginOauth2Introspection extends cdktf.TerraformResource {
 
@@ -1311,7 +1311,7 @@ export class GatewayPluginOauth2Introspection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginOauth2Introspection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginOauth2Introspection to import
-  * @param importFromId The id of the existing GatewayPluginOauth2Introspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginOauth2Introspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginOauth2Introspection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1323,7 +1323,7 @@ export class GatewayPluginOauth2Introspection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oauth2_introspection konnect_gateway_plugin_oauth2_introspection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oauth2_introspection konnect_gateway_plugin_oauth2_introspection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1334,8 +1334,8 @@ export class GatewayPluginOauth2Introspection extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_oauth2_introspection',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

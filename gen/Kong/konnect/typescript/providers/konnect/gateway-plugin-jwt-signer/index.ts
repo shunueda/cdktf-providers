@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginJwtSignerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#config GatewayPluginJwtSigner#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#config GatewayPluginJwtSigner#config}
   */
   readonly config?: GatewayPluginJwtSignerConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#control_plane_id GatewayPluginJwtSigner#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#control_plane_id GatewayPluginJwtSigner#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#created_at GatewayPluginJwtSigner#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#created_at GatewayPluginJwtSigner#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#enabled GatewayPluginJwtSigner#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#enabled GatewayPluginJwtSigner#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,53 +41,53 @@ export interface GatewayPluginJwtSignerConfig extends cdktf.TerraformMetaArgumen
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#instance_name GatewayPluginJwtSigner#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#instance_name GatewayPluginJwtSigner#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#ordering GatewayPluginJwtSigner#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#ordering GatewayPluginJwtSigner#ordering}
   */
   readonly ordering?: GatewayPluginJwtSignerOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#partials GatewayPluginJwtSigner#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#partials GatewayPluginJwtSigner#partials}
   */
   readonly partials?: GatewayPluginJwtSignerPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#protocols GatewayPluginJwtSigner#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#protocols GatewayPluginJwtSigner#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#route GatewayPluginJwtSigner#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#route GatewayPluginJwtSigner#route}
   */
   readonly route?: GatewayPluginJwtSignerRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#service GatewayPluginJwtSigner#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#service GatewayPluginJwtSigner#service}
   */
   readonly service?: GatewayPluginJwtSignerService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#tags GatewayPluginJwtSigner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#tags GatewayPluginJwtSigner#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#updated_at GatewayPluginJwtSigner#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#updated_at GatewayPluginJwtSigner#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewayPluginJwtSignerConfigAccessTokenJwksUriClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +184,7 @@ export class GatewayPluginJwtSignerConfigAccessTokenJwksUriClientCertificateOutp
 }
 export interface GatewayPluginJwtSignerConfigAccessTokenKeysetClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -281,7 +281,7 @@ export class GatewayPluginJwtSignerConfigAccessTokenKeysetClientCertificateOutpu
 }
 export interface GatewayPluginJwtSignerConfigChannelTokenJwksUriClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -378,7 +378,7 @@ export class GatewayPluginJwtSignerConfigChannelTokenJwksUriClientCertificateOut
 }
 export interface GatewayPluginJwtSignerConfigChannelTokenKeysetClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -477,907 +477,907 @@ export interface GatewayPluginJwtSignerConfigA {
   /**
   * Specify the claim in an access token to verify against values of `config.access_token_audiences_allowed`. Default: ["aud"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_audience_claim GatewayPluginJwtSigner#access_token_audience_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_audience_claim GatewayPluginJwtSigner#access_token_audience_claim}
   */
   readonly accessTokenAudienceClaim?: string[];
   /**
   * The audiences allowed to be present in the access token claim specified by `config.access_token_audience_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_audiences_allowed GatewayPluginJwtSigner#access_token_audiences_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_audiences_allowed GatewayPluginJwtSigner#access_token_audiences_allowed}
   */
   readonly accessTokenAudiencesAllowed?: string[];
   /**
   * When the plugin tries to apply an access token to a Kong consumer mapping, it tries to find a matching Kong consumer from properties defined using this configuration parameter. The parameter can take an array of alues. Valid values are `id`, `username`, and `custom_id`. Default: ["custom_id","username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_consumer_by GatewayPluginJwtSigner#access_token_consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_consumer_by GatewayPluginJwtSigner#access_token_consumer_by}
   */
   readonly accessTokenConsumerBy?: string[];
   /**
   * When you set a value for this parameter, the plugin tries to map an arbitrary claim specified with this configuration parameter (for example, `sub` or `username`) in an access token to Kong consumer entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_consumer_claim GatewayPluginJwtSigner#access_token_consumer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_consumer_claim GatewayPluginJwtSigner#access_token_consumer_claim}
   */
   readonly accessTokenConsumerClaim?: string[];
   /**
   * Specify the expiry claim in an access token to verify if the default `exp` is not used. Default: ["exp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_expiry_claim GatewayPluginJwtSigner#access_token_expiry_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_expiry_claim GatewayPluginJwtSigner#access_token_expiry_claim}
   */
   readonly accessTokenExpiryClaim?: string[];
   /**
   * Specify the claim in an access token introspection to verify against values of `config.access_token_introspection_audiences_allowed`. Default: ["aud"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_audience_claim GatewayPluginJwtSigner#access_token_introspection_audience_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_audience_claim GatewayPluginJwtSigner#access_token_introspection_audience_claim}
   */
   readonly accessTokenIntrospectionAudienceClaim?: string[];
   /**
   * The audiences allowed to be present in the access token introspection claim specified by `config.access_token_introspection_audience_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_audiences_allowed GatewayPluginJwtSigner#access_token_introspection_audiences_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_audiences_allowed GatewayPluginJwtSigner#access_token_introspection_audiences_allowed}
   */
   readonly accessTokenIntrospectionAudiencesAllowed?: string[];
   /**
   * If the introspection endpoint requires client authentication (client being the JWT Signer plugin), you can specify the `Authorization` header's value with this configuration parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_authorization GatewayPluginJwtSigner#access_token_introspection_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_authorization GatewayPluginJwtSigner#access_token_introspection_authorization}
   */
   readonly accessTokenIntrospectionAuthorization?: string;
   /**
   * This parameter allows you to pass URL encoded request body arguments. For example: `resource=` or `a=1&b=&c`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_body_args GatewayPluginJwtSigner#access_token_introspection_body_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_body_args GatewayPluginJwtSigner#access_token_introspection_body_args}
   */
   readonly accessTokenIntrospectionBodyArgs?: string;
   /**
   * When the plugin tries to do access token introspection results to Kong consumer mapping, it tries to find a matching Kong consumer from properties defined using this configuration parameter. The parameter can take an array of values. Default: ["custom_id","username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_consumer_by GatewayPluginJwtSigner#access_token_introspection_consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_consumer_by GatewayPluginJwtSigner#access_token_introspection_consumer_by}
   */
   readonly accessTokenIntrospectionConsumerBy?: string[];
   /**
   * When you set a value for this parameter, the plugin tries to map an arbitrary claim specified with this configuration parameter (such as `sub` or `username`) in access token introspection results to the Kong consumer entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_consumer_claim GatewayPluginJwtSigner#access_token_introspection_consumer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_consumer_claim GatewayPluginJwtSigner#access_token_introspection_consumer_claim}
   */
   readonly accessTokenIntrospectionConsumerClaim?: string[];
   /**
   * When you use `opaque` access tokens and you want to turn on access token introspection, you need to specify the OAuth 2.0 introspection endpoint URI with this configuration parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_endpoint GatewayPluginJwtSigner#access_token_introspection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_endpoint GatewayPluginJwtSigner#access_token_introspection_endpoint}
   */
   readonly accessTokenIntrospectionEndpoint?: string;
   /**
   * Specify the expiry claim in an access token introspection to verify if the default `exp` is not used. Default: ["exp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_expiry_claim GatewayPluginJwtSigner#access_token_introspection_expiry_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_expiry_claim GatewayPluginJwtSigner#access_token_introspection_expiry_claim}
   */
   readonly accessTokenIntrospectionExpiryClaim?: string[];
   /**
   * If you need to give `hint` parameter when introspecting an access token, use this parameter to specify the value. By default, the plugin sends `hint=access_token`. Default: "access_token"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_hint GatewayPluginJwtSigner#access_token_introspection_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_hint GatewayPluginJwtSigner#access_token_introspection_hint}
   */
   readonly accessTokenIntrospectionHint?: string;
   /**
   * Specify the claim in an access token introspection to verify against values of `config.access_token_introspection_issuers_allowed`. Default: ["iss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_issuer_claim GatewayPluginJwtSigner#access_token_introspection_issuer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_issuer_claim GatewayPluginJwtSigner#access_token_introspection_issuer_claim}
   */
   readonly accessTokenIntrospectionIssuerClaim?: string[];
   /**
   * The issuers allowed to be present in the access token introspection claim specified by `config.access_token_introspection_issuer_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_issuers_allowed GatewayPluginJwtSigner#access_token_introspection_issuers_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_issuers_allowed GatewayPluginJwtSigner#access_token_introspection_issuers_allowed}
   */
   readonly accessTokenIntrospectionIssuersAllowed?: string[];
   /**
   * If your introspection endpoint returns an access token in one of the keys (or claims) within the introspection results (`JSON`). If the key cannot be found, the plugin responds with `401 Unauthorized`. Also if the key is found but cannot be decoded as JWT, it also responds with `401 Unauthorized`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_jwt_claim GatewayPluginJwtSigner#access_token_introspection_jwt_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_jwt_claim GatewayPluginJwtSigner#access_token_introspection_jwt_claim}
   */
   readonly accessTokenIntrospectionJwtClaim?: string[];
   /**
   * Adjusts clock skew between the token issuer introspection results and Kong. The value will be used to time-related claim verification. For example, it will be added to introspection results (`JSON`) `exp` claim/property before checking token expiry against Kong servers current time in seconds. You can disable access token introspection `expiry` verification altogether with `config.verify_access_token_introspection_expiry`. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_leeway GatewayPluginJwtSigner#access_token_introspection_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_leeway GatewayPluginJwtSigner#access_token_introspection_leeway}
   */
   readonly accessTokenIntrospectionLeeway?: number;
   /**
   * Specify the notbefore claim in an access token introspection to verify if the default `nbf` is not used. Default: ["nbf"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_notbefore_claim GatewayPluginJwtSigner#access_token_introspection_notbefore_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_notbefore_claim GatewayPluginJwtSigner#access_token_introspection_notbefore_claim}
   */
   readonly accessTokenIntrospectionNotbeforeClaim?: string[];
   /**
   * Specify the optional claims of the access token introspection result. These claims are only validated when they are present. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_optional_claims GatewayPluginJwtSigner#access_token_introspection_optional_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_optional_claims GatewayPluginJwtSigner#access_token_introspection_optional_claims}
   */
   readonly accessTokenIntrospectionOptionalClaims?: string[][] | cdktf.IResolvable;
   /**
   * Specify the required claims that must be present in the access token introspection result. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_required_claims GatewayPluginJwtSigner#access_token_introspection_required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_required_claims GatewayPluginJwtSigner#access_token_introspection_required_claims}
   */
   readonly accessTokenIntrospectionRequiredClaims?: string[][] | cdktf.IResolvable;
   /**
   * Specify the claim/property in access token introspection results (`JSON`) to be verified against values of `config.access_token_introspection_scopes_required`. This supports nested claims. For example, with Keycloak you could use `[ "realm_access", "roles" ]`, hich can be given as `realm_access,roles` (form post). If the claim is not found in access token introspection results, and you have specified `config.access_token_introspection_scopes_required`, the plugin responds with `403 Forbidden`. Default: ["scope"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_scopes_claim GatewayPluginJwtSigner#access_token_introspection_scopes_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_scopes_claim GatewayPluginJwtSigner#access_token_introspection_scopes_claim}
   */
   readonly accessTokenIntrospectionScopesClaim?: string[];
   /**
   * Specify the required values (or scopes) that are checked by an introspection claim/property specified by `config.access_token_introspection_scopes_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_scopes_required GatewayPluginJwtSigner#access_token_introspection_scopes_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_scopes_required GatewayPluginJwtSigner#access_token_introspection_scopes_required}
   */
   readonly accessTokenIntrospectionScopesRequired?: string[];
   /**
   * Specify the claim in an access token introspection to verify against values of `config.access_token_introspection_subjects_allowed`. Default: ["sub"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_subject_claim GatewayPluginJwtSigner#access_token_introspection_subject_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_subject_claim GatewayPluginJwtSigner#access_token_introspection_subject_claim}
   */
   readonly accessTokenIntrospectionSubjectClaim?: string[];
   /**
   * The subjects allowed to be present in the access token introspection claim specified by `config.access_token_introspection_subject_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_subjects_allowed GatewayPluginJwtSigner#access_token_introspection_subjects_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_subjects_allowed GatewayPluginJwtSigner#access_token_introspection_subjects_allowed}
   */
   readonly accessTokenIntrospectionSubjectsAllowed?: string[];
   /**
   * Timeout in milliseconds for an introspection request. The plugin tries to introspect twice if the first request fails for some reason. If both requests timeout, then the plugin runs two times the `config.access_token_introspection_timeout` on access token introspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_timeout GatewayPluginJwtSigner#access_token_introspection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_introspection_timeout GatewayPluginJwtSigner#access_token_introspection_timeout}
   */
   readonly accessTokenIntrospectionTimeout?: number;
   /**
   * The `iss` claim of a signed or re-signed access token is set to this value. Original `iss` claim of the incoming token (possibly introspected) is stored in `original_iss` claim of the newly signed access token. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_issuer GatewayPluginJwtSigner#access_token_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_issuer GatewayPluginJwtSigner#access_token_issuer}
   */
   readonly accessTokenIssuer?: string;
   /**
   * Specify the claim in an access token to verify against values of `config.access_token_issuers_allowed`. Default: ["iss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_issuer_claim GatewayPluginJwtSigner#access_token_issuer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_issuer_claim GatewayPluginJwtSigner#access_token_issuer_claim}
   */
   readonly accessTokenIssuerClaim?: string[];
   /**
   * The issuers allowed to be present in the access token claim specified by `config.access_token_issuer_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_issuers_allowed GatewayPluginJwtSigner#access_token_issuers_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_issuers_allowed GatewayPluginJwtSigner#access_token_issuers_allowed}
   */
   readonly accessTokenIssuersAllowed?: string[];
   /**
   * Specify the URI where the plugin can fetch the public keys (JWKS) to verify the signature of the access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri GatewayPluginJwtSigner#access_token_jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri GatewayPluginJwtSigner#access_token_jwks_uri}
   */
   readonly accessTokenJwksUri?: string;
   /**
   * The client certificate that will be used to authenticate Kong if `access_token_jwks_uri` is an https uri that requires mTLS Auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_client_certificate GatewayPluginJwtSigner#access_token_jwks_uri_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_client_certificate GatewayPluginJwtSigner#access_token_jwks_uri_client_certificate}
   */
   readonly accessTokenJwksUriClientCertificate?: GatewayPluginJwtSignerConfigAccessTokenJwksUriClientCertificate;
   /**
   * The client password that will be used to authenticate Kong if `access_token_jwks_uri` is a uri that requires Basic Auth. Should be configured together with `access_token_jwks_uri_client_username`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_client_password GatewayPluginJwtSigner#access_token_jwks_uri_client_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_client_password GatewayPluginJwtSigner#access_token_jwks_uri_client_password}
   */
   readonly accessTokenJwksUriClientPassword?: string;
   /**
   * The client username that will be used to authenticate Kong if `access_token_jwks_uri` is a uri that requires Basic Auth. Should be configured together with `access_token_jwks_uri_client_password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_client_username GatewayPluginJwtSigner#access_token_jwks_uri_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_client_username GatewayPluginJwtSigner#access_token_jwks_uri_client_username}
   */
   readonly accessTokenJwksUriClientUsername?: string;
   /**
   * Specify the period (in seconds) to auto-rotate the jwks for `access_token_jwks_uri`. The default value 0 means no auto-rotation. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_rotate_period GatewayPluginJwtSigner#access_token_jwks_uri_rotate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_jwks_uri_rotate_period GatewayPluginJwtSigner#access_token_jwks_uri_rotate_period}
   */
   readonly accessTokenJwksUriRotatePeriod?: number;
   /**
   * The name of the keyset containing signing keys. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_keyset GatewayPluginJwtSigner#access_token_keyset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_keyset GatewayPluginJwtSigner#access_token_keyset}
   */
   readonly accessTokenKeyset?: string;
   /**
   * The client certificate that will be used to authenticate Kong if `access_token_keyset` is an https uri that requires mTLS Auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_client_certificate GatewayPluginJwtSigner#access_token_keyset_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_client_certificate GatewayPluginJwtSigner#access_token_keyset_client_certificate}
   */
   readonly accessTokenKeysetClientCertificate?: GatewayPluginJwtSignerConfigAccessTokenKeysetClientCertificate;
   /**
   * The client password that will be used to authenticate Kong if `access_token_keyset` is a uri that requires Basic Auth. Should be configured together with `access_token_keyset_client_username`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_client_password GatewayPluginJwtSigner#access_token_keyset_client_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_client_password GatewayPluginJwtSigner#access_token_keyset_client_password}
   */
   readonly accessTokenKeysetClientPassword?: string;
   /**
   * The client username that will be used to authenticate Kong if `access_token_keyset` is a uri that requires Basic Auth. Should be configured together with `access_token_keyset_client_password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_client_username GatewayPluginJwtSigner#access_token_keyset_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_client_username GatewayPluginJwtSigner#access_token_keyset_client_username}
   */
   readonly accessTokenKeysetClientUsername?: string;
   /**
   * Specify the period (in seconds) to auto-rotate the jwks for `access_token_keyset`. The default value 0 means no auto-rotation. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_rotate_period GatewayPluginJwtSigner#access_token_keyset_rotate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_keyset_rotate_period GatewayPluginJwtSigner#access_token_keyset_rotate_period}
   */
   readonly accessTokenKeysetRotatePeriod?: number;
   /**
   * Adjusts clock skew between the token issuer and Kong. The value will be used to time-related claim verification. For example, it will be added to the token's `exp` claim before checking token expiry against Kong servers' current time in seconds. You can disable access token `expiry` verification altogether with `config.verify_access_token_expiry`. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_leeway GatewayPluginJwtSigner#access_token_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_leeway GatewayPluginJwtSigner#access_token_leeway}
   */
   readonly accessTokenLeeway?: number;
   /**
   * Specify the notbefore claim in an access token to verify if the default `nbf` is not used. Default: ["nbf"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_notbefore_claim GatewayPluginJwtSigner#access_token_notbefore_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_notbefore_claim GatewayPluginJwtSigner#access_token_notbefore_claim}
   */
   readonly accessTokenNotbeforeClaim?: string[];
   /**
   * If an access token is not provided or no `config.access_token_request_header` is specified, the plugin cannot verify the access token. In that case, the plugin normally responds with `401 Unauthorized` (client didn't send a token) or `500 Unexpected` (a configuration error). Use this parameter to allow the request to proceed even when there is no token to check. If the token is provided, then this parameter has no effect. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_optional GatewayPluginJwtSigner#access_token_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_optional GatewayPluginJwtSigner#access_token_optional}
   */
   readonly accessTokenOptional?: boolean | cdktf.IResolvable;
   /**
   * Specify the optional claims of the access token. These claims are only validated when they are present. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_optional_claims GatewayPluginJwtSigner#access_token_optional_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_optional_claims GatewayPluginJwtSigner#access_token_optional_claims}
   */
   readonly accessTokenOptionalClaims?: string[][] | cdktf.IResolvable;
   /**
   * This parameter tells the name of the header where to look for the access token. Default: "Authorization"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_request_header GatewayPluginJwtSigner#access_token_request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_request_header GatewayPluginJwtSigner#access_token_request_header}
   */
   readonly accessTokenRequestHeader?: string;
   /**
   * Specify the required claims that must be present in the access token. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_required_claims GatewayPluginJwtSigner#access_token_required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_required_claims GatewayPluginJwtSigner#access_token_required_claims}
   */
   readonly accessTokenRequiredClaims?: string[][] | cdktf.IResolvable;
   /**
   * Specify the claim in an access token to verify against values of `config.access_token_scopes_required`. Default: ["scope"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_scopes_claim GatewayPluginJwtSigner#access_token_scopes_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_scopes_claim GatewayPluginJwtSigner#access_token_scopes_claim}
   */
   readonly accessTokenScopesClaim?: string[];
   /**
   * Specify the required values (or scopes) that are checked by a claim specified by `config.access_token_scopes_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_scopes_required GatewayPluginJwtSigner#access_token_scopes_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_scopes_required GatewayPluginJwtSigner#access_token_scopes_required}
   */
   readonly accessTokenScopesRequired?: string[];
   /**
   * Quickly turn access token signing or re-signing off and on as needed. If turned off, the plugin will not send the signed or resigned token to the upstream. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_signing GatewayPluginJwtSigner#access_token_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_signing GatewayPluginJwtSigner#access_token_signing}
   */
   readonly accessTokenSigning?: boolean | cdktf.IResolvable;
   /**
   * When this plugin sets the upstream header as specified with `config.access_token_upstream_header`, re-signs the original access token using the private keys of the JWT Signer plugin. Specify the algorithm that is used to sign the token. The `config.access_token_issuer` specifies which `keyset` is used to sign the new token issued by Kong using the specified signing algorithm. Default: "RS256"; must be one of ["ES256", "ES384", "ES512", "EdDSA", "HS256", "HS384", "HS512", "PS256", "PS384", "PS512", "RS256", "RS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_signing_algorithm GatewayPluginJwtSigner#access_token_signing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_signing_algorithm GatewayPluginJwtSigner#access_token_signing_algorithm}
   */
   readonly accessTokenSigningAlgorithm?: string;
   /**
   * Specify the claim in an access token to verify against values of `config.access_token_subjects_allowed`. Default: ["sub"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_subject_claim GatewayPluginJwtSigner#access_token_subject_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_subject_claim GatewayPluginJwtSigner#access_token_subject_claim}
   */
   readonly accessTokenSubjectClaim?: string[];
   /**
   * The subjects allowed to be present in the access token claim specified by `config.access_token_subject_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_subjects_allowed GatewayPluginJwtSigner#access_token_subjects_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_subjects_allowed GatewayPluginJwtSigner#access_token_subjects_allowed}
   */
   readonly accessTokenSubjectsAllowed?: string[];
   /**
   * Removes the `config.access_token_request_header` from the request after reading its value. With `config.access_token_upstream_header`, you can specify the upstream header where the plugin adds the Kong signed token. If you don't specify a value, such as use `null` or `""` (empty string), the plugin does not even try to sign or re-sign the token. Default: "Authorization:Bearer"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_upstream_header GatewayPluginJwtSigner#access_token_upstream_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_upstream_header GatewayPluginJwtSigner#access_token_upstream_header}
   */
   readonly accessTokenUpstreamHeader?: string;
   /**
   * If you want to add or subtract (using a negative value) expiry time (in seconds) of the original access token, you can specify a value that is added to the original access token's `exp` claim. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access_token_upstream_leeway GatewayPluginJwtSigner#access_token_upstream_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access_token_upstream_leeway GatewayPluginJwtSigner#access_token_upstream_leeway}
   */
   readonly accessTokenUpstreamLeeway?: number;
   /**
   * Add customized claims if they are not present yet. Value can be a regular or JSON string; if JSON, decoded data is used as the claim's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#add_access_token_claims GatewayPluginJwtSigner#add_access_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#add_access_token_claims GatewayPluginJwtSigner#add_access_token_claims}
   */
   readonly addAccessTokenClaims?: { [key: string]: string };
   /**
   * Add customized claims if they are not present yet. Value can be a regular or JSON string; if JSON, decoded data is used as the claim's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#add_channel_token_claims GatewayPluginJwtSigner#add_channel_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#add_channel_token_claims GatewayPluginJwtSigner#add_channel_token_claims}
   */
   readonly addChannelTokenClaims?: { [key: string]: string };
   /**
   * Add customized claims to both tokens if they are not present yet. Value can be a regular or JSON string; if JSON, decoded data is used as the claim's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#add_claims GatewayPluginJwtSigner#add_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#add_claims GatewayPluginJwtSigner#add_claims}
   */
   readonly addClaims?: { [key: string]: string };
   /**
   * Whether to cache access token introspection results. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#cache_access_token_introspection GatewayPluginJwtSigner#cache_access_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#cache_access_token_introspection GatewayPluginJwtSigner#cache_access_token_introspection}
   */
   readonly cacheAccessTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * Whether to cache channel token introspection results. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#cache_channel_token_introspection GatewayPluginJwtSigner#cache_channel_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#cache_channel_token_introspection GatewayPluginJwtSigner#cache_channel_token_introspection}
   */
   readonly cacheChannelTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * Specify the claim in a channel token to verify against values of `config.channel_token_audiences_allowed`. Default: ["aud"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_audience_claim GatewayPluginJwtSigner#channel_token_audience_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_audience_claim GatewayPluginJwtSigner#channel_token_audience_claim}
   */
   readonly channelTokenAudienceClaim?: string[];
   /**
   * The audiences allowed to be present in the channel token claim specified by `config.channel_token_audience_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_audiences_allowed GatewayPluginJwtSigner#channel_token_audiences_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_audiences_allowed GatewayPluginJwtSigner#channel_token_audiences_allowed}
   */
   readonly channelTokenAudiencesAllowed?: string[];
   /**
   * When the plugin tries to do channel token to Kong consumer mapping, it tries to find a matching Kong consumer from properties defined using this configuration parameter. The parameter can take an array of valid values: `id`, `username`, and `custom_id`. Default: ["custom_id","username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_consumer_by GatewayPluginJwtSigner#channel_token_consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_consumer_by GatewayPluginJwtSigner#channel_token_consumer_by}
   */
   readonly channelTokenConsumerBy?: string[];
   /**
   * When you set a value for this parameter, the plugin tries to map an arbitrary claim specified with this configuration parameter. Kong consumers have an `id`, a `username`, and a `custom_id`. If this parameter is enabled but the mapping fails, such as when there's a non-existent Kong consumer, the plugin responds with `403 Forbidden`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_consumer_claim GatewayPluginJwtSigner#channel_token_consumer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_consumer_claim GatewayPluginJwtSigner#channel_token_consumer_claim}
   */
   readonly channelTokenConsumerClaim?: string[];
   /**
   * Specify the expiry claim in a channel token to verify if the default `exp` is not used. Default: ["exp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_expiry_claim GatewayPluginJwtSigner#channel_token_expiry_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_expiry_claim GatewayPluginJwtSigner#channel_token_expiry_claim}
   */
   readonly channelTokenExpiryClaim?: string[];
   /**
   * Specify the claim in a channel token introspection to verify against values of `config.channel_token_introspection_audiences_allowed`. Default: ["aud"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_audience_claim GatewayPluginJwtSigner#channel_token_introspection_audience_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_audience_claim GatewayPluginJwtSigner#channel_token_introspection_audience_claim}
   */
   readonly channelTokenIntrospectionAudienceClaim?: string[];
   /**
   * The audiences allowed to be present in the channel token introspection claim specified by `config.channel_token_introspection_audience_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_audiences_allowed GatewayPluginJwtSigner#channel_token_introspection_audiences_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_audiences_allowed GatewayPluginJwtSigner#channel_token_introspection_audiences_allowed}
   */
   readonly channelTokenIntrospectionAudiencesAllowed?: string[];
   /**
   * When using `opaque` channel tokens, and you want to turn on channel token introspection, you need to specify the OAuth 2.0 introspection endpoint URI with this configuration parameter. Otherwise the plugin will not try introspection, and instead returns `401 Unauthorized` when using opaque channel tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_authorization GatewayPluginJwtSigner#channel_token_introspection_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_authorization GatewayPluginJwtSigner#channel_token_introspection_authorization}
   */
   readonly channelTokenIntrospectionAuthorization?: string;
   /**
   * If you need to pass additional body arguments to introspection endpoint when the plugin introspects the opaque channel token, you can use this config parameter to specify them. You should URL encode the value. For example: `resource=` or `a=1&b=&c`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_body_args GatewayPluginJwtSigner#channel_token_introspection_body_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_body_args GatewayPluginJwtSigner#channel_token_introspection_body_args}
   */
   readonly channelTokenIntrospectionBodyArgs?: string;
   /**
   * When the plugin tries to do channel token introspection results to Kong consumer mapping, it tries to find a matching Kong consumer from properties defined using this configuration parameter. The parameter can take an array of values. Valid values are `id`, `username` and `custom_id`. Default: ["custom_id","username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_consumer_by GatewayPluginJwtSigner#channel_token_introspection_consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_consumer_by GatewayPluginJwtSigner#channel_token_introspection_consumer_by}
   */
   readonly channelTokenIntrospectionConsumerBy?: string[];
   /**
   * When you set a value for this parameter, the plugin tries to map an arbitrary claim specified with this configuration parameter (such as `sub` or `username`) in channel token introspection results to Kong consumer entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_consumer_claim GatewayPluginJwtSigner#channel_token_introspection_consumer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_consumer_claim GatewayPluginJwtSigner#channel_token_introspection_consumer_claim}
   */
   readonly channelTokenIntrospectionConsumerClaim?: string[];
   /**
   * When you use `opaque` access tokens and you want to turn on access token introspection, you need to specify the OAuth 2.0 introspection endpoint URI with this configuration parameter. Otherwise, the plugin does not try introspection and returns `401 Unauthorized` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_endpoint GatewayPluginJwtSigner#channel_token_introspection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_endpoint GatewayPluginJwtSigner#channel_token_introspection_endpoint}
   */
   readonly channelTokenIntrospectionEndpoint?: string;
   /**
   * Specify the expiry claim in a channel token to verify if the default `exp` is not used. Default: ["exp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_expiry_claim GatewayPluginJwtSigner#channel_token_introspection_expiry_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_expiry_claim GatewayPluginJwtSigner#channel_token_introspection_expiry_claim}
   */
   readonly channelTokenIntrospectionExpiryClaim?: string[];
   /**
   * If you need to give `hint` parameter when introspecting a channel token, you can use this parameter to specify the value of such parameter. By default, a `hint` isn't sent with channel token introspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_hint GatewayPluginJwtSigner#channel_token_introspection_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_hint GatewayPluginJwtSigner#channel_token_introspection_hint}
   */
   readonly channelTokenIntrospectionHint?: string;
   /**
   * Specify the claim in a channel token introspection to verify against values of `config.channel_token_introspection_issuers_allowed`. Default: ["iss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_issuer_claim GatewayPluginJwtSigner#channel_token_introspection_issuer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_issuer_claim GatewayPluginJwtSigner#channel_token_introspection_issuer_claim}
   */
   readonly channelTokenIntrospectionIssuerClaim?: string[];
   /**
   * The issuers allowed to be present in the channel token introspection claim specified by `config.channel_token_introspection_issuer_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_issuers_allowed GatewayPluginJwtSigner#channel_token_introspection_issuers_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_issuers_allowed GatewayPluginJwtSigner#channel_token_introspection_issuers_allowed}
   */
   readonly channelTokenIntrospectionIssuersAllowed?: string[];
   /**
   * If your introspection endpoint returns a channel token in one of the keys (or claims) in the introspection results (`JSON`), the plugin can use that value instead of the introspection results when doing expiry verification and signing of the new token issued by Kong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_jwt_claim GatewayPluginJwtSigner#channel_token_introspection_jwt_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_jwt_claim GatewayPluginJwtSigner#channel_token_introspection_jwt_claim}
   */
   readonly channelTokenIntrospectionJwtClaim?: string[];
   /**
   * You can use this parameter to adjust clock skew between the token issuer introspection results and Kong. The value will be used to time-related claim verification. For example, it will be added to introspection results (`JSON`) `exp` claim/property before checking token expiry against Kong servers current time (in seconds). You can disable channel token introspection `expiry` verification altogether with `config.verify_channel_token_introspection_expiry`. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_leeway GatewayPluginJwtSigner#channel_token_introspection_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_leeway GatewayPluginJwtSigner#channel_token_introspection_leeway}
   */
   readonly channelTokenIntrospectionLeeway?: number;
   /**
   * Specify the notbefore claim in a channel token to verify if the default `nbf` is not used. Default: ["nbf"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_notbefore_claim GatewayPluginJwtSigner#channel_token_introspection_notbefore_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_notbefore_claim GatewayPluginJwtSigner#channel_token_introspection_notbefore_claim}
   */
   readonly channelTokenIntrospectionNotbeforeClaim?: string[];
   /**
   * Specify the optional claims of the channel token introspection. These claims are only validated when they are present. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_optional_claims GatewayPluginJwtSigner#channel_token_introspection_optional_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_optional_claims GatewayPluginJwtSigner#channel_token_introspection_optional_claims}
   */
   readonly channelTokenIntrospectionOptionalClaims?: string[][] | cdktf.IResolvable;
   /**
   * Specify the required claims that must be present in the channel token introspection. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_required_claims GatewayPluginJwtSigner#channel_token_introspection_required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_required_claims GatewayPluginJwtSigner#channel_token_introspection_required_claims}
   */
   readonly channelTokenIntrospectionRequiredClaims?: string[][] | cdktf.IResolvable;
   /**
   * Use this parameter to specify the claim/property in channel token introspection results (`JSON`) to be verified against values of `config.channel_token_introspection_scopes_required`. This supports nested claims. Default: ["scope"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_scopes_claim GatewayPluginJwtSigner#channel_token_introspection_scopes_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_scopes_claim GatewayPluginJwtSigner#channel_token_introspection_scopes_claim}
   */
   readonly channelTokenIntrospectionScopesClaim?: string[];
   /**
   * Use this parameter to specify the required values (or scopes) that are checked by an introspection claim/property specified by `config.channel_token_introspection_scopes_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_scopes_required GatewayPluginJwtSigner#channel_token_introspection_scopes_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_scopes_required GatewayPluginJwtSigner#channel_token_introspection_scopes_required}
   */
   readonly channelTokenIntrospectionScopesRequired?: string[];
   /**
   * Specify the claim in a channel token to verify against values of `config.channel_token_introspection_subjects_allowed`. Default: ["sub"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_subject_claim GatewayPluginJwtSigner#channel_token_introspection_subject_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_subject_claim GatewayPluginJwtSigner#channel_token_introspection_subject_claim}
   */
   readonly channelTokenIntrospectionSubjectClaim?: string[];
   /**
   * The subjects allowed to be present in the channel token introspection claim specified by `config.channel_token_introspection_subject_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_subjects_allowed GatewayPluginJwtSigner#channel_token_introspection_subjects_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_subjects_allowed GatewayPluginJwtSigner#channel_token_introspection_subjects_allowed}
   */
   readonly channelTokenIntrospectionSubjectsAllowed?: string[];
   /**
   * Timeout in milliseconds for an introspection request. The plugin tries to introspect twice if the first request fails for some reason. If both requests timeout, then the plugin runs two times the `config.access_token_introspection_timeout` on channel token introspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_timeout GatewayPluginJwtSigner#channel_token_introspection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_introspection_timeout GatewayPluginJwtSigner#channel_token_introspection_timeout}
   */
   readonly channelTokenIntrospectionTimeout?: number;
   /**
   * The `iss` claim of the re-signed channel token is set to this value, which is `kong` by default. The original `iss` claim of the incoming token (possibly introspected) is stored in the `original_iss` claim of the newly signed channel token. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_issuer GatewayPluginJwtSigner#channel_token_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_issuer GatewayPluginJwtSigner#channel_token_issuer}
   */
   readonly channelTokenIssuer?: string;
   /**
   * Specify the claim in a channel token to verify against values of `config.channel_token_issuers_allowed`. Default: ["iss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_issuer_claim GatewayPluginJwtSigner#channel_token_issuer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_issuer_claim GatewayPluginJwtSigner#channel_token_issuer_claim}
   */
   readonly channelTokenIssuerClaim?: string[];
   /**
   * The issuers allowed to be present in the channel token claim specified by `config.channel_token_issuer_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_issuers_allowed GatewayPluginJwtSigner#channel_token_issuers_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_issuers_allowed GatewayPluginJwtSigner#channel_token_issuers_allowed}
   */
   readonly channelTokenIssuersAllowed?: string[];
   /**
   * If you want to use `config.verify_channel_token_signature`, you must specify the URI where the plugin can fetch the public keys (JWKS) to verify the signature of the channel token. If you don't specify a URI and you pass a JWT token to the plugin, then the plugin responds with `401 Unauthorized`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri GatewayPluginJwtSigner#channel_token_jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri GatewayPluginJwtSigner#channel_token_jwks_uri}
   */
   readonly channelTokenJwksUri?: string;
   /**
   * The client certificate that will be used to authenticate Kong if `access_token_jwks_uri` is an https uri that requires mTLS Auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_client_certificate GatewayPluginJwtSigner#channel_token_jwks_uri_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_client_certificate GatewayPluginJwtSigner#channel_token_jwks_uri_client_certificate}
   */
   readonly channelTokenJwksUriClientCertificate?: GatewayPluginJwtSignerConfigChannelTokenJwksUriClientCertificate;
   /**
   * The client password that will be used to authenticate Kong if `channel_token_jwks_uri` is a uri that requires Basic Auth. Should be configured together with `channel_token_jwks_uri_client_username`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_client_password GatewayPluginJwtSigner#channel_token_jwks_uri_client_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_client_password GatewayPluginJwtSigner#channel_token_jwks_uri_client_password}
   */
   readonly channelTokenJwksUriClientPassword?: string;
   /**
   * The client username that will be used to authenticate Kong if `channel_token_jwks_uri` is a uri that requires Basic Auth. Should be configured together with `channel_token_jwks_uri_client_password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_client_username GatewayPluginJwtSigner#channel_token_jwks_uri_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_client_username GatewayPluginJwtSigner#channel_token_jwks_uri_client_username}
   */
   readonly channelTokenJwksUriClientUsername?: string;
   /**
   * Specify the period (in seconds) to auto-rotate the jwks for `channel_token_jwks_uri`. The default value 0 means no auto-rotation. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_rotate_period GatewayPluginJwtSigner#channel_token_jwks_uri_rotate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_jwks_uri_rotate_period GatewayPluginJwtSigner#channel_token_jwks_uri_rotate_period}
   */
   readonly channelTokenJwksUriRotatePeriod?: number;
   /**
   * The name of the keyset containing signing keys. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset GatewayPluginJwtSigner#channel_token_keyset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset GatewayPluginJwtSigner#channel_token_keyset}
   */
   readonly channelTokenKeyset?: string;
   /**
   * The client certificate that will be used to authenticate Kong if `channel_token_keyset` is an https uri that requires mTLS Auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_client_certificate GatewayPluginJwtSigner#channel_token_keyset_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_client_certificate GatewayPluginJwtSigner#channel_token_keyset_client_certificate}
   */
   readonly channelTokenKeysetClientCertificate?: GatewayPluginJwtSignerConfigChannelTokenKeysetClientCertificate;
   /**
   * The client password that will be used to authenticate Kong if `channel_token_keyset` is a uri that requires Basic Auth. Should be configured together with `channel_token_keyset_client_username`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_client_password GatewayPluginJwtSigner#channel_token_keyset_client_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_client_password GatewayPluginJwtSigner#channel_token_keyset_client_password}
   */
   readonly channelTokenKeysetClientPassword?: string;
   /**
   * The client username that will be used to authenticate Kong if `channel_token_keyset` is a uri that requires Basic Auth. Should be configured together with `channel_token_keyset_client_password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_client_username GatewayPluginJwtSigner#channel_token_keyset_client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_client_username GatewayPluginJwtSigner#channel_token_keyset_client_username}
   */
   readonly channelTokenKeysetClientUsername?: string;
   /**
   * Specify the period (in seconds) to auto-rotate the jwks for `channel_token_keyset`. The default value 0 means no auto-rotation. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_rotate_period GatewayPluginJwtSigner#channel_token_keyset_rotate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_keyset_rotate_period GatewayPluginJwtSigner#channel_token_keyset_rotate_period}
   */
   readonly channelTokenKeysetRotatePeriod?: number;
   /**
   * Adjusts clock skew between the token issuer and Kong. The value will be used to time-related claim verification. For example, it will be added to token's `exp` claim before checking token expiry against Kong servers current time in seconds. You can disable channel token `expiry` verification altogether with `config.verify_channel_token_expiry`. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_leeway GatewayPluginJwtSigner#channel_token_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_leeway GatewayPluginJwtSigner#channel_token_leeway}
   */
   readonly channelTokenLeeway?: number;
   /**
   * Specify the notbefore claim in a channel token to verify if the default `nbf` is not used. Default: ["nbf"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_notbefore_claim GatewayPluginJwtSigner#channel_token_notbefore_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_notbefore_claim GatewayPluginJwtSigner#channel_token_notbefore_claim}
   */
   readonly channelTokenNotbeforeClaim?: string[];
   /**
   * If a channel token is not provided or no `config.channel_token_request_header` is specified, the plugin cannot verify the channel token. In that case, the plugin normally responds with `401 Unauthorized` (client didn't send a token) or `500 Unexpected` (a configuration error). Enable this parameter to allow the request to proceed even when there is no channel token to check. If the channel token is provided, then this parameter has no effect. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_optional GatewayPluginJwtSigner#channel_token_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_optional GatewayPluginJwtSigner#channel_token_optional}
   */
   readonly channelTokenOptional?: boolean | cdktf.IResolvable;
   /**
   * Specify the optional claims of the channel token. These claims are only validated when they are present. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_optional_claims GatewayPluginJwtSigner#channel_token_optional_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_optional_claims GatewayPluginJwtSigner#channel_token_optional_claims}
   */
   readonly channelTokenOptionalClaims?: string[][] | cdktf.IResolvable;
   /**
   * This parameter tells the name of the header where to look for the channel token. If you don't want to do anything with the channel token, then you can set this to `null` or `""` (empty string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_request_header GatewayPluginJwtSigner#channel_token_request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_request_header GatewayPluginJwtSigner#channel_token_request_header}
   */
   readonly channelTokenRequestHeader?: string;
   /**
   * Specify the required claims that must be present in the channel token. Every claim is specified by an array. If the array has multiple elements, it means the claim is inside a nested object of the payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_required_claims GatewayPluginJwtSigner#channel_token_required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_required_claims GatewayPluginJwtSigner#channel_token_required_claims}
   */
   readonly channelTokenRequiredClaims?: string[][] | cdktf.IResolvable;
   /**
   * Specify the claim in a channel token to verify against values of `config.channel_token_scopes_required`. This supports nested claims. Default: ["scope"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_scopes_claim GatewayPluginJwtSigner#channel_token_scopes_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_scopes_claim GatewayPluginJwtSigner#channel_token_scopes_claim}
   */
   readonly channelTokenScopesClaim?: string[];
   /**
   * Specify the required values (or scopes) that are checked by a claim specified by `config.channel_token_scopes_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_scopes_required GatewayPluginJwtSigner#channel_token_scopes_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_scopes_required GatewayPluginJwtSigner#channel_token_scopes_required}
   */
   readonly channelTokenScopesRequired?: string[];
   /**
   * Quickly turn channel token signing or re-signing off and on as needed. If turned off, the plugin will not send the signed or resigned token to the upstream. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_signing GatewayPluginJwtSigner#channel_token_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_signing GatewayPluginJwtSigner#channel_token_signing}
   */
   readonly channelTokenSigning?: boolean | cdktf.IResolvable;
   /**
   * When this plugin sets the upstream header as specified with `config.channel_token_upstream_header`, it also re-signs the original channel token using private keys of this plugin. Specify the algorithm that is used to sign the token. Default: "RS256"; must be one of ["ES256", "ES384", "ES512", "EdDSA", "HS256", "HS384", "HS512", "PS256", "PS384", "PS512", "RS256", "RS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_signing_algorithm GatewayPluginJwtSigner#channel_token_signing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_signing_algorithm GatewayPluginJwtSigner#channel_token_signing_algorithm}
   */
   readonly channelTokenSigningAlgorithm?: string;
   /**
   * Specify the claim in a channel token to verify against values of `config.channel_token_subjects_allowed`. Default: ["sub"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_subject_claim GatewayPluginJwtSigner#channel_token_subject_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_subject_claim GatewayPluginJwtSigner#channel_token_subject_claim}
   */
   readonly channelTokenSubjectClaim?: string[];
   /**
   * The subjects allowed to be present in the channel token claim specified by `config.channel_token_subject_claim`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_subjects_allowed GatewayPluginJwtSigner#channel_token_subjects_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_subjects_allowed GatewayPluginJwtSigner#channel_token_subjects_allowed}
   */
   readonly channelTokenSubjectsAllowed?: string[];
   /**
   * This plugin removes the `config.channel_token_request_header` from the request after reading its value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_upstream_header GatewayPluginJwtSigner#channel_token_upstream_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_upstream_header GatewayPluginJwtSigner#channel_token_upstream_header}
   */
   readonly channelTokenUpstreamHeader?: string;
   /**
   * If you want to add or perhaps subtract (using negative value) expiry time of the original channel token, you can specify a value that is added to the original channel token's `exp` claim. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#channel_token_upstream_leeway GatewayPluginJwtSigner#channel_token_upstream_leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#channel_token_upstream_leeway GatewayPluginJwtSigner#channel_token_upstream_leeway}
   */
   readonly channelTokenUpstreamLeeway?: number;
   /**
   * If you don't want to support opaque access tokens, change this configuration parameter to `false` to disable introspection. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#enable_access_token_introspection GatewayPluginJwtSigner#enable_access_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#enable_access_token_introspection GatewayPluginJwtSigner#enable_access_token_introspection}
   */
   readonly enableAccessTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * If you don't want to support opaque channel tokens, disable introspection by changing this configuration parameter to `false`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#enable_channel_token_introspection GatewayPluginJwtSigner#enable_channel_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#enable_channel_token_introspection GatewayPluginJwtSigner#enable_channel_token_introspection}
   */
   readonly enableChannelTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * Tokens signed with HMAC algorithms such as `HS256`, `HS384`, or `HS512` are not accepted by default. If you need to accept such tokens for verification, enable this setting. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#enable_hs_signatures GatewayPluginJwtSigner#enable_hs_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#enable_hs_signatures GatewayPluginJwtSigner#enable_hs_signatures}
   */
   readonly enableHsSignatures?: boolean | cdktf.IResolvable;
   /**
   * Writes log entries with some added information using `ngx.CRIT` (CRITICAL) level. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#enable_instrumentation GatewayPluginJwtSigner#enable_instrumentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#enable_instrumentation GatewayPluginJwtSigner#enable_instrumentation}
   */
   readonly enableInstrumentation?: boolean | cdktf.IResolvable;
   /**
   * The HTTP header name used to store the original access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#original_access_token_upstream_header GatewayPluginJwtSigner#original_access_token_upstream_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#original_access_token_upstream_header GatewayPluginJwtSigner#original_access_token_upstream_header}
   */
   readonly originalAccessTokenUpstreamHeader?: string;
   /**
   * The HTTP header name used to store the original channel token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#original_channel_token_upstream_header GatewayPluginJwtSigner#original_channel_token_upstream_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#original_channel_token_upstream_header GatewayPluginJwtSigner#original_channel_token_upstream_header}
   */
   readonly originalChannelTokenUpstreamHeader?: string;
   /**
   * When authentication or authorization fails, or there is an unexpected error, the plugin sends an `WWW-Authenticate` header with the `realm` attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#realm GatewayPluginJwtSigner#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#realm GatewayPluginJwtSigner#realm}
   */
   readonly realm?: string;
   /**
   * remove claims. It should be an array, and each element is a claim key string. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#remove_access_token_claims GatewayPluginJwtSigner#remove_access_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#remove_access_token_claims GatewayPluginJwtSigner#remove_access_token_claims}
   */
   readonly removeAccessTokenClaims?: string[];
   /**
   * remove claims. It should be an array, and each element is a claim key string. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#remove_channel_token_claims GatewayPluginJwtSigner#remove_channel_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#remove_channel_token_claims GatewayPluginJwtSigner#remove_channel_token_claims}
   */
   readonly removeChannelTokenClaims?: string[];
   /**
   * Set customized claims. If a claim is already present, it will be overwritten. Value can be a regular or JSON string; if JSON, decoded data is used as the claim's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#set_access_token_claims GatewayPluginJwtSigner#set_access_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#set_access_token_claims GatewayPluginJwtSigner#set_access_token_claims}
   */
   readonly setAccessTokenClaims?: { [key: string]: string };
   /**
   * Set customized claims. If a claim is already present, it will be overwritten. Value can be a regular or JSON string; if JSON, decoded data is used as the claim's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#set_channel_token_claims GatewayPluginJwtSigner#set_channel_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#set_channel_token_claims GatewayPluginJwtSigner#set_channel_token_claims}
   */
   readonly setChannelTokenClaims?: { [key: string]: string };
   /**
   * Set customized claims to both tokens. If a claim is already present, it will be overwritten. Value can be a regular or JSON string; if JSON, decoded data is used as the claim's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#set_claims GatewayPluginJwtSigner#set_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#set_claims GatewayPluginJwtSigner#set_claims}
   */
   readonly setClaims?: { [key: string]: string };
   /**
   * Use this parameter to enable and disable further checks on a payload before the new token is signed. If you set this to `true`, the expiry or scopes are not checked on a payload. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#trust_access_token_introspection GatewayPluginJwtSigner#trust_access_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#trust_access_token_introspection GatewayPluginJwtSigner#trust_access_token_introspection}
   */
   readonly trustAccessTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * Providing an opaque channel token for plugin introspection, and verifying expiry and scopes on introspection results may make further payload checks unnecessary before the plugin signs a new token. This also applies when using a JWT token with introspection JSON as per config.channel_token_introspection_jwt_claim. Use this parameter to manage additional payload checks before signing a new token. With true (default), payload's expiry or scopes aren't checked. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#trust_channel_token_introspection GatewayPluginJwtSigner#trust_channel_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#trust_channel_token_introspection GatewayPluginJwtSigner#trust_channel_token_introspection}
   */
   readonly trustChannelTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token required audiences verification, specified with `config.access_token_audiences_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_audience GatewayPluginJwtSigner#verify_access_token_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_audience GatewayPluginJwtSigner#verify_access_token_audience}
   */
   readonly verifyAccessTokenAudience?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn access token expiry verification off and on as needed. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_expiry GatewayPluginJwtSigner#verify_access_token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_expiry GatewayPluginJwtSigner#verify_access_token_expiry}
   */
   readonly verifyAccessTokenExpiry?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token introspection required audiences verification, specified with `config.access_token_introspection_audiences_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_audience GatewayPluginJwtSigner#verify_access_token_introspection_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_audience GatewayPluginJwtSigner#verify_access_token_introspection_audience}
   */
   readonly verifyAccessTokenIntrospectionAudience?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn access token introspection expiry verification off and on as needed. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_expiry GatewayPluginJwtSigner#verify_access_token_introspection_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_expiry GatewayPluginJwtSigner#verify_access_token_introspection_expiry}
   */
   readonly verifyAccessTokenIntrospectionExpiry?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token introspection allowed issuers verification, specified with `config.access_token_introspection_issuers_allowed`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_issuer GatewayPluginJwtSigner#verify_access_token_introspection_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_issuer GatewayPluginJwtSigner#verify_access_token_introspection_issuer}
   */
   readonly verifyAccessTokenIntrospectionIssuer?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token introspection notbefore verification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_notbefore GatewayPluginJwtSigner#verify_access_token_introspection_notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_notbefore GatewayPluginJwtSigner#verify_access_token_introspection_notbefore}
   */
   readonly verifyAccessTokenIntrospectionNotbefore?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token introspection scopes verification, specified with `config.access_token_introspection_scopes_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_scopes GatewayPluginJwtSigner#verify_access_token_introspection_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_scopes GatewayPluginJwtSigner#verify_access_token_introspection_scopes}
   */
   readonly verifyAccessTokenIntrospectionScopes?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token introspection required subjects verification, specified with `config.access_token_introspection_subjects_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_subject GatewayPluginJwtSigner#verify_access_token_introspection_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_introspection_subject GatewayPluginJwtSigner#verify_access_token_introspection_subject}
   */
   readonly verifyAccessTokenIntrospectionSubject?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token allowed issuers verification, specified with `config.access_token_issuers_allowed`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_issuer GatewayPluginJwtSigner#verify_access_token_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_issuer GatewayPluginJwtSigner#verify_access_token_issuer}
   */
   readonly verifyAccessTokenIssuer?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token notbefore verification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_notbefore GatewayPluginJwtSigner#verify_access_token_notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_notbefore GatewayPluginJwtSigner#verify_access_token_notbefore}
   */
   readonly verifyAccessTokenNotbefore?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token required scopes verification, specified with `config.access_token_scopes_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_scopes GatewayPluginJwtSigner#verify_access_token_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_scopes GatewayPluginJwtSigner#verify_access_token_scopes}
   */
   readonly verifyAccessTokenScopes?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn access token signature verification off and on as needed. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_signature GatewayPluginJwtSigner#verify_access_token_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_signature GatewayPluginJwtSigner#verify_access_token_signature}
   */
   readonly verifyAccessTokenSignature?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the access token required subjects verification, specified with `config.access_token_subjects_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_access_token_subject GatewayPluginJwtSigner#verify_access_token_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_access_token_subject GatewayPluginJwtSigner#verify_access_token_subject}
   */
   readonly verifyAccessTokenSubject?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token required audiences verification, specified with `config.channel_token_audiences_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_audience GatewayPluginJwtSigner#verify_channel_token_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_audience GatewayPluginJwtSigner#verify_channel_token_audience}
   */
   readonly verifyChannelTokenAudience?: boolean | cdktf.IResolvable;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_expiry GatewayPluginJwtSigner#verify_channel_token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_expiry GatewayPluginJwtSigner#verify_channel_token_expiry}
   */
   readonly verifyChannelTokenExpiry?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token introspection required audiences verification, specified with `config.channel_token_introspection_audiences_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_audience GatewayPluginJwtSigner#verify_channel_token_introspection_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_audience GatewayPluginJwtSigner#verify_channel_token_introspection_audience}
   */
   readonly verifyChannelTokenIntrospectionAudience?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn on/off the channel token introspection expiry verification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_expiry GatewayPluginJwtSigner#verify_channel_token_introspection_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_expiry GatewayPluginJwtSigner#verify_channel_token_introspection_expiry}
   */
   readonly verifyChannelTokenIntrospectionExpiry?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token introspection allowed issuers verification, specified with `config.channel_token_introspection_issuers_allowed`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_issuer GatewayPluginJwtSigner#verify_channel_token_introspection_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_issuer GatewayPluginJwtSigner#verify_channel_token_introspection_issuer}
   */
   readonly verifyChannelTokenIntrospectionIssuer?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token introspection notbefore verification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_notbefore GatewayPluginJwtSigner#verify_channel_token_introspection_notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_notbefore GatewayPluginJwtSigner#verify_channel_token_introspection_notbefore}
   */
   readonly verifyChannelTokenIntrospectionNotbefore?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn on/off the channel token introspection scopes verification specified with `config.channel_token_introspection_scopes_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_scopes GatewayPluginJwtSigner#verify_channel_token_introspection_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_scopes GatewayPluginJwtSigner#verify_channel_token_introspection_scopes}
   */
   readonly verifyChannelTokenIntrospectionScopes?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token introspection required subjects verification, specified with `config.channel_token_introspection_subjects_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_subject GatewayPluginJwtSigner#verify_channel_token_introspection_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_introspection_subject GatewayPluginJwtSigner#verify_channel_token_introspection_subject}
   */
   readonly verifyChannelTokenIntrospectionSubject?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token allowed issuers verification, specified with `config.channel_token_issuers_allowed`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_issuer GatewayPluginJwtSigner#verify_channel_token_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_issuer GatewayPluginJwtSigner#verify_channel_token_issuer}
   */
   readonly verifyChannelTokenIssuer?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token notbefore verification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_notbefore GatewayPluginJwtSigner#verify_channel_token_notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_notbefore GatewayPluginJwtSigner#verify_channel_token_notbefore}
   */
   readonly verifyChannelTokenNotbefore?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn on/off the channel token required scopes verification specified with `config.channel_token_scopes_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_scopes GatewayPluginJwtSigner#verify_channel_token_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_scopes GatewayPluginJwtSigner#verify_channel_token_scopes}
   */
   readonly verifyChannelTokenScopes?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn on/off the channel token signature verification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_signature GatewayPluginJwtSigner#verify_channel_token_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_signature GatewayPluginJwtSigner#verify_channel_token_signature}
   */
   readonly verifyChannelTokenSignature?: boolean | cdktf.IResolvable;
   /**
   * Quickly turn off and on the channel token required subjects verification, specified with `config.channel_token_subjects_required`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_subject GatewayPluginJwtSigner#verify_channel_token_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#verify_channel_token_subject GatewayPluginJwtSigner#verify_channel_token_subject}
   */
   readonly verifyChannelTokenSubject?: boolean | cdktf.IResolvable;
 }
@@ -5821,7 +5821,7 @@ export class GatewayPluginJwtSignerConfigAOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginJwtSignerOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access GatewayPluginJwtSigner#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access GatewayPluginJwtSigner#access}
   */
   readonly access?: string[];
 }
@@ -5915,7 +5915,7 @@ export class GatewayPluginJwtSignerOrderingAfterOutputReference extends cdktf.Co
 }
 export interface GatewayPluginJwtSignerOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#access GatewayPluginJwtSigner#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#access GatewayPluginJwtSigner#access}
   */
   readonly access?: string[];
 }
@@ -6009,11 +6009,11 @@ export class GatewayPluginJwtSignerOrderingBeforeOutputReference extends cdktf.C
 }
 export interface GatewayPluginJwtSignerOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#after GatewayPluginJwtSigner#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#after GatewayPluginJwtSigner#after}
   */
   readonly after?: GatewayPluginJwtSignerOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#before GatewayPluginJwtSigner#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#before GatewayPluginJwtSigner#before}
   */
   readonly before?: GatewayPluginJwtSignerOrderingBefore;
 }
@@ -6138,7 +6138,7 @@ export interface GatewayPluginJwtSignerPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6147,11 +6147,11 @@ export interface GatewayPluginJwtSignerPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#name GatewayPluginJwtSigner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#name GatewayPluginJwtSigner#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#path GatewayPluginJwtSigner#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#path GatewayPluginJwtSigner#path}
   */
   readonly path?: string;
 }
@@ -6325,7 +6325,7 @@ export class GatewayPluginJwtSignerPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginJwtSignerRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6422,7 +6422,7 @@ export class GatewayPluginJwtSignerRouteOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginJwtSignerService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#id GatewayPluginJwtSigner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6519,7 +6519,7 @@ export class GatewayPluginJwtSignerServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer konnect_gateway_plugin_jwt_signer}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer konnect_gateway_plugin_jwt_signer}
 */
 export class GatewayPluginJwtSigner extends cdktf.TerraformResource {
 
@@ -6535,7 +6535,7 @@ export class GatewayPluginJwtSigner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginJwtSigner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginJwtSigner to import
-  * @param importFromId The id of the existing GatewayPluginJwtSigner that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginJwtSigner that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginJwtSigner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6547,7 +6547,7 @@ export class GatewayPluginJwtSigner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_jwt_signer konnect_gateway_plugin_jwt_signer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_jwt_signer konnect_gateway_plugin_jwt_signer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6558,8 +6558,8 @@ export class GatewayPluginJwtSigner extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_jwt_signer',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

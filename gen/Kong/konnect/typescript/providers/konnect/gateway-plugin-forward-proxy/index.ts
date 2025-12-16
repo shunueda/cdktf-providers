@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginForwardProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#config GatewayPluginForwardProxy#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#config GatewayPluginForwardProxy#config}
   */
   readonly config?: GatewayPluginForwardProxyConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#consumer GatewayPluginForwardProxy#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#consumer GatewayPluginForwardProxy#consumer}
   */
   readonly consumer?: GatewayPluginForwardProxyConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#control_plane_id GatewayPluginForwardProxy#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#control_plane_id GatewayPluginForwardProxy#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#created_at GatewayPluginForwardProxy#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#created_at GatewayPluginForwardProxy#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#enabled GatewayPluginForwardProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#enabled GatewayPluginForwardProxy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginForwardProxyConfig extends cdktf.TerraformMetaArgu
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#instance_name GatewayPluginForwardProxy#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#instance_name GatewayPluginForwardProxy#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#ordering GatewayPluginForwardProxy#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#ordering GatewayPluginForwardProxy#ordering}
   */
   readonly ordering?: GatewayPluginForwardProxyOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#partials GatewayPluginForwardProxy#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#partials GatewayPluginForwardProxy#partials}
   */
   readonly partials?: GatewayPluginForwardProxyPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#protocols GatewayPluginForwardProxy#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#protocols GatewayPluginForwardProxy#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#route GatewayPluginForwardProxy#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#route GatewayPluginForwardProxy#route}
   */
   readonly route?: GatewayPluginForwardProxyRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#service GatewayPluginForwardProxy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#service GatewayPluginForwardProxy#service}
   */
   readonly service?: GatewayPluginForwardProxyService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#tags GatewayPluginForwardProxy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#tags GatewayPluginForwardProxy#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#updated_at GatewayPluginForwardProxy#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#updated_at GatewayPluginForwardProxy#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -96,56 +96,56 @@ export interface GatewayPluginForwardProxyConfigA {
   * The password to authenticate with, if the forward proxy is protected
   * by basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#auth_password GatewayPluginForwardProxy#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#auth_password GatewayPluginForwardProxy#auth_password}
   */
   readonly authPassword?: string;
   /**
   * The username to authenticate with, if the forward proxy is protected
   * by basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#auth_username GatewayPluginForwardProxy#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#auth_username GatewayPluginForwardProxy#auth_username}
   */
   readonly authUsername?: string;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#http_proxy_host GatewayPluginForwardProxy#http_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#http_proxy_host GatewayPluginForwardProxy#http_proxy_host}
   */
   readonly httpProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#http_proxy_port GatewayPluginForwardProxy#http_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#http_proxy_port GatewayPluginForwardProxy#http_proxy_port}
   */
   readonly httpProxyPort?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#https_proxy_host GatewayPluginForwardProxy#https_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#https_proxy_host GatewayPluginForwardProxy#https_proxy_host}
   */
   readonly httpsProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#https_proxy_port GatewayPluginForwardProxy#https_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#https_proxy_port GatewayPluginForwardProxy#https_proxy_port}
   */
   readonly httpsProxyPort?: number;
   /**
   * Whether the server certificate will be verified according to the CA certificates specified in lua_ssl_trusted_certificate. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#https_verify GatewayPluginForwardProxy#https_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#https_verify GatewayPluginForwardProxy#https_verify}
   */
   readonly httpsVerify?: boolean | cdktf.IResolvable;
   /**
   * The proxy scheme to use when connecting. Only `http` is supported. Default: "http"; must be "http"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#proxy_scheme GatewayPluginForwardProxy#proxy_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#proxy_scheme GatewayPluginForwardProxy#proxy_scheme}
   */
   readonly proxyScheme?: string;
   /**
   * Determines how to handle headers when forwarding the request. Default: "append"; must be one of ["append", "delete", "transparent"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#x_headers GatewayPluginForwardProxy#x_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#x_headers GatewayPluginForwardProxy#x_headers}
   */
   readonly xHeaders?: string;
 }
@@ -471,7 +471,7 @@ export class GatewayPluginForwardProxyConfigAOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginForwardProxyConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -568,7 +568,7 @@ export class GatewayPluginForwardProxyConsumerOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginForwardProxyOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#access GatewayPluginForwardProxy#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#access GatewayPluginForwardProxy#access}
   */
   readonly access?: string[];
 }
@@ -662,7 +662,7 @@ export class GatewayPluginForwardProxyOrderingAfterOutputReference extends cdktf
 }
 export interface GatewayPluginForwardProxyOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#access GatewayPluginForwardProxy#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#access GatewayPluginForwardProxy#access}
   */
   readonly access?: string[];
 }
@@ -756,11 +756,11 @@ export class GatewayPluginForwardProxyOrderingBeforeOutputReference extends cdkt
 }
 export interface GatewayPluginForwardProxyOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#after GatewayPluginForwardProxy#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#after GatewayPluginForwardProxy#after}
   */
   readonly after?: GatewayPluginForwardProxyOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#before GatewayPluginForwardProxy#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#before GatewayPluginForwardProxy#before}
   */
   readonly before?: GatewayPluginForwardProxyOrderingBefore;
 }
@@ -885,7 +885,7 @@ export interface GatewayPluginForwardProxyPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -894,11 +894,11 @@ export interface GatewayPluginForwardProxyPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#name GatewayPluginForwardProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#name GatewayPluginForwardProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#path GatewayPluginForwardProxy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#path GatewayPluginForwardProxy#path}
   */
   readonly path?: string;
 }
@@ -1072,7 +1072,7 @@ export class GatewayPluginForwardProxyPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginForwardProxyRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1169,7 +1169,7 @@ export class GatewayPluginForwardProxyRouteOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginForwardProxyService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#id GatewayPluginForwardProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1266,7 +1266,7 @@ export class GatewayPluginForwardProxyServiceOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy konnect_gateway_plugin_forward_proxy}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy konnect_gateway_plugin_forward_proxy}
 */
 export class GatewayPluginForwardProxy extends cdktf.TerraformResource {
 
@@ -1282,7 +1282,7 @@ export class GatewayPluginForwardProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginForwardProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginForwardProxy to import
-  * @param importFromId The id of the existing GatewayPluginForwardProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginForwardProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginForwardProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1294,7 +1294,7 @@ export class GatewayPluginForwardProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_forward_proxy konnect_gateway_plugin_forward_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_forward_proxy konnect_gateway_plugin_forward_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1305,8 +1305,8 @@ export class GatewayPluginForwardProxy extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_forward_proxy',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface PortalCustomDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#enabled PortalCustomDomain#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#enabled PortalCustomDomain#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#hostname PortalCustomDomain#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#hostname PortalCustomDomain#hostname}
   */
   readonly hostname: string;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#portal_id PortalCustomDomain#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#portal_id PortalCustomDomain#portal_id}
   */
   readonly portalId: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#ssl PortalCustomDomain#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#ssl PortalCustomDomain#ssl}
   */
   readonly ssl: PortalCustomDomainSsl;
 }
@@ -34,25 +34,25 @@ export interface PortalCustomDomainSsl {
   /**
   * Custom certificate to be used for the SSL termination. Only used when domain_verification_method == "custom_certificate". Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#custom_certificate PortalCustomDomain#custom_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#custom_certificate PortalCustomDomain#custom_certificate}
   */
   readonly customCertificate?: string;
   /**
   * Custom certificate private key to be used for the SSL termination. Only used when domain_verification_method == "custom_certificate". Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#custom_private_key PortalCustomDomain#custom_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#custom_private_key PortalCustomDomain#custom_private_key}
   */
   readonly customPrivateKey?: string;
   /**
   * must be one of ["custom_certificate", "http"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#domain_verification_method PortalCustomDomain#domain_verification_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#domain_verification_method PortalCustomDomain#domain_verification_method}
   */
   readonly domainVerificationMethod?: string;
   /**
   * Advanced option. If true, the custom certificate is served exactly as provided, without attempting to bundle against a public trust store. Required for certificates issued by an internal/private CA. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#skip_ca_check PortalCustomDomain#skip_ca_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#skip_ca_check PortalCustomDomain#skip_ca_check}
   */
   readonly skipCaCheck?: boolean | cdktf.IResolvable;
 }
@@ -253,7 +253,7 @@ export class PortalCustomDomainSslOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain konnect_portal_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain konnect_portal_custom_domain}
 */
 export class PortalCustomDomain extends cdktf.TerraformResource {
 
@@ -269,7 +269,7 @@ export class PortalCustomDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalCustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalCustomDomain to import
-  * @param importFromId The id of the existing PortalCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalCustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class PortalCustomDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_custom_domain konnect_portal_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_custom_domain konnect_portal_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class PortalCustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

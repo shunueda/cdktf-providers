@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginOpaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#config GatewayPluginOpa#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#config GatewayPluginOpa#config}
   */
   readonly config: GatewayPluginOpaConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#control_plane_id GatewayPluginOpa#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#control_plane_id GatewayPluginOpa#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#created_at GatewayPluginOpa#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#created_at GatewayPluginOpa#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#enabled GatewayPluginOpa#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#enabled GatewayPluginOpa#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginOpaConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#instance_name GatewayPluginOpa#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#instance_name GatewayPluginOpa#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#ordering GatewayPluginOpa#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#ordering GatewayPluginOpa#ordering}
   */
   readonly ordering?: GatewayPluginOpaOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#partials GatewayPluginOpa#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#partials GatewayPluginOpa#partials}
   */
   readonly partials?: GatewayPluginOpaPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#protocols GatewayPluginOpa#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#protocols GatewayPluginOpa#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#route GatewayPluginOpa#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#route GatewayPluginOpa#route}
   */
   readonly route?: GatewayPluginOpaRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#service GatewayPluginOpa#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#service GatewayPluginOpa#service}
   */
   readonly service?: GatewayPluginOpaService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#tags GatewayPluginOpa#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#tags GatewayPluginOpa#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#updated_at GatewayPluginOpa#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#updated_at GatewayPluginOpa#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,67 +89,67 @@ export interface GatewayPluginOpaConfigA {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#include_body_in_opa_input GatewayPluginOpa#include_body_in_opa_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#include_body_in_opa_input GatewayPluginOpa#include_body_in_opa_input}
   */
   readonly includeBodyInOpaInput?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the Kong Gateway Consumer object in use for the current request (if any) is included as input to OPA. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#include_consumer_in_opa_input GatewayPluginOpa#include_consumer_in_opa_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#include_consumer_in_opa_input GatewayPluginOpa#include_consumer_in_opa_input}
   */
   readonly includeConsumerInOpaInput?: boolean | cdktf.IResolvable;
   /**
   * If set to true and the `Content-Type` header of the current request is `application/json`, the request body will be JSON decoded and the decoded struct is included as input to OPA. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#include_parsed_json_body_in_opa_input GatewayPluginOpa#include_parsed_json_body_in_opa_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#include_parsed_json_body_in_opa_input GatewayPluginOpa#include_parsed_json_body_in_opa_input}
   */
   readonly includeParsedJsonBodyInOpaInput?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the Kong Gateway Route object in use for the current request is included as input to OPA. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#include_route_in_opa_input GatewayPluginOpa#include_route_in_opa_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#include_route_in_opa_input GatewayPluginOpa#include_route_in_opa_input}
   */
   readonly includeRouteInOpaInput?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the Kong Gateway Service object in use for the current request is included as input to OPA. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#include_service_in_opa_input GatewayPluginOpa#include_service_in_opa_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#include_service_in_opa_input GatewayPluginOpa#include_service_in_opa_input}
   */
   readonly includeServiceInOpaInput?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the regex capture groups captured on the Kong Gateway Route's path field in the current request (if any) are included as input to OPA. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#include_uri_captures_in_opa_input GatewayPluginOpa#include_uri_captures_in_opa_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#include_uri_captures_in_opa_input GatewayPluginOpa#include_uri_captures_in_opa_input}
   */
   readonly includeUriCapturesInOpaInput?: boolean | cdktf.IResolvable;
   /**
   * A string representing a host name, such as example.com. Default: "localhost"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#opa_host GatewayPluginOpa#opa_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#opa_host GatewayPluginOpa#opa_host}
   */
   readonly opaHost?: string;
   /**
   * A string representing a URL path, such as /path/to/resource. Must start with a forward slash (/) and must not contain empty segments (i.e., two consecutive forward slashes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#opa_path GatewayPluginOpa#opa_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#opa_path GatewayPluginOpa#opa_path}
   */
   readonly opaPath: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 8181
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#opa_port GatewayPluginOpa#opa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#opa_port GatewayPluginOpa#opa_port}
   */
   readonly opaPort?: number;
   /**
   * The protocol to use when talking to Open Policy Agent (OPA) server. Allowed protocols are `http` and `https`. Default: "http"; must be one of ["http", "https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#opa_protocol GatewayPluginOpa#opa_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#opa_protocol GatewayPluginOpa#opa_protocol}
   */
   readonly opaProtocol?: string;
   /**
   * If set to true, the OPA certificate will be verified according to the CA certificates specified in lua_ssl_trusted_certificate. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#ssl_verify GatewayPluginOpa#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#ssl_verify GatewayPluginOpa#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
 }
@@ -530,7 +530,7 @@ export class GatewayPluginOpaConfigAOutputReference extends cdktf.ComplexObject 
 }
 export interface GatewayPluginOpaOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#access GatewayPluginOpa#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#access GatewayPluginOpa#access}
   */
   readonly access?: string[];
 }
@@ -624,7 +624,7 @@ export class GatewayPluginOpaOrderingAfterOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginOpaOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#access GatewayPluginOpa#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#access GatewayPluginOpa#access}
   */
   readonly access?: string[];
 }
@@ -718,11 +718,11 @@ export class GatewayPluginOpaOrderingBeforeOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginOpaOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#after GatewayPluginOpa#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#after GatewayPluginOpa#after}
   */
   readonly after?: GatewayPluginOpaOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#before GatewayPluginOpa#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#before GatewayPluginOpa#before}
   */
   readonly before?: GatewayPluginOpaOrderingBefore;
 }
@@ -847,7 +847,7 @@ export interface GatewayPluginOpaPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -856,11 +856,11 @@ export interface GatewayPluginOpaPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#name GatewayPluginOpa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#name GatewayPluginOpa#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#path GatewayPluginOpa#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#path GatewayPluginOpa#path}
   */
   readonly path?: string;
 }
@@ -1034,7 +1034,7 @@ export class GatewayPluginOpaPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginOpaRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1131,7 +1131,7 @@ export class GatewayPluginOpaRouteOutputReference extends cdktf.ComplexObject {
 }
 export interface GatewayPluginOpaService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#id GatewayPluginOpa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1228,7 +1228,7 @@ export class GatewayPluginOpaServiceOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa konnect_gateway_plugin_opa}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa konnect_gateway_plugin_opa}
 */
 export class GatewayPluginOpa extends cdktf.TerraformResource {
 
@@ -1244,7 +1244,7 @@ export class GatewayPluginOpa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginOpa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginOpa to import
-  * @param importFromId The id of the existing GatewayPluginOpa that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginOpa that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginOpa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1256,7 +1256,7 @@ export class GatewayPluginOpa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_opa konnect_gateway_plugin_opa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_opa konnect_gateway_plugin_opa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1267,8 +1267,8 @@ export class GatewayPluginOpa extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_opa',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

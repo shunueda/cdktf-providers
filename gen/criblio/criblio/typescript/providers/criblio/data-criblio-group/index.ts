@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group
+// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * fields to add to results: git.commit, git.localChanges, git.log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group#fields DataCriblioGroup#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group#fields DataCriblioGroup#fields}
   */
   readonly fields?: string;
   /**
   * Group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group#id DataCriblioGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group#id DataCriblioGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataCriblioGroupConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group criblio_group}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group criblio_group}
 */
 export class DataCriblioGroup extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataCriblioGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioGroup to import
-  * @param importFromId The id of the existing DataCriblioGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataCriblioGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group criblio_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group criblio_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataCriblioGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_group',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.62',
-        providerVersionConstraint: '1.20.62'
+        providerVersion: '1.20.64',
+        providerVersionConstraint: '1.20.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

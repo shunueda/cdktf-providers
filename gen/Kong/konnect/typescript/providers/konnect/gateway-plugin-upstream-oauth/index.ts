@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginUpstreamOauthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#config GatewayPluginUpstreamOauth#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#config GatewayPluginUpstreamOauth#config}
   */
   readonly config: GatewayPluginUpstreamOauthConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#consumer GatewayPluginUpstreamOauth#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#consumer GatewayPluginUpstreamOauth#consumer}
   */
   readonly consumer?: GatewayPluginUpstreamOauthConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#consumer_group GatewayPluginUpstreamOauth#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#consumer_group GatewayPluginUpstreamOauth#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginUpstreamOauthConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#control_plane_id GatewayPluginUpstreamOauth#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#control_plane_id GatewayPluginUpstreamOauth#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#created_at GatewayPluginUpstreamOauth#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#created_at GatewayPluginUpstreamOauth#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#enabled GatewayPluginUpstreamOauth#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#enabled GatewayPluginUpstreamOauth#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginUpstreamOauthConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#instance_name GatewayPluginUpstreamOauth#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#instance_name GatewayPluginUpstreamOauth#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#ordering GatewayPluginUpstreamOauth#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#ordering GatewayPluginUpstreamOauth#ordering}
   */
   readonly ordering?: GatewayPluginUpstreamOauthOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#partials GatewayPluginUpstreamOauth#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#partials GatewayPluginUpstreamOauth#partials}
   */
   readonly partials?: GatewayPluginUpstreamOauthPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#protocols GatewayPluginUpstreamOauth#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#protocols GatewayPluginUpstreamOauth#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#route GatewayPluginUpstreamOauth#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#route GatewayPluginUpstreamOauth#route}
   */
   readonly route?: GatewayPluginUpstreamOauthRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#service GatewayPluginUpstreamOauth#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#service GatewayPluginUpstreamOauth#service}
   */
   readonly service?: GatewayPluginUpstreamOauthService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#tags GatewayPluginUpstreamOauth#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#tags GatewayPluginUpstreamOauth#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#updated_at GatewayPluginUpstreamOauth#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#updated_at GatewayPluginUpstreamOauth#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,37 +101,37 @@ export interface GatewayPluginUpstreamOauthConfigBehavior {
   /**
   * The template to use to create the body of the response to return to the consumer if Kong fails to obtain a token from the IdP. Default: "{ \"code\": \"{{status}}\", \"message\": \"{{message}}\" }"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_body_template GatewayPluginUpstreamOauth#idp_error_response_body_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_body_template GatewayPluginUpstreamOauth#idp_error_response_body_template}
   */
   readonly idpErrorResponseBodyTemplate?: string;
   /**
   * The Content-Type of the response to return to the consumer if Kong fails to obtain a token from the IdP. Default: "application/json; charset=utf-8"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_content_type GatewayPluginUpstreamOauth#idp_error_response_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_content_type GatewayPluginUpstreamOauth#idp_error_response_content_type}
   */
   readonly idpErrorResponseContentType?: string;
   /**
   * The message to embed in the body of the response to return to the consumer if Kong fails to obtain a token from the IdP. Default: "Failed to authenticate request to upstream"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_message GatewayPluginUpstreamOauth#idp_error_response_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_message GatewayPluginUpstreamOauth#idp_error_response_message}
   */
   readonly idpErrorResponseMessage?: string;
   /**
   * The response code to return to the consumer if Kong fails to obtain a token from the IdP. Default: 502
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_status_code GatewayPluginUpstreamOauth#idp_error_response_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#idp_error_response_status_code GatewayPluginUpstreamOauth#idp_error_response_status_code}
   */
   readonly idpErrorResponseStatusCode?: number;
   /**
   * An array of status codes which will force an access token to be purged when returned by the upstream. An empty array will disable this functionality. Default: [401]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#purge_token_on_upstream_status_codes GatewayPluginUpstreamOauth#purge_token_on_upstream_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#purge_token_on_upstream_status_codes GatewayPluginUpstreamOauth#purge_token_on_upstream_status_codes}
   */
   readonly purgeTokenOnUpstreamStatusCodes?: number[];
   /**
   * The name of the header used to send the access token (obtained from the IdP) to the upstream service. Default: "Authorization"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#upstream_access_token_header_name GatewayPluginUpstreamOauth#upstream_access_token_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#upstream_access_token_header_name GatewayPluginUpstreamOauth#upstream_access_token_header_name}
   */
   readonly upstreamAccessTokenHeaderName?: string;
 }
@@ -372,7 +372,7 @@ export interface GatewayPluginUpstreamOauthConfigCacheMemory {
   /**
   * The shared dictionary used by the plugin to cache tokens if `config.cache.strategy` is set to `memory`. Default: "kong_db_cache"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#dictionary_name GatewayPluginUpstreamOauth#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#dictionary_name GatewayPluginUpstreamOauth#dictionary_name}
   */
   readonly dictionaryName?: string;
 }
@@ -468,13 +468,13 @@ export interface GatewayPluginUpstreamOauthConfigCacheRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#ip GatewayPluginUpstreamOauth#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#ip GatewayPluginUpstreamOauth#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#port GatewayPluginUpstreamOauth#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#port GatewayPluginUpstreamOauth#port}
   */
   readonly port?: number;
 }
@@ -621,13 +621,13 @@ export interface GatewayPluginUpstreamOauthConfigCacheRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#host GatewayPluginUpstreamOauth#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#host GatewayPluginUpstreamOauth#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#port GatewayPluginUpstreamOauth#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#port GatewayPluginUpstreamOauth#port}
   */
   readonly port?: number;
 }
@@ -774,127 +774,127 @@ export interface GatewayPluginUpstreamOauthConfigCacheRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#cluster_max_redirections GatewayPluginUpstreamOauth#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#cluster_max_redirections GatewayPluginUpstreamOauth#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#cluster_nodes GatewayPluginUpstreamOauth#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#cluster_nodes GatewayPluginUpstreamOauth#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginUpstreamOauthConfigCacheRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#connect_timeout GatewayPluginUpstreamOauth#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#connect_timeout GatewayPluginUpstreamOauth#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#connection_is_proxied GatewayPluginUpstreamOauth#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#connection_is_proxied GatewayPluginUpstreamOauth#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#database GatewayPluginUpstreamOauth#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#database GatewayPluginUpstreamOauth#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#host GatewayPluginUpstreamOauth#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#host GatewayPluginUpstreamOauth#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#keepalive_backlog GatewayPluginUpstreamOauth#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#keepalive_backlog GatewayPluginUpstreamOauth#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#keepalive_pool_size GatewayPluginUpstreamOauth#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#keepalive_pool_size GatewayPluginUpstreamOauth#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#password GatewayPluginUpstreamOauth#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#password GatewayPluginUpstreamOauth#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#port GatewayPluginUpstreamOauth#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#port GatewayPluginUpstreamOauth#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#read_timeout GatewayPluginUpstreamOauth#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#read_timeout GatewayPluginUpstreamOauth#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#send_timeout GatewayPluginUpstreamOauth#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#send_timeout GatewayPluginUpstreamOauth#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#sentinel_master GatewayPluginUpstreamOauth#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#sentinel_master GatewayPluginUpstreamOauth#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#sentinel_nodes GatewayPluginUpstreamOauth#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#sentinel_nodes GatewayPluginUpstreamOauth#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginUpstreamOauthConfigCacheRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#sentinel_password GatewayPluginUpstreamOauth#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#sentinel_password GatewayPluginUpstreamOauth#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#sentinel_role GatewayPluginUpstreamOauth#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#sentinel_role GatewayPluginUpstreamOauth#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#sentinel_username GatewayPluginUpstreamOauth#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#sentinel_username GatewayPluginUpstreamOauth#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#server_name GatewayPluginUpstreamOauth#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#server_name GatewayPluginUpstreamOauth#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#ssl GatewayPluginUpstreamOauth#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#ssl GatewayPluginUpstreamOauth#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#ssl_verify GatewayPluginUpstreamOauth#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#ssl_verify GatewayPluginUpstreamOauth#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#username GatewayPluginUpstreamOauth#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#username GatewayPluginUpstreamOauth#username}
   */
   readonly username?: string;
 }
@@ -1570,27 +1570,27 @@ export interface GatewayPluginUpstreamOauthConfigCache {
   /**
   * The lifetime of a token without an explicit `expires_in` value. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#default_ttl GatewayPluginUpstreamOauth#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#default_ttl GatewayPluginUpstreamOauth#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * The number of seconds to eagerly expire a cached token. By default, a cached token expires 5 seconds before its lifetime as defined in `expires_in`. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#eagerly_expire GatewayPluginUpstreamOauth#eagerly_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#eagerly_expire GatewayPluginUpstreamOauth#eagerly_expire}
   */
   readonly eagerlyExpire?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#memory GatewayPluginUpstreamOauth#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#memory GatewayPluginUpstreamOauth#memory}
   */
   readonly memory?: GatewayPluginUpstreamOauthConfigCacheMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#redis GatewayPluginUpstreamOauth#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#redis GatewayPluginUpstreamOauth#redis}
   */
   readonly redis?: GatewayPluginUpstreamOauthConfigCacheRedis;
   /**
   * The method Kong should use to cache tokens issued by the IdP. Default: "memory"; must be one of ["memory", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#strategy GatewayPluginUpstreamOauth#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#strategy GatewayPluginUpstreamOauth#strategy}
   */
   readonly strategy?: string;
 }
@@ -1802,67 +1802,67 @@ export interface GatewayPluginUpstreamOauthConfigClient {
   /**
   * The authentication method used in client requests to the IdP. Supported values are: `client_secret_basic` to send `client_id` and `client_secret` in the `Authorization: Basic` header, `client_secret_post` to send `client_id` and `client_secret` as part of the request body, or `client_secret_jwt` to send a JWT signed with the `client_secret` using the client assertion as part of the body. Default: "client_secret_post"; must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#auth_method GatewayPluginUpstreamOauth#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#auth_method GatewayPluginUpstreamOauth#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The algorithm to use with JWT when using `client_secret_jwt` authentication. Default: "HS512"; must be one of ["HS256", "HS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#client_secret_jwt_alg GatewayPluginUpstreamOauth#client_secret_jwt_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#client_secret_jwt_alg GatewayPluginUpstreamOauth#client_secret_jwt_alg}
   */
   readonly clientSecretJwtAlg?: string;
   /**
   * The proxy to use when making HTTP requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#http_proxy GatewayPluginUpstreamOauth#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#http_proxy GatewayPluginUpstreamOauth#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `http_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#http_proxy_authorization GatewayPluginUpstreamOauth#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#http_proxy_authorization GatewayPluginUpstreamOauth#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for requests made by this plugin. Supported values: `1.1` for HTTP 1.1 and `1.0` for HTTP 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#http_version GatewayPluginUpstreamOauth#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#http_version GatewayPluginUpstreamOauth#http_version}
   */
   readonly httpVersion?: number;
   /**
   * The proxy to use when making HTTPS requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#https_proxy GatewayPluginUpstreamOauth#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#https_proxy GatewayPluginUpstreamOauth#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `https_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#https_proxy_authorization GatewayPluginUpstreamOauth#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#https_proxy_authorization GatewayPluginUpstreamOauth#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * Whether to use keepalive connections to the IdP. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#keep_alive GatewayPluginUpstreamOauth#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#keep_alive GatewayPluginUpstreamOauth#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of hosts that should not be proxied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#no_proxy GatewayPluginUpstreamOauth#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#no_proxy GatewayPluginUpstreamOauth#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Whether to verify the certificate presented by the IdP when using HTTPS. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#ssl_verify GatewayPluginUpstreamOauth#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#ssl_verify GatewayPluginUpstreamOauth#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network I/O timeout for requests to the IdP in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#timeout GatewayPluginUpstreamOauth#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#timeout GatewayPluginUpstreamOauth#timeout}
   */
   readonly timeout?: number;
 }
@@ -2248,61 +2248,61 @@ export interface GatewayPluginUpstreamOauthConfigOauth {
   /**
   * List of audiences passed to the IdP when obtaining a new token. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#audience GatewayPluginUpstreamOauth#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#audience GatewayPluginUpstreamOauth#audience}
   */
   readonly audience?: string[];
   /**
   * The client ID for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#client_id GatewayPluginUpstreamOauth#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#client_id GatewayPluginUpstreamOauth#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#client_secret GatewayPluginUpstreamOauth#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#client_secret GatewayPluginUpstreamOauth#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth grant type to be used. Default: "client_credentials"; must be one of ["client_credentials", "password"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#grant_type GatewayPluginUpstreamOauth#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#grant_type GatewayPluginUpstreamOauth#grant_type}
   */
   readonly grantType?: string;
   /**
   * The password to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#password GatewayPluginUpstreamOauth#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#password GatewayPluginUpstreamOauth#password}
   */
   readonly password?: string;
   /**
   * List of scopes to request from the IdP when obtaining a new token. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#scopes GatewayPluginUpstreamOauth#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#scopes GatewayPluginUpstreamOauth#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#token_endpoint GatewayPluginUpstreamOauth#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#token_endpoint GatewayPluginUpstreamOauth#token_endpoint}
   */
   readonly tokenEndpoint: string;
   /**
   * Extra headers to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#token_headers GatewayPluginUpstreamOauth#token_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#token_headers GatewayPluginUpstreamOauth#token_headers}
   */
   readonly tokenHeaders?: { [key: string]: string };
   /**
   * Extra post arguments to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#token_post_args GatewayPluginUpstreamOauth#token_post_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#token_post_args GatewayPluginUpstreamOauth#token_post_args}
   */
   readonly tokenPostArgs?: { [key: string]: string };
   /**
   * The username to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#username GatewayPluginUpstreamOauth#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#username GatewayPluginUpstreamOauth#username}
   */
   readonly username?: string;
 }
@@ -2654,19 +2654,19 @@ export class GatewayPluginUpstreamOauthConfigOauthOutputReference extends cdktf.
 }
 export interface GatewayPluginUpstreamOauthConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#behavior GatewayPluginUpstreamOauth#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#behavior GatewayPluginUpstreamOauth#behavior}
   */
   readonly behavior?: GatewayPluginUpstreamOauthConfigBehavior;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#cache GatewayPluginUpstreamOauth#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#cache GatewayPluginUpstreamOauth#cache}
   */
   readonly cache?: GatewayPluginUpstreamOauthConfigCache;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#client GatewayPluginUpstreamOauth#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#client GatewayPluginUpstreamOauth#client}
   */
   readonly client?: GatewayPluginUpstreamOauthConfigClient;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#oauth GatewayPluginUpstreamOauth#oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#oauth GatewayPluginUpstreamOauth#oauth}
   */
   readonly oauth: GatewayPluginUpstreamOauthConfigOauth;
 }
@@ -2844,7 +2844,7 @@ export class GatewayPluginUpstreamOauthConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginUpstreamOauthConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2941,7 +2941,7 @@ export class GatewayPluginUpstreamOauthConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginUpstreamOauthConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3038,7 +3038,7 @@ export class GatewayPluginUpstreamOauthConsumerGroupOutputReference extends cdkt
 }
 export interface GatewayPluginUpstreamOauthOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#access GatewayPluginUpstreamOauth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#access GatewayPluginUpstreamOauth#access}
   */
   readonly access?: string[];
 }
@@ -3132,7 +3132,7 @@ export class GatewayPluginUpstreamOauthOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginUpstreamOauthOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#access GatewayPluginUpstreamOauth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#access GatewayPluginUpstreamOauth#access}
   */
   readonly access?: string[];
 }
@@ -3226,11 +3226,11 @@ export class GatewayPluginUpstreamOauthOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginUpstreamOauthOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#after GatewayPluginUpstreamOauth#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#after GatewayPluginUpstreamOauth#after}
   */
   readonly after?: GatewayPluginUpstreamOauthOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#before GatewayPluginUpstreamOauth#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#before GatewayPluginUpstreamOauth#before}
   */
   readonly before?: GatewayPluginUpstreamOauthOrderingBefore;
 }
@@ -3355,7 +3355,7 @@ export interface GatewayPluginUpstreamOauthPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3364,11 +3364,11 @@ export interface GatewayPluginUpstreamOauthPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#name GatewayPluginUpstreamOauth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#name GatewayPluginUpstreamOauth#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#path GatewayPluginUpstreamOauth#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#path GatewayPluginUpstreamOauth#path}
   */
   readonly path?: string;
 }
@@ -3542,7 +3542,7 @@ export class GatewayPluginUpstreamOauthPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginUpstreamOauthRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3639,7 +3639,7 @@ export class GatewayPluginUpstreamOauthRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginUpstreamOauthService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#id GatewayPluginUpstreamOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3736,7 +3736,7 @@ export class GatewayPluginUpstreamOauthServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth konnect_gateway_plugin_upstream_oauth}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth konnect_gateway_plugin_upstream_oauth}
 */
 export class GatewayPluginUpstreamOauth extends cdktf.TerraformResource {
 
@@ -3752,7 +3752,7 @@ export class GatewayPluginUpstreamOauth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginUpstreamOauth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginUpstreamOauth to import
-  * @param importFromId The id of the existing GatewayPluginUpstreamOauth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginUpstreamOauth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginUpstreamOauth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3764,7 +3764,7 @@ export class GatewayPluginUpstreamOauth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_upstream_oauth konnect_gateway_plugin_upstream_oauth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_upstream_oauth konnect_gateway_plugin_upstream_oauth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3775,8 +3775,8 @@ export class GatewayPluginUpstreamOauth extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_upstream_oauth',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

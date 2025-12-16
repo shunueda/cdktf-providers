@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginSolaceLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#config GatewayPluginSolaceLog#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#config GatewayPluginSolaceLog#config}
   */
   readonly config: GatewayPluginSolaceLogConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#control_plane_id GatewayPluginSolaceLog#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#control_plane_id GatewayPluginSolaceLog#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#created_at GatewayPluginSolaceLog#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#created_at GatewayPluginSolaceLog#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#enabled GatewayPluginSolaceLog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#enabled GatewayPluginSolaceLog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginSolaceLogConfig extends cdktf.TerraformMetaArgumen
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#instance_name GatewayPluginSolaceLog#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#instance_name GatewayPluginSolaceLog#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#ordering GatewayPluginSolaceLog#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#ordering GatewayPluginSolaceLog#ordering}
   */
   readonly ordering?: GatewayPluginSolaceLogOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#partials GatewayPluginSolaceLog#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#partials GatewayPluginSolaceLog#partials}
   */
   readonly partials?: GatewayPluginSolaceLogPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpc","grpcs","http","https","ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#protocols GatewayPluginSolaceLog#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#protocols GatewayPluginSolaceLog#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#route GatewayPluginSolaceLog#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#route GatewayPluginSolaceLog#route}
   */
   readonly route?: GatewayPluginSolaceLogRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#service GatewayPluginSolaceLog#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#service GatewayPluginSolaceLog#service}
   */
   readonly service?: GatewayPluginSolaceLogService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#tags GatewayPluginSolaceLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#tags GatewayPluginSolaceLog#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#updated_at GatewayPluginSolaceLog#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#updated_at GatewayPluginSolaceLog#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,13 +89,13 @@ export interface GatewayPluginSolaceLogConfigMessageDestinations {
   /**
   * The name of the destination. You can use `$(uri_captures['<capture-identifier>'])` in this field to capture the name from a regex request URI (replace `<capture-identifier>` with a real value; for example `$(uri_captures['queue'])` when the matched route has a path `~/(?<queue>[a-z]+)`). Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#name GatewayPluginSolaceLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#name GatewayPluginSolaceLog#name}
   */
   readonly name?: string;
   /**
   * The type of the destination. Default: "QUEUE"; must be one of ["QUEUE", "TOPIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#type GatewayPluginSolaceLog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#type GatewayPluginSolaceLog#type}
   */
   readonly type?: string;
 }
@@ -242,61 +242,61 @@ export interface GatewayPluginSolaceLogConfigMessage {
   /**
   * When using a non-DIRECT guaranteed delivery mode, this property sets the log message acknowledgement timeout (waiting time). Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#ack_timeout GatewayPluginSolaceLog#ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#ack_timeout GatewayPluginSolaceLog#ack_timeout}
   */
   readonly ackTimeout?: number;
   /**
   * A key-value map that dynamically modifies log fields using Lua code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#custom_fields_by_lua GatewayPluginSolaceLog#custom_fields_by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#custom_fields_by_lua GatewayPluginSolaceLog#custom_fields_by_lua}
   */
   readonly customFieldsByLua?: { [key: string]: string };
   /**
   * Sets the log message delivery mode. Default: "DIRECT"; must be one of ["DIRECT", "PERSISTENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#delivery_mode GatewayPluginSolaceLog#delivery_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#delivery_mode GatewayPluginSolaceLog#delivery_mode}
   */
   readonly deliveryMode?: string;
   /**
   * The log message destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#destinations GatewayPluginSolaceLog#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#destinations GatewayPluginSolaceLog#destinations}
   */
   readonly destinations: GatewayPluginSolaceLogConfigMessageDestinations[] | cdktf.IResolvable;
   /**
   * Sets the dead message queue (DMQ) eligible property on the log message. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#dmq_eligible GatewayPluginSolaceLog#dmq_eligible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#dmq_eligible GatewayPluginSolaceLog#dmq_eligible}
   */
   readonly dmqEligible?: boolean | cdktf.IResolvable;
   /**
   * Sets the log message priority. Default: 4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#priority GatewayPluginSolaceLog#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#priority GatewayPluginSolaceLog#priority}
   */
   readonly priority?: number;
   /**
   * Allows the application to set the sender identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#sender_id GatewayPluginSolaceLog#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#sender_id GatewayPluginSolaceLog#sender_id}
   */
   readonly senderId?: string;
   /**
   * Enable or disable the tracing. This is primarily used for distributed tracing and log message correlation, especially in debugging or tracking log message flows across multiple systems. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#tracing GatewayPluginSolaceLog#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#tracing GatewayPluginSolaceLog#tracing}
   */
   readonly tracing?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the log message should be included in distributed tracing (i.e., if it should be "sampled" for the tracing). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#tracing_sampled GatewayPluginSolaceLog#tracing_sampled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#tracing_sampled GatewayPluginSolaceLog#tracing_sampled}
   */
   readonly tracingSampled?: boolean | cdktf.IResolvable;
   /**
   * Sets the time to live (TTL) in milliseconds for the log message. Setting the time to live to zero disables the TTL for the log message. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#ttl GatewayPluginSolaceLog#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#ttl GatewayPluginSolaceLog#ttl}
   */
   readonly ttl?: number;
 }
@@ -650,39 +650,39 @@ export interface GatewayPluginSolaceLogConfigSessionAuthentication {
   /**
   * The OAuth2 access token used with `OAUTH2` authentication scheme when connecting to an event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#access_token GatewayPluginSolaceLog#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#access_token GatewayPluginSolaceLog#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#access_token_header GatewayPluginSolaceLog#access_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#access_token_header GatewayPluginSolaceLog#access_token_header}
   */
   readonly accessTokenHeader?: string;
   /**
   * The OpenID Connect ID token used with `OAUTH2` authentication scheme when connecting to an event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#id_token GatewayPluginSolaceLog#id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#id_token GatewayPluginSolaceLog#id_token}
   */
   readonly idToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#id_token_header GatewayPluginSolaceLog#id_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#id_token_header GatewayPluginSolaceLog#id_token_header}
   */
   readonly idTokenHeader?: string;
   /**
   * The password used with `BASIC` authentication scheme when connecting to an event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#password GatewayPluginSolaceLog#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#password GatewayPluginSolaceLog#password}
   */
   readonly password?: string;
   /**
   * The client authentication scheme used when connection to an event broker. Default: "BASIC"; must be one of ["BASIC", "NONE", "OAUTH2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#scheme GatewayPluginSolaceLog#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#scheme GatewayPluginSolaceLog#scheme}
   */
   readonly scheme?: string;
   /**
   * The username used with `BASIC` authentication scheme when connecting to an event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#username GatewayPluginSolaceLog#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#username GatewayPluginSolaceLog#username}
   */
   readonly username?: string;
 }
@@ -952,67 +952,67 @@ export interface GatewayPluginSolaceLogConfigSession {
   /**
   * Session authentication related configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#authentication GatewayPluginSolaceLog#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#authentication GatewayPluginSolaceLog#authentication}
   */
   readonly authentication?: GatewayPluginSolaceLogConfigSessionAuthentication;
   /**
   * If this property is true and time-to-live has a positive value in a message, the expiration time is calculated when the message is sent or received. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#calculate_message_expiry GatewayPluginSolaceLog#calculate_message_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#calculate_message_expiry GatewayPluginSolaceLog#calculate_message_expiry}
   */
   readonly calculateMessageExpiry?: boolean | cdktf.IResolvable;
   /**
   * The timeout period (in milliseconds) for a connect operation to a given host (per host). Default: 3000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#connect_timeout GatewayPluginSolaceLog#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#connect_timeout GatewayPluginSolaceLog#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * When enabled, a receive timestamp is recorded for each message. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#generate_rcv_timestamps GatewayPluginSolaceLog#generate_rcv_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#generate_rcv_timestamps GatewayPluginSolaceLog#generate_rcv_timestamps}
   */
   readonly generateRcvTimestamps?: boolean | cdktf.IResolvable;
   /**
   * When enabled, a send timestamp is automatically included (if not already present) in the Solace-defined fields for each message sent. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#generate_send_timestamps GatewayPluginSolaceLog#generate_send_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#generate_send_timestamps GatewayPluginSolaceLog#generate_send_timestamps}
   */
   readonly generateSendTimestamps?: boolean | cdktf.IResolvable;
   /**
   * When enabled, a sender id is automatically included (if not already present) in the Solace-defined fields for each message sent. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#generate_sender_id GatewayPluginSolaceLog#generate_sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#generate_sender_id GatewayPluginSolaceLog#generate_sender_id}
   */
   readonly generateSenderId?: boolean | cdktf.IResolvable;
   /**
   * When enabled, a sequence number is automatically included (if not already present) in the Solace-defined fields for each message sent. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#generate_sequence_number GatewayPluginSolaceLog#generate_sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#generate_sequence_number GatewayPluginSolaceLog#generate_sequence_number}
   */
   readonly generateSequenceNumber?: boolean | cdktf.IResolvable;
   /**
   * The IPv4 or IPv6 address or host name to connect to (see: https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html#host-entry).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#host GatewayPluginSolaceLog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#host GatewayPluginSolaceLog#host}
   */
   readonly host: string;
   /**
   * Additional Solace session properties (each setting needs to have `SESSION_` prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#properties GatewayPluginSolaceLog#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#properties GatewayPluginSolaceLog#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Indicates whether the API should validate server certificates with the trusted certificates. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#ssl_validate_certificate GatewayPluginSolaceLog#ssl_validate_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#ssl_validate_certificate GatewayPluginSolaceLog#ssl_validate_certificate}
   */
   readonly sslValidateCertificate?: boolean | cdktf.IResolvable;
   /**
   * The name of the Message VPN to attempt to join when connecting to an event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#vpn_name GatewayPluginSolaceLog#vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#vpn_name GatewayPluginSolaceLog#vpn_name}
   */
   readonly vpnName?: string;
 }
@@ -1395,13 +1395,13 @@ export interface GatewayPluginSolaceLogConfigA {
   /**
   * The log message related configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#message GatewayPluginSolaceLog#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#message GatewayPluginSolaceLog#message}
   */
   readonly message: GatewayPluginSolaceLogConfigMessage;
   /**
   * Session related configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#session GatewayPluginSolaceLog#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#session GatewayPluginSolaceLog#session}
   */
   readonly session: GatewayPluginSolaceLogConfigSession;
 }
@@ -1518,7 +1518,7 @@ export class GatewayPluginSolaceLogConfigAOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginSolaceLogOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#access GatewayPluginSolaceLog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#access GatewayPluginSolaceLog#access}
   */
   readonly access?: string[];
 }
@@ -1612,7 +1612,7 @@ export class GatewayPluginSolaceLogOrderingAfterOutputReference extends cdktf.Co
 }
 export interface GatewayPluginSolaceLogOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#access GatewayPluginSolaceLog#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#access GatewayPluginSolaceLog#access}
   */
   readonly access?: string[];
 }
@@ -1706,11 +1706,11 @@ export class GatewayPluginSolaceLogOrderingBeforeOutputReference extends cdktf.C
 }
 export interface GatewayPluginSolaceLogOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#after GatewayPluginSolaceLog#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#after GatewayPluginSolaceLog#after}
   */
   readonly after?: GatewayPluginSolaceLogOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#before GatewayPluginSolaceLog#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#before GatewayPluginSolaceLog#before}
   */
   readonly before?: GatewayPluginSolaceLogOrderingBefore;
 }
@@ -1835,7 +1835,7 @@ export interface GatewayPluginSolaceLogPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1844,11 +1844,11 @@ export interface GatewayPluginSolaceLogPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#name GatewayPluginSolaceLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#name GatewayPluginSolaceLog#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#path GatewayPluginSolaceLog#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#path GatewayPluginSolaceLog#path}
   */
   readonly path?: string;
 }
@@ -2022,7 +2022,7 @@ export class GatewayPluginSolaceLogPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginSolaceLogRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2119,7 +2119,7 @@ export class GatewayPluginSolaceLogRouteOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginSolaceLogService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#id GatewayPluginSolaceLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2216,7 +2216,7 @@ export class GatewayPluginSolaceLogServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log konnect_gateway_plugin_solace_log}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log konnect_gateway_plugin_solace_log}
 */
 export class GatewayPluginSolaceLog extends cdktf.TerraformResource {
 
@@ -2232,7 +2232,7 @@ export class GatewayPluginSolaceLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginSolaceLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginSolaceLog to import
-  * @param importFromId The id of the existing GatewayPluginSolaceLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginSolaceLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginSolaceLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2244,7 +2244,7 @@ export class GatewayPluginSolaceLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_solace_log konnect_gateway_plugin_solace_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_solace_log konnect_gateway_plugin_solace_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2255,8 +2255,8 @@ export class GatewayPluginSolaceLog extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_solace_log',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

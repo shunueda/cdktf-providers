@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplicationAuthStrategyConfig extends cdktf.TerraformMetaArgume
   /**
   * Response payload from creating or updating a Key Auth Application Auth Strategy. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#key_auth ApplicationAuthStrategy#key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#key_auth ApplicationAuthStrategy#key_auth}
   */
   readonly keyAuth?: ApplicationAuthStrategyKeyAuth;
   /**
   * Response payload from creating an OIDC Application Auth Strategy. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#openid_connect ApplicationAuthStrategy#openid_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#openid_connect ApplicationAuthStrategy#openid_connect}
   */
   readonly openidConnect?: ApplicationAuthStrategyOpenidConnect;
 }
@@ -24,7 +24,7 @@ export interface ApplicationAuthStrategyKeyAuthConfigsKeyAuth {
   /**
   * The names of the headers containing the API key. You can specify multiple header names. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#key_names ApplicationAuthStrategy#key_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#key_names ApplicationAuthStrategy#key_names}
   */
   readonly keyNames?: string[];
 }
@@ -123,7 +123,7 @@ export interface ApplicationAuthStrategyKeyAuthConfigs {
   * Once authenticated, an application will be granted access to any Product Version it is registered for that is configured for Key Auth.
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#key_auth ApplicationAuthStrategy#key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#key_auth ApplicationAuthStrategy#key_auth}
   */
   readonly keyAuth?: ApplicationAuthStrategyKeyAuthConfigsKeyAuth;
 }
@@ -288,13 +288,13 @@ export interface ApplicationAuthStrategyKeyAuth {
   /**
   * JSON-B object containing the configuration for the Key Auth strategy. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#configs ApplicationAuthStrategy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#configs ApplicationAuthStrategy#configs}
   */
   readonly configs?: ApplicationAuthStrategyKeyAuthConfigs;
   /**
   * The display name of the Auth strategy. This is used to identify the Auth strategy in the Portal UI. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#display_name ApplicationAuthStrategy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#display_name ApplicationAuthStrategy#display_name}
   */
   readonly displayName?: string;
   /**
@@ -303,19 +303,19 @@ export interface ApplicationAuthStrategyKeyAuth {
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#labels ApplicationAuthStrategy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#labels ApplicationAuthStrategy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the auth strategy. This is used to identify the auth strategy in the Konnect UI. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#name ApplicationAuthStrategy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#name ApplicationAuthStrategy#name}
   */
   readonly name?: string;
   /**
   * Not Null; must be "key_auth"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#strategy_type ApplicationAuthStrategy#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#strategy_type ApplicationAuthStrategy#strategy_type}
   */
   readonly strategyType?: string;
 }
@@ -553,31 +553,31 @@ export interface ApplicationAuthStrategyOpenidConnectConfigsOpenidConnect {
   /**
   * Requires replacement if changed.; Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#additional_properties ApplicationAuthStrategy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#additional_properties ApplicationAuthStrategy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#auth_methods ApplicationAuthStrategy#auth_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#auth_methods ApplicationAuthStrategy#auth_methods}
   */
   readonly authMethods?: string[];
   /**
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#credential_claim ApplicationAuthStrategy#credential_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#credential_claim ApplicationAuthStrategy#credential_claim}
   */
   readonly credentialClaim?: string[];
   /**
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#issuer ApplicationAuthStrategy#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#issuer ApplicationAuthStrategy#issuer}
   */
   readonly issuer?: string;
   /**
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#scopes ApplicationAuthStrategy#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#scopes ApplicationAuthStrategy#scopes}
   */
   readonly scopes?: string[];
 }
@@ -793,7 +793,7 @@ export interface ApplicationAuthStrategyOpenidConnectConfigs {
   * An OIDC strategy may be used in conjunction with a DCR provider to automatically create the IdP application.
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#openid_connect ApplicationAuthStrategy#openid_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#openid_connect ApplicationAuthStrategy#openid_connect}
   */
   readonly openidConnect?: ApplicationAuthStrategyOpenidConnectConfigsOpenidConnect;
 }
@@ -958,19 +958,19 @@ export interface ApplicationAuthStrategyOpenidConnect {
   /**
   * JSON-B object containing the configuration for the OIDC strategy. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#configs ApplicationAuthStrategy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#configs ApplicationAuthStrategy#configs}
   */
   readonly configs?: ApplicationAuthStrategyOpenidConnectConfigs;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#dcr_provider_id ApplicationAuthStrategy#dcr_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#dcr_provider_id ApplicationAuthStrategy#dcr_provider_id}
   */
   readonly dcrProviderId?: string;
   /**
   * The display name of the Auth strategy. This is used to identify the Auth strategy in the Portal UI. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#display_name ApplicationAuthStrategy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#display_name ApplicationAuthStrategy#display_name}
   */
   readonly displayName?: string;
   /**
@@ -979,19 +979,19 @@ export interface ApplicationAuthStrategyOpenidConnect {
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#labels ApplicationAuthStrategy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#labels ApplicationAuthStrategy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the auth strategy. This is used to identify the auth strategy in the Konnect UI. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#name ApplicationAuthStrategy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#name ApplicationAuthStrategy#name}
   */
   readonly name?: string;
   /**
   * Not Null; must be "openid_connect"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#strategy_type ApplicationAuthStrategy#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#strategy_type ApplicationAuthStrategy#strategy_type}
   */
   readonly strategyType?: string;
 }
@@ -1164,7 +1164,7 @@ export class ApplicationAuthStrategyOpenidConnectOutputReference extends cdktf.C
     return this._dcrProvider;
   }
 
-  // dcr_provider_id - computed: true, optional: true, required: false
+  // dcr_provider_id - computed: false, optional: true, required: false
   private _dcrProviderId?: string; 
   public get dcrProviderId() {
     return this.getStringAttribute('dcr_provider_id');
@@ -1256,7 +1256,7 @@ export class ApplicationAuthStrategyOpenidConnectOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy konnect_application_auth_strategy}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy konnect_application_auth_strategy}
 */
 export class ApplicationAuthStrategy extends cdktf.TerraformResource {
 
@@ -1272,7 +1272,7 @@ export class ApplicationAuthStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationAuthStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationAuthStrategy to import
-  * @param importFromId The id of the existing ApplicationAuthStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationAuthStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationAuthStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1284,7 +1284,7 @@ export class ApplicationAuthStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/application_auth_strategy konnect_application_auth_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/application_auth_strategy konnect_application_auth_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1295,8 +1295,8 @@ export class ApplicationAuthStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_application_auth_strategy',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1329,7 +1329,7 @@ export class ApplicationAuthStrategy extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // key_auth - computed: true, optional: true, required: false
+  // key_auth - computed: false, optional: true, required: false
   private _keyAuth = new ApplicationAuthStrategyKeyAuthOutputReference(this, "key_auth");
   public get keyAuth() {
     return this._keyAuth;
@@ -1350,7 +1350,7 @@ export class ApplicationAuthStrategy extends cdktf.TerraformResource {
     return this.getStringAttribute('name');
   }
 
-  // openid_connect - computed: true, optional: true, required: false
+  // openid_connect - computed: false, optional: true, required: false
   private _openidConnect = new ApplicationAuthStrategyOpenidConnectOutputReference(this, "openid_connect");
   public get openidConnect() {
     return this._openidConnect;

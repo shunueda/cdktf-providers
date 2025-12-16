@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginKafkaUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#config GatewayPluginKafkaUpstream#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#config GatewayPluginKafkaUpstream#config}
   */
   readonly config: GatewayPluginKafkaUpstreamConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#consumer GatewayPluginKafkaUpstream#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#consumer GatewayPluginKafkaUpstream#consumer}
   */
   readonly consumer?: GatewayPluginKafkaUpstreamConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#control_plane_id GatewayPluginKafkaUpstream#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#control_plane_id GatewayPluginKafkaUpstream#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#created_at GatewayPluginKafkaUpstream#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#created_at GatewayPluginKafkaUpstream#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#enabled GatewayPluginKafkaUpstream#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#enabled GatewayPluginKafkaUpstream#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginKafkaUpstreamConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#instance_name GatewayPluginKafkaUpstream#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#instance_name GatewayPluginKafkaUpstream#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#ordering GatewayPluginKafkaUpstream#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#ordering GatewayPluginKafkaUpstream#ordering}
   */
   readonly ordering?: GatewayPluginKafkaUpstreamOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#partials GatewayPluginKafkaUpstream#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#partials GatewayPluginKafkaUpstream#partials}
   */
   readonly partials?: GatewayPluginKafkaUpstreamPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#protocols GatewayPluginKafkaUpstream#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#protocols GatewayPluginKafkaUpstream#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#route GatewayPluginKafkaUpstream#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#route GatewayPluginKafkaUpstream#route}
   */
   readonly route?: GatewayPluginKafkaUpstreamRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#service GatewayPluginKafkaUpstream#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#service GatewayPluginKafkaUpstream#service}
   */
   readonly service?: GatewayPluginKafkaUpstreamService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#tags GatewayPluginKafkaUpstream#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#tags GatewayPluginKafkaUpstream#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#updated_at GatewayPluginKafkaUpstream#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#updated_at GatewayPluginKafkaUpstream#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,31 +95,31 @@ export interface GatewayPluginKafkaUpstreamConfigAuthentication {
   /**
   * The SASL authentication mechanism.  Supported options: `PLAIN`, `SCRAM-SHA-256`, or `SCRAM-SHA-512`. must be one of ["PLAIN", "SCRAM-SHA-256", "SCRAM-SHA-512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#mechanism GatewayPluginKafkaUpstream#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#mechanism GatewayPluginKafkaUpstream#mechanism}
   */
   readonly mechanism?: string;
   /**
   * Password for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#password GatewayPluginKafkaUpstream#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#password GatewayPluginKafkaUpstream#password}
   */
   readonly password?: string;
   /**
   * The authentication strategy for the plugin, the only option for the value is `sasl`. must be "sasl"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#strategy GatewayPluginKafkaUpstream#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#strategy GatewayPluginKafkaUpstream#strategy}
   */
   readonly strategy?: string;
   /**
   * Enable this to indicate `DelegationToken` authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#tokenauth GatewayPluginKafkaUpstream#tokenauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#tokenauth GatewayPluginKafkaUpstream#tokenauth}
   */
   readonly tokenauth?: boolean | cdktf.IResolvable;
   /**
   * Username for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#user GatewayPluginKafkaUpstream#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#user GatewayPluginKafkaUpstream#user}
   */
   readonly user?: string;
 }
@@ -331,13 +331,13 @@ export interface GatewayPluginKafkaUpstreamConfigBootstrapServers {
   /**
   * A string representing a host name, such as example.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#host GatewayPluginKafkaUpstream#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#host GatewayPluginKafkaUpstream#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#port GatewayPluginKafkaUpstream#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#port GatewayPluginKafkaUpstream#port}
   */
   readonly port?: number;
 }
@@ -482,11 +482,11 @@ export class GatewayPluginKafkaUpstreamConfigBootstrapServersList extends cdktf.
 }
 export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenticationBasic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#password GatewayPluginKafkaUpstream#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#password GatewayPluginKafkaUpstream#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#username GatewayPluginKafkaUpstream#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#username GatewayPluginKafkaUpstream#username}
   */
   readonly username: string;
 }
@@ -605,61 +605,61 @@ export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenti
   /**
   * List of audiences passed to the IdP when obtaining a new token. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#audience GatewayPluginKafkaUpstream#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#audience GatewayPluginKafkaUpstream#audience}
   */
   readonly audience?: string[];
   /**
   * The client ID for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#client_id GatewayPluginKafkaUpstream#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#client_id GatewayPluginKafkaUpstream#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#client_secret GatewayPluginKafkaUpstream#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#client_secret GatewayPluginKafkaUpstream#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth grant type to be used. Default: "client_credentials"; must be one of ["client_credentials", "password"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#grant_type GatewayPluginKafkaUpstream#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#grant_type GatewayPluginKafkaUpstream#grant_type}
   */
   readonly grantType?: string;
   /**
   * The password to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#password GatewayPluginKafkaUpstream#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#password GatewayPluginKafkaUpstream#password}
   */
   readonly password?: string;
   /**
   * List of scopes to request from the IdP when obtaining a new token. Default: ["openid"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#scopes GatewayPluginKafkaUpstream#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#scopes GatewayPluginKafkaUpstream#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#token_endpoint GatewayPluginKafkaUpstream#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#token_endpoint GatewayPluginKafkaUpstream#token_endpoint}
   */
   readonly tokenEndpoint: string;
   /**
   * Extra headers to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#token_headers GatewayPluginKafkaUpstream#token_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#token_headers GatewayPluginKafkaUpstream#token_headers}
   */
   readonly tokenHeaders?: { [key: string]: string };
   /**
   * Extra post arguments to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#token_post_args GatewayPluginKafkaUpstream#token_post_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#token_post_args GatewayPluginKafkaUpstream#token_post_args}
   */
   readonly tokenPostArgs?: { [key: string]: string };
   /**
   * The username to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#username GatewayPluginKafkaUpstream#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#username GatewayPluginKafkaUpstream#username}
   */
   readonly username?: string;
 }
@@ -1013,67 +1013,67 @@ export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenti
   /**
   * The authentication method used in client requests to the IdP. Supported values are: `client_secret_basic` to send `client_id` and `client_secret` in the `Authorization: Basic` header, `client_secret_post` to send `client_id` and `client_secret` as part of the request body, or `client_secret_jwt` to send a JWT signed with the `client_secret` using the client assertion as part of the body. Default: "client_secret_post"; must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#auth_method GatewayPluginKafkaUpstream#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#auth_method GatewayPluginKafkaUpstream#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The algorithm to use with JWT when using `client_secret_jwt` authentication. Default: "HS512"; must be one of ["HS256", "HS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#client_secret_jwt_alg GatewayPluginKafkaUpstream#client_secret_jwt_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#client_secret_jwt_alg GatewayPluginKafkaUpstream#client_secret_jwt_alg}
   */
   readonly clientSecretJwtAlg?: string;
   /**
   * The proxy to use when making HTTP requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#http_proxy GatewayPluginKafkaUpstream#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#http_proxy GatewayPluginKafkaUpstream#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `http_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#http_proxy_authorization GatewayPluginKafkaUpstream#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#http_proxy_authorization GatewayPluginKafkaUpstream#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for requests made by this plugin. Supported values: `1.1` for HTTP 1.1 and `1.0` for HTTP 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#http_version GatewayPluginKafkaUpstream#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#http_version GatewayPluginKafkaUpstream#http_version}
   */
   readonly httpVersion?: number;
   /**
   * The proxy to use when making HTTPS requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#https_proxy GatewayPluginKafkaUpstream#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#https_proxy GatewayPluginKafkaUpstream#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `https_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#https_proxy_authorization GatewayPluginKafkaUpstream#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#https_proxy_authorization GatewayPluginKafkaUpstream#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * Whether to use keepalive connections to the IdP. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#keep_alive GatewayPluginKafkaUpstream#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#keep_alive GatewayPluginKafkaUpstream#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of hosts that should not be proxied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#no_proxy GatewayPluginKafkaUpstream#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#no_proxy GatewayPluginKafkaUpstream#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Whether to verify the certificate presented by the IdP when using HTTPS. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#ssl_verify GatewayPluginKafkaUpstream#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#ssl_verify GatewayPluginKafkaUpstream#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network I/O timeout for requests to the IdP in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#timeout GatewayPluginKafkaUpstream#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#timeout GatewayPluginKafkaUpstream#timeout}
   */
   readonly timeout?: number;
 }
@@ -1457,21 +1457,21 @@ export class GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenticati
 }
 export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#basic GatewayPluginKafkaUpstream#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#basic GatewayPluginKafkaUpstream#basic}
   */
   readonly basic?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenticationBasic;
   /**
   * Authentication mode to use with the schema registry. Default: "none"; must be one of ["basic", "none", "oauth2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#mode GatewayPluginKafkaUpstream#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#mode GatewayPluginKafkaUpstream#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#oauth2 GatewayPluginKafkaUpstream#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#oauth2 GatewayPluginKafkaUpstream#oauth2}
   */
   readonly oauth2?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenticationOauth2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#oauth2_client GatewayPluginKafkaUpstream#oauth2_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#oauth2_client GatewayPluginKafkaUpstream#oauth2_client}
   */
   readonly oauth2Client?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthenticationOauth2Client;
 }
@@ -1654,13 +1654,13 @@ export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentKeySchem
   /**
   * The schema version to use for serialization/deserialization. Use 'latest' to always fetch the most recent version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#schema_version GatewayPluginKafkaUpstream#schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#schema_version GatewayPluginKafkaUpstream#schema_version}
   */
   readonly schemaVersion?: string;
   /**
   * The name of the subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#subject_name GatewayPluginKafkaUpstream#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#subject_name GatewayPluginKafkaUpstream#subject_name}
   */
   readonly subjectName?: string;
 }
@@ -1785,13 +1785,13 @@ export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentValueSch
   /**
   * The schema version to use for serialization/deserialization. Use 'latest' to always fetch the most recent version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#schema_version GatewayPluginKafkaUpstream#schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#schema_version GatewayPluginKafkaUpstream#schema_version}
   */
   readonly schemaVersion?: string;
   /**
   * The name of the subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#subject_name GatewayPluginKafkaUpstream#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#subject_name GatewayPluginKafkaUpstream#subject_name}
   */
   readonly subjectName?: string;
 }
@@ -1914,33 +1914,33 @@ export class GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentValueSchemaO
 }
 export interface GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#authentication GatewayPluginKafkaUpstream#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#authentication GatewayPluginKafkaUpstream#authentication}
   */
   readonly authentication?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#key_schema GatewayPluginKafkaUpstream#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#key_schema GatewayPluginKafkaUpstream#key_schema}
   */
   readonly keySchema?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentKeySchema;
   /**
   * Set to false to disable SSL certificate verification when connecting to the schema registry. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#ssl_verify GatewayPluginKafkaUpstream#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#ssl_verify GatewayPluginKafkaUpstream#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * The TTL in seconds for the schema registry cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#ttl GatewayPluginKafkaUpstream#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#ttl GatewayPluginKafkaUpstream#ttl}
   */
   readonly ttl?: number;
   /**
   * The URL of the schema registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#url GatewayPluginKafkaUpstream#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#url GatewayPluginKafkaUpstream#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#value_schema GatewayPluginKafkaUpstream#value_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#value_schema GatewayPluginKafkaUpstream#value_schema}
   */
   readonly valueSchema?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentValueSchema;
 }
@@ -2179,7 +2179,7 @@ export class GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluentOutputRefere
 }
 export interface GatewayPluginKafkaUpstreamConfigSchemaRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#confluent GatewayPluginKafkaUpstream#confluent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#confluent GatewayPluginKafkaUpstream#confluent}
   */
   readonly confluent?: GatewayPluginKafkaUpstreamConfigSchemaRegistryConfluent;
 }
@@ -2275,13 +2275,13 @@ export interface GatewayPluginKafkaUpstreamConfigSecurity {
   /**
   * UUID of certificate entity for mTLS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#certificate_id GatewayPluginKafkaUpstream#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#certificate_id GatewayPluginKafkaUpstream#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Enables TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#ssl GatewayPluginKafkaUpstream#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#ssl GatewayPluginKafkaUpstream#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
 }
@@ -2406,153 +2406,153 @@ export interface GatewayPluginKafkaUpstreamConfigA {
   /**
   * The list of allowed topic names to which messages can be sent. The default topic configured in the `topic` field is always allowed, regardless of its inclusion in `allowed_topics`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#allowed_topics GatewayPluginKafkaUpstream#allowed_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#allowed_topics GatewayPluginKafkaUpstream#allowed_topics}
   */
   readonly allowedTopics?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#authentication GatewayPluginKafkaUpstream#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#authentication GatewayPluginKafkaUpstream#authentication}
   */
   readonly authentication?: GatewayPluginKafkaUpstreamConfigAuthentication;
   /**
   * Set of bootstrap brokers in a `{host: host, port: port}` list format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#bootstrap_servers GatewayPluginKafkaUpstream#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#bootstrap_servers GatewayPluginKafkaUpstream#bootstrap_servers}
   */
   readonly bootstrapServers?: GatewayPluginKafkaUpstreamConfigBootstrapServers[] | cdktf.IResolvable;
   /**
   * An identifier for the Kafka cluster. By default, this field generates a random string. You can also set your own custom cluster identifier.  If more than one Kafka plugin is configured without a `cluster_name` (that is, if the default autogenerated value is removed), these plugins will use the same producer, and by extension, the same cluster. Logs will be sent to the leader of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#cluster_name GatewayPluginKafkaUpstream#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#cluster_name GatewayPluginKafkaUpstream#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Include the request body in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#forward_body GatewayPluginKafkaUpstream#forward_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#forward_body GatewayPluginKafkaUpstream#forward_body}
   */
   readonly forwardBody?: boolean | cdktf.IResolvable;
   /**
   * Include the request headers in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#forward_headers GatewayPluginKafkaUpstream#forward_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#forward_headers GatewayPluginKafkaUpstream#forward_headers}
   */
   readonly forwardHeaders?: boolean | cdktf.IResolvable;
   /**
   * Include the request method in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#forward_method GatewayPluginKafkaUpstream#forward_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#forward_method GatewayPluginKafkaUpstream#forward_method}
   */
   readonly forwardMethod?: boolean | cdktf.IResolvable;
   /**
   * Include the request URI and URI arguments (as in, query arguments) in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#forward_uri GatewayPluginKafkaUpstream#forward_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#forward_uri GatewayPluginKafkaUpstream#forward_uri}
   */
   readonly forwardUri?: boolean | cdktf.IResolvable;
   /**
   * Keepalive timeout in milliseconds. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#keepalive GatewayPluginKafkaUpstream#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#keepalive GatewayPluginKafkaUpstream#keepalive}
   */
   readonly keepalive?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#keepalive_enabled GatewayPluginKafkaUpstream#keepalive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#keepalive_enabled GatewayPluginKafkaUpstream#keepalive_enabled}
   */
   readonly keepaliveEnabled?: boolean | cdktf.IResolvable;
   /**
   * The request query parameter name that contains the Kafka message key. If specified, messages with the same key will be sent to the same Kafka partition, ensuring consistent ordering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#key_query_arg GatewayPluginKafkaUpstream#key_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#key_query_arg GatewayPluginKafkaUpstream#key_query_arg}
   */
   readonly keyQueryArg?: string;
   /**
   * The Lua functions that manipulates the message being sent to the Kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#message_by_lua_functions GatewayPluginKafkaUpstream#message_by_lua_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#message_by_lua_functions GatewayPluginKafkaUpstream#message_by_lua_functions}
   */
   readonly messageByLuaFunctions?: string[];
   /**
   * Flag to enable asynchronous mode. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_async GatewayPluginKafkaUpstream#producer_async}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_async GatewayPluginKafkaUpstream#producer_async}
   */
   readonly producerAsync?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of messages that can be buffered in memory in asynchronous mode. Default: 50000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_async_buffering_limits_messages_in_memory GatewayPluginKafkaUpstream#producer_async_buffering_limits_messages_in_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_async_buffering_limits_messages_in_memory GatewayPluginKafkaUpstream#producer_async_buffering_limits_messages_in_memory}
   */
   readonly producerAsyncBufferingLimitsMessagesInMemory?: number;
   /**
   * Maximum time interval in milliseconds between buffer flushes in asynchronous mode. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_async_flush_timeout GatewayPluginKafkaUpstream#producer_async_flush_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_async_flush_timeout GatewayPluginKafkaUpstream#producer_async_flush_timeout}
   */
   readonly producerAsyncFlushTimeout?: number;
   /**
   * The number of acknowledgments the producer requires the leader to have received before considering a request complete. Allowed values: 0 for no acknowledgments; 1 for only the leader; and -1 for the full ISR (In-Sync Replica set). Default: 1; must be one of ["-1", "0", "1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_request_acks GatewayPluginKafkaUpstream#producer_request_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_request_acks GatewayPluginKafkaUpstream#producer_request_acks}
   */
   readonly producerRequestAcks?: number;
   /**
   * Maximum size of a Produce request in bytes. Default: 1048576
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_request_limits_bytes_per_request GatewayPluginKafkaUpstream#producer_request_limits_bytes_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_request_limits_bytes_per_request GatewayPluginKafkaUpstream#producer_request_limits_bytes_per_request}
   */
   readonly producerRequestLimitsBytesPerRequest?: number;
   /**
   * Maximum number of messages to include into a single producer request. Default: 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_request_limits_messages_per_request GatewayPluginKafkaUpstream#producer_request_limits_messages_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_request_limits_messages_per_request GatewayPluginKafkaUpstream#producer_request_limits_messages_per_request}
   */
   readonly producerRequestLimitsMessagesPerRequest?: number;
   /**
   * Backoff interval between retry attempts in milliseconds. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_request_retries_backoff_timeout GatewayPluginKafkaUpstream#producer_request_retries_backoff_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_request_retries_backoff_timeout GatewayPluginKafkaUpstream#producer_request_retries_backoff_timeout}
   */
   readonly producerRequestRetriesBackoffTimeout?: number;
   /**
   * Maximum number of retry attempts per single Produce request. Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_request_retries_max_attempts GatewayPluginKafkaUpstream#producer_request_retries_max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_request_retries_max_attempts GatewayPluginKafkaUpstream#producer_request_retries_max_attempts}
   */
   readonly producerRequestRetriesMaxAttempts?: number;
   /**
   * Time to wait for a Produce response in milliseconds. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#producer_request_timeout GatewayPluginKafkaUpstream#producer_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#producer_request_timeout GatewayPluginKafkaUpstream#producer_request_timeout}
   */
   readonly producerRequestTimeout?: number;
   /**
   * The plugin-global schema registry configuration. This can be overwritten by the topic configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#schema_registry GatewayPluginKafkaUpstream#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#schema_registry GatewayPluginKafkaUpstream#schema_registry}
   */
   readonly schemaRegistry?: GatewayPluginKafkaUpstreamConfigSchemaRegistry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#security GatewayPluginKafkaUpstream#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#security GatewayPluginKafkaUpstream#security}
   */
   readonly security?: GatewayPluginKafkaUpstreamConfigSecurity;
   /**
   * Socket timeout in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#timeout GatewayPluginKafkaUpstream#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#timeout GatewayPluginKafkaUpstream#timeout}
   */
   readonly timeout?: number;
   /**
   * The default Kafka topic to publish to if the query parameter defined in the `topics_query_arg` does not exist in the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#topic GatewayPluginKafkaUpstream#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#topic GatewayPluginKafkaUpstream#topic}
   */
   readonly topic: string;
   /**
   * The request query parameter name that contains the topics to publish to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#topics_query_arg GatewayPluginKafkaUpstream#topics_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#topics_query_arg GatewayPluginKafkaUpstream#topics_query_arg}
   */
   readonly topicsQueryArg?: string;
 }
@@ -3368,7 +3368,7 @@ export class GatewayPluginKafkaUpstreamConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginKafkaUpstreamConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3465,7 +3465,7 @@ export class GatewayPluginKafkaUpstreamConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginKafkaUpstreamOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#access GatewayPluginKafkaUpstream#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#access GatewayPluginKafkaUpstream#access}
   */
   readonly access?: string[];
 }
@@ -3559,7 +3559,7 @@ export class GatewayPluginKafkaUpstreamOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginKafkaUpstreamOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#access GatewayPluginKafkaUpstream#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#access GatewayPluginKafkaUpstream#access}
   */
   readonly access?: string[];
 }
@@ -3653,11 +3653,11 @@ export class GatewayPluginKafkaUpstreamOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginKafkaUpstreamOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#after GatewayPluginKafkaUpstream#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#after GatewayPluginKafkaUpstream#after}
   */
   readonly after?: GatewayPluginKafkaUpstreamOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#before GatewayPluginKafkaUpstream#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#before GatewayPluginKafkaUpstream#before}
   */
   readonly before?: GatewayPluginKafkaUpstreamOrderingBefore;
 }
@@ -3782,7 +3782,7 @@ export interface GatewayPluginKafkaUpstreamPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3791,11 +3791,11 @@ export interface GatewayPluginKafkaUpstreamPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#name GatewayPluginKafkaUpstream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#name GatewayPluginKafkaUpstream#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#path GatewayPluginKafkaUpstream#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#path GatewayPluginKafkaUpstream#path}
   */
   readonly path?: string;
 }
@@ -3969,7 +3969,7 @@ export class GatewayPluginKafkaUpstreamPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginKafkaUpstreamRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4066,7 +4066,7 @@ export class GatewayPluginKafkaUpstreamRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginKafkaUpstreamService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#id GatewayPluginKafkaUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4163,7 +4163,7 @@ export class GatewayPluginKafkaUpstreamServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream konnect_gateway_plugin_kafka_upstream}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream konnect_gateway_plugin_kafka_upstream}
 */
 export class GatewayPluginKafkaUpstream extends cdktf.TerraformResource {
 
@@ -4179,7 +4179,7 @@ export class GatewayPluginKafkaUpstream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginKafkaUpstream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginKafkaUpstream to import
-  * @param importFromId The id of the existing GatewayPluginKafkaUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginKafkaUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginKafkaUpstream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4191,7 +4191,7 @@ export class GatewayPluginKafkaUpstream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_kafka_upstream konnect_gateway_plugin_kafka_upstream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_kafka_upstream konnect_gateway_plugin_kafka_upstream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4202,8 +4202,8 @@ export class GatewayPluginKafkaUpstream extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_kafka_upstream',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

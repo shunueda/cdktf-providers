@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CloudGatewayTransitGatewayConfig extends cdktf.TerraformMetaArg
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#aws_resource_endpoint_gateway CloudGatewayTransitGateway#aws_resource_endpoint_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#aws_resource_endpoint_gateway CloudGatewayTransitGateway#aws_resource_endpoint_gateway}
   */
   readonly awsResourceEndpointGateway?: CloudGatewayTransitGatewayAwsResourceEndpointGateway;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#aws_transit_gateway CloudGatewayTransitGateway#aws_transit_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#aws_transit_gateway CloudGatewayTransitGateway#aws_transit_gateway}
   */
   readonly awsTransitGateway?: CloudGatewayTransitGatewayAwsTransitGateway;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#aws_vpc_peering_gateway CloudGatewayTransitGateway#aws_vpc_peering_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#aws_vpc_peering_gateway CloudGatewayTransitGateway#aws_vpc_peering_gateway}
   */
   readonly awsVpcPeeringGateway?: CloudGatewayTransitGatewayAwsVpcPeeringGateway;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#azure_transit_gateway CloudGatewayTransitGateway#azure_transit_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#azure_transit_gateway CloudGatewayTransitGateway#azure_transit_gateway}
   */
   readonly azureTransitGateway?: CloudGatewayTransitGatewayAzureTransitGateway;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#gcp_vpc_peering_transit_gateway CloudGatewayTransitGateway#gcp_vpc_peering_transit_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#gcp_vpc_peering_transit_gateway CloudGatewayTransitGateway#gcp_vpc_peering_transit_gateway}
   */
   readonly gcpVpcPeeringTransitGateway?: CloudGatewayTransitGatewayGcpVpcPeeringTransitGateway;
   /**
   * The network to operate on. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#network_id CloudGatewayTransitGateway#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#network_id CloudGatewayTransitGateway#network_id}
   */
   readonly networkId: string;
 }
@@ -50,13 +50,13 @@ export interface CloudGatewayTransitGatewayAwsResourceEndpointGatewayDnsConfig {
   * for a transit gateway.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
   */
   readonly domainProxyList: string[];
   /**
   * Remote DNS Server IP Addresses to connect to for resolving internal DNS via a transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
   */
   readonly remoteDnsServerIpAddresses: string[];
 }
@@ -197,13 +197,13 @@ export interface CloudGatewayTransitGatewayAwsResourceEndpointGatewayTransitGate
   /**
   * Domain Name to uniquely identify a resource configuration. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#domain_name CloudGatewayTransitGateway#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#domain_name CloudGatewayTransitGateway#domain_name}
   */
   readonly domainName: string;
   /**
   * Resource Config ID to uniquely identify a resource configuration. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#resource_config_id CloudGatewayTransitGateway#resource_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#resource_config_id CloudGatewayTransitGateway#resource_config_id}
   */
   readonly resourceConfigId: string;
 }
@@ -344,19 +344,19 @@ export interface CloudGatewayTransitGatewayAwsResourceEndpointGatewayTransitGate
   /**
   * must be "aws-resource-endpoint-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
   */
   readonly kind: string;
   /**
   * Resource Share ARN to verify request to create transit gateway attachment. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#ram_share_arn CloudGatewayTransitGateway#ram_share_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#ram_share_arn CloudGatewayTransitGateway#ram_share_arn}
   */
   readonly ramShareArn: string;
   /**
   * List of unique resource config mapping for aws resource endpoint. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#resource_config CloudGatewayTransitGateway#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#resource_config CloudGatewayTransitGateway#resource_config}
   */
   readonly resourceConfig?: CloudGatewayTransitGatewayAwsResourceEndpointGatewayTransitGatewayAttachmentConfigResourceConfig[] | cdktf.IResolvable;
 }
@@ -506,19 +506,19 @@ export interface CloudGatewayTransitGatewayAwsResourceEndpointGateway {
   * attachment.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
   */
   readonly dnsConfig?: CloudGatewayTransitGatewayAwsResourceEndpointGatewayDnsConfig[] | cdktf.IResolvable;
   /**
   * Human-readable name of the transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
   */
   readonly name: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
   */
   readonly transitGatewayAttachmentConfig: CloudGatewayTransitGatewayAwsResourceEndpointGatewayTransitGatewayAttachmentConfig;
 }
@@ -1054,13 +1054,13 @@ export interface CloudGatewayTransitGatewayAwsTransitGatewayDnsConfig {
   * for a transit gateway.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
   */
   readonly domainProxyList: string[];
   /**
   * Remote DNS Server IP Addresses to connect to for resolving internal DNS via a transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
   */
   readonly remoteDnsServerIpAddresses: string[];
 }
@@ -1201,19 +1201,19 @@ export interface CloudGatewayTransitGatewayAwsTransitGatewayTransitGatewayAttach
   /**
   * must be "aws-transit-gateway-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
   */
   readonly kind: string;
   /**
   * Resource Share ARN to verify request to create transit gateway attachment. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#ram_share_arn CloudGatewayTransitGateway#ram_share_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#ram_share_arn CloudGatewayTransitGateway#ram_share_arn}
   */
   readonly ramShareArn: string;
   /**
   * AWS Transit Gateway ID to create attachment to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#transit_gateway_id CloudGatewayTransitGateway#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#transit_gateway_id CloudGatewayTransitGateway#transit_gateway_id}
   */
   readonly transitGatewayId: string;
 }
@@ -1360,7 +1360,7 @@ export interface CloudGatewayTransitGatewayAwsTransitGateway {
   * network.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#cidr_blocks CloudGatewayTransitGateway#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#cidr_blocks CloudGatewayTransitGateway#cidr_blocks}
   */
   readonly cidrBlocks: string[];
   /**
@@ -1368,19 +1368,19 @@ export interface CloudGatewayTransitGatewayAwsTransitGateway {
   * attachment.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
   */
   readonly dnsConfig?: CloudGatewayTransitGatewayAwsTransitGatewayDnsConfig[] | cdktf.IResolvable;
   /**
   * Human-readable name of the transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
   */
   readonly name: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
   */
   readonly transitGatewayAttachmentConfig: CloudGatewayTransitGatewayAwsTransitGatewayTransitGatewayAttachmentConfig;
 }
@@ -1861,13 +1861,13 @@ export interface CloudGatewayTransitGatewayAwsVpcPeeringGatewayDnsConfig {
   * for a transit gateway.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
   */
   readonly domainProxyList: string[];
   /**
   * Remote DNS Server IP Addresses to connect to for resolving internal DNS via a transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
   */
   readonly remoteDnsServerIpAddresses: string[];
 }
@@ -2008,25 +2008,25 @@ export interface CloudGatewayTransitGatewayAwsVpcPeeringGatewayTransitGatewayAtt
   /**
   * must be "aws-vpc-peering-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
   */
   readonly kind: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#peer_account_id CloudGatewayTransitGateway#peer_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#peer_account_id CloudGatewayTransitGateway#peer_account_id}
   */
   readonly peerAccountId: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#peer_vpc_id CloudGatewayTransitGateway#peer_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#peer_vpc_id CloudGatewayTransitGateway#peer_vpc_id}
   */
   readonly peerVpcId: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#peer_vpc_region CloudGatewayTransitGateway#peer_vpc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#peer_vpc_region CloudGatewayTransitGateway#peer_vpc_region}
   */
   readonly peerVpcRegion: string;
 }
@@ -2199,7 +2199,7 @@ export interface CloudGatewayTransitGatewayAwsVpcPeeringGateway {
   * network.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#cidr_blocks CloudGatewayTransitGateway#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#cidr_blocks CloudGatewayTransitGateway#cidr_blocks}
   */
   readonly cidrBlocks: string[];
   /**
@@ -2207,19 +2207,19 @@ export interface CloudGatewayTransitGatewayAwsVpcPeeringGateway {
   * attachment.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
   */
   readonly dnsConfig?: CloudGatewayTransitGatewayAwsVpcPeeringGatewayDnsConfig[] | cdktf.IResolvable;
   /**
   * Human-readable name of the transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
   */
   readonly name: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
   */
   readonly transitGatewayAttachmentConfig: CloudGatewayTransitGatewayAwsVpcPeeringGatewayTransitGatewayAttachmentConfig;
 }
@@ -2705,13 +2705,13 @@ export interface CloudGatewayTransitGatewayAzureTransitGatewayDnsConfig {
   * for a transit gateway.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
   */
   readonly domainProxyList: string[];
   /**
   * Remote DNS Server IP Addresses to connect to for resolving internal DNS via a transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
   */
   readonly remoteDnsServerIpAddresses: string[];
 }
@@ -2852,31 +2852,31 @@ export interface CloudGatewayTransitGatewayAzureTransitGatewayTransitGatewayAtta
   /**
   * must be "azure-vnet-peering-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
   */
   readonly kind: string;
   /**
   * Resource Group Name for the Azure VNET Peering attachment. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#resource_group_name CloudGatewayTransitGateway#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#resource_group_name CloudGatewayTransitGateway#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * Subscription ID for the Azure VNET Peering attachment. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#subscription_id CloudGatewayTransitGateway#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#subscription_id CloudGatewayTransitGateway#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Tenant ID for the Azure VNET Peering attachment. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#tenant_id CloudGatewayTransitGateway#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#tenant_id CloudGatewayTransitGateway#tenant_id}
   */
   readonly tenantId: string;
   /**
   * VNET Name for the Azure VNET Peering attachment. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#vnet_name CloudGatewayTransitGateway#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#vnet_name CloudGatewayTransitGateway#vnet_name}
   */
   readonly vnetName: string;
 }
@@ -3075,19 +3075,19 @@ export interface CloudGatewayTransitGatewayAzureTransitGateway {
   * attachment.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
   */
   readonly dnsConfig?: CloudGatewayTransitGatewayAzureTransitGatewayDnsConfig[] | cdktf.IResolvable;
   /**
   * Human-readable name of the transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
   */
   readonly name: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
   */
   readonly transitGatewayAttachmentConfig: CloudGatewayTransitGatewayAzureTransitGatewayTransitGatewayAttachmentConfig;
 }
@@ -3547,13 +3547,13 @@ export interface CloudGatewayTransitGatewayGcpVpcPeeringTransitGatewayDnsConfig 
   * for a transit gateway.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#domain_proxy_list CloudGatewayTransitGateway#domain_proxy_list}
   */
   readonly domainProxyList: string[];
   /**
   * Remote DNS Server IP Addresses to connect to for resolving internal DNS via a transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#remote_dns_server_ip_addresses CloudGatewayTransitGateway#remote_dns_server_ip_addresses}
   */
   readonly remoteDnsServerIpAddresses: string[];
 }
@@ -3694,19 +3694,19 @@ export interface CloudGatewayTransitGatewayGcpVpcPeeringTransitGatewayTransitGat
   /**
   * must be "gcp-vpc-peering-attachment"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#kind CloudGatewayTransitGateway#kind}
   */
   readonly kind: string;
   /**
   * GCP Project ID of the peer account to create attachment to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#peer_project_id CloudGatewayTransitGateway#peer_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#peer_project_id CloudGatewayTransitGateway#peer_project_id}
   */
   readonly peerProjectId: string;
   /**
   * GCP VPC Name of the peer account to create attachment to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#peer_vpc_name CloudGatewayTransitGateway#peer_vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#peer_vpc_name CloudGatewayTransitGateway#peer_vpc_name}
   */
   readonly peerVpcName: string;
 }
@@ -3853,19 +3853,19 @@ export interface CloudGatewayTransitGatewayGcpVpcPeeringTransitGateway {
   * attachment.
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#dns_config CloudGatewayTransitGateway#dns_config}
   */
   readonly dnsConfig?: CloudGatewayTransitGatewayGcpVpcPeeringTransitGatewayDnsConfig[] | cdktf.IResolvable;
   /**
   * Human-readable name of the transit gateway. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#name CloudGatewayTransitGateway#name}
   */
   readonly name: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#transit_gateway_attachment_config CloudGatewayTransitGateway#transit_gateway_attachment_config}
   */
   readonly transitGatewayAttachmentConfig: CloudGatewayTransitGatewayGcpVpcPeeringTransitGatewayTransitGatewayAttachmentConfig;
 }
@@ -4311,7 +4311,7 @@ export class CloudGatewayTransitGatewayGcpvpcPeeringGatewayResponseOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway konnect_cloud_gateway_transit_gateway}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway konnect_cloud_gateway_transit_gateway}
 */
 export class CloudGatewayTransitGateway extends cdktf.TerraformResource {
 
@@ -4327,7 +4327,7 @@ export class CloudGatewayTransitGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGatewayTransitGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGatewayTransitGateway to import
-  * @param importFromId The id of the existing CloudGatewayTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGatewayTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGatewayTransitGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4339,7 +4339,7 @@ export class CloudGatewayTransitGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cloud_gateway_transit_gateway konnect_cloud_gateway_transit_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cloud_gateway_transit_gateway konnect_cloud_gateway_transit_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4350,8 +4350,8 @@ export class CloudGatewayTransitGateway extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_cloud_gateway_transit_gateway',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginPrometheusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#config GatewayPluginPrometheus#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#config GatewayPluginPrometheus#config}
   */
   readonly config?: GatewayPluginPrometheusConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#consumer GatewayPluginPrometheus#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#consumer GatewayPluginPrometheus#consumer}
   */
   readonly consumer?: GatewayPluginPrometheusConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#control_plane_id GatewayPluginPrometheus#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#control_plane_id GatewayPluginPrometheus#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#created_at GatewayPluginPrometheus#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#created_at GatewayPluginPrometheus#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#enabled GatewayPluginPrometheus#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#enabled GatewayPluginPrometheus#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginPrometheusConfig extends cdktf.TerraformMetaArgume
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#instance_name GatewayPluginPrometheus#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#instance_name GatewayPluginPrometheus#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#ordering GatewayPluginPrometheus#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#ordering GatewayPluginPrometheus#ordering}
   */
   readonly ordering?: GatewayPluginPrometheusOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#partials GatewayPluginPrometheus#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#partials GatewayPluginPrometheus#partials}
   */
   readonly partials?: GatewayPluginPrometheusPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#protocols GatewayPluginPrometheus#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#protocols GatewayPluginPrometheus#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#route GatewayPluginPrometheus#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#route GatewayPluginPrometheus#route}
   */
   readonly route?: GatewayPluginPrometheusRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#service GatewayPluginPrometheus#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#service GatewayPluginPrometheus#service}
   */
   readonly service?: GatewayPluginPrometheusService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#tags GatewayPluginPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#tags GatewayPluginPrometheus#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#updated_at GatewayPluginPrometheus#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#updated_at GatewayPluginPrometheus#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,41 +95,41 @@ export interface GatewayPluginPrometheusConfigA {
   /**
   * A boolean value that determines if ai metrics should be collected. If enabled, the `ai_llm_requests_total`, `ai_llm_cost_total` and `ai_llm_tokens_total` metrics will be exported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#ai_metrics GatewayPluginPrometheus#ai_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#ai_metrics GatewayPluginPrometheus#ai_metrics}
   */
   readonly aiMetrics?: boolean | cdktf.IResolvable;
   /**
   * A boolean value that determines if bandwidth metrics should be collected. If enabled, `bandwidth_bytes` and `stream_sessions_total` metrics will be exported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#bandwidth_metrics GatewayPluginPrometheus#bandwidth_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#bandwidth_metrics GatewayPluginPrometheus#bandwidth_metrics}
   */
   readonly bandwidthMetrics?: boolean | cdktf.IResolvable;
   /**
   * A boolean value that determines if latency metrics should be collected. If enabled, `kong_latency_ms`, `upstream_latency_ms` and `request_latency_ms` metrics will be exported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#latency_metrics GatewayPluginPrometheus#latency_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#latency_metrics GatewayPluginPrometheus#latency_metrics}
   */
   readonly latencyMetrics?: boolean | cdktf.IResolvable;
   /**
   * A boolean value that determines if per-consumer metrics should be collected. If enabled, the `kong_http_requests_total` and `kong_bandwidth_bytes` metrics fill in the consumer label when available. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#per_consumer GatewayPluginPrometheus#per_consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#per_consumer GatewayPluginPrometheus#per_consumer}
   */
   readonly perConsumer?: boolean | cdktf.IResolvable;
   /**
   * A boolean value that determines if status code metrics should be collected. If enabled, `http_requests_total`, `stream_sessions_total` metrics will be exported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#status_code_metrics GatewayPluginPrometheus#status_code_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#status_code_metrics GatewayPluginPrometheus#status_code_metrics}
   */
   readonly statusCodeMetrics?: boolean | cdktf.IResolvable;
   /**
   * A boolean value that determines if upstream metrics should be collected. If enabled, `upstream_target_health` metric will be exported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#upstream_health_metrics GatewayPluginPrometheus#upstream_health_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#upstream_health_metrics GatewayPluginPrometheus#upstream_health_metrics}
   */
   readonly upstreamHealthMetrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#wasm_metrics GatewayPluginPrometheus#wasm_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#wasm_metrics GatewayPluginPrometheus#wasm_metrics}
   */
   readonly wasmMetrics?: boolean | cdktf.IResolvable;
 }
@@ -397,7 +397,7 @@ export class GatewayPluginPrometheusConfigAOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginPrometheusConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -494,7 +494,7 @@ export class GatewayPluginPrometheusConsumerOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginPrometheusOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#access GatewayPluginPrometheus#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#access GatewayPluginPrometheus#access}
   */
   readonly access?: string[];
 }
@@ -588,7 +588,7 @@ export class GatewayPluginPrometheusOrderingAfterOutputReference extends cdktf.C
 }
 export interface GatewayPluginPrometheusOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#access GatewayPluginPrometheus#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#access GatewayPluginPrometheus#access}
   */
   readonly access?: string[];
 }
@@ -682,11 +682,11 @@ export class GatewayPluginPrometheusOrderingBeforeOutputReference extends cdktf.
 }
 export interface GatewayPluginPrometheusOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#after GatewayPluginPrometheus#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#after GatewayPluginPrometheus#after}
   */
   readonly after?: GatewayPluginPrometheusOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#before GatewayPluginPrometheus#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#before GatewayPluginPrometheus#before}
   */
   readonly before?: GatewayPluginPrometheusOrderingBefore;
 }
@@ -811,7 +811,7 @@ export interface GatewayPluginPrometheusPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,11 +820,11 @@ export interface GatewayPluginPrometheusPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#name GatewayPluginPrometheus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#name GatewayPluginPrometheus#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#path GatewayPluginPrometheus#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#path GatewayPluginPrometheus#path}
   */
   readonly path?: string;
 }
@@ -998,7 +998,7 @@ export class GatewayPluginPrometheusPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginPrometheusRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1095,7 +1095,7 @@ export class GatewayPluginPrometheusRouteOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginPrometheusService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#id GatewayPluginPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1192,7 +1192,7 @@ export class GatewayPluginPrometheusServiceOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus konnect_gateway_plugin_prometheus}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus konnect_gateway_plugin_prometheus}
 */
 export class GatewayPluginPrometheus extends cdktf.TerraformResource {
 
@@ -1208,7 +1208,7 @@ export class GatewayPluginPrometheus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginPrometheus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginPrometheus to import
-  * @param importFromId The id of the existing GatewayPluginPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginPrometheus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1220,7 +1220,7 @@ export class GatewayPluginPrometheus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_prometheus konnect_gateway_plugin_prometheus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_prometheus konnect_gateway_plugin_prometheus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1231,8 +1231,8 @@ export class GatewayPluginPrometheus extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface GatewayRouteExpressionConfig extends cdktf.TerraformMetaArgumen
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#control_plane_id GatewayRouteExpression#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#control_plane_id GatewayRouteExpression#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#created_at GatewayRouteExpression#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#created_at GatewayRouteExpression#created_at}
   */
   readonly createdAt?: number;
   /**
   * Use Router Expression to perform route match. This option is only available when `router_flavor` is set to `expressions`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#expression GatewayRouteExpression#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#expression GatewayRouteExpression#expression}
   */
   readonly expression?: string;
   /**
   * The status code Kong responds with when all properties of a Route match except the protocol i.e. if the protocol of the request is `HTTP` instead of `HTTPS`. `Location` header is injected by Kong if the field is set to 301, 302, 307 or 308. Note: This config applies only if the Route is configured to only accept the `https` protocol. Default: 426; must be one of ["301", "302", "307", "308", "426"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#https_redirect_status_code GatewayRouteExpression#https_redirect_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#https_redirect_status_code GatewayRouteExpression#https_redirect_status_code}
   */
   readonly httpsRedirectStatusCode?: number;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#id GatewayRouteExpression#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#id GatewayRouteExpression#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,73 +43,73 @@ export interface GatewayRouteExpressionConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the Route. Route names must be unique, and they are case sensitive. For example, there can be two different Routes named "test" and "Test".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#name GatewayRouteExpression#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#name GatewayRouteExpression#name}
   */
   readonly name?: string;
   /**
   * Controls how the Service path, Route path and requested path are combined when sending a request to the upstream. See above for a detailed description of each behavior. Default: "v0"; must be one of ["v0", "v1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#path_handling GatewayRouteExpression#path_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#path_handling GatewayRouteExpression#path_handling}
   */
   readonly pathHandling?: string;
   /**
   * When matching a Route via one of the `hosts` domain names, use the request `Host` header in the upstream request headers. If set to `false`, the upstream `Host` header will be that of the Service's `host`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#preserve_host GatewayRouteExpression#preserve_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#preserve_host GatewayRouteExpression#preserve_host}
   */
   readonly preserveHost?: boolean | cdktf.IResolvable;
   /**
   * A number used to specify the matching order for expression routes. The higher the `priority`, the sooner an route will be evaluated. This field is ignored unless `expression` field is set. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#priority GatewayRouteExpression#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#priority GatewayRouteExpression#priority}
   */
   readonly priority?: number;
   /**
   * An array of the protocols this Route should allow. See the [Route Object](#route-object) section for a list of accepted protocols. When set to only `"https"`, HTTP requests are answered with an upgrade error. When set to only `"http"`, HTTPS requests are answered with an error. Default: ["http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#protocols GatewayRouteExpression#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#protocols GatewayRouteExpression#protocols}
   */
   readonly protocols?: string[];
   /**
   * Whether to enable request body buffering or not. With HTTP 1.1, it may make sense to turn this off on services that receive data with chunked transfer encoding. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#request_buffering GatewayRouteExpression#request_buffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#request_buffering GatewayRouteExpression#request_buffering}
   */
   readonly requestBuffering?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable response body buffering or not. With HTTP 1.1, it may make sense to turn this off on services that send data with chunked transfer encoding. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#response_buffering GatewayRouteExpression#response_buffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#response_buffering GatewayRouteExpression#response_buffering}
   */
   readonly responseBuffering?: boolean | cdktf.IResolvable;
   /**
   * The Service this Route is associated to. This is where the Route proxies traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#service GatewayRouteExpression#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#service GatewayRouteExpression#service}
   */
   readonly service?: GatewayRouteExpressionService;
   /**
   * When matching a Route via one of the `paths`, strip the matching prefix from the upstream request URL. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#strip_path GatewayRouteExpression#strip_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#strip_path GatewayRouteExpression#strip_path}
   */
   readonly stripPath?: boolean | cdktf.IResolvable;
   /**
   * An optional set of strings associated with the Route for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#tags GatewayRouteExpression#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#tags GatewayRouteExpression#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#updated_at GatewayRouteExpression#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#updated_at GatewayRouteExpression#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewayRouteExpressionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#id GatewayRouteExpression#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#id GatewayRouteExpression#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -206,7 +206,7 @@ export class GatewayRouteExpressionServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression konnect_gateway_route_expression}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression konnect_gateway_route_expression}
 */
 export class GatewayRouteExpression extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class GatewayRouteExpression extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayRouteExpression resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayRouteExpression to import
-  * @param importFromId The id of the existing GatewayRouteExpression that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayRouteExpression that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayRouteExpression to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class GatewayRouteExpression extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_route_expression konnect_gateway_route_expression} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_route_expression konnect_gateway_route_expression} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class GatewayRouteExpression extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_route_expression',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

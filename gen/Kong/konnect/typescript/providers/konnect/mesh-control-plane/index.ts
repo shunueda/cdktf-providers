@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface MeshControlPlaneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#description MeshControlPlane#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#description MeshControlPlane#description}
   */
   readonly description?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#features MeshControlPlane#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#features MeshControlPlane#features}
   */
   readonly features?: MeshControlPlaneFeatures[] | cdktf.IResolvable;
   /**
   * Labels to facilitate tagged search on control planes. Keys must be of length 1-63 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#labels MeshControlPlane#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#labels MeshControlPlane#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#name MeshControlPlane#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#name MeshControlPlane#name}
   */
   readonly name: string;
 }
@@ -34,7 +34,7 @@ export interface MeshControlPlaneFeaturesHostnameGeneratorCreation {
   /**
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#enabled MeshControlPlane#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#enabled MeshControlPlane#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -130,7 +130,7 @@ export interface MeshControlPlaneFeaturesMeshCreation {
   /**
   * Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#enabled MeshControlPlane#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#enabled MeshControlPlane#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -226,19 +226,19 @@ export interface MeshControlPlaneFeatures {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#hostname_generator_creation MeshControlPlane#hostname_generator_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#hostname_generator_creation MeshControlPlane#hostname_generator_creation}
   */
   readonly hostnameGeneratorCreation?: MeshControlPlaneFeaturesHostnameGeneratorCreation;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#mesh_creation MeshControlPlane#mesh_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#mesh_creation MeshControlPlane#mesh_creation}
   */
   readonly meshCreation?: MeshControlPlaneFeaturesMeshCreation;
   /**
   * Not Null; must be one of ["MeshCreation", "HostnameGeneratorCreation"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#type MeshControlPlane#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#type MeshControlPlane#type}
   */
   readonly type?: string;
 }
@@ -412,7 +412,7 @@ export class MeshControlPlaneFeaturesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane konnect_mesh_control_plane}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane konnect_mesh_control_plane}
 */
 export class MeshControlPlane extends cdktf.TerraformResource {
 
@@ -428,7 +428,7 @@ export class MeshControlPlane extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MeshControlPlane resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MeshControlPlane to import
-  * @param importFromId The id of the existing MeshControlPlane that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MeshControlPlane that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MeshControlPlane to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -440,7 +440,7 @@ export class MeshControlPlane extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/mesh_control_plane konnect_mesh_control_plane} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/mesh_control_plane konnect_mesh_control_plane} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,8 +451,8 @@ export class MeshControlPlane extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_mesh_control_plane',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

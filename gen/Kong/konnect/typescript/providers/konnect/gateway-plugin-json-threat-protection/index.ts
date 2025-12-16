@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginJsonThreatProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#config GatewayPluginJsonThreatProtection#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#config GatewayPluginJsonThreatProtection#config}
   */
   readonly config?: GatewayPluginJsonThreatProtectionConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#control_plane_id GatewayPluginJsonThreatProtection#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#control_plane_id GatewayPluginJsonThreatProtection#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#created_at GatewayPluginJsonThreatProtection#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#created_at GatewayPluginJsonThreatProtection#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#enabled GatewayPluginJsonThreatProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#enabled GatewayPluginJsonThreatProtection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginJsonThreatProtectionConfig extends cdktf.Terraform
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#instance_name GatewayPluginJsonThreatProtection#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#instance_name GatewayPluginJsonThreatProtection#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#ordering GatewayPluginJsonThreatProtection#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#ordering GatewayPluginJsonThreatProtection#ordering}
   */
   readonly ordering?: GatewayPluginJsonThreatProtectionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#partials GatewayPluginJsonThreatProtection#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#partials GatewayPluginJsonThreatProtection#partials}
   */
   readonly partials?: GatewayPluginJsonThreatProtectionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#protocols GatewayPluginJsonThreatProtection#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#protocols GatewayPluginJsonThreatProtection#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#route GatewayPluginJsonThreatProtection#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#route GatewayPluginJsonThreatProtection#route}
   */
   readonly route?: GatewayPluginJsonThreatProtectionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#service GatewayPluginJsonThreatProtection#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#service GatewayPluginJsonThreatProtection#service}
   */
   readonly service?: GatewayPluginJsonThreatProtectionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#tags GatewayPluginJsonThreatProtection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#tags GatewayPluginJsonThreatProtection#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#updated_at GatewayPluginJsonThreatProtection#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#updated_at GatewayPluginJsonThreatProtection#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,61 +89,61 @@ export interface GatewayPluginJsonThreatProtectionConfigA {
   /**
   * Allow or disallow duplicate object entry name. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#allow_duplicate_object_entry_name GatewayPluginJsonThreatProtection#allow_duplicate_object_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#allow_duplicate_object_entry_name GatewayPluginJsonThreatProtection#allow_duplicate_object_entry_name}
   */
   readonly allowDuplicateObjectEntryName?: boolean | cdktf.IResolvable;
   /**
   * Enforcement mode of the security policy. Default: "block"; must be one of ["block", "log_only"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#enforcement_mode GatewayPluginJsonThreatProtection#enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#enforcement_mode GatewayPluginJsonThreatProtection#enforcement_mode}
   */
   readonly enforcementMode?: string;
   /**
   * The response message when validation fails. Default: "Bad Request"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#error_message GatewayPluginJsonThreatProtection#error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#error_message GatewayPluginJsonThreatProtection#error_message}
   */
   readonly errorMessage?: string;
   /**
   * The response status code when validation fails. Default: 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#error_status_code GatewayPluginJsonThreatProtection#error_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#error_status_code GatewayPluginJsonThreatProtection#error_status_code}
   */
   readonly errorStatusCode?: number;
   /**
   * Max number of elements in an array. -1 means unlimited. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#max_array_element_count GatewayPluginJsonThreatProtection#max_array_element_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#max_array_element_count GatewayPluginJsonThreatProtection#max_array_element_count}
   */
   readonly maxArrayElementCount?: number;
   /**
   * Max size of the request body. -1 means unlimited. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#max_body_size GatewayPluginJsonThreatProtection#max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#max_body_size GatewayPluginJsonThreatProtection#max_body_size}
   */
   readonly maxBodySize?: number;
   /**
   * Max nested depth of objects and arrays. -1 means unlimited. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#max_container_depth GatewayPluginJsonThreatProtection#max_container_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#max_container_depth GatewayPluginJsonThreatProtection#max_container_depth}
   */
   readonly maxContainerDepth?: number;
   /**
   * Max number of entries in an object. -1 means unlimited. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#max_object_entry_count GatewayPluginJsonThreatProtection#max_object_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#max_object_entry_count GatewayPluginJsonThreatProtection#max_object_entry_count}
   */
   readonly maxObjectEntryCount?: number;
   /**
   * Max string length of object name. -1 means unlimited. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#max_object_entry_name_length GatewayPluginJsonThreatProtection#max_object_entry_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#max_object_entry_name_length GatewayPluginJsonThreatProtection#max_object_entry_name_length}
   */
   readonly maxObjectEntryNameLength?: number;
   /**
   * Max string value length. -1 means unlimited. Default: -1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#max_string_value_length GatewayPluginJsonThreatProtection#max_string_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#max_string_value_length GatewayPluginJsonThreatProtection#max_string_value_length}
   */
   readonly maxStringValueLength?: number;
 }
@@ -498,7 +498,7 @@ export class GatewayPluginJsonThreatProtectionConfigAOutputReference extends cdk
 }
 export interface GatewayPluginJsonThreatProtectionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#access GatewayPluginJsonThreatProtection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#access GatewayPluginJsonThreatProtection#access}
   */
   readonly access?: string[];
 }
@@ -592,7 +592,7 @@ export class GatewayPluginJsonThreatProtectionOrderingAfterOutputReference exten
 }
 export interface GatewayPluginJsonThreatProtectionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#access GatewayPluginJsonThreatProtection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#access GatewayPluginJsonThreatProtection#access}
   */
   readonly access?: string[];
 }
@@ -686,11 +686,11 @@ export class GatewayPluginJsonThreatProtectionOrderingBeforeOutputReference exte
 }
 export interface GatewayPluginJsonThreatProtectionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#after GatewayPluginJsonThreatProtection#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#after GatewayPluginJsonThreatProtection#after}
   */
   readonly after?: GatewayPluginJsonThreatProtectionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#before GatewayPluginJsonThreatProtection#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#before GatewayPluginJsonThreatProtection#before}
   */
   readonly before?: GatewayPluginJsonThreatProtectionOrderingBefore;
 }
@@ -815,7 +815,7 @@ export interface GatewayPluginJsonThreatProtectionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -824,11 +824,11 @@ export interface GatewayPluginJsonThreatProtectionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#name GatewayPluginJsonThreatProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#name GatewayPluginJsonThreatProtection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#path GatewayPluginJsonThreatProtection#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#path GatewayPluginJsonThreatProtection#path}
   */
   readonly path?: string;
 }
@@ -1002,7 +1002,7 @@ export class GatewayPluginJsonThreatProtectionPartialsList extends cdktf.Complex
 }
 export interface GatewayPluginJsonThreatProtectionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1099,7 +1099,7 @@ export class GatewayPluginJsonThreatProtectionRouteOutputReference extends cdktf
 }
 export interface GatewayPluginJsonThreatProtectionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#id GatewayPluginJsonThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1196,7 +1196,7 @@ export class GatewayPluginJsonThreatProtectionServiceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection konnect_gateway_plugin_json_threat_protection}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection konnect_gateway_plugin_json_threat_protection}
 */
 export class GatewayPluginJsonThreatProtection extends cdktf.TerraformResource {
 
@@ -1212,7 +1212,7 @@ export class GatewayPluginJsonThreatProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginJsonThreatProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginJsonThreatProtection to import
-  * @param importFromId The id of the existing GatewayPluginJsonThreatProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginJsonThreatProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginJsonThreatProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1224,7 +1224,7 @@ export class GatewayPluginJsonThreatProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_json_threat_protection konnect_gateway_plugin_json_threat_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_json_threat_protection konnect_gateway_plugin_json_threat_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1235,8 +1235,8 @@ export class GatewayPluginJsonThreatProtection extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_json_threat_protection',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

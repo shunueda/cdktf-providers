@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginGrpcWebConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#config GatewayPluginGrpcWeb#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#config GatewayPluginGrpcWeb#config}
   */
   readonly config?: GatewayPluginGrpcWebConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#consumer GatewayPluginGrpcWeb#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#consumer GatewayPluginGrpcWeb#consumer}
   */
   readonly consumer?: GatewayPluginGrpcWebConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#control_plane_id GatewayPluginGrpcWeb#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#control_plane_id GatewayPluginGrpcWeb#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#created_at GatewayPluginGrpcWeb#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#created_at GatewayPluginGrpcWeb#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#enabled GatewayPluginGrpcWeb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#enabled GatewayPluginGrpcWeb#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginGrpcWebConfig extends cdktf.TerraformMetaArguments
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#instance_name GatewayPluginGrpcWeb#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#instance_name GatewayPluginGrpcWeb#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#ordering GatewayPluginGrpcWeb#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#ordering GatewayPluginGrpcWeb#ordering}
   */
   readonly ordering?: GatewayPluginGrpcWebOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#partials GatewayPluginGrpcWeb#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#partials GatewayPluginGrpcWeb#partials}
   */
   readonly partials?: GatewayPluginGrpcWebPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#protocols GatewayPluginGrpcWeb#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#protocols GatewayPluginGrpcWeb#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#route GatewayPluginGrpcWeb#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#route GatewayPluginGrpcWeb#route}
   */
   readonly route?: GatewayPluginGrpcWebRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#service GatewayPluginGrpcWeb#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#service GatewayPluginGrpcWeb#service}
   */
   readonly service?: GatewayPluginGrpcWebService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#tags GatewayPluginGrpcWeb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#tags GatewayPluginGrpcWeb#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#updated_at GatewayPluginGrpcWeb#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#updated_at GatewayPluginGrpcWeb#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,19 +95,19 @@ export interface GatewayPluginGrpcWebConfigA {
   /**
   * The value of the `Access-Control-Allow-Origin` header in the response to the gRPC-Web client. Default: "*"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#allow_origin_header GatewayPluginGrpcWeb#allow_origin_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#allow_origin_header GatewayPluginGrpcWeb#allow_origin_header}
   */
   readonly allowOriginHeader?: string;
   /**
   * If set to `true` causes the plugin to pass the stripped request path to the upstream gRPC service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#pass_stripped_path GatewayPluginGrpcWeb#pass_stripped_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#pass_stripped_path GatewayPluginGrpcWeb#pass_stripped_path}
   */
   readonly passStrippedPath?: boolean | cdktf.IResolvable;
   /**
   * If present, describes the gRPC types and methods. Required to support payload transcoding. When absent, the web client must use application/grpw-web+proto content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#proto GatewayPluginGrpcWeb#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#proto GatewayPluginGrpcWeb#proto}
   */
   readonly proto?: string;
 }
@@ -259,7 +259,7 @@ export class GatewayPluginGrpcWebConfigAOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginGrpcWebConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -356,7 +356,7 @@ export class GatewayPluginGrpcWebConsumerOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginGrpcWebOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#access GatewayPluginGrpcWeb#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#access GatewayPluginGrpcWeb#access}
   */
   readonly access?: string[];
 }
@@ -450,7 +450,7 @@ export class GatewayPluginGrpcWebOrderingAfterOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginGrpcWebOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#access GatewayPluginGrpcWeb#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#access GatewayPluginGrpcWeb#access}
   */
   readonly access?: string[];
 }
@@ -544,11 +544,11 @@ export class GatewayPluginGrpcWebOrderingBeforeOutputReference extends cdktf.Com
 }
 export interface GatewayPluginGrpcWebOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#after GatewayPluginGrpcWeb#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#after GatewayPluginGrpcWeb#after}
   */
   readonly after?: GatewayPluginGrpcWebOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#before GatewayPluginGrpcWeb#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#before GatewayPluginGrpcWeb#before}
   */
   readonly before?: GatewayPluginGrpcWebOrderingBefore;
 }
@@ -673,7 +673,7 @@ export interface GatewayPluginGrpcWebPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -682,11 +682,11 @@ export interface GatewayPluginGrpcWebPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#name GatewayPluginGrpcWeb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#name GatewayPluginGrpcWeb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#path GatewayPluginGrpcWeb#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#path GatewayPluginGrpcWeb#path}
   */
   readonly path?: string;
 }
@@ -860,7 +860,7 @@ export class GatewayPluginGrpcWebPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginGrpcWebRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,7 +957,7 @@ export class GatewayPluginGrpcWebRouteOutputReference extends cdktf.ComplexObjec
 }
 export interface GatewayPluginGrpcWebService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#id GatewayPluginGrpcWeb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1054,7 +1054,7 @@ export class GatewayPluginGrpcWebServiceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web konnect_gateway_plugin_grpc_web}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web konnect_gateway_plugin_grpc_web}
 */
 export class GatewayPluginGrpcWeb extends cdktf.TerraformResource {
 
@@ -1070,7 +1070,7 @@ export class GatewayPluginGrpcWeb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginGrpcWeb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginGrpcWeb to import
-  * @param importFromId The id of the existing GatewayPluginGrpcWeb that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginGrpcWeb that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginGrpcWeb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1082,7 +1082,7 @@ export class GatewayPluginGrpcWeb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_grpc_web konnect_gateway_plugin_grpc_web} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_grpc_web konnect_gateway_plugin_grpc_web} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1093,8 +1093,8 @@ export class GatewayPluginGrpcWeb extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_grpc_web',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

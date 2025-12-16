@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/alert_sources
+// https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/data-sources/alert_sources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIncidentAlertSourcesConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter alert sources by source type (e.g., 'webhook', 'email', 'jira'). If provided, only alert sources of this type will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/alert_sources#source_type DataIncidentAlertSources#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/data-sources/alert_sources#source_type DataIncidentAlertSources#source_type}
   */
   readonly sourceType?: string;
 }
@@ -2496,7 +2496,7 @@ export class DataIncidentAlertSourcesAlertSourcesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/alert_sources incident_alert_sources}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/data-sources/alert_sources incident_alert_sources}
 */
 export class DataIncidentAlertSources extends cdktf.TerraformDataSource {
 
@@ -2512,7 +2512,7 @@ export class DataIncidentAlertSources extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncidentAlertSources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncidentAlertSources to import
-  * @param importFromId The id of the existing DataIncidentAlertSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/alert_sources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncidentAlertSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/data-sources/alert_sources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncidentAlertSources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2524,7 +2524,7 @@ export class DataIncidentAlertSources extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/data-sources/alert_sources incident_alert_sources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/data-sources/alert_sources incident_alert_sources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2535,8 +2535,8 @@ export class DataIncidentAlertSources extends cdktf.TerraformDataSource {
       terraformResourceType: 'incident_alert_sources',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.21.1',
-        providerVersionConstraint: '5.21.1'
+        providerVersion: '5.22.0',
+        providerVersionConstraint: '5.22.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

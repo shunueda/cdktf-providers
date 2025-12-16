@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface GatewayPluginAiMcpOauth2Config extends cdktf.TerraformMetaArgum
   /**
   * The configuration for MCP authorization in OAuth2. If this is enabled, make sure the configured metadata_endpoint is also covered by the same route so the authorization can be applied correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#config GatewayPluginAiMcpOauth2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#config GatewayPluginAiMcpOauth2#config}
   */
   readonly config?: GatewayPluginAiMcpOauth2ConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#control_plane_id GatewayPluginAiMcpOauth2#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#control_plane_id GatewayPluginAiMcpOauth2#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#created_at GatewayPluginAiMcpOauth2#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#created_at GatewayPluginAiMcpOauth2#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#enabled GatewayPluginAiMcpOauth2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#enabled GatewayPluginAiMcpOauth2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,47 +43,47 @@ export interface GatewayPluginAiMcpOauth2Config extends cdktf.TerraformMetaArgum
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#instance_name GatewayPluginAiMcpOauth2#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#instance_name GatewayPluginAiMcpOauth2#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#ordering GatewayPluginAiMcpOauth2#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#ordering GatewayPluginAiMcpOauth2#ordering}
   */
   readonly ordering?: GatewayPluginAiMcpOauth2Ordering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#partials GatewayPluginAiMcpOauth2#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#partials GatewayPluginAiMcpOauth2#partials}
   */
   readonly partials?: GatewayPluginAiMcpOauth2Partials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#protocols GatewayPluginAiMcpOauth2#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#protocols GatewayPluginAiMcpOauth2#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#route GatewayPluginAiMcpOauth2#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#route GatewayPluginAiMcpOauth2#route}
   */
   readonly route?: GatewayPluginAiMcpOauth2Route;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#service GatewayPluginAiMcpOauth2#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#service GatewayPluginAiMcpOauth2#service}
   */
   readonly service?: GatewayPluginAiMcpOauth2Service;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#tags GatewayPluginAiMcpOauth2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#tags GatewayPluginAiMcpOauth2#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#updated_at GatewayPluginAiMcpOauth2#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#updated_at GatewayPluginAiMcpOauth2#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -91,13 +91,13 @@ export interface GatewayPluginAiMcpOauth2ConfigClaimToHeader {
   /**
   * The claim name to be used in the access token. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#claim GatewayPluginAiMcpOauth2#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#claim GatewayPluginAiMcpOauth2#claim}
   */
   readonly claim?: string;
   /**
   * The HTTP header name to be used for forwarding the claim value to the upstream. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#header GatewayPluginAiMcpOauth2#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#header GatewayPluginAiMcpOauth2#header}
   */
   readonly header?: string;
 }
@@ -244,175 +244,175 @@ export interface GatewayPluginAiMcpOauth2ConfigA {
   /**
   * Additional arguments to send in the POST body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#args GatewayPluginAiMcpOauth2#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#args GatewayPluginAiMcpOauth2#args}
   */
   readonly args?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#authorization_servers GatewayPluginAiMcpOauth2#authorization_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#authorization_servers GatewayPluginAiMcpOauth2#authorization_servers}
   */
   readonly authorizationServers: string[];
   /**
   * If enabled, the plugin will cache the introspection response for the access token. This can improve performance by reducing the number of introspection requests to the authorization server. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#cache_introspection GatewayPluginAiMcpOauth2#cache_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#cache_introspection GatewayPluginAiMcpOauth2#cache_introspection}
   */
   readonly cacheIntrospection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#claim_to_header GatewayPluginAiMcpOauth2#claim_to_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#claim_to_header GatewayPluginAiMcpOauth2#claim_to_header}
   */
   readonly claimToHeader?: GatewayPluginAiMcpOauth2ConfigClaimToHeader[] | cdktf.IResolvable;
   /**
   * The client JWT signing algorithm. must be one of ["ES256", "ES384", "ES512", "EdDSA", "HS256", "HS384", "HS512", "PS256", "PS384", "PS512", "RS256", "RS384", "RS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#client_alg GatewayPluginAiMcpOauth2#client_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#client_alg GatewayPluginAiMcpOauth2#client_alg}
   */
   readonly clientAlg?: string;
   /**
   * The client authentication method. must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none", "private_key_jwt", "self_signed_tls_client_auth", "tls_client_auth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#client_auth GatewayPluginAiMcpOauth2#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#client_auth GatewayPluginAiMcpOauth2#client_auth}
   */
   readonly clientAuth?: string;
   /**
   * The client ID for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#client_id GatewayPluginAiMcpOauth2#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#client_id GatewayPluginAiMcpOauth2#client_id}
   */
   readonly clientId: string;
   /**
   * The client JWK for private_key_jwt authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#client_jwk GatewayPluginAiMcpOauth2#client_jwk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#client_jwk GatewayPluginAiMcpOauth2#client_jwk}
   */
   readonly clientJwk?: string;
   /**
   * The client secret for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#client_secret GatewayPluginAiMcpOauth2#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#client_secret GatewayPluginAiMcpOauth2#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Additional headers for the introspection request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#headers GatewayPluginAiMcpOauth2#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#headers GatewayPluginAiMcpOauth2#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * HTTP proxy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#http_proxy GatewayPluginAiMcpOauth2#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#http_proxy GatewayPluginAiMcpOauth2#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * HTTP proxy authorization header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#http_proxy_authorization GatewayPluginAiMcpOauth2#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#http_proxy_authorization GatewayPluginAiMcpOauth2#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#http_version GatewayPluginAiMcpOauth2#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#http_version GatewayPluginAiMcpOauth2#http_version}
   */
   readonly httpVersion?: number;
   /**
   * HTTPS proxy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#https_proxy GatewayPluginAiMcpOauth2#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#https_proxy GatewayPluginAiMcpOauth2#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * HTTPS proxy authorization header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#https_proxy_authorization GatewayPluginAiMcpOauth2#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#https_proxy_authorization GatewayPluginAiMcpOauth2#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * If enabled, the plugin will not validate the audience of the access token. Disable it if the authorization server does not correctly set the audience claim according to RFC 8707 and MCP specification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#insecure_relaxed_audience_validation GatewayPluginAiMcpOauth2#insecure_relaxed_audience_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#insecure_relaxed_audience_validation GatewayPluginAiMcpOauth2#insecure_relaxed_audience_validation}
   */
   readonly insecureRelaxedAudienceValidation?: boolean | cdktf.IResolvable;
   /**
   * The introspection endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#introspection_endpoint GatewayPluginAiMcpOauth2#introspection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#introspection_endpoint GatewayPluginAiMcpOauth2#introspection_endpoint}
   */
   readonly introspectionEndpoint: string;
   /**
   * Controls introspection response format. must be one of ["base64", "base64url", "string"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#introspection_format GatewayPluginAiMcpOauth2#introspection_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#introspection_format GatewayPluginAiMcpOauth2#introspection_format}
   */
   readonly introspectionFormat?: string;
   /**
   * Enable HTTP keepalive for requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#keepalive GatewayPluginAiMcpOauth2#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#keepalive GatewayPluginAiMcpOauth2#keepalive}
   */
   readonly keepalive?: boolean | cdktf.IResolvable;
   /**
   * max allowed body size allowed to be handled as MCP request. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#max_request_body_size GatewayPluginAiMcpOauth2#max_request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#max_request_body_size GatewayPluginAiMcpOauth2#max_request_body_size}
   */
   readonly maxRequestBodySize?: number;
   /**
   * The path for OAuth 2.0 Protected Resource Metadata. Default to $resource/.well-known/oauth-protected-resource. For example, if the configured resource is https://api.example.com/mcp, the metadata endpoint is /mcp/.well-known/oauth-protected-resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#metadata_endpoint GatewayPluginAiMcpOauth2#metadata_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#metadata_endpoint GatewayPluginAiMcpOauth2#metadata_endpoint}
   */
   readonly metadataEndpoint?: string;
   /**
   * The mTLS alias for the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#mtls_introspection_endpoint GatewayPluginAiMcpOauth2#mtls_introspection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#mtls_introspection_endpoint GatewayPluginAiMcpOauth2#mtls_introspection_endpoint}
   */
   readonly mtlsIntrospectionEndpoint?: string;
   /**
   * Comma-separated list of hosts to exclude from proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#no_proxy GatewayPluginAiMcpOauth2#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#no_proxy GatewayPluginAiMcpOauth2#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#resource GatewayPluginAiMcpOauth2#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#resource GatewayPluginAiMcpOauth2#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#scopes_supported GatewayPluginAiMcpOauth2#scopes_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#scopes_supported GatewayPluginAiMcpOauth2#scopes_supported}
   */
   readonly scopesSupported?: string[];
   /**
   * Verify the SSL certificate. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#ssl_verify GatewayPluginAiMcpOauth2#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#ssl_verify GatewayPluginAiMcpOauth2#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network I/O timeout in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#timeout GatewayPluginAiMcpOauth2#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#timeout GatewayPluginAiMcpOauth2#timeout}
   */
   readonly timeout?: number;
   /**
   * PEM-encoded client certificate for mTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#tls_client_auth_cert GatewayPluginAiMcpOauth2#tls_client_auth_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#tls_client_auth_cert GatewayPluginAiMcpOauth2#tls_client_auth_cert}
   */
   readonly tlsClientAuthCert?: string;
   /**
   * PEM-encoded private key for mTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#tls_client_auth_key GatewayPluginAiMcpOauth2#tls_client_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#tls_client_auth_key GatewayPluginAiMcpOauth2#tls_client_auth_key}
   */
   readonly tlsClientAuthKey?: string;
   /**
   * Verify server certificate in mTLS. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#tls_client_auth_ssl_verify GatewayPluginAiMcpOauth2#tls_client_auth_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#tls_client_auth_ssl_verify GatewayPluginAiMcpOauth2#tls_client_auth_ssl_verify}
   */
   readonly tlsClientAuthSslVerify?: boolean | cdktf.IResolvable;
 }
@@ -1335,7 +1335,7 @@ export class GatewayPluginAiMcpOauth2ConfigAOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginAiMcpOauth2OrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#access GatewayPluginAiMcpOauth2#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#access GatewayPluginAiMcpOauth2#access}
   */
   readonly access?: string[];
 }
@@ -1429,7 +1429,7 @@ export class GatewayPluginAiMcpOauth2OrderingAfterOutputReference extends cdktf.
 }
 export interface GatewayPluginAiMcpOauth2OrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#access GatewayPluginAiMcpOauth2#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#access GatewayPluginAiMcpOauth2#access}
   */
   readonly access?: string[];
 }
@@ -1523,11 +1523,11 @@ export class GatewayPluginAiMcpOauth2OrderingBeforeOutputReference extends cdktf
 }
 export interface GatewayPluginAiMcpOauth2Ordering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#after GatewayPluginAiMcpOauth2#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#after GatewayPluginAiMcpOauth2#after}
   */
   readonly after?: GatewayPluginAiMcpOauth2OrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#before GatewayPluginAiMcpOauth2#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#before GatewayPluginAiMcpOauth2#before}
   */
   readonly before?: GatewayPluginAiMcpOauth2OrderingBefore;
 }
@@ -1652,7 +1652,7 @@ export interface GatewayPluginAiMcpOauth2Partials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1661,11 +1661,11 @@ export interface GatewayPluginAiMcpOauth2Partials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#name GatewayPluginAiMcpOauth2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#name GatewayPluginAiMcpOauth2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#path GatewayPluginAiMcpOauth2#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#path GatewayPluginAiMcpOauth2#path}
   */
   readonly path?: string;
 }
@@ -1839,7 +1839,7 @@ export class GatewayPluginAiMcpOauth2PartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAiMcpOauth2Route {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1936,7 +1936,7 @@ export class GatewayPluginAiMcpOauth2RouteOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginAiMcpOauth2Service {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#id GatewayPluginAiMcpOauth2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2033,7 +2033,7 @@ export class GatewayPluginAiMcpOauth2ServiceOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2 konnect_gateway_plugin_ai_mcp_oauth2}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2 konnect_gateway_plugin_ai_mcp_oauth2}
 */
 export class GatewayPluginAiMcpOauth2 extends cdktf.TerraformResource {
 
@@ -2049,7 +2049,7 @@ export class GatewayPluginAiMcpOauth2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiMcpOauth2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiMcpOauth2 to import
-  * @param importFromId The id of the existing GatewayPluginAiMcpOauth2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiMcpOauth2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiMcpOauth2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2061,7 +2061,7 @@ export class GatewayPluginAiMcpOauth2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_oauth2 konnect_gateway_plugin_ai_mcp_oauth2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_oauth2 konnect_gateway_plugin_ai_mcp_oauth2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2072,8 +2072,8 @@ export class GatewayPluginAiMcpOauth2 extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_mcp_oauth2',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

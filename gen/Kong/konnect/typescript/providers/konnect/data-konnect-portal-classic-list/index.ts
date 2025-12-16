@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataKonnectPortalClassicListConfig extends cdktf.TerraformMetaA
   /**
   * Determines which page of the entities to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list#page_number DataKonnectPortalClassicList#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list#page_number DataKonnectPortalClassicList#page_number}
   */
   readonly pageNumber?: number;
   /**
   * The maximum number of items to include per page. The last page of a collection may include fewer items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list#page_size DataKonnectPortalClassicList#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list#page_size DataKonnectPortalClassicList#page_size}
   */
   readonly pageSize?: number;
   /**
@@ -33,7 +33,7 @@ export interface DataKonnectPortalClassicListConfig extends cdktf.TerraformMetaA
   *   - created_at
   *   - updated_at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list#sort DataKonnectPortalClassicList#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list#sort DataKonnectPortalClassicList#sort}
   */
   readonly sort?: string;
 }
@@ -200,7 +200,7 @@ export class DataKonnectPortalClassicListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list konnect_portal_classic_list}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list konnect_portal_classic_list}
 */
 export class DataKonnectPortalClassicList extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataKonnectPortalClassicList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKonnectPortalClassicList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKonnectPortalClassicList to import
-  * @param importFromId The id of the existing DataKonnectPortalClassicList that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKonnectPortalClassicList that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKonnectPortalClassicList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataKonnectPortalClassicList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/data-sources/portal_classic_list konnect_portal_classic_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/data-sources/portal_classic_list konnect_portal_classic_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataKonnectPortalClassicList extends cdktf.TerraformDataSource {
       terraformResourceType: 'konnect_portal_classic_list',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

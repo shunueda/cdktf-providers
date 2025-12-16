@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginTlsMetadataHeadersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#config GatewayPluginTlsMetadataHeaders#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#config GatewayPluginTlsMetadataHeaders#config}
   */
   readonly config?: GatewayPluginTlsMetadataHeadersConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#control_plane_id GatewayPluginTlsMetadataHeaders#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#control_plane_id GatewayPluginTlsMetadataHeaders#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#created_at GatewayPluginTlsMetadataHeaders#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#created_at GatewayPluginTlsMetadataHeaders#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#enabled GatewayPluginTlsMetadataHeaders#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#enabled GatewayPluginTlsMetadataHeaders#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginTlsMetadataHeadersConfig extends cdktf.TerraformMe
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#instance_name GatewayPluginTlsMetadataHeaders#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#instance_name GatewayPluginTlsMetadataHeaders#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#ordering GatewayPluginTlsMetadataHeaders#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#ordering GatewayPluginTlsMetadataHeaders#ordering}
   */
   readonly ordering?: GatewayPluginTlsMetadataHeadersOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#partials GatewayPluginTlsMetadataHeaders#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#partials GatewayPluginTlsMetadataHeaders#partials}
   */
   readonly partials?: GatewayPluginTlsMetadataHeadersPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpcs","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#protocols GatewayPluginTlsMetadataHeaders#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#protocols GatewayPluginTlsMetadataHeaders#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#route GatewayPluginTlsMetadataHeaders#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#route GatewayPluginTlsMetadataHeaders#route}
   */
   readonly route?: GatewayPluginTlsMetadataHeadersRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#service GatewayPluginTlsMetadataHeaders#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#service GatewayPluginTlsMetadataHeaders#service}
   */
   readonly service?: GatewayPluginTlsMetadataHeadersService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#tags GatewayPluginTlsMetadataHeaders#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#tags GatewayPluginTlsMetadataHeaders#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#updated_at GatewayPluginTlsMetadataHeaders#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#updated_at GatewayPluginTlsMetadataHeaders#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,37 +89,37 @@ export interface GatewayPluginTlsMetadataHeadersConfigA {
   /**
   * Define the HTTP header name used for the SHA1 fingerprint of the client certificate. Default: "X-Client-Cert-Fingerprint"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_fingerprint_header_name GatewayPluginTlsMetadataHeaders#client_cert_fingerprint_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_fingerprint_header_name GatewayPluginTlsMetadataHeaders#client_cert_fingerprint_header_name}
   */
   readonly clientCertFingerprintHeaderName?: string;
   /**
   * Define the HTTP header name used for the PEM format URL encoded client certificate. Default: "X-Client-Cert"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_header_name GatewayPluginTlsMetadataHeaders#client_cert_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_header_name GatewayPluginTlsMetadataHeaders#client_cert_header_name}
   */
   readonly clientCertHeaderName?: string;
   /**
   * Define the HTTP header name used for the issuer DN of the client certificate. Default: "X-Client-Cert-Issuer-DN"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_issuer_dn_header_name GatewayPluginTlsMetadataHeaders#client_cert_issuer_dn_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_issuer_dn_header_name GatewayPluginTlsMetadataHeaders#client_cert_issuer_dn_header_name}
   */
   readonly clientCertIssuerDnHeaderName?: string;
   /**
   * Define the HTTP header name used for the subject DN of the client certificate. Default: "X-Client-Cert-Subject-DN"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_subject_dn_header_name GatewayPluginTlsMetadataHeaders#client_cert_subject_dn_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#client_cert_subject_dn_header_name GatewayPluginTlsMetadataHeaders#client_cert_subject_dn_header_name}
   */
   readonly clientCertSubjectDnHeaderName?: string;
   /**
   * Define the HTTP header name used for the serial number of the client certificate. Default: "X-Client-Cert-Serial"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#client_serial_header_name GatewayPluginTlsMetadataHeaders#client_serial_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#client_serial_header_name GatewayPluginTlsMetadataHeaders#client_serial_header_name}
   */
   readonly clientSerialHeaderName?: string;
   /**
   * Enables TLS client certificate metadata values to be injected into HTTP headers. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#inject_client_cert_details GatewayPluginTlsMetadataHeaders#inject_client_cert_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#inject_client_cert_details GatewayPluginTlsMetadataHeaders#inject_client_cert_details}
   */
   readonly injectClientCertDetails?: boolean | cdktf.IResolvable;
 }
@@ -358,7 +358,7 @@ export class GatewayPluginTlsMetadataHeadersConfigAOutputReference extends cdktf
 }
 export interface GatewayPluginTlsMetadataHeadersOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#access GatewayPluginTlsMetadataHeaders#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#access GatewayPluginTlsMetadataHeaders#access}
   */
   readonly access?: string[];
 }
@@ -452,7 +452,7 @@ export class GatewayPluginTlsMetadataHeadersOrderingAfterOutputReference extends
 }
 export interface GatewayPluginTlsMetadataHeadersOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#access GatewayPluginTlsMetadataHeaders#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#access GatewayPluginTlsMetadataHeaders#access}
   */
   readonly access?: string[];
 }
@@ -546,11 +546,11 @@ export class GatewayPluginTlsMetadataHeadersOrderingBeforeOutputReference extend
 }
 export interface GatewayPluginTlsMetadataHeadersOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#after GatewayPluginTlsMetadataHeaders#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#after GatewayPluginTlsMetadataHeaders#after}
   */
   readonly after?: GatewayPluginTlsMetadataHeadersOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#before GatewayPluginTlsMetadataHeaders#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#before GatewayPluginTlsMetadataHeaders#before}
   */
   readonly before?: GatewayPluginTlsMetadataHeadersOrderingBefore;
 }
@@ -675,7 +675,7 @@ export interface GatewayPluginTlsMetadataHeadersPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -684,11 +684,11 @@ export interface GatewayPluginTlsMetadataHeadersPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#name GatewayPluginTlsMetadataHeaders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#name GatewayPluginTlsMetadataHeaders#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#path GatewayPluginTlsMetadataHeaders#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#path GatewayPluginTlsMetadataHeaders#path}
   */
   readonly path?: string;
 }
@@ -862,7 +862,7 @@ export class GatewayPluginTlsMetadataHeadersPartialsList extends cdktf.ComplexLi
 }
 export interface GatewayPluginTlsMetadataHeadersRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -959,7 +959,7 @@ export class GatewayPluginTlsMetadataHeadersRouteOutputReference extends cdktf.C
 }
 export interface GatewayPluginTlsMetadataHeadersService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#id GatewayPluginTlsMetadataHeaders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1056,7 +1056,7 @@ export class GatewayPluginTlsMetadataHeadersServiceOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers konnect_gateway_plugin_tls_metadata_headers}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers konnect_gateway_plugin_tls_metadata_headers}
 */
 export class GatewayPluginTlsMetadataHeaders extends cdktf.TerraformResource {
 
@@ -1072,7 +1072,7 @@ export class GatewayPluginTlsMetadataHeaders extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginTlsMetadataHeaders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginTlsMetadataHeaders to import
-  * @param importFromId The id of the existing GatewayPluginTlsMetadataHeaders that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginTlsMetadataHeaders that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginTlsMetadataHeaders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1084,7 +1084,7 @@ export class GatewayPluginTlsMetadataHeaders extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_metadata_headers konnect_gateway_plugin_tls_metadata_headers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_metadata_headers konnect_gateway_plugin_tls_metadata_headers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1095,8 +1095,8 @@ export class GatewayPluginTlsMetadataHeaders extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_tls_metadata_headers',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

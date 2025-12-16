@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginTlsHandshakeModifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#config GatewayPluginTlsHandshakeModifier#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#config GatewayPluginTlsHandshakeModifier#config}
   */
   readonly config?: GatewayPluginTlsHandshakeModifierConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#control_plane_id GatewayPluginTlsHandshakeModifier#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#control_plane_id GatewayPluginTlsHandshakeModifier#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#created_at GatewayPluginTlsHandshakeModifier#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#created_at GatewayPluginTlsHandshakeModifier#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#enabled GatewayPluginTlsHandshakeModifier#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#enabled GatewayPluginTlsHandshakeModifier#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginTlsHandshakeModifierConfig extends cdktf.Terraform
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#instance_name GatewayPluginTlsHandshakeModifier#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#instance_name GatewayPluginTlsHandshakeModifier#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#ordering GatewayPluginTlsHandshakeModifier#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#ordering GatewayPluginTlsHandshakeModifier#ordering}
   */
   readonly ordering?: GatewayPluginTlsHandshakeModifierOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#partials GatewayPluginTlsHandshakeModifier#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#partials GatewayPluginTlsHandshakeModifier#partials}
   */
   readonly partials?: GatewayPluginTlsHandshakeModifierPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpcs","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#protocols GatewayPluginTlsHandshakeModifier#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#protocols GatewayPluginTlsHandshakeModifier#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#route GatewayPluginTlsHandshakeModifier#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#route GatewayPluginTlsHandshakeModifier#route}
   */
   readonly route?: GatewayPluginTlsHandshakeModifierRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#service GatewayPluginTlsHandshakeModifier#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#service GatewayPluginTlsHandshakeModifier#service}
   */
   readonly service?: GatewayPluginTlsHandshakeModifierService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#tags GatewayPluginTlsHandshakeModifier#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#tags GatewayPluginTlsHandshakeModifier#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#updated_at GatewayPluginTlsHandshakeModifier#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#updated_at GatewayPluginTlsHandshakeModifier#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,7 +89,7 @@ export interface GatewayPluginTlsHandshakeModifierConfigA {
   /**
   * TLS Client Certificate. Default: "REQUEST"; must be "REQUEST"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#tls_client_certificate GatewayPluginTlsHandshakeModifier#tls_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#tls_client_certificate GatewayPluginTlsHandshakeModifier#tls_client_certificate}
   */
   readonly tlsClientCertificate?: string;
 }
@@ -183,7 +183,7 @@ export class GatewayPluginTlsHandshakeModifierConfigAOutputReference extends cdk
 }
 export interface GatewayPluginTlsHandshakeModifierOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#access GatewayPluginTlsHandshakeModifier#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#access GatewayPluginTlsHandshakeModifier#access}
   */
   readonly access?: string[];
 }
@@ -277,7 +277,7 @@ export class GatewayPluginTlsHandshakeModifierOrderingAfterOutputReference exten
 }
 export interface GatewayPluginTlsHandshakeModifierOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#access GatewayPluginTlsHandshakeModifier#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#access GatewayPluginTlsHandshakeModifier#access}
   */
   readonly access?: string[];
 }
@@ -371,11 +371,11 @@ export class GatewayPluginTlsHandshakeModifierOrderingBeforeOutputReference exte
 }
 export interface GatewayPluginTlsHandshakeModifierOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#after GatewayPluginTlsHandshakeModifier#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#after GatewayPluginTlsHandshakeModifier#after}
   */
   readonly after?: GatewayPluginTlsHandshakeModifierOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#before GatewayPluginTlsHandshakeModifier#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#before GatewayPluginTlsHandshakeModifier#before}
   */
   readonly before?: GatewayPluginTlsHandshakeModifierOrderingBefore;
 }
@@ -500,7 +500,7 @@ export interface GatewayPluginTlsHandshakeModifierPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -509,11 +509,11 @@ export interface GatewayPluginTlsHandshakeModifierPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#name GatewayPluginTlsHandshakeModifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#name GatewayPluginTlsHandshakeModifier#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#path GatewayPluginTlsHandshakeModifier#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#path GatewayPluginTlsHandshakeModifier#path}
   */
   readonly path?: string;
 }
@@ -687,7 +687,7 @@ export class GatewayPluginTlsHandshakeModifierPartialsList extends cdktf.Complex
 }
 export interface GatewayPluginTlsHandshakeModifierRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -784,7 +784,7 @@ export class GatewayPluginTlsHandshakeModifierRouteOutputReference extends cdktf
 }
 export interface GatewayPluginTlsHandshakeModifierService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#id GatewayPluginTlsHandshakeModifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -881,7 +881,7 @@ export class GatewayPluginTlsHandshakeModifierServiceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier konnect_gateway_plugin_tls_handshake_modifier}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier konnect_gateway_plugin_tls_handshake_modifier}
 */
 export class GatewayPluginTlsHandshakeModifier extends cdktf.TerraformResource {
 
@@ -897,7 +897,7 @@ export class GatewayPluginTlsHandshakeModifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginTlsHandshakeModifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginTlsHandshakeModifier to import
-  * @param importFromId The id of the existing GatewayPluginTlsHandshakeModifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginTlsHandshakeModifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginTlsHandshakeModifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -909,7 +909,7 @@ export class GatewayPluginTlsHandshakeModifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_tls_handshake_modifier konnect_gateway_plugin_tls_handshake_modifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_tls_handshake_modifier konnect_gateway_plugin_tls_handshake_modifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -920,8 +920,8 @@ export class GatewayPluginTlsHandshakeModifier extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_tls_handshake_modifier',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

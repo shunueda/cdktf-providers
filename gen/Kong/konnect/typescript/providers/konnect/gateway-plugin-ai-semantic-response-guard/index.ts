@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiSemanticResponseGuardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#config GatewayPluginAiSemanticResponseGuard#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#config GatewayPluginAiSemanticResponseGuard#config}
   */
   readonly config: GatewayPluginAiSemanticResponseGuardConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#consumer GatewayPluginAiSemanticResponseGuard#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#consumer GatewayPluginAiSemanticResponseGuard#consumer}
   */
   readonly consumer?: GatewayPluginAiSemanticResponseGuardConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#consumer_group GatewayPluginAiSemanticResponseGuard#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#consumer_group GatewayPluginAiSemanticResponseGuard#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiSemanticResponseGuardConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#control_plane_id GatewayPluginAiSemanticResponseGuard#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#control_plane_id GatewayPluginAiSemanticResponseGuard#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#created_at GatewayPluginAiSemanticResponseGuard#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#created_at GatewayPluginAiSemanticResponseGuard#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#enabled GatewayPluginAiSemanticResponseGuard#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#enabled GatewayPluginAiSemanticResponseGuard#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiSemanticResponseGuardConfig extends cdktf.Terraf
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#instance_name GatewayPluginAiSemanticResponseGuard#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#instance_name GatewayPluginAiSemanticResponseGuard#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ordering GatewayPluginAiSemanticResponseGuard#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ordering GatewayPluginAiSemanticResponseGuard#ordering}
   */
   readonly ordering?: GatewayPluginAiSemanticResponseGuardOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#partials GatewayPluginAiSemanticResponseGuard#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#partials GatewayPluginAiSemanticResponseGuard#partials}
   */
   readonly partials?: GatewayPluginAiSemanticResponseGuardPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#protocols GatewayPluginAiSemanticResponseGuard#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#protocols GatewayPluginAiSemanticResponseGuard#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#route GatewayPluginAiSemanticResponseGuard#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#route GatewayPluginAiSemanticResponseGuard#route}
   */
   readonly route?: GatewayPluginAiSemanticResponseGuardRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#service GatewayPluginAiSemanticResponseGuard#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#service GatewayPluginAiSemanticResponseGuard#service}
   */
   readonly service?: GatewayPluginAiSemanticResponseGuardService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#tags GatewayPluginAiSemanticResponseGuard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#tags GatewayPluginAiSemanticResponseGuard#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#updated_at GatewayPluginAiSemanticResponseGuard#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#updated_at GatewayPluginAiSemanticResponseGuard#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,85 +101,85 @@ export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsAuth {
   /**
   * If enabled, the authorization header or parameter can be overridden in the request by the value configured in the plugin. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#allow_override GatewayPluginAiSemanticResponseGuard#allow_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#allow_override GatewayPluginAiSemanticResponseGuard#allow_override}
   */
   readonly allowOverride?: boolean | cdktf.IResolvable;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_ACCESS_KEY_ID environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_access_key_id GatewayPluginAiSemanticResponseGuard#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_access_key_id GatewayPluginAiSemanticResponseGuard#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_SECRET_ACCESS_KEY environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_secret_access_key GatewayPluginAiSemanticResponseGuard#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_secret_access_key GatewayPluginAiSemanticResponseGuard#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_client_id GatewayPluginAiSemanticResponseGuard#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_client_id GatewayPluginAiSemanticResponseGuard#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_client_secret GatewayPluginAiSemanticResponseGuard#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_client_secret GatewayPluginAiSemanticResponseGuard#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_tenant_id GatewayPluginAiSemanticResponseGuard#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_tenant_id GatewayPluginAiSemanticResponseGuard#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Set true to use the Azure Cloud Managed Identity (or user-assigned identity) to authenticate with Azure-provider models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_use_managed_identity GatewayPluginAiSemanticResponseGuard#azure_use_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#azure_use_managed_identity GatewayPluginAiSemanticResponseGuard#azure_use_managed_identity}
   */
   readonly azureUseManagedIdentity?: boolean | cdktf.IResolvable;
   /**
   * Set this field to the full JSON of the GCP service account to authenticate, if required. If null (and gcp_use_service_account is true), Kong will attempt to read from environment variable `GCP_SERVICE_ACCOUNT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#gcp_service_account_json GatewayPluginAiSemanticResponseGuard#gcp_service_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#gcp_service_account_json GatewayPluginAiSemanticResponseGuard#gcp_service_account_json}
   */
   readonly gcpServiceAccountJson?: string;
   /**
   * Use service account auth for GCP-based providers and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#gcp_use_service_account GatewayPluginAiSemanticResponseGuard#gcp_use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#gcp_use_service_account GatewayPluginAiSemanticResponseGuard#gcp_use_service_account}
   */
   readonly gcpUseServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * If AI model requires authentication via Authorization or API key header, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#header_name GatewayPluginAiSemanticResponseGuard#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#header_name GatewayPluginAiSemanticResponseGuard#header_name}
   */
   readonly headerName?: string;
   /**
   * Specify the full auth header value for 'header_name', for example 'Bearer key' or just 'key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#header_value GatewayPluginAiSemanticResponseGuard#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#header_value GatewayPluginAiSemanticResponseGuard#header_value}
   */
   readonly headerValue?: string;
   /**
   * Specify whether the 'param_name' and 'param_value' options go in a query string, or the POST form/JSON body. must be one of ["body", "query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#param_location GatewayPluginAiSemanticResponseGuard#param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#param_location GatewayPluginAiSemanticResponseGuard#param_location}
   */
   readonly paramLocation?: string;
   /**
   * If AI model requires authentication via query parameter, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#param_name GatewayPluginAiSemanticResponseGuard#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#param_name GatewayPluginAiSemanticResponseGuard#param_name}
   */
   readonly paramName?: string;
   /**
   * Specify the full parameter value for 'param_name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#param_value GatewayPluginAiSemanticResponseGuard#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#param_value GatewayPluginAiSemanticResponseGuard#param_value}
   */
   readonly paramValue?: string;
 }
@@ -652,19 +652,19 @@ export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOption
   /**
   * 'api-version' for Azure OpenAI instances. Default: "2023-05-15"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#api_version GatewayPluginAiSemanticResponseGuard#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#api_version GatewayPluginAiSemanticResponseGuard#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Deployment ID for Azure OpenAI instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#deployment_id GatewayPluginAiSemanticResponseGuard#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#deployment_id GatewayPluginAiSemanticResponseGuard#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * Instance name for Azure OpenAI hosted models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#instance GatewayPluginAiSemanticResponseGuard#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#instance GatewayPluginAiSemanticResponseGuard#instance}
   */
   readonly instance?: string;
 }
@@ -818,37 +818,37 @@ export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOption
   /**
   * If using AWS providers (Bedrock) you can assume a different role after authentication with the current IAM context is successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_assume_role_arn GatewayPluginAiSemanticResponseGuard#aws_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_assume_role_arn GatewayPluginAiSemanticResponseGuard#aws_assume_role_arn}
   */
   readonly awsAssumeRoleArn?: string;
   /**
   * If using AWS providers (Bedrock) you can override the `AWS_REGION` environment variable by setting this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_region GatewayPluginAiSemanticResponseGuard#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_region GatewayPluginAiSemanticResponseGuard#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * If using AWS providers (Bedrock), set the identifier of the assumed role session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_role_session_name GatewayPluginAiSemanticResponseGuard#aws_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_role_session_name GatewayPluginAiSemanticResponseGuard#aws_role_session_name}
   */
   readonly awsRoleSessionName?: string;
   /**
   * If using AWS providers (Bedrock), override the STS endpoint URL when assuming a different role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_sts_endpoint_url GatewayPluginAiSemanticResponseGuard#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#aws_sts_endpoint_url GatewayPluginAiSemanticResponseGuard#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
   * If using AWS providers (Bedrock), set to true to normalize the embeddings. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#embeddings_normalize GatewayPluginAiSemanticResponseGuard#embeddings_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#embeddings_normalize GatewayPluginAiSemanticResponseGuard#embeddings_normalize}
   */
   readonly embeddingsNormalize?: boolean | cdktf.IResolvable;
   /**
   * Force the client's performance configuration 'latency' for all requests. Leave empty to let the consumer select the performance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#performance_config_latency GatewayPluginAiSemanticResponseGuard#performance_config_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#performance_config_latency GatewayPluginAiSemanticResponseGuard#performance_config_latency}
   */
   readonly performanceConfigLatency?: string;
 }
@@ -1089,19 +1089,19 @@ export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOption
   /**
   * If running Gemini on Vertex, specify the regional API endpoint (hostname only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#api_endpoint GatewayPluginAiSemanticResponseGuard#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#api_endpoint GatewayPluginAiSemanticResponseGuard#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * If running Gemini on Vertex, specify the location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#location_id GatewayPluginAiSemanticResponseGuard#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#location_id GatewayPluginAiSemanticResponseGuard#location_id}
   */
   readonly locationId?: string;
   /**
   * If running Gemini on Vertex, specify the project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#project_id GatewayPluginAiSemanticResponseGuard#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#project_id GatewayPluginAiSemanticResponseGuard#project_id}
   */
   readonly projectId?: string;
 }
@@ -1255,13 +1255,13 @@ export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOption
   /**
   * Use the cache layer on the inference API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#use_cache GatewayPluginAiSemanticResponseGuard#use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#use_cache GatewayPluginAiSemanticResponseGuard#use_cache}
   */
   readonly useCache?: boolean | cdktf.IResolvable;
   /**
   * Wait for the model if it is not ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#wait_for_model GatewayPluginAiSemanticResponseGuard#wait_for_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#wait_for_model GatewayPluginAiSemanticResponseGuard#wait_for_model}
   */
   readonly waitForModel?: boolean | cdktf.IResolvable;
 }
@@ -1384,25 +1384,25 @@ export class GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptionsHug
 }
 export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#azure GatewayPluginAiSemanticResponseGuard#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#azure GatewayPluginAiSemanticResponseGuard#azure}
   */
   readonly azure?: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptionsAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#bedrock GatewayPluginAiSemanticResponseGuard#bedrock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#bedrock GatewayPluginAiSemanticResponseGuard#bedrock}
   */
   readonly bedrock?: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptionsBedrock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#gemini GatewayPluginAiSemanticResponseGuard#gemini}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#gemini GatewayPluginAiSemanticResponseGuard#gemini}
   */
   readonly gemini?: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptionsGemini;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#huggingface GatewayPluginAiSemanticResponseGuard#huggingface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#huggingface GatewayPluginAiSemanticResponseGuard#huggingface}
   */
   readonly huggingface?: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptionsHuggingface;
   /**
   * upstream url for the embeddings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#upstream_url GatewayPluginAiSemanticResponseGuard#upstream_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#upstream_url GatewayPluginAiSemanticResponseGuard#upstream_url}
   */
   readonly upstreamUrl?: string;
 }
@@ -1614,19 +1614,19 @@ export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModel {
   /**
   * Model name to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#name GatewayPluginAiSemanticResponseGuard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#name GatewayPluginAiSemanticResponseGuard#name}
   */
   readonly name: string;
   /**
   * Key/value settings for the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#options GatewayPluginAiSemanticResponseGuard#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#options GatewayPluginAiSemanticResponseGuard#options}
   */
   readonly options?: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOptions;
   /**
   * AI provider format to use for embeddings API. must be one of ["azure", "bedrock", "gemini", "huggingface", "mistral", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#provider GatewayPluginAiSemanticResponseGuard#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#provider GatewayPluginAiSemanticResponseGuard#provider}
   */
   readonly provider: string;
 }
@@ -1772,11 +1772,11 @@ export class GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModelOutputRefe
 }
 export interface GatewayPluginAiSemanticResponseGuardConfigEmbeddings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#auth GatewayPluginAiSemanticResponseGuard#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#auth GatewayPluginAiSemanticResponseGuard#auth}
   */
   readonly auth?: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#model GatewayPluginAiSemanticResponseGuard#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#model GatewayPluginAiSemanticResponseGuard#model}
   */
   readonly model: GatewayPluginAiSemanticResponseGuardConfigEmbeddingsModel;
 }
@@ -1898,19 +1898,19 @@ export interface GatewayPluginAiSemanticResponseGuardConfigRules {
   /**
   * List of responses to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#allow_responses GatewayPluginAiSemanticResponseGuard#allow_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#allow_responses GatewayPluginAiSemanticResponseGuard#allow_responses}
   */
   readonly allowResponses?: string[];
   /**
   * List of responses to deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#deny_responses GatewayPluginAiSemanticResponseGuard#deny_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#deny_responses GatewayPluginAiSemanticResponseGuard#deny_responses}
   */
   readonly denyResponses?: string[];
   /**
   * Max allowed body size allowed to be introspected. 0 means unlimited, but the size of this body will still be limited by Nginx's client_max_body_size. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#max_response_body_size GatewayPluginAiSemanticResponseGuard#max_response_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#max_response_body_size GatewayPluginAiSemanticResponseGuard#max_response_body_size}
   */
   readonly maxResponseBodySize?: number;
 }
@@ -2064,7 +2064,7 @@ export interface GatewayPluginAiSemanticResponseGuardConfigSearch {
   /**
   * Threshold for the similarity score to be considered a match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#threshold GatewayPluginAiSemanticResponseGuard#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#threshold GatewayPluginAiSemanticResponseGuard#threshold}
   */
   readonly threshold?: number;
 }
@@ -2160,73 +2160,73 @@ export interface GatewayPluginAiSemanticResponseGuardConfigVectordbPgvector {
   /**
   * the database of the pgvector database. Default: "kong-pgvector"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#database GatewayPluginAiSemanticResponseGuard#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#database GatewayPluginAiSemanticResponseGuard#database}
   */
   readonly database?: string;
   /**
   * the host of the pgvector database. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#host GatewayPluginAiSemanticResponseGuard#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#host GatewayPluginAiSemanticResponseGuard#host}
   */
   readonly host?: string;
   /**
   * the password of the pgvector database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#password GatewayPluginAiSemanticResponseGuard#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#password GatewayPluginAiSemanticResponseGuard#password}
   */
   readonly password?: string;
   /**
   * the port of the pgvector database. Default: 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
   */
   readonly port?: number;
   /**
   * whether to use ssl for the pgvector database. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl GatewayPluginAiSemanticResponseGuard#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl GatewayPluginAiSemanticResponseGuard#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * the path of ssl cert to use for the pgvector database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_cert GatewayPluginAiSemanticResponseGuard#ssl_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_cert GatewayPluginAiSemanticResponseGuard#ssl_cert}
   */
   readonly sslCert?: string;
   /**
   * the path of ssl cert key to use for the pgvector database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_cert_key GatewayPluginAiSemanticResponseGuard#ssl_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_cert_key GatewayPluginAiSemanticResponseGuard#ssl_cert_key}
   */
   readonly sslCertKey?: string;
   /**
   * whether ssl is required for the pgvector database. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_required GatewayPluginAiSemanticResponseGuard#ssl_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_required GatewayPluginAiSemanticResponseGuard#ssl_required}
   */
   readonly sslRequired?: boolean | cdktf.IResolvable;
   /**
   * whether to verify ssl for the pgvector database. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_verify GatewayPluginAiSemanticResponseGuard#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_verify GatewayPluginAiSemanticResponseGuard#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * the ssl version to use for the pgvector database. Default: "tlsv1_2"; must be one of ["any", "tlsv1_2", "tlsv1_3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_version GatewayPluginAiSemanticResponseGuard#ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_version GatewayPluginAiSemanticResponseGuard#ssl_version}
   */
   readonly sslVersion?: string;
   /**
   * the timeout of the pgvector database. Default: 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#timeout GatewayPluginAiSemanticResponseGuard#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#timeout GatewayPluginAiSemanticResponseGuard#timeout}
   */
   readonly timeout?: number;
   /**
   * the user of the pgvector database. Default: "postgres"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#user GatewayPluginAiSemanticResponseGuard#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#user GatewayPluginAiSemanticResponseGuard#user}
   */
   readonly user?: string;
 }
@@ -2641,13 +2641,13 @@ export interface GatewayPluginAiSemanticResponseGuardConfigVectordbRedisClusterN
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ip GatewayPluginAiSemanticResponseGuard#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ip GatewayPluginAiSemanticResponseGuard#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
   */
   readonly port?: number;
 }
@@ -2794,13 +2794,13 @@ export interface GatewayPluginAiSemanticResponseGuardConfigVectordbRedisSentinel
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#host GatewayPluginAiSemanticResponseGuard#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#host GatewayPluginAiSemanticResponseGuard#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
   */
   readonly port?: number;
 }
@@ -2947,127 +2947,127 @@ export interface GatewayPluginAiSemanticResponseGuardConfigVectordbRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#cluster_max_redirections GatewayPluginAiSemanticResponseGuard#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#cluster_max_redirections GatewayPluginAiSemanticResponseGuard#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#cluster_nodes GatewayPluginAiSemanticResponseGuard#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#cluster_nodes GatewayPluginAiSemanticResponseGuard#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginAiSemanticResponseGuardConfigVectordbRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#connect_timeout GatewayPluginAiSemanticResponseGuard#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#connect_timeout GatewayPluginAiSemanticResponseGuard#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#connection_is_proxied GatewayPluginAiSemanticResponseGuard#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#connection_is_proxied GatewayPluginAiSemanticResponseGuard#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#database GatewayPluginAiSemanticResponseGuard#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#database GatewayPluginAiSemanticResponseGuard#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#host GatewayPluginAiSemanticResponseGuard#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#host GatewayPluginAiSemanticResponseGuard#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#keepalive_backlog GatewayPluginAiSemanticResponseGuard#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#keepalive_backlog GatewayPluginAiSemanticResponseGuard#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#keepalive_pool_size GatewayPluginAiSemanticResponseGuard#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#keepalive_pool_size GatewayPluginAiSemanticResponseGuard#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#password GatewayPluginAiSemanticResponseGuard#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#password GatewayPluginAiSemanticResponseGuard#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#port GatewayPluginAiSemanticResponseGuard#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#read_timeout GatewayPluginAiSemanticResponseGuard#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#read_timeout GatewayPluginAiSemanticResponseGuard#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#send_timeout GatewayPluginAiSemanticResponseGuard#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#send_timeout GatewayPluginAiSemanticResponseGuard#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_master GatewayPluginAiSemanticResponseGuard#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_master GatewayPluginAiSemanticResponseGuard#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_nodes GatewayPluginAiSemanticResponseGuard#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_nodes GatewayPluginAiSemanticResponseGuard#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginAiSemanticResponseGuardConfigVectordbRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_password GatewayPluginAiSemanticResponseGuard#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_password GatewayPluginAiSemanticResponseGuard#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_role GatewayPluginAiSemanticResponseGuard#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_role GatewayPluginAiSemanticResponseGuard#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_username GatewayPluginAiSemanticResponseGuard#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#sentinel_username GatewayPluginAiSemanticResponseGuard#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#server_name GatewayPluginAiSemanticResponseGuard#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#server_name GatewayPluginAiSemanticResponseGuard#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl GatewayPluginAiSemanticResponseGuard#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl GatewayPluginAiSemanticResponseGuard#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_verify GatewayPluginAiSemanticResponseGuard#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#ssl_verify GatewayPluginAiSemanticResponseGuard#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#username GatewayPluginAiSemanticResponseGuard#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#username GatewayPluginAiSemanticResponseGuard#username}
   */
   readonly username?: string;
 }
@@ -3743,33 +3743,33 @@ export interface GatewayPluginAiSemanticResponseGuardConfigVectordb {
   /**
   * the desired dimensionality for the vectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#dimensions GatewayPluginAiSemanticResponseGuard#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#dimensions GatewayPluginAiSemanticResponseGuard#dimensions}
   */
   readonly dimensions: number;
   /**
   * the distance metric to use for vector searches. must be one of ["cosine", "euclidean"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#distance_metric GatewayPluginAiSemanticResponseGuard#distance_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#distance_metric GatewayPluginAiSemanticResponseGuard#distance_metric}
   */
   readonly distanceMetric: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#pgvector GatewayPluginAiSemanticResponseGuard#pgvector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#pgvector GatewayPluginAiSemanticResponseGuard#pgvector}
   */
   readonly pgvector?: GatewayPluginAiSemanticResponseGuardConfigVectordbPgvector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#redis GatewayPluginAiSemanticResponseGuard#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#redis GatewayPluginAiSemanticResponseGuard#redis}
   */
   readonly redis?: GatewayPluginAiSemanticResponseGuardConfigVectordbRedis;
   /**
   * which vector database driver to use. must be one of ["pgvector", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#strategy GatewayPluginAiSemanticResponseGuard#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#strategy GatewayPluginAiSemanticResponseGuard#strategy}
   */
   readonly strategy: string;
   /**
   * the default similarity threshold for accepting semantic search results (float)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#threshold GatewayPluginAiSemanticResponseGuard#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#threshold GatewayPluginAiSemanticResponseGuard#threshold}
   */
   readonly threshold: number;
 }
@@ -3996,31 +3996,31 @@ export class GatewayPluginAiSemanticResponseGuardConfigVectordbOutputReference e
 }
 export interface GatewayPluginAiSemanticResponseGuardConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#embeddings GatewayPluginAiSemanticResponseGuard#embeddings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#embeddings GatewayPluginAiSemanticResponseGuard#embeddings}
   */
   readonly embeddings: GatewayPluginAiSemanticResponseGuardConfigEmbeddings;
   /**
   * Generative AI category of the request. Default: "text/generation"; must be one of ["audio/speech", "audio/transcription", "image/generation", "realtime/generation", "text/embeddings", "text/generation"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#genai_category GatewayPluginAiSemanticResponseGuard#genai_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#genai_category GatewayPluginAiSemanticResponseGuard#genai_category}
   */
   readonly genaiCategory?: string;
   /**
   * LLM input and output format and schema to use. Default: "openai"; must be one of ["bedrock", "cohere", "gemini", "huggingface", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#llm_format GatewayPluginAiSemanticResponseGuard#llm_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#llm_format GatewayPluginAiSemanticResponseGuard#llm_format}
   */
   readonly llmFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#rules GatewayPluginAiSemanticResponseGuard#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#rules GatewayPluginAiSemanticResponseGuard#rules}
   */
   readonly rules?: GatewayPluginAiSemanticResponseGuardConfigRules;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#search GatewayPluginAiSemanticResponseGuard#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#search GatewayPluginAiSemanticResponseGuard#search}
   */
   readonly search?: GatewayPluginAiSemanticResponseGuardConfigSearch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#vectordb GatewayPluginAiSemanticResponseGuard#vectordb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#vectordb GatewayPluginAiSemanticResponseGuard#vectordb}
   */
   readonly vectordb: GatewayPluginAiSemanticResponseGuardConfigVectordb;
 }
@@ -4253,7 +4253,7 @@ export class GatewayPluginAiSemanticResponseGuardConfigAOutputReference extends 
 }
 export interface GatewayPluginAiSemanticResponseGuardConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4350,7 +4350,7 @@ export class GatewayPluginAiSemanticResponseGuardConsumerOutputReference extends
 }
 export interface GatewayPluginAiSemanticResponseGuardConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4447,7 +4447,7 @@ export class GatewayPluginAiSemanticResponseGuardConsumerGroupOutputReference ex
 }
 export interface GatewayPluginAiSemanticResponseGuardOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#access GatewayPluginAiSemanticResponseGuard#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#access GatewayPluginAiSemanticResponseGuard#access}
   */
   readonly access?: string[];
 }
@@ -4541,7 +4541,7 @@ export class GatewayPluginAiSemanticResponseGuardOrderingAfterOutputReference ex
 }
 export interface GatewayPluginAiSemanticResponseGuardOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#access GatewayPluginAiSemanticResponseGuard#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#access GatewayPluginAiSemanticResponseGuard#access}
   */
   readonly access?: string[];
 }
@@ -4635,11 +4635,11 @@ export class GatewayPluginAiSemanticResponseGuardOrderingBeforeOutputReference e
 }
 export interface GatewayPluginAiSemanticResponseGuardOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#after GatewayPluginAiSemanticResponseGuard#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#after GatewayPluginAiSemanticResponseGuard#after}
   */
   readonly after?: GatewayPluginAiSemanticResponseGuardOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#before GatewayPluginAiSemanticResponseGuard#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#before GatewayPluginAiSemanticResponseGuard#before}
   */
   readonly before?: GatewayPluginAiSemanticResponseGuardOrderingBefore;
 }
@@ -4764,7 +4764,7 @@ export interface GatewayPluginAiSemanticResponseGuardPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4773,11 +4773,11 @@ export interface GatewayPluginAiSemanticResponseGuardPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#name GatewayPluginAiSemanticResponseGuard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#name GatewayPluginAiSemanticResponseGuard#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#path GatewayPluginAiSemanticResponseGuard#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#path GatewayPluginAiSemanticResponseGuard#path}
   */
   readonly path?: string;
 }
@@ -4951,7 +4951,7 @@ export class GatewayPluginAiSemanticResponseGuardPartialsList extends cdktf.Comp
 }
 export interface GatewayPluginAiSemanticResponseGuardRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5048,7 +5048,7 @@ export class GatewayPluginAiSemanticResponseGuardRouteOutputReference extends cd
 }
 export interface GatewayPluginAiSemanticResponseGuardService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#id GatewayPluginAiSemanticResponseGuard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5145,7 +5145,7 @@ export class GatewayPluginAiSemanticResponseGuardServiceOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard konnect_gateway_plugin_ai_semantic_response_guard}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard konnect_gateway_plugin_ai_semantic_response_guard}
 */
 export class GatewayPluginAiSemanticResponseGuard extends cdktf.TerraformResource {
 
@@ -5161,7 +5161,7 @@ export class GatewayPluginAiSemanticResponseGuard extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a GatewayPluginAiSemanticResponseGuard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiSemanticResponseGuard to import
-  * @param importFromId The id of the existing GatewayPluginAiSemanticResponseGuard that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiSemanticResponseGuard that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiSemanticResponseGuard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5173,7 +5173,7 @@ export class GatewayPluginAiSemanticResponseGuard extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_semantic_response_guard konnect_gateway_plugin_ai_semantic_response_guard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_semantic_response_guard konnect_gateway_plugin_ai_semantic_response_guard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5184,8 +5184,8 @@ export class GatewayPluginAiSemanticResponseGuard extends cdktf.TerraformResourc
       terraformResourceType: 'konnect_gateway_plugin_ai_semantic_response_guard',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

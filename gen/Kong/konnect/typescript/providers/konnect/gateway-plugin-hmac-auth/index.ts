@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginHmacAuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#config GatewayPluginHmacAuth#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#config GatewayPluginHmacAuth#config}
   */
   readonly config?: GatewayPluginHmacAuthConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#control_plane_id GatewayPluginHmacAuth#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#control_plane_id GatewayPluginHmacAuth#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#created_at GatewayPluginHmacAuth#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#created_at GatewayPluginHmacAuth#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#enabled GatewayPluginHmacAuth#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#enabled GatewayPluginHmacAuth#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginHmacAuthConfig extends cdktf.TerraformMetaArgument
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#instance_name GatewayPluginHmacAuth#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#instance_name GatewayPluginHmacAuth#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#ordering GatewayPluginHmacAuth#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#ordering GatewayPluginHmacAuth#ordering}
   */
   readonly ordering?: GatewayPluginHmacAuthOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#partials GatewayPluginHmacAuth#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#partials GatewayPluginHmacAuth#partials}
   */
   readonly partials?: GatewayPluginHmacAuthPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpc","grpcs","http","https","ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#protocols GatewayPluginHmacAuth#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#protocols GatewayPluginHmacAuth#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#route GatewayPluginHmacAuth#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#route GatewayPluginHmacAuth#route}
   */
   readonly route?: GatewayPluginHmacAuthRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#service GatewayPluginHmacAuth#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#service GatewayPluginHmacAuth#service}
   */
   readonly service?: GatewayPluginHmacAuthService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#tags GatewayPluginHmacAuth#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#tags GatewayPluginHmacAuth#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#updated_at GatewayPluginHmacAuth#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#updated_at GatewayPluginHmacAuth#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,43 +89,43 @@ export interface GatewayPluginHmacAuthConfigA {
   /**
   * A list of HMAC digest algorithms that the user wants to support. Allowed values are `hmac-sha1`, `hmac-sha256`, `hmac-sha384`, and `hmac-sha512`. Default: ["hmac-sha1","hmac-sha256","hmac-sha384","hmac-sha512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#algorithms GatewayPluginHmacAuth#algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#algorithms GatewayPluginHmacAuth#algorithms}
   */
   readonly algorithms?: string[];
   /**
   * An optional string (Consumer UUID or username) value to use as an “anonymous” consumer if authentication fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#anonymous GatewayPluginHmacAuth#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#anonymous GatewayPluginHmacAuth#anonymous}
   */
   readonly anonymous?: string;
   /**
   * Clock skew in seconds to prevent replay attacks. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#clock_skew GatewayPluginHmacAuth#clock_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#clock_skew GatewayPluginHmacAuth#clock_skew}
   */
   readonly clockSkew?: number;
   /**
   * A list of headers that the client should at least use for HTTP signature creation. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#enforce_headers GatewayPluginHmacAuth#enforce_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#enforce_headers GatewayPluginHmacAuth#enforce_headers}
   */
   readonly enforceHeaders?: string[];
   /**
   * An optional boolean value telling the plugin to show or hide the credential from the upstream service. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#hide_credentials GatewayPluginHmacAuth#hide_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#hide_credentials GatewayPluginHmacAuth#hide_credentials}
   */
   readonly hideCredentials?: boolean | cdktf.IResolvable;
   /**
   * When authentication fails the plugin sends `WWW-Authenticate` header with `realm` attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#realm GatewayPluginHmacAuth#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#realm GatewayPluginHmacAuth#realm}
   */
   readonly realm?: string;
   /**
   * A boolean value telling the plugin to enable body validation. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#validate_request_body GatewayPluginHmacAuth#validate_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#validate_request_body GatewayPluginHmacAuth#validate_request_body}
   */
   readonly validateRequestBody?: boolean | cdktf.IResolvable;
 }
@@ -393,7 +393,7 @@ export class GatewayPluginHmacAuthConfigAOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginHmacAuthOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#access GatewayPluginHmacAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#access GatewayPluginHmacAuth#access}
   */
   readonly access?: string[];
 }
@@ -487,7 +487,7 @@ export class GatewayPluginHmacAuthOrderingAfterOutputReference extends cdktf.Com
 }
 export interface GatewayPluginHmacAuthOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#access GatewayPluginHmacAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#access GatewayPluginHmacAuth#access}
   */
   readonly access?: string[];
 }
@@ -581,11 +581,11 @@ export class GatewayPluginHmacAuthOrderingBeforeOutputReference extends cdktf.Co
 }
 export interface GatewayPluginHmacAuthOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#after GatewayPluginHmacAuth#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#after GatewayPluginHmacAuth#after}
   */
   readonly after?: GatewayPluginHmacAuthOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#before GatewayPluginHmacAuth#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#before GatewayPluginHmacAuth#before}
   */
   readonly before?: GatewayPluginHmacAuthOrderingBefore;
 }
@@ -710,7 +710,7 @@ export interface GatewayPluginHmacAuthPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -719,11 +719,11 @@ export interface GatewayPluginHmacAuthPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#name GatewayPluginHmacAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#name GatewayPluginHmacAuth#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#path GatewayPluginHmacAuth#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#path GatewayPluginHmacAuth#path}
   */
   readonly path?: string;
 }
@@ -897,7 +897,7 @@ export class GatewayPluginHmacAuthPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginHmacAuthRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -994,7 +994,7 @@ export class GatewayPluginHmacAuthRouteOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginHmacAuthService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#id GatewayPluginHmacAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1091,7 +1091,7 @@ export class GatewayPluginHmacAuthServiceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth konnect_gateway_plugin_hmac_auth}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth konnect_gateway_plugin_hmac_auth}
 */
 export class GatewayPluginHmacAuth extends cdktf.TerraformResource {
 
@@ -1107,7 +1107,7 @@ export class GatewayPluginHmacAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginHmacAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginHmacAuth to import
-  * @param importFromId The id of the existing GatewayPluginHmacAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginHmacAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginHmacAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1119,7 +1119,7 @@ export class GatewayPluginHmacAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_hmac_auth konnect_gateway_plugin_hmac_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_hmac_auth konnect_gateway_plugin_hmac_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1130,8 +1130,8 @@ export class GatewayPluginHmacAuth extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_hmac_auth',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

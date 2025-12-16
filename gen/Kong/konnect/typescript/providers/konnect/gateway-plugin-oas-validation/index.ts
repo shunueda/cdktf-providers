@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginOasValidationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#config GatewayPluginOasValidation#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#config GatewayPluginOasValidation#config}
   */
   readonly config: GatewayPluginOasValidationConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#consumer GatewayPluginOasValidation#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#consumer GatewayPluginOasValidation#consumer}
   */
   readonly consumer?: GatewayPluginOasValidationConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#control_plane_id GatewayPluginOasValidation#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#control_plane_id GatewayPluginOasValidation#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#created_at GatewayPluginOasValidation#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#created_at GatewayPluginOasValidation#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#enabled GatewayPluginOasValidation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#enabled GatewayPluginOasValidation#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginOasValidationConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#instance_name GatewayPluginOasValidation#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#instance_name GatewayPluginOasValidation#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#ordering GatewayPluginOasValidation#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#ordering GatewayPluginOasValidation#ordering}
   */
   readonly ordering?: GatewayPluginOasValidationOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#partials GatewayPluginOasValidation#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#partials GatewayPluginOasValidation#partials}
   */
   readonly partials?: GatewayPluginOasValidationPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#protocols GatewayPluginOasValidation#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#protocols GatewayPluginOasValidation#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#route GatewayPluginOasValidation#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#route GatewayPluginOasValidation#route}
   */
   readonly route?: GatewayPluginOasValidationRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#service GatewayPluginOasValidation#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#service GatewayPluginOasValidation#service}
   */
   readonly service?: GatewayPluginOasValidationService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#tags GatewayPluginOasValidation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#tags GatewayPluginOasValidation#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#updated_at GatewayPluginOasValidation#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#updated_at GatewayPluginOasValidation#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,91 +95,91 @@ export interface GatewayPluginOasValidationConfigA {
   /**
   * List of header parameters in the request that will be ignored when performing HTTP header validation. These are additional headers added to an API request beyond those defined in the API specification.  For example, you might include the HTTP header `User-Agent`, which lets servers and network peers identify the application, operating system, vendor, and/or version of the requesting user agent. Default: "Host,Content-Type,User-Agent,Accept,Content-Length"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#allowed_header_parameters GatewayPluginOasValidation#allowed_header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#allowed_header_parameters GatewayPluginOasValidation#allowed_header_parameters}
   */
   readonly allowedHeaderParameters?: string;
   /**
   * The API specification defined using either Swagger or the OpenAPI. This can be either a JSON or YAML based file. If using a YAML file, the spec needs to be URI-Encoded to preserve the YAML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#api_spec GatewayPluginOasValidation#api_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#api_spec GatewayPluginOasValidation#api_spec}
   */
   readonly apiSpec: string;
   /**
   * Indicates whether the api_spec is URI-Encoded. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#api_spec_encoded GatewayPluginOasValidation#api_spec_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#api_spec_encoded GatewayPluginOasValidation#api_spec_encoded}
   */
   readonly apiSpecEncoded?: boolean | cdktf.IResolvable;
   /**
   * The base path to be used for path match evaluation. This value is ignored if `include_base_path` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#custom_base_path GatewayPluginOasValidation#custom_base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#custom_base_path GatewayPluginOasValidation#custom_base_path}
   */
   readonly customBasePath?: string;
   /**
   * If set to true, checks if HTTP header parameters in the request exist in the API specification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#header_parameter_check GatewayPluginOasValidation#header_parameter_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#header_parameter_check GatewayPluginOasValidation#header_parameter_check}
   */
   readonly headerParameterCheck?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to include the base path when performing path match evaluation. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#include_base_path GatewayPluginOasValidation#include_base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#include_base_path GatewayPluginOasValidation#include_base_path}
   */
   readonly includeBasePath?: boolean | cdktf.IResolvable;
   /**
   * If set to true, notifications via event hooks are enabled, but request based validation failures don't affect the request flow. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#notify_only_request_validation_failure GatewayPluginOasValidation#notify_only_request_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#notify_only_request_validation_failure GatewayPluginOasValidation#notify_only_request_validation_failure}
   */
   readonly notifyOnlyRequestValidationFailure?: boolean | cdktf.IResolvable;
   /**
   * If set to true, notifications via event hooks are enabled, but response validation failures don't affect the response flow. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#notify_only_response_body_validation_failure GatewayPluginOasValidation#notify_only_response_body_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#notify_only_response_body_validation_failure GatewayPluginOasValidation#notify_only_response_body_validation_failure}
   */
   readonly notifyOnlyResponseBodyValidationFailure?: boolean | cdktf.IResolvable;
   /**
   * If set to true, checks if query parameters in the request exist in the API specification. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#query_parameter_check GatewayPluginOasValidation#query_parameter_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#query_parameter_check GatewayPluginOasValidation#query_parameter_check}
   */
   readonly queryParameterCheck?: boolean | cdktf.IResolvable;
   /**
   * If set to true, validates the request body content against the API specification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#validate_request_body GatewayPluginOasValidation#validate_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#validate_request_body GatewayPluginOasValidation#validate_request_body}
   */
   readonly validateRequestBody?: boolean | cdktf.IResolvable;
   /**
   * If set to true, validates HTTP header parameters against the API specification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#validate_request_header_params GatewayPluginOasValidation#validate_request_header_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#validate_request_header_params GatewayPluginOasValidation#validate_request_header_params}
   */
   readonly validateRequestHeaderParams?: boolean | cdktf.IResolvable;
   /**
   * If set to true, validates query parameters against the API specification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#validate_request_query_params GatewayPluginOasValidation#validate_request_query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#validate_request_query_params GatewayPluginOasValidation#validate_request_query_params}
   */
   readonly validateRequestQueryParams?: boolean | cdktf.IResolvable;
   /**
   * If set to true, validates URI parameters in the request against the API specification. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#validate_request_uri_params GatewayPluginOasValidation#validate_request_uri_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#validate_request_uri_params GatewayPluginOasValidation#validate_request_uri_params}
   */
   readonly validateRequestUriParams?: boolean | cdktf.IResolvable;
   /**
   * If set to true, validates the response from the upstream services against the API specification. If validation fails, it results in an `HTTP 406 Not Acceptable` status code. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#validate_response_body GatewayPluginOasValidation#validate_response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#validate_response_body GatewayPluginOasValidation#validate_response_body}
   */
   readonly validateResponseBody?: boolean | cdktf.IResolvable;
   /**
   * If set to true, returns a detailed error message for invalid requests & responses. This is useful while testing. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#verbose_response GatewayPluginOasValidation#verbose_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#verbose_response GatewayPluginOasValidation#verbose_response}
   */
   readonly verboseResponse?: boolean | cdktf.IResolvable;
 }
@@ -676,7 +676,7 @@ export class GatewayPluginOasValidationConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginOasValidationConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -773,7 +773,7 @@ export class GatewayPluginOasValidationConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginOasValidationOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#access GatewayPluginOasValidation#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#access GatewayPluginOasValidation#access}
   */
   readonly access?: string[];
 }
@@ -867,7 +867,7 @@ export class GatewayPluginOasValidationOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginOasValidationOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#access GatewayPluginOasValidation#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#access GatewayPluginOasValidation#access}
   */
   readonly access?: string[];
 }
@@ -961,11 +961,11 @@ export class GatewayPluginOasValidationOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginOasValidationOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#after GatewayPluginOasValidation#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#after GatewayPluginOasValidation#after}
   */
   readonly after?: GatewayPluginOasValidationOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#before GatewayPluginOasValidation#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#before GatewayPluginOasValidation#before}
   */
   readonly before?: GatewayPluginOasValidationOrderingBefore;
 }
@@ -1090,7 +1090,7 @@ export interface GatewayPluginOasValidationPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1099,11 +1099,11 @@ export interface GatewayPluginOasValidationPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#name GatewayPluginOasValidation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#name GatewayPluginOasValidation#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#path GatewayPluginOasValidation#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#path GatewayPluginOasValidation#path}
   */
   readonly path?: string;
 }
@@ -1277,7 +1277,7 @@ export class GatewayPluginOasValidationPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginOasValidationRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1374,7 +1374,7 @@ export class GatewayPluginOasValidationRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginOasValidationService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#id GatewayPluginOasValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1471,7 +1471,7 @@ export class GatewayPluginOasValidationServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation konnect_gateway_plugin_oas_validation}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation konnect_gateway_plugin_oas_validation}
 */
 export class GatewayPluginOasValidation extends cdktf.TerraformResource {
 
@@ -1487,7 +1487,7 @@ export class GatewayPluginOasValidation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginOasValidation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginOasValidation to import
-  * @param importFromId The id of the existing GatewayPluginOasValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginOasValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginOasValidation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1499,7 +1499,7 @@ export class GatewayPluginOasValidation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_oas_validation konnect_gateway_plugin_oas_validation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_oas_validation konnect_gateway_plugin_oas_validation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1510,8 +1510,8 @@ export class GatewayPluginOasValidation extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_oas_validation',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

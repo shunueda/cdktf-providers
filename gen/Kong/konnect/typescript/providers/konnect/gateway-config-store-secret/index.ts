@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GatewayConfigStoreSecretConfig extends cdktf.TerraformMetaArgum
   /**
   * Config Store identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret#config_store_id GatewayConfigStoreSecret#config_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret#config_store_id GatewayConfigStoreSecret#config_store_id}
   */
   readonly configStoreId: string;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret#control_plane_id GatewayConfigStoreSecret#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret#control_plane_id GatewayConfigStoreSecret#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Config Store Secret key. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret#key GatewayConfigStoreSecret#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret#key GatewayConfigStoreSecret#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret#value GatewayConfigStoreSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret#value GatewayConfigStoreSecret#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret konnect_gateway_config_store_secret}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret konnect_gateway_config_store_secret}
 */
 export class GatewayConfigStoreSecret extends cdktf.TerraformResource {
 
@@ -48,7 +48,7 @@ export class GatewayConfigStoreSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayConfigStoreSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayConfigStoreSecret to import
-  * @param importFromId The id of the existing GatewayConfigStoreSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayConfigStoreSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayConfigStoreSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +60,7 @@ export class GatewayConfigStoreSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_config_store_secret konnect_gateway_config_store_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_config_store_secret konnect_gateway_config_store_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +71,8 @@ export class GatewayConfigStoreSecret extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_config_store_secret',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

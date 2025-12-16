@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PortalClassicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the requests from applications to register for products will be automatically approved, or if they will be set to pending until approved by an admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#auto_approve_applications PortalClassic#auto_approve_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#auto_approve_applications PortalClassic#auto_approve_applications}
   */
   readonly autoApproveApplications?: boolean | cdktf.IResolvable;
   /**
   * Whether the developer account registrations will be automatically approved, or if they will be set to pending until approved by an admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#auto_approve_developers PortalClassic#auto_approve_developers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#auto_approve_developers PortalClassic#auto_approve_developers}
   */
   readonly autoApproveDevelopers?: boolean | cdktf.IResolvable;
   /**
   * The custom domain to access a self-hosted customized developer portal client. If this is set, the Konnect-hosted portal will no longer be available.  `custom_domain` must be also set for this value to be set. See https://github.com/Kong/konnect-portal for information on how to get started deploying and customizing your own Konnect portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#custom_client_domain PortalClassic#custom_client_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#custom_client_domain PortalClassic#custom_client_domain}
   */
   readonly customClientDomain?: string;
   /**
   * The custom domain to access the developer portal. A CNAME for the portal's default domain must be able to be set for the custom domain for it to be valid. After setting a valid CNAME, an SSL/TLS certificate will be automatically manged for the custom domain, and traffic will be able to use the custom domain to route to the portal's web client and API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#custom_domain PortalClassic#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#custom_domain PortalClassic#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Default strategy ID applied on applications for the portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#default_application_auth_strategy_id PortalClassic#default_application_auth_strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#default_application_auth_strategy_id PortalClassic#default_application_auth_strategy_id}
   */
   readonly defaultApplicationAuthStrategyId?: string;
   /**
   * The description of the portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#description PortalClassic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#description PortalClassic#description}
   */
   readonly description?: string;
   /**
   * The display name of the portal. This value will be the portal's `name` in Portal API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#display_name PortalClassic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#display_name PortalClassic#display_name}
   */
   readonly displayName?: string;
   /**
   * If true, delete specified portal and all related entities, even if there are developers registered to portal or if there are portal product versions with application registration enabled. If false, do not allow deletion if there are developers registered to portal or if there are portal product versions with application registration enabled. Default: "false"; must be one of ["true", "false"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#force PortalClassic#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#force PortalClassic#force}
   */
   readonly force?: string;
   /**
   * Whether the portal catalog can be accessed publicly without any developer authentication. Developer accounts and applications cannot be created if the portal is public.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#is_public PortalClassic#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#is_public PortalClassic#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
@@ -66,25 +66,25 @@ export interface PortalClassicConfig extends cdktf.TerraformMetaArguments {
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#labels PortalClassic#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#labels PortalClassic#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the portal, used to distinguish it from other portals. Name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#name PortalClassic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#name PortalClassic#name}
   */
   readonly name: string;
   /**
   * Whether the portal resources are protected by Role Based Access Control (RBAC). If enabled, developers view or register for products until unless assigned to teams with access to view and consume specific products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#rbac_enabled PortalClassic#rbac_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#rbac_enabled PortalClassic#rbac_enabled}
   */
   readonly rbacEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic konnect_portal_classic}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic konnect_portal_classic}
 */
 export class PortalClassic extends cdktf.TerraformResource {
 
@@ -100,7 +100,7 @@ export class PortalClassic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalClassic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalClassic to import
-  * @param importFromId The id of the existing PortalClassic that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalClassic that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalClassic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -112,7 +112,7 @@ export class PortalClassic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_classic konnect_portal_classic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_classic konnect_portal_classic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -123,8 +123,8 @@ export class PortalClassic extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_classic',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

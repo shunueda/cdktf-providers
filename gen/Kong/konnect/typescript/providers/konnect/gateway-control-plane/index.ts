@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GatewayControlPlaneConfig extends cdktf.TerraformMetaArguments 
   /**
   * The auth type value of the cluster associated with the Runtime Group. must be one of ["pinned_client_certs", "pki_client_certs"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#auth_type GatewayControlPlane#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#auth_type GatewayControlPlane#auth_type}
   */
   readonly authType?: string;
   /**
   * Whether this control-plane can be used for cloud-gateways. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#cloud_gateway GatewayControlPlane#cloud_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#cloud_gateway GatewayControlPlane#cloud_gateway}
   */
   readonly cloudGateway?: boolean | cdktf.IResolvable;
   /**
   * The ClusterType value of the cluster associated with the Control Plane. must be one of ["CLUSTER_TYPE_CONTROL_PLANE", "CLUSTER_TYPE_K8S_INGRESS_CONTROLLER", "CLUSTER_TYPE_CONTROL_PLANE_GROUP", "CLUSTER_TYPE_SERVERLESS", "CLUSTER_TYPE_HYBRID"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#cluster_type GatewayControlPlane#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#cluster_type GatewayControlPlane#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * The description of the control plane in Konnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#description GatewayControlPlane#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#description GatewayControlPlane#description}
   */
   readonly description?: string;
   /**
@@ -36,19 +36,19 @@ export interface GatewayControlPlaneConfig extends cdktf.TerraformMetaArguments 
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#labels GatewayControlPlane#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#labels GatewayControlPlane#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#name GatewayControlPlane#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#name GatewayControlPlane#name}
   */
   readonly name: string;
   /**
   * Array of proxy URLs associated with reaching the data-planes connected to a control-plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#proxy_urls GatewayControlPlane#proxy_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#proxy_urls GatewayControlPlane#proxy_urls}
   */
   readonly proxyUrls?: GatewayControlPlaneProxyUrls[] | cdktf.IResolvable;
 }
@@ -221,19 +221,19 @@ export interface GatewayControlPlaneProxyUrls {
   /**
   * Hostname of the proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#host GatewayControlPlane#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#host GatewayControlPlane#host}
   */
   readonly host: string;
   /**
   * Port of the proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#port GatewayControlPlane#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#port GatewayControlPlane#port}
   */
   readonly port: number;
   /**
   * Protocol of the proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#protocol GatewayControlPlane#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#protocol GatewayControlPlane#protocol}
   */
   readonly protocol: string;
 }
@@ -398,7 +398,7 @@ export class GatewayControlPlaneProxyUrlsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane konnect_gateway_control_plane}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane konnect_gateway_control_plane}
 */
 export class GatewayControlPlane extends cdktf.TerraformResource {
 
@@ -414,7 +414,7 @@ export class GatewayControlPlane extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayControlPlane resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayControlPlane to import
-  * @param importFromId The id of the existing GatewayControlPlane that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayControlPlane that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayControlPlane to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +426,7 @@ export class GatewayControlPlane extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane konnect_gateway_control_plane} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane konnect_gateway_control_plane} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,8 +437,8 @@ export class GatewayControlPlane extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_control_plane',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiPromptCompressorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#config GatewayPluginAiPromptCompressor#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#config GatewayPluginAiPromptCompressor#config}
   */
   readonly config: GatewayPluginAiPromptCompressorConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#consumer GatewayPluginAiPromptCompressor#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#consumer GatewayPluginAiPromptCompressor#consumer}
   */
   readonly consumer?: GatewayPluginAiPromptCompressorConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#consumer_group GatewayPluginAiPromptCompressor#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#consumer_group GatewayPluginAiPromptCompressor#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiPromptCompressorConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#control_plane_id GatewayPluginAiPromptCompressor#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#control_plane_id GatewayPluginAiPromptCompressor#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#created_at GatewayPluginAiPromptCompressor#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#created_at GatewayPluginAiPromptCompressor#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#enabled GatewayPluginAiPromptCompressor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#enabled GatewayPluginAiPromptCompressor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiPromptCompressorConfig extends cdktf.TerraformMe
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#instance_name GatewayPluginAiPromptCompressor#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#instance_name GatewayPluginAiPromptCompressor#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#ordering GatewayPluginAiPromptCompressor#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#ordering GatewayPluginAiPromptCompressor#ordering}
   */
   readonly ordering?: GatewayPluginAiPromptCompressorOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#partials GatewayPluginAiPromptCompressor#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#partials GatewayPluginAiPromptCompressor#partials}
   */
   readonly partials?: GatewayPluginAiPromptCompressorPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#protocols GatewayPluginAiPromptCompressor#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#protocols GatewayPluginAiPromptCompressor#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#route GatewayPluginAiPromptCompressor#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#route GatewayPluginAiPromptCompressor#route}
   */
   readonly route?: GatewayPluginAiPromptCompressorRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#service GatewayPluginAiPromptCompressor#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#service GatewayPluginAiPromptCompressor#service}
   */
   readonly service?: GatewayPluginAiPromptCompressorService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#tags GatewayPluginAiPromptCompressor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#tags GatewayPluginAiPromptCompressor#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#updated_at GatewayPluginAiPromptCompressor#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#updated_at GatewayPluginAiPromptCompressor#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,19 +101,19 @@ export interface GatewayPluginAiPromptCompressorConfigCompressionRanges {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#max_tokens GatewayPluginAiPromptCompressor#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#max_tokens GatewayPluginAiPromptCompressor#max_tokens}
   */
   readonly maxTokens?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#min_tokens GatewayPluginAiPromptCompressor#min_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#min_tokens GatewayPluginAiPromptCompressor#min_tokens}
   */
   readonly minTokens?: number;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#value GatewayPluginAiPromptCompressor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#value GatewayPluginAiPromptCompressor#value}
   */
   readonly value?: number;
 }
@@ -289,49 +289,49 @@ export interface GatewayPluginAiPromptCompressorConfigA {
   /**
   * What value to be used to compress with. The 'value' is interpreted as rate or target_token depending on compressor_type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#compression_ranges GatewayPluginAiPromptCompressor#compression_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#compression_ranges GatewayPluginAiPromptCompressor#compression_ranges}
   */
   readonly compressionRanges: GatewayPluginAiPromptCompressorConfigCompressionRanges[] | cdktf.IResolvable;
   /**
   * What compression type to use to compress with. Default: "rate"; must be one of ["rate", "target_token"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#compressor_type GatewayPluginAiPromptCompressor#compressor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#compressor_type GatewayPluginAiPromptCompressor#compressor_type}
   */
   readonly compressorType?: string;
   /**
   * The url of the compressor. Default: "http://localhost:8080"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#compressor_url GatewayPluginAiPromptCompressor#compressor_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#compressor_url GatewayPluginAiPromptCompressor#compressor_url}
   */
   readonly compressorUrl?: string;
   /**
   * The keepalive timeout for the established http connnection. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#keepalive_timeout GatewayPluginAiPromptCompressor#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#keepalive_timeout GatewayPluginAiPromptCompressor#keepalive_timeout}
   */
   readonly keepaliveTimeout?: number;
   /**
   * Log the text data. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#log_text_data GatewayPluginAiPromptCompressor#log_text_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#log_text_data GatewayPluginAiPromptCompressor#log_text_data}
   */
   readonly logTextData?: boolean | cdktf.IResolvable;
   /**
   * Default: ["user"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#message_type GatewayPluginAiPromptCompressor#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#message_type GatewayPluginAiPromptCompressor#message_type}
   */
   readonly messageType?: string[];
   /**
   * Stop processing if an error occurs. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#stop_on_error GatewayPluginAiPromptCompressor#stop_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#stop_on_error GatewayPluginAiPromptCompressor#stop_on_error}
   */
   readonly stopOnError?: boolean | cdktf.IResolvable;
   /**
   * Connection timeout with the compressor. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#timeout GatewayPluginAiPromptCompressor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#timeout GatewayPluginAiPromptCompressor#timeout}
   */
   readonly timeout?: number;
 }
@@ -625,7 +625,7 @@ export class GatewayPluginAiPromptCompressorConfigAOutputReference extends cdktf
 }
 export interface GatewayPluginAiPromptCompressorConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -722,7 +722,7 @@ export class GatewayPluginAiPromptCompressorConsumerOutputReference extends cdkt
 }
 export interface GatewayPluginAiPromptCompressorConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -819,7 +819,7 @@ export class GatewayPluginAiPromptCompressorConsumerGroupOutputReference extends
 }
 export interface GatewayPluginAiPromptCompressorOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#access GatewayPluginAiPromptCompressor#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#access GatewayPluginAiPromptCompressor#access}
   */
   readonly access?: string[];
 }
@@ -913,7 +913,7 @@ export class GatewayPluginAiPromptCompressorOrderingAfterOutputReference extends
 }
 export interface GatewayPluginAiPromptCompressorOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#access GatewayPluginAiPromptCompressor#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#access GatewayPluginAiPromptCompressor#access}
   */
   readonly access?: string[];
 }
@@ -1007,11 +1007,11 @@ export class GatewayPluginAiPromptCompressorOrderingBeforeOutputReference extend
 }
 export interface GatewayPluginAiPromptCompressorOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#after GatewayPluginAiPromptCompressor#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#after GatewayPluginAiPromptCompressor#after}
   */
   readonly after?: GatewayPluginAiPromptCompressorOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#before GatewayPluginAiPromptCompressor#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#before GatewayPluginAiPromptCompressor#before}
   */
   readonly before?: GatewayPluginAiPromptCompressorOrderingBefore;
 }
@@ -1136,7 +1136,7 @@ export interface GatewayPluginAiPromptCompressorPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1145,11 +1145,11 @@ export interface GatewayPluginAiPromptCompressorPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#name GatewayPluginAiPromptCompressor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#name GatewayPluginAiPromptCompressor#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#path GatewayPluginAiPromptCompressor#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#path GatewayPluginAiPromptCompressor#path}
   */
   readonly path?: string;
 }
@@ -1323,7 +1323,7 @@ export class GatewayPluginAiPromptCompressorPartialsList extends cdktf.ComplexLi
 }
 export interface GatewayPluginAiPromptCompressorRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1420,7 +1420,7 @@ export class GatewayPluginAiPromptCompressorRouteOutputReference extends cdktf.C
 }
 export interface GatewayPluginAiPromptCompressorService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#id GatewayPluginAiPromptCompressor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1517,7 +1517,7 @@ export class GatewayPluginAiPromptCompressorServiceOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor konnect_gateway_plugin_ai_prompt_compressor}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor konnect_gateway_plugin_ai_prompt_compressor}
 */
 export class GatewayPluginAiPromptCompressor extends cdktf.TerraformResource {
 
@@ -1533,7 +1533,7 @@ export class GatewayPluginAiPromptCompressor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiPromptCompressor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiPromptCompressor to import
-  * @param importFromId The id of the existing GatewayPluginAiPromptCompressor that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiPromptCompressor that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiPromptCompressor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1545,7 +1545,7 @@ export class GatewayPluginAiPromptCompressor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_prompt_compressor konnect_gateway_plugin_ai_prompt_compressor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_prompt_compressor konnect_gateway_plugin_ai_prompt_compressor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1556,8 +1556,8 @@ export class GatewayPluginAiPromptCompressor extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_prompt_compressor',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

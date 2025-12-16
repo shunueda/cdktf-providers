@@ -1,3 +1,3 @@
 # `data_criblio_source`
 
-Refer to the Terraform Registry for docs: [`data_criblio_source`](https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/source).
+Refer to the Terraform Registry for docs: [`data_criblio_source`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/source).

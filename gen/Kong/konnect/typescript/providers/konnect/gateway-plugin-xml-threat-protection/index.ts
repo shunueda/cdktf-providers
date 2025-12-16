@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginXmlThreatProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#config GatewayPluginXmlThreatProtection#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#config GatewayPluginXmlThreatProtection#config}
   */
   readonly config?: GatewayPluginXmlThreatProtectionConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#consumer GatewayPluginXmlThreatProtection#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#consumer GatewayPluginXmlThreatProtection#consumer}
   */
   readonly consumer?: GatewayPluginXmlThreatProtectionConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#control_plane_id GatewayPluginXmlThreatProtection#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#control_plane_id GatewayPluginXmlThreatProtection#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#created_at GatewayPluginXmlThreatProtection#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#created_at GatewayPluginXmlThreatProtection#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#enabled GatewayPluginXmlThreatProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#enabled GatewayPluginXmlThreatProtection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginXmlThreatProtectionConfig extends cdktf.TerraformM
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#instance_name GatewayPluginXmlThreatProtection#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#instance_name GatewayPluginXmlThreatProtection#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#ordering GatewayPluginXmlThreatProtection#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#ordering GatewayPluginXmlThreatProtection#ordering}
   */
   readonly ordering?: GatewayPluginXmlThreatProtectionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#partials GatewayPluginXmlThreatProtection#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#partials GatewayPluginXmlThreatProtection#partials}
   */
   readonly partials?: GatewayPluginXmlThreatProtectionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#protocols GatewayPluginXmlThreatProtection#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#protocols GatewayPluginXmlThreatProtection#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#route GatewayPluginXmlThreatProtection#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#route GatewayPluginXmlThreatProtection#route}
   */
   readonly route?: GatewayPluginXmlThreatProtectionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#service GatewayPluginXmlThreatProtection#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#service GatewayPluginXmlThreatProtection#service}
   */
   readonly service?: GatewayPluginXmlThreatProtectionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#tags GatewayPluginXmlThreatProtection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#tags GatewayPluginXmlThreatProtection#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#updated_at GatewayPluginXmlThreatProtection#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#updated_at GatewayPluginXmlThreatProtection#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,139 +95,139 @@ export interface GatewayPluginXmlThreatProtectionConfigA {
   /**
   * Indicates whether an XML Document Type Definition (DTD) section is allowed. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#allow_dtd GatewayPluginXmlThreatProtection#allow_dtd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#allow_dtd GatewayPluginXmlThreatProtection#allow_dtd}
   */
   readonly allowDtd?: boolean | cdktf.IResolvable;
   /**
   * A list of Content-Type values with payloads that are allowed, but aren't validated. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#allowed_content_types GatewayPluginXmlThreatProtection#allowed_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#allowed_content_types GatewayPluginXmlThreatProtection#allowed_content_types}
   */
   readonly allowedContentTypes?: string[];
   /**
   * Maximum size of the attribute value. Default: 1048576
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#attribute GatewayPluginXmlThreatProtection#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#attribute GatewayPluginXmlThreatProtection#attribute}
   */
   readonly attribute?: number;
   /**
   * Sets the maximum allowed amplification. This protects against the Billion Laughs Attack. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#bla_max_amplification GatewayPluginXmlThreatProtection#bla_max_amplification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#bla_max_amplification GatewayPluginXmlThreatProtection#bla_max_amplification}
   */
   readonly blaMaxAmplification?: number;
   /**
   * Sets the threshold after which the protection starts. This protects against the Billion Laughs Attack. Default: 8388608
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#bla_threshold GatewayPluginXmlThreatProtection#bla_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#bla_threshold GatewayPluginXmlThreatProtection#bla_threshold}
   */
   readonly blaThreshold?: number;
   /**
   * Maximum size of the unparsed buffer (see below). Default: 1048576
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#buffer GatewayPluginXmlThreatProtection#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#buffer GatewayPluginXmlThreatProtection#buffer}
   */
   readonly buffer?: number;
   /**
   * A list of Content-Type values with payloads that must be validated. Default: ["application/xml"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#checked_content_types GatewayPluginXmlThreatProtection#checked_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#checked_content_types GatewayPluginXmlThreatProtection#checked_content_types}
   */
   readonly checkedContentTypes?: string[];
   /**
   * Maximum size of comments. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#comment GatewayPluginXmlThreatProtection#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#comment GatewayPluginXmlThreatProtection#comment}
   */
   readonly comment?: number;
   /**
   * Maximum size of the entire document. Default: 10485760
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#document GatewayPluginXmlThreatProtection#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#document GatewayPluginXmlThreatProtection#document}
   */
   readonly document?: number;
   /**
   * Maximum size of entity values in EntityDecl. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#entity GatewayPluginXmlThreatProtection#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#entity GatewayPluginXmlThreatProtection#entity}
   */
   readonly entity?: number;
   /**
   * Maximum size of entity names in EntityDecl. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#entityname GatewayPluginXmlThreatProtection#entityname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#entityname GatewayPluginXmlThreatProtection#entityname}
   */
   readonly entityname?: number;
   /**
   * Maximum size of systemId, publicId, or notationName in EntityDecl. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#entityproperty GatewayPluginXmlThreatProtection#entityproperty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#entityproperty GatewayPluginXmlThreatProtection#entityproperty}
   */
   readonly entityproperty?: number;
   /**
   * Maximum size of the localname. This applies to tags and attributes. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#localname GatewayPluginXmlThreatProtection#localname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#localname GatewayPluginXmlThreatProtection#localname}
   */
   readonly localname?: number;
   /**
   * Maximum number of attributes allowed on a tag, including default ones. Note: If namespace-aware parsing is disabled, then the namespaces definitions are counted as attributes. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#max_attributes GatewayPluginXmlThreatProtection#max_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#max_attributes GatewayPluginXmlThreatProtection#max_attributes}
   */
   readonly maxAttributes?: number;
   /**
   * Maximum number of children allowed (Element, Text, Comment, ProcessingInstruction, CDATASection). Note: Adjacent text and CDATA sections are counted as one. For example, text-cdata-text-cdata is one child. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#max_children GatewayPluginXmlThreatProtection#max_children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#max_children GatewayPluginXmlThreatProtection#max_children}
   */
   readonly maxChildren?: number;
   /**
   * Maximum depth of tags. Child elements such as Text or Comments are not counted as another level. Default: 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#max_depth GatewayPluginXmlThreatProtection#max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#max_depth GatewayPluginXmlThreatProtection#max_depth}
   */
   readonly maxDepth?: number;
   /**
   * Maximum number of namespaces defined on a tag. This value is required if parsing is namespace-aware. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#max_namespaces GatewayPluginXmlThreatProtection#max_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#max_namespaces GatewayPluginXmlThreatProtection#max_namespaces}
   */
   readonly maxNamespaces?: number;
   /**
   * If not parsing namespace aware, all prefixes and namespace attributes will be counted as regular attributes and element names, and validated as such. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#namespace_aware GatewayPluginXmlThreatProtection#namespace_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#namespace_aware GatewayPluginXmlThreatProtection#namespace_aware}
   */
   readonly namespaceAware?: boolean | cdktf.IResolvable;
   /**
   * Maximum size of the namespace URI. This value is required if parsing is namespace-aware. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#namespaceuri GatewayPluginXmlThreatProtection#namespaceuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#namespaceuri GatewayPluginXmlThreatProtection#namespaceuri}
   */
   readonly namespaceuri?: number;
   /**
   * Maximum size of processing instruction data. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#pidata GatewayPluginXmlThreatProtection#pidata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#pidata GatewayPluginXmlThreatProtection#pidata}
   */
   readonly pidata?: number;
   /**
   * Maximum size of processing instruction targets. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#pitarget GatewayPluginXmlThreatProtection#pitarget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#pitarget GatewayPluginXmlThreatProtection#pitarget}
   */
   readonly pitarget?: number;
   /**
   * Maximum size of the prefix. This applies to tags and attributes. This value is required if parsing is namespace-aware. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#prefix GatewayPluginXmlThreatProtection#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#prefix GatewayPluginXmlThreatProtection#prefix}
   */
   readonly prefix?: number;
   /**
   * Maximum text inside tags (counted over all adjacent text/CDATA elements combined). Default: 1048576
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#text GatewayPluginXmlThreatProtection#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#text GatewayPluginXmlThreatProtection#text}
   */
   readonly text?: number;
 }
@@ -959,7 +959,7 @@ export class GatewayPluginXmlThreatProtectionConfigAOutputReference extends cdkt
 }
 export interface GatewayPluginXmlThreatProtectionConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1056,7 +1056,7 @@ export class GatewayPluginXmlThreatProtectionConsumerOutputReference extends cdk
 }
 export interface GatewayPluginXmlThreatProtectionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#access GatewayPluginXmlThreatProtection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#access GatewayPluginXmlThreatProtection#access}
   */
   readonly access?: string[];
 }
@@ -1150,7 +1150,7 @@ export class GatewayPluginXmlThreatProtectionOrderingAfterOutputReference extend
 }
 export interface GatewayPluginXmlThreatProtectionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#access GatewayPluginXmlThreatProtection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#access GatewayPluginXmlThreatProtection#access}
   */
   readonly access?: string[];
 }
@@ -1244,11 +1244,11 @@ export class GatewayPluginXmlThreatProtectionOrderingBeforeOutputReference exten
 }
 export interface GatewayPluginXmlThreatProtectionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#after GatewayPluginXmlThreatProtection#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#after GatewayPluginXmlThreatProtection#after}
   */
   readonly after?: GatewayPluginXmlThreatProtectionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#before GatewayPluginXmlThreatProtection#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#before GatewayPluginXmlThreatProtection#before}
   */
   readonly before?: GatewayPluginXmlThreatProtectionOrderingBefore;
 }
@@ -1373,7 +1373,7 @@ export interface GatewayPluginXmlThreatProtectionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1382,11 +1382,11 @@ export interface GatewayPluginXmlThreatProtectionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#name GatewayPluginXmlThreatProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#name GatewayPluginXmlThreatProtection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#path GatewayPluginXmlThreatProtection#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#path GatewayPluginXmlThreatProtection#path}
   */
   readonly path?: string;
 }
@@ -1560,7 +1560,7 @@ export class GatewayPluginXmlThreatProtectionPartialsList extends cdktf.ComplexL
 }
 export interface GatewayPluginXmlThreatProtectionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1657,7 +1657,7 @@ export class GatewayPluginXmlThreatProtectionRouteOutputReference extends cdktf.
 }
 export interface GatewayPluginXmlThreatProtectionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#id GatewayPluginXmlThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1754,7 +1754,7 @@ export class GatewayPluginXmlThreatProtectionServiceOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection konnect_gateway_plugin_xml_threat_protection}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection konnect_gateway_plugin_xml_threat_protection}
 */
 export class GatewayPluginXmlThreatProtection extends cdktf.TerraformResource {
 
@@ -1770,7 +1770,7 @@ export class GatewayPluginXmlThreatProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginXmlThreatProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginXmlThreatProtection to import
-  * @param importFromId The id of the existing GatewayPluginXmlThreatProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginXmlThreatProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginXmlThreatProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1782,7 +1782,7 @@ export class GatewayPluginXmlThreatProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_xml_threat_protection konnect_gateway_plugin_xml_threat_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_xml_threat_protection konnect_gateway_plugin_xml_threat_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1793,8 +1793,8 @@ export class GatewayPluginXmlThreatProtection extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_xml_threat_protection',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `criblio_search_dashboard`
 
-Refer to the Terraform Registry for docs: [`criblio_search_dashboard`](https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/search_dashboard).
+Refer to the Terraform Registry for docs: [`criblio_search_dashboard`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard).

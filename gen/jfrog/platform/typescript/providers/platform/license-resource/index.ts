@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/license
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,19 +11,19 @@ export interface LicenseResourceConfig extends cdktf.TerraformMetaArguments {
   * License key. Any newline characters must be represented by escape sequence `
   * `
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/license#key LicenseResource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/license#key LicenseResource#key}
   */
   readonly key: string;
   /**
   * Name of the license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/license#name LicenseResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/license#name LicenseResource#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/license platform_license}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/license platform_license}
 */
 export class LicenseResource extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class LicenseResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseResource to import
-  * @param importFromId The id of the existing LicenseResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class LicenseResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/license platform_license} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/license platform_license} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class LicenseResource extends cdktf.TerraformResource {
       terraformResourceType: 'platform_license',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

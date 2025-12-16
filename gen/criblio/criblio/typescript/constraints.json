@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "criblio": "1.20.62"
+    "criblio": "1.20.64"
   }
 }

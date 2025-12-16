@@ -1,3 +1,3 @@
 # `data_criblio_group`
 
-Refer to the Terraform Registry for docs: [`data_criblio_group`](https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/group).
+Refer to the Terraform Registry for docs: [`data_criblio_group`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/group).

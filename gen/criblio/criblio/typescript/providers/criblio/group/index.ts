@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group
+// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#cloud Group#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#cloud Group#cloud}
   */
   readonly cloud?: GroupCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#estimated_ingest_rate Group#estimated_ingest_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#estimated_ingest_rate Group#estimated_ingest_rate}
   */
   readonly estimatedIngestRate?: number;
   /**
   * Group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#id Group#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#id Group#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#inherits Group#inherits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#inherits Group#inherits}
   */
   readonly inherits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#is_fleet Group#is_fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#is_fleet Group#is_fleet}
   */
   readonly isFleet?: boolean | cdktf.IResolvable;
   /**
   * This is only configurable for hybrid worker groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#max_worker_age Group#max_worker_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#max_worker_age Group#max_worker_age}
   */
   readonly maxWorkerAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#name Group#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#on_prem Group#on_prem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#on_prem Group#on_prem}
   */
   readonly onPrem?: boolean | cdktf.IResolvable;
   /**
   * Cribl Product. must be one of ["stream", "edge"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#product Group#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#product Group#product}
   */
   readonly product: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#provisioned Group#provisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#provisioned Group#provisioned}
   */
   readonly provisioned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#streamtags Group#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#streamtags Group#streamtags}
   */
   readonly streamtags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#tags Group#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#tags Group#tags}
   */
   readonly tags?: string;
   /**
   * must be "lake_access"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#type Group#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#type Group#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#worker_remote_access Group#worker_remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#worker_remote_access Group#worker_remote_access}
   */
   readonly workerRemoteAccess?: boolean | cdktf.IResolvable;
 }
@@ -83,13 +83,13 @@ export interface GroupCloud {
   /**
   * must be one of ["aws", "azure"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#provider Group#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#provider Group#provider}
   */
   readonly provider?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#region Group#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#region Group#region}
   */
   readonly region?: string;
 }
@@ -212,7 +212,7 @@ export class GroupCloudOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group criblio_group}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group criblio_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/resources/group criblio_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group criblio_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_group',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.62',
-        providerVersionConstraint: '1.20.62'
+        providerVersion: '1.20.64',
+        providerVersionConstraint: '1.20.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

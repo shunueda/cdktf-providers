@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path
+// https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface EscalationPathConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this escalation path, for the user's reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#name EscalationPath#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#name EscalationPath#name}
   */
   readonly name: string;
   /**
@@ -19,19 +19,19 @@ export interface EscalationPathConfig extends cdktf.TerraformMetaArguments {
   * -->**Note** Although the `if_else` block is recursive, currently a maximum of 3 levels are supported. Attempting to configure more than 3 levels of nesting will result in a schema error.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#path EscalationPath#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#path EscalationPath#path}
   */
   readonly path: EscalationPathPath[] | cdktf.IResolvable;
   /**
   * IDs of the teams that own this escalation path. This will automatically sync escalation paths with the right teams in Catalog. If you have an escalation paths attribute on your Teams, this attribute is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#team_ids EscalationPath#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#team_ids EscalationPath#team_ids}
   */
   readonly teamIds?: string[];
   /**
   * The working hours for this escalation path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#working_hours EscalationPath#working_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#working_hours EscalationPath#working_hours}
   */
   readonly workingHours?: EscalationPathWorkingHours[] | cdktf.IResolvable;
 }
@@ -39,13 +39,13 @@ export interface EscalationPathPathIfElseConditionsParamBindingsArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#literal EscalationPath#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#literal EscalationPath#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#reference EscalationPath#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#reference EscalationPath#reference}
   */
   readonly reference?: string;
 }
@@ -192,13 +192,13 @@ export interface EscalationPathPathIfElseConditionsParamBindingsValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#literal EscalationPath#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#literal EscalationPath#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#reference EscalationPath#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#reference EscalationPath#reference}
   */
   readonly reference?: string;
 }
@@ -323,13 +323,13 @@ export interface EscalationPathPathIfElseConditionsParamBindings {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#array_value EscalationPath#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#array_value EscalationPath#array_value}
   */
   readonly arrayValue?: EscalationPathPathIfElseConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#value EscalationPath#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#value EscalationPath#value}
   */
   readonly value?: EscalationPathPathIfElseConditionsParamBindingsValue;
 }
@@ -476,19 +476,19 @@ export interface EscalationPathPathIfElseConditions {
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#operation EscalationPath#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#operation EscalationPath#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#param_bindings EscalationPath#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#param_bindings EscalationPath#param_bindings}
   */
   readonly paramBindings: EscalationPathPathIfElseConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#subject EscalationPath#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#subject EscalationPath#subject}
   */
   readonly subject: string;
 }
@@ -655,13 +655,13 @@ export interface EscalationPathPathIfElseElsePathLevelRoundRobinConfig {
   /**
   * Whether round robin is enabled for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#enabled EscalationPath#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#enabled EscalationPath#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * How long should we wait before rotating to the next target in a round robin, if not set will stick with a single target per level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#rotate_after_seconds EscalationPath#rotate_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#rotate_after_seconds EscalationPath#rotate_after_seconds}
   */
   readonly rotateAfterSeconds?: number;
 }
@@ -783,7 +783,7 @@ export interface EscalationPathPathIfElseElsePathLevelTargets {
   /**
   * Uniquely identifies an entity of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -792,19 +792,19 @@ export interface EscalationPathPathIfElseElsePathLevelTargets {
   /**
   * Only set for schedule targets, and either currently_on_call, all_users or all_users_for_rota and specifies which users to fetch from the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
   */
   readonly scheduleMode?: string;
   /**
   * Controls what type of entity this target identifies, such as EscalationPolicy or User. Possible values are: `schedule`, `user`, `slack_channel`, `msteams_channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
   /**
   * The urgency of this escalation path target. Possible values are: `high`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#urgency EscalationPath#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#urgency EscalationPath#urgency}
   */
   readonly urgency: string;
 }
@@ -1000,35 +1000,35 @@ export interface EscalationPathPathIfElseElsePathLevel {
   /**
   * Controls the behaviour of acknowledgements for this level, with 'first' cancelling all other escalations on the same level when someone acks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#ack_mode EscalationPath#ack_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#ack_mode EscalationPath#ack_mode}
   */
   readonly ackMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#round_robin_config EscalationPath#round_robin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#round_robin_config EscalationPath#round_robin_config}
   */
   readonly roundRobinConfig?: EscalationPathPathIfElseElsePathLevelRoundRobinConfig;
   /**
   * The targets (users or schedules) for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#targets EscalationPath#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#targets EscalationPath#targets}
   */
   readonly targets: EscalationPathPathIfElseElsePathLevelTargets[] | cdktf.IResolvable;
   /**
   * If the time to ack is relative to a time window, this defines whether we move when the window is active or inactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
   */
   readonly timeToAckIntervalCondition?: string;
   /**
   * How long should we wait for this level to acknowledge before proceeding to the next node in the path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
   */
   readonly timeToAckSeconds?: number;
   /**
   * If the time to ack is relative to a time window, this identifies which window it is relative to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
   */
   readonly timeToAckWeekdayIntervalConfigId?: string;
 }
@@ -1266,7 +1266,7 @@ export interface EscalationPathPathIfElseElsePathNotifyChannelTargets {
   /**
   * Uniquely identifies an entity of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1275,19 +1275,19 @@ export interface EscalationPathPathIfElseElsePathNotifyChannelTargets {
   /**
   * Only set for schedule targets, and either currently_on_call, all_users or all_users_for_rota and specifies which users to fetch from the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
   */
   readonly scheduleMode?: string;
   /**
   * Controls what type of entity this target identifies, such as EscalationPolicy or User. Possible values are: `schedule`, `user`, `slack_channel`, `msteams_channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
   /**
   * The urgency of this escalation path target. Possible values are: `high`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#urgency EscalationPath#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#urgency EscalationPath#urgency}
   */
   readonly urgency: string;
 }
@@ -1483,25 +1483,25 @@ export interface EscalationPathPathIfElseElsePathNotifyChannel {
   /**
   * The targets (Slack channels) for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#targets EscalationPath#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#targets EscalationPath#targets}
   */
   readonly targets: EscalationPathPathIfElseElsePathNotifyChannelTargets[] | cdktf.IResolvable;
   /**
   * If the time to ack is relative to a time window, this defines whether we move when the window is active or inactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
   */
   readonly timeToAckIntervalCondition?: string;
   /**
   * How long should we wait for this level to acknowledge before moving on to the next node in the path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
   */
   readonly timeToAckSeconds?: number;
   /**
   * If the time to ack is relative to a time window, this identifies which window it is relative to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
   */
   readonly timeToAckWeekdayIntervalConfigId?: string;
 }
@@ -1681,13 +1681,13 @@ export interface EscalationPathPathIfElseElsePathRepeat {
   /**
   * How many times to repeat these nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#repeat_times EscalationPath#repeat_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#repeat_times EscalationPath#repeat_times}
   */
   readonly repeatTimes: number;
   /**
   * Which node ID we begin repeating from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#to_node EscalationPath#to_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#to_node EscalationPath#to_node}
   */
   readonly toNode: string;
 }
@@ -1808,26 +1808,26 @@ export interface EscalationPathPathIfElseElsePath {
   * 
   * This allows you to reference the node in other nodes, such as when configuring a 'repeat' node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#if_else EscalationPath#if_else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#if_else EscalationPath#if_else}
   */
   readonly ifElse?: EscalationPathPathIfElse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#level EscalationPath#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#level EscalationPath#level}
   */
   readonly level?: EscalationPathPathIfElseElsePathLevel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#notify_channel EscalationPath#notify_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#notify_channel EscalationPath#notify_channel}
   */
   readonly notifyChannel?: EscalationPathPathIfElseElsePathNotifyChannel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#repeat EscalationPath#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#repeat EscalationPath#repeat}
   */
   readonly repeat?: EscalationPathPathIfElseElsePathRepeat;
   /**
@@ -1837,7 +1837,7 @@ export interface EscalationPathPathIfElseElsePath {
   * * if_else: Branch the escalation based on a set of conditions.
   * * repeat: Go back to a previous node and repeat the logic from there.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
 }
@@ -2097,13 +2097,13 @@ export interface EscalationPathPathIfElseThenPathLevelRoundRobinConfig {
   /**
   * Whether round robin is enabled for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#enabled EscalationPath#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#enabled EscalationPath#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * How long should we wait before rotating to the next target in a round robin, if not set will stick with a single target per level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#rotate_after_seconds EscalationPath#rotate_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#rotate_after_seconds EscalationPath#rotate_after_seconds}
   */
   readonly rotateAfterSeconds?: number;
 }
@@ -2225,7 +2225,7 @@ export interface EscalationPathPathIfElseThenPathLevelTargets {
   /**
   * Uniquely identifies an entity of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2234,19 +2234,19 @@ export interface EscalationPathPathIfElseThenPathLevelTargets {
   /**
   * Only set for schedule targets, and either currently_on_call, all_users or all_users_for_rota and specifies which users to fetch from the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
   */
   readonly scheduleMode?: string;
   /**
   * Controls what type of entity this target identifies, such as EscalationPolicy or User. Possible values are: `schedule`, `user`, `slack_channel`, `msteams_channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
   /**
   * The urgency of this escalation path target. Possible values are: `high`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#urgency EscalationPath#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#urgency EscalationPath#urgency}
   */
   readonly urgency: string;
 }
@@ -2442,35 +2442,35 @@ export interface EscalationPathPathIfElseThenPathLevel {
   /**
   * Controls the behaviour of acknowledgements for this level, with 'first' cancelling all other escalations on the same level when someone acks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#ack_mode EscalationPath#ack_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#ack_mode EscalationPath#ack_mode}
   */
   readonly ackMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#round_robin_config EscalationPath#round_robin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#round_robin_config EscalationPath#round_robin_config}
   */
   readonly roundRobinConfig?: EscalationPathPathIfElseThenPathLevelRoundRobinConfig;
   /**
   * The targets (users or schedules) for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#targets EscalationPath#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#targets EscalationPath#targets}
   */
   readonly targets: EscalationPathPathIfElseThenPathLevelTargets[] | cdktf.IResolvable;
   /**
   * If the time to ack is relative to a time window, this defines whether we move when the window is active or inactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
   */
   readonly timeToAckIntervalCondition?: string;
   /**
   * How long should we wait for this level to acknowledge before proceeding to the next node in the path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
   */
   readonly timeToAckSeconds?: number;
   /**
   * If the time to ack is relative to a time window, this identifies which window it is relative to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
   */
   readonly timeToAckWeekdayIntervalConfigId?: string;
 }
@@ -2708,7 +2708,7 @@ export interface EscalationPathPathIfElseThenPathNotifyChannelTargets {
   /**
   * Uniquely identifies an entity of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2717,19 +2717,19 @@ export interface EscalationPathPathIfElseThenPathNotifyChannelTargets {
   /**
   * Only set for schedule targets, and either currently_on_call, all_users or all_users_for_rota and specifies which users to fetch from the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
   */
   readonly scheduleMode?: string;
   /**
   * Controls what type of entity this target identifies, such as EscalationPolicy or User. Possible values are: `schedule`, `user`, `slack_channel`, `msteams_channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
   /**
   * The urgency of this escalation path target. Possible values are: `high`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#urgency EscalationPath#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#urgency EscalationPath#urgency}
   */
   readonly urgency: string;
 }
@@ -2925,25 +2925,25 @@ export interface EscalationPathPathIfElseThenPathNotifyChannel {
   /**
   * The targets (Slack channels) for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#targets EscalationPath#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#targets EscalationPath#targets}
   */
   readonly targets: EscalationPathPathIfElseThenPathNotifyChannelTargets[] | cdktf.IResolvable;
   /**
   * If the time to ack is relative to a time window, this defines whether we move when the window is active or inactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
   */
   readonly timeToAckIntervalCondition?: string;
   /**
   * How long should we wait for this level to acknowledge before moving on to the next node in the path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
   */
   readonly timeToAckSeconds?: number;
   /**
   * If the time to ack is relative to a time window, this identifies which window it is relative to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
   */
   readonly timeToAckWeekdayIntervalConfigId?: string;
 }
@@ -3123,13 +3123,13 @@ export interface EscalationPathPathIfElseThenPathRepeat {
   /**
   * How many times to repeat these nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#repeat_times EscalationPath#repeat_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#repeat_times EscalationPath#repeat_times}
   */
   readonly repeatTimes: number;
   /**
   * Which node ID we begin repeating from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#to_node EscalationPath#to_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#to_node EscalationPath#to_node}
   */
   readonly toNode: string;
 }
@@ -3250,26 +3250,26 @@ export interface EscalationPathPathIfElseThenPath {
   * 
   * This allows you to reference the node in other nodes, such as when configuring a 'repeat' node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#if_else EscalationPath#if_else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#if_else EscalationPath#if_else}
   */
   readonly ifElse?: EscalationPathPathIfElse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#level EscalationPath#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#level EscalationPath#level}
   */
   readonly level?: EscalationPathPathIfElseThenPathLevel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#notify_channel EscalationPath#notify_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#notify_channel EscalationPath#notify_channel}
   */
   readonly notifyChannel?: EscalationPathPathIfElseThenPathNotifyChannel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#repeat EscalationPath#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#repeat EscalationPath#repeat}
   */
   readonly repeat?: EscalationPathPathIfElseThenPathRepeat;
   /**
@@ -3279,7 +3279,7 @@ export interface EscalationPathPathIfElseThenPath {
   * * if_else: Branch the escalation based on a set of conditions.
   * * repeat: Go back to a previous node and repeat the logic from there.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
 }
@@ -3539,19 +3539,19 @@ export interface EscalationPathPathIfElse {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#conditions EscalationPath#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#conditions EscalationPath#conditions}
   */
   readonly conditions: EscalationPathPathIfElseConditions[] | cdktf.IResolvable;
   /**
   * The nodes that form the levels if our condition is not met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#else_path EscalationPath#else_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#else_path EscalationPath#else_path}
   */
   readonly elsePath?: EscalationPathPathIfElseElsePath[] | cdktf.IResolvable;
   /**
   * Then path nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#then_path EscalationPath#then_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#then_path EscalationPath#then_path}
   */
   readonly thenPath: EscalationPathPathIfElseThenPath[] | cdktf.IResolvable;
 }
@@ -3699,13 +3699,13 @@ export interface EscalationPathPathLevelRoundRobinConfig {
   /**
   * Whether round robin is enabled for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#enabled EscalationPath#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#enabled EscalationPath#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * How long should we wait before rotating to the next target in a round robin, if not set will stick with a single target per level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#rotate_after_seconds EscalationPath#rotate_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#rotate_after_seconds EscalationPath#rotate_after_seconds}
   */
   readonly rotateAfterSeconds?: number;
 }
@@ -3827,7 +3827,7 @@ export interface EscalationPathPathLevelTargets {
   /**
   * Uniquely identifies an entity of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3836,19 +3836,19 @@ export interface EscalationPathPathLevelTargets {
   /**
   * Only set for schedule targets, and either currently_on_call, all_users or all_users_for_rota and specifies which users to fetch from the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
   */
   readonly scheduleMode?: string;
   /**
   * Controls what type of entity this target identifies, such as EscalationPolicy or User. Possible values are: `schedule`, `user`, `slack_channel`, `msteams_channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
   /**
   * The urgency of this escalation path target. Possible values are: `high`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#urgency EscalationPath#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#urgency EscalationPath#urgency}
   */
   readonly urgency: string;
 }
@@ -4044,35 +4044,35 @@ export interface EscalationPathPathLevel {
   /**
   * Controls the behaviour of acknowledgements for this level, with 'first' cancelling all other escalations on the same level when someone acks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#ack_mode EscalationPath#ack_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#ack_mode EscalationPath#ack_mode}
   */
   readonly ackMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#round_robin_config EscalationPath#round_robin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#round_robin_config EscalationPath#round_robin_config}
   */
   readonly roundRobinConfig?: EscalationPathPathLevelRoundRobinConfig;
   /**
   * The targets (users or schedules) for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#targets EscalationPath#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#targets EscalationPath#targets}
   */
   readonly targets: EscalationPathPathLevelTargets[] | cdktf.IResolvable;
   /**
   * If the time to ack is relative to a time window, this defines whether we move when the window is active or inactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
   */
   readonly timeToAckIntervalCondition?: string;
   /**
   * How long should we wait for this level to acknowledge before proceeding to the next node in the path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
   */
   readonly timeToAckSeconds?: number;
   /**
   * If the time to ack is relative to a time window, this identifies which window it is relative to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
   */
   readonly timeToAckWeekdayIntervalConfigId?: string;
 }
@@ -4310,7 +4310,7 @@ export interface EscalationPathPathNotifyChannelTargets {
   /**
   * Uniquely identifies an entity of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4319,19 +4319,19 @@ export interface EscalationPathPathNotifyChannelTargets {
   /**
   * Only set for schedule targets, and either currently_on_call, all_users or all_users_for_rota and specifies which users to fetch from the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#schedule_mode EscalationPath#schedule_mode}
   */
   readonly scheduleMode?: string;
   /**
   * Controls what type of entity this target identifies, such as EscalationPolicy or User. Possible values are: `schedule`, `user`, `slack_channel`, `msteams_channel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
   /**
   * The urgency of this escalation path target. Possible values are: `high`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#urgency EscalationPath#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#urgency EscalationPath#urgency}
   */
   readonly urgency: string;
 }
@@ -4527,25 +4527,25 @@ export interface EscalationPathPathNotifyChannel {
   /**
   * The targets (Slack channels) for this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#targets EscalationPath#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#targets EscalationPath#targets}
   */
   readonly targets: EscalationPathPathNotifyChannelTargets[] | cdktf.IResolvable;
   /**
   * If the time to ack is relative to a time window, this defines whether we move when the window is active or inactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_interval_condition EscalationPath#time_to_ack_interval_condition}
   */
   readonly timeToAckIntervalCondition?: string;
   /**
   * How long should we wait for this level to acknowledge before moving on to the next node in the path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_seconds EscalationPath#time_to_ack_seconds}
   */
   readonly timeToAckSeconds?: number;
   /**
   * If the time to ack is relative to a time window, this identifies which window it is relative to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#time_to_ack_weekday_interval_config_id EscalationPath#time_to_ack_weekday_interval_config_id}
   */
   readonly timeToAckWeekdayIntervalConfigId?: string;
 }
@@ -4725,13 +4725,13 @@ export interface EscalationPathPathRepeat {
   /**
   * How many times to repeat these nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#repeat_times EscalationPath#repeat_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#repeat_times EscalationPath#repeat_times}
   */
   readonly repeatTimes: number;
   /**
   * Which node ID we begin repeating from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#to_node EscalationPath#to_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#to_node EscalationPath#to_node}
   */
   readonly toNode: string;
 }
@@ -4852,26 +4852,26 @@ export interface EscalationPathPath {
   * 
   * This allows you to reference the node in other nodes, such as when configuring a 'repeat' node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#if_else EscalationPath#if_else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#if_else EscalationPath#if_else}
   */
   readonly ifElse?: EscalationPathPathIfElse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#level EscalationPath#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#level EscalationPath#level}
   */
   readonly level?: EscalationPathPathLevel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#notify_channel EscalationPath#notify_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#notify_channel EscalationPath#notify_channel}
   */
   readonly notifyChannel?: EscalationPathPathNotifyChannel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#repeat EscalationPath#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#repeat EscalationPath#repeat}
   */
   readonly repeat?: EscalationPathPathRepeat;
   /**
@@ -4881,7 +4881,7 @@ export interface EscalationPathPath {
   * * if_else: Branch the escalation based on a set of conditions.
   * * repeat: Go back to a previous node and repeat the logic from there.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#type EscalationPath#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#type EscalationPath#type}
   */
   readonly type: string;
 }
@@ -5141,19 +5141,19 @@ export interface EscalationPathWorkingHoursWeekdayIntervals {
   /**
   * End time of the interval, in 24hr format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#end_time EscalationPath#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#end_time EscalationPath#end_time}
   */
   readonly endTime: string;
   /**
   * Start time of the interval, in 24hr format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#start_time EscalationPath#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#start_time EscalationPath#start_time}
   */
   readonly startTime: string;
   /**
   * Weekdays for use within a schedule or escalation path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#weekday EscalationPath#weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#weekday EscalationPath#weekday}
   */
   readonly weekday: string;
 }
@@ -5320,7 +5320,7 @@ export interface EscalationPathWorkingHours {
   /**
   * The unique identifier for this set of working intervals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#id EscalationPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#id EscalationPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5329,17 +5329,17 @@ export interface EscalationPathWorkingHours {
   /**
   * A human readable label for this set of working intervals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#name EscalationPath#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#name EscalationPath#name}
   */
   readonly name: string;
   /**
   * How to interpret all the intervals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#timezone EscalationPath#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#timezone EscalationPath#timezone}
   */
   readonly timezone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#weekday_intervals EscalationPath#weekday_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#weekday_intervals EscalationPath#weekday_intervals}
   */
   readonly weekdayIntervals: EscalationPathWorkingHoursWeekdayIntervals[] | cdktf.IResolvable;
 }
@@ -5530,7 +5530,7 @@ export class EscalationPathWorkingHoursList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path incident_escalation_path}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path incident_escalation_path}
 */
 export class EscalationPath extends cdktf.TerraformResource {
 
@@ -5546,7 +5546,7 @@ export class EscalationPath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EscalationPath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EscalationPath to import
-  * @param importFromId The id of the existing EscalationPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EscalationPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EscalationPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5558,7 +5558,7 @@ export class EscalationPath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.21.1/docs/resources/escalation_path incident_escalation_path} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/escalation_path incident_escalation_path} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5569,8 +5569,8 @@ export class EscalationPath extends cdktf.TerraformResource {
       terraformResourceType: 'incident_escalation_path',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.21.1',
-        providerVersionConstraint: '5.21.1'
+        providerVersion: '5.22.0',
+        providerVersionConstraint: '5.22.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

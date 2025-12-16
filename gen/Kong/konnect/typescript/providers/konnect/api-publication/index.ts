@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ApiPublicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID API identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication#api_id ApiPublication#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication#api_id ApiPublication#api_id}
   */
   readonly apiId: string;
   /**
@@ -19,19 +19,19 @@ export interface ApiPublicationConfig extends cdktf.TerraformMetaArguments {
   * Setting to null means the API will not require application authentication.
   * DCR support for application registration is currently in development.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication#auth_strategy_ids ApiPublication#auth_strategy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication#auth_strategy_ids ApiPublication#auth_strategy_ids}
   */
   readonly authStrategyIds?: string[];
   /**
   * Whether the application registration auto approval on this portal for the api is enabled. If set to false, fallbacks on portal's auto_approve_applications value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication#auto_approve_registrations ApiPublication#auto_approve_registrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication#auto_approve_registrations ApiPublication#auto_approve_registrations}
   */
   readonly autoApproveRegistrations?: boolean | cdktf.IResolvable;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication#portal_id ApiPublication#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication#portal_id ApiPublication#portal_id}
   */
   readonly portalId: string;
   /**
@@ -40,13 +40,13 @@ export interface ApiPublicationConfig extends cdktf.TerraformMetaArguments {
   * Private API publications require authentication to retrieve information about them.
   * Default: "private"; must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication#visibility ApiPublication#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication#visibility ApiPublication#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication konnect_api_publication}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication konnect_api_publication}
 */
 export class ApiPublication extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ApiPublication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiPublication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiPublication to import
-  * @param importFromId The id of the existing ApiPublication that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiPublication that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiPublication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ApiPublication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_publication konnect_api_publication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_publication konnect_api_publication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ApiPublication extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_api_publication',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "incident": "5.21.1"
+    "incident": "5.22.0"
   }
 }

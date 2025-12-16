@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginZipkinConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#config GatewayPluginZipkin#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#config GatewayPluginZipkin#config}
   */
   readonly config?: GatewayPluginZipkinConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#consumer GatewayPluginZipkin#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#consumer GatewayPluginZipkin#consumer}
   */
   readonly consumer?: GatewayPluginZipkinConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#control_plane_id GatewayPluginZipkin#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#control_plane_id GatewayPluginZipkin#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#created_at GatewayPluginZipkin#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#created_at GatewayPluginZipkin#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#enabled GatewayPluginZipkin#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#enabled GatewayPluginZipkin#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginZipkinConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#instance_name GatewayPluginZipkin#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#instance_name GatewayPluginZipkin#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#ordering GatewayPluginZipkin#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#ordering GatewayPluginZipkin#ordering}
   */
   readonly ordering?: GatewayPluginZipkinOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#partials GatewayPluginZipkin#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#partials GatewayPluginZipkin#partials}
   */
   readonly partials?: GatewayPluginZipkinPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#protocols GatewayPluginZipkin#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#protocols GatewayPluginZipkin#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#route GatewayPluginZipkin#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#route GatewayPluginZipkin#route}
   */
   readonly route?: GatewayPluginZipkinRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#service GatewayPluginZipkin#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#service GatewayPluginZipkin#service}
   */
   readonly service?: GatewayPluginZipkinService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#tags GatewayPluginZipkin#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#tags GatewayPluginZipkin#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#updated_at GatewayPluginZipkin#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#updated_at GatewayPluginZipkin#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,25 +95,25 @@ export interface GatewayPluginZipkinConfigPropagation {
   /**
   * Header names to clear after context extraction. This allows to extract the context from a certain header and then remove it from the request, useful when extraction and injection are performed on different header formats and the original header should not be sent to the upstream. If left empty, no headers are cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#clear GatewayPluginZipkin#clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#clear GatewayPluginZipkin#clear}
   */
   readonly clear?: string[];
   /**
   * The default header format to use when extractors did not match any format in the incoming headers and `inject` is configured with the value: `preserve`. This can happen when no tracing header was found in the request, or the incoming tracing header formats were not included in `extract`. Default: "b3"; must be one of ["aws", "b3", "b3-single", "datadog", "gcp", "instana", "jaeger", "ot", "w3c"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#default_format GatewayPluginZipkin#default_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#default_format GatewayPluginZipkin#default_format}
   */
   readonly defaultFormat?: string;
   /**
   * Header formats used to extract tracing context from incoming requests. If multiple values are specified, the first one found will be used for extraction. If left empty, Kong will not extract any tracing context information from incoming requests and generate a trace with no parent and a new trace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#extract GatewayPluginZipkin#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#extract GatewayPluginZipkin#extract}
   */
   readonly extract?: string[];
   /**
   * Header formats used to inject tracing context. The value `preserve` will use the same header format as the incoming request. If multiple values are specified, all of them will be used during injection. If left empty, Kong will not inject any tracing context information in outgoing requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#inject GatewayPluginZipkin#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#inject GatewayPluginZipkin#inject}
   */
   readonly inject?: string[];
 }
@@ -296,49 +296,49 @@ export interface GatewayPluginZipkinConfigQueue {
   /**
   * The number of of queue delivery timers. -1 indicates unlimited. Default: 1; must be one of ["-1", "1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#concurrency_limit GatewayPluginZipkin#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#concurrency_limit GatewayPluginZipkin#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Time in seconds before the initial retry is made for a failing batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#initial_retry_delay GatewayPluginZipkin#initial_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#initial_retry_delay GatewayPluginZipkin#initial_retry_delay}
   */
   readonly initialRetryDelay?: number;
   /**
   * Maximum number of entries that can be processed at a time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#max_batch_size GatewayPluginZipkin#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#max_batch_size GatewayPluginZipkin#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Maximum number of bytes that can be waiting on a queue, requires string content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#max_bytes GatewayPluginZipkin#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#max_bytes GatewayPluginZipkin#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum number of (fractional) seconds to elapse after the first entry was queued before the queue starts calling the handler. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#max_coalescing_delay GatewayPluginZipkin#max_coalescing_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#max_coalescing_delay GatewayPluginZipkin#max_coalescing_delay}
   */
   readonly maxCoalescingDelay?: number;
   /**
   * Maximum number of entries that can be waiting on the queue. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#max_entries GatewayPluginZipkin#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#max_entries GatewayPluginZipkin#max_entries}
   */
   readonly maxEntries?: number;
   /**
   * Maximum time in seconds between retries, caps exponential backoff. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#max_retry_delay GatewayPluginZipkin#max_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#max_retry_delay GatewayPluginZipkin#max_retry_delay}
   */
   readonly maxRetryDelay?: number;
   /**
   * Time in seconds before the queue gives up calling a failed handler for a batch. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#max_retry_time GatewayPluginZipkin#max_retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#max_retry_time GatewayPluginZipkin#max_retry_time}
   */
   readonly maxRetryTime?: number;
 }
@@ -637,13 +637,13 @@ export interface GatewayPluginZipkinConfigStaticTags {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#name GatewayPluginZipkin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#name GatewayPluginZipkin#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#value GatewayPluginZipkin#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#value GatewayPluginZipkin#value}
   */
   readonly value?: string;
 }
@@ -790,103 +790,103 @@ export interface GatewayPluginZipkinConfigA {
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#connect_timeout GatewayPluginZipkin#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#connect_timeout GatewayPluginZipkin#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Allows specifying the type of header to be added to requests with no pre-existing tracing headers and when `config.header_type` is set to `"preserve"`. When `header_type` is set to any other value, `default_header_type` is ignored. Default: "b3"; must be one of ["aws", "b3", "b3-single", "datadog", "gcp", "instana", "jaeger", "ot", "w3c"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#default_header_type GatewayPluginZipkin#default_header_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#default_header_type GatewayPluginZipkin#default_header_type}
   */
   readonly defaultHeaderType?: string;
   /**
   * Set a default service name to override `unknown-service-name` in the Zipkin spans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#default_service_name GatewayPluginZipkin#default_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#default_service_name GatewayPluginZipkin#default_service_name}
   */
   readonly defaultServiceName?: string;
   /**
   * All HTTP requests going through the plugin are tagged with a tracing HTTP request. This property codifies what kind of tracing header the plugin expects on incoming requests. Default: "preserve"; must be one of ["aws", "b3", "b3-single", "datadog", "gcp", "ignore", "instana", "jaeger", "ot", "preserve", "w3c"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#header_type GatewayPluginZipkin#header_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#header_type GatewayPluginZipkin#header_type}
   */
   readonly headerType?: string;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#http_endpoint GatewayPluginZipkin#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#http_endpoint GatewayPluginZipkin#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#http_response_header_for_traceid GatewayPluginZipkin#http_response_header_for_traceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#http_response_header_for_traceid GatewayPluginZipkin#http_response_header_for_traceid}
   */
   readonly httpResponseHeaderForTraceid?: string;
   /**
   * Specify whether to include the HTTP path in the span name. Default: "method"; must be one of ["method", "method_path"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#http_span_name GatewayPluginZipkin#http_span_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#http_span_name GatewayPluginZipkin#http_span_name}
   */
   readonly httpSpanName?: string;
   /**
   * Specify whether the credential of the currently authenticated consumer should be included in metadata sent to the Zipkin server. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#include_credential GatewayPluginZipkin#include_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#include_credential GatewayPluginZipkin#include_credential}
   */
   readonly includeCredential?: boolean | cdktf.IResolvable;
   /**
   * The name of the service as displayed in Zipkin. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#local_service_name GatewayPluginZipkin#local_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#local_service_name GatewayPluginZipkin#local_service_name}
   */
   readonly localServiceName?: string;
   /**
   * Specify whether to include the duration of each phase as an annotation or a tag. Default: "annotations"; must be one of ["annotations", "tags"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#phase_duration_flavor GatewayPluginZipkin#phase_duration_flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#phase_duration_flavor GatewayPluginZipkin#phase_duration_flavor}
   */
   readonly phaseDurationFlavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#propagation GatewayPluginZipkin#propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#propagation GatewayPluginZipkin#propagation}
   */
   readonly propagation?: GatewayPluginZipkinConfigPropagation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#queue GatewayPluginZipkin#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#queue GatewayPluginZipkin#queue}
   */
   readonly queue?: GatewayPluginZipkinConfigQueue;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#read_timeout GatewayPluginZipkin#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#read_timeout GatewayPluginZipkin#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * How often to sample requests that do not contain trace IDs. Set to `0` to turn sampling off, or to `1` to sample **all** requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#sample_ratio GatewayPluginZipkin#sample_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#sample_ratio GatewayPluginZipkin#sample_ratio}
   */
   readonly sampleRatio?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#send_timeout GatewayPluginZipkin#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#send_timeout GatewayPluginZipkin#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * The tags specified on this property will be added to the generated request traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#static_tags GatewayPluginZipkin#static_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#static_tags GatewayPluginZipkin#static_tags}
   */
   readonly staticTags?: GatewayPluginZipkinConfigStaticTags[] | cdktf.IResolvable;
   /**
   * The Zipkin plugin will add extra headers to the tags associated with any HTTP requests that come with a header named as configured by this property. Default: "Zipkin-Tags"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#tags_header GatewayPluginZipkin#tags_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#tags_header GatewayPluginZipkin#tags_header}
   */
   readonly tagsHeader?: string;
   /**
   * The length in bytes of each request's Trace ID. Default: 16; must be one of ["8", "16"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#traceid_byte_count GatewayPluginZipkin#traceid_byte_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#traceid_byte_count GatewayPluginZipkin#traceid_byte_count}
   */
   readonly traceidByteCount?: number;
 }
@@ -1473,7 +1473,7 @@ export class GatewayPluginZipkinConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginZipkinConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1570,7 +1570,7 @@ export class GatewayPluginZipkinConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginZipkinOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#access GatewayPluginZipkin#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#access GatewayPluginZipkin#access}
   */
   readonly access?: string[];
 }
@@ -1664,7 +1664,7 @@ export class GatewayPluginZipkinOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginZipkinOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#access GatewayPluginZipkin#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#access GatewayPluginZipkin#access}
   */
   readonly access?: string[];
 }
@@ -1758,11 +1758,11 @@ export class GatewayPluginZipkinOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginZipkinOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#after GatewayPluginZipkin#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#after GatewayPluginZipkin#after}
   */
   readonly after?: GatewayPluginZipkinOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#before GatewayPluginZipkin#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#before GatewayPluginZipkin#before}
   */
   readonly before?: GatewayPluginZipkinOrderingBefore;
 }
@@ -1887,7 +1887,7 @@ export interface GatewayPluginZipkinPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1896,11 +1896,11 @@ export interface GatewayPluginZipkinPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#name GatewayPluginZipkin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#name GatewayPluginZipkin#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#path GatewayPluginZipkin#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#path GatewayPluginZipkin#path}
   */
   readonly path?: string;
 }
@@ -2074,7 +2074,7 @@ export class GatewayPluginZipkinPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginZipkinRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2171,7 +2171,7 @@ export class GatewayPluginZipkinRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginZipkinService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#id GatewayPluginZipkin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2268,7 +2268,7 @@ export class GatewayPluginZipkinServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin konnect_gateway_plugin_zipkin}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin konnect_gateway_plugin_zipkin}
 */
 export class GatewayPluginZipkin extends cdktf.TerraformResource {
 
@@ -2284,7 +2284,7 @@ export class GatewayPluginZipkin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginZipkin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginZipkin to import
-  * @param importFromId The id of the existing GatewayPluginZipkin that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginZipkin that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginZipkin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2296,7 +2296,7 @@ export class GatewayPluginZipkin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_zipkin konnect_gateway_plugin_zipkin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_zipkin konnect_gateway_plugin_zipkin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2307,8 +2307,8 @@ export class GatewayPluginZipkin extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_zipkin',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

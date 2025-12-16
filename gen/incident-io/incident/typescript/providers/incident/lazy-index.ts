@@ -22,6 +22,7 @@ Object.defineProperty(exports, 'dataIncidentCatalogType', { get: function () { r
 Object.defineProperty(exports, 'dataIncidentCatalogTypeAttribute', { get: function () { return require('./data-incident-catalog-type-attribute'); } });
 Object.defineProperty(exports, 'dataIncidentCustomField', { get: function () { return require('./data-incident-custom-field'); } });
 Object.defineProperty(exports, 'dataIncidentCustomFieldOption', { get: function () { return require('./data-incident-custom-field-option'); } });
+Object.defineProperty(exports, 'dataIncidentEscalationPath', { get: function () { return require('./data-incident-escalation-path'); } });
 Object.defineProperty(exports, 'dataIncidentIncidentRole', { get: function () { return require('./data-incident-incident-role'); } });
 Object.defineProperty(exports, 'dataIncidentSchedule', { get: function () { return require('./data-incident-schedule'); } });
 Object.defineProperty(exports, 'dataIncidentUser', { get: function () { return require('./data-incident-user'); } });

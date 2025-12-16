@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAwsLambdaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#config GatewayPluginAwsLambda#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#config GatewayPluginAwsLambda#config}
   */
   readonly config?: GatewayPluginAwsLambdaConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#consumer GatewayPluginAwsLambda#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#consumer GatewayPluginAwsLambda#consumer}
   */
   readonly consumer?: GatewayPluginAwsLambdaConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#control_plane_id GatewayPluginAwsLambda#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#control_plane_id GatewayPluginAwsLambda#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#created_at GatewayPluginAwsLambda#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#created_at GatewayPluginAwsLambda#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#enabled GatewayPluginAwsLambda#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#enabled GatewayPluginAwsLambda#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginAwsLambdaConfig extends cdktf.TerraformMetaArgumen
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#instance_name GatewayPluginAwsLambda#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#instance_name GatewayPluginAwsLambda#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#ordering GatewayPluginAwsLambda#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#ordering GatewayPluginAwsLambda#ordering}
   */
   readonly ordering?: GatewayPluginAwsLambdaOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#partials GatewayPluginAwsLambda#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#partials GatewayPluginAwsLambda#partials}
   */
   readonly partials?: GatewayPluginAwsLambdaPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#protocols GatewayPluginAwsLambda#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#protocols GatewayPluginAwsLambda#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#route GatewayPluginAwsLambda#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#route GatewayPluginAwsLambda#route}
   */
   readonly route?: GatewayPluginAwsLambdaRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#service GatewayPluginAwsLambda#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#service GatewayPluginAwsLambda#service}
   */
   readonly service?: GatewayPluginAwsLambdaService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#tags GatewayPluginAwsLambda#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#tags GatewayPluginAwsLambda#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#updated_at GatewayPluginAwsLambda#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#updated_at GatewayPluginAwsLambda#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,169 +95,169 @@ export interface GatewayPluginAwsLambdaConfigA {
   /**
   * The target AWS IAM role ARN used to invoke the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_assume_role_arn GatewayPluginAwsLambda#aws_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_assume_role_arn GatewayPluginAwsLambda#aws_assume_role_arn}
   */
   readonly awsAssumeRoleArn?: string;
   /**
   * Identifier to select the IMDS protocol version to use: `v1` or `v2`. Default: "v1"; must be one of ["v1", "v2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_imds_protocol_version GatewayPluginAwsLambda#aws_imds_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_imds_protocol_version GatewayPluginAwsLambda#aws_imds_protocol_version}
   */
   readonly awsImdsProtocolVersion?: string;
   /**
   * The AWS key credential to be used when invoking the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_key GatewayPluginAwsLambda#aws_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_key GatewayPluginAwsLambda#aws_key}
   */
   readonly awsKey?: string;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_region GatewayPluginAwsLambda#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_region GatewayPluginAwsLambda#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The identifier of the assumed role session. Default: "kong"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_role_session_name GatewayPluginAwsLambda#aws_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_role_session_name GatewayPluginAwsLambda#aws_role_session_name}
   */
   readonly awsRoleSessionName?: string;
   /**
   * The AWS secret credential to be used when invoking the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_secret GatewayPluginAwsLambda#aws_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_secret GatewayPluginAwsLambda#aws_secret}
   */
   readonly awsSecret?: string;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#aws_sts_endpoint_url GatewayPluginAwsLambda#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#aws_sts_endpoint_url GatewayPluginAwsLambda#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
   * An optional value that defines whether the plugin should wrap requests into the Amazon API gateway. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#awsgateway_compatible GatewayPluginAwsLambda#awsgateway_compatible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#awsgateway_compatible GatewayPluginAwsLambda#awsgateway_compatible}
   */
   readonly awsgatewayCompatible?: boolean | cdktf.IResolvable;
   /**
   * An optional value that defines which version will be used to generate the AWS API Gateway compatible payload. The default will be `1.0`. Default: "1.0"; must be one of ["1.0", "2.0"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#awsgateway_compatible_payload_version GatewayPluginAwsLambda#awsgateway_compatible_payload_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#awsgateway_compatible_payload_version GatewayPluginAwsLambda#awsgateway_compatible_payload_version}
   */
   readonly awsgatewayCompatiblePayloadVersion?: string;
   /**
   * An optional value that Base64-encodes the request body. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#base64_encode_body GatewayPluginAwsLambda#base64_encode_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#base64_encode_body GatewayPluginAwsLambda#base64_encode_body}
   */
   readonly base64EncodeBody?: boolean | cdktf.IResolvable;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#disable_https GatewayPluginAwsLambda#disable_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#disable_https GatewayPluginAwsLambda#disable_https}
   */
   readonly disableHttps?: boolean | cdktf.IResolvable;
   /**
   * An optional value that defines whether Kong should send empty arrays (returned by Lambda function) as `[]` arrays or `{}` objects in JSON responses. The value `legacy` means Kong will send empty arrays as `{}` objects in response. Default: "legacy"; must be one of ["correct", "legacy"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#empty_arrays_mode GatewayPluginAwsLambda#empty_arrays_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#empty_arrays_mode GatewayPluginAwsLambda#empty_arrays_mode}
   */
   readonly emptyArraysMode?: string;
   /**
   * An optional value that defines whether the request body is sent in the request_body field of the JSON-encoded request. If the body arguments can be parsed, they are sent in the separate request_body_args field of the request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#forward_request_body GatewayPluginAwsLambda#forward_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#forward_request_body GatewayPluginAwsLambda#forward_request_body}
   */
   readonly forwardRequestBody?: boolean | cdktf.IResolvable;
   /**
   * An optional value that defines whether the original HTTP request headers are sent as a map in the request_headers field of the JSON-encoded request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#forward_request_headers GatewayPluginAwsLambda#forward_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#forward_request_headers GatewayPluginAwsLambda#forward_request_headers}
   */
   readonly forwardRequestHeaders?: boolean | cdktf.IResolvable;
   /**
   * An optional value that defines whether the original HTTP request method verb is sent in the request_method field of the JSON-encoded request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#forward_request_method GatewayPluginAwsLambda#forward_request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#forward_request_method GatewayPluginAwsLambda#forward_request_method}
   */
   readonly forwardRequestMethod?: boolean | cdktf.IResolvable;
   /**
   * An optional value that defines whether the original HTTP request URI is sent in the request_uri field of the JSON-encoded request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#forward_request_uri GatewayPluginAwsLambda#forward_request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#forward_request_uri GatewayPluginAwsLambda#forward_request_uri}
   */
   readonly forwardRequestUri?: boolean | cdktf.IResolvable;
   /**
   * The AWS Lambda function to invoke. Both function name and function ARN (including partial) are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#function_name GatewayPluginAwsLambda#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#function_name GatewayPluginAwsLambda#function_name}
   */
   readonly functionName?: string;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#host GatewayPluginAwsLambda#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#host GatewayPluginAwsLambda#host}
   */
   readonly host?: string;
   /**
   * The InvocationType to use when invoking the function. Available types are RequestResponse, Event, DryRun. Default: "RequestResponse"; must be one of ["DryRun", "Event", "RequestResponse"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#invocation_type GatewayPluginAwsLambda#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#invocation_type GatewayPluginAwsLambda#invocation_type}
   */
   readonly invocationType?: string;
   /**
   * An optional value that defines whether the response format to receive from the Lambda to this format. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#is_proxy_integration GatewayPluginAwsLambda#is_proxy_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#is_proxy_integration GatewayPluginAwsLambda#is_proxy_integration}
   */
   readonly isProxyIntegration?: boolean | cdktf.IResolvable;
   /**
   * An optional value in milliseconds that defines how long an idle connection lives before being closed. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#keepalive GatewayPluginAwsLambda#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#keepalive GatewayPluginAwsLambda#keepalive}
   */
   readonly keepalive?: number;
   /**
   * The LogType to use when invoking the function. By default, None and Tail are supported. Default: "Tail"; must be one of ["None", "Tail"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#log_type GatewayPluginAwsLambda#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#log_type GatewayPluginAwsLambda#log_type}
   */
   readonly logType?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#port GatewayPluginAwsLambda#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#port GatewayPluginAwsLambda#port}
   */
   readonly port?: number;
   /**
   * A string representing a URL, such as https://example.com/path/to/resource?q=search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#proxy_url GatewayPluginAwsLambda#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#proxy_url GatewayPluginAwsLambda#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * The qualifier to use when invoking the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#qualifier GatewayPluginAwsLambda#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#qualifier GatewayPluginAwsLambda#qualifier}
   */
   readonly qualifier?: string;
   /**
   * An optional value that defines whether Kong should send large bodies that are buffered to disk. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#skip_large_bodies GatewayPluginAwsLambda#skip_large_bodies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#skip_large_bodies GatewayPluginAwsLambda#skip_large_bodies}
   */
   readonly skipLargeBodies?: boolean | cdktf.IResolvable;
   /**
   * An optional timeout in milliseconds when invoking the function. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#timeout GatewayPluginAwsLambda#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#timeout GatewayPluginAwsLambda#timeout}
   */
   readonly timeout?: number;
   /**
   * The response status code to use (instead of the default 200, 202, or 204) in the case of an Unhandled Function Error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#unhandled_status GatewayPluginAwsLambda#unhandled_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#unhandled_status GatewayPluginAwsLambda#unhandled_status}
   */
   readonly unhandledStatus?: number;
 }
@@ -1134,7 +1134,7 @@ export class GatewayPluginAwsLambdaConfigAOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginAwsLambdaConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1231,7 +1231,7 @@ export class GatewayPluginAwsLambdaConsumerOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginAwsLambdaOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#access GatewayPluginAwsLambda#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#access GatewayPluginAwsLambda#access}
   */
   readonly access?: string[];
 }
@@ -1325,7 +1325,7 @@ export class GatewayPluginAwsLambdaOrderingAfterOutputReference extends cdktf.Co
 }
 export interface GatewayPluginAwsLambdaOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#access GatewayPluginAwsLambda#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#access GatewayPluginAwsLambda#access}
   */
   readonly access?: string[];
 }
@@ -1419,11 +1419,11 @@ export class GatewayPluginAwsLambdaOrderingBeforeOutputReference extends cdktf.C
 }
 export interface GatewayPluginAwsLambdaOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#after GatewayPluginAwsLambda#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#after GatewayPluginAwsLambda#after}
   */
   readonly after?: GatewayPluginAwsLambdaOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#before GatewayPluginAwsLambda#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#before GatewayPluginAwsLambda#before}
   */
   readonly before?: GatewayPluginAwsLambdaOrderingBefore;
 }
@@ -1548,7 +1548,7 @@ export interface GatewayPluginAwsLambdaPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1557,11 +1557,11 @@ export interface GatewayPluginAwsLambdaPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#name GatewayPluginAwsLambda#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#name GatewayPluginAwsLambda#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#path GatewayPluginAwsLambda#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#path GatewayPluginAwsLambda#path}
   */
   readonly path?: string;
 }
@@ -1735,7 +1735,7 @@ export class GatewayPluginAwsLambdaPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAwsLambdaRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1832,7 +1832,7 @@ export class GatewayPluginAwsLambdaRouteOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginAwsLambdaService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#id GatewayPluginAwsLambda#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1929,7 +1929,7 @@ export class GatewayPluginAwsLambdaServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda konnect_gateway_plugin_aws_lambda}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda konnect_gateway_plugin_aws_lambda}
 */
 export class GatewayPluginAwsLambda extends cdktf.TerraformResource {
 
@@ -1945,7 +1945,7 @@ export class GatewayPluginAwsLambda extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAwsLambda resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAwsLambda to import
-  * @param importFromId The id of the existing GatewayPluginAwsLambda that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAwsLambda that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAwsLambda to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1957,7 +1957,7 @@ export class GatewayPluginAwsLambda extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_aws_lambda konnect_gateway_plugin_aws_lambda} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_aws_lambda konnect_gateway_plugin_aws_lambda} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1968,8 +1968,8 @@ export class GatewayPluginAwsLambda extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_aws_lambda',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

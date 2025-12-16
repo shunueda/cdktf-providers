@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/myjfrog_ip_allowlist
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/myjfrog_ip_allowlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MyjfrogIpAllowlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of IPs for the JPD allowlist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/myjfrog_ip_allowlist#ips MyjfrogIpAllowlist#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/myjfrog_ip_allowlist#ips MyjfrogIpAllowlist#ips}
   */
   readonly ips: string[];
   /**
   * Name of the server. If your JFrog URL is `myserver.jfrog.io`, the `server_name` is `myserver`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/myjfrog_ip_allowlist#server_name MyjfrogIpAllowlist#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/myjfrog_ip_allowlist#server_name MyjfrogIpAllowlist#server_name}
   */
   readonly serverName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/myjfrog_ip_allowlist platform_myjfrog_ip_allowlist}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/myjfrog_ip_allowlist platform_myjfrog_ip_allowlist}
 */
 export class MyjfrogIpAllowlist extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class MyjfrogIpAllowlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MyjfrogIpAllowlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MyjfrogIpAllowlist to import
-  * @param importFromId The id of the existing MyjfrogIpAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/myjfrog_ip_allowlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MyjfrogIpAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/myjfrog_ip_allowlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MyjfrogIpAllowlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class MyjfrogIpAllowlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/myjfrog_ip_allowlist platform_myjfrog_ip_allowlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/myjfrog_ip_allowlist platform_myjfrog_ip_allowlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class MyjfrogIpAllowlist extends cdktf.TerraformResource {
       terraformResourceType: 'platform_myjfrog_ip_allowlist',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

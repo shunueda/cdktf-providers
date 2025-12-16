@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/aws_iam_role
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/aws_iam_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AwsIamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AWS IAM role. Must follow the regex, "^arn:aws:iam::\d{12}:role/[\w+=,.@:-]+$"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/aws_iam_role#iam_role AwsIamRole#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/aws_iam_role#iam_role AwsIamRole#iam_role}
   */
   readonly iamRole: string;
   /**
   * The JFrog Platform user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/aws_iam_role#username AwsIamRole#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/aws_iam_role#username AwsIamRole#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/aws_iam_role platform_aws_iam_role}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/aws_iam_role platform_aws_iam_role}
 */
 export class AwsIamRole extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AwsIamRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsIamRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsIamRole to import
-  * @param importFromId The id of the existing AwsIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/aws_iam_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/aws_iam_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsIamRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AwsIamRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/aws_iam_role platform_aws_iam_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/aws_iam_role platform_aws_iam_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AwsIamRole extends cdktf.TerraformResource {
       terraformResourceType: 'platform_aws_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

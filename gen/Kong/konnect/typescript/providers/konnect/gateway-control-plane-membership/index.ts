@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface GatewayControlPlaneMembershipConfig extends cdktf.TerraformMeta
   /**
   * ID of a control plane group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership#id GatewayControlPlaneMembership#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership#id GatewayControlPlaneMembership#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface GatewayControlPlaneMembershipConfig extends cdktf.TerraformMeta
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership#members GatewayControlPlaneMembership#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership#members GatewayControlPlaneMembership#members}
   */
   readonly members: GatewayControlPlaneMembershipMembers[] | cdktf.IResolvable;
 }
@@ -27,7 +27,7 @@ export interface GatewayControlPlaneMembershipMembers {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership#id GatewayControlPlaneMembership#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership#id GatewayControlPlaneMembership#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +143,7 @@ export class GatewayControlPlaneMembershipMembersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership konnect_gateway_control_plane_membership}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership konnect_gateway_control_plane_membership}
 */
 export class GatewayControlPlaneMembership extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class GatewayControlPlaneMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayControlPlaneMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayControlPlaneMembership to import
-  * @param importFromId The id of the existing GatewayControlPlaneMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayControlPlaneMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayControlPlaneMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class GatewayControlPlaneMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_control_plane_membership konnect_gateway_control_plane_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_control_plane_membership konnect_gateway_control_plane_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class GatewayControlPlaneMembership extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_control_plane_membership',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

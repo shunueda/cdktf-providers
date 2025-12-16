@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface CrowdSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto created users will have access to their profile page and will be able to perform actions such as generating an API key. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#allow_user_to_access_profile CrowdSettings#allow_user_to_access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#allow_user_to_access_profile CrowdSettings#allow_user_to_access_profile}
   */
   readonly allowUserToAccessProfile?: boolean | cdktf.IResolvable;
   /**
   * The application name configured for JPD in Crowd/JIRA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#application_name CrowdSettings#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#application_name CrowdSettings#application_name}
   */
   readonly applicationName: string;
   /**
   * When set, authenticated users are automatically created in Artifactory. When not set, for every request from a Crowd user, the user is temporarily associated with default groups (if such groups are defined), and the permissions for these groups apply. Without automatic user creation, you must manually create the user in Artifactory to manage user permissions not attached to their default groups. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#auto_user_creation CrowdSettings#auto_user_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#auto_user_creation CrowdSettings#auto_user_creation}
   */
   readonly autoUserCreation?: boolean | cdktf.IResolvable;
   /**
   * This corresponds to 'Users Management Server' option in Artifactory UI (`true` = JIRA, `false` = Crowd). Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#direct_authentication CrowdSettings#direct_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#direct_authentication CrowdSettings#direct_authentication}
   */
   readonly directAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Use this to enable security integration with Atlassian Crowd or JIRA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#enable CrowdSettings#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#enable CrowdSettings#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * When a user logs in with CROWD, only groups retrieved from CROWD will be associated with the user. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#override_all_groups_upon_login CrowdSettings#override_all_groups_upon_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#override_all_groups_upon_login CrowdSettings#override_all_groups_upon_login}
   */
   readonly overrideAllGroupsUponLogin?: boolean | cdktf.IResolvable;
   /**
   * The application password configured for JPD in Crowd/JIRA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#password CrowdSettings#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#password CrowdSettings#password}
   */
   readonly password: string;
   /**
   * The full URL of the server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#server_url CrowdSettings#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#server_url CrowdSettings#server_url}
   */
   readonly serverUrl: string;
   /**
   * The time window (min) during which the session does not need to be validated. If set to `0`, the token expires only when the session expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#session_validation_interval CrowdSettings#session_validation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#session_validation_interval CrowdSettings#session_validation_interval}
   */
   readonly sessionValidationInterval: number;
   /**
   * If a default proxy definition exists, it is used to pass through to the Crowd Server. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#use_default_proxy CrowdSettings#use_default_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#use_default_proxy CrowdSettings#use_default_proxy}
   */
   readonly useDefaultProxy?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings platform_crowd_settings}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings platform_crowd_settings}
 */
 export class CrowdSettings extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class CrowdSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CrowdSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrowdSettings to import
-  * @param importFromId The id of the existing CrowdSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrowdSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrowdSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class CrowdSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/crowd_settings platform_crowd_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/crowd_settings platform_crowd_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class CrowdSettings extends cdktf.TerraformResource {
       terraformResourceType: 'platform_crowd_settings',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

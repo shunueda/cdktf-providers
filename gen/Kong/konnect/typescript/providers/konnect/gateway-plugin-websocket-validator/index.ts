@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginWebsocketValidatorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#config GatewayPluginWebsocketValidator#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#config GatewayPluginWebsocketValidator#config}
   */
   readonly config?: GatewayPluginWebsocketValidatorConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#consumer GatewayPluginWebsocketValidator#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#consumer GatewayPluginWebsocketValidator#consumer}
   */
   readonly consumer?: GatewayPluginWebsocketValidatorConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#control_plane_id GatewayPluginWebsocketValidator#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#control_plane_id GatewayPluginWebsocketValidator#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#created_at GatewayPluginWebsocketValidator#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#created_at GatewayPluginWebsocketValidator#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#enabled GatewayPluginWebsocketValidator#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#enabled GatewayPluginWebsocketValidator#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginWebsocketValidatorConfig extends cdktf.TerraformMe
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#instance_name GatewayPluginWebsocketValidator#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#instance_name GatewayPluginWebsocketValidator#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#ordering GatewayPluginWebsocketValidator#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#ordering GatewayPluginWebsocketValidator#ordering}
   */
   readonly ordering?: GatewayPluginWebsocketValidatorOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#partials GatewayPluginWebsocketValidator#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#partials GatewayPluginWebsocketValidator#partials}
   */
   readonly partials?: GatewayPluginWebsocketValidatorPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#protocols GatewayPluginWebsocketValidator#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#protocols GatewayPluginWebsocketValidator#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#route GatewayPluginWebsocketValidator#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#route GatewayPluginWebsocketValidator#route}
   */
   readonly route?: GatewayPluginWebsocketValidatorRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#service GatewayPluginWebsocketValidator#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#service GatewayPluginWebsocketValidator#service}
   */
   readonly service?: GatewayPluginWebsocketValidatorService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#tags GatewayPluginWebsocketValidator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#tags GatewayPluginWebsocketValidator#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#updated_at GatewayPluginWebsocketValidator#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#updated_at GatewayPluginWebsocketValidator#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,13 +95,13 @@ export interface GatewayPluginWebsocketValidatorConfigClientBinary {
   /**
   * Schema used to validate upstream-originated binary frames. The semantics of this field depend on the validation type set by `config.upstream.binary.type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
   */
   readonly schema: string;
   /**
   * The corresponding validation library for `config.upstream.binary.schema`. Currently, only `draft4` is supported. must be "draft4"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
   */
   readonly type: string;
 }
@@ -220,13 +220,13 @@ export interface GatewayPluginWebsocketValidatorConfigClientText {
   /**
   * Schema used to validate upstream-originated binary frames. The semantics of this field depend on the validation type set by `config.upstream.binary.type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
   */
   readonly schema: string;
   /**
   * The corresponding validation library for `config.upstream.binary.schema`. Currently, only `draft4` is supported. must be "draft4"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
   */
   readonly type: string;
 }
@@ -343,11 +343,11 @@ export class GatewayPluginWebsocketValidatorConfigClientTextOutputReference exte
 }
 export interface GatewayPluginWebsocketValidatorConfigClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#binary GatewayPluginWebsocketValidator#binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#binary GatewayPluginWebsocketValidator#binary}
   */
   readonly binary?: GatewayPluginWebsocketValidatorConfigClientBinary;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#text GatewayPluginWebsocketValidator#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#text GatewayPluginWebsocketValidator#text}
   */
   readonly text?: GatewayPluginWebsocketValidatorConfigClientText;
 }
@@ -472,13 +472,13 @@ export interface GatewayPluginWebsocketValidatorConfigUpstreamBinary {
   /**
   * Schema used to validate upstream-originated binary frames. The semantics of this field depend on the validation type set by `config.upstream.binary.type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
   */
   readonly schema: string;
   /**
   * The corresponding validation library for `config.upstream.binary.schema`. Currently, only `draft4` is supported. must be "draft4"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
   */
   readonly type: string;
 }
@@ -597,13 +597,13 @@ export interface GatewayPluginWebsocketValidatorConfigUpstreamText {
   /**
   * Schema used to validate upstream-originated binary frames. The semantics of this field depend on the validation type set by `config.upstream.binary.type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#schema GatewayPluginWebsocketValidator#schema}
   */
   readonly schema: string;
   /**
   * The corresponding validation library for `config.upstream.binary.schema`. Currently, only `draft4` is supported. must be "draft4"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#type GatewayPluginWebsocketValidator#type}
   */
   readonly type: string;
 }
@@ -720,11 +720,11 @@ export class GatewayPluginWebsocketValidatorConfigUpstreamTextOutputReference ex
 }
 export interface GatewayPluginWebsocketValidatorConfigUpstream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#binary GatewayPluginWebsocketValidator#binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#binary GatewayPluginWebsocketValidator#binary}
   */
   readonly binary?: GatewayPluginWebsocketValidatorConfigUpstreamBinary;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#text GatewayPluginWebsocketValidator#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#text GatewayPluginWebsocketValidator#text}
   */
   readonly text?: GatewayPluginWebsocketValidatorConfigUpstreamText;
 }
@@ -847,11 +847,11 @@ export class GatewayPluginWebsocketValidatorConfigUpstreamOutputReference extend
 }
 export interface GatewayPluginWebsocketValidatorConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#client GatewayPluginWebsocketValidator#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#client GatewayPluginWebsocketValidator#client}
   */
   readonly client?: GatewayPluginWebsocketValidatorConfigClient;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#upstream GatewayPluginWebsocketValidator#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#upstream GatewayPluginWebsocketValidator#upstream}
   */
   readonly upstream?: GatewayPluginWebsocketValidatorConfigUpstream;
 }
@@ -974,7 +974,7 @@ export class GatewayPluginWebsocketValidatorConfigAOutputReference extends cdktf
 }
 export interface GatewayPluginWebsocketValidatorConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1071,7 +1071,7 @@ export class GatewayPluginWebsocketValidatorConsumerOutputReference extends cdkt
 }
 export interface GatewayPluginWebsocketValidatorOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#access GatewayPluginWebsocketValidator#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#access GatewayPluginWebsocketValidator#access}
   */
   readonly access?: string[];
 }
@@ -1165,7 +1165,7 @@ export class GatewayPluginWebsocketValidatorOrderingAfterOutputReference extends
 }
 export interface GatewayPluginWebsocketValidatorOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#access GatewayPluginWebsocketValidator#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#access GatewayPluginWebsocketValidator#access}
   */
   readonly access?: string[];
 }
@@ -1259,11 +1259,11 @@ export class GatewayPluginWebsocketValidatorOrderingBeforeOutputReference extend
 }
 export interface GatewayPluginWebsocketValidatorOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#after GatewayPluginWebsocketValidator#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#after GatewayPluginWebsocketValidator#after}
   */
   readonly after?: GatewayPluginWebsocketValidatorOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#before GatewayPluginWebsocketValidator#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#before GatewayPluginWebsocketValidator#before}
   */
   readonly before?: GatewayPluginWebsocketValidatorOrderingBefore;
 }
@@ -1388,7 +1388,7 @@ export interface GatewayPluginWebsocketValidatorPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1397,11 +1397,11 @@ export interface GatewayPluginWebsocketValidatorPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#name GatewayPluginWebsocketValidator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#name GatewayPluginWebsocketValidator#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#path GatewayPluginWebsocketValidator#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#path GatewayPluginWebsocketValidator#path}
   */
   readonly path?: string;
 }
@@ -1575,7 +1575,7 @@ export class GatewayPluginWebsocketValidatorPartialsList extends cdktf.ComplexLi
 }
 export interface GatewayPluginWebsocketValidatorRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1672,7 +1672,7 @@ export class GatewayPluginWebsocketValidatorRouteOutputReference extends cdktf.C
 }
 export interface GatewayPluginWebsocketValidatorService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#id GatewayPluginWebsocketValidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1769,7 +1769,7 @@ export class GatewayPluginWebsocketValidatorServiceOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator konnect_gateway_plugin_websocket_validator}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator konnect_gateway_plugin_websocket_validator}
 */
 export class GatewayPluginWebsocketValidator extends cdktf.TerraformResource {
 
@@ -1785,7 +1785,7 @@ export class GatewayPluginWebsocketValidator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginWebsocketValidator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginWebsocketValidator to import
-  * @param importFromId The id of the existing GatewayPluginWebsocketValidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginWebsocketValidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginWebsocketValidator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1797,7 +1797,7 @@ export class GatewayPluginWebsocketValidator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_validator konnect_gateway_plugin_websocket_validator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_validator konnect_gateway_plugin_websocket_validator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1808,8 +1808,8 @@ export class GatewayPluginWebsocketValidator extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_websocket_validator',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

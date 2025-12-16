@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiGcpModelArmorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#config GatewayPluginAiGcpModelArmor#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#config GatewayPluginAiGcpModelArmor#config}
   */
   readonly config: GatewayPluginAiGcpModelArmorConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#consumer GatewayPluginAiGcpModelArmor#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#consumer GatewayPluginAiGcpModelArmor#consumer}
   */
   readonly consumer?: GatewayPluginAiGcpModelArmorConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#consumer_group GatewayPluginAiGcpModelArmor#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#consumer_group GatewayPluginAiGcpModelArmor#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiGcpModelArmorConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#control_plane_id GatewayPluginAiGcpModelArmor#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#control_plane_id GatewayPluginAiGcpModelArmor#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#created_at GatewayPluginAiGcpModelArmor#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#created_at GatewayPluginAiGcpModelArmor#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#enabled GatewayPluginAiGcpModelArmor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#enabled GatewayPluginAiGcpModelArmor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiGcpModelArmorConfig extends cdktf.TerraformMetaA
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#instance_name GatewayPluginAiGcpModelArmor#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#instance_name GatewayPluginAiGcpModelArmor#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#ordering GatewayPluginAiGcpModelArmor#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#ordering GatewayPluginAiGcpModelArmor#ordering}
   */
   readonly ordering?: GatewayPluginAiGcpModelArmorOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#partials GatewayPluginAiGcpModelArmor#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#partials GatewayPluginAiGcpModelArmor#partials}
   */
   readonly partials?: GatewayPluginAiGcpModelArmorPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#protocols GatewayPluginAiGcpModelArmor#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#protocols GatewayPluginAiGcpModelArmor#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#route GatewayPluginAiGcpModelArmor#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#route GatewayPluginAiGcpModelArmor#route}
   */
   readonly route?: GatewayPluginAiGcpModelArmorRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#service GatewayPluginAiGcpModelArmor#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#service GatewayPluginAiGcpModelArmor#service}
   */
   readonly service?: GatewayPluginAiGcpModelArmorService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#tags GatewayPluginAiGcpModelArmor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#tags GatewayPluginAiGcpModelArmor#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#updated_at GatewayPluginAiGcpModelArmor#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#updated_at GatewayPluginAiGcpModelArmor#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,91 +101,91 @@ export interface GatewayPluginAiGcpModelArmorConfigA {
   /**
   * Enables multi-language detection mode. Must be used with 'source_language'. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#enable_multi_language_detection GatewayPluginAiGcpModelArmor#enable_multi_language_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#enable_multi_language_detection GatewayPluginAiGcpModelArmor#enable_multi_language_detection}
   */
   readonly enableMultiLanguageDetection?: boolean | cdktf.IResolvable;
   /**
   * Set this field to the full JSON of the GCP service account to authenticate, if required. If null (and gcp_use_service_account is true), Kong will attempt to read from environment variable `GCP_SERVICE_ACCOUNT` or from the instance/container metadata service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#gcp_service_account_json GatewayPluginAiGcpModelArmor#gcp_service_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#gcp_service_account_json GatewayPluginAiGcpModelArmor#gcp_service_account_json}
   */
   readonly gcpServiceAccountJson?: string;
   /**
   * Use service account auth for GCP-based providers and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#gcp_use_service_account GatewayPluginAiGcpModelArmor#gcp_use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#gcp_use_service_account GatewayPluginAiGcpModelArmor#gcp_use_service_account}
   */
   readonly gcpUseServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * The guardrail mode to use for the request. Default: "INPUT"; must be one of ["BOTH", "INPUT", "OUTPUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#guarding_mode GatewayPluginAiGcpModelArmor#guarding_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#guarding_mode GatewayPluginAiGcpModelArmor#guarding_mode}
   */
   readonly guardingMode?: string;
   /**
   * GCP Location ID for the GCP Model Armor subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#location_id GatewayPluginAiGcpModelArmor#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#location_id GatewayPluginAiGcpModelArmor#location_id}
   */
   readonly locationId: string;
   /**
   * GCP Project ID for the GCP Model Armor subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#project_id GatewayPluginAiGcpModelArmor#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#project_id GatewayPluginAiGcpModelArmor#project_id}
   */
   readonly projectId: string;
   /**
   * The message to return when a failure occurs on the request phase. Default: "Request was filtered by GCP Model Armor"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#request_failure_message GatewayPluginAiGcpModelArmor#request_failure_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#request_failure_message GatewayPluginAiGcpModelArmor#request_failure_message}
   */
   readonly requestFailureMessage?: string;
   /**
   * The amount of bytes receiving from upstream to be buffered before sending to the model armor service. This only applies to the response content guard. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#response_buffer_size GatewayPluginAiGcpModelArmor#response_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#response_buffer_size GatewayPluginAiGcpModelArmor#response_buffer_size}
   */
   readonly responseBufferSize?: number;
   /**
   * The message to return when a failure occurs on the response phase. Default: "Response was filtered by GCP Model Armor"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#response_failure_message GatewayPluginAiGcpModelArmor#response_failure_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#response_failure_message GatewayPluginAiGcpModelArmor#response_failure_message}
   */
   readonly responseFailureMessage?: string;
   /**
   * Whether to reveal failure categories in the response to the caller. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#reveal_failure_categories GatewayPluginAiGcpModelArmor#reveal_failure_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#reveal_failure_categories GatewayPluginAiGcpModelArmor#reveal_failure_categories}
   */
   readonly revealFailureCategories?: boolean | cdktf.IResolvable;
   /**
   * Source language (ISO code) to use when 'enable_multi_language_detection' is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#source_language GatewayPluginAiGcpModelArmor#source_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#source_language GatewayPluginAiGcpModelArmor#source_language}
   */
   readonly sourceLanguage?: string;
   /**
   * Stop processing if an error occurs. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#stop_on_error GatewayPluginAiGcpModelArmor#stop_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#stop_on_error GatewayPluginAiGcpModelArmor#stop_on_error}
   */
   readonly stopOnError?: boolean | cdktf.IResolvable;
   /**
   * GCP Model Armor Template ID to enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#template_id GatewayPluginAiGcpModelArmor#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#template_id GatewayPluginAiGcpModelArmor#template_id}
   */
   readonly templateId: string;
   /**
   * Select where to pick the 'text' for the GCP Model Armor Services request. Default: "last_message"; must be one of ["concatenate_all_content", "concatenate_user_content", "last_message"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#text_source GatewayPluginAiGcpModelArmor#text_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#text_source GatewayPluginAiGcpModelArmor#text_source}
   */
   readonly textSource?: string;
   /**
   * Connection timeout with the GCP Model Armor service. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#timeout GatewayPluginAiGcpModelArmor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#timeout GatewayPluginAiGcpModelArmor#timeout}
   */
   readonly timeout?: number;
 }
@@ -676,7 +676,7 @@ export class GatewayPluginAiGcpModelArmorConfigAOutputReference extends cdktf.Co
 }
 export interface GatewayPluginAiGcpModelArmorConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -773,7 +773,7 @@ export class GatewayPluginAiGcpModelArmorConsumerOutputReference extends cdktf.C
 }
 export interface GatewayPluginAiGcpModelArmorConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -870,7 +870,7 @@ export class GatewayPluginAiGcpModelArmorConsumerGroupOutputReference extends cd
 }
 export interface GatewayPluginAiGcpModelArmorOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#access GatewayPluginAiGcpModelArmor#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#access GatewayPluginAiGcpModelArmor#access}
   */
   readonly access?: string[];
 }
@@ -964,7 +964,7 @@ export class GatewayPluginAiGcpModelArmorOrderingAfterOutputReference extends cd
 }
 export interface GatewayPluginAiGcpModelArmorOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#access GatewayPluginAiGcpModelArmor#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#access GatewayPluginAiGcpModelArmor#access}
   */
   readonly access?: string[];
 }
@@ -1058,11 +1058,11 @@ export class GatewayPluginAiGcpModelArmorOrderingBeforeOutputReference extends c
 }
 export interface GatewayPluginAiGcpModelArmorOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#after GatewayPluginAiGcpModelArmor#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#after GatewayPluginAiGcpModelArmor#after}
   */
   readonly after?: GatewayPluginAiGcpModelArmorOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#before GatewayPluginAiGcpModelArmor#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#before GatewayPluginAiGcpModelArmor#before}
   */
   readonly before?: GatewayPluginAiGcpModelArmorOrderingBefore;
 }
@@ -1187,7 +1187,7 @@ export interface GatewayPluginAiGcpModelArmorPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1196,11 +1196,11 @@ export interface GatewayPluginAiGcpModelArmorPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#name GatewayPluginAiGcpModelArmor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#name GatewayPluginAiGcpModelArmor#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#path GatewayPluginAiGcpModelArmor#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#path GatewayPluginAiGcpModelArmor#path}
   */
   readonly path?: string;
 }
@@ -1374,7 +1374,7 @@ export class GatewayPluginAiGcpModelArmorPartialsList extends cdktf.ComplexList 
 }
 export interface GatewayPluginAiGcpModelArmorRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1471,7 +1471,7 @@ export class GatewayPluginAiGcpModelArmorRouteOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginAiGcpModelArmorService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#id GatewayPluginAiGcpModelArmor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1568,7 +1568,7 @@ export class GatewayPluginAiGcpModelArmorServiceOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor konnect_gateway_plugin_ai_gcp_model_armor}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor konnect_gateway_plugin_ai_gcp_model_armor}
 */
 export class GatewayPluginAiGcpModelArmor extends cdktf.TerraformResource {
 
@@ -1584,7 +1584,7 @@ export class GatewayPluginAiGcpModelArmor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiGcpModelArmor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiGcpModelArmor to import
-  * @param importFromId The id of the existing GatewayPluginAiGcpModelArmor that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiGcpModelArmor that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiGcpModelArmor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1596,7 +1596,7 @@ export class GatewayPluginAiGcpModelArmor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_gcp_model_armor konnect_gateway_plugin_ai_gcp_model_armor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_gcp_model_armor konnect_gateway_plugin_ai_gcp_model_armor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1607,8 +1607,8 @@ export class GatewayPluginAiGcpModelArmor extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_gcp_model_armor',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

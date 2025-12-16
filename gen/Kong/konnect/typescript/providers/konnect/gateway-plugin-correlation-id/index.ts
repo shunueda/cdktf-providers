@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginCorrelationIdConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#config GatewayPluginCorrelationId#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#config GatewayPluginCorrelationId#config}
   */
   readonly config?: GatewayPluginCorrelationIdConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#consumer GatewayPluginCorrelationId#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#consumer GatewayPluginCorrelationId#consumer}
   */
   readonly consumer?: GatewayPluginCorrelationIdConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#control_plane_id GatewayPluginCorrelationId#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#control_plane_id GatewayPluginCorrelationId#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#created_at GatewayPluginCorrelationId#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#created_at GatewayPluginCorrelationId#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#enabled GatewayPluginCorrelationId#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#enabled GatewayPluginCorrelationId#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginCorrelationIdConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#instance_name GatewayPluginCorrelationId#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#instance_name GatewayPluginCorrelationId#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#ordering GatewayPluginCorrelationId#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#ordering GatewayPluginCorrelationId#ordering}
   */
   readonly ordering?: GatewayPluginCorrelationIdOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#partials GatewayPluginCorrelationId#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#partials GatewayPluginCorrelationId#partials}
   */
   readonly partials?: GatewayPluginCorrelationIdPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#protocols GatewayPluginCorrelationId#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#protocols GatewayPluginCorrelationId#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#route GatewayPluginCorrelationId#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#route GatewayPluginCorrelationId#route}
   */
   readonly route?: GatewayPluginCorrelationIdRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#service GatewayPluginCorrelationId#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#service GatewayPluginCorrelationId#service}
   */
   readonly service?: GatewayPluginCorrelationIdService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#tags GatewayPluginCorrelationId#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#tags GatewayPluginCorrelationId#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#updated_at GatewayPluginCorrelationId#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#updated_at GatewayPluginCorrelationId#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,19 +95,19 @@ export interface GatewayPluginCorrelationIdConfigA {
   /**
   * Whether to echo the header back to downstream (the client). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#echo_downstream GatewayPluginCorrelationId#echo_downstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#echo_downstream GatewayPluginCorrelationId#echo_downstream}
   */
   readonly echoDownstream?: boolean | cdktf.IResolvable;
   /**
   * The generator to use for the correlation ID. Accepted values are `uuid`, `uuid#counter`, and `tracker`. See [Generators](#generators). Default: "uuid#counter"; must be one of ["tracker", "uuid", "uuid#counter"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#generator GatewayPluginCorrelationId#generator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#generator GatewayPluginCorrelationId#generator}
   */
   readonly generator?: string;
   /**
   * The HTTP header name to use for the correlation ID. Default: "Kong-Request-ID"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#header_name GatewayPluginCorrelationId#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#header_name GatewayPluginCorrelationId#header_name}
   */
   readonly headerName?: string;
 }
@@ -259,7 +259,7 @@ export class GatewayPluginCorrelationIdConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginCorrelationIdConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -356,7 +356,7 @@ export class GatewayPluginCorrelationIdConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginCorrelationIdOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#access GatewayPluginCorrelationId#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#access GatewayPluginCorrelationId#access}
   */
   readonly access?: string[];
 }
@@ -450,7 +450,7 @@ export class GatewayPluginCorrelationIdOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginCorrelationIdOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#access GatewayPluginCorrelationId#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#access GatewayPluginCorrelationId#access}
   */
   readonly access?: string[];
 }
@@ -544,11 +544,11 @@ export class GatewayPluginCorrelationIdOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginCorrelationIdOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#after GatewayPluginCorrelationId#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#after GatewayPluginCorrelationId#after}
   */
   readonly after?: GatewayPluginCorrelationIdOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#before GatewayPluginCorrelationId#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#before GatewayPluginCorrelationId#before}
   */
   readonly before?: GatewayPluginCorrelationIdOrderingBefore;
 }
@@ -673,7 +673,7 @@ export interface GatewayPluginCorrelationIdPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -682,11 +682,11 @@ export interface GatewayPluginCorrelationIdPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#name GatewayPluginCorrelationId#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#name GatewayPluginCorrelationId#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#path GatewayPluginCorrelationId#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#path GatewayPluginCorrelationId#path}
   */
   readonly path?: string;
 }
@@ -860,7 +860,7 @@ export class GatewayPluginCorrelationIdPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginCorrelationIdRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,7 +957,7 @@ export class GatewayPluginCorrelationIdRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginCorrelationIdService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#id GatewayPluginCorrelationId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1054,7 +1054,7 @@ export class GatewayPluginCorrelationIdServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id konnect_gateway_plugin_correlation_id}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id konnect_gateway_plugin_correlation_id}
 */
 export class GatewayPluginCorrelationId extends cdktf.TerraformResource {
 
@@ -1070,7 +1070,7 @@ export class GatewayPluginCorrelationId extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginCorrelationId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginCorrelationId to import
-  * @param importFromId The id of the existing GatewayPluginCorrelationId that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginCorrelationId that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginCorrelationId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1082,7 +1082,7 @@ export class GatewayPluginCorrelationId extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_correlation_id konnect_gateway_plugin_correlation_id} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_correlation_id konnect_gateway_plugin_correlation_id} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1093,8 +1093,8 @@ export class GatewayPluginCorrelationId extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_correlation_id',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

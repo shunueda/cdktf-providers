@@ -1,3 +1,3 @@
 # `data_criblio_pipeline`
 
-Refer to the Terraform Registry for docs: [`data_criblio_pipeline`](https://registry.terraform.io/providers/criblio/criblio/1.20.62/docs/data-sources/pipeline).
+Refer to the Terraform Registry for docs: [`data_criblio_pipeline`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/pipeline).

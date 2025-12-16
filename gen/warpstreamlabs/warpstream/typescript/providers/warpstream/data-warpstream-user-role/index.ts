@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataWarpstreamUserRoleConfig extends cdktf.TerraformMetaArgumen
   /**
   * List of grants defining the role's access level inside each workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role#access_grants DataWarpstreamUserRole#access_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role#access_grants DataWarpstreamUserRole#access_grants}
   */
   readonly accessGrants?: DataWarpstreamUserRoleAccessGrants[] | cdktf.IResolvable;
   /**
   * User Role ID. Exactly one of id or name must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role#id DataWarpstreamUserRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role#id DataWarpstreamUserRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataWarpstreamUserRoleConfig extends cdktf.TerraformMetaArgumen
   /**
   * User Role Name. Exactly one of id or name must be provided. Unique across WarpStream account. Contains spaces, hyphens, underscores or alphanumeric characters only. Between 3 and 60 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role#name DataWarpstreamUserRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role#name DataWarpstreamUserRole#name}
   */
   readonly name?: string;
 }
@@ -122,7 +122,7 @@ export class DataWarpstreamUserRoleAccessGrantsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role warpstream_user_role}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role warpstream_user_role}
 */
 export class DataWarpstreamUserRole extends cdktf.TerraformDataSource {
 
@@ -138,7 +138,7 @@ export class DataWarpstreamUserRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataWarpstreamUserRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWarpstreamUserRole to import
-  * @param importFromId The id of the existing DataWarpstreamUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWarpstreamUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWarpstreamUserRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +150,7 @@ export class DataWarpstreamUserRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/user_role warpstream_user_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.5/docs/data-sources/user_role warpstream_user_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +161,8 @@ export class DataWarpstreamUserRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'warpstream_user_role',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.3.4',
-        providerVersionConstraint: '2.3.4'
+        providerVersion: '2.3.5',
+        providerVersionConstraint: '2.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

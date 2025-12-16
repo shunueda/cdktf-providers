@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginWebsocketSizeLimitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#config GatewayPluginWebsocketSizeLimit#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#config GatewayPluginWebsocketSizeLimit#config}
   */
   readonly config?: GatewayPluginWebsocketSizeLimitConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#consumer GatewayPluginWebsocketSizeLimit#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#consumer GatewayPluginWebsocketSizeLimit#consumer}
   */
   readonly consumer?: GatewayPluginWebsocketSizeLimitConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#control_plane_id GatewayPluginWebsocketSizeLimit#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#control_plane_id GatewayPluginWebsocketSizeLimit#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#created_at GatewayPluginWebsocketSizeLimit#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#created_at GatewayPluginWebsocketSizeLimit#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#enabled GatewayPluginWebsocketSizeLimit#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#enabled GatewayPluginWebsocketSizeLimit#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,57 +47,57 @@ export interface GatewayPluginWebsocketSizeLimitConfig extends cdktf.TerraformMe
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#instance_name GatewayPluginWebsocketSizeLimit#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#instance_name GatewayPluginWebsocketSizeLimit#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#ordering GatewayPluginWebsocketSizeLimit#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#ordering GatewayPluginWebsocketSizeLimit#ordering}
   */
   readonly ordering?: GatewayPluginWebsocketSizeLimitOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#partials GatewayPluginWebsocketSizeLimit#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#partials GatewayPluginWebsocketSizeLimit#partials}
   */
   readonly partials?: GatewayPluginWebsocketSizeLimitPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#protocols GatewayPluginWebsocketSizeLimit#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#protocols GatewayPluginWebsocketSizeLimit#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#route GatewayPluginWebsocketSizeLimit#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#route GatewayPluginWebsocketSizeLimit#route}
   */
   readonly route?: GatewayPluginWebsocketSizeLimitRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#service GatewayPluginWebsocketSizeLimit#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#service GatewayPluginWebsocketSizeLimit#service}
   */
   readonly service?: GatewayPluginWebsocketSizeLimitService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#tags GatewayPluginWebsocketSizeLimit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#tags GatewayPluginWebsocketSizeLimit#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#updated_at GatewayPluginWebsocketSizeLimit#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#updated_at GatewayPluginWebsocketSizeLimit#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewayPluginWebsocketSizeLimitConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#client_max_payload GatewayPluginWebsocketSizeLimit#client_max_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#client_max_payload GatewayPluginWebsocketSizeLimit#client_max_payload}
   */
   readonly clientMaxPayload?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#upstream_max_payload GatewayPluginWebsocketSizeLimit#upstream_max_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#upstream_max_payload GatewayPluginWebsocketSizeLimit#upstream_max_payload}
   */
   readonly upstreamMaxPayload?: number;
 }
@@ -220,7 +220,7 @@ export class GatewayPluginWebsocketSizeLimitConfigAOutputReference extends cdktf
 }
 export interface GatewayPluginWebsocketSizeLimitConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -317,7 +317,7 @@ export class GatewayPluginWebsocketSizeLimitConsumerOutputReference extends cdkt
 }
 export interface GatewayPluginWebsocketSizeLimitOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#access GatewayPluginWebsocketSizeLimit#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#access GatewayPluginWebsocketSizeLimit#access}
   */
   readonly access?: string[];
 }
@@ -411,7 +411,7 @@ export class GatewayPluginWebsocketSizeLimitOrderingAfterOutputReference extends
 }
 export interface GatewayPluginWebsocketSizeLimitOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#access GatewayPluginWebsocketSizeLimit#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#access GatewayPluginWebsocketSizeLimit#access}
   */
   readonly access?: string[];
 }
@@ -505,11 +505,11 @@ export class GatewayPluginWebsocketSizeLimitOrderingBeforeOutputReference extend
 }
 export interface GatewayPluginWebsocketSizeLimitOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#after GatewayPluginWebsocketSizeLimit#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#after GatewayPluginWebsocketSizeLimit#after}
   */
   readonly after?: GatewayPluginWebsocketSizeLimitOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#before GatewayPluginWebsocketSizeLimit#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#before GatewayPluginWebsocketSizeLimit#before}
   */
   readonly before?: GatewayPluginWebsocketSizeLimitOrderingBefore;
 }
@@ -634,7 +634,7 @@ export interface GatewayPluginWebsocketSizeLimitPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -643,11 +643,11 @@ export interface GatewayPluginWebsocketSizeLimitPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#name GatewayPluginWebsocketSizeLimit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#name GatewayPluginWebsocketSizeLimit#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#path GatewayPluginWebsocketSizeLimit#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#path GatewayPluginWebsocketSizeLimit#path}
   */
   readonly path?: string;
 }
@@ -821,7 +821,7 @@ export class GatewayPluginWebsocketSizeLimitPartialsList extends cdktf.ComplexLi
 }
 export interface GatewayPluginWebsocketSizeLimitRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -918,7 +918,7 @@ export class GatewayPluginWebsocketSizeLimitRouteOutputReference extends cdktf.C
 }
 export interface GatewayPluginWebsocketSizeLimitService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#id GatewayPluginWebsocketSizeLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1015,7 +1015,7 @@ export class GatewayPluginWebsocketSizeLimitServiceOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit konnect_gateway_plugin_websocket_size_limit}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit konnect_gateway_plugin_websocket_size_limit}
 */
 export class GatewayPluginWebsocketSizeLimit extends cdktf.TerraformResource {
 
@@ -1031,7 +1031,7 @@ export class GatewayPluginWebsocketSizeLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginWebsocketSizeLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginWebsocketSizeLimit to import
-  * @param importFromId The id of the existing GatewayPluginWebsocketSizeLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginWebsocketSizeLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginWebsocketSizeLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1043,7 +1043,7 @@ export class GatewayPluginWebsocketSizeLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_websocket_size_limit konnect_gateway_plugin_websocket_size_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_websocket_size_limit konnect_gateway_plugin_websocket_size_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1054,8 +1054,8 @@ export class GatewayPluginWebsocketSizeLimit extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_websocket_size_limit',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

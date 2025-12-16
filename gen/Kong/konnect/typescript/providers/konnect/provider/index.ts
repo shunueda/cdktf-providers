@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface KonnectProviderConfig {
   /**
   * The Konnect access token is meant to be used by the Konnect dashboard and the decK CLI to authenticate with..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#konnect_access_token KonnectProvider#konnect_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#konnect_access_token KonnectProvider#konnect_access_token}
   */
   readonly konnectAccessToken?: string;
   /**
   * The personal access token is meant to be used as an alternative to basic-auth when accessing Konnect via APIs. You can generate a Personal Access Token (PAT) from the personal access token page in the Konnect dashboard.. Configurable via environment variable `KONNECT_TOKEN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#personal_access_token KonnectProvider#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#personal_access_token KonnectProvider#personal_access_token}
   */
   readonly personalAccessToken?: string;
   /**
   * Server URL (defaults to https://global.api.konghq.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#server_url KonnectProvider#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#server_url KonnectProvider#server_url}
   */
   readonly serverUrl?: string;
   /**
   * The Service access token is meant to be used between internal services.
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#service_access_token KonnectProvider#service_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#service_access_token KonnectProvider#service_access_token}
   */
   readonly serviceAccessToken?: string;
   /**
@@ -39,19 +39,19 @@ export interface KonnectProviderConfig {
   * `curl -X GET 'https://global.api.konghq.com/v2/users/' --header 'Authorization: Bearer spat_i2Ej...'`
   * . Configurable via environment variable `KONNECT_SPAT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#system_account_access_token KonnectProvider#system_account_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#system_account_access_token KonnectProvider#system_account_access_token}
   */
   readonly systemAccountAccessToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#alias KonnectProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#alias KonnectProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs konnect}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs konnect}
 */
 export class KonnectProvider extends cdktf.TerraformProvider {
 
@@ -67,7 +67,7 @@ export class KonnectProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a KonnectProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KonnectProvider to import
-  * @param importFromId The id of the existing KonnectProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KonnectProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KonnectProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class KonnectProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs konnect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs konnect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class KonnectProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'konnect',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       terraformProviderSource: 'Kong/konnect'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationInstanceAuthConfigConfig extends cdktf.TerraformMeta
   /**
   * The `id` of the integration instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#integration_instance_id IntegrationInstanceAuthConfig#integration_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#integration_instance_id IntegrationInstanceAuthConfig#integration_instance_id}
   */
   readonly integrationInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#oauth_config IntegrationInstanceAuthConfig#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#oauth_config IntegrationInstanceAuthConfig#oauth_config}
   */
   readonly oauthConfig?: IntegrationInstanceAuthConfigOauthConfig;
 }
@@ -86,25 +86,25 @@ export interface IntegrationInstanceAuthConfigOauthConfig {
   /**
   * The URL where users are redirected to authorize access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#authorization_endpoint IntegrationInstanceAuthConfig#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#authorization_endpoint IntegrationInstanceAuthConfig#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
   * The OAuth client identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#client_id IntegrationInstanceAuthConfig#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#client_id IntegrationInstanceAuthConfig#client_id}
   */
   readonly clientId: string;
   /**
   * The OAuth client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#client_secret IntegrationInstanceAuthConfig#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#client_secret IntegrationInstanceAuthConfig#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The URL used to retrieve access tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#token_endpoint IntegrationInstanceAuthConfig#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#token_endpoint IntegrationInstanceAuthConfig#token_endpoint}
   */
   readonly tokenEndpoint: string;
 }
@@ -273,7 +273,7 @@ export class IntegrationInstanceAuthConfigOauthConfigOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config konnect_integration_instance_auth_config}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config konnect_integration_instance_auth_config}
 */
 export class IntegrationInstanceAuthConfig extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class IntegrationInstanceAuthConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationInstanceAuthConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationInstanceAuthConfig to import
-  * @param importFromId The id of the existing IntegrationInstanceAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationInstanceAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationInstanceAuthConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class IntegrationInstanceAuthConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/integration_instance_auth_config konnect_integration_instance_auth_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/integration_instance_auth_config konnect_integration_instance_auth_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class IntegrationInstanceAuthConfig extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_integration_instance_auth_config',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

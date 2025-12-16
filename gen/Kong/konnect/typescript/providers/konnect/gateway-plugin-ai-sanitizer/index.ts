@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiSanitizerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#config GatewayPluginAiSanitizer#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#config GatewayPluginAiSanitizer#config}
   */
   readonly config?: GatewayPluginAiSanitizerConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#consumer GatewayPluginAiSanitizer#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#consumer GatewayPluginAiSanitizer#consumer}
   */
   readonly consumer?: GatewayPluginAiSanitizerConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#consumer_group GatewayPluginAiSanitizer#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#consumer_group GatewayPluginAiSanitizer#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiSanitizerConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#control_plane_id GatewayPluginAiSanitizer#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#control_plane_id GatewayPluginAiSanitizer#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#created_at GatewayPluginAiSanitizer#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#created_at GatewayPluginAiSanitizer#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#enabled GatewayPluginAiSanitizer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#enabled GatewayPluginAiSanitizer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiSanitizerConfig extends cdktf.TerraformMetaArgum
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#instance_name GatewayPluginAiSanitizer#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#instance_name GatewayPluginAiSanitizer#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#ordering GatewayPluginAiSanitizer#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#ordering GatewayPluginAiSanitizer#ordering}
   */
   readonly ordering?: GatewayPluginAiSanitizerOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#partials GatewayPluginAiSanitizer#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#partials GatewayPluginAiSanitizer#partials}
   */
   readonly partials?: GatewayPluginAiSanitizerPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#protocols GatewayPluginAiSanitizer#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#protocols GatewayPluginAiSanitizer#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#route GatewayPluginAiSanitizer#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#route GatewayPluginAiSanitizer#route}
   */
   readonly route?: GatewayPluginAiSanitizerRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#service GatewayPluginAiSanitizer#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#service GatewayPluginAiSanitizer#service}
   */
   readonly service?: GatewayPluginAiSanitizerService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#tags GatewayPluginAiSanitizer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#tags GatewayPluginAiSanitizer#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#updated_at GatewayPluginAiSanitizer#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#updated_at GatewayPluginAiSanitizer#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,17 +101,17 @@ export interface GatewayPluginAiSanitizerConfigCustomPatterns {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#name GatewayPluginAiSanitizer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#name GatewayPluginAiSanitizer#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#regex GatewayPluginAiSanitizer#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#regex GatewayPluginAiSanitizer#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#score GatewayPluginAiSanitizer#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#score GatewayPluginAiSanitizer#score}
   */
   readonly score?: number;
 }
@@ -287,73 +287,73 @@ export interface GatewayPluginAiSanitizerConfigA {
   /**
   * List of types to be anonymized. Default: ["all_and_credentials"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#anonymize GatewayPluginAiSanitizer#anonymize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#anonymize GatewayPluginAiSanitizer#anonymize}
   */
   readonly anonymize?: string[];
   /**
   * Whether to block requests containing PII data. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#block_if_detected GatewayPluginAiSanitizer#block_if_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#block_if_detected GatewayPluginAiSanitizer#block_if_detected}
   */
   readonly blockIfDetected?: boolean | cdktf.IResolvable;
   /**
   * List of custom patterns to be used for anonymization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#custom_patterns GatewayPluginAiSanitizer#custom_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#custom_patterns GatewayPluginAiSanitizer#custom_patterns}
   */
   readonly customPatterns?: GatewayPluginAiSanitizerConfigCustomPatterns[] | cdktf.IResolvable;
   /**
   * The host of the sanitizer. Default: "localhost"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#host GatewayPluginAiSanitizer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#host GatewayPluginAiSanitizer#host}
   */
   readonly host?: string;
   /**
   * The keepalive timeout for the established http connnection. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#keepalive_timeout GatewayPluginAiSanitizer#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#keepalive_timeout GatewayPluginAiSanitizer#keepalive_timeout}
   */
   readonly keepaliveTimeout?: number;
   /**
   * The port of the sanitizer. Default: 8080
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#port GatewayPluginAiSanitizer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#port GatewayPluginAiSanitizer#port}
   */
   readonly port?: number;
   /**
   * Whether to recover redacted data. This doesn't apply to the redacted output. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#recover_redacted GatewayPluginAiSanitizer#recover_redacted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#recover_redacted GatewayPluginAiSanitizer#recover_redacted}
   */
   readonly recoverRedacted?: boolean | cdktf.IResolvable;
   /**
   * What value to be used to redacted to. Default: "placeholder"; must be one of ["placeholder", "synthetic"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#redact_type GatewayPluginAiSanitizer#redact_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#redact_type GatewayPluginAiSanitizer#redact_type}
   */
   readonly redactType?: string;
   /**
   * The sanitization mode to use for the request. Default: "INPUT"; must be one of ["BOTH", "INPUT", "OUTPUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#sanitization_mode GatewayPluginAiSanitizer#sanitization_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#sanitization_mode GatewayPluginAiSanitizer#sanitization_mode}
   */
   readonly sanitizationMode?: string;
   /**
   * The protocol can be http and https. Default: "http"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#scheme GatewayPluginAiSanitizer#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#scheme GatewayPluginAiSanitizer#scheme}
   */
   readonly scheme?: string;
   /**
   * Stop processing if an error occurs. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#stop_on_error GatewayPluginAiSanitizer#stop_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#stop_on_error GatewayPluginAiSanitizer#stop_on_error}
   */
   readonly stopOnError?: boolean | cdktf.IResolvable;
   /**
   * Connection timeout with the sanitizer. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#timeout GatewayPluginAiSanitizer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#timeout GatewayPluginAiSanitizer#timeout}
   */
   readonly timeout?: number;
 }
@@ -766,7 +766,7 @@ export class GatewayPluginAiSanitizerConfigAOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginAiSanitizerConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -863,7 +863,7 @@ export class GatewayPluginAiSanitizerConsumerOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginAiSanitizerConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -960,7 +960,7 @@ export class GatewayPluginAiSanitizerConsumerGroupOutputReference extends cdktf.
 }
 export interface GatewayPluginAiSanitizerOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#access GatewayPluginAiSanitizer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#access GatewayPluginAiSanitizer#access}
   */
   readonly access?: string[];
 }
@@ -1054,7 +1054,7 @@ export class GatewayPluginAiSanitizerOrderingAfterOutputReference extends cdktf.
 }
 export interface GatewayPluginAiSanitizerOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#access GatewayPluginAiSanitizer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#access GatewayPluginAiSanitizer#access}
   */
   readonly access?: string[];
 }
@@ -1148,11 +1148,11 @@ export class GatewayPluginAiSanitizerOrderingBeforeOutputReference extends cdktf
 }
 export interface GatewayPluginAiSanitizerOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#after GatewayPluginAiSanitizer#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#after GatewayPluginAiSanitizer#after}
   */
   readonly after?: GatewayPluginAiSanitizerOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#before GatewayPluginAiSanitizer#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#before GatewayPluginAiSanitizer#before}
   */
   readonly before?: GatewayPluginAiSanitizerOrderingBefore;
 }
@@ -1277,7 +1277,7 @@ export interface GatewayPluginAiSanitizerPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1286,11 +1286,11 @@ export interface GatewayPluginAiSanitizerPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#name GatewayPluginAiSanitizer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#name GatewayPluginAiSanitizer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#path GatewayPluginAiSanitizer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#path GatewayPluginAiSanitizer#path}
   */
   readonly path?: string;
 }
@@ -1464,7 +1464,7 @@ export class GatewayPluginAiSanitizerPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAiSanitizerRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1561,7 +1561,7 @@ export class GatewayPluginAiSanitizerRouteOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginAiSanitizerService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#id GatewayPluginAiSanitizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1658,7 +1658,7 @@ export class GatewayPluginAiSanitizerServiceOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer konnect_gateway_plugin_ai_sanitizer}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer konnect_gateway_plugin_ai_sanitizer}
 */
 export class GatewayPluginAiSanitizer extends cdktf.TerraformResource {
 
@@ -1674,7 +1674,7 @@ export class GatewayPluginAiSanitizer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiSanitizer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiSanitizer to import
-  * @param importFromId The id of the existing GatewayPluginAiSanitizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiSanitizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiSanitizer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1686,7 +1686,7 @@ export class GatewayPluginAiSanitizer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_sanitizer konnect_gateway_plugin_ai_sanitizer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_sanitizer konnect_gateway_plugin_ai_sanitizer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1697,8 +1697,8 @@ export class GatewayPluginAiSanitizer extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_sanitizer',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PortalSnippetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The renderable markdown content of a page in a portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#content PortalSnippet#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#content PortalSnippet#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#description PortalSnippet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#description PortalSnippet#description}
   */
   readonly description?: string;
   /**
   * The unique name of a snippet in a portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#name PortalSnippet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#name PortalSnippet#name}
   */
   readonly name: string;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#portal_id PortalSnippet#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#portal_id PortalSnippet#portal_id}
   */
   readonly portalId: string;
   /**
   * Whether the resource is visible on a given portal. Defaults to unpublished. must be one of ["published", "unpublished"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#status PortalSnippet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#status PortalSnippet#status}
   */
   readonly status?: string;
   /**
   * The display title of a snippet in a portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#title PortalSnippet#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#title PortalSnippet#title}
   */
   readonly title?: string;
   /**
@@ -46,13 +46,13 @@ export interface PortalSnippetConfig extends cdktf.TerraformMetaArguments {
   * If not provided, the default_page_visibility value of the portal will be used.
   * must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#visibility PortalSnippet#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#visibility PortalSnippet#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet konnect_portal_snippet}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet konnect_portal_snippet}
 */
 export class PortalSnippet extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class PortalSnippet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalSnippet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalSnippet to import
-  * @param importFromId The id of the existing PortalSnippet that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalSnippet that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalSnippet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class PortalSnippet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_snippet konnect_portal_snippet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_snippet konnect_portal_snippet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class PortalSnippet extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_snippet',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginResponseRatelimitingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#config GatewayPluginResponseRatelimiting#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#config GatewayPluginResponseRatelimiting#config}
   */
   readonly config?: GatewayPluginResponseRatelimitingConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#consumer GatewayPluginResponseRatelimiting#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#consumer GatewayPluginResponseRatelimiting#consumer}
   */
   readonly consumer?: GatewayPluginResponseRatelimitingConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#control_plane_id GatewayPluginResponseRatelimiting#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#control_plane_id GatewayPluginResponseRatelimiting#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#created_at GatewayPluginResponseRatelimiting#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#created_at GatewayPluginResponseRatelimiting#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#enabled GatewayPluginResponseRatelimiting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#enabled GatewayPluginResponseRatelimiting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,103 +47,382 @@ export interface GatewayPluginResponseRatelimitingConfig extends cdktf.Terraform
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#instance_name GatewayPluginResponseRatelimiting#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#instance_name GatewayPluginResponseRatelimiting#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#ordering GatewayPluginResponseRatelimiting#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#ordering GatewayPluginResponseRatelimiting#ordering}
   */
   readonly ordering?: GatewayPluginResponseRatelimitingOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#partials GatewayPluginResponseRatelimiting#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#partials GatewayPluginResponseRatelimiting#partials}
   */
   readonly partials?: GatewayPluginResponseRatelimitingPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#protocols GatewayPluginResponseRatelimiting#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#protocols GatewayPluginResponseRatelimiting#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#route GatewayPluginResponseRatelimiting#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#route GatewayPluginResponseRatelimiting#route}
   */
   readonly route?: GatewayPluginResponseRatelimitingRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#service GatewayPluginResponseRatelimiting#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#service GatewayPluginResponseRatelimiting#service}
   */
   readonly service?: GatewayPluginResponseRatelimitingService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#tags GatewayPluginResponseRatelimiting#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#tags GatewayPluginResponseRatelimiting#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#updated_at GatewayPluginResponseRatelimiting#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#updated_at GatewayPluginResponseRatelimiting#updated_at}
   */
   readonly updatedAt?: number;
+}
+export interface GatewayPluginResponseRatelimitingConfigLimits {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#day GatewayPluginResponseRatelimiting#day}
+  */
+  readonly day?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#hour GatewayPluginResponseRatelimiting#hour}
+  */
+  readonly hour?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#minute GatewayPluginResponseRatelimiting#minute}
+  */
+  readonly minute?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#month GatewayPluginResponseRatelimiting#month}
+  */
+  readonly month?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#second GatewayPluginResponseRatelimiting#second}
+  */
+  readonly second?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#year GatewayPluginResponseRatelimiting#year}
+  */
+  readonly year?: number;
+}
+
+export function gatewayPluginResponseRatelimitingConfigLimitsToTerraform(struct?: GatewayPluginResponseRatelimitingConfigLimits | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    day: cdktf.numberToTerraform(struct!.day),
+    hour: cdktf.numberToTerraform(struct!.hour),
+    minute: cdktf.numberToTerraform(struct!.minute),
+    month: cdktf.numberToTerraform(struct!.month),
+    second: cdktf.numberToTerraform(struct!.second),
+    year: cdktf.numberToTerraform(struct!.year),
+  }
+}
+
+
+export function gatewayPluginResponseRatelimitingConfigLimitsToHclTerraform(struct?: GatewayPluginResponseRatelimitingConfigLimits | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    day: {
+      value: cdktf.numberToHclTerraform(struct!.day),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hour: {
+      value: cdktf.numberToHclTerraform(struct!.hour),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minute: {
+      value: cdktf.numberToHclTerraform(struct!.minute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    month: {
+      value: cdktf.numberToHclTerraform(struct!.month),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    second: {
+      value: cdktf.numberToHclTerraform(struct!.second),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    year: {
+      value: cdktf.numberToHclTerraform(struct!.year),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GatewayPluginResponseRatelimitingConfigLimitsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectKey the key of this item in the map
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectKey: string) {
+    super(terraformResource, terraformAttribute, false, complexObjectKey);
+  }
+
+  public get internalValue(): GatewayPluginResponseRatelimitingConfigLimits | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._day !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.day = this._day;
+    }
+    if (this._hour !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hour = this._hour;
+    }
+    if (this._minute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minute = this._minute;
+    }
+    if (this._month !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.month = this._month;
+    }
+    if (this._second !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.second = this._second;
+    }
+    if (this._year !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.year = this._year;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GatewayPluginResponseRatelimitingConfigLimits | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._day = undefined;
+      this._hour = undefined;
+      this._minute = undefined;
+      this._month = undefined;
+      this._second = undefined;
+      this._year = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._day = value.day;
+      this._hour = value.hour;
+      this._minute = value.minute;
+      this._month = value.month;
+      this._second = value.second;
+      this._year = value.year;
+    }
+  }
+
+  // day - computed: true, optional: true, required: false
+  private _day?: number; 
+  public get day() {
+    return this.getNumberAttribute('day');
+  }
+  public set day(value: number) {
+    this._day = value;
+  }
+  public resetDay() {
+    this._day = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dayInput() {
+    return this._day;
+  }
+
+  // hour - computed: true, optional: true, required: false
+  private _hour?: number; 
+  public get hour() {
+    return this.getNumberAttribute('hour');
+  }
+  public set hour(value: number) {
+    this._hour = value;
+  }
+  public resetHour() {
+    this._hour = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hourInput() {
+    return this._hour;
+  }
+
+  // minute - computed: true, optional: true, required: false
+  private _minute?: number; 
+  public get minute() {
+    return this.getNumberAttribute('minute');
+  }
+  public set minute(value: number) {
+    this._minute = value;
+  }
+  public resetMinute() {
+    this._minute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minuteInput() {
+    return this._minute;
+  }
+
+  // month - computed: true, optional: true, required: false
+  private _month?: number; 
+  public get month() {
+    return this.getNumberAttribute('month');
+  }
+  public set month(value: number) {
+    this._month = value;
+  }
+  public resetMonth() {
+    this._month = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get monthInput() {
+    return this._month;
+  }
+
+  // second - computed: true, optional: true, required: false
+  private _second?: number; 
+  public get second() {
+    return this.getNumberAttribute('second');
+  }
+  public set second(value: number) {
+    this._second = value;
+  }
+  public resetSecond() {
+    this._second = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secondInput() {
+    return this._second;
+  }
+
+  // year - computed: true, optional: true, required: false
+  private _year?: number; 
+  public get year() {
+    return this.getNumberAttribute('year');
+  }
+  public set year(value: number) {
+    this._year = value;
+  }
+  public resetYear() {
+    this._year = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get yearInput() {
+    return this._year;
+  }
+}
+
+export class GatewayPluginResponseRatelimitingConfigLimitsMap extends cdktf.ComplexMap {
+  public internalValue? : { [key: string]: GatewayPluginResponseRatelimitingConfigLimits } | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string) {
+    super(terraformResource, terraformAttribute)
+  }
+
+  /**
+  * @param key the key of the item to return
+  */
+  public get(key: string): GatewayPluginResponseRatelimitingConfigLimitsOutputReference {
+    return new GatewayPluginResponseRatelimitingConfigLimitsOutputReference(this.terraformResource, this.terraformAttribute, key);
+  }
 }
 export interface GatewayPluginResponseRatelimitingConfigRedis {
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#database GatewayPluginResponseRatelimiting#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#database GatewayPluginResponseRatelimiting#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#host GatewayPluginResponseRatelimiting#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#host GatewayPluginResponseRatelimiting#host}
   */
   readonly host?: string;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#password GatewayPluginResponseRatelimiting#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#password GatewayPluginResponseRatelimiting#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#port GatewayPluginResponseRatelimiting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#port GatewayPluginResponseRatelimiting#port}
   */
   readonly port?: number;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#server_name GatewayPluginResponseRatelimiting#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#server_name GatewayPluginResponseRatelimiting#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#ssl GatewayPluginResponseRatelimiting#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#ssl GatewayPluginResponseRatelimiting#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#ssl_verify GatewayPluginResponseRatelimiting#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#ssl_verify GatewayPluginResponseRatelimiting#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#timeout GatewayPluginResponseRatelimiting#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#timeout GatewayPluginResponseRatelimiting#timeout}
   */
   readonly timeout?: number;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#username GatewayPluginResponseRatelimiting#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#username GatewayPluginResponseRatelimiting#username}
   */
   readonly username?: string;
 }
@@ -471,49 +750,49 @@ export interface GatewayPluginResponseRatelimitingConfigA {
   /**
   * A boolean value that determines if the requests should be blocked as soon as one limit is being exceeded. This will block requests that are supposed to consume other limits too. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#block_on_first_violation GatewayPluginResponseRatelimiting#block_on_first_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#block_on_first_violation GatewayPluginResponseRatelimiting#block_on_first_violation}
   */
   readonly blockOnFirstViolation?: boolean | cdktf.IResolvable;
   /**
   * A boolean value that determines if the requests should be proxied even if Kong has troubles connecting a third-party datastore. If `true`, requests will be proxied anyway, effectively disabling the rate-limiting function until the datastore is working again. If `false`, then the clients will see `500` errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#fault_tolerant GatewayPluginResponseRatelimiting#fault_tolerant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#fault_tolerant GatewayPluginResponseRatelimiting#fault_tolerant}
   */
   readonly faultTolerant?: boolean | cdktf.IResolvable;
   /**
   * The name of the response header used to increment the counters. Default: "x-kong-limit"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#header_name GatewayPluginResponseRatelimiting#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#header_name GatewayPluginResponseRatelimiting#header_name}
   */
   readonly headerName?: string;
   /**
   * Optionally hide informative response headers. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#hide_client_headers GatewayPluginResponseRatelimiting#hide_client_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#hide_client_headers GatewayPluginResponseRatelimiting#hide_client_headers}
   */
   readonly hideClientHeaders?: boolean | cdktf.IResolvable;
   /**
   * The entity that will be used when aggregating the limits: `consumer`, `credential`, `ip`. If the `consumer` or the `credential` cannot be determined, the system will always fallback to `ip`. Default: "consumer"; must be one of ["consumer", "credential", "ip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#limit_by GatewayPluginResponseRatelimiting#limit_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#limit_by GatewayPluginResponseRatelimiting#limit_by}
   */
   readonly limitBy?: string;
   /**
   * A map that defines rate limits for the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#limits GatewayPluginResponseRatelimiting#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#limits GatewayPluginResponseRatelimiting#limits}
   */
-  readonly limits?: { [key: string]: string };
+  readonly limits?: { [key: string]: GatewayPluginResponseRatelimitingConfigLimits } | cdktf.IResolvable;
   /**
   * The rate-limiting policies to use for retrieving and incrementing the limits. Default: "local"; must be one of ["cluster", "local", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#policy GatewayPluginResponseRatelimiting#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#policy GatewayPluginResponseRatelimiting#policy}
   */
   readonly policy?: string;
   /**
   * Redis configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#redis GatewayPluginResponseRatelimiting#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#redis GatewayPluginResponseRatelimiting#redis}
   */
   readonly redis?: GatewayPluginResponseRatelimitingConfigRedis;
 }
@@ -529,7 +808,7 @@ export function gatewayPluginResponseRatelimitingConfigAToTerraform(struct?: Gat
     header_name: cdktf.stringToTerraform(struct!.headerName),
     hide_client_headers: cdktf.booleanToTerraform(struct!.hideClientHeaders),
     limit_by: cdktf.stringToTerraform(struct!.limitBy),
-    limits: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.limits),
+    limits: cdktf.hashMapper(gatewayPluginResponseRatelimitingConfigLimitsToTerraform)(struct!.limits),
     policy: cdktf.stringToTerraform(struct!.policy),
     redis: gatewayPluginResponseRatelimitingConfigRedisToTerraform(struct!.redis),
   }
@@ -573,10 +852,10 @@ export function gatewayPluginResponseRatelimitingConfigAToHclTerraform(struct?: 
       storageClassType: "string",
     },
     limits: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.limits),
-      isBlock: false,
+      value: cdktf.hashMapperHcl(gatewayPluginResponseRatelimitingConfigLimitsToHclTerraform)(struct!.limits),
+      isBlock: true,
       type: "map",
-      storageClassType: "stringMap",
+      storageClassType: "GatewayPluginResponseRatelimitingConfigLimitsMap",
     },
     policy: {
       value: cdktf.stringToHclTerraform(struct!.policy),
@@ -634,9 +913,9 @@ export class GatewayPluginResponseRatelimitingConfigAOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.limitBy = this._limitBy;
     }
-    if (this._limits !== undefined) {
+    if (this._limits?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.limits = this._limits;
+      internalValueResult.limits = this._limits?.internalValue;
     }
     if (this._policy !== undefined) {
       hasAnyValues = true;
@@ -658,7 +937,7 @@ export class GatewayPluginResponseRatelimitingConfigAOutputReference extends cdk
       this._headerName = undefined;
       this._hideClientHeaders = undefined;
       this._limitBy = undefined;
-      this._limits = undefined;
+      this._limits.internalValue = undefined;
       this._policy = undefined;
       this._redis.internalValue = undefined;
     }
@@ -674,7 +953,7 @@ export class GatewayPluginResponseRatelimitingConfigAOutputReference extends cdk
       this._headerName = value.headerName;
       this._hideClientHeaders = value.hideClientHeaders;
       this._limitBy = value.limitBy;
-      this._limits = value.limits;
+      this._limits.internalValue = value.limits;
       this._policy = value.policy;
       this._redis.internalValue = value.redis;
     }
@@ -761,19 +1040,19 @@ export class GatewayPluginResponseRatelimitingConfigAOutputReference extends cdk
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string }; 
+  private _limits = new GatewayPluginResponseRatelimitingConfigLimitsMap(this, "limits");
   public get limits() {
-    return this.getStringMapAttribute('limits');
+    return this._limits;
   }
-  public set limits(value: { [key: string]: string }) {
-    this._limits = value;
+  public putLimits(value: { [key: string]: GatewayPluginResponseRatelimitingConfigLimits } | cdktf.IResolvable) {
+    this._limits.internalValue = value;
   }
   public resetLimits() {
-    this._limits = undefined;
+    this._limits.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get limitsInput() {
-    return this._limits;
+    return this._limits.internalValue;
   }
 
   // policy - computed: true, optional: true, required: false
@@ -810,7 +1089,7 @@ export class GatewayPluginResponseRatelimitingConfigAOutputReference extends cdk
 }
 export interface GatewayPluginResponseRatelimitingConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -907,7 +1186,7 @@ export class GatewayPluginResponseRatelimitingConsumerOutputReference extends cd
 }
 export interface GatewayPluginResponseRatelimitingOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#access GatewayPluginResponseRatelimiting#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#access GatewayPluginResponseRatelimiting#access}
   */
   readonly access?: string[];
 }
@@ -1001,7 +1280,7 @@ export class GatewayPluginResponseRatelimitingOrderingAfterOutputReference exten
 }
 export interface GatewayPluginResponseRatelimitingOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#access GatewayPluginResponseRatelimiting#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#access GatewayPluginResponseRatelimiting#access}
   */
   readonly access?: string[];
 }
@@ -1095,11 +1374,11 @@ export class GatewayPluginResponseRatelimitingOrderingBeforeOutputReference exte
 }
 export interface GatewayPluginResponseRatelimitingOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#after GatewayPluginResponseRatelimiting#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#after GatewayPluginResponseRatelimiting#after}
   */
   readonly after?: GatewayPluginResponseRatelimitingOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#before GatewayPluginResponseRatelimiting#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#before GatewayPluginResponseRatelimiting#before}
   */
   readonly before?: GatewayPluginResponseRatelimitingOrderingBefore;
 }
@@ -1224,7 +1503,7 @@ export interface GatewayPluginResponseRatelimitingPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1233,11 +1512,11 @@ export interface GatewayPluginResponseRatelimitingPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#name GatewayPluginResponseRatelimiting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#name GatewayPluginResponseRatelimiting#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#path GatewayPluginResponseRatelimiting#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#path GatewayPluginResponseRatelimiting#path}
   */
   readonly path?: string;
 }
@@ -1411,7 +1690,7 @@ export class GatewayPluginResponseRatelimitingPartialsList extends cdktf.Complex
 }
 export interface GatewayPluginResponseRatelimitingRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1508,7 +1787,7 @@ export class GatewayPluginResponseRatelimitingRouteOutputReference extends cdktf
 }
 export interface GatewayPluginResponseRatelimitingService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#id GatewayPluginResponseRatelimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1605,7 +1884,7 @@ export class GatewayPluginResponseRatelimitingServiceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting konnect_gateway_plugin_response_ratelimiting}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting konnect_gateway_plugin_response_ratelimiting}
 */
 export class GatewayPluginResponseRatelimiting extends cdktf.TerraformResource {
 
@@ -1621,7 +1900,7 @@ export class GatewayPluginResponseRatelimiting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginResponseRatelimiting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginResponseRatelimiting to import
-  * @param importFromId The id of the existing GatewayPluginResponseRatelimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginResponseRatelimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginResponseRatelimiting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1633,7 +1912,7 @@ export class GatewayPluginResponseRatelimiting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_response_ratelimiting konnect_gateway_plugin_response_ratelimiting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_response_ratelimiting konnect_gateway_plugin_response_ratelimiting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1644,8 +1923,8 @@ export class GatewayPluginResponseRatelimiting extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_response_ratelimiting',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

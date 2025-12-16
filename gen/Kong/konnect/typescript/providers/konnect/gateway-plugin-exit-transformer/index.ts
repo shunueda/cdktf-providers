@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginExitTransformerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#config GatewayPluginExitTransformer#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#config GatewayPluginExitTransformer#config}
   */
   readonly config: GatewayPluginExitTransformerConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#consumer GatewayPluginExitTransformer#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#consumer GatewayPluginExitTransformer#consumer}
   */
   readonly consumer?: GatewayPluginExitTransformerConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#control_plane_id GatewayPluginExitTransformer#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#control_plane_id GatewayPluginExitTransformer#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#created_at GatewayPluginExitTransformer#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#created_at GatewayPluginExitTransformer#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#enabled GatewayPluginExitTransformer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#enabled GatewayPluginExitTransformer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,65 +47,65 @@ export interface GatewayPluginExitTransformerConfig extends cdktf.TerraformMetaA
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#instance_name GatewayPluginExitTransformer#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#instance_name GatewayPluginExitTransformer#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#ordering GatewayPluginExitTransformer#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#ordering GatewayPluginExitTransformer#ordering}
   */
   readonly ordering?: GatewayPluginExitTransformerOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#partials GatewayPluginExitTransformer#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#partials GatewayPluginExitTransformer#partials}
   */
   readonly partials?: GatewayPluginExitTransformerPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#protocols GatewayPluginExitTransformer#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#protocols GatewayPluginExitTransformer#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#route GatewayPluginExitTransformer#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#route GatewayPluginExitTransformer#route}
   */
   readonly route?: GatewayPluginExitTransformerRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#service GatewayPluginExitTransformer#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#service GatewayPluginExitTransformer#service}
   */
   readonly service?: GatewayPluginExitTransformerService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#tags GatewayPluginExitTransformer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#tags GatewayPluginExitTransformer#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#updated_at GatewayPluginExitTransformer#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#updated_at GatewayPluginExitTransformer#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewayPluginExitTransformerConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#functions GatewayPluginExitTransformer#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#functions GatewayPluginExitTransformer#functions}
   */
   readonly functions: string[];
   /**
   * Determines whether to handle unexpected errors by transforming their responses. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#handle_unexpected GatewayPluginExitTransformer#handle_unexpected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#handle_unexpected GatewayPluginExitTransformer#handle_unexpected}
   */
   readonly handleUnexpected?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to handle unknown status codes by transforming their responses. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#handle_unknown GatewayPluginExitTransformer#handle_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#handle_unknown GatewayPluginExitTransformer#handle_unknown}
   */
   readonly handleUnknown?: boolean | cdktf.IResolvable;
 }
@@ -254,7 +254,7 @@ export class GatewayPluginExitTransformerConfigAOutputReference extends cdktf.Co
 }
 export interface GatewayPluginExitTransformerConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -351,7 +351,7 @@ export class GatewayPluginExitTransformerConsumerOutputReference extends cdktf.C
 }
 export interface GatewayPluginExitTransformerOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#access GatewayPluginExitTransformer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#access GatewayPluginExitTransformer#access}
   */
   readonly access?: string[];
 }
@@ -445,7 +445,7 @@ export class GatewayPluginExitTransformerOrderingAfterOutputReference extends cd
 }
 export interface GatewayPluginExitTransformerOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#access GatewayPluginExitTransformer#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#access GatewayPluginExitTransformer#access}
   */
   readonly access?: string[];
 }
@@ -539,11 +539,11 @@ export class GatewayPluginExitTransformerOrderingBeforeOutputReference extends c
 }
 export interface GatewayPluginExitTransformerOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#after GatewayPluginExitTransformer#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#after GatewayPluginExitTransformer#after}
   */
   readonly after?: GatewayPluginExitTransformerOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#before GatewayPluginExitTransformer#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#before GatewayPluginExitTransformer#before}
   */
   readonly before?: GatewayPluginExitTransformerOrderingBefore;
 }
@@ -668,7 +668,7 @@ export interface GatewayPluginExitTransformerPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -677,11 +677,11 @@ export interface GatewayPluginExitTransformerPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#name GatewayPluginExitTransformer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#name GatewayPluginExitTransformer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#path GatewayPluginExitTransformer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#path GatewayPluginExitTransformer#path}
   */
   readonly path?: string;
 }
@@ -855,7 +855,7 @@ export class GatewayPluginExitTransformerPartialsList extends cdktf.ComplexList 
 }
 export interface GatewayPluginExitTransformerRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -952,7 +952,7 @@ export class GatewayPluginExitTransformerRouteOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginExitTransformerService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#id GatewayPluginExitTransformer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1049,7 +1049,7 @@ export class GatewayPluginExitTransformerServiceOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer konnect_gateway_plugin_exit_transformer}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer konnect_gateway_plugin_exit_transformer}
 */
 export class GatewayPluginExitTransformer extends cdktf.TerraformResource {
 
@@ -1065,7 +1065,7 @@ export class GatewayPluginExitTransformer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginExitTransformer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginExitTransformer to import
-  * @param importFromId The id of the existing GatewayPluginExitTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginExitTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginExitTransformer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1077,7 +1077,7 @@ export class GatewayPluginExitTransformer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_exit_transformer konnect_gateway_plugin_exit_transformer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_exit_transformer konnect_gateway_plugin_exit_transformer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1088,8 +1088,8 @@ export class GatewayPluginExitTransformer extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_exit_transformer',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

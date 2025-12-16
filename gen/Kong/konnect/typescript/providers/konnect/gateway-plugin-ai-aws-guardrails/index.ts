@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiAwsGuardrailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#config GatewayPluginAiAwsGuardrails#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#config GatewayPluginAiAwsGuardrails#config}
   */
   readonly config: GatewayPluginAiAwsGuardrailsConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#consumer GatewayPluginAiAwsGuardrails#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#consumer GatewayPluginAiAwsGuardrails#consumer}
   */
   readonly consumer?: GatewayPluginAiAwsGuardrailsConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#consumer_group GatewayPluginAiAwsGuardrails#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#consumer_group GatewayPluginAiAwsGuardrails#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiAwsGuardrailsConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#control_plane_id GatewayPluginAiAwsGuardrails#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#control_plane_id GatewayPluginAiAwsGuardrails#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#created_at GatewayPluginAiAwsGuardrails#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#created_at GatewayPluginAiAwsGuardrails#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#enabled GatewayPluginAiAwsGuardrails#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#enabled GatewayPluginAiAwsGuardrails#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiAwsGuardrailsConfig extends cdktf.TerraformMetaA
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#instance_name GatewayPluginAiAwsGuardrails#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#instance_name GatewayPluginAiAwsGuardrails#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#ordering GatewayPluginAiAwsGuardrails#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#ordering GatewayPluginAiAwsGuardrails#ordering}
   */
   readonly ordering?: GatewayPluginAiAwsGuardrailsOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#partials GatewayPluginAiAwsGuardrails#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#partials GatewayPluginAiAwsGuardrails#partials}
   */
   readonly partials?: GatewayPluginAiAwsGuardrailsPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#protocols GatewayPluginAiAwsGuardrails#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#protocols GatewayPluginAiAwsGuardrails#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#route GatewayPluginAiAwsGuardrails#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#route GatewayPluginAiAwsGuardrails#route}
   */
   readonly route?: GatewayPluginAiAwsGuardrailsRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#service GatewayPluginAiAwsGuardrails#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#service GatewayPluginAiAwsGuardrails#service}
   */
   readonly service?: GatewayPluginAiAwsGuardrailsService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#tags GatewayPluginAiAwsGuardrails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#tags GatewayPluginAiAwsGuardrails#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#updated_at GatewayPluginAiAwsGuardrails#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#updated_at GatewayPluginAiAwsGuardrails#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,79 +101,79 @@ export interface GatewayPluginAiAwsGuardrailsConfigA {
   /**
   * The AWS access key ID to use for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#aws_access_key_id GatewayPluginAiAwsGuardrails#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#aws_access_key_id GatewayPluginAiAwsGuardrails#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * The target AWS IAM role ARN used to access the guardrails service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#aws_assume_role_arn GatewayPluginAiAwsGuardrails#aws_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#aws_assume_role_arn GatewayPluginAiAwsGuardrails#aws_assume_role_arn}
   */
   readonly awsAssumeRoleArn?: string;
   /**
   * The AWS region to use for the Bedrock API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#aws_region GatewayPluginAiAwsGuardrails#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#aws_region GatewayPluginAiAwsGuardrails#aws_region}
   */
   readonly awsRegion: string;
   /**
   * The identifier of the assumed role session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#aws_role_session_name GatewayPluginAiAwsGuardrails#aws_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#aws_role_session_name GatewayPluginAiAwsGuardrails#aws_role_session_name}
   */
   readonly awsRoleSessionName?: string;
   /**
   * The AWS secret access key to use for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#aws_secret_access_key GatewayPluginAiAwsGuardrails#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#aws_secret_access_key GatewayPluginAiAwsGuardrails#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * Override the STS endpoint URL when assuming a different role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#aws_sts_endpoint_url GatewayPluginAiAwsGuardrails#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#aws_sts_endpoint_url GatewayPluginAiAwsGuardrails#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
   * The guardrail mode to use for the request. Default: "INPUT"; must be one of ["BOTH", "INPUT", "OUTPUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#guarding_mode GatewayPluginAiAwsGuardrails#guarding_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#guarding_mode GatewayPluginAiAwsGuardrails#guarding_mode}
   */
   readonly guardingMode?: string;
   /**
   * The guardrail identifier used in the request to apply the guardrail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#guardrails_id GatewayPluginAiAwsGuardrails#guardrails_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#guardrails_id GatewayPluginAiAwsGuardrails#guardrails_id}
   */
   readonly guardrailsId: string;
   /**
   * The guardrail version used in the request to apply the guardrail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#guardrails_version GatewayPluginAiAwsGuardrails#guardrails_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#guardrails_version GatewayPluginAiAwsGuardrails#guardrails_version}
   */
   readonly guardrailsVersion: string;
   /**
   * The amount of bytes receiving from upstream to be buffered before sending to the guardrails service. This only applies to the response content guard. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#response_buffer_size GatewayPluginAiAwsGuardrails#response_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#response_buffer_size GatewayPluginAiAwsGuardrails#response_buffer_size}
   */
   readonly responseBufferSize?: number;
   /**
   * Stop processing if an error occurs. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#stop_on_error GatewayPluginAiAwsGuardrails#stop_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#stop_on_error GatewayPluginAiAwsGuardrails#stop_on_error}
   */
   readonly stopOnError?: boolean | cdktf.IResolvable;
   /**
   * Select where to pick the 'text' for the Content Guard Services request. Default: "concatenate_all_content"; must be one of ["concatenate_all_content", "concatenate_user_content"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#text_source GatewayPluginAiAwsGuardrails#text_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#text_source GatewayPluginAiAwsGuardrails#text_source}
   */
   readonly textSource?: string;
   /**
   * Connection timeout with the bedrock service. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#timeout GatewayPluginAiAwsGuardrails#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#timeout GatewayPluginAiAwsGuardrails#timeout}
   */
   readonly timeout?: number;
 }
@@ -606,7 +606,7 @@ export class GatewayPluginAiAwsGuardrailsConfigAOutputReference extends cdktf.Co
 }
 export interface GatewayPluginAiAwsGuardrailsConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -703,7 +703,7 @@ export class GatewayPluginAiAwsGuardrailsConsumerOutputReference extends cdktf.C
 }
 export interface GatewayPluginAiAwsGuardrailsConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -800,7 +800,7 @@ export class GatewayPluginAiAwsGuardrailsConsumerGroupOutputReference extends cd
 }
 export interface GatewayPluginAiAwsGuardrailsOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#access GatewayPluginAiAwsGuardrails#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#access GatewayPluginAiAwsGuardrails#access}
   */
   readonly access?: string[];
 }
@@ -894,7 +894,7 @@ export class GatewayPluginAiAwsGuardrailsOrderingAfterOutputReference extends cd
 }
 export interface GatewayPluginAiAwsGuardrailsOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#access GatewayPluginAiAwsGuardrails#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#access GatewayPluginAiAwsGuardrails#access}
   */
   readonly access?: string[];
 }
@@ -988,11 +988,11 @@ export class GatewayPluginAiAwsGuardrailsOrderingBeforeOutputReference extends c
 }
 export interface GatewayPluginAiAwsGuardrailsOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#after GatewayPluginAiAwsGuardrails#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#after GatewayPluginAiAwsGuardrails#after}
   */
   readonly after?: GatewayPluginAiAwsGuardrailsOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#before GatewayPluginAiAwsGuardrails#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#before GatewayPluginAiAwsGuardrails#before}
   */
   readonly before?: GatewayPluginAiAwsGuardrailsOrderingBefore;
 }
@@ -1117,7 +1117,7 @@ export interface GatewayPluginAiAwsGuardrailsPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1126,11 +1126,11 @@ export interface GatewayPluginAiAwsGuardrailsPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#name GatewayPluginAiAwsGuardrails#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#name GatewayPluginAiAwsGuardrails#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#path GatewayPluginAiAwsGuardrails#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#path GatewayPluginAiAwsGuardrails#path}
   */
   readonly path?: string;
 }
@@ -1304,7 +1304,7 @@ export class GatewayPluginAiAwsGuardrailsPartialsList extends cdktf.ComplexList 
 }
 export interface GatewayPluginAiAwsGuardrailsRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1401,7 +1401,7 @@ export class GatewayPluginAiAwsGuardrailsRouteOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginAiAwsGuardrailsService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#id GatewayPluginAiAwsGuardrails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1498,7 +1498,7 @@ export class GatewayPluginAiAwsGuardrailsServiceOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails konnect_gateway_plugin_ai_aws_guardrails}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails konnect_gateway_plugin_ai_aws_guardrails}
 */
 export class GatewayPluginAiAwsGuardrails extends cdktf.TerraformResource {
 
@@ -1514,7 +1514,7 @@ export class GatewayPluginAiAwsGuardrails extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiAwsGuardrails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiAwsGuardrails to import
-  * @param importFromId The id of the existing GatewayPluginAiAwsGuardrails that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiAwsGuardrails that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiAwsGuardrails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1526,7 +1526,7 @@ export class GatewayPluginAiAwsGuardrails extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_aws_guardrails konnect_gateway_plugin_ai_aws_guardrails} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_aws_guardrails konnect_gateway_plugin_ai_aws_guardrails} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1537,8 +1537,8 @@ export class GatewayPluginAiAwsGuardrails extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_aws_guardrails',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

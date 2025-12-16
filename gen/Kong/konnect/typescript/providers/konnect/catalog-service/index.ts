@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CatalogServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of customizable, catalog-defined fields providing information about a service. Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service#custom_fields CatalogService#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service#custom_fields CatalogService#custom_fields}
   */
   readonly customFields?: string;
   /**
   * Optionally provide a description of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service#description CatalogService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service#description CatalogService#description}
   */
   readonly description?: string;
   /**
   * The display name of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service#display_name CatalogService#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service#display_name CatalogService#display_name}
   */
   readonly displayName: string;
   /**
@@ -30,19 +30,19 @@ export interface CatalogServiceConfig extends cdktf.TerraformMetaArguments {
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service#labels CatalogService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service#labels CatalogService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The machine name of the Service that uniquely identifies it within the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service#name CatalogService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service#name CatalogService#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service konnect_catalog_service}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service konnect_catalog_service}
 */
 export class CatalogService extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class CatalogService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogService to import
-  * @param importFromId The id of the existing CatalogService that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogService that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class CatalogService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/catalog_service konnect_catalog_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/catalog_service konnect_catalog_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class CatalogService extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_catalog_service',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

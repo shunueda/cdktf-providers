@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginConfluentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#config GatewayPluginConfluent#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#config GatewayPluginConfluent#config}
   */
   readonly config: GatewayPluginConfluentConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#consumer GatewayPluginConfluent#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#consumer GatewayPluginConfluent#consumer}
   */
   readonly consumer?: GatewayPluginConfluentConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#control_plane_id GatewayPluginConfluent#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#control_plane_id GatewayPluginConfluent#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#created_at GatewayPluginConfluent#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#created_at GatewayPluginConfluent#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#enabled GatewayPluginConfluent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#enabled GatewayPluginConfluent#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginConfluentConfig extends cdktf.TerraformMetaArgumen
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#instance_name GatewayPluginConfluent#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#instance_name GatewayPluginConfluent#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#ordering GatewayPluginConfluent#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#ordering GatewayPluginConfluent#ordering}
   */
   readonly ordering?: GatewayPluginConfluentOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#partials GatewayPluginConfluent#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#partials GatewayPluginConfluent#partials}
   */
   readonly partials?: GatewayPluginConfluentPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#protocols GatewayPluginConfluent#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#protocols GatewayPluginConfluent#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#route GatewayPluginConfluent#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#route GatewayPluginConfluent#route}
   */
   readonly route?: GatewayPluginConfluentRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#service GatewayPluginConfluent#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#service GatewayPluginConfluent#service}
   */
   readonly service?: GatewayPluginConfluentService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#tags GatewayPluginConfluent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#tags GatewayPluginConfluent#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#updated_at GatewayPluginConfluent#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#updated_at GatewayPluginConfluent#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,13 +95,13 @@ export interface GatewayPluginConfluentConfigBootstrapServers {
   /**
   * A string representing a host name, such as example.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#host GatewayPluginConfluent#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#host GatewayPluginConfluent#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#port GatewayPluginConfluent#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#port GatewayPluginConfluent#port}
   */
   readonly port?: number;
 }
@@ -248,13 +248,13 @@ export interface GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticati
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#password GatewayPluginConfluent#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#password GatewayPluginConfluent#password}
   */
   readonly password?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#username GatewayPluginConfluent#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#username GatewayPluginConfluent#username}
   */
   readonly username?: string;
 }
@@ -379,61 +379,61 @@ export interface GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticati
   /**
   * List of audiences passed to the IdP when obtaining a new token. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#audience GatewayPluginConfluent#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#audience GatewayPluginConfluent#audience}
   */
   readonly audience?: string[];
   /**
   * The client ID for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#client_id GatewayPluginConfluent#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#client_id GatewayPluginConfluent#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret for the application registration in the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#client_secret GatewayPluginConfluent#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#client_secret GatewayPluginConfluent#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth grant type to be used. Default: "client_credentials"; must be one of ["client_credentials", "password"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#grant_type GatewayPluginConfluent#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#grant_type GatewayPluginConfluent#grant_type}
   */
   readonly grantType?: string;
   /**
   * The password to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#password GatewayPluginConfluent#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#password GatewayPluginConfluent#password}
   */
   readonly password?: string;
   /**
   * List of scopes to request from the IdP when obtaining a new token. Default: ["openid"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#scopes GatewayPluginConfluent#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#scopes GatewayPluginConfluent#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token endpoint URI. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#token_endpoint GatewayPluginConfluent#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#token_endpoint GatewayPluginConfluent#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Extra headers to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#token_headers GatewayPluginConfluent#token_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#token_headers GatewayPluginConfluent#token_headers}
   */
   readonly tokenHeaders?: { [key: string]: string };
   /**
   * Extra post arguments to be passed in the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#token_post_args GatewayPluginConfluent#token_post_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#token_post_args GatewayPluginConfluent#token_post_args}
   */
   readonly tokenPostArgs?: { [key: string]: string };
   /**
   * The username to use if `config.oauth.grant_type` is set to `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#username GatewayPluginConfluent#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#username GatewayPluginConfluent#username}
   */
   readonly username?: string;
 }
@@ -790,67 +790,67 @@ export interface GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticati
   /**
   * The authentication method used in client requests to the IdP. Supported values are: `client_secret_basic` to send `client_id` and `client_secret` in the `Authorization: Basic` header, `client_secret_post` to send `client_id` and `client_secret` as part of the request body, or `client_secret_jwt` to send a JWT signed with the `client_secret` using the client assertion as part of the body. Default: "client_secret_post"; must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#auth_method GatewayPluginConfluent#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#auth_method GatewayPluginConfluent#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The algorithm to use with JWT when using `client_secret_jwt` authentication. Default: "HS512"; must be one of ["HS256", "HS512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#client_secret_jwt_alg GatewayPluginConfluent#client_secret_jwt_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#client_secret_jwt_alg GatewayPluginConfluent#client_secret_jwt_alg}
   */
   readonly clientSecretJwtAlg?: string;
   /**
   * The proxy to use when making HTTP requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#http_proxy GatewayPluginConfluent#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#http_proxy GatewayPluginConfluent#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `http_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#http_proxy_authorization GatewayPluginConfluent#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#http_proxy_authorization GatewayPluginConfluent#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for requests made by this plugin. Supported values: `1.1` for HTTP 1.1 and `1.0` for HTTP 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#http_version GatewayPluginConfluent#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#http_version GatewayPluginConfluent#http_version}
   */
   readonly httpVersion?: number;
   /**
   * The proxy to use when making HTTPS requests to the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#https_proxy GatewayPluginConfluent#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#https_proxy GatewayPluginConfluent#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The `Proxy-Authorization` header value to be used with `https_proxy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#https_proxy_authorization GatewayPluginConfluent#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#https_proxy_authorization GatewayPluginConfluent#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * Whether to use keepalive connections to the IdP. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#keep_alive GatewayPluginConfluent#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#keep_alive GatewayPluginConfluent#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of hosts that should not be proxied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#no_proxy GatewayPluginConfluent#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#no_proxy GatewayPluginConfluent#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Whether to verify the certificate presented by the IdP when using HTTPS. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#ssl_verify GatewayPluginConfluent#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#ssl_verify GatewayPluginConfluent#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network I/O timeout for requests to the IdP in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#timeout GatewayPluginConfluent#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#timeout GatewayPluginConfluent#timeout}
   */
   readonly timeout?: number;
 }
@@ -1234,21 +1234,21 @@ export class GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticationOa
 }
 export interface GatewayPluginConfluentConfigSchemaRegistryConfluentAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#basic GatewayPluginConfluent#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#basic GatewayPluginConfluent#basic}
   */
   readonly basic?: GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticationBasic;
   /**
   * Authentication mode to use with the schema registry. Default: "none"; must be one of ["basic", "none", "oauth2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#mode GatewayPluginConfluent#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#mode GatewayPluginConfluent#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#oauth2 GatewayPluginConfluent#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#oauth2 GatewayPluginConfluent#oauth2}
   */
   readonly oauth2?: GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticationOauth2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#oauth2_client GatewayPluginConfluent#oauth2_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#oauth2_client GatewayPluginConfluent#oauth2_client}
   */
   readonly oauth2Client?: GatewayPluginConfluentConfigSchemaRegistryConfluentAuthenticationOauth2Client;
 }
@@ -1431,13 +1431,13 @@ export interface GatewayPluginConfluentConfigSchemaRegistryConfluentKeySchema {
   /**
   * The schema version to use for serialization/deserialization. Use 'latest' to always fetch the most recent version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#schema_version GatewayPluginConfluent#schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#schema_version GatewayPluginConfluent#schema_version}
   */
   readonly schemaVersion?: string;
   /**
   * The name of the subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#subject_name GatewayPluginConfluent#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#subject_name GatewayPluginConfluent#subject_name}
   */
   readonly subjectName?: string;
 }
@@ -1562,13 +1562,13 @@ export interface GatewayPluginConfluentConfigSchemaRegistryConfluentValueSchema 
   /**
   * The schema version to use for serialization/deserialization. Use 'latest' to always fetch the most recent version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#schema_version GatewayPluginConfluent#schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#schema_version GatewayPluginConfluent#schema_version}
   */
   readonly schemaVersion?: string;
   /**
   * The name of the subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#subject_name GatewayPluginConfluent#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#subject_name GatewayPluginConfluent#subject_name}
   */
   readonly subjectName?: string;
 }
@@ -1691,33 +1691,33 @@ export class GatewayPluginConfluentConfigSchemaRegistryConfluentValueSchemaOutpu
 }
 export interface GatewayPluginConfluentConfigSchemaRegistryConfluent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#authentication GatewayPluginConfluent#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#authentication GatewayPluginConfluent#authentication}
   */
   readonly authentication?: GatewayPluginConfluentConfigSchemaRegistryConfluentAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#key_schema GatewayPluginConfluent#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#key_schema GatewayPluginConfluent#key_schema}
   */
   readonly keySchema?: GatewayPluginConfluentConfigSchemaRegistryConfluentKeySchema;
   /**
   * Set to false to disable SSL certificate verification when connecting to the schema registry. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#ssl_verify GatewayPluginConfluent#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#ssl_verify GatewayPluginConfluent#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * The TTL in seconds for the schema registry cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#ttl GatewayPluginConfluent#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#ttl GatewayPluginConfluent#ttl}
   */
   readonly ttl?: number;
   /**
   * The URL of the schema registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#url GatewayPluginConfluent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#url GatewayPluginConfluent#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#value_schema GatewayPluginConfluent#value_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#value_schema GatewayPluginConfluent#value_schema}
   */
   readonly valueSchema?: GatewayPluginConfluentConfigSchemaRegistryConfluentValueSchema;
 }
@@ -1956,7 +1956,7 @@ export class GatewayPluginConfluentConfigSchemaRegistryConfluentOutputReference 
 }
 export interface GatewayPluginConfluentConfigSchemaRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#confluent GatewayPluginConfluent#confluent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#confluent GatewayPluginConfluent#confluent}
   */
   readonly confluent?: GatewayPluginConfluentConfigSchemaRegistryConfluent;
 }
@@ -2052,169 +2052,169 @@ export interface GatewayPluginConfluentConfigA {
   /**
   * The list of allowed topic names to which messages can be sent. The default topic configured in the `topic` field is always allowed, regardless of its inclusion in `allowed_topics`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#allowed_topics GatewayPluginConfluent#allowed_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#allowed_topics GatewayPluginConfluent#allowed_topics}
   */
   readonly allowedTopics?: string[];
   /**
   * Set of bootstrap brokers in a `{host: host, port: port}` list format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#bootstrap_servers GatewayPluginConfluent#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#bootstrap_servers GatewayPluginConfluent#bootstrap_servers}
   */
   readonly bootstrapServers?: GatewayPluginConfluentConfigBootstrapServers[] | cdktf.IResolvable;
   /**
   * Username/Apikey for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#cluster_api_key GatewayPluginConfluent#cluster_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#cluster_api_key GatewayPluginConfluent#cluster_api_key}
   */
   readonly clusterApiKey: string;
   /**
   * Password/ApiSecret for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#cluster_api_secret GatewayPluginConfluent#cluster_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#cluster_api_secret GatewayPluginConfluent#cluster_api_secret}
   */
   readonly clusterApiSecret: string;
   /**
   * An identifier for the Kafka cluster. By default, this field generates a random string. You can also set your own custom cluster identifier.  If more than one Kafka plugin is configured without a `cluster_name` (that is, if the default autogenerated value is removed), these plugins will use the same producer, and by extension, the same cluster. Logs will be sent to the leader of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#cluster_name GatewayPluginConfluent#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#cluster_name GatewayPluginConfluent#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Apikey for authentication with Confluent Cloud. This allows for management tasks such as creating topics, ACLs, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#confluent_cloud_api_key GatewayPluginConfluent#confluent_cloud_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#confluent_cloud_api_key GatewayPluginConfluent#confluent_cloud_api_key}
   */
   readonly confluentCloudApiKey?: string;
   /**
   * The corresponding secret for the Confluent Cloud API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#confluent_cloud_api_secret GatewayPluginConfluent#confluent_cloud_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#confluent_cloud_api_secret GatewayPluginConfluent#confluent_cloud_api_secret}
   */
   readonly confluentCloudApiSecret?: string;
   /**
   * Include the request body in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#forward_body GatewayPluginConfluent#forward_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#forward_body GatewayPluginConfluent#forward_body}
   */
   readonly forwardBody?: boolean | cdktf.IResolvable;
   /**
   * Include the request headers in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#forward_headers GatewayPluginConfluent#forward_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#forward_headers GatewayPluginConfluent#forward_headers}
   */
   readonly forwardHeaders?: boolean | cdktf.IResolvable;
   /**
   * Include the request method in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#forward_method GatewayPluginConfluent#forward_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#forward_method GatewayPluginConfluent#forward_method}
   */
   readonly forwardMethod?: boolean | cdktf.IResolvable;
   /**
   * Include the request URI and URI arguments (as in, query arguments) in the message. At least one of these must be true: `forward_method`, `forward_uri`, `forward_headers`, `forward_body`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#forward_uri GatewayPluginConfluent#forward_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#forward_uri GatewayPluginConfluent#forward_uri}
   */
   readonly forwardUri?: boolean | cdktf.IResolvable;
   /**
   * Keepalive timeout in milliseconds. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#keepalive GatewayPluginConfluent#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#keepalive GatewayPluginConfluent#keepalive}
   */
   readonly keepalive?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#keepalive_enabled GatewayPluginConfluent#keepalive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#keepalive_enabled GatewayPluginConfluent#keepalive_enabled}
   */
   readonly keepaliveEnabled?: boolean | cdktf.IResolvable;
   /**
   * The request query parameter name that contains the Kafka message key. If specified, messages with the same key will be sent to the same Kafka partition, ensuring consistent ordering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#key_query_arg GatewayPluginConfluent#key_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#key_query_arg GatewayPluginConfluent#key_query_arg}
   */
   readonly keyQueryArg?: string;
   /**
   * The Lua functions that manipulates the message being sent to the Kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#message_by_lua_functions GatewayPluginConfluent#message_by_lua_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#message_by_lua_functions GatewayPluginConfluent#message_by_lua_functions}
   */
   readonly messageByLuaFunctions?: string[];
   /**
   * Flag to enable asynchronous mode. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_async GatewayPluginConfluent#producer_async}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_async GatewayPluginConfluent#producer_async}
   */
   readonly producerAsync?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of messages that can be buffered in memory in asynchronous mode. Default: 50000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_async_buffering_limits_messages_in_memory GatewayPluginConfluent#producer_async_buffering_limits_messages_in_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_async_buffering_limits_messages_in_memory GatewayPluginConfluent#producer_async_buffering_limits_messages_in_memory}
   */
   readonly producerAsyncBufferingLimitsMessagesInMemory?: number;
   /**
   * Maximum time interval in milliseconds between buffer flushes in asynchronous mode. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_async_flush_timeout GatewayPluginConfluent#producer_async_flush_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_async_flush_timeout GatewayPluginConfluent#producer_async_flush_timeout}
   */
   readonly producerAsyncFlushTimeout?: number;
   /**
   * The number of acknowledgments the producer requires the leader to have received before considering a request complete. Allowed values: 0 for no acknowledgments; 1 for only the leader; and -1 for the full ISR (In-Sync Replica set). Default: 1; must be one of ["-1", "0", "1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_request_acks GatewayPluginConfluent#producer_request_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_request_acks GatewayPluginConfluent#producer_request_acks}
   */
   readonly producerRequestAcks?: number;
   /**
   * Maximum size of a Produce request in bytes. Default: 1048576
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_request_limits_bytes_per_request GatewayPluginConfluent#producer_request_limits_bytes_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_request_limits_bytes_per_request GatewayPluginConfluent#producer_request_limits_bytes_per_request}
   */
   readonly producerRequestLimitsBytesPerRequest?: number;
   /**
   * Maximum number of messages to include into a single producer request. Default: 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_request_limits_messages_per_request GatewayPluginConfluent#producer_request_limits_messages_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_request_limits_messages_per_request GatewayPluginConfluent#producer_request_limits_messages_per_request}
   */
   readonly producerRequestLimitsMessagesPerRequest?: number;
   /**
   * Backoff interval between retry attempts in milliseconds. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_request_retries_backoff_timeout GatewayPluginConfluent#producer_request_retries_backoff_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_request_retries_backoff_timeout GatewayPluginConfluent#producer_request_retries_backoff_timeout}
   */
   readonly producerRequestRetriesBackoffTimeout?: number;
   /**
   * Maximum number of retry attempts per single Produce request. Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_request_retries_max_attempts GatewayPluginConfluent#producer_request_retries_max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_request_retries_max_attempts GatewayPluginConfluent#producer_request_retries_max_attempts}
   */
   readonly producerRequestRetriesMaxAttempts?: number;
   /**
   * Time to wait for a Produce response in milliseconds. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#producer_request_timeout GatewayPluginConfluent#producer_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#producer_request_timeout GatewayPluginConfluent#producer_request_timeout}
   */
   readonly producerRequestTimeout?: number;
   /**
   * The plugin-global schema registry configuration. This can be overwritten by the topic configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#schema_registry GatewayPluginConfluent#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#schema_registry GatewayPluginConfluent#schema_registry}
   */
   readonly schemaRegistry?: GatewayPluginConfluentConfigSchemaRegistry;
   /**
   * Socket timeout in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#timeout GatewayPluginConfluent#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#timeout GatewayPluginConfluent#timeout}
   */
   readonly timeout?: number;
   /**
   * The default Kafka topic to publish to if the query parameter defined in the `topics_query_arg` does not exist in the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#topic GatewayPluginConfluent#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#topic GatewayPluginConfluent#topic}
   */
   readonly topic: string;
   /**
   * The request query parameter name that contains the topics to publish to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#topics_query_arg GatewayPluginConfluent#topics_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#topics_query_arg GatewayPluginConfluent#topics_query_arg}
   */
   readonly topicsQueryArg?: string;
 }
@@ -3082,7 +3082,7 @@ export class GatewayPluginConfluentConfigAOutputReference extends cdktf.ComplexO
 }
 export interface GatewayPluginConfluentConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3179,7 +3179,7 @@ export class GatewayPluginConfluentConsumerOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginConfluentOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#access GatewayPluginConfluent#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#access GatewayPluginConfluent#access}
   */
   readonly access?: string[];
 }
@@ -3273,7 +3273,7 @@ export class GatewayPluginConfluentOrderingAfterOutputReference extends cdktf.Co
 }
 export interface GatewayPluginConfluentOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#access GatewayPluginConfluent#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#access GatewayPluginConfluent#access}
   */
   readonly access?: string[];
 }
@@ -3367,11 +3367,11 @@ export class GatewayPluginConfluentOrderingBeforeOutputReference extends cdktf.C
 }
 export interface GatewayPluginConfluentOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#after GatewayPluginConfluent#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#after GatewayPluginConfluent#after}
   */
   readonly after?: GatewayPluginConfluentOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#before GatewayPluginConfluent#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#before GatewayPluginConfluent#before}
   */
   readonly before?: GatewayPluginConfluentOrderingBefore;
 }
@@ -3496,7 +3496,7 @@ export interface GatewayPluginConfluentPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3505,11 +3505,11 @@ export interface GatewayPluginConfluentPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#name GatewayPluginConfluent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#name GatewayPluginConfluent#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#path GatewayPluginConfluent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#path GatewayPluginConfluent#path}
   */
   readonly path?: string;
 }
@@ -3683,7 +3683,7 @@ export class GatewayPluginConfluentPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginConfluentRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3780,7 +3780,7 @@ export class GatewayPluginConfluentRouteOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginConfluentService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#id GatewayPluginConfluent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3877,7 +3877,7 @@ export class GatewayPluginConfluentServiceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent konnect_gateway_plugin_confluent}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent konnect_gateway_plugin_confluent}
 */
 export class GatewayPluginConfluent extends cdktf.TerraformResource {
 
@@ -3893,7 +3893,7 @@ export class GatewayPluginConfluent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginConfluent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginConfluent to import
-  * @param importFromId The id of the existing GatewayPluginConfluent that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginConfluent that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginConfluent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3905,7 +3905,7 @@ export class GatewayPluginConfluent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_confluent konnect_gateway_plugin_confluent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_confluent konnect_gateway_plugin_confluent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3916,8 +3916,8 @@ export class GatewayPluginConfluent extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_confluent',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

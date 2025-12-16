@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginStandardWebhooksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#config GatewayPluginStandardWebhooks#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#config GatewayPluginStandardWebhooks#config}
   */
   readonly config: GatewayPluginStandardWebhooksConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#consumer_group GatewayPluginStandardWebhooks#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#consumer_group GatewayPluginStandardWebhooks#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginStandardWebhooksConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#control_plane_id GatewayPluginStandardWebhooks#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#control_plane_id GatewayPluginStandardWebhooks#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#created_at GatewayPluginStandardWebhooks#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#created_at GatewayPluginStandardWebhooks#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#enabled GatewayPluginStandardWebhooks#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#enabled GatewayPluginStandardWebhooks#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginStandardWebhooksConfig extends cdktf.TerraformMeta
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#instance_name GatewayPluginStandardWebhooks#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#instance_name GatewayPluginStandardWebhooks#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#ordering GatewayPluginStandardWebhooks#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#ordering GatewayPluginStandardWebhooks#ordering}
   */
   readonly ordering?: GatewayPluginStandardWebhooksOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#partials GatewayPluginStandardWebhooks#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#partials GatewayPluginStandardWebhooks#partials}
   */
   readonly partials?: GatewayPluginStandardWebhooksPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#protocols GatewayPluginStandardWebhooks#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#protocols GatewayPluginStandardWebhooks#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#route GatewayPluginStandardWebhooks#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#route GatewayPluginStandardWebhooks#route}
   */
   readonly route?: GatewayPluginStandardWebhooksRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#service GatewayPluginStandardWebhooks#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#service GatewayPluginStandardWebhooks#service}
   */
   readonly service?: GatewayPluginStandardWebhooksService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#tags GatewayPluginStandardWebhooks#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#tags GatewayPluginStandardWebhooks#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#updated_at GatewayPluginStandardWebhooks#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#updated_at GatewayPluginStandardWebhooks#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,13 +95,13 @@ export interface GatewayPluginStandardWebhooksConfigA {
   /**
   * Webhook secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#secret_v1 GatewayPluginStandardWebhooks#secret_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#secret_v1 GatewayPluginStandardWebhooks#secret_v1}
   */
   readonly secretV1: string;
   /**
   * Tolerance of the webhook timestamp in seconds. If the webhook timestamp is older than this number of seconds, it will be rejected with a '400' response. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#tolerance_second GatewayPluginStandardWebhooks#tolerance_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#tolerance_second GatewayPluginStandardWebhooks#tolerance_second}
   */
   readonly toleranceSecond?: number;
 }
@@ -221,7 +221,7 @@ export class GatewayPluginStandardWebhooksConfigAOutputReference extends cdktf.C
 }
 export interface GatewayPluginStandardWebhooksConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -318,7 +318,7 @@ export class GatewayPluginStandardWebhooksConsumerGroupOutputReference extends c
 }
 export interface GatewayPluginStandardWebhooksOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#access GatewayPluginStandardWebhooks#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#access GatewayPluginStandardWebhooks#access}
   */
   readonly access?: string[];
 }
@@ -412,7 +412,7 @@ export class GatewayPluginStandardWebhooksOrderingAfterOutputReference extends c
 }
 export interface GatewayPluginStandardWebhooksOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#access GatewayPluginStandardWebhooks#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#access GatewayPluginStandardWebhooks#access}
   */
   readonly access?: string[];
 }
@@ -506,11 +506,11 @@ export class GatewayPluginStandardWebhooksOrderingBeforeOutputReference extends 
 }
 export interface GatewayPluginStandardWebhooksOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#after GatewayPluginStandardWebhooks#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#after GatewayPluginStandardWebhooks#after}
   */
   readonly after?: GatewayPluginStandardWebhooksOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#before GatewayPluginStandardWebhooks#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#before GatewayPluginStandardWebhooks#before}
   */
   readonly before?: GatewayPluginStandardWebhooksOrderingBefore;
 }
@@ -635,7 +635,7 @@ export interface GatewayPluginStandardWebhooksPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -644,11 +644,11 @@ export interface GatewayPluginStandardWebhooksPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#name GatewayPluginStandardWebhooks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#name GatewayPluginStandardWebhooks#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#path GatewayPluginStandardWebhooks#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#path GatewayPluginStandardWebhooks#path}
   */
   readonly path?: string;
 }
@@ -822,7 +822,7 @@ export class GatewayPluginStandardWebhooksPartialsList extends cdktf.ComplexList
 }
 export interface GatewayPluginStandardWebhooksRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -919,7 +919,7 @@ export class GatewayPluginStandardWebhooksRouteOutputReference extends cdktf.Com
 }
 export interface GatewayPluginStandardWebhooksService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#id GatewayPluginStandardWebhooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1016,7 +1016,7 @@ export class GatewayPluginStandardWebhooksServiceOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks konnect_gateway_plugin_standard_webhooks}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks konnect_gateway_plugin_standard_webhooks}
 */
 export class GatewayPluginStandardWebhooks extends cdktf.TerraformResource {
 
@@ -1032,7 +1032,7 @@ export class GatewayPluginStandardWebhooks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginStandardWebhooks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginStandardWebhooks to import
-  * @param importFromId The id of the existing GatewayPluginStandardWebhooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginStandardWebhooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginStandardWebhooks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1044,7 +1044,7 @@ export class GatewayPluginStandardWebhooks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_standard_webhooks konnect_gateway_plugin_standard_webhooks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_standard_webhooks konnect_gateway_plugin_standard_webhooks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1055,8 +1055,8 @@ export class GatewayPluginStandardWebhooks extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_standard_webhooks',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

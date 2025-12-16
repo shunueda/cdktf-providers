@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping
+// https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface OidcIdentityMappingConfig extends cdktf.TerraformMetaArguments 
   /**
   * Claims JSON from the OIDC provider. Use [Terraform jsonencode function](https://developer.hashicorp.com/terraform/language/functions/jsonencode) to encode the JSON string. Claims constitute the payload part of a JSON web token and represent a set of information exchanged between two parties. The JWT standard distinguishes between reserved claims, public claims, and private claims. In API Gateway context, both public claims and private claims are considered custom claims. For example, an ID token (which is always a JWT) can contain a claim called that asserts that the name of the user authenticating is "John Doe". In a JWT, a claim appears as a name/value pair where the name is always a string and the value can be any JSON value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#claims_json OidcIdentityMapping#claims_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#claims_json OidcIdentityMapping#claims_json}
   */
   readonly claimsJson: string;
   /**
   * Description of the OIDC mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#description OidcIdentityMapping#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#description OidcIdentityMapping#description}
   */
   readonly description?: string;
   /**
   * Name of the OIDC identity mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#name OidcIdentityMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#name OidcIdentityMapping#name}
   */
   readonly name: string;
   /**
   * Priority of the identity mapping. The priority should be a number. The higher priority is set for the lower number. If you do not enter a value, the identity mapping is assigned the lowest priority. We recommend that you assign the highest priority (1) to the strongest permission gate. Set the lowest priority to the weakest permission for a logical and effective access control setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#priority OidcIdentityMapping#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#priority OidcIdentityMapping#priority}
   */
   readonly priority: number;
   /**
   * If set, this Identity Mapping will be available in the scope of the given project (editable by platform admin and project admin). If not set, this Identity Mapping will be global and only editable by platform admin. Once set, the projectKey cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#project_key OidcIdentityMapping#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#project_key OidcIdentityMapping#project_key}
   */
   readonly projectKey?: string;
   /**
   * Name of the OIDC configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#provider_name OidcIdentityMapping#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#provider_name OidcIdentityMapping#provider_name}
   */
   readonly providerName: string;
   /**
   * Specifications of the token. In case of success, a token with the following details will be generated and passed to OIDC Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#token_spec OidcIdentityMapping#token_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#token_spec OidcIdentityMapping#token_spec}
   */
   readonly tokenSpec: OidcIdentityMappingTokenSpec;
 }
@@ -54,37 +54,37 @@ export interface OidcIdentityMappingTokenSpec {
   /**
   * Sets of (space separated) the JFrog services to which the mapping applies. Default value is `*@*`, which applies to all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#audience OidcIdentityMapping#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#audience OidcIdentityMapping#audience}
   */
   readonly audience?: string;
   /**
   * Token expiry time in seconds. Default value is 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#expires_in OidcIdentityMapping#expires_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#expires_in OidcIdentityMapping#expires_in}
   */
   readonly expiresIn?: number;
   /**
   * Provide a pattern which is used to map OIDC groups to Artifactory groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#groups_pattern OidcIdentityMapping#groups_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#groups_pattern OidcIdentityMapping#groups_pattern}
   */
   readonly groupsPattern?: string;
   /**
   * Scope of the token. Must start with `applied-permissions/user`, `applied-permissions/admin`, `applied-permissions/roles:`, or `applied-permissions/groups:`. Group names must be comma-separated, double quotes wrapped, e.g. `applied-permissions/groups:\"readers\",\"my-group\",` Role permissions are only applicable when in project scope and must be comma-separated, double quotes wrapped, e.g. `applied-permissions:roles:<project-key>:"Developer","Viewer". `username` is also required when setting role permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#scope OidcIdentityMapping#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#scope OidcIdentityMapping#scope}
   */
   readonly scope?: string;
   /**
   * User name of the OIDC user. Not applicable when `scope` is set to `applied-permissions/groups`. Must be set when `scope` is set to `applied-permissions/roles`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#username OidcIdentityMapping#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#username OidcIdentityMapping#username}
   */
   readonly username?: string;
   /**
   * Provide a pattern which is used to map OIDC user to Artifactory user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#username_pattern OidcIdentityMapping#username_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#username_pattern OidcIdentityMapping#username_pattern}
   */
   readonly usernamePattern?: string;
 }
@@ -323,7 +323,7 @@ export class OidcIdentityMappingTokenSpecOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping platform_oidc_identity_mapping}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping platform_oidc_identity_mapping}
 */
 export class OidcIdentityMapping extends cdktf.TerraformResource {
 
@@ -339,7 +339,7 @@ export class OidcIdentityMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OidcIdentityMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OidcIdentityMapping to import
-  * @param importFromId The id of the existing OidcIdentityMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OidcIdentityMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OidcIdentityMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +351,7 @@ export class OidcIdentityMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.6/docs/resources/oidc_identity_mapping platform_oidc_identity_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/platform/2.2.7/docs/resources/oidc_identity_mapping platform_oidc_identity_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,8 +362,8 @@ export class OidcIdentityMapping extends cdktf.TerraformResource {
       terraformResourceType: 'platform_oidc_identity_mapping',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6',
-        providerVersionConstraint: '2.2.6'
+        providerVersion: '2.2.7',
+        providerVersionConstraint: '2.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

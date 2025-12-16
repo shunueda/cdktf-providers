@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAzureFunctionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#config GatewayPluginAzureFunctions#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#config GatewayPluginAzureFunctions#config}
   */
   readonly config: GatewayPluginAzureFunctionsConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#consumer GatewayPluginAzureFunctions#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#consumer GatewayPluginAzureFunctions#consumer}
   */
   readonly consumer?: GatewayPluginAzureFunctionsConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#control_plane_id GatewayPluginAzureFunctions#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#control_plane_id GatewayPluginAzureFunctions#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#created_at GatewayPluginAzureFunctions#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#created_at GatewayPluginAzureFunctions#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#enabled GatewayPluginAzureFunctions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#enabled GatewayPluginAzureFunctions#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginAzureFunctionsConfig extends cdktf.TerraformMetaAr
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#instance_name GatewayPluginAzureFunctions#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#instance_name GatewayPluginAzureFunctions#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#ordering GatewayPluginAzureFunctions#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#ordering GatewayPluginAzureFunctions#ordering}
   */
   readonly ordering?: GatewayPluginAzureFunctionsOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#partials GatewayPluginAzureFunctions#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#partials GatewayPluginAzureFunctions#partials}
   */
   readonly partials?: GatewayPluginAzureFunctionsPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#protocols GatewayPluginAzureFunctions#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#protocols GatewayPluginAzureFunctions#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#route GatewayPluginAzureFunctions#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#route GatewayPluginAzureFunctions#route}
   */
   readonly route?: GatewayPluginAzureFunctionsRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#service GatewayPluginAzureFunctions#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#service GatewayPluginAzureFunctions#service}
   */
   readonly service?: GatewayPluginAzureFunctionsService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#tags GatewayPluginAzureFunctions#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#tags GatewayPluginAzureFunctions#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#updated_at GatewayPluginAzureFunctions#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#updated_at GatewayPluginAzureFunctions#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,61 +95,61 @@ export interface GatewayPluginAzureFunctionsConfigA {
   /**
   * The apikey to access the Azure resources. If provided, it is injected as the `x-functions-key` header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#apikey GatewayPluginAzureFunctions#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#apikey GatewayPluginAzureFunctions#apikey}
   */
   readonly apikey?: string;
   /**
   * The Azure app name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#appname GatewayPluginAzureFunctions#appname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#appname GatewayPluginAzureFunctions#appname}
   */
   readonly appname: string;
   /**
   * The `clientid` to access the Azure resources. If provided, it is injected as the `x-functions-clientid` header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#clientid GatewayPluginAzureFunctions#clientid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#clientid GatewayPluginAzureFunctions#clientid}
   */
   readonly clientid?: string;
   /**
   * Name of the Azure function to invoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#functionname GatewayPluginAzureFunctions#functionname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#functionname GatewayPluginAzureFunctions#functionname}
   */
   readonly functionname: string;
   /**
   * The domain where the function resides. Default: "azurewebsites.net"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#hostdomain GatewayPluginAzureFunctions#hostdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#hostdomain GatewayPluginAzureFunctions#hostdomain}
   */
   readonly hostdomain?: string;
   /**
   * Use of HTTPS to connect with the Azure Functions server. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#https GatewayPluginAzureFunctions#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#https GatewayPluginAzureFunctions#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * Set to `true` to authenticate the Azure Functions server. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#https_verify GatewayPluginAzureFunctions#https_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#https_verify GatewayPluginAzureFunctions#https_verify}
   */
   readonly httpsVerify?: boolean | cdktf.IResolvable;
   /**
   * Time in milliseconds during which an idle connection to the Azure Functions server lives before being closed. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#keepalive GatewayPluginAzureFunctions#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#keepalive GatewayPluginAzureFunctions#keepalive}
   */
   readonly keepalive?: number;
   /**
   * Route prefix to use. Default: "api"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#routeprefix GatewayPluginAzureFunctions#routeprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#routeprefix GatewayPluginAzureFunctions#routeprefix}
   */
   readonly routeprefix?: string;
   /**
   * Timeout in milliseconds before closing a connection to the Azure Functions server. Default: 600000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#timeout GatewayPluginAzureFunctions#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#timeout GatewayPluginAzureFunctions#timeout}
   */
   readonly timeout?: number;
 }
@@ -498,7 +498,7 @@ export class GatewayPluginAzureFunctionsConfigAOutputReference extends cdktf.Com
 }
 export interface GatewayPluginAzureFunctionsConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -595,7 +595,7 @@ export class GatewayPluginAzureFunctionsConsumerOutputReference extends cdktf.Co
 }
 export interface GatewayPluginAzureFunctionsOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#access GatewayPluginAzureFunctions#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#access GatewayPluginAzureFunctions#access}
   */
   readonly access?: string[];
 }
@@ -689,7 +689,7 @@ export class GatewayPluginAzureFunctionsOrderingAfterOutputReference extends cdk
 }
 export interface GatewayPluginAzureFunctionsOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#access GatewayPluginAzureFunctions#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#access GatewayPluginAzureFunctions#access}
   */
   readonly access?: string[];
 }
@@ -783,11 +783,11 @@ export class GatewayPluginAzureFunctionsOrderingBeforeOutputReference extends cd
 }
 export interface GatewayPluginAzureFunctionsOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#after GatewayPluginAzureFunctions#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#after GatewayPluginAzureFunctions#after}
   */
   readonly after?: GatewayPluginAzureFunctionsOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#before GatewayPluginAzureFunctions#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#before GatewayPluginAzureFunctions#before}
   */
   readonly before?: GatewayPluginAzureFunctionsOrderingBefore;
 }
@@ -912,7 +912,7 @@ export interface GatewayPluginAzureFunctionsPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -921,11 +921,11 @@ export interface GatewayPluginAzureFunctionsPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#name GatewayPluginAzureFunctions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#name GatewayPluginAzureFunctions#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#path GatewayPluginAzureFunctions#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#path GatewayPluginAzureFunctions#path}
   */
   readonly path?: string;
 }
@@ -1099,7 +1099,7 @@ export class GatewayPluginAzureFunctionsPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAzureFunctionsRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1196,7 +1196,7 @@ export class GatewayPluginAzureFunctionsRouteOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginAzureFunctionsService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#id GatewayPluginAzureFunctions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1293,7 +1293,7 @@ export class GatewayPluginAzureFunctionsServiceOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions konnect_gateway_plugin_azure_functions}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions konnect_gateway_plugin_azure_functions}
 */
 export class GatewayPluginAzureFunctions extends cdktf.TerraformResource {
 
@@ -1309,7 +1309,7 @@ export class GatewayPluginAzureFunctions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAzureFunctions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAzureFunctions to import
-  * @param importFromId The id of the existing GatewayPluginAzureFunctions that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAzureFunctions that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAzureFunctions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1321,7 +1321,7 @@ export class GatewayPluginAzureFunctions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_azure_functions konnect_gateway_plugin_azure_functions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_azure_functions konnect_gateway_plugin_azure_functions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1332,8 +1332,8 @@ export class GatewayPluginAzureFunctions extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_azure_functions',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

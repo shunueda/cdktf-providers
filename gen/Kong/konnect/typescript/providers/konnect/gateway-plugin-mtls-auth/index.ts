@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginMtlsAuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#config GatewayPluginMtlsAuth#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#config GatewayPluginMtlsAuth#config}
   */
   readonly config: GatewayPluginMtlsAuthConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#control_plane_id GatewayPluginMtlsAuth#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#control_plane_id GatewayPluginMtlsAuth#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#created_at GatewayPluginMtlsAuth#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#created_at GatewayPluginMtlsAuth#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#enabled GatewayPluginMtlsAuth#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#enabled GatewayPluginMtlsAuth#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginMtlsAuthConfig extends cdktf.TerraformMetaArgument
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#instance_name GatewayPluginMtlsAuth#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#instance_name GatewayPluginMtlsAuth#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#ordering GatewayPluginMtlsAuth#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#ordering GatewayPluginMtlsAuth#ordering}
   */
   readonly ordering?: GatewayPluginMtlsAuthOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#partials GatewayPluginMtlsAuth#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#partials GatewayPluginMtlsAuth#partials}
   */
   readonly partials?: GatewayPluginMtlsAuthPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#protocols GatewayPluginMtlsAuth#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#protocols GatewayPluginMtlsAuth#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#route GatewayPluginMtlsAuth#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#route GatewayPluginMtlsAuth#route}
   */
   readonly route?: GatewayPluginMtlsAuthRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#service GatewayPluginMtlsAuth#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#service GatewayPluginMtlsAuth#service}
   */
   readonly service?: GatewayPluginMtlsAuthService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#tags GatewayPluginMtlsAuth#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#tags GatewayPluginMtlsAuth#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#updated_at GatewayPluginMtlsAuth#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#updated_at GatewayPluginMtlsAuth#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,97 +89,97 @@ export interface GatewayPluginMtlsAuthConfigA {
   /**
   * Allow certificate verification with only an intermediate certificate. When this is enabled, you don't need to upload the full chain to Kong Certificates. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#allow_partial_chain GatewayPluginMtlsAuth#allow_partial_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#allow_partial_chain GatewayPluginMtlsAuth#allow_partial_chain}
   */
   readonly allowPartialChain?: boolean | cdktf.IResolvable;
   /**
   * An optional string (consumer UUID or username) value to use as an “anonymous” consumer if authentication fails. If empty (default null), the request fails with an authentication failure `4xx`. Note that this value must refer to the consumer `id` or `username` attribute, and **not** its `custom_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#anonymous GatewayPluginMtlsAuth#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#anonymous GatewayPluginMtlsAuth#anonymous}
   */
   readonly anonymous?: string;
   /**
   * Certificate property to use as the authenticated group. Valid values are `CN` (Common Name) or `DN` (Distinguished Name). Once `skip_consumer_lookup` is applied, any client with a valid certificate can access the Service/API. To restrict usage to only some of the authenticated users, also add the ACL plugin (not covered here) and create allowed or denied groups of users. Default: "CN"; must be one of ["CN", "DN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#authenticated_group_by GatewayPluginMtlsAuth#authenticated_group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#authenticated_group_by GatewayPluginMtlsAuth#authenticated_group_by}
   */
   readonly authenticatedGroupBy?: string;
   /**
   * List of CA Certificates strings to use as Certificate Authorities (CA) when validating a client certificate. At least one is required but you can specify as many as needed. The value of this array is comprised of primary keys (`id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#ca_certificates GatewayPluginMtlsAuth#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#ca_certificates GatewayPluginMtlsAuth#ca_certificates}
   */
   readonly caCertificates: string[];
   /**
   * Cache expiry time in seconds. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#cache_ttl GatewayPluginMtlsAuth#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#cache_ttl GatewayPluginMtlsAuth#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
   * The length of time in seconds between refreshes of the revocation check status cache. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#cert_cache_ttl GatewayPluginMtlsAuth#cert_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#cert_cache_ttl GatewayPluginMtlsAuth#cert_cache_ttl}
   */
   readonly certCacheTtl?: number;
   /**
   * Whether to match the subject name of the client-supplied certificate against consumer's `username` and/or `custom_id` attribute. If set to `[]` (the empty array), then auto-matching is disabled. Default: ["custom_id","username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#consumer_by GatewayPluginMtlsAuth#consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#consumer_by GatewayPluginMtlsAuth#consumer_by}
   */
   readonly consumerBy?: string[];
   /**
   * The UUID or username of the consumer to use when a trusted client certificate is presented but no consumer matches. Note that this value must refer to the consumer `id` or `username` attribute, and **not** its `custom_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#default_consumer GatewayPluginMtlsAuth#default_consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#default_consumer GatewayPluginMtlsAuth#default_consumer}
   */
   readonly defaultConsumer?: string;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#http_proxy_host GatewayPluginMtlsAuth#http_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#http_proxy_host GatewayPluginMtlsAuth#http_proxy_host}
   */
   readonly httpProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#http_proxy_port GatewayPluginMtlsAuth#http_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#http_proxy_port GatewayPluginMtlsAuth#http_proxy_port}
   */
   readonly httpProxyPort?: number;
   /**
   * HTTP timeout threshold in milliseconds when communicating with the OCSP server or downloading CRL. Default: 30000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#http_timeout GatewayPluginMtlsAuth#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#http_timeout GatewayPluginMtlsAuth#http_timeout}
   */
   readonly httpTimeout?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#https_proxy_host GatewayPluginMtlsAuth#https_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#https_proxy_host GatewayPluginMtlsAuth#https_proxy_host}
   */
   readonly httpsProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#https_proxy_port GatewayPluginMtlsAuth#https_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#https_proxy_port GatewayPluginMtlsAuth#https_proxy_port}
   */
   readonly httpsProxyPort?: number;
   /**
   * Controls client certificate revocation check behavior. If set to `SKIP`, no revocation check is performed. If set to `IGNORE_CA_ERROR`, the plugin respects the revocation status when either OCSP or CRL URL is set, and doesn't fail on network issues. If set to `STRICT`, the plugin only treats the certificate as valid when it's able to verify the revocation status. Default: "IGNORE_CA_ERROR"; must be one of ["IGNORE_CA_ERROR", "SKIP", "STRICT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#revocation_check_mode GatewayPluginMtlsAuth#revocation_check_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#revocation_check_mode GatewayPluginMtlsAuth#revocation_check_mode}
   */
   readonly revocationCheckMode?: string;
   /**
   * Sends the distinguished names (DN) of the configured CA list in the TLS handshake message. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#send_ca_dn GatewayPluginMtlsAuth#send_ca_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#send_ca_dn GatewayPluginMtlsAuth#send_ca_dn}
   */
   readonly sendCaDn?: boolean | cdktf.IResolvable;
   /**
   * Skip consumer lookup once certificate is trusted against the configured CA list. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#skip_consumer_lookup GatewayPluginMtlsAuth#skip_consumer_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#skip_consumer_lookup GatewayPluginMtlsAuth#skip_consumer_lookup}
   */
   readonly skipConsumerLookup?: boolean | cdktf.IResolvable;
 }
@@ -705,7 +705,7 @@ export class GatewayPluginMtlsAuthConfigAOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginMtlsAuthOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#access GatewayPluginMtlsAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#access GatewayPluginMtlsAuth#access}
   */
   readonly access?: string[];
 }
@@ -799,7 +799,7 @@ export class GatewayPluginMtlsAuthOrderingAfterOutputReference extends cdktf.Com
 }
 export interface GatewayPluginMtlsAuthOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#access GatewayPluginMtlsAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#access GatewayPluginMtlsAuth#access}
   */
   readonly access?: string[];
 }
@@ -893,11 +893,11 @@ export class GatewayPluginMtlsAuthOrderingBeforeOutputReference extends cdktf.Co
 }
 export interface GatewayPluginMtlsAuthOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#after GatewayPluginMtlsAuth#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#after GatewayPluginMtlsAuth#after}
   */
   readonly after?: GatewayPluginMtlsAuthOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#before GatewayPluginMtlsAuth#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#before GatewayPluginMtlsAuth#before}
   */
   readonly before?: GatewayPluginMtlsAuthOrderingBefore;
 }
@@ -1022,7 +1022,7 @@ export interface GatewayPluginMtlsAuthPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1031,11 +1031,11 @@ export interface GatewayPluginMtlsAuthPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#name GatewayPluginMtlsAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#name GatewayPluginMtlsAuth#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#path GatewayPluginMtlsAuth#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#path GatewayPluginMtlsAuth#path}
   */
   readonly path?: string;
 }
@@ -1209,7 +1209,7 @@ export class GatewayPluginMtlsAuthPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginMtlsAuthRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1306,7 +1306,7 @@ export class GatewayPluginMtlsAuthRouteOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginMtlsAuthService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#id GatewayPluginMtlsAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1403,7 +1403,7 @@ export class GatewayPluginMtlsAuthServiceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth konnect_gateway_plugin_mtls_auth}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth konnect_gateway_plugin_mtls_auth}
 */
 export class GatewayPluginMtlsAuth extends cdktf.TerraformResource {
 
@@ -1419,7 +1419,7 @@ export class GatewayPluginMtlsAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginMtlsAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginMtlsAuth to import
-  * @param importFromId The id of the existing GatewayPluginMtlsAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginMtlsAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginMtlsAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1431,7 +1431,7 @@ export class GatewayPluginMtlsAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_mtls_auth konnect_gateway_plugin_mtls_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_mtls_auth konnect_gateway_plugin_mtls_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1442,8 +1442,8 @@ export class GatewayPluginMtlsAuth extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_mtls_auth',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

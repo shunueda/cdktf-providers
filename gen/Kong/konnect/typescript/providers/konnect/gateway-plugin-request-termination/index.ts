@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRequestTerminationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#config GatewayPluginRequestTermination#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#config GatewayPluginRequestTermination#config}
   */
   readonly config?: GatewayPluginRequestTerminationConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#consumer GatewayPluginRequestTermination#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#consumer GatewayPluginRequestTermination#consumer}
   */
   readonly consumer?: GatewayPluginRequestTerminationConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#consumer_group GatewayPluginRequestTermination#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#consumer_group GatewayPluginRequestTermination#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginRequestTerminationConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#control_plane_id GatewayPluginRequestTermination#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#control_plane_id GatewayPluginRequestTermination#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#created_at GatewayPluginRequestTermination#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#created_at GatewayPluginRequestTermination#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#enabled GatewayPluginRequestTermination#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#enabled GatewayPluginRequestTermination#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginRequestTerminationConfig extends cdktf.TerraformMe
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#instance_name GatewayPluginRequestTermination#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#instance_name GatewayPluginRequestTermination#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#ordering GatewayPluginRequestTermination#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#ordering GatewayPluginRequestTermination#ordering}
   */
   readonly ordering?: GatewayPluginRequestTerminationOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#partials GatewayPluginRequestTermination#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#partials GatewayPluginRequestTermination#partials}
   */
   readonly partials?: GatewayPluginRequestTerminationPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#protocols GatewayPluginRequestTermination#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#protocols GatewayPluginRequestTermination#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#route GatewayPluginRequestTermination#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#route GatewayPluginRequestTermination#route}
   */
   readonly route?: GatewayPluginRequestTerminationRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#service GatewayPluginRequestTermination#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#service GatewayPluginRequestTermination#service}
   */
   readonly service?: GatewayPluginRequestTerminationService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#tags GatewayPluginRequestTermination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#tags GatewayPluginRequestTermination#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#updated_at GatewayPluginRequestTermination#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#updated_at GatewayPluginRequestTermination#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,37 +101,37 @@ export interface GatewayPluginRequestTerminationConfigA {
   /**
   * The raw response body to send. This is mutually exclusive with the `config.message` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#body GatewayPluginRequestTermination#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#body GatewayPluginRequestTermination#body}
   */
   readonly body?: string;
   /**
   * Content type of the raw response configured with `config.body`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#content_type GatewayPluginRequestTermination#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#content_type GatewayPluginRequestTermination#content_type}
   */
   readonly contentType?: string;
   /**
   * When set, the plugin will echo a copy of the request back to the client. The main usecase for this is debugging. It can be combined with `trigger` in order to debug requests on live systems without disturbing real traffic. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#echo GatewayPluginRequestTermination#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#echo GatewayPluginRequestTermination#echo}
   */
   readonly echo?: boolean | cdktf.IResolvable;
   /**
   * The message to send, if using the default response generator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#message GatewayPluginRequestTermination#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#message GatewayPluginRequestTermination#message}
   */
   readonly message?: string;
   /**
   * The response code to send. Must be an integer between 100 and 599. Default: 503
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#status_code GatewayPluginRequestTermination#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#status_code GatewayPluginRequestTermination#status_code}
   */
   readonly statusCode?: number;
   /**
   * A string representing an HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#trigger GatewayPluginRequestTermination#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#trigger GatewayPluginRequestTermination#trigger}
   */
   readonly trigger?: string;
 }
@@ -370,7 +370,7 @@ export class GatewayPluginRequestTerminationConfigAOutputReference extends cdktf
 }
 export interface GatewayPluginRequestTerminationConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -467,7 +467,7 @@ export class GatewayPluginRequestTerminationConsumerOutputReference extends cdkt
 }
 export interface GatewayPluginRequestTerminationConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -564,7 +564,7 @@ export class GatewayPluginRequestTerminationConsumerGroupOutputReference extends
 }
 export interface GatewayPluginRequestTerminationOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#access GatewayPluginRequestTermination#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#access GatewayPluginRequestTermination#access}
   */
   readonly access?: string[];
 }
@@ -658,7 +658,7 @@ export class GatewayPluginRequestTerminationOrderingAfterOutputReference extends
 }
 export interface GatewayPluginRequestTerminationOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#access GatewayPluginRequestTermination#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#access GatewayPluginRequestTermination#access}
   */
   readonly access?: string[];
 }
@@ -752,11 +752,11 @@ export class GatewayPluginRequestTerminationOrderingBeforeOutputReference extend
 }
 export interface GatewayPluginRequestTerminationOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#after GatewayPluginRequestTermination#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#after GatewayPluginRequestTermination#after}
   */
   readonly after?: GatewayPluginRequestTerminationOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#before GatewayPluginRequestTermination#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#before GatewayPluginRequestTermination#before}
   */
   readonly before?: GatewayPluginRequestTerminationOrderingBefore;
 }
@@ -881,7 +881,7 @@ export interface GatewayPluginRequestTerminationPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -890,11 +890,11 @@ export interface GatewayPluginRequestTerminationPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#name GatewayPluginRequestTermination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#name GatewayPluginRequestTermination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#path GatewayPluginRequestTermination#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#path GatewayPluginRequestTermination#path}
   */
   readonly path?: string;
 }
@@ -1068,7 +1068,7 @@ export class GatewayPluginRequestTerminationPartialsList extends cdktf.ComplexLi
 }
 export interface GatewayPluginRequestTerminationRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1165,7 +1165,7 @@ export class GatewayPluginRequestTerminationRouteOutputReference extends cdktf.C
 }
 export interface GatewayPluginRequestTerminationService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#id GatewayPluginRequestTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1262,7 +1262,7 @@ export class GatewayPluginRequestTerminationServiceOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination konnect_gateway_plugin_request_termination}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination konnect_gateway_plugin_request_termination}
 */
 export class GatewayPluginRequestTermination extends cdktf.TerraformResource {
 
@@ -1278,7 +1278,7 @@ export class GatewayPluginRequestTermination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginRequestTermination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRequestTermination to import
-  * @param importFromId The id of the existing GatewayPluginRequestTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRequestTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRequestTermination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1290,7 +1290,7 @@ export class GatewayPluginRequestTermination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_termination konnect_gateway_plugin_request_termination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_termination konnect_gateway_plugin_request_termination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1301,8 +1301,8 @@ export class GatewayPluginRequestTermination extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_request_termination',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

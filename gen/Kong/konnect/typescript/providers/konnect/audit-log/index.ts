@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AuditLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * The value to include in the `Authorization` header when sending audit logs to the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log#authorization AuditLog#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log#authorization AuditLog#authorization}
   */
   readonly authorization?: string;
   /**
   * Indicates if the data should be sent to the webhook. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log#enabled AuditLog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log#enabled AuditLog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The endpoint that will receive audit log messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log#endpoint AuditLog#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log#endpoint AuditLog#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The output format of each log messages. Default: "cef"; must be one of ["cef", "json", "cps"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log#log_format AuditLog#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log#log_format AuditLog#log_format}
   */
   readonly logFormat?: string;
   /**
@@ -37,13 +37,13 @@ export interface AuditLogConfig extends cdktf.TerraformMetaArguments {
   * This option should be considered only for self-signed SSL certificates used in a non-production environment.
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log#skip_ssl_verification AuditLog#skip_ssl_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log#skip_ssl_verification AuditLog#skip_ssl_verification}
   */
   readonly skipSslVerification?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log konnect_audit_log}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log konnect_audit_log}
 */
 export class AuditLog extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class AuditLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuditLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditLog to import
-  * @param importFromId The id of the existing AuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class AuditLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/audit_log konnect_audit_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/audit_log konnect_audit_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class AuditLog extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_audit_log',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of attributes that describe the API. Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#attributes Api#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#attributes Api#attributes}
   */
   readonly attributes?: string;
   /**
   * A description of your API. Will be visible on your live Portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#description Api#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#description Api#description}
   */
   readonly description?: string;
   /**
@@ -24,13 +24,13 @@ export interface ApiConfig extends cdktf.TerraformMetaArguments {
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#labels Api#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#labels Api#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of your API. The `name + version` combination must be unique for each API you publish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#name Api#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#name Api#name}
   */
   readonly name: string;
   /**
@@ -38,19 +38,19 @@ export interface ApiConfig extends cdktf.TerraformMetaArguments {
   * 
   * Defaults to `slugify(name + version)`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#slug Api#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#slug Api#slug}
   */
   readonly slug?: string;
   /**
   * The content of the API specification. This is the raw content of the API specification, in json or yaml. By including this field, you can add a API specification without having to make a separate call to update the API specification. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#spec_content Api#spec_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#spec_content Api#spec_content}
   */
   readonly specContent?: string;
   /**
   * An optional version for your API. Leave this empty if your API is unversioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#version Api#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#version Api#version}
   */
   readonly version?: string;
 }
@@ -141,7 +141,7 @@ export class ApiPortalsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api konnect_api}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api konnect_api}
 */
 export class Api extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class Api extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Api resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Api to import
-  * @param importFromId The id of the existing Api that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Api that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Api to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class Api extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api konnect_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api konnect_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class Api extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_api',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginLdapAuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#config GatewayPluginLdapAuth#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#config GatewayPluginLdapAuth#config}
   */
   readonly config: GatewayPluginLdapAuthConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#control_plane_id GatewayPluginLdapAuth#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#control_plane_id GatewayPluginLdapAuth#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#created_at GatewayPluginLdapAuth#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#created_at GatewayPluginLdapAuth#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#enabled GatewayPluginLdapAuth#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#enabled GatewayPluginLdapAuth#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginLdapAuthConfig extends cdktf.TerraformMetaArgument
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#instance_name GatewayPluginLdapAuth#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#instance_name GatewayPluginLdapAuth#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#ordering GatewayPluginLdapAuth#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#ordering GatewayPluginLdapAuth#ordering}
   */
   readonly ordering?: GatewayPluginLdapAuthOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#partials GatewayPluginLdapAuth#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#partials GatewayPluginLdapAuth#partials}
   */
   readonly partials?: GatewayPluginLdapAuthPartials[] | cdktf.IResolvable;
   /**
   * A list of the request protocols that will trigger this plugin. The default value, as well as the possible values allowed on this field, may change depending on the plugin type. For example, plugins that only work in stream mode will only support tcp and tls. Default: ["grpc","grpcs","http","https","ws","wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#protocols GatewayPluginLdapAuth#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#protocols GatewayPluginLdapAuth#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#route GatewayPluginLdapAuth#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#route GatewayPluginLdapAuth#route}
   */
   readonly route?: GatewayPluginLdapAuthRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#service GatewayPluginLdapAuth#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#service GatewayPluginLdapAuth#service}
   */
   readonly service?: GatewayPluginLdapAuthService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#tags GatewayPluginLdapAuth#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#tags GatewayPluginLdapAuth#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#updated_at GatewayPluginLdapAuth#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#updated_at GatewayPluginLdapAuth#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,85 +89,85 @@ export interface GatewayPluginLdapAuthConfigA {
   /**
   * An optional string (consumer UUID or username) value to use as an “anonymous” consumer if authentication fails. If empty (default null), the request fails with an authentication failure `4xx`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#anonymous GatewayPluginLdapAuth#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#anonymous GatewayPluginLdapAuth#anonymous}
   */
   readonly anonymous?: string;
   /**
   * Attribute to be used to search the user; e.g. cn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#attribute GatewayPluginLdapAuth#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#attribute GatewayPluginLdapAuth#attribute}
   */
   readonly attribute: string;
   /**
   * Base DN as the starting point for the search; e.g., dc=example,dc=com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#base_dn GatewayPluginLdapAuth#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#base_dn GatewayPluginLdapAuth#base_dn}
   */
   readonly baseDn: string;
   /**
   * Cache expiry time in seconds. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#cache_ttl GatewayPluginLdapAuth#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#cache_ttl GatewayPluginLdapAuth#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
   * An optional string to use as part of the Authorization header. Default: "ldap"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#header_type GatewayPluginLdapAuth#header_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#header_type GatewayPluginLdapAuth#header_type}
   */
   readonly headerType?: string;
   /**
   * An optional boolean value telling the plugin to hide the credential to the upstream server. It will be removed by Kong before proxying the request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#hide_credentials GatewayPluginLdapAuth#hide_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#hide_credentials GatewayPluginLdapAuth#hide_credentials}
   */
   readonly hideCredentials?: boolean | cdktf.IResolvable;
   /**
   * An optional value in milliseconds that defines how long an idle connection to LDAP server will live before being closed. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#keepalive GatewayPluginLdapAuth#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#keepalive GatewayPluginLdapAuth#keepalive}
   */
   readonly keepalive?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#ldap_host GatewayPluginLdapAuth#ldap_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#ldap_host GatewayPluginLdapAuth#ldap_host}
   */
   readonly ldapHost: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 389
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#ldap_port GatewayPluginLdapAuth#ldap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#ldap_port GatewayPluginLdapAuth#ldap_port}
   */
   readonly ldapPort?: number;
   /**
   * Set to `true` to connect using the LDAPS protocol (LDAP over TLS).  When `ldaps` is configured, you must use port 636. If the `ldap` setting is enabled, ensure the `start_tls` setting is disabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#ldaps GatewayPluginLdapAuth#ldaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#ldaps GatewayPluginLdapAuth#ldaps}
   */
   readonly ldaps?: boolean | cdktf.IResolvable;
   /**
   * When authentication fails the plugin sends `WWW-Authenticate` header with `realm` attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#realm GatewayPluginLdapAuth#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#realm GatewayPluginLdapAuth#realm}
   */
   readonly realm?: string;
   /**
   * Set it to `true` to issue StartTLS (Transport Layer Security) extended operation over `ldap` connection. If the `start_tls` setting is enabled, ensure the `ldaps` setting is disabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#start_tls GatewayPluginLdapAuth#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#start_tls GatewayPluginLdapAuth#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
   * An optional timeout in milliseconds when waiting for connection with LDAP server. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#timeout GatewayPluginLdapAuth#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#timeout GatewayPluginLdapAuth#timeout}
   */
   readonly timeout?: number;
   /**
   * Set to `true` to authenticate LDAP server. The server certificate will be verified according to the CA certificates specified by the `lua_ssl_trusted_certificate` directive. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#verify_ldap_host GatewayPluginLdapAuth#verify_ldap_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#verify_ldap_host GatewayPluginLdapAuth#verify_ldap_host}
   */
   readonly verifyLdapHost?: boolean | cdktf.IResolvable;
 }
@@ -629,7 +629,7 @@ export class GatewayPluginLdapAuthConfigAOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginLdapAuthOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#access GatewayPluginLdapAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#access GatewayPluginLdapAuth#access}
   */
   readonly access?: string[];
 }
@@ -723,7 +723,7 @@ export class GatewayPluginLdapAuthOrderingAfterOutputReference extends cdktf.Com
 }
 export interface GatewayPluginLdapAuthOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#access GatewayPluginLdapAuth#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#access GatewayPluginLdapAuth#access}
   */
   readonly access?: string[];
 }
@@ -817,11 +817,11 @@ export class GatewayPluginLdapAuthOrderingBeforeOutputReference extends cdktf.Co
 }
 export interface GatewayPluginLdapAuthOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#after GatewayPluginLdapAuth#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#after GatewayPluginLdapAuth#after}
   */
   readonly after?: GatewayPluginLdapAuthOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#before GatewayPluginLdapAuth#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#before GatewayPluginLdapAuth#before}
   */
   readonly before?: GatewayPluginLdapAuthOrderingBefore;
 }
@@ -946,7 +946,7 @@ export interface GatewayPluginLdapAuthPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -955,11 +955,11 @@ export interface GatewayPluginLdapAuthPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#name GatewayPluginLdapAuth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#name GatewayPluginLdapAuth#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#path GatewayPluginLdapAuth#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#path GatewayPluginLdapAuth#path}
   */
   readonly path?: string;
 }
@@ -1133,7 +1133,7 @@ export class GatewayPluginLdapAuthPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginLdapAuthRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1230,7 +1230,7 @@ export class GatewayPluginLdapAuthRouteOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginLdapAuthService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#id GatewayPluginLdapAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1327,7 +1327,7 @@ export class GatewayPluginLdapAuthServiceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth konnect_gateway_plugin_ldap_auth}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth konnect_gateway_plugin_ldap_auth}
 */
 export class GatewayPluginLdapAuth extends cdktf.TerraformResource {
 
@@ -1343,7 +1343,7 @@ export class GatewayPluginLdapAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginLdapAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginLdapAuth to import
-  * @param importFromId The id of the existing GatewayPluginLdapAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginLdapAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginLdapAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1355,7 +1355,7 @@ export class GatewayPluginLdapAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ldap_auth konnect_gateway_plugin_ldap_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ldap_auth konnect_gateway_plugin_ldap_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1366,8 +1366,8 @@ export class GatewayPluginLdapAuth extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ldap_auth',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

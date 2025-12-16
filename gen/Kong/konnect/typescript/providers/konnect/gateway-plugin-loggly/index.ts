@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginLogglyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#config GatewayPluginLoggly#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#config GatewayPluginLoggly#config}
   */
   readonly config: GatewayPluginLogglyConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#consumer GatewayPluginLoggly#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#consumer GatewayPluginLoggly#consumer}
   */
   readonly consumer?: GatewayPluginLogglyConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#control_plane_id GatewayPluginLoggly#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#control_plane_id GatewayPluginLoggly#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#created_at GatewayPluginLoggly#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#created_at GatewayPluginLoggly#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#enabled GatewayPluginLoggly#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#enabled GatewayPluginLoggly#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginLogglyConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#instance_name GatewayPluginLoggly#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#instance_name GatewayPluginLoggly#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#ordering GatewayPluginLoggly#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#ordering GatewayPluginLoggly#ordering}
   */
   readonly ordering?: GatewayPluginLogglyOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#partials GatewayPluginLoggly#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#partials GatewayPluginLoggly#partials}
   */
   readonly partials?: GatewayPluginLogglyPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#protocols GatewayPluginLoggly#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#protocols GatewayPluginLoggly#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#route GatewayPluginLoggly#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#route GatewayPluginLoggly#route}
   */
   readonly route?: GatewayPluginLogglyRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#service GatewayPluginLoggly#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#service GatewayPluginLoggly#service}
   */
   readonly service?: GatewayPluginLogglyService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#tags GatewayPluginLoggly#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#tags GatewayPluginLoggly#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#updated_at GatewayPluginLoggly#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#updated_at GatewayPluginLoggly#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,59 +95,59 @@ export interface GatewayPluginLogglyConfigA {
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#client_errors_severity GatewayPluginLoggly#client_errors_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#client_errors_severity GatewayPluginLoggly#client_errors_severity}
   */
   readonly clientErrorsSeverity?: string;
   /**
   * Lua code as a key-value map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#custom_fields_by_lua GatewayPluginLoggly#custom_fields_by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#custom_fields_by_lua GatewayPluginLoggly#custom_fields_by_lua}
   */
   readonly customFieldsByLua?: { [key: string]: string };
   /**
   * A string representing a host name, such as example.com. Default: "logs-01.loggly.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#host GatewayPluginLoggly#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#host GatewayPluginLoggly#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#key GatewayPluginLoggly#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#key GatewayPluginLoggly#key}
   */
   readonly key: string;
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#log_level GatewayPluginLoggly#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#log_level GatewayPluginLoggly#log_level}
   */
   readonly logLevel?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 514
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#port GatewayPluginLoggly#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#port GatewayPluginLoggly#port}
   */
   readonly port?: number;
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#server_errors_severity GatewayPluginLoggly#server_errors_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#server_errors_severity GatewayPluginLoggly#server_errors_severity}
   */
   readonly serverErrorsSeverity?: string;
   /**
   * Default: "info"; must be one of ["alert", "crit", "debug", "emerg", "err", "info", "notice", "warning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#successful_severity GatewayPluginLoggly#successful_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#successful_severity GatewayPluginLoggly#successful_severity}
   */
   readonly successfulSeverity?: string;
   /**
   * Default: ["kong"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#tags GatewayPluginLoggly#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#tags GatewayPluginLoggly#tags}
   */
   readonly tags?: string[];
   /**
   * Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#timeout GatewayPluginLoggly#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#timeout GatewayPluginLoggly#timeout}
   */
   readonly timeout?: number;
 }
@@ -499,7 +499,7 @@ export class GatewayPluginLogglyConfigAOutputReference extends cdktf.ComplexObje
 }
 export interface GatewayPluginLogglyConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -596,7 +596,7 @@ export class GatewayPluginLogglyConsumerOutputReference extends cdktf.ComplexObj
 }
 export interface GatewayPluginLogglyOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#access GatewayPluginLoggly#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#access GatewayPluginLoggly#access}
   */
   readonly access?: string[];
 }
@@ -690,7 +690,7 @@ export class GatewayPluginLogglyOrderingAfterOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginLogglyOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#access GatewayPluginLoggly#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#access GatewayPluginLoggly#access}
   */
   readonly access?: string[];
 }
@@ -784,11 +784,11 @@ export class GatewayPluginLogglyOrderingBeforeOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginLogglyOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#after GatewayPluginLoggly#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#after GatewayPluginLoggly#after}
   */
   readonly after?: GatewayPluginLogglyOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#before GatewayPluginLoggly#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#before GatewayPluginLoggly#before}
   */
   readonly before?: GatewayPluginLogglyOrderingBefore;
 }
@@ -913,7 +913,7 @@ export interface GatewayPluginLogglyPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -922,11 +922,11 @@ export interface GatewayPluginLogglyPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#name GatewayPluginLoggly#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#name GatewayPluginLoggly#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#path GatewayPluginLoggly#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#path GatewayPluginLoggly#path}
   */
   readonly path?: string;
 }
@@ -1100,7 +1100,7 @@ export class GatewayPluginLogglyPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginLogglyRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1197,7 +1197,7 @@ export class GatewayPluginLogglyRouteOutputReference extends cdktf.ComplexObject
 }
 export interface GatewayPluginLogglyService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#id GatewayPluginLoggly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1294,7 +1294,7 @@ export class GatewayPluginLogglyServiceOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly konnect_gateway_plugin_loggly}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly konnect_gateway_plugin_loggly}
 */
 export class GatewayPluginLoggly extends cdktf.TerraformResource {
 
@@ -1310,7 +1310,7 @@ export class GatewayPluginLoggly extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginLoggly resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginLoggly to import
-  * @param importFromId The id of the existing GatewayPluginLoggly that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginLoggly that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginLoggly to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1322,7 +1322,7 @@ export class GatewayPluginLoggly extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_loggly konnect_gateway_plugin_loggly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_loggly konnect_gateway_plugin_loggly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1333,8 +1333,8 @@ export class GatewayPluginLoggly extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_loggly',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

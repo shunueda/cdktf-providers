@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiMcpProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#config GatewayPluginAiMcpProxy#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#config GatewayPluginAiMcpProxy#config}
   */
   readonly config: GatewayPluginAiMcpProxyConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#control_plane_id GatewayPluginAiMcpProxy#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#control_plane_id GatewayPluginAiMcpProxy#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#created_at GatewayPluginAiMcpProxy#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#created_at GatewayPluginAiMcpProxy#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#enabled GatewayPluginAiMcpProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#enabled GatewayPluginAiMcpProxy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginAiMcpProxyConfig extends cdktf.TerraformMetaArgume
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#instance_name GatewayPluginAiMcpProxy#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#instance_name GatewayPluginAiMcpProxy#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#ordering GatewayPluginAiMcpProxy#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#ordering GatewayPluginAiMcpProxy#ordering}
   */
   readonly ordering?: GatewayPluginAiMcpProxyOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#partials GatewayPluginAiMcpProxy#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#partials GatewayPluginAiMcpProxy#partials}
   */
   readonly partials?: GatewayPluginAiMcpProxyPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#protocols GatewayPluginAiMcpProxy#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#protocols GatewayPluginAiMcpProxy#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#route GatewayPluginAiMcpProxy#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#route GatewayPluginAiMcpProxy#route}
   */
   readonly route?: GatewayPluginAiMcpProxyRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#service GatewayPluginAiMcpProxy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#service GatewayPluginAiMcpProxy#service}
   */
   readonly service?: GatewayPluginAiMcpProxyService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#tags GatewayPluginAiMcpProxy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#tags GatewayPluginAiMcpProxy#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#updated_at GatewayPluginAiMcpProxy#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#updated_at GatewayPluginAiMcpProxy#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,13 +89,13 @@ export interface GatewayPluginAiMcpProxyConfigLogging {
   /**
   * If enabled, will log the request and response body into the Kong log plugin(s) output. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#log_payloads GatewayPluginAiMcpProxy#log_payloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#log_payloads GatewayPluginAiMcpProxy#log_payloads}
   */
   readonly logPayloads?: boolean | cdktf.IResolvable;
   /**
   * If enabled, will add mcp metrics into the Kong log plugin(s) output. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#log_statistics GatewayPluginAiMcpProxy#log_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#log_statistics GatewayPluginAiMcpProxy#log_statistics}
   */
   readonly logStatistics?: boolean | cdktf.IResolvable;
 }
@@ -220,19 +220,19 @@ export interface GatewayPluginAiMcpProxyConfigServer {
   /**
   * Whether to forward the client request headers to the upstream server when calling the tools. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#forward_client_headers GatewayPluginAiMcpProxy#forward_client_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#forward_client_headers GatewayPluginAiMcpProxy#forward_client_headers}
   */
   readonly forwardClientHeaders?: boolean | cdktf.IResolvable;
   /**
   * The tag of the MCP server. This is used to filter the exported MCP tools. The field should contain exactly one tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#tag GatewayPluginAiMcpProxy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#tag GatewayPluginAiMcpProxy#tag}
   */
   readonly tag?: string;
   /**
   * The timeout for calling the tools in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#timeout GatewayPluginAiMcpProxy#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#timeout GatewayPluginAiMcpProxy#timeout}
   */
   readonly timeout?: number;
 }
@@ -386,31 +386,31 @@ export interface GatewayPluginAiMcpProxyConfigToolsAnnotations {
   /**
   * If true, the tool may perform destructive updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#destructive_hint GatewayPluginAiMcpProxy#destructive_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#destructive_hint GatewayPluginAiMcpProxy#destructive_hint}
   */
   readonly destructiveHint?: boolean | cdktf.IResolvable;
   /**
   * If true, repeated calls with same args have no additional effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#idempotent_hint GatewayPluginAiMcpProxy#idempotent_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#idempotent_hint GatewayPluginAiMcpProxy#idempotent_hint}
   */
   readonly idempotentHint?: boolean | cdktf.IResolvable;
   /**
   * If true, tool interacts with external entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#open_world_hint GatewayPluginAiMcpProxy#open_world_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#open_world_hint GatewayPluginAiMcpProxy#open_world_hint}
   */
   readonly openWorldHint?: boolean | cdktf.IResolvable;
   /**
   * If true, the tool does not modify its environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#read_only_hint GatewayPluginAiMcpProxy#read_only_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#read_only_hint GatewayPluginAiMcpProxy#read_only_hint}
   */
   readonly readOnlyHint?: boolean | cdktf.IResolvable;
   /**
   * Human-readable title for the tool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#title GatewayPluginAiMcpProxy#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#title GatewayPluginAiMcpProxy#title}
   */
   readonly title?: string;
 }
@@ -620,7 +620,7 @@ export class GatewayPluginAiMcpProxyConfigToolsAnnotationsOutputReference extend
 }
 export interface GatewayPluginAiMcpProxyConfigToolsParametersSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#type GatewayPluginAiMcpProxy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#type GatewayPluginAiMcpProxy#type}
   */
   readonly type?: string;
 }
@@ -714,23 +714,23 @@ export class GatewayPluginAiMcpProxyConfigToolsParametersSchemaOutputReference e
 }
 export interface GatewayPluginAiMcpProxyConfigToolsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#description GatewayPluginAiMcpProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#description GatewayPluginAiMcpProxy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#in GatewayPluginAiMcpProxy#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#in GatewayPluginAiMcpProxy#in}
   */
   readonly in?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#name GatewayPluginAiMcpProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#name GatewayPluginAiMcpProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#required GatewayPluginAiMcpProxy#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#required GatewayPluginAiMcpProxy#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#schema GatewayPluginAiMcpProxy#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#schema GatewayPluginAiMcpProxy#schema}
   */
   readonly schema?: GatewayPluginAiMcpProxyConfigToolsParametersSchema;
 }
@@ -962,61 +962,61 @@ export class GatewayPluginAiMcpProxyConfigToolsParametersList extends cdktf.Comp
 }
 export interface GatewayPluginAiMcpProxyConfigTools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#annotations GatewayPluginAiMcpProxy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#annotations GatewayPluginAiMcpProxy#annotations}
   */
   readonly annotations?: GatewayPluginAiMcpProxyConfigToolsAnnotations;
   /**
   * The description of the MCP tool. This is used to provide information about the tool's functionality and usage. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#description GatewayPluginAiMcpProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#description GatewayPluginAiMcpProxy#description}
   */
   readonly description?: string;
   /**
   * The headers of the exported API. By default, Kong will extract the headers from API configuration. If the configured headers are not exactly matched, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#headers GatewayPluginAiMcpProxy#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#headers GatewayPluginAiMcpProxy#headers}
   */
-  readonly headers?: { [key: string]: string };
+  readonly headers?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The host of the exported API. By default, Kong will extract the host from API configuration. If the configured host is wildcard, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#host GatewayPluginAiMcpProxy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#host GatewayPluginAiMcpProxy#host}
   */
   readonly host?: string;
   /**
   * The method of the exported API. By default, Kong will extract the method from API configuration. If the configured method is not exactly matched, this field is required. must be one of ["DELETE", "GET", "PATCH", "POST", "PUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#method GatewayPluginAiMcpProxy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#method GatewayPluginAiMcpProxy#method}
   */
   readonly method?: string;
   /**
   * The API parameters specification defined in OpenAPI. For example, '[{"name": "city", "in": "query", "description": "Name of the city to get the weather for", "required": true, "schema": {"type": "string"}}]'.See https://swagger.io/docs/specification/v3_0/describing-parameters/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#parameters GatewayPluginAiMcpProxy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#parameters GatewayPluginAiMcpProxy#parameters}
   */
   readonly parameters?: GatewayPluginAiMcpProxyConfigToolsParameters[] | cdktf.IResolvable;
   /**
   * The path of the exported API. By default, Kong will extract the path from API configuration. If the configured path is not exactly matched, this field is required. Paths not starting with '/' are treated as relative paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#path GatewayPluginAiMcpProxy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#path GatewayPluginAiMcpProxy#path}
   */
   readonly path?: string;
   /**
   * The query arguments of the exported API. If the generated query arguments are not exactly matched, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#query GatewayPluginAiMcpProxy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#query GatewayPluginAiMcpProxy#query}
   */
-  readonly query?: { [key: string]: string };
+  readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The API requestBody specification defined in OpenAPI. For example, '{"content":{"application/x-www-form-urlencoded":{"schema":{"type":"object","properties":{"color":{"type":"array","items":{"type":"string"}}}}}}'.See https://swagger.io/docs/specification/v3_0/describing-request-body/describing-request-body/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#request_body GatewayPluginAiMcpProxy#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#request_body GatewayPluginAiMcpProxy#request_body}
   */
   readonly requestBody?: string;
   /**
   * The scheme of the exported API. By default, Kong will extract the scheme from API configuration. If the configured scheme is not expected, this field can be used to override it. must be one of ["http", "https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#scheme GatewayPluginAiMcpProxy#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#scheme GatewayPluginAiMcpProxy#scheme}
   */
   readonly scheme?: string;
 }
@@ -1029,12 +1029,12 @@ export function gatewayPluginAiMcpProxyConfigToolsToTerraform(struct?: GatewayPl
   return {
     annotations: gatewayPluginAiMcpProxyConfigToolsAnnotationsToTerraform(struct!.annotations),
     description: cdktf.stringToTerraform(struct!.description),
-    headers: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.headers),
+    headers: cdktf.hashMapper(cdktf.listMapper(cdktf.stringToTerraform, false))(struct!.headers),
     host: cdktf.stringToTerraform(struct!.host),
     method: cdktf.stringToTerraform(struct!.method),
     parameters: cdktf.listMapper(gatewayPluginAiMcpProxyConfigToolsParametersToTerraform, false)(struct!.parameters),
     path: cdktf.stringToTerraform(struct!.path),
-    query: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.query),
+    query: cdktf.hashMapper(cdktf.listMapper(cdktf.stringToTerraform, false))(struct!.query),
     request_body: cdktf.stringToTerraform(struct!.requestBody),
     scheme: cdktf.stringToTerraform(struct!.scheme),
   }
@@ -1060,10 +1060,10 @@ export function gatewayPluginAiMcpProxyConfigToolsToHclTerraform(struct?: Gatewa
       storageClassType: "string",
     },
     headers: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.headers),
+      value: cdktf.hashMapperHcl(cdktf.listMapperHcl(cdktf.stringToHclTerraform, false))(struct!.headers),
       isBlock: false,
       type: "map",
-      storageClassType: "stringMap",
+      storageClassType: "stringListMap",
     },
     host: {
       value: cdktf.stringToHclTerraform(struct!.host),
@@ -1090,10 +1090,10 @@ export function gatewayPluginAiMcpProxyConfigToolsToHclTerraform(struct?: Gatewa
       storageClassType: "string",
     },
     query: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.query),
+      value: cdktf.hashMapperHcl(cdktf.listMapperHcl(cdktf.stringToHclTerraform, false))(struct!.query),
       isBlock: false,
       type: "map",
-      storageClassType: "stringMap",
+      storageClassType: "stringListMap",
     },
     request_body: {
       value: cdktf.stringToHclTerraform(struct!.requestBody),
@@ -1244,11 +1244,11 @@ export class GatewayPluginAiMcpProxyConfigToolsOutputReference extends cdktf.Com
   }
 
   // headers - computed: false, optional: true, required: false
-  private _headers?: { [key: string]: string }; 
+  private _headers?: { [key: string]: string[] } | cdktf.IResolvable; 
   public get headers() {
-    return this.getStringMapAttribute('headers');
+    return this.interpolationForAttribute('headers');
   }
-  public set headers(value: { [key: string]: string }) {
+  public set headers(value: { [key: string]: string[] } | cdktf.IResolvable) {
     this._headers = value;
   }
   public resetHeaders() {
@@ -1324,11 +1324,11 @@ export class GatewayPluginAiMcpProxyConfigToolsOutputReference extends cdktf.Com
   }
 
   // query - computed: false, optional: true, required: false
-  private _query?: { [key: string]: string }; 
+  private _query?: { [key: string]: string[] } | cdktf.IResolvable; 
   public get query() {
-    return this.getStringMapAttribute('query');
+    return this.interpolationForAttribute('query');
   }
-  public set query(value: { [key: string]: string }) {
+  public set query(value: { [key: string]: string[] } | cdktf.IResolvable) {
     this._query = value;
   }
   public resetQuery() {
@@ -1393,27 +1393,27 @@ export class GatewayPluginAiMcpProxyConfigToolsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAiMcpProxyConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#logging GatewayPluginAiMcpProxy#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#logging GatewayPluginAiMcpProxy#logging}
   */
   readonly logging?: GatewayPluginAiMcpProxyConfigLogging;
   /**
   * max allowed body size allowed to be handled as MCP request. Default: 8192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#max_request_body_size GatewayPluginAiMcpProxy#max_request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#max_request_body_size GatewayPluginAiMcpProxy#max_request_body_size}
   */
   readonly maxRequestBodySize?: number;
   /**
   * The mode of the MCP proxy. Possible values are: 'passthrough-listener', 'conversion-listener', 'conversion-only', 'listener'. must be one of ["conversion-listener", "conversion-only", "listener", "passthrough-listener"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#mode GatewayPluginAiMcpProxy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#mode GatewayPluginAiMcpProxy#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#server GatewayPluginAiMcpProxy#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#server GatewayPluginAiMcpProxy#server}
   */
   readonly server?: GatewayPluginAiMcpProxyConfigServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#tools GatewayPluginAiMcpProxy#tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#tools GatewayPluginAiMcpProxy#tools}
   */
   readonly tools?: GatewayPluginAiMcpProxyConfigTools[] | cdktf.IResolvable;
 }
@@ -1620,7 +1620,7 @@ export class GatewayPluginAiMcpProxyConfigAOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginAiMcpProxyOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#access GatewayPluginAiMcpProxy#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#access GatewayPluginAiMcpProxy#access}
   */
   readonly access?: string[];
 }
@@ -1714,7 +1714,7 @@ export class GatewayPluginAiMcpProxyOrderingAfterOutputReference extends cdktf.C
 }
 export interface GatewayPluginAiMcpProxyOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#access GatewayPluginAiMcpProxy#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#access GatewayPluginAiMcpProxy#access}
   */
   readonly access?: string[];
 }
@@ -1808,11 +1808,11 @@ export class GatewayPluginAiMcpProxyOrderingBeforeOutputReference extends cdktf.
 }
 export interface GatewayPluginAiMcpProxyOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#after GatewayPluginAiMcpProxy#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#after GatewayPluginAiMcpProxy#after}
   */
   readonly after?: GatewayPluginAiMcpProxyOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#before GatewayPluginAiMcpProxy#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#before GatewayPluginAiMcpProxy#before}
   */
   readonly before?: GatewayPluginAiMcpProxyOrderingBefore;
 }
@@ -1937,7 +1937,7 @@ export interface GatewayPluginAiMcpProxyPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1946,11 +1946,11 @@ export interface GatewayPluginAiMcpProxyPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#name GatewayPluginAiMcpProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#name GatewayPluginAiMcpProxy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#path GatewayPluginAiMcpProxy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#path GatewayPluginAiMcpProxy#path}
   */
   readonly path?: string;
 }
@@ -2124,7 +2124,7 @@ export class GatewayPluginAiMcpProxyPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAiMcpProxyRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2221,7 +2221,7 @@ export class GatewayPluginAiMcpProxyRouteOutputReference extends cdktf.ComplexOb
 }
 export interface GatewayPluginAiMcpProxyService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#id GatewayPluginAiMcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2318,7 +2318,7 @@ export class GatewayPluginAiMcpProxyServiceOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy konnect_gateway_plugin_ai_mcp_proxy}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy konnect_gateway_plugin_ai_mcp_proxy}
 */
 export class GatewayPluginAiMcpProxy extends cdktf.TerraformResource {
 
@@ -2334,7 +2334,7 @@ export class GatewayPluginAiMcpProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiMcpProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiMcpProxy to import
-  * @param importFromId The id of the existing GatewayPluginAiMcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiMcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiMcpProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2346,7 +2346,7 @@ export class GatewayPluginAiMcpProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_mcp_proxy konnect_gateway_plugin_ai_mcp_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_mcp_proxy konnect_gateway_plugin_ai_mcp_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2357,8 +2357,8 @@ export class GatewayPluginAiMcpProxy extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_mcp_proxy',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

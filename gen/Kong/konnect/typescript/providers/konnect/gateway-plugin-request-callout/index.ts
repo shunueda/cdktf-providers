@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRequestCalloutConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#config GatewayPluginRequestCallout#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#config GatewayPluginRequestCallout#config}
   */
   readonly config: GatewayPluginRequestCalloutConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#consumer GatewayPluginRequestCallout#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#consumer GatewayPluginRequestCallout#consumer}
   */
   readonly consumer?: GatewayPluginRequestCalloutConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#consumer_group GatewayPluginRequestCallout#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#consumer_group GatewayPluginRequestCallout#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginRequestCalloutConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#control_plane_id GatewayPluginRequestCallout#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#control_plane_id GatewayPluginRequestCallout#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#created_at GatewayPluginRequestCallout#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#created_at GatewayPluginRequestCallout#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#enabled GatewayPluginRequestCallout#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#enabled GatewayPluginRequestCallout#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginRequestCalloutConfig extends cdktf.TerraformMetaAr
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#instance_name GatewayPluginRequestCallout#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#instance_name GatewayPluginRequestCallout#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#ordering GatewayPluginRequestCallout#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#ordering GatewayPluginRequestCallout#ordering}
   */
   readonly ordering?: GatewayPluginRequestCalloutOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#partials GatewayPluginRequestCallout#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#partials GatewayPluginRequestCallout#partials}
   */
   readonly partials?: GatewayPluginRequestCalloutPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#protocols GatewayPluginRequestCallout#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#protocols GatewayPluginRequestCallout#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#route GatewayPluginRequestCallout#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#route GatewayPluginRequestCallout#route}
   */
   readonly route?: GatewayPluginRequestCalloutRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#service GatewayPluginRequestCallout#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#service GatewayPluginRequestCallout#service}
   */
   readonly service?: GatewayPluginRequestCalloutService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#tags GatewayPluginRequestCallout#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#tags GatewayPluginRequestCallout#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#updated_at GatewayPluginRequestCallout#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#updated_at GatewayPluginRequestCallout#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,7 +101,7 @@ export interface GatewayPluginRequestCalloutConfigCacheMemory {
   /**
   * The name of the shared dictionary in which to hold cache entities when the memory strategy is selected. Note that this dictionary currently must be defined manually in the Kong Nginx template. Default: "kong_db_cache"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#dictionary_name GatewayPluginRequestCallout#dictionary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#dictionary_name GatewayPluginRequestCallout#dictionary_name}
   */
   readonly dictionaryName?: string;
 }
@@ -197,13 +197,13 @@ export interface GatewayPluginRequestCalloutConfigCacheRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#ip GatewayPluginRequestCallout#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#ip GatewayPluginRequestCallout#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#port GatewayPluginRequestCallout#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#port GatewayPluginRequestCallout#port}
   */
   readonly port?: number;
 }
@@ -350,13 +350,13 @@ export interface GatewayPluginRequestCalloutConfigCacheRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#host GatewayPluginRequestCallout#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#host GatewayPluginRequestCallout#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#port GatewayPluginRequestCallout#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#port GatewayPluginRequestCallout#port}
   */
   readonly port?: number;
 }
@@ -503,127 +503,127 @@ export interface GatewayPluginRequestCalloutConfigCacheRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#cluster_max_redirections GatewayPluginRequestCallout#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#cluster_max_redirections GatewayPluginRequestCallout#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#cluster_nodes GatewayPluginRequestCallout#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#cluster_nodes GatewayPluginRequestCallout#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginRequestCalloutConfigCacheRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#connect_timeout GatewayPluginRequestCallout#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#connect_timeout GatewayPluginRequestCallout#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#connection_is_proxied GatewayPluginRequestCallout#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#connection_is_proxied GatewayPluginRequestCallout#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#database GatewayPluginRequestCallout#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#database GatewayPluginRequestCallout#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#host GatewayPluginRequestCallout#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#host GatewayPluginRequestCallout#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#keepalive_backlog GatewayPluginRequestCallout#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#keepalive_backlog GatewayPluginRequestCallout#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#keepalive_pool_size GatewayPluginRequestCallout#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#keepalive_pool_size GatewayPluginRequestCallout#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#password GatewayPluginRequestCallout#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#password GatewayPluginRequestCallout#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#port GatewayPluginRequestCallout#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#port GatewayPluginRequestCallout#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#read_timeout GatewayPluginRequestCallout#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#read_timeout GatewayPluginRequestCallout#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#send_timeout GatewayPluginRequestCallout#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#send_timeout GatewayPluginRequestCallout#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#sentinel_master GatewayPluginRequestCallout#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#sentinel_master GatewayPluginRequestCallout#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#sentinel_nodes GatewayPluginRequestCallout#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#sentinel_nodes GatewayPluginRequestCallout#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginRequestCalloutConfigCacheRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#sentinel_password GatewayPluginRequestCallout#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#sentinel_password GatewayPluginRequestCallout#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#sentinel_role GatewayPluginRequestCallout#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#sentinel_role GatewayPluginRequestCallout#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#sentinel_username GatewayPluginRequestCallout#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#sentinel_username GatewayPluginRequestCallout#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#server_name GatewayPluginRequestCallout#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#server_name GatewayPluginRequestCallout#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#ssl GatewayPluginRequestCallout#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#ssl GatewayPluginRequestCallout#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#ssl_verify GatewayPluginRequestCallout#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#ssl_verify GatewayPluginRequestCallout#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#username GatewayPluginRequestCallout#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#username GatewayPluginRequestCallout#username}
   */
   readonly username?: string;
 }
@@ -1299,21 +1299,21 @@ export interface GatewayPluginRequestCalloutConfigCache {
   /**
   * TTL in seconds of cache entities. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#cache_ttl GatewayPluginRequestCallout#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#cache_ttl GatewayPluginRequestCallout#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#memory GatewayPluginRequestCallout#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#memory GatewayPluginRequestCallout#memory}
   */
   readonly memory?: GatewayPluginRequestCalloutConfigCacheMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#redis GatewayPluginRequestCallout#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#redis GatewayPluginRequestCallout#redis}
   */
   readonly redis?: GatewayPluginRequestCalloutConfigCacheRedis;
   /**
   * The backing data store in which to hold cache entities. Accepted values are: `off`, `memory`, and `redis`. Default: "off"; must be one of ["memory", "off", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#strategy GatewayPluginRequestCallout#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#strategy GatewayPluginRequestCallout#strategy}
   */
   readonly strategy?: string;
 }
@@ -1496,7 +1496,7 @@ export interface GatewayPluginRequestCalloutConfigCalloutsCache {
   /**
   * If `true`, skips caching the callout response. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#bypass GatewayPluginRequestCallout#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#bypass GatewayPluginRequestCallout#bypass}
   */
   readonly bypass?: boolean | cdktf.IResolvable;
 }
@@ -1592,19 +1592,19 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestBody {
   /**
   * The custom body fields to be added to the callout HTTP request. Values can contain Lua expressions in the form $(some_lua_expression). The syntax is based on `request-transformer-advanced` templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * If `true`, decodes the request's body and make it available for customizations. Only JSON content type is supported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#decode GatewayPluginRequestCallout#decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#decode GatewayPluginRequestCallout#decode}
   */
   readonly decode?: boolean | cdktf.IResolvable;
   /**
   * If `true`, forwards the incoming request's body to the callout request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
 }
@@ -1758,31 +1758,31 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestError {
   /**
   * The error code to respond with if `on_error` is `fail` or if `retries` is achieved. Default: 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#error_response_code GatewayPluginRequestCallout#error_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#error_response_code GatewayPluginRequestCallout#error_response_code}
   */
   readonly errorResponseCode?: number;
   /**
   * The error mesasge to respond with if `on_error` is set to `fail` or if `retries` is achieved. Templating with Lua expressions is supported. Default: "service callout error"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#error_response_msg GatewayPluginRequestCallout#error_response_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#error_response_msg GatewayPluginRequestCallout#error_response_msg}
   */
   readonly errorResponseMsg?: string;
   /**
   * The list of HTTP status codes considered errors under the error handling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#http_statuses GatewayPluginRequestCallout#http_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#http_statuses GatewayPluginRequestCallout#http_statuses}
   */
   readonly httpStatuses?: number[];
   /**
   * Default: "fail"; must be one of ["continue", "fail", "retry"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#on_error GatewayPluginRequestCallout#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#on_error GatewayPluginRequestCallout#on_error}
   */
   readonly onError?: string;
   /**
   * The number of retries the plugin will attempt on TCP and HTTP errors if `on_error` is set to `retry`. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#retries GatewayPluginRequestCallout#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#retries GatewayPluginRequestCallout#retries}
   */
   readonly retries?: number;
 }
@@ -1994,13 +1994,13 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestHeaders {
   /**
   * The custom headers to be added in the callout HTTP request. Values can contain Lua expressions in the form `$(some_lua_expression)`. The syntax is based on `request-transformer-advanced` templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * If `true`, forwards the incoming request's headers to the callout request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
 }
@@ -2125,25 +2125,25 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestHttpOptsProxy {
   /**
   * The password to authenticate with, if the forward proxy is protected by basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#auth_password GatewayPluginRequestCallout#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#auth_password GatewayPluginRequestCallout#auth_password}
   */
   readonly authPassword?: string;
   /**
   * The username to authenticate with, if the forward proxy is protected by basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#auth_username GatewayPluginRequestCallout#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#auth_username GatewayPluginRequestCallout#auth_username}
   */
   readonly authUsername?: string;
   /**
   * The HTTP proxy URL. This proxy server will be used for HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#http_proxy GatewayPluginRequestCallout#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#http_proxy GatewayPluginRequestCallout#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The HTTPS proxy URL. This proxy server will be used for HTTPS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#https_proxy GatewayPluginRequestCallout#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#https_proxy GatewayPluginRequestCallout#https_proxy}
   */
   readonly httpsProxy?: string;
 }
@@ -2326,19 +2326,19 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestHttpOptsTimeout
   /**
   * The socket connect timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#connect GatewayPluginRequestCallout#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#connect GatewayPluginRequestCallout#connect}
   */
   readonly connect?: number;
   /**
   * The socket read timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#read GatewayPluginRequestCallout#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#read GatewayPluginRequestCallout#read}
   */
   readonly read?: number;
   /**
   * The socket write timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#write GatewayPluginRequestCallout#write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#write GatewayPluginRequestCallout#write}
   */
   readonly write?: number;
 }
@@ -2492,25 +2492,25 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestHttpOpts {
   /**
   * Proxy settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#proxy GatewayPluginRequestCallout#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#proxy GatewayPluginRequestCallout#proxy}
   */
   readonly proxy?: GatewayPluginRequestCalloutConfigCalloutsRequestHttpOptsProxy;
   /**
   * The SNI used in the callout request. Defaults to host if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#ssl_server_name GatewayPluginRequestCallout#ssl_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#ssl_server_name GatewayPluginRequestCallout#ssl_server_name}
   */
   readonly sslServerName?: string;
   /**
   * If set to `true`, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#ssl_verify GatewayPluginRequestCallout#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#ssl_verify GatewayPluginRequestCallout#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Socket timeouts in milliseconds. All or none must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#timeouts GatewayPluginRequestCallout#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#timeouts GatewayPluginRequestCallout#timeouts}
   */
   readonly timeouts?: GatewayPluginRequestCalloutConfigCalloutsRequestHttpOptsTimeouts;
 }
@@ -2693,13 +2693,13 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequestQuery {
   /**
   * The custom query params to be added in the callout HTTP request. Values can contain Lua expressions in the form `$(some_lua_expression)`. The syntax is based on `request-transformer-advanced` templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * If `true`, forwards the incoming request's query params to the callout request. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
 }
@@ -2824,49 +2824,49 @@ export interface GatewayPluginRequestCalloutConfigCalloutsRequest {
   /**
   * Callout request body customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#body GatewayPluginRequestCallout#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#body GatewayPluginRequestCallout#body}
   */
   readonly body?: GatewayPluginRequestCalloutConfigCalloutsRequestBody;
   /**
   * Lua code that executes before the callout request is made. **Warning** can impact system behavior. Standard Lua sandboxing restrictions apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#by_lua GatewayPluginRequestCallout#by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#by_lua GatewayPluginRequestCallout#by_lua}
   */
   readonly byLua?: string;
   /**
   * The error handling policy the plugin will apply to TCP and HTTP errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#error GatewayPluginRequestCallout#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#error GatewayPluginRequestCallout#error}
   */
   readonly error?: GatewayPluginRequestCalloutConfigCalloutsRequestError;
   /**
   * Callout request header customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#headers GatewayPluginRequestCallout#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#headers GatewayPluginRequestCallout#headers}
   */
   readonly headers?: GatewayPluginRequestCalloutConfigCalloutsRequestHeaders;
   /**
   * HTTP connection parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#http_opts GatewayPluginRequestCallout#http_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#http_opts GatewayPluginRequestCallout#http_opts}
   */
   readonly httpOpts?: GatewayPluginRequestCalloutConfigCalloutsRequestHttpOpts;
   /**
   * The HTTP method that will be requested. Default: "GET"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#method GatewayPluginRequestCallout#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#method GatewayPluginRequestCallout#method}
   */
   readonly method?: string;
   /**
   * Callout request query param customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#query GatewayPluginRequestCallout#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#query GatewayPluginRequestCallout#query}
   */
   readonly query?: GatewayPluginRequestCalloutConfigCalloutsRequestQuery;
   /**
   * The URL that will be requested. Values can contain Lua expressions in the form `$(some_lua_expression)`. The syntax is based on `request-transformer-advanced` templates. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#url GatewayPluginRequestCallout#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#url GatewayPluginRequestCallout#url}
   */
   readonly url?: string;
 }
@@ -3165,13 +3165,13 @@ export interface GatewayPluginRequestCalloutConfigCalloutsResponseBody {
   /**
   * If `true`, decodes the response body before storing into the context. Only JSON is supported. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#decode GatewayPluginRequestCallout#decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#decode GatewayPluginRequestCallout#decode}
   */
   readonly decode?: boolean | cdktf.IResolvable;
   /**
   * If `false`, skips storing the callout response body into kong.ctx.shared.callouts.<name>.response.body. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#store GatewayPluginRequestCallout#store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#store GatewayPluginRequestCallout#store}
   */
   readonly store?: boolean | cdktf.IResolvable;
 }
@@ -3296,7 +3296,7 @@ export interface GatewayPluginRequestCalloutConfigCalloutsResponseHeaders {
   /**
   * If `false`, skips storing the callout response headers into kong.ctx.shared.callouts.<name>.response.headers. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#store GatewayPluginRequestCallout#store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#store GatewayPluginRequestCallout#store}
   */
   readonly store?: boolean | cdktf.IResolvable;
 }
@@ -3390,19 +3390,19 @@ export class GatewayPluginRequestCalloutConfigCalloutsResponseHeadersOutputRefer
 }
 export interface GatewayPluginRequestCalloutConfigCalloutsResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#body GatewayPluginRequestCallout#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#body GatewayPluginRequestCallout#body}
   */
   readonly body?: GatewayPluginRequestCalloutConfigCalloutsResponseBody;
   /**
   * Lua code that executes after the callout response is received, before caching takes place. Can produce side effects. Standard Lua sandboxing restrictions apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#by_lua GatewayPluginRequestCallout#by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#by_lua GatewayPluginRequestCallout#by_lua}
   */
   readonly byLua?: string;
   /**
   * Callout response header customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#headers GatewayPluginRequestCallout#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#headers GatewayPluginRequestCallout#headers}
   */
   readonly headers?: GatewayPluginRequestCalloutConfigCalloutsResponseHeaders;
 }
@@ -3556,31 +3556,31 @@ export interface GatewayPluginRequestCalloutConfigCallouts {
   /**
   * Callout caching configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#cache GatewayPluginRequestCallout#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#cache GatewayPluginRequestCallout#cache}
   */
   readonly cache?: GatewayPluginRequestCalloutConfigCalloutsCache;
   /**
   * An array of callout names the current callout depends on. This dependency list determines the callout execution order via a topological sorting algorithm. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#depends_on GatewayPluginRequestCallout#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#depends_on GatewayPluginRequestCallout#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * A string identifier for a callout. A callout object is referenceable via its name in the `kong.ctx.shared.callouts.<name>`. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#name GatewayPluginRequestCallout#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#name GatewayPluginRequestCallout#name}
   */
   readonly name?: string;
   /**
   * The customizations for the callout request. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#request GatewayPluginRequestCallout#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#request GatewayPluginRequestCallout#request}
   */
   readonly request?: GatewayPluginRequestCalloutConfigCalloutsRequest;
   /**
   * Configurations of callout response handling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#response GatewayPluginRequestCallout#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#response GatewayPluginRequestCallout#response}
   */
   readonly response?: GatewayPluginRequestCalloutConfigCalloutsResponse;
 }
@@ -3814,19 +3814,19 @@ export interface GatewayPluginRequestCalloutConfigUpstreamBody {
   /**
   * The custom body fields to be added in the upstream request body. Values can contain Lua expressions in the form $(some_lua_expression). The syntax is based on `request-transformer-advanced` templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * If `true`, decodes the request's body to make it available for upstream by_lua customizations. Only JSON content type is supported. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#decode GatewayPluginRequestCallout#decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#decode GatewayPluginRequestCallout#decode}
   */
   readonly decode?: boolean | cdktf.IResolvable;
   /**
   * If `false`, skips forwarding the incoming request's body to the upstream request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
 }
@@ -3980,13 +3980,13 @@ export interface GatewayPluginRequestCalloutConfigUpstreamHeaders {
   /**
   * The custom headers to be added in the upstream HTTP request. Values can contain Lua expressions in the form $(some_lua_expression). The syntax is based on `request-transformer-advanced` templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * If `false`, does not forward request headers to upstream request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
 }
@@ -4111,13 +4111,13 @@ export interface GatewayPluginRequestCalloutConfigUpstreamQuery {
   /**
   * The custom query params to be added in the upstream HTTP request. Values can contain Lua expressions in the form `$(some_lua_expression)`. The syntax is based on `request-transformer-advanced` templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#custom GatewayPluginRequestCallout#custom}
   */
   readonly custom?: { [key: string]: string };
   /**
   * If `false`, does not forward request query params to upstream request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#forward GatewayPluginRequestCallout#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
 }
@@ -4242,25 +4242,25 @@ export interface GatewayPluginRequestCalloutConfigUpstream {
   /**
   * Callout request body customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#body GatewayPluginRequestCallout#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#body GatewayPluginRequestCallout#body}
   */
   readonly body?: GatewayPluginRequestCalloutConfigUpstreamBody;
   /**
   * Lua code that executes before the upstream request is made. Can produce side effects. Standard Lua sandboxing restrictions apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#by_lua GatewayPluginRequestCallout#by_lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#by_lua GatewayPluginRequestCallout#by_lua}
   */
   readonly byLua?: string;
   /**
   * Callout request header customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#headers GatewayPluginRequestCallout#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#headers GatewayPluginRequestCallout#headers}
   */
   readonly headers?: GatewayPluginRequestCalloutConfigUpstreamHeaders;
   /**
   * Upstream request query param customizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#query GatewayPluginRequestCallout#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#query GatewayPluginRequestCallout#query}
   */
   readonly query?: GatewayPluginRequestCalloutConfigUpstreamQuery;
 }
@@ -4443,19 +4443,19 @@ export interface GatewayPluginRequestCalloutConfigA {
   /**
   * Plugin global caching configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#cache GatewayPluginRequestCallout#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#cache GatewayPluginRequestCallout#cache}
   */
   readonly cache?: GatewayPluginRequestCalloutConfigCache;
   /**
   * A collection of callout objects, where each object represents an HTTP request made in the context of a proxy request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#callouts GatewayPluginRequestCallout#callouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#callouts GatewayPluginRequestCallout#callouts}
   */
   readonly callouts: GatewayPluginRequestCalloutConfigCallouts[] | cdktf.IResolvable;
   /**
   * Customizations to the upstream request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#upstream GatewayPluginRequestCallout#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#upstream GatewayPluginRequestCallout#upstream}
   */
   readonly upstream?: GatewayPluginRequestCalloutConfigUpstream;
 }
@@ -4604,7 +4604,7 @@ export class GatewayPluginRequestCalloutConfigAOutputReference extends cdktf.Com
 }
 export interface GatewayPluginRequestCalloutConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4701,7 +4701,7 @@ export class GatewayPluginRequestCalloutConsumerOutputReference extends cdktf.Co
 }
 export interface GatewayPluginRequestCalloutConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4798,7 +4798,7 @@ export class GatewayPluginRequestCalloutConsumerGroupOutputReference extends cdk
 }
 export interface GatewayPluginRequestCalloutOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#access GatewayPluginRequestCallout#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#access GatewayPluginRequestCallout#access}
   */
   readonly access?: string[];
 }
@@ -4892,7 +4892,7 @@ export class GatewayPluginRequestCalloutOrderingAfterOutputReference extends cdk
 }
 export interface GatewayPluginRequestCalloutOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#access GatewayPluginRequestCallout#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#access GatewayPluginRequestCallout#access}
   */
   readonly access?: string[];
 }
@@ -4986,11 +4986,11 @@ export class GatewayPluginRequestCalloutOrderingBeforeOutputReference extends cd
 }
 export interface GatewayPluginRequestCalloutOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#after GatewayPluginRequestCallout#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#after GatewayPluginRequestCallout#after}
   */
   readonly after?: GatewayPluginRequestCalloutOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#before GatewayPluginRequestCallout#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#before GatewayPluginRequestCallout#before}
   */
   readonly before?: GatewayPluginRequestCalloutOrderingBefore;
 }
@@ -5115,7 +5115,7 @@ export interface GatewayPluginRequestCalloutPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5124,11 +5124,11 @@ export interface GatewayPluginRequestCalloutPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#name GatewayPluginRequestCallout#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#name GatewayPluginRequestCallout#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#path GatewayPluginRequestCallout#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#path GatewayPluginRequestCallout#path}
   */
   readonly path?: string;
 }
@@ -5302,7 +5302,7 @@ export class GatewayPluginRequestCalloutPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginRequestCalloutRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5399,7 +5399,7 @@ export class GatewayPluginRequestCalloutRouteOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginRequestCalloutService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#id GatewayPluginRequestCallout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5496,7 +5496,7 @@ export class GatewayPluginRequestCalloutServiceOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout konnect_gateway_plugin_request_callout}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout konnect_gateway_plugin_request_callout}
 */
 export class GatewayPluginRequestCallout extends cdktf.TerraformResource {
 
@@ -5512,7 +5512,7 @@ export class GatewayPluginRequestCallout extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginRequestCallout resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRequestCallout to import
-  * @param importFromId The id of the existing GatewayPluginRequestCallout that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRequestCallout that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRequestCallout to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5524,7 +5524,7 @@ export class GatewayPluginRequestCallout extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_callout konnect_gateway_plugin_request_callout} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_callout konnect_gateway_plugin_request_callout} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5535,8 +5535,8 @@ export class GatewayPluginRequestCallout extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_request_callout',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApiProductVersionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API Product ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#api_product_id ApiProductVersion#api_product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#api_product_id ApiProductVersion#api_product_id}
   */
   readonly apiProductId: string;
   /**
   * Indicates if the version of the API product is deprecated. Applies deprecation or removes deprecation from all related portal product versions. This field is deprecated: Use [PortalProductVersion.deprecated](https://docs.konghq.com/konnect/api/portal-management/v2/#/operations/create-portal-product-version) instead. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#deprecated ApiProductVersion#deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#deprecated ApiProductVersion#deprecated}
   */
   readonly deprecated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#gateway_service ApiProductVersion#gateway_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#gateway_service ApiProductVersion#gateway_service}
   */
   readonly gatewayService?: ApiProductVersionGatewayService;
   /**
@@ -28,13 +28,13 @@ export interface ApiProductVersionConfig extends cdktf.TerraformMetaArguments {
   * 
   * Keys must be of length 1-63 characters, and cannot start with "kong", "konnect", "mesh", "kic", or "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#labels ApiProductVersion#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#labels ApiProductVersion#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The version name of the API product version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#name ApiProductVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#name ApiProductVersion#name}
   */
   readonly name: string;
 }
@@ -42,13 +42,13 @@ export interface ApiProductVersionGatewayService {
   /**
   * The identifier of the control plane that the gateway service resides in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#control_plane_id ApiProductVersion#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#control_plane_id ApiProductVersion#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * The identifier of a gateway service associated with the version of the API product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#id ApiProductVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#id ApiProductVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -364,7 +364,7 @@ export class ApiProductVersionPortalsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version konnect_api_product_version}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version konnect_api_product_version}
 */
 export class ApiProductVersion extends cdktf.TerraformResource {
 
@@ -380,7 +380,7 @@ export class ApiProductVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiProductVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiProductVersion to import
-  * @param importFromId The id of the existing ApiProductVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiProductVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiProductVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class ApiProductVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/api_product_version konnect_api_product_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/api_product_version konnect_api_product_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class ApiProductVersion extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_api_product_version',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

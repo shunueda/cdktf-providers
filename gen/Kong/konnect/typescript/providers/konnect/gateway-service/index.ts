@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface GatewayServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Array of `CA Certificate` object UUIDs that are used to build the trust store while verifying upstream server's TLS certificate. If set to `null` when Nginx default is respected. If default CA list in Nginx are not specified and TLS verification is enabled, then handshake with upstream server will always fail (because no CA are trusted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#ca_certificates GatewayService#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#ca_certificates GatewayService#ca_certificates}
   */
   readonly caCertificates?: string[];
   /**
   * Certificate to be used as client certificate while TLS handshaking to the upstream server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#client_certificate GatewayService#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#client_certificate GatewayService#client_certificate}
   */
   readonly clientCertificate?: GatewayServiceClientCertificate;
   /**
   * The timeout in milliseconds for establishing a connection to the upstream server. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#connect_timeout GatewayService#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#connect_timeout GatewayService#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#control_plane_id GatewayService#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#control_plane_id GatewayService#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#created_at GatewayService#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#created_at GatewayService#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the Service is active. If set to `false`, the proxy behavior will be as if any routes attached to it do not exist (404). Default: `true`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#enabled GatewayService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#enabled GatewayService#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The host of the upstream server. Note that the host value is case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#host GatewayService#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#host GatewayService#host}
   */
   readonly host: string;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#id GatewayService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#id GatewayService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,79 +61,79 @@ export interface GatewayServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#name GatewayService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#name GatewayService#name}
   */
   readonly name?: string;
   /**
   * The path to be used in requests to the upstream server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#path GatewayService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#path GatewayService#path}
   */
   readonly path?: string;
   /**
   * The upstream server port. Default: 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#port GatewayService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#port GatewayService#port}
   */
   readonly port?: number;
   /**
   * The protocol used to communicate with the upstream. Default: "http"; must be one of ["grpc", "grpcs", "http", "https", "tcp", "tls", "tls_passthrough", "udp", "ws", "wss"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#protocol GatewayService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#protocol GatewayService#protocol}
   */
   readonly protocol?: string;
   /**
   * The timeout in milliseconds between two successive read operations for transmitting a request to the upstream server. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#read_timeout GatewayService#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#read_timeout GatewayService#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * The number of retries to execute upon failure to proxy. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#retries GatewayService#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#retries GatewayService#retries}
   */
   readonly retries?: number;
   /**
   * An optional set of strings associated with the Service for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#tags GatewayService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#tags GatewayService#tags}
   */
   readonly tags?: string[];
   /**
   * Additional Subject Alternative Names that can be matched on Upstream server's TLS certificate (in addition to `host`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#tls_sans GatewayService#tls_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#tls_sans GatewayService#tls_sans}
   */
   readonly tlsSans?: GatewayServiceTlsSans;
   /**
   * Whether to enable verification of upstream server TLS certificate. If set to `null`, then the Nginx default is respected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#tls_verify GatewayService#tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#tls_verify GatewayService#tls_verify}
   */
   readonly tlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Maximum depth of chain while verifying Upstream server's TLS certificate. If set to `null`, then the Nginx default is respected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#tls_verify_depth GatewayService#tls_verify_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#tls_verify_depth GatewayService#tls_verify_depth}
   */
   readonly tlsVerifyDepth?: number;
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#updated_at GatewayService#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#updated_at GatewayService#updated_at}
   */
   readonly updatedAt?: number;
   /**
   * The timeout in milliseconds between two successive write operations for transmitting a request to the upstream server. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#write_timeout GatewayService#write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#write_timeout GatewayService#write_timeout}
   */
   readonly writeTimeout?: number;
 }
 export interface GatewayServiceClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#id GatewayService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#id GatewayService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -232,13 +232,13 @@ export interface GatewayServiceTlsSans {
   /**
   * A dnsName for TLS verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#dnsnames GatewayService#dnsnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#dnsnames GatewayService#dnsnames}
   */
   readonly dnsnames?: string[];
   /**
   * An URI for TLS verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#uris GatewayService#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#uris GatewayService#uris}
   */
   readonly uris?: string[];
 }
@@ -361,7 +361,7 @@ export class GatewayServiceTlsSansOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service konnect_gateway_service}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service konnect_gateway_service}
 */
 export class GatewayService extends cdktf.TerraformResource {
 
@@ -377,7 +377,7 @@ export class GatewayService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayService to import
-  * @param importFromId The id of the existing GatewayService that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayService that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class GatewayService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_service konnect_gateway_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_service konnect_gateway_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class GatewayService extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_service',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

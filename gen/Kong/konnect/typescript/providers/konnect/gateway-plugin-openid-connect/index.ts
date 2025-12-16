@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginOpenidConnectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#config GatewayPluginOpenidConnect#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#config GatewayPluginOpenidConnect#config}
   */
   readonly config: GatewayPluginOpenidConnectConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#control_plane_id GatewayPluginOpenidConnect#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#control_plane_id GatewayPluginOpenidConnect#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#created_at GatewayPluginOpenidConnect#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#created_at GatewayPluginOpenidConnect#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#enabled GatewayPluginOpenidConnect#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#enabled GatewayPluginOpenidConnect#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,149 +41,149 @@ export interface GatewayPluginOpenidConnectConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#instance_name GatewayPluginOpenidConnect#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#instance_name GatewayPluginOpenidConnect#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ordering GatewayPluginOpenidConnect#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ordering GatewayPluginOpenidConnect#ordering}
   */
   readonly ordering?: GatewayPluginOpenidConnectOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#partials GatewayPluginOpenidConnect#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#partials GatewayPluginOpenidConnect#partials}
   */
   readonly partials?: GatewayPluginOpenidConnectPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#protocols GatewayPluginOpenidConnect#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#protocols GatewayPluginOpenidConnect#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#route GatewayPluginOpenidConnect#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#route GatewayPluginOpenidConnect#route}
   */
   readonly route?: GatewayPluginOpenidConnectRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#service GatewayPluginOpenidConnect#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#service GatewayPluginOpenidConnect#service}
   */
   readonly service?: GatewayPluginOpenidConnectService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#tags GatewayPluginOpenidConnect#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#tags GatewayPluginOpenidConnect#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#updated_at GatewayPluginOpenidConnect#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#updated_at GatewayPluginOpenidConnect#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewayPluginOpenidConnectConfigClientJwk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#alg GatewayPluginOpenidConnect#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#alg GatewayPluginOpenidConnect#alg}
   */
   readonly alg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#crv GatewayPluginOpenidConnect#crv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#crv GatewayPluginOpenidConnect#crv}
   */
   readonly crv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#d GatewayPluginOpenidConnect#d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#d GatewayPluginOpenidConnect#d}
   */
   readonly d?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#dp GatewayPluginOpenidConnect#dp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#dp GatewayPluginOpenidConnect#dp}
   */
   readonly dp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#dq GatewayPluginOpenidConnect#dq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#dq GatewayPluginOpenidConnect#dq}
   */
   readonly dq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#e GatewayPluginOpenidConnect#e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#e GatewayPluginOpenidConnect#e}
   */
   readonly e?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#issuer GatewayPluginOpenidConnect#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#issuer GatewayPluginOpenidConnect#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#k GatewayPluginOpenidConnect#k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#k GatewayPluginOpenidConnect#k}
   */
   readonly k?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#key_ops GatewayPluginOpenidConnect#key_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#key_ops GatewayPluginOpenidConnect#key_ops}
   */
   readonly keyOps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#kid GatewayPluginOpenidConnect#kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#kid GatewayPluginOpenidConnect#kid}
   */
   readonly kid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#kty GatewayPluginOpenidConnect#kty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#kty GatewayPluginOpenidConnect#kty}
   */
   readonly kty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#n GatewayPluginOpenidConnect#n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#n GatewayPluginOpenidConnect#n}
   */
   readonly n?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#oth GatewayPluginOpenidConnect#oth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#oth GatewayPluginOpenidConnect#oth}
   */
   readonly oth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#p GatewayPluginOpenidConnect#p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#p GatewayPluginOpenidConnect#p}
   */
   readonly p?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#q GatewayPluginOpenidConnect#q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#q GatewayPluginOpenidConnect#q}
   */
   readonly q?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#qi GatewayPluginOpenidConnect#qi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#qi GatewayPluginOpenidConnect#qi}
   */
   readonly qi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#r GatewayPluginOpenidConnect#r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#r GatewayPluginOpenidConnect#r}
   */
   readonly r?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#t GatewayPluginOpenidConnect#t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#t GatewayPluginOpenidConnect#t}
   */
   readonly t?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#use GatewayPluginOpenidConnect#use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#use GatewayPluginOpenidConnect#use}
   */
   readonly use?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#x GatewayPluginOpenidConnect#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#x GatewayPluginOpenidConnect#x}
   */
   readonly x?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#x5c GatewayPluginOpenidConnect#x5c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#x5c GatewayPluginOpenidConnect#x5c}
   */
   readonly x5C?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#x5t GatewayPluginOpenidConnect#x5t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#x5t GatewayPluginOpenidConnect#x5t}
   */
   readonly x5T?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#x5t_number_s256 GatewayPluginOpenidConnect#x5t_number_s256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#x5t_number_s256 GatewayPluginOpenidConnect#x5t_number_s256}
   */
   readonly x5TNumberS256?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#x5u GatewayPluginOpenidConnect#x5u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#x5u GatewayPluginOpenidConnect#x5u}
   */
   readonly x5U?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#y GatewayPluginOpenidConnect#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#y GatewayPluginOpenidConnect#y}
   */
   readonly y?: string;
 }
@@ -997,13 +997,13 @@ export interface GatewayPluginOpenidConnectConfigClusterCacheRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ip GatewayPluginOpenidConnect#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ip GatewayPluginOpenidConnect#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
   */
   readonly port?: number;
 }
@@ -1150,13 +1150,13 @@ export interface GatewayPluginOpenidConnectConfigClusterCacheRedisSentinelNodes 
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
   */
   readonly port?: number;
 }
@@ -1303,127 +1303,127 @@ export interface GatewayPluginOpenidConnectConfigClusterCacheRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cluster_max_redirections GatewayPluginOpenidConnect#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cluster_max_redirections GatewayPluginOpenidConnect#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cluster_nodes GatewayPluginOpenidConnect#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cluster_nodes GatewayPluginOpenidConnect#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginOpenidConnectConfigClusterCacheRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#connect_timeout GatewayPluginOpenidConnect#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#connect_timeout GatewayPluginOpenidConnect#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#connection_is_proxied GatewayPluginOpenidConnect#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#connection_is_proxied GatewayPluginOpenidConnect#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#database GatewayPluginOpenidConnect#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#database GatewayPluginOpenidConnect#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#keepalive_backlog GatewayPluginOpenidConnect#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#keepalive_backlog GatewayPluginOpenidConnect#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#keepalive_pool_size GatewayPluginOpenidConnect#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#keepalive_pool_size GatewayPluginOpenidConnect#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#password GatewayPluginOpenidConnect#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#password GatewayPluginOpenidConnect#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
   */
   readonly port?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#read_timeout GatewayPluginOpenidConnect#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#read_timeout GatewayPluginOpenidConnect#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#send_timeout GatewayPluginOpenidConnect#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#send_timeout GatewayPluginOpenidConnect#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_master GatewayPluginOpenidConnect#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_master GatewayPluginOpenidConnect#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_nodes GatewayPluginOpenidConnect#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_nodes GatewayPluginOpenidConnect#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginOpenidConnectConfigClusterCacheRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_password GatewayPluginOpenidConnect#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_password GatewayPluginOpenidConnect#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_role GatewayPluginOpenidConnect#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_role GatewayPluginOpenidConnect#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_username GatewayPluginOpenidConnect#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_username GatewayPluginOpenidConnect#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#server_name GatewayPluginOpenidConnect#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#server_name GatewayPluginOpenidConnect#server_name}
   */
   readonly serverName?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ssl GatewayPluginOpenidConnect#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ssl GatewayPluginOpenidConnect#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ssl_verify GatewayPluginOpenidConnect#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ssl_verify GatewayPluginOpenidConnect#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#username GatewayPluginOpenidConnect#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#username GatewayPluginOpenidConnect#username}
   */
   readonly username?: string;
 }
@@ -2099,13 +2099,13 @@ export interface GatewayPluginOpenidConnectConfigRedisClusterNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ip GatewayPluginOpenidConnect#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ip GatewayPluginOpenidConnect#ip}
   */
   readonly ip?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
   */
   readonly port?: number;
 }
@@ -2252,13 +2252,13 @@ export interface GatewayPluginOpenidConnectConfigRedisSentinelNodes {
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
   */
   readonly host?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
   */
   readonly port?: number;
 }
@@ -2405,139 +2405,139 @@ export interface GatewayPluginOpenidConnectConfigRedis {
   /**
   * Maximum retry attempts for redirection. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cluster_max_redirections GatewayPluginOpenidConnect#cluster_max_redirections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cluster_max_redirections GatewayPluginOpenidConnect#cluster_max_redirections}
   */
   readonly clusterMaxRedirections?: number;
   /**
   * Cluster addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Cluster. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cluster_nodes GatewayPluginOpenidConnect#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cluster_nodes GatewayPluginOpenidConnect#cluster_nodes}
   */
   readonly clusterNodes?: GatewayPluginOpenidConnectConfigRedisClusterNodes[] | cdktf.IResolvable;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#connect_timeout GatewayPluginOpenidConnect#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#connect_timeout GatewayPluginOpenidConnect#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * If the connection to Redis is proxied (e.g. Envoy), set it `true`. Set the `host` and `port` to point to the proxy address. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#connection_is_proxied GatewayPluginOpenidConnect#connection_is_proxied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#connection_is_proxied GatewayPluginOpenidConnect#connection_is_proxied}
   */
   readonly connectionIsProxied?: boolean | cdktf.IResolvable;
   /**
   * Database to use for the Redis connection when using the `redis` strategy. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#database GatewayPluginOpenidConnect#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#database GatewayPluginOpenidConnect#database}
   */
   readonly database?: number;
   /**
   * A string representing a host name, such as example.com. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#host GatewayPluginOpenidConnect#host}
   */
   readonly host?: string;
   /**
   * Limits the total number of opened connections for a pool. If the connection pool is full, connection queues above the limit go into the backlog queue. If the backlog queue is full, subsequent connect operations fail and return `nil`. Queued operations (subject to set timeouts) resume once the number of connections in the pool is less than `keepalive_pool_size`. If latency is high or throughput is low, try increasing this value. Empirically, this value is larger than `keepalive_pool_size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#keepalive_backlog GatewayPluginOpenidConnect#keepalive_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#keepalive_backlog GatewayPluginOpenidConnect#keepalive_backlog}
   */
   readonly keepaliveBacklog?: number;
   /**
   * The size limit for every cosocket connection pool associated with every remote server, per worker process. If neither `keepalive_pool_size` nor `keepalive_backlog` is specified, no pool is created. If `keepalive_pool_size` isn't specified but `keepalive_backlog` is specified, then the pool uses the default value. Try to increase (e.g. 512) this value if latency is high or throughput is low. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#keepalive_pool_size GatewayPluginOpenidConnect#keepalive_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#keepalive_pool_size GatewayPluginOpenidConnect#keepalive_pool_size}
   */
   readonly keepalivePoolSize?: number;
   /**
   * Password to use for Redis connections. If undefined, no AUTH commands are sent to Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#password GatewayPluginOpenidConnect#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#password GatewayPluginOpenidConnect#password}
   */
   readonly password?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive. Default: 6379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#port GatewayPluginOpenidConnect#port}
   */
   readonly port?: number;
   /**
   * The Redis session key prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#prefix GatewayPluginOpenidConnect#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#prefix GatewayPluginOpenidConnect#prefix}
   */
   readonly prefix?: string;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#read_timeout GatewayPluginOpenidConnect#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#read_timeout GatewayPluginOpenidConnect#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * An integer representing a timeout in milliseconds. Must be between 0 and 2^31-2. Default: 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#send_timeout GatewayPluginOpenidConnect#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#send_timeout GatewayPluginOpenidConnect#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sentinel master to use for Redis connections. Defining this value implies using Redis Sentinel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_master GatewayPluginOpenidConnect#sentinel_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_master GatewayPluginOpenidConnect#sentinel_master}
   */
   readonly sentinelMaster?: string;
   /**
   * Sentinel node addresses to use for Redis connections when the `redis` strategy is defined. Defining this field implies using a Redis Sentinel. The minimum length of the array is 1 element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_nodes GatewayPluginOpenidConnect#sentinel_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_nodes GatewayPluginOpenidConnect#sentinel_nodes}
   */
   readonly sentinelNodes?: GatewayPluginOpenidConnectConfigRedisSentinelNodes[] | cdktf.IResolvable;
   /**
   * Sentinel password to authenticate with a Redis Sentinel instance. If undefined, no AUTH commands are sent to Redis Sentinels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_password GatewayPluginOpenidConnect#sentinel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_password GatewayPluginOpenidConnect#sentinel_password}
   */
   readonly sentinelPassword?: string;
   /**
   * Sentinel role to use for Redis connections when the `redis` strategy is defined. Defining this value implies using Redis Sentinel. must be one of ["any", "master", "slave"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_role GatewayPluginOpenidConnect#sentinel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_role GatewayPluginOpenidConnect#sentinel_role}
   */
   readonly sentinelRole?: string;
   /**
   * Sentinel username to authenticate with a Redis Sentinel instance. If undefined, ACL authentication won't be performed. This requires Redis v6.2.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#sentinel_username GatewayPluginOpenidConnect#sentinel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#sentinel_username GatewayPluginOpenidConnect#sentinel_username}
   */
   readonly sentinelUsername?: string;
   /**
   * A string representing an SNI (server name indication) value for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#server_name GatewayPluginOpenidConnect#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#server_name GatewayPluginOpenidConnect#server_name}
   */
   readonly serverName?: string;
   /**
   * The Redis unix socket path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#socket GatewayPluginOpenidConnect#socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#socket GatewayPluginOpenidConnect#socket}
   */
   readonly socket?: string;
   /**
   * If set to true, uses SSL to connect to Redis. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ssl GatewayPluginOpenidConnect#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ssl GatewayPluginOpenidConnect#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * If set to true, verifies the validity of the server SSL certificate. If setting this parameter, also configure `lua_ssl_trusted_certificate` in `kong.conf` to specify the CA (or server) certificate used by your Redis server. You may also need to configure `lua_ssl_verify_depth` accordingly. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ssl_verify GatewayPluginOpenidConnect#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ssl_verify GatewayPluginOpenidConnect#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Username to use for Redis connections. If undefined, ACL authentication won't be performed. This requires Redis v6.0.0+. To be compatible with Redis v5.x.y, you can set it to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#username GatewayPluginOpenidConnect#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#username GatewayPluginOpenidConnect#username}
   */
   readonly username?: string;
 }
@@ -3271,671 +3271,671 @@ export interface GatewayPluginOpenidConnectConfigA {
   /**
   * An optional string (consumer UUID or username) value that functions as an “anonymous” consumer if authentication fails. If empty (default null), requests that fail authentication will return a `4xx` HTTP status code. This value must refer to the consumer `id` or `username` attribute, and **not** its `custom_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#anonymous GatewayPluginOpenidConnect#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#anonymous GatewayPluginOpenidConnect#anonymous}
   */
   readonly anonymous?: string;
   /**
   * The audience passed to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#audience GatewayPluginOpenidConnect#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#audience GatewayPluginOpenidConnect#audience}
   */
   readonly audience?: string[];
   /**
   * The claim that contains the audience. If multiple values are set, it means the claim is inside a nested object of the token payload. Default: ["aud"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#audience_claim GatewayPluginOpenidConnect#audience_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#audience_claim GatewayPluginOpenidConnect#audience_claim}
   */
   readonly audienceClaim?: string[];
   /**
   * The audiences (`audience_claim` claim) required to be present in the access token (or introspection results) for successful authorization. This config parameter works in both **AND** / **OR** cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#audience_required GatewayPluginOpenidConnect#audience_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#audience_required GatewayPluginOpenidConnect#audience_required}
   */
   readonly audienceRequired?: string[];
   /**
   * Types of credentials/grants to enable. Default: ["authorization_code","bearer","client_credentials","introspection","kong_oauth2","password","refresh_token","session","userinfo"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#auth_methods GatewayPluginOpenidConnect#auth_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#auth_methods GatewayPluginOpenidConnect#auth_methods}
   */
   readonly authMethods?: string[];
   /**
   * The claim that contains authenticated groups. This setting can be used together with ACL plugin, but it also enables IdP managed groups with other applications and integrations. If multiple values are set, it means the claim is inside a nested object of the token payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authenticated_groups_claim GatewayPluginOpenidConnect#authenticated_groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authenticated_groups_claim GatewayPluginOpenidConnect#authenticated_groups_claim}
   */
   readonly authenticatedGroupsClaim?: string[];
   /**
   * The authorization cookie Domain flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_cookie_domain GatewayPluginOpenidConnect#authorization_cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_cookie_domain GatewayPluginOpenidConnect#authorization_cookie_domain}
   */
   readonly authorizationCookieDomain?: string;
   /**
   * Forbids JavaScript from accessing the cookie, for example, through the `Document.cookie` property. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_cookie_http_only GatewayPluginOpenidConnect#authorization_cookie_http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_cookie_http_only GatewayPluginOpenidConnect#authorization_cookie_http_only}
   */
   readonly authorizationCookieHttpOnly?: boolean | cdktf.IResolvable;
   /**
   * The authorization cookie name. Default: "authorization"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_cookie_name GatewayPluginOpenidConnect#authorization_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_cookie_name GatewayPluginOpenidConnect#authorization_cookie_name}
   */
   readonly authorizationCookieName?: string;
   /**
   * The authorization cookie Path flag. Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_cookie_path GatewayPluginOpenidConnect#authorization_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_cookie_path GatewayPluginOpenidConnect#authorization_cookie_path}
   */
   readonly authorizationCookiePath?: string;
   /**
   * Controls whether a cookie is sent with cross-origin requests, providing some protection against cross-site request forgery attacks. Default: "Default"; must be one of ["Default", "Lax", "None", "Strict"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_cookie_same_site GatewayPluginOpenidConnect#authorization_cookie_same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_cookie_same_site GatewayPluginOpenidConnect#authorization_cookie_same_site}
   */
   readonly authorizationCookieSameSite?: string;
   /**
   * Cookie is only sent to the server when a request is made with the https: scheme (except on localhost), and therefore is more resistant to man-in-the-middle attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_cookie_secure GatewayPluginOpenidConnect#authorization_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_cookie_secure GatewayPluginOpenidConnect#authorization_cookie_secure}
   */
   readonly authorizationCookieSecure?: boolean | cdktf.IResolvable;
   /**
   * The authorization endpoint. If set it overrides the value in `authorization_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_endpoint GatewayPluginOpenidConnect#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_endpoint GatewayPluginOpenidConnect#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * Extra query arguments passed from the client to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_query_args_client GatewayPluginOpenidConnect#authorization_query_args_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_query_args_client GatewayPluginOpenidConnect#authorization_query_args_client}
   */
   readonly authorizationQueryArgsClient?: string[];
   /**
   * Extra query argument names passed to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_query_args_names GatewayPluginOpenidConnect#authorization_query_args_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_query_args_names GatewayPluginOpenidConnect#authorization_query_args_names}
   */
   readonly authorizationQueryArgsNames?: string[];
   /**
   * Extra query argument values passed to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_query_args_values GatewayPluginOpenidConnect#authorization_query_args_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_query_args_values GatewayPluginOpenidConnect#authorization_query_args_values}
   */
   readonly authorizationQueryArgsValues?: string[];
   /**
   * Specifies how long the session used for the authorization code flow can be used in seconds until it needs to be renewed. 0 disables the checks and rolling. Default: 600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#authorization_rolling_timeout GatewayPluginOpenidConnect#authorization_rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#authorization_rolling_timeout GatewayPluginOpenidConnect#authorization_rolling_timeout}
   */
   readonly authorizationRollingTimeout?: number;
   /**
   * The name of the cookie in which the bearer token is passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#bearer_token_cookie_name GatewayPluginOpenidConnect#bearer_token_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#bearer_token_cookie_name GatewayPluginOpenidConnect#bearer_token_cookie_name}
   */
   readonly bearerTokenCookieName?: string;
   /**
   * Where to look for the bearer token: - `header`: search the `Authorization`, `access-token`, and `x-access-token` HTTP headers - `query`: search the URL's query string - `body`: search the HTTP request body - `cookie`: search the HTTP request cookies specified with `config.bearer_token_cookie_name`. Default: ["body","header","query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#bearer_token_param_type GatewayPluginOpenidConnect#bearer_token_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#bearer_token_param_type GatewayPluginOpenidConnect#bearer_token_param_type}
   */
   readonly bearerTokenParamType?: string[];
   /**
   * If `consumer_by` is set to `username`, specify whether `username` can match consumers case-insensitively. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#by_username_ignore_case GatewayPluginOpenidConnect#by_username_ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#by_username_ignore_case GatewayPluginOpenidConnect#by_username_ignore_case}
   */
   readonly byUsernameIgnoreCase?: boolean | cdktf.IResolvable;
   /**
   * Cache the introspection endpoint requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_introspection GatewayPluginOpenidConnect#cache_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_introspection GatewayPluginOpenidConnect#cache_introspection}
   */
   readonly cacheIntrospection?: boolean | cdktf.IResolvable;
   /**
   * Cache the token exchange endpoint requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_token_exchange GatewayPluginOpenidConnect#cache_token_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_token_exchange GatewayPluginOpenidConnect#cache_token_exchange}
   */
   readonly cacheTokenExchange?: boolean | cdktf.IResolvable;
   /**
   * Cache the token endpoint requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_tokens GatewayPluginOpenidConnect#cache_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_tokens GatewayPluginOpenidConnect#cache_tokens}
   */
   readonly cacheTokens?: boolean | cdktf.IResolvable;
   /**
   * Salt used for generating the cache key that is used for caching the token endpoint requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_tokens_salt GatewayPluginOpenidConnect#cache_tokens_salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_tokens_salt GatewayPluginOpenidConnect#cache_tokens_salt}
   */
   readonly cacheTokensSalt?: string;
   /**
   * The default cache ttl in seconds that is used in case the cached object does not specify the expiry. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_ttl GatewayPluginOpenidConnect#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_ttl GatewayPluginOpenidConnect#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
   * The maximum cache ttl in seconds (enforced).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_ttl_max GatewayPluginOpenidConnect#cache_ttl_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_ttl_max GatewayPluginOpenidConnect#cache_ttl_max}
   */
   readonly cacheTtlMax?: number;
   /**
   * The minimum cache ttl in seconds (enforced).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_ttl_min GatewayPluginOpenidConnect#cache_ttl_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_ttl_min GatewayPluginOpenidConnect#cache_ttl_min}
   */
   readonly cacheTtlMin?: number;
   /**
   * The negative cache ttl in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_ttl_neg GatewayPluginOpenidConnect#cache_ttl_neg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_ttl_neg GatewayPluginOpenidConnect#cache_ttl_neg}
   */
   readonly cacheTtlNeg?: number;
   /**
   * The resurrection ttl in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_ttl_resurrect GatewayPluginOpenidConnect#cache_ttl_resurrect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_ttl_resurrect GatewayPluginOpenidConnect#cache_ttl_resurrect}
   */
   readonly cacheTtlResurrect?: number;
   /**
   * Cache the user info requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cache_user_info GatewayPluginOpenidConnect#cache_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cache_user_info GatewayPluginOpenidConnect#cache_user_info}
   */
   readonly cacheUserInfo?: boolean | cdktf.IResolvable;
   /**
   * If given, these claims are forbidden in the token payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#claims_forbidden GatewayPluginOpenidConnect#claims_forbidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#claims_forbidden GatewayPluginOpenidConnect#claims_forbidden}
   */
   readonly claimsForbidden?: string[];
   /**
   * The algorithm to use for client_secret_jwt (only HS***) or private_key_jwt authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_alg GatewayPluginOpenidConnect#client_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_alg GatewayPluginOpenidConnect#client_alg}
   */
   readonly clientAlg?: string[];
   /**
   * The client to use for this request (the selection is made with a request parameter with the same name). Default: "client_id"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_arg GatewayPluginOpenidConnect#client_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_arg GatewayPluginOpenidConnect#client_arg}
   */
   readonly clientArg?: string;
   /**
   * The default OpenID Connect client authentication method is 'client_secret_basic' (using 'Authorization: Basic' header), 'client_secret_post' (credentials in body), 'client_secret_jwt' (signed client assertion in body), 'private_key_jwt' (private key-signed assertion), 'tls_client_auth' (client certificate), 'self_signed_tls_client_auth' (self-signed client certificate), and 'none' (no authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_auth GatewayPluginOpenidConnect#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_auth GatewayPluginOpenidConnect#client_auth}
   */
   readonly clientAuth?: string[];
   /**
   * Where to look for the client credentials: - `header`: search the HTTP headers - `query`: search the URL's query string - `body`: search from the HTTP request body. Default: ["body","header","query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_credentials_param_type GatewayPluginOpenidConnect#client_credentials_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_credentials_param_type GatewayPluginOpenidConnect#client_credentials_param_type}
   */
   readonly clientCredentialsParamType?: string[];
   /**
   * The client id(s) that the plugin uses when it calls authenticated endpoints on the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_id GatewayPluginOpenidConnect#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_id GatewayPluginOpenidConnect#client_id}
   */
   readonly clientId?: string[];
   /**
   * The JWK used for the private_key_jwt authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_jwk GatewayPluginOpenidConnect#client_jwk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_jwk GatewayPluginOpenidConnect#client_jwk}
   */
   readonly clientJwk?: GatewayPluginOpenidConnectConfigClientJwk[] | cdktf.IResolvable;
   /**
   * The client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#client_secret GatewayPluginOpenidConnect#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#client_secret GatewayPluginOpenidConnect#client_secret}
   */
   readonly clientSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cluster_cache_redis GatewayPluginOpenidConnect#cluster_cache_redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cluster_cache_redis GatewayPluginOpenidConnect#cluster_cache_redis}
   */
   readonly clusterCacheRedis?: GatewayPluginOpenidConnectConfigClusterCacheRedis;
   /**
   * The strategy to use for the cluster cache. If set, the plugin will share cache with nodes configured with the same strategy backend. Currentlly only introspection cache is shared. Default: "off"; must be one of ["off", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#cluster_cache_strategy GatewayPluginOpenidConnect#cluster_cache_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#cluster_cache_strategy GatewayPluginOpenidConnect#cluster_cache_strategy}
   */
   readonly clusterCacheStrategy?: string;
   /**
   * Consumer fields used for mapping: - `id`: try to find the matching Consumer by `id` - `username`: try to find the matching Consumer by `username` - `custom_id`: try to find the matching Consumer by `custom_id`. Default: ["custom_id","username"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#consumer_by GatewayPluginOpenidConnect#consumer_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#consumer_by GatewayPluginOpenidConnect#consumer_by}
   */
   readonly consumerBy?: string[];
   /**
   * The claim used for consumer mapping. If multiple values are set, it means the claim is inside a nested object of the token payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#consumer_claim GatewayPluginOpenidConnect#consumer_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#consumer_claim GatewayPluginOpenidConnect#consumer_claim}
   */
   readonly consumerClaim?: string[];
   /**
   * The claim used for consumer groups mapping. If multiple values are set, it means the claim is inside a nested object of the token payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#consumer_groups_claim GatewayPluginOpenidConnect#consumer_groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#consumer_groups_claim GatewayPluginOpenidConnect#consumer_groups_claim}
   */
   readonly consumerGroupsClaim?: string[];
   /**
   * Do not terminate the request if consumer groups mapping fails. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#consumer_groups_optional GatewayPluginOpenidConnect#consumer_groups_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#consumer_groups_optional GatewayPluginOpenidConnect#consumer_groups_optional}
   */
   readonly consumerGroupsOptional?: boolean | cdktf.IResolvable;
   /**
   * Do not terminate the request if consumer mapping fails. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#consumer_optional GatewayPluginOpenidConnect#consumer_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#consumer_optional GatewayPluginOpenidConnect#consumer_optional}
   */
   readonly consumerOptional?: boolean | cdktf.IResolvable;
   /**
   * The claim used to derive virtual credentials (e.g. to be consumed by the rate-limiting plugin), in case the consumer mapping is not used. If multiple values are set, it means the claim is inside a nested object of the token payload. Default: ["sub"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#credential_claim GatewayPluginOpenidConnect#credential_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#credential_claim GatewayPluginOpenidConnect#credential_claim}
   */
   readonly credentialClaim?: string[];
   /**
   * Disable issuing the session cookie with the specified grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#disable_session GatewayPluginOpenidConnect#disable_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#disable_session GatewayPluginOpenidConnect#disable_session}
   */
   readonly disableSession?: string[];
   /**
   * Extra header names passed to the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#discovery_headers_names GatewayPluginOpenidConnect#discovery_headers_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#discovery_headers_names GatewayPluginOpenidConnect#discovery_headers_names}
   */
   readonly discoveryHeadersNames?: string[];
   /**
   * Extra header values passed to the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#discovery_headers_values GatewayPluginOpenidConnect#discovery_headers_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#discovery_headers_values GatewayPluginOpenidConnect#discovery_headers_values}
   */
   readonly discoveryHeadersValues?: string[];
   /**
   * Display errors on failure responses. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#display_errors GatewayPluginOpenidConnect#display_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#display_errors GatewayPluginOpenidConnect#display_errors}
   */
   readonly displayErrors?: boolean | cdktf.IResolvable;
   /**
   * The allowed values for the `hd` claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#domains GatewayPluginOpenidConnect#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#domains GatewayPluginOpenidConnect#domains}
   */
   readonly domains?: string[];
   /**
   * The downstream access token header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_access_token_header GatewayPluginOpenidConnect#downstream_access_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_access_token_header GatewayPluginOpenidConnect#downstream_access_token_header}
   */
   readonly downstreamAccessTokenHeader?: string;
   /**
   * The downstream access token JWK header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_access_token_jwk_header GatewayPluginOpenidConnect#downstream_access_token_jwk_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_access_token_jwk_header GatewayPluginOpenidConnect#downstream_access_token_jwk_header}
   */
   readonly downstreamAccessTokenJwkHeader?: string;
   /**
   * The downstream header claims. If multiple values are set, it means the claim is inside a nested object of the token payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_headers_claims GatewayPluginOpenidConnect#downstream_headers_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_headers_claims GatewayPluginOpenidConnect#downstream_headers_claims}
   */
   readonly downstreamHeadersClaims?: string[];
   /**
   * The downstream header names for the claim values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_headers_names GatewayPluginOpenidConnect#downstream_headers_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_headers_names GatewayPluginOpenidConnect#downstream_headers_names}
   */
   readonly downstreamHeadersNames?: string[];
   /**
   * The downstream id token header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_id_token_header GatewayPluginOpenidConnect#downstream_id_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_id_token_header GatewayPluginOpenidConnect#downstream_id_token_header}
   */
   readonly downstreamIdTokenHeader?: string;
   /**
   * The downstream id token JWK header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_id_token_jwk_header GatewayPluginOpenidConnect#downstream_id_token_jwk_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_id_token_jwk_header GatewayPluginOpenidConnect#downstream_id_token_jwk_header}
   */
   readonly downstreamIdTokenJwkHeader?: string;
   /**
   * The downstream introspection header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_introspection_header GatewayPluginOpenidConnect#downstream_introspection_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_introspection_header GatewayPluginOpenidConnect#downstream_introspection_header}
   */
   readonly downstreamIntrospectionHeader?: string;
   /**
   * The downstream introspection JWT header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_introspection_jwt_header GatewayPluginOpenidConnect#downstream_introspection_jwt_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_introspection_jwt_header GatewayPluginOpenidConnect#downstream_introspection_jwt_header}
   */
   readonly downstreamIntrospectionJwtHeader?: string;
   /**
   * The downstream refresh token header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_refresh_token_header GatewayPluginOpenidConnect#downstream_refresh_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_refresh_token_header GatewayPluginOpenidConnect#downstream_refresh_token_header}
   */
   readonly downstreamRefreshTokenHeader?: string;
   /**
   * The downstream session id header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_session_id_header GatewayPluginOpenidConnect#downstream_session_id_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_session_id_header GatewayPluginOpenidConnect#downstream_session_id_header}
   */
   readonly downstreamSessionIdHeader?: string;
   /**
   * The downstream user info header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_user_info_header GatewayPluginOpenidConnect#downstream_user_info_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_user_info_header GatewayPluginOpenidConnect#downstream_user_info_header}
   */
   readonly downstreamUserInfoHeader?: string;
   /**
   * The downstream user info JWT header (in case the user info returns a JWT response).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#downstream_user_info_jwt_header GatewayPluginOpenidConnect#downstream_user_info_jwt_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#downstream_user_info_jwt_header GatewayPluginOpenidConnect#downstream_user_info_jwt_header}
   */
   readonly downstreamUserInfoJwtHeader?: string;
   /**
   * Specifies the lifetime in seconds of the DPoP proof. It determines how long the same proof can be used after creation. The creation time is determined by the nonce creation time if a nonce is used, and the iat claim otherwise. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#dpop_proof_lifetime GatewayPluginOpenidConnect#dpop_proof_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#dpop_proof_lifetime GatewayPluginOpenidConnect#dpop_proof_lifetime}
   */
   readonly dpopProofLifetime?: number;
   /**
   * Specifies whether to challenge the client with a nonce value for DPoP proof. When enabled it will also be used to calculate the DPoP proof lifetime. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#dpop_use_nonce GatewayPluginOpenidConnect#dpop_use_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#dpop_use_nonce GatewayPluginOpenidConnect#dpop_use_nonce}
   */
   readonly dpopUseNonce?: boolean | cdktf.IResolvable;
   /**
   * Enable shared secret, for example, HS256, signatures (when disabled they will not be accepted). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#enable_hs_signatures GatewayPluginOpenidConnect#enable_hs_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#enable_hs_signatures GatewayPluginOpenidConnect#enable_hs_signatures}
   */
   readonly enableHsSignatures?: boolean | cdktf.IResolvable;
   /**
   * The end session endpoint. If set it overrides the value in `end_session_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#end_session_endpoint GatewayPluginOpenidConnect#end_session_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#end_session_endpoint GatewayPluginOpenidConnect#end_session_endpoint}
   */
   readonly endSessionEndpoint?: string;
   /**
   * Specifies whether to expose the error code header, as defined in RFC 6750. If an authorization request fails, this header is sent in the response. Set to `false` to disable. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#expose_error_code GatewayPluginOpenidConnect#expose_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#expose_error_code GatewayPluginOpenidConnect#expose_error_code}
   */
   readonly exposeErrorCode?: boolean | cdktf.IResolvable;
   /**
   * JWKS URIs whose public keys are trusted (in addition to the keys found with the discovery).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#extra_jwks_uris GatewayPluginOpenidConnect#extra_jwks_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#extra_jwks_uris GatewayPluginOpenidConnect#extra_jwks_uris}
   */
   readonly extraJwksUris?: string[];
   /**
   * Destroy any active session for the forbidden requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#forbidden_destroy_session GatewayPluginOpenidConnect#forbidden_destroy_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#forbidden_destroy_session GatewayPluginOpenidConnect#forbidden_destroy_session}
   */
   readonly forbiddenDestroySession?: boolean | cdktf.IResolvable;
   /**
   * The error message for the forbidden requests (when not using the redirection). Default: "Forbidden"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#forbidden_error_message GatewayPluginOpenidConnect#forbidden_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#forbidden_error_message GatewayPluginOpenidConnect#forbidden_error_message}
   */
   readonly forbiddenErrorMessage?: string;
   /**
   * Where to redirect the client on forbidden requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#forbidden_redirect_uri GatewayPluginOpenidConnect#forbidden_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#forbidden_redirect_uri GatewayPluginOpenidConnect#forbidden_redirect_uri}
   */
   readonly forbiddenRedirectUri?: string[];
   /**
   * The claim that contains the groups. If multiple values are set, it means the claim is inside a nested object of the token payload. Default: ["groups"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#groups_claim GatewayPluginOpenidConnect#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#groups_claim GatewayPluginOpenidConnect#groups_claim}
   */
   readonly groupsClaim?: string[];
   /**
   * The groups (`groups_claim` claim) required to be present in the access token (or introspection results) for successful authorization. This config parameter works in both **AND** / **OR** cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#groups_required GatewayPluginOpenidConnect#groups_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#groups_required GatewayPluginOpenidConnect#groups_required}
   */
   readonly groupsRequired?: string[];
   /**
   * Remove the credentials used for authentication from the request. If multiple credentials are sent with the same request, the plugin will remove those that were used for successful authentication. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#hide_credentials GatewayPluginOpenidConnect#hide_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#hide_credentials GatewayPluginOpenidConnect#hide_credentials}
   */
   readonly hideCredentials?: boolean | cdktf.IResolvable;
   /**
   * The HTTP proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#http_proxy GatewayPluginOpenidConnect#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#http_proxy GatewayPluginOpenidConnect#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * The HTTP proxy authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#http_proxy_authorization GatewayPluginOpenidConnect#http_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#http_proxy_authorization GatewayPluginOpenidConnect#http_proxy_authorization}
   */
   readonly httpProxyAuthorization?: string;
   /**
   * The HTTP version used for the requests by this plugin: - `1.1`: HTTP 1.1 (the default) - `1.0`: HTTP 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#http_version GatewayPluginOpenidConnect#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#http_version GatewayPluginOpenidConnect#http_version}
   */
   readonly httpVersion?: number;
   /**
   * The HTTPS proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#https_proxy GatewayPluginOpenidConnect#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#https_proxy GatewayPluginOpenidConnect#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * The HTTPS proxy authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#https_proxy_authorization GatewayPluginOpenidConnect#https_proxy_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#https_proxy_authorization GatewayPluginOpenidConnect#https_proxy_authorization}
   */
   readonly httpsProxyAuthorization?: string;
   /**
   * The name of the parameter used to pass the id token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#id_token_param_name GatewayPluginOpenidConnect#id_token_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#id_token_param_name GatewayPluginOpenidConnect#id_token_param_name}
   */
   readonly idTokenParamName?: string;
   /**
   * Where to look for the id token: - `header`: search the HTTP headers - `query`: search the URL's query string - `body`: search the HTTP request body. Default: ["body","header","query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#id_token_param_type GatewayPluginOpenidConnect#id_token_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#id_token_param_type GatewayPluginOpenidConnect#id_token_param_type}
   */
   readonly idTokenParamType?: string[];
   /**
   * Skip the token signature verification on certain grants: - `password`: OAuth password grant - `client_credentials`: OAuth client credentials grant - `authorization_code`: authorization code flow - `refresh_token`: OAuth refresh token grant - `session`: session cookie authentication - `introspection`: OAuth introspection - `userinfo`: OpenID Connect user info endpoint authentication. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ignore_signature GatewayPluginOpenidConnect#ignore_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ignore_signature GatewayPluginOpenidConnect#ignore_signature}
   */
   readonly ignoreSignature?: string[];
   /**
   * Specifies whether to introspect the JWT access tokens (can be used to check for revocations). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspect_jwt_tokens GatewayPluginOpenidConnect#introspect_jwt_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspect_jwt_tokens GatewayPluginOpenidConnect#introspect_jwt_tokens}
   */
   readonly introspectJwtTokens?: boolean | cdktf.IResolvable;
   /**
   * The value of `Accept` header for introspection requests: - `application/json`: introspection response as JSON - `application/token-introspection+jwt`: introspection response as JWT (from the current IETF draft document) - `application/jwt`: introspection response as JWT (from the obsolete IETF draft document). Default: "application/json"; must be one of ["application/json", "application/jwt", "application/token-introspection+jwt"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_accept GatewayPluginOpenidConnect#introspection_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_accept GatewayPluginOpenidConnect#introspection_accept}
   */
   readonly introspectionAccept?: string;
   /**
   * Check that the introspection response has an `active` claim with a value of `true`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_check_active GatewayPluginOpenidConnect#introspection_check_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_check_active GatewayPluginOpenidConnect#introspection_check_active}
   */
   readonly introspectionCheckActive?: boolean | cdktf.IResolvable;
   /**
   * The introspection endpoint. If set it overrides the value in `introspection_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_endpoint GatewayPluginOpenidConnect#introspection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_endpoint GatewayPluginOpenidConnect#introspection_endpoint}
   */
   readonly introspectionEndpoint?: string;
   /**
   * The introspection endpoint authentication method: : `client_secret_basic`, `client_secret_post`, `client_secret_jwt`, `private_key_jwt`, `tls_client_auth`, `self_signed_tls_client_auth`, or `none`: do not authenticate. must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none", "private_key_jwt", "self_signed_tls_client_auth", "tls_client_auth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_endpoint_auth_method GatewayPluginOpenidConnect#introspection_endpoint_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_endpoint_auth_method GatewayPluginOpenidConnect#introspection_endpoint_auth_method}
   */
   readonly introspectionEndpointAuthMethod?: string;
   /**
   * Extra headers passed from the client to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_headers_client GatewayPluginOpenidConnect#introspection_headers_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_headers_client GatewayPluginOpenidConnect#introspection_headers_client}
   */
   readonly introspectionHeadersClient?: string[];
   /**
   * Extra header names passed to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_headers_names GatewayPluginOpenidConnect#introspection_headers_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_headers_names GatewayPluginOpenidConnect#introspection_headers_names}
   */
   readonly introspectionHeadersNames?: string[];
   /**
   * Extra header values passed to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_headers_values GatewayPluginOpenidConnect#introspection_headers_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_headers_values GatewayPluginOpenidConnect#introspection_headers_values}
   */
   readonly introspectionHeadersValues?: string[];
   /**
   * Introspection hint parameter value passed to the introspection endpoint. Default: "access_token"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_hint GatewayPluginOpenidConnect#introspection_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_hint GatewayPluginOpenidConnect#introspection_hint}
   */
   readonly introspectionHint?: string;
   /**
   * Extra post arguments passed from the client to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_post_args_client GatewayPluginOpenidConnect#introspection_post_args_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_post_args_client GatewayPluginOpenidConnect#introspection_post_args_client}
   */
   readonly introspectionPostArgsClient?: string[];
   /**
   * Extra post arguments passed from the client headers to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_post_args_client_headers GatewayPluginOpenidConnect#introspection_post_args_client_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_post_args_client_headers GatewayPluginOpenidConnect#introspection_post_args_client_headers}
   */
   readonly introspectionPostArgsClientHeaders?: string[];
   /**
   * Extra post argument names passed to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_post_args_names GatewayPluginOpenidConnect#introspection_post_args_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_post_args_names GatewayPluginOpenidConnect#introspection_post_args_names}
   */
   readonly introspectionPostArgsNames?: string[];
   /**
   * Extra post argument values passed to the introspection endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_post_args_values GatewayPluginOpenidConnect#introspection_post_args_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_post_args_values GatewayPluginOpenidConnect#introspection_post_args_values}
   */
   readonly introspectionPostArgsValues?: string[];
   /**
   * Designate token's parameter name for introspection. Default: "token"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#introspection_token_param_name GatewayPluginOpenidConnect#introspection_token_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#introspection_token_param_name GatewayPluginOpenidConnect#introspection_token_param_name}
   */
   readonly introspectionTokenParamName?: string;
   /**
   * The discovery endpoint (or the issuer identifier). When there is no discovery endpoint, please also configure `config.using_pseudo_issuer=true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#issuer GatewayPluginOpenidConnect#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#issuer GatewayPluginOpenidConnect#issuer}
   */
   readonly issuer: string;
   /**
   * The issuers allowed to be present in the tokens (`iss` claim).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#issuers_allowed GatewayPluginOpenidConnect#issuers_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#issuers_allowed GatewayPluginOpenidConnect#issuers_allowed}
   */
   readonly issuersAllowed?: string[];
   /**
   * The claim to match against the JWT session cookie. Default: "sid"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#jwt_session_claim GatewayPluginOpenidConnect#jwt_session_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#jwt_session_claim GatewayPluginOpenidConnect#jwt_session_claim}
   */
   readonly jwtSessionClaim?: string;
   /**
   * The name of the JWT session cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#jwt_session_cookie GatewayPluginOpenidConnect#jwt_session_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#jwt_session_cookie GatewayPluginOpenidConnect#jwt_session_cookie}
   */
   readonly jwtSessionCookie?: string;
   /**
   * Use keepalive with the HTTP client. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#keepalive GatewayPluginOpenidConnect#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#keepalive GatewayPluginOpenidConnect#keepalive}
   */
   readonly keepalive?: boolean | cdktf.IResolvable;
   /**
   * Defines leeway time (in seconds) for `auth_time`, `exp`, `iat`, and `nbf` claims. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#leeway GatewayPluginOpenidConnect#leeway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#leeway GatewayPluginOpenidConnect#leeway}
   */
   readonly leeway?: number;
   /**
   * What to do after successful login: - `upstream`: proxy request to upstream service - `response`: terminate request with a response - `redirect`: redirect to a different location. Default: "upstream"; must be one of ["redirect", "response", "upstream"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#login_action GatewayPluginOpenidConnect#login_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#login_action GatewayPluginOpenidConnect#login_action}
   */
   readonly loginAction?: string;
   /**
   * Enable login functionality with specified grants. Default: ["authorization_code"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#login_methods GatewayPluginOpenidConnect#login_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#login_methods GatewayPluginOpenidConnect#login_methods}
   */
   readonly loginMethods?: string[];
   /**
   * Where to place `login_tokens` when using `redirect` `login_action`: - `query`: place tokens in query string - `fragment`: place tokens in url fragment (not readable by servers). Default: "fragment"; must be one of ["fragment", "query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#login_redirect_mode GatewayPluginOpenidConnect#login_redirect_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#login_redirect_mode GatewayPluginOpenidConnect#login_redirect_mode}
   */
   readonly loginRedirectMode?: string;
   /**
   * Where to redirect the client when `login_action` is set to `redirect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#login_redirect_uri GatewayPluginOpenidConnect#login_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#login_redirect_uri GatewayPluginOpenidConnect#login_redirect_uri}
   */
   readonly loginRedirectUri?: string[];
   /**
   * What tokens to include in `response` body or `redirect` query string or fragment: - `id_token`: include id token - `access_token`: include access token - `refresh_token`: include refresh token - `tokens`: include the full token endpoint response - `introspection`: include introspection response. Default: ["id_token"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#login_tokens GatewayPluginOpenidConnect#login_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#login_tokens GatewayPluginOpenidConnect#login_tokens}
   */
   readonly loginTokens?: string[];
   /**
   * The request methods that can activate the logout: - `POST`: HTTP POST method - `GET`: HTTP GET method - `DELETE`: HTTP DELETE method. Default: ["DELETE","POST"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_methods GatewayPluginOpenidConnect#logout_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_methods GatewayPluginOpenidConnect#logout_methods}
   */
   readonly logoutMethods?: string[];
   /**
   * The request body argument that activates the logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_post_arg GatewayPluginOpenidConnect#logout_post_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_post_arg GatewayPluginOpenidConnect#logout_post_arg}
   */
   readonly logoutPostArg?: string;
   /**
   * The request query argument that activates the logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_query_arg GatewayPluginOpenidConnect#logout_query_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_query_arg GatewayPluginOpenidConnect#logout_query_arg}
   */
   readonly logoutQueryArg?: string;
   /**
   * Where to redirect the client after the logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_redirect_uri GatewayPluginOpenidConnect#logout_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_redirect_uri GatewayPluginOpenidConnect#logout_redirect_uri}
   */
   readonly logoutRedirectUri?: string[];
   /**
@@ -3944,671 +3944,671 @@ export interface GatewayPluginOpenidConnectConfigA {
   * For more granular token revocation, you can also adjust the `logout_revoke_access_token` and `logout_revoke_refresh_token` parameters.
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_revoke GatewayPluginOpenidConnect#logout_revoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_revoke GatewayPluginOpenidConnect#logout_revoke}
   */
   readonly logoutRevoke?: boolean | cdktf.IResolvable;
   /**
   * Revoke the access token as part of the logout. Requires `logout_revoke` to be set to `true`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_revoke_access_token GatewayPluginOpenidConnect#logout_revoke_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_revoke_access_token GatewayPluginOpenidConnect#logout_revoke_access_token}
   */
   readonly logoutRevokeAccessToken?: boolean | cdktf.IResolvable;
   /**
   * Revoke the refresh token as part of the logout. Requires `logout_revoke` to be set to `true`. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_revoke_refresh_token GatewayPluginOpenidConnect#logout_revoke_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_revoke_refresh_token GatewayPluginOpenidConnect#logout_revoke_refresh_token}
   */
   readonly logoutRevokeRefreshToken?: boolean | cdktf.IResolvable;
   /**
   * The request URI suffix that activates the logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#logout_uri_suffix GatewayPluginOpenidConnect#logout_uri_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#logout_uri_suffix GatewayPluginOpenidConnect#logout_uri_suffix}
   */
   readonly logoutUriSuffix?: string;
   /**
   * The maximum age (in seconds) compared to the `auth_time` claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#max_age GatewayPluginOpenidConnect#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#max_age GatewayPluginOpenidConnect#max_age}
   */
   readonly maxAge?: number;
   /**
   * Alias for the introspection endpoint to be used for mTLS client authentication. If set it overrides the value in `mtls_endpoint_aliases` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#mtls_introspection_endpoint GatewayPluginOpenidConnect#mtls_introspection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#mtls_introspection_endpoint GatewayPluginOpenidConnect#mtls_introspection_endpoint}
   */
   readonly mtlsIntrospectionEndpoint?: string;
   /**
   * Alias for the introspection endpoint to be used for mTLS client authentication. If set it overrides the value in `mtls_endpoint_aliases` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#mtls_revocation_endpoint GatewayPluginOpenidConnect#mtls_revocation_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#mtls_revocation_endpoint GatewayPluginOpenidConnect#mtls_revocation_endpoint}
   */
   readonly mtlsRevocationEndpoint?: string;
   /**
   * Alias for the token endpoint to be used for mTLS client authentication. If set it overrides the value in `mtls_endpoint_aliases` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#mtls_token_endpoint GatewayPluginOpenidConnect#mtls_token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#mtls_token_endpoint GatewayPluginOpenidConnect#mtls_token_endpoint}
   */
   readonly mtlsTokenEndpoint?: string;
   /**
   * Do not use proxy with these hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#no_proxy GatewayPluginOpenidConnect#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#no_proxy GatewayPluginOpenidConnect#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Where to look for the username and password: - `header`: search the HTTP headers - `query`: search the URL's query string - `body`: search the HTTP request body. Default: ["body","header","query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#password_param_type GatewayPluginOpenidConnect#password_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#password_param_type GatewayPluginOpenidConnect#password_param_type}
   */
   readonly passwordParamType?: string[];
   /**
   * With this parameter, you can preserve request query arguments even when doing authorization code flow. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#preserve_query_args GatewayPluginOpenidConnect#preserve_query_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#preserve_query_args GatewayPluginOpenidConnect#preserve_query_args}
   */
   readonly preserveQueryArgs?: boolean | cdktf.IResolvable;
   /**
   * If set to true, only the auth_methods that are compatible with Proof of Possession (PoP) can be configured when PoP is enabled. If set to false, all auth_methods will be configurable and PoP checks will be silently skipped for those auth_methods that are not compatible with PoP. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#proof_of_possession_auth_methods_validation GatewayPluginOpenidConnect#proof_of_possession_auth_methods_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#proof_of_possession_auth_methods_validation GatewayPluginOpenidConnect#proof_of_possession_auth_methods_validation}
   */
   readonly proofOfPossessionAuthMethodsValidation?: boolean | cdktf.IResolvable;
   /**
   * Enable Demonstrating Proof-of-Possession (DPoP). If set to strict, all request are verified despite the presence of the DPoP key claim (cnf.jkt). If set to optional, only tokens bound with DPoP's key are verified with the proof. Default: "off"; must be one of ["off", "optional", "strict"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#proof_of_possession_dpop GatewayPluginOpenidConnect#proof_of_possession_dpop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#proof_of_possession_dpop GatewayPluginOpenidConnect#proof_of_possession_dpop}
   */
   readonly proofOfPossessionDpop?: string;
   /**
   * Enable mtls proof of possession. If set to strict, all tokens (from supported auth_methods: bearer, introspection, and session granted with bearer or introspection) are verified, if set to optional, only tokens that contain the certificate hash claim are verified. If the verification fails, the request will be rejected with 401. Default: "off"; must be one of ["off", "optional", "strict"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#proof_of_possession_mtls GatewayPluginOpenidConnect#proof_of_possession_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#proof_of_possession_mtls GatewayPluginOpenidConnect#proof_of_possession_mtls}
   */
   readonly proofOfPossessionMtls?: string;
   /**
   * The pushed authorization endpoint. If set it overrides the value in `pushed_authorization_request_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#pushed_authorization_request_endpoint GatewayPluginOpenidConnect#pushed_authorization_request_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#pushed_authorization_request_endpoint GatewayPluginOpenidConnect#pushed_authorization_request_endpoint}
   */
   readonly pushedAuthorizationRequestEndpoint?: string;
   /**
   * The pushed authorization request endpoint authentication method: `client_secret_basic`, `client_secret_post`, `client_secret_jwt`, `private_key_jwt`, `tls_client_auth`, `self_signed_tls_client_auth`, or `none`: do not authenticate. must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none", "private_key_jwt", "self_signed_tls_client_auth", "tls_client_auth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#pushed_authorization_request_endpoint_auth_method GatewayPluginOpenidConnect#pushed_authorization_request_endpoint_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#pushed_authorization_request_endpoint_auth_method GatewayPluginOpenidConnect#pushed_authorization_request_endpoint_auth_method}
   */
   readonly pushedAuthorizationRequestEndpointAuthMethod?: string;
   /**
   * The redirect URI passed to the authorization and token endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#redirect_uri GatewayPluginOpenidConnect#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#redirect_uri GatewayPluginOpenidConnect#redirect_uri}
   */
   readonly redirectUri?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#redis GatewayPluginOpenidConnect#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#redis GatewayPluginOpenidConnect#redis}
   */
   readonly redis?: GatewayPluginOpenidConnectConfigRedis;
   /**
   * Specifies how long (in seconds) the plugin waits between discovery attempts. Discovery is still triggered on an as-needed basis. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#rediscovery_lifetime GatewayPluginOpenidConnect#rediscovery_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#rediscovery_lifetime GatewayPluginOpenidConnect#rediscovery_lifetime}
   */
   readonly rediscoveryLifetime?: number;
   /**
   * The name of the parameter used to pass the refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#refresh_token_param_name GatewayPluginOpenidConnect#refresh_token_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#refresh_token_param_name GatewayPluginOpenidConnect#refresh_token_param_name}
   */
   readonly refreshTokenParamName?: string;
   /**
   * Where to look for the refresh token: - `header`: search the HTTP headers - `query`: search the URL's query string - `body`: search the HTTP request body. Default: ["body","header","query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#refresh_token_param_type GatewayPluginOpenidConnect#refresh_token_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#refresh_token_param_type GatewayPluginOpenidConnect#refresh_token_param_type}
   */
   readonly refreshTokenParamType?: string[];
   /**
   * Specifies whether the plugin should try to refresh (soon to be) expired access tokens if the plugin has a `refresh_token` available. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#refresh_tokens GatewayPluginOpenidConnect#refresh_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#refresh_tokens GatewayPluginOpenidConnect#refresh_tokens}
   */
   readonly refreshTokens?: boolean | cdktf.IResolvable;
   /**
   * Forcibly enable or disable the proof key for code exchange. When not set the value is determined through the discovery using the value of `code_challenge_methods_supported`, and enabled automatically (in case the `code_challenge_methods_supported` is missing, the PKCE will not be enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#require_proof_key_for_code_exchange GatewayPluginOpenidConnect#require_proof_key_for_code_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#require_proof_key_for_code_exchange GatewayPluginOpenidConnect#require_proof_key_for_code_exchange}
   */
   readonly requireProofKeyForCodeExchange?: boolean | cdktf.IResolvable;
   /**
   * Forcibly enable or disable the pushed authorization requests. When not set the value is determined through the discovery using the value of `require_pushed_authorization_requests` (which defaults to `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#require_pushed_authorization_requests GatewayPluginOpenidConnect#require_pushed_authorization_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#require_pushed_authorization_requests GatewayPluginOpenidConnect#require_pushed_authorization_requests}
   */
   readonly requirePushedAuthorizationRequests?: boolean | cdktf.IResolvable;
   /**
   * Forcibly enable or disable the usage of signed request object on authorization or pushed authorization endpoint. When not set the value is determined through the discovery using the value of `require_signed_request_object`, and enabled automatically (in case the `require_signed_request_object` is missing, the feature will not be enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#require_signed_request_object GatewayPluginOpenidConnect#require_signed_request_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#require_signed_request_object GatewayPluginOpenidConnect#require_signed_request_object}
   */
   readonly requireSignedRequestObject?: boolean | cdktf.IResolvable;
   /**
   * Distributed claims are represented by the `_claim_names` and `_claim_sources` members of the JSON object containing the claims. If this parameter is set to `true`, the plugin explicitly resolves these distributed claims. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#resolve_distributed_claims GatewayPluginOpenidConnect#resolve_distributed_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#resolve_distributed_claims GatewayPluginOpenidConnect#resolve_distributed_claims}
   */
   readonly resolveDistributedClaims?: boolean | cdktf.IResolvable;
   /**
   * Response mode passed to the authorization endpoint: - `query`: for parameters in query string - `form_post`: for parameters in request body - `fragment`: for parameters in uri fragment (rarely useful as the plugin itself cannot read it) - `query.jwt`, `form_post.jwt`, `fragment.jwt`: similar to `query`, `form_post` and `fragment` but the parameters are encoded in a JWT - `jwt`: shortcut that indicates the default encoding for the requested response type. Default: "query"; must be one of ["form_post", "form_post.jwt", "fragment", "fragment.jwt", "jwt", "query", "query.jwt"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#response_mode GatewayPluginOpenidConnect#response_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#response_mode GatewayPluginOpenidConnect#response_mode}
   */
   readonly responseMode?: string;
   /**
   * The response type passed to the authorization endpoint. Default: ["code"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#response_type GatewayPluginOpenidConnect#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#response_type GatewayPluginOpenidConnect#response_type}
   */
   readonly responseType?: string[];
   /**
   * Specifies whether to always verify tokens stored in the session. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#reverify GatewayPluginOpenidConnect#reverify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#reverify GatewayPluginOpenidConnect#reverify}
   */
   readonly reverify?: boolean | cdktf.IResolvable;
   /**
   * The revocation endpoint. If set it overrides the value in `revocation_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#revocation_endpoint GatewayPluginOpenidConnect#revocation_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#revocation_endpoint GatewayPluginOpenidConnect#revocation_endpoint}
   */
   readonly revocationEndpoint?: string;
   /**
   * The revocation endpoint authentication method: : `client_secret_basic`, `client_secret_post`, `client_secret_jwt`, `private_key_jwt`, `tls_client_auth`, `self_signed_tls_client_auth`, or `none`: do not authenticate. must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none", "private_key_jwt", "self_signed_tls_client_auth", "tls_client_auth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#revocation_endpoint_auth_method GatewayPluginOpenidConnect#revocation_endpoint_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#revocation_endpoint_auth_method GatewayPluginOpenidConnect#revocation_endpoint_auth_method}
   */
   readonly revocationEndpointAuthMethod?: string;
   /**
   * Designate token's parameter name for revocation. Default: "token"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#revocation_token_param_name GatewayPluginOpenidConnect#revocation_token_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#revocation_token_param_name GatewayPluginOpenidConnect#revocation_token_param_name}
   */
   readonly revocationTokenParamName?: string;
   /**
   * The claim that contains the roles. If multiple values are set, it means the claim is inside a nested object of the token payload. Default: ["roles"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#roles_claim GatewayPluginOpenidConnect#roles_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#roles_claim GatewayPluginOpenidConnect#roles_claim}
   */
   readonly rolesClaim?: string[];
   /**
   * The roles (`roles_claim` claim) required to be present in the access token (or introspection results) for successful authorization. This config parameter works in both **AND** / **OR** cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#roles_required GatewayPluginOpenidConnect#roles_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#roles_required GatewayPluginOpenidConnect#roles_required}
   */
   readonly rolesRequired?: string[];
   /**
   * Specifies whether to run this plugin on pre-flight (`OPTIONS`) requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#run_on_preflight GatewayPluginOpenidConnect#run_on_preflight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#run_on_preflight GatewayPluginOpenidConnect#run_on_preflight}
   */
   readonly runOnPreflight?: boolean | cdktf.IResolvable;
   /**
   * The scopes passed to the authorization and token endpoints. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#scopes GatewayPluginOpenidConnect#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#scopes GatewayPluginOpenidConnect#scopes}
   */
   readonly scopes?: string[];
   /**
   * The claim that contains the scopes. If multiple values are set, it means the claim is inside a nested object of the token payload. Default: ["scope"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#scopes_claim GatewayPluginOpenidConnect#scopes_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#scopes_claim GatewayPluginOpenidConnect#scopes_claim}
   */
   readonly scopesClaim?: string[];
   /**
   * The scopes (`scopes_claim` claim) required to be present in the access token (or introspection results) for successful authorization. This config parameter works in both **AND** / **OR** cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#scopes_required GatewayPluginOpenidConnect#scopes_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#scopes_required GatewayPluginOpenidConnect#scopes_required}
   */
   readonly scopesRequired?: string[];
   /**
   * Specify whether to use the user info endpoint to get additional claims for consumer mapping, credential mapping, authenticated groups, and upstream and downstream headers. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#search_user_info GatewayPluginOpenidConnect#search_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#search_user_info GatewayPluginOpenidConnect#search_user_info}
   */
   readonly searchUserInfo?: boolean | cdktf.IResolvable;
   /**
   * Limits how long the session can be renewed in seconds, until re-authentication is required. 0 disables the checks. Default: 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_absolute_timeout GatewayPluginOpenidConnect#session_absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_absolute_timeout GatewayPluginOpenidConnect#session_absolute_timeout}
   */
   readonly sessionAbsoluteTimeout?: number;
   /**
   * The session audience, which is the intended target application. For example `"my-application"`. Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_audience GatewayPluginOpenidConnect#session_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_audience GatewayPluginOpenidConnect#session_audience}
   */
   readonly sessionAudience?: string;
   /**
   * Bind the session to data acquired from the HTTP request or connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_bind GatewayPluginOpenidConnect#session_bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_bind GatewayPluginOpenidConnect#session_bind}
   */
   readonly sessionBind?: string[];
   /**
   * The session cookie Domain flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_cookie_domain GatewayPluginOpenidConnect#session_cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_cookie_domain GatewayPluginOpenidConnect#session_cookie_domain}
   */
   readonly sessionCookieDomain?: string;
   /**
   * Forbids JavaScript from accessing the cookie, for example, through the `Document.cookie` property. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_cookie_http_only GatewayPluginOpenidConnect#session_cookie_http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_cookie_http_only GatewayPluginOpenidConnect#session_cookie_http_only}
   */
   readonly sessionCookieHttpOnly?: boolean | cdktf.IResolvable;
   /**
   * The session cookie name. Default: "session"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_cookie_name GatewayPluginOpenidConnect#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_cookie_name GatewayPluginOpenidConnect#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
   * The session cookie Path flag. Default: "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_cookie_path GatewayPluginOpenidConnect#session_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_cookie_path GatewayPluginOpenidConnect#session_cookie_path}
   */
   readonly sessionCookiePath?: string;
   /**
   * Controls whether a cookie is sent with cross-origin requests, providing some protection against cross-site request forgery attacks. Default: "Lax"; must be one of ["Default", "Lax", "None", "Strict"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_cookie_same_site GatewayPluginOpenidConnect#session_cookie_same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_cookie_same_site GatewayPluginOpenidConnect#session_cookie_same_site}
   */
   readonly sessionCookieSameSite?: string;
   /**
   * Cookie is only sent to the server when a request is made with the https: scheme (except on localhost), and therefore is more resistant to man-in-the-middle attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_cookie_secure GatewayPluginOpenidConnect#session_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_cookie_secure GatewayPluginOpenidConnect#session_cookie_secure}
   */
   readonly sessionCookieSecure?: boolean | cdktf.IResolvable;
   /**
   * When set to `true`, audiences are forced to share the same subject. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_enforce_same_subject GatewayPluginOpenidConnect#session_enforce_same_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_enforce_same_subject GatewayPluginOpenidConnect#session_enforce_same_subject}
   */
   readonly sessionEnforceSameSubject?: boolean | cdktf.IResolvable;
   /**
   * When set to `true`, the storage key (session ID) is hashed for extra security. Hashing the storage key means it is impossible to decrypt data from the storage without a cookie. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_hash_storage_key GatewayPluginOpenidConnect#session_hash_storage_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_hash_storage_key GatewayPluginOpenidConnect#session_hash_storage_key}
   */
   readonly sessionHashStorageKey?: boolean | cdktf.IResolvable;
   /**
   * When set to `true`, the value of subject is hashed before being stored. Only applies when `session_store_metadata` is enabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_hash_subject GatewayPluginOpenidConnect#session_hash_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_hash_subject GatewayPluginOpenidConnect#session_hash_subject}
   */
   readonly sessionHashSubject?: boolean | cdktf.IResolvable;
   /**
   * Specifies how long the session can be inactive until it is considered invalid in seconds. 0 disables the checks and touching. Default: 900
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_idling_timeout GatewayPluginOpenidConnect#session_idling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_idling_timeout GatewayPluginOpenidConnect#session_idling_timeout}
   */
   readonly sessionIdlingTimeout?: number;
   /**
   * The memcached host. Default: "127.0.0.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_memcached_host GatewayPluginOpenidConnect#session_memcached_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_memcached_host GatewayPluginOpenidConnect#session_memcached_host}
   */
   readonly sessionMemcachedHost?: string;
   /**
   * The memcached port. Default: 11211
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_memcached_port GatewayPluginOpenidConnect#session_memcached_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_memcached_port GatewayPluginOpenidConnect#session_memcached_port}
   */
   readonly sessionMemcachedPort?: number;
   /**
   * The memcached session key prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_memcached_prefix GatewayPluginOpenidConnect#session_memcached_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_memcached_prefix GatewayPluginOpenidConnect#session_memcached_prefix}
   */
   readonly sessionMemcachedPrefix?: string;
   /**
   * The memcached unix socket path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_memcached_socket GatewayPluginOpenidConnect#session_memcached_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_memcached_socket GatewayPluginOpenidConnect#session_memcached_socket}
   */
   readonly sessionMemcachedSocket?: string;
   /**
   * Enables or disables persistent sessions. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_remember GatewayPluginOpenidConnect#session_remember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_remember GatewayPluginOpenidConnect#session_remember}
   */
   readonly sessionRemember?: boolean | cdktf.IResolvable;
   /**
   * Limits how long the persistent session can be renewed in seconds, until re-authentication is required. 0 disables the checks. Default: 2592000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_remember_absolute_timeout GatewayPluginOpenidConnect#session_remember_absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_remember_absolute_timeout GatewayPluginOpenidConnect#session_remember_absolute_timeout}
   */
   readonly sessionRememberAbsoluteTimeout?: number;
   /**
   * Persistent session cookie name. Use with the `remember` configuration parameter. Default: "remember"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_remember_cookie_name GatewayPluginOpenidConnect#session_remember_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_remember_cookie_name GatewayPluginOpenidConnect#session_remember_cookie_name}
   */
   readonly sessionRememberCookieName?: string;
   /**
   * Specifies how long the persistent session is considered valid in seconds. 0 disables the checks and rolling. Default: 604800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_remember_rolling_timeout GatewayPluginOpenidConnect#session_remember_rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_remember_rolling_timeout GatewayPluginOpenidConnect#session_remember_rolling_timeout}
   */
   readonly sessionRememberRollingTimeout?: number;
   /**
   * Set of headers to send to upstream, use id, audience, subject, timeout, idling-timeout, rolling-timeout, absolute-timeout. E.g. `[ "id", "timeout" ]` will set Session-Id and Session-Timeout request headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_request_headers GatewayPluginOpenidConnect#session_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_request_headers GatewayPluginOpenidConnect#session_request_headers}
   */
   readonly sessionRequestHeaders?: string[];
   /**
   * Set of headers to send to downstream, use id, audience, subject, timeout, idling-timeout, rolling-timeout, absolute-timeout. E.g. `[ "id", "timeout" ]` will set Session-Id and Session-Timeout response headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_response_headers GatewayPluginOpenidConnect#session_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_response_headers GatewayPluginOpenidConnect#session_response_headers}
   */
   readonly sessionResponseHeaders?: string[];
   /**
   * Specifies how long the session can be used in seconds until it needs to be renewed. 0 disables the checks and rolling. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_rolling_timeout GatewayPluginOpenidConnect#session_rolling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_rolling_timeout GatewayPluginOpenidConnect#session_rolling_timeout}
   */
   readonly sessionRollingTimeout?: number;
   /**
   * The session secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_secret GatewayPluginOpenidConnect#session_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_secret GatewayPluginOpenidConnect#session_secret}
   */
   readonly sessionSecret?: string;
   /**
   * The session storage for session data: - `cookie`: stores session data with the session cookie (the session cannot be invalidated or revoked without changing session secret, but is stateless, and doesn't require a database) - `memcache`: stores session data in memcached - `redis`: stores session data in Redis. Default: "cookie"; must be one of ["cookie", "memcache", "memcached", "redis"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_storage GatewayPluginOpenidConnect#session_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_storage GatewayPluginOpenidConnect#session_storage}
   */
   readonly sessionStorage?: string;
   /**
   * Configures whether or not session metadata should be stored. This metadata includes information about the active sessions for a specific audience belonging to a specific subject. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#session_store_metadata GatewayPluginOpenidConnect#session_store_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#session_store_metadata GatewayPluginOpenidConnect#session_store_metadata}
   */
   readonly sessionStoreMetadata?: boolean | cdktf.IResolvable;
   /**
   * Verify identity provider server certificate. If set to `true`, the plugin uses the CA certificate set in the `kong.conf` config parameter `lua_ssl_trusted_certificate`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#ssl_verify GatewayPluginOpenidConnect#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#ssl_verify GatewayPluginOpenidConnect#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Network IO timeout in milliseconds. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#timeout GatewayPluginOpenidConnect#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#timeout GatewayPluginOpenidConnect#timeout}
   */
   readonly timeout?: number;
   /**
   * ID of the Certificate entity representing the client certificate to use for mTLS client authentication for connections between Kong and the Auth Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#tls_client_auth_cert_id GatewayPluginOpenidConnect#tls_client_auth_cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#tls_client_auth_cert_id GatewayPluginOpenidConnect#tls_client_auth_cert_id}
   */
   readonly tlsClientAuthCertId?: string;
   /**
   * Verify identity provider server certificate during mTLS client authentication. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#tls_client_auth_ssl_verify GatewayPluginOpenidConnect#tls_client_auth_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#tls_client_auth_ssl_verify GatewayPluginOpenidConnect#tls_client_auth_ssl_verify}
   */
   readonly tlsClientAuthSslVerify?: boolean | cdktf.IResolvable;
   /**
   * Include the scope in the token cache key, so token with different scopes are considered diffrent tokens. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_cache_key_include_scope GatewayPluginOpenidConnect#token_cache_key_include_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_cache_key_include_scope GatewayPluginOpenidConnect#token_cache_key_include_scope}
   */
   readonly tokenCacheKeyIncludeScope?: boolean | cdktf.IResolvable;
   /**
   * The token endpoint. If set it overrides the value in `token_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_endpoint GatewayPluginOpenidConnect#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_endpoint GatewayPluginOpenidConnect#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * The token endpoint authentication method: `client_secret_basic`, `client_secret_post`, `client_secret_jwt`, `private_key_jwt`, `tls_client_auth`, `self_signed_tls_client_auth`, or `none`: do not authenticate. must be one of ["client_secret_basic", "client_secret_jwt", "client_secret_post", "none", "private_key_jwt", "self_signed_tls_client_auth", "tls_client_auth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_endpoint_auth_method GatewayPluginOpenidConnect#token_endpoint_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_endpoint_auth_method GatewayPluginOpenidConnect#token_endpoint_auth_method}
   */
   readonly tokenEndpointAuthMethod?: string;
   /**
   * The token exchange endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_exchange_endpoint GatewayPluginOpenidConnect#token_exchange_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_exchange_endpoint GatewayPluginOpenidConnect#token_exchange_endpoint}
   */
   readonly tokenExchangeEndpoint?: string;
   /**
   * Extra headers passed from the client to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_headers_client GatewayPluginOpenidConnect#token_headers_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_headers_client GatewayPluginOpenidConnect#token_headers_client}
   */
   readonly tokenHeadersClient?: string[];
   /**
   * Enable the sending of the token endpoint response headers only with certain grants: - `password`: with OAuth password grant - `client_credentials`: with OAuth client credentials grant - `authorization_code`: with authorization code flow - `refresh_token` with refresh token grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_headers_grants GatewayPluginOpenidConnect#token_headers_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_headers_grants GatewayPluginOpenidConnect#token_headers_grants}
   */
   readonly tokenHeadersGrants?: string[];
   /**
   * Extra header names passed to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_headers_names GatewayPluginOpenidConnect#token_headers_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_headers_names GatewayPluginOpenidConnect#token_headers_names}
   */
   readonly tokenHeadersNames?: string[];
   /**
   * Add a prefix to the token endpoint response headers before forwarding them to the downstream client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_headers_prefix GatewayPluginOpenidConnect#token_headers_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_headers_prefix GatewayPluginOpenidConnect#token_headers_prefix}
   */
   readonly tokenHeadersPrefix?: string;
   /**
   * The names of token endpoint response headers to forward to the downstream client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_headers_replay GatewayPluginOpenidConnect#token_headers_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_headers_replay GatewayPluginOpenidConnect#token_headers_replay}
   */
   readonly tokenHeadersReplay?: string[];
   /**
   * Extra header values passed to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_headers_values GatewayPluginOpenidConnect#token_headers_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_headers_values GatewayPluginOpenidConnect#token_headers_values}
   */
   readonly tokenHeadersValues?: string[];
   /**
   * Pass extra arguments from the client to the OpenID-Connect plugin. If arguments exist, the client can pass them using: - Query parameters - Request Body - Request Header  This parameter can be used with `scope` values, like this:  `config.token_post_args_client=scope`  In this case, the token would take the `scope` value from the query parameter or from the request body or from the header and send it to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_post_args_client GatewayPluginOpenidConnect#token_post_args_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_post_args_client GatewayPluginOpenidConnect#token_post_args_client}
   */
   readonly tokenPostArgsClient?: string[];
   /**
   * Extra post argument names passed to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_post_args_names GatewayPluginOpenidConnect#token_post_args_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_post_args_names GatewayPluginOpenidConnect#token_post_args_names}
   */
   readonly tokenPostArgsNames?: string[];
   /**
   * Extra post argument values passed to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#token_post_args_values GatewayPluginOpenidConnect#token_post_args_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#token_post_args_values GatewayPluginOpenidConnect#token_post_args_values}
   */
   readonly tokenPostArgsValues?: string[];
   /**
   * Destroy any active session for the unauthorized requests. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#unauthorized_destroy_session GatewayPluginOpenidConnect#unauthorized_destroy_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#unauthorized_destroy_session GatewayPluginOpenidConnect#unauthorized_destroy_session}
   */
   readonly unauthorizedDestroySession?: boolean | cdktf.IResolvable;
   /**
   * The error message for the unauthorized requests (when not using the redirection). Default: "Unauthorized"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#unauthorized_error_message GatewayPluginOpenidConnect#unauthorized_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#unauthorized_error_message GatewayPluginOpenidConnect#unauthorized_error_message}
   */
   readonly unauthorizedErrorMessage?: string;
   /**
   * Where to redirect the client on unauthorized requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#unauthorized_redirect_uri GatewayPluginOpenidConnect#unauthorized_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#unauthorized_redirect_uri GatewayPluginOpenidConnect#unauthorized_redirect_uri}
   */
   readonly unauthorizedRedirectUri?: string[];
   /**
   * Where to redirect the client when unexpected errors happen with the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#unexpected_redirect_uri GatewayPluginOpenidConnect#unexpected_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#unexpected_redirect_uri GatewayPluginOpenidConnect#unexpected_redirect_uri}
   */
   readonly unexpectedRedirectUri?: string[];
   /**
   * The upstream access token header. Default: "authorization:bearer"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_access_token_header GatewayPluginOpenidConnect#upstream_access_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_access_token_header GatewayPluginOpenidConnect#upstream_access_token_header}
   */
   readonly upstreamAccessTokenHeader?: string;
   /**
   * The upstream access token JWK header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_access_token_jwk_header GatewayPluginOpenidConnect#upstream_access_token_jwk_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_access_token_jwk_header GatewayPluginOpenidConnect#upstream_access_token_jwk_header}
   */
   readonly upstreamAccessTokenJwkHeader?: string;
   /**
   * The upstream header claims. Only top level claims are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_headers_claims GatewayPluginOpenidConnect#upstream_headers_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_headers_claims GatewayPluginOpenidConnect#upstream_headers_claims}
   */
   readonly upstreamHeadersClaims?: string[];
   /**
   * The upstream header names for the claim values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_headers_names GatewayPluginOpenidConnect#upstream_headers_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_headers_names GatewayPluginOpenidConnect#upstream_headers_names}
   */
   readonly upstreamHeadersNames?: string[];
   /**
   * The upstream id token header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_id_token_header GatewayPluginOpenidConnect#upstream_id_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_id_token_header GatewayPluginOpenidConnect#upstream_id_token_header}
   */
   readonly upstreamIdTokenHeader?: string;
   /**
   * The upstream id token JWK header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_id_token_jwk_header GatewayPluginOpenidConnect#upstream_id_token_jwk_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_id_token_jwk_header GatewayPluginOpenidConnect#upstream_id_token_jwk_header}
   */
   readonly upstreamIdTokenJwkHeader?: string;
   /**
   * The upstream introspection header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_introspection_header GatewayPluginOpenidConnect#upstream_introspection_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_introspection_header GatewayPluginOpenidConnect#upstream_introspection_header}
   */
   readonly upstreamIntrospectionHeader?: string;
   /**
   * The upstream introspection JWT header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_introspection_jwt_header GatewayPluginOpenidConnect#upstream_introspection_jwt_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_introspection_jwt_header GatewayPluginOpenidConnect#upstream_introspection_jwt_header}
   */
   readonly upstreamIntrospectionJwtHeader?: string;
   /**
   * The upstream refresh token header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_refresh_token_header GatewayPluginOpenidConnect#upstream_refresh_token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_refresh_token_header GatewayPluginOpenidConnect#upstream_refresh_token_header}
   */
   readonly upstreamRefreshTokenHeader?: string;
   /**
   * The upstream session id header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_session_id_header GatewayPluginOpenidConnect#upstream_session_id_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_session_id_header GatewayPluginOpenidConnect#upstream_session_id_header}
   */
   readonly upstreamSessionIdHeader?: string;
   /**
   * The upstream user info header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_user_info_header GatewayPluginOpenidConnect#upstream_user_info_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_user_info_header GatewayPluginOpenidConnect#upstream_user_info_header}
   */
   readonly upstreamUserInfoHeader?: string;
   /**
   * The upstream user info JWT header (in case the user info returns a JWT response).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#upstream_user_info_jwt_header GatewayPluginOpenidConnect#upstream_user_info_jwt_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#upstream_user_info_jwt_header GatewayPluginOpenidConnect#upstream_user_info_jwt_header}
   */
   readonly upstreamUserInfoJwtHeader?: string;
   /**
   * The value of `Accept` header for user info requests: - `application/json`: user info response as JSON - `application/jwt`: user info response as JWT (from the obsolete IETF draft document). Default: "application/json"; must be one of ["application/json", "application/jwt"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_accept GatewayPluginOpenidConnect#userinfo_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_accept GatewayPluginOpenidConnect#userinfo_accept}
   */
   readonly userinfoAccept?: string;
   /**
   * The user info endpoint. If set it overrides the value in `userinfo_endpoint` returned by the discovery endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_endpoint GatewayPluginOpenidConnect#userinfo_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_endpoint GatewayPluginOpenidConnect#userinfo_endpoint}
   */
   readonly userinfoEndpoint?: string;
   /**
   * Extra headers passed from the client to the user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_headers_client GatewayPluginOpenidConnect#userinfo_headers_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_headers_client GatewayPluginOpenidConnect#userinfo_headers_client}
   */
   readonly userinfoHeadersClient?: string[];
   /**
   * Extra header names passed to the user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_headers_names GatewayPluginOpenidConnect#userinfo_headers_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_headers_names GatewayPluginOpenidConnect#userinfo_headers_names}
   */
   readonly userinfoHeadersNames?: string[];
   /**
   * Extra header values passed to the user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_headers_values GatewayPluginOpenidConnect#userinfo_headers_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_headers_values GatewayPluginOpenidConnect#userinfo_headers_values}
   */
   readonly userinfoHeadersValues?: string[];
   /**
   * Extra query arguments passed from the client to the user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_query_args_client GatewayPluginOpenidConnect#userinfo_query_args_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_query_args_client GatewayPluginOpenidConnect#userinfo_query_args_client}
   */
   readonly userinfoQueryArgsClient?: string[];
   /**
   * Extra query argument names passed to the user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_query_args_names GatewayPluginOpenidConnect#userinfo_query_args_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_query_args_names GatewayPluginOpenidConnect#userinfo_query_args_names}
   */
   readonly userinfoQueryArgsNames?: string[];
   /**
   * Extra query argument values passed to the user info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#userinfo_query_args_values GatewayPluginOpenidConnect#userinfo_query_args_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#userinfo_query_args_values GatewayPluginOpenidConnect#userinfo_query_args_values}
   */
   readonly userinfoQueryArgsValues?: string[];
   /**
   * If the plugin uses a pseudo issuer. When set to true, the plugin will not discover the configuration from the issuer URL specified with `config.issuer`. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#using_pseudo_issuer GatewayPluginOpenidConnect#using_pseudo_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#using_pseudo_issuer GatewayPluginOpenidConnect#using_pseudo_issuer}
   */
   readonly usingPseudoIssuer?: boolean | cdktf.IResolvable;
   /**
   * Verify tokens for standard claims. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#verify_claims GatewayPluginOpenidConnect#verify_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#verify_claims GatewayPluginOpenidConnect#verify_claims}
   */
   readonly verifyClaims?: boolean | cdktf.IResolvable;
   /**
   * Verify nonce on authorization code flow. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#verify_nonce GatewayPluginOpenidConnect#verify_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#verify_nonce GatewayPluginOpenidConnect#verify_nonce}
   */
   readonly verifyNonce?: boolean | cdktf.IResolvable;
   /**
   * Verify plugin configuration against discovery. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#verify_parameters GatewayPluginOpenidConnect#verify_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#verify_parameters GatewayPluginOpenidConnect#verify_parameters}
   */
   readonly verifyParameters?: boolean | cdktf.IResolvable;
   /**
   * Verify signature of tokens. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#verify_signature GatewayPluginOpenidConnect#verify_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#verify_signature GatewayPluginOpenidConnect#verify_signature}
   */
   readonly verifySignature?: boolean | cdktf.IResolvable;
 }
@@ -11166,7 +11166,7 @@ export class GatewayPluginOpenidConnectConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginOpenidConnectOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#access GatewayPluginOpenidConnect#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#access GatewayPluginOpenidConnect#access}
   */
   readonly access?: string[];
 }
@@ -11260,7 +11260,7 @@ export class GatewayPluginOpenidConnectOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginOpenidConnectOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#access GatewayPluginOpenidConnect#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#access GatewayPluginOpenidConnect#access}
   */
   readonly access?: string[];
 }
@@ -11354,11 +11354,11 @@ export class GatewayPluginOpenidConnectOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginOpenidConnectOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#after GatewayPluginOpenidConnect#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#after GatewayPluginOpenidConnect#after}
   */
   readonly after?: GatewayPluginOpenidConnectOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#before GatewayPluginOpenidConnect#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#before GatewayPluginOpenidConnect#before}
   */
   readonly before?: GatewayPluginOpenidConnectOrderingBefore;
 }
@@ -11483,7 +11483,7 @@ export interface GatewayPluginOpenidConnectPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11492,11 +11492,11 @@ export interface GatewayPluginOpenidConnectPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#name GatewayPluginOpenidConnect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#name GatewayPluginOpenidConnect#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#path GatewayPluginOpenidConnect#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#path GatewayPluginOpenidConnect#path}
   */
   readonly path?: string;
 }
@@ -11670,7 +11670,7 @@ export class GatewayPluginOpenidConnectPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginOpenidConnectRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11767,7 +11767,7 @@ export class GatewayPluginOpenidConnectRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginOpenidConnectService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#id GatewayPluginOpenidConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11864,7 +11864,7 @@ export class GatewayPluginOpenidConnectServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect konnect_gateway_plugin_openid_connect}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect konnect_gateway_plugin_openid_connect}
 */
 export class GatewayPluginOpenidConnect extends cdktf.TerraformResource {
 
@@ -11880,7 +11880,7 @@ export class GatewayPluginOpenidConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginOpenidConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginOpenidConnect to import
-  * @param importFromId The id of the existing GatewayPluginOpenidConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginOpenidConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginOpenidConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11892,7 +11892,7 @@ export class GatewayPluginOpenidConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_openid_connect konnect_gateway_plugin_openid_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_openid_connect konnect_gateway_plugin_openid_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11903,8 +11903,8 @@ export class GatewayPluginOpenidConnect extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_openid_connect',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

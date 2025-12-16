@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginAiLlmAsJudgeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#config GatewayPluginAiLlmAsJudge#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#config GatewayPluginAiLlmAsJudge#config}
   */
   readonly config: GatewayPluginAiLlmAsJudgeConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#consumer GatewayPluginAiLlmAsJudge#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#consumer GatewayPluginAiLlmAsJudge#consumer}
   */
   readonly consumer?: GatewayPluginAiLlmAsJudgeConsumer;
   /**
   * If set, the plugin will activate only for requests where the specified consumer group has been authenticated. (Note that some plugins can not be restricted to consumers groups this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#consumer_group GatewayPluginAiLlmAsJudge#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#consumer_group GatewayPluginAiLlmAsJudge#consumer_group}
   */
   readonly consumerGroup?: GatewayPluginAiLlmAsJudgeConsumerGroup;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#control_plane_id GatewayPluginAiLlmAsJudge#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#control_plane_id GatewayPluginAiLlmAsJudge#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#created_at GatewayPluginAiLlmAsJudge#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#created_at GatewayPluginAiLlmAsJudge#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#enabled GatewayPluginAiLlmAsJudge#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#enabled GatewayPluginAiLlmAsJudge#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,47 +53,47 @@ export interface GatewayPluginAiLlmAsJudgeConfig extends cdktf.TerraformMetaArgu
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#instance_name GatewayPluginAiLlmAsJudge#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#instance_name GatewayPluginAiLlmAsJudge#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#ordering GatewayPluginAiLlmAsJudge#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#ordering GatewayPluginAiLlmAsJudge#ordering}
   */
   readonly ordering?: GatewayPluginAiLlmAsJudgeOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#partials GatewayPluginAiLlmAsJudge#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#partials GatewayPluginAiLlmAsJudge#partials}
   */
   readonly partials?: GatewayPluginAiLlmAsJudgePartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#protocols GatewayPluginAiLlmAsJudge#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#protocols GatewayPluginAiLlmAsJudge#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#route GatewayPluginAiLlmAsJudge#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#route GatewayPluginAiLlmAsJudge#route}
   */
   readonly route?: GatewayPluginAiLlmAsJudgeRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#service GatewayPluginAiLlmAsJudge#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#service GatewayPluginAiLlmAsJudge#service}
   */
   readonly service?: GatewayPluginAiLlmAsJudgeService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#tags GatewayPluginAiLlmAsJudge#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#tags GatewayPluginAiLlmAsJudge#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#updated_at GatewayPluginAiLlmAsJudge#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#updated_at GatewayPluginAiLlmAsJudge#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -101,85 +101,85 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmAuth {
   /**
   * If enabled, the authorization header or parameter can be overridden in the request by the value configured in the plugin. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#allow_override GatewayPluginAiLlmAsJudge#allow_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#allow_override GatewayPluginAiLlmAsJudge#allow_override}
   */
   readonly allowOverride?: boolean | cdktf.IResolvable;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_ACCESS_KEY_ID environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#aws_access_key_id GatewayPluginAiLlmAsJudge#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#aws_access_key_id GatewayPluginAiLlmAsJudge#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * Set this if you are using an AWS provider (Bedrock) and you are authenticating using static IAM User credentials. Setting this will override the AWS_SECRET_ACCESS_KEY environment variable for this plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#aws_secret_access_key GatewayPluginAiLlmAsJudge#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#aws_secret_access_key GatewayPluginAiLlmAsJudge#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_client_id GatewayPluginAiLlmAsJudge#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_client_id GatewayPluginAiLlmAsJudge#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_client_secret GatewayPluginAiLlmAsJudge#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_client_secret GatewayPluginAiLlmAsJudge#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * If azure_use_managed_identity is set to true, and you need to use a different user-assigned identity for this LLM instance, set the tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_tenant_id GatewayPluginAiLlmAsJudge#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_tenant_id GatewayPluginAiLlmAsJudge#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Set true to use the Azure Cloud Managed Identity (or user-assigned identity) to authenticate with Azure-provider models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_use_managed_identity GatewayPluginAiLlmAsJudge#azure_use_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_use_managed_identity GatewayPluginAiLlmAsJudge#azure_use_managed_identity}
   */
   readonly azureUseManagedIdentity?: boolean | cdktf.IResolvable;
   /**
   * Set this field to the full JSON of the GCP service account to authenticate, if required. If null (and gcp_use_service_account is true), Kong will attempt to read from environment variable `GCP_SERVICE_ACCOUNT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#gcp_service_account_json GatewayPluginAiLlmAsJudge#gcp_service_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#gcp_service_account_json GatewayPluginAiLlmAsJudge#gcp_service_account_json}
   */
   readonly gcpServiceAccountJson?: string;
   /**
   * Use service account auth for GCP-based providers and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#gcp_use_service_account GatewayPluginAiLlmAsJudge#gcp_use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#gcp_use_service_account GatewayPluginAiLlmAsJudge#gcp_use_service_account}
   */
   readonly gcpUseServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * If AI model requires authentication via Authorization or API key header, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#header_name GatewayPluginAiLlmAsJudge#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#header_name GatewayPluginAiLlmAsJudge#header_name}
   */
   readonly headerName?: string;
   /**
   * Specify the full auth header value for 'header_name', for example 'Bearer key' or just 'key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#header_value GatewayPluginAiLlmAsJudge#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#header_value GatewayPluginAiLlmAsJudge#header_value}
   */
   readonly headerValue?: string;
   /**
   * Specify whether the 'param_name' and 'param_value' options go in a query string, or the POST form/JSON body. must be one of ["body", "query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#param_location GatewayPluginAiLlmAsJudge#param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#param_location GatewayPluginAiLlmAsJudge#param_location}
   */
   readonly paramLocation?: string;
   /**
   * If AI model requires authentication via query parameter, specify its name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#param_name GatewayPluginAiLlmAsJudge#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#param_name GatewayPluginAiLlmAsJudge#param_name}
   */
   readonly paramName?: string;
   /**
   * Specify the full parameter value for 'param_name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#param_value GatewayPluginAiLlmAsJudge#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#param_value GatewayPluginAiLlmAsJudge#param_value}
   */
   readonly paramValue?: string;
 }
@@ -652,13 +652,13 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmLogging {
   /**
   * If enabled, will log the request and response body into the Kong log plugin(s) output. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#log_payloads GatewayPluginAiLlmAsJudge#log_payloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#log_payloads GatewayPluginAiLlmAsJudge#log_payloads}
   */
   readonly logPayloads?: boolean | cdktf.IResolvable;
   /**
   * If enabled and supported by the driver, will add model usage and token metrics into the Kong log plugin(s) output. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#log_statistics GatewayPluginAiLlmAsJudge#log_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#log_statistics GatewayPluginAiLlmAsJudge#log_statistics}
   */
   readonly logStatistics?: boolean | cdktf.IResolvable;
 }
@@ -783,37 +783,37 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsBedrock {
   /**
   * If using AWS providers (Bedrock) you can assume a different role after authentication with the current IAM context is successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#aws_assume_role_arn GatewayPluginAiLlmAsJudge#aws_assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#aws_assume_role_arn GatewayPluginAiLlmAsJudge#aws_assume_role_arn}
   */
   readonly awsAssumeRoleArn?: string;
   /**
   * If using AWS providers (Bedrock) you can override the `AWS_REGION` environment variable by setting this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#aws_region GatewayPluginAiLlmAsJudge#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#aws_region GatewayPluginAiLlmAsJudge#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * If using AWS providers (Bedrock), set the identifier of the assumed role session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#aws_role_session_name GatewayPluginAiLlmAsJudge#aws_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#aws_role_session_name GatewayPluginAiLlmAsJudge#aws_role_session_name}
   */
   readonly awsRoleSessionName?: string;
   /**
   * If using AWS providers (Bedrock), override the STS endpoint URL when assuming a different role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#aws_sts_endpoint_url GatewayPluginAiLlmAsJudge#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#aws_sts_endpoint_url GatewayPluginAiLlmAsJudge#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
   * If using AWS providers (Bedrock), set to true to normalize the embeddings. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#embeddings_normalize GatewayPluginAiLlmAsJudge#embeddings_normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#embeddings_normalize GatewayPluginAiLlmAsJudge#embeddings_normalize}
   */
   readonly embeddingsNormalize?: boolean | cdktf.IResolvable;
   /**
   * Force the client's performance configuration 'latency' for all requests. Leave empty to let the consumer select the performance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#performance_config_latency GatewayPluginAiLlmAsJudge#performance_config_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#performance_config_latency GatewayPluginAiLlmAsJudge#performance_config_latency}
   */
   readonly performanceConfigLatency?: string;
 }
@@ -1054,13 +1054,13 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsCohere {
   /**
   * The purpose of the input text to calculate embedding vectors. Default: "classification"; must be one of ["classification", "clustering", "image", "search_document", "search_query"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#embedding_input_type GatewayPluginAiLlmAsJudge#embedding_input_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#embedding_input_type GatewayPluginAiLlmAsJudge#embedding_input_type}
   */
   readonly embeddingInputType?: string;
   /**
   * Wait for the model if it is not ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#wait_for_model GatewayPluginAiLlmAsJudge#wait_for_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#wait_for_model GatewayPluginAiLlmAsJudge#wait_for_model}
   */
   readonly waitForModel?: boolean | cdktf.IResolvable;
 }
@@ -1185,25 +1185,25 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsGemini {
   /**
   * If running Gemini on Vertex, specify the regional API endpoint (hostname only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#api_endpoint GatewayPluginAiLlmAsJudge#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#api_endpoint GatewayPluginAiLlmAsJudge#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * If running Gemini on Vertex Model Garden, specify the endpoint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#endpoint_id GatewayPluginAiLlmAsJudge#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#endpoint_id GatewayPluginAiLlmAsJudge#endpoint_id}
   */
   readonly endpointId?: string;
   /**
   * If running Gemini on Vertex, specify the location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#location_id GatewayPluginAiLlmAsJudge#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#location_id GatewayPluginAiLlmAsJudge#location_id}
   */
   readonly locationId?: string;
   /**
   * If running Gemini on Vertex, specify the project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#project_id GatewayPluginAiLlmAsJudge#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#project_id GatewayPluginAiLlmAsJudge#project_id}
   */
   readonly projectId?: string;
 }
@@ -1386,13 +1386,13 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsHuggingface {
   /**
   * Use the cache layer on the inference API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#use_cache GatewayPluginAiLlmAsJudge#use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#use_cache GatewayPluginAiLlmAsJudge#use_cache}
   */
   readonly useCache?: boolean | cdktf.IResolvable;
   /**
   * Wait for the model if it is not ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#wait_for_model GatewayPluginAiLlmAsJudge#wait_for_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#wait_for_model GatewayPluginAiLlmAsJudge#wait_for_model}
   */
   readonly waitForModel?: boolean | cdktf.IResolvable;
 }
@@ -1517,107 +1517,107 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmModelOptions {
   /**
   * Defines the schema/API version, if using Anthropic provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#anthropic_version GatewayPluginAiLlmAsJudge#anthropic_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#anthropic_version GatewayPluginAiLlmAsJudge#anthropic_version}
   */
   readonly anthropicVersion?: string;
   /**
   * 'api-version' for Azure OpenAI instances. Default: "2023-05-15"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_api_version GatewayPluginAiLlmAsJudge#azure_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_api_version GatewayPluginAiLlmAsJudge#azure_api_version}
   */
   readonly azureApiVersion?: string;
   /**
   * Deployment ID for Azure OpenAI instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_deployment_id GatewayPluginAiLlmAsJudge#azure_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_deployment_id GatewayPluginAiLlmAsJudge#azure_deployment_id}
   */
   readonly azureDeploymentId?: string;
   /**
   * Instance name for Azure OpenAI hosted models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#azure_instance GatewayPluginAiLlmAsJudge#azure_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#azure_instance GatewayPluginAiLlmAsJudge#azure_instance}
   */
   readonly azureInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#bedrock GatewayPluginAiLlmAsJudge#bedrock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#bedrock GatewayPluginAiLlmAsJudge#bedrock}
   */
   readonly bedrock?: GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsBedrock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#cohere GatewayPluginAiLlmAsJudge#cohere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#cohere GatewayPluginAiLlmAsJudge#cohere}
   */
   readonly cohere?: GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsCohere;
   /**
   * If using embeddings models, set the number of dimensions to generate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#embeddings_dimensions GatewayPluginAiLlmAsJudge#embeddings_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#embeddings_dimensions GatewayPluginAiLlmAsJudge#embeddings_dimensions}
   */
   readonly embeddingsDimensions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#gemini GatewayPluginAiLlmAsJudge#gemini}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#gemini GatewayPluginAiLlmAsJudge#gemini}
   */
   readonly gemini?: GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsGemini;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#huggingface GatewayPluginAiLlmAsJudge#huggingface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#huggingface GatewayPluginAiLlmAsJudge#huggingface}
   */
   readonly huggingface?: GatewayPluginAiLlmAsJudgeConfigLlmModelOptionsHuggingface;
   /**
   * Defines the cost per 1M tokens in your prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#input_cost GatewayPluginAiLlmAsJudge#input_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#input_cost GatewayPluginAiLlmAsJudge#input_cost}
   */
   readonly inputCost?: number;
   /**
   * If using llama2 provider, select the upstream message format. must be one of ["ollama", "openai", "raw"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#llama2_format GatewayPluginAiLlmAsJudge#llama2_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#llama2_format GatewayPluginAiLlmAsJudge#llama2_format}
   */
   readonly llama2Format?: string;
   /**
   * Defines the max_tokens, if using chat or completion models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#max_tokens GatewayPluginAiLlmAsJudge#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#max_tokens GatewayPluginAiLlmAsJudge#max_tokens}
   */
   readonly maxTokens?: number;
   /**
   * If using mistral provider, select the upstream message format. must be one of ["ollama", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#mistral_format GatewayPluginAiLlmAsJudge#mistral_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#mistral_format GatewayPluginAiLlmAsJudge#mistral_format}
   */
   readonly mistralFormat?: string;
   /**
   * Defines the cost per 1M tokens in the output of the AI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#output_cost GatewayPluginAiLlmAsJudge#output_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#output_cost GatewayPluginAiLlmAsJudge#output_cost}
   */
   readonly outputCost?: number;
   /**
   * Defines the matching temperature, if using chat or completion models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#temperature GatewayPluginAiLlmAsJudge#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#temperature GatewayPluginAiLlmAsJudge#temperature}
   */
   readonly temperature?: number;
   /**
   * Defines the top-k most likely tokens, if supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#top_k GatewayPluginAiLlmAsJudge#top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#top_k GatewayPluginAiLlmAsJudge#top_k}
   */
   readonly topK?: number;
   /**
   * Defines the top-p probability mass, if supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#top_p GatewayPluginAiLlmAsJudge#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#top_p GatewayPluginAiLlmAsJudge#top_p}
   */
   readonly topP?: number;
   /**
   * Manually specify or override the AI operation path, used when e.g. using the 'preserve' route_type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#upstream_path GatewayPluginAiLlmAsJudge#upstream_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#upstream_path GatewayPluginAiLlmAsJudge#upstream_path}
   */
   readonly upstreamPath?: string;
   /**
   * Manually specify or override the full URL to the AI operation endpoints, when calling (self-)hosted models, or for running via a private endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#upstream_url GatewayPluginAiLlmAsJudge#upstream_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#upstream_url GatewayPluginAiLlmAsJudge#upstream_url}
   */
   readonly upstreamUrl?: string;
 }
@@ -2235,19 +2235,19 @@ export interface GatewayPluginAiLlmAsJudgeConfigLlmModel {
   /**
   * Model name to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#name GatewayPluginAiLlmAsJudge#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#name GatewayPluginAiLlmAsJudge#name}
   */
   readonly name?: string;
   /**
   * Key/value settings for the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#options GatewayPluginAiLlmAsJudge#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#options GatewayPluginAiLlmAsJudge#options}
   */
   readonly options?: GatewayPluginAiLlmAsJudgeConfigLlmModelOptions;
   /**
   * AI provider request format - Kong translates requests to and from the specified backend compatible formats. must be one of ["anthropic", "azure", "bedrock", "cohere", "gemini", "huggingface", "llama2", "mistral", "openai"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#provider GatewayPluginAiLlmAsJudge#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#provider GatewayPluginAiLlmAsJudge#provider}
   */
   readonly provider: string;
 }
@@ -2396,21 +2396,21 @@ export class GatewayPluginAiLlmAsJudgeConfigLlmModelOutputReference extends cdkt
 }
 export interface GatewayPluginAiLlmAsJudgeConfigLlm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#auth GatewayPluginAiLlmAsJudge#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#auth GatewayPluginAiLlmAsJudge#auth}
   */
   readonly auth?: GatewayPluginAiLlmAsJudgeConfigLlmAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#logging GatewayPluginAiLlmAsJudge#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#logging GatewayPluginAiLlmAsJudge#logging}
   */
   readonly logging?: GatewayPluginAiLlmAsJudgeConfigLlmLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#model GatewayPluginAiLlmAsJudge#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#model GatewayPluginAiLlmAsJudge#model}
   */
   readonly model: GatewayPluginAiLlmAsJudgeConfigLlmModel;
   /**
   * The model's operation implementation, for this provider. must be one of ["audio/v1/audio/speech", "audio/v1/audio/transcriptions", "audio/v1/audio/translations", "image/v1/images/edits", "image/v1/images/generations", "llm/v1/assistants", "llm/v1/batches", "llm/v1/chat", "llm/v1/completions", "llm/v1/embeddings", "llm/v1/files", "llm/v1/responses", "preserve", "realtime/v1/realtime"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#route_type GatewayPluginAiLlmAsJudge#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#route_type GatewayPluginAiLlmAsJudge#route_type}
   */
   readonly routeType: string;
 }
@@ -2587,77 +2587,77 @@ export interface GatewayPluginAiLlmAsJudgeConfigA {
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#http_proxy_host GatewayPluginAiLlmAsJudge#http_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#http_proxy_host GatewayPluginAiLlmAsJudge#http_proxy_host}
   */
   readonly httpProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#http_proxy_port GatewayPluginAiLlmAsJudge#http_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#http_proxy_port GatewayPluginAiLlmAsJudge#http_proxy_port}
   */
   readonly httpProxyPort?: number;
   /**
   * Timeout in milliseconds for the AI upstream service. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#http_timeout GatewayPluginAiLlmAsJudge#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#http_timeout GatewayPluginAiLlmAsJudge#http_timeout}
   */
   readonly httpTimeout?: number;
   /**
   * A string representing a host name, such as example.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#https_proxy_host GatewayPluginAiLlmAsJudge#https_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#https_proxy_host GatewayPluginAiLlmAsJudge#https_proxy_host}
   */
   readonly httpsProxyHost?: string;
   /**
   * An integer representing a port number between 0 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#https_proxy_port GatewayPluginAiLlmAsJudge#https_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#https_proxy_port GatewayPluginAiLlmAsJudge#https_proxy_port}
   */
   readonly httpsProxyPort?: number;
   /**
   * Verify the TLS certificate of the AI upstream service. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#https_verify GatewayPluginAiLlmAsJudge#https_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#https_verify GatewayPluginAiLlmAsJudge#https_verify}
   */
   readonly httpsVerify?: boolean | cdktf.IResolvable;
   /**
   * Ignore and discard any assistant prompts when evaluating the request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#ignore_assistant_prompts GatewayPluginAiLlmAsJudge#ignore_assistant_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#ignore_assistant_prompts GatewayPluginAiLlmAsJudge#ignore_assistant_prompts}
   */
   readonly ignoreAssistantPrompts?: boolean | cdktf.IResolvable;
   /**
   * Ignore and discard any system prompts when evaluating the request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#ignore_system_prompts GatewayPluginAiLlmAsJudge#ignore_system_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#ignore_system_prompts GatewayPluginAiLlmAsJudge#ignore_system_prompts}
   */
   readonly ignoreSystemPrompts?: boolean | cdktf.IResolvable;
   /**
   * Ignore and discard any tool prompts when evaluating the request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#ignore_tool_prompts GatewayPluginAiLlmAsJudge#ignore_tool_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#ignore_tool_prompts GatewayPluginAiLlmAsJudge#ignore_tool_prompts}
   */
   readonly ignoreToolPrompts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#llm GatewayPluginAiLlmAsJudge#llm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#llm GatewayPluginAiLlmAsJudge#llm}
   */
   readonly llm: GatewayPluginAiLlmAsJudgeConfigLlm;
   /**
   * Number of messages in the chat history to use for evaluating the request. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#message_countback GatewayPluginAiLlmAsJudge#message_countback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#message_countback GatewayPluginAiLlmAsJudge#message_countback}
   */
   readonly messageCountback?: number;
   /**
   * Use this prompt to tune the LLM system/assistant message for the llm as a judge prompt. Default: "You are a strict evaluator. You will be given a prompt and a response. Your task is to judge whether the response is correct or incorrect. You must assign a score between 1 and 100, where: 100 represents a completely correct and ideal response, 1 represents a completely incorrect or irrelevant response. Your score must be a single number only — no text, labels, or explanations. Use the full range of values (e.g., 13, 47, 86), not just round numbers like 10, 50, or 100. Be accurate and consistent, as this score will be used by another model for learning and evaluation."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#prompt GatewayPluginAiLlmAsJudge#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#prompt GatewayPluginAiLlmAsJudge#prompt}
   */
   readonly prompt?: string;
   /**
   * Judging request sampling rate for configuring the probability-based sampler. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#sampling_rate GatewayPluginAiLlmAsJudge#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#sampling_rate GatewayPluginAiLlmAsJudge#sampling_rate}
   */
   readonly samplingRate?: number;
 }
@@ -3096,7 +3096,7 @@ export class GatewayPluginAiLlmAsJudgeConfigAOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginAiLlmAsJudgeConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3193,7 +3193,7 @@ export class GatewayPluginAiLlmAsJudgeConsumerOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginAiLlmAsJudgeConsumerGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3290,7 +3290,7 @@ export class GatewayPluginAiLlmAsJudgeConsumerGroupOutputReference extends cdktf
 }
 export interface GatewayPluginAiLlmAsJudgeOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#access GatewayPluginAiLlmAsJudge#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#access GatewayPluginAiLlmAsJudge#access}
   */
   readonly access?: string[];
 }
@@ -3384,7 +3384,7 @@ export class GatewayPluginAiLlmAsJudgeOrderingAfterOutputReference extends cdktf
 }
 export interface GatewayPluginAiLlmAsJudgeOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#access GatewayPluginAiLlmAsJudge#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#access GatewayPluginAiLlmAsJudge#access}
   */
   readonly access?: string[];
 }
@@ -3478,11 +3478,11 @@ export class GatewayPluginAiLlmAsJudgeOrderingBeforeOutputReference extends cdkt
 }
 export interface GatewayPluginAiLlmAsJudgeOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#after GatewayPluginAiLlmAsJudge#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#after GatewayPluginAiLlmAsJudge#after}
   */
   readonly after?: GatewayPluginAiLlmAsJudgeOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#before GatewayPluginAiLlmAsJudge#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#before GatewayPluginAiLlmAsJudge#before}
   */
   readonly before?: GatewayPluginAiLlmAsJudgeOrderingBefore;
 }
@@ -3607,7 +3607,7 @@ export interface GatewayPluginAiLlmAsJudgePartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3616,11 +3616,11 @@ export interface GatewayPluginAiLlmAsJudgePartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#name GatewayPluginAiLlmAsJudge#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#name GatewayPluginAiLlmAsJudge#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#path GatewayPluginAiLlmAsJudge#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#path GatewayPluginAiLlmAsJudge#path}
   */
   readonly path?: string;
 }
@@ -3794,7 +3794,7 @@ export class GatewayPluginAiLlmAsJudgePartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginAiLlmAsJudgeRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3891,7 +3891,7 @@ export class GatewayPluginAiLlmAsJudgeRouteOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginAiLlmAsJudgeService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#id GatewayPluginAiLlmAsJudge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3988,7 +3988,7 @@ export class GatewayPluginAiLlmAsJudgeServiceOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge konnect_gateway_plugin_ai_llm_as_judge}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge konnect_gateway_plugin_ai_llm_as_judge}
 */
 export class GatewayPluginAiLlmAsJudge extends cdktf.TerraformResource {
 
@@ -4004,7 +4004,7 @@ export class GatewayPluginAiLlmAsJudge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginAiLlmAsJudge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginAiLlmAsJudge to import
-  * @param importFromId The id of the existing GatewayPluginAiLlmAsJudge that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginAiLlmAsJudge that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginAiLlmAsJudge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4016,7 +4016,7 @@ export class GatewayPluginAiLlmAsJudge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_ai_llm_as_judge konnect_gateway_plugin_ai_llm_as_judge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_ai_llm_as_judge konnect_gateway_plugin_ai_llm_as_judge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4027,8 +4027,8 @@ export class GatewayPluginAiLlmAsJudge extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_ai_llm_as_judge',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

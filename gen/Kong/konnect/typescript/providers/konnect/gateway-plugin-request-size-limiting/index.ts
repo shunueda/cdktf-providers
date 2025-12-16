@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRequestSizeLimitingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#config GatewayPluginRequestSizeLimiting#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#config GatewayPluginRequestSizeLimiting#config}
   */
   readonly config?: GatewayPluginRequestSizeLimitingConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#consumer GatewayPluginRequestSizeLimiting#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#consumer GatewayPluginRequestSizeLimiting#consumer}
   */
   readonly consumer?: GatewayPluginRequestSizeLimitingConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#control_plane_id GatewayPluginRequestSizeLimiting#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#control_plane_id GatewayPluginRequestSizeLimiting#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#created_at GatewayPluginRequestSizeLimiting#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#created_at GatewayPluginRequestSizeLimiting#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#enabled GatewayPluginRequestSizeLimiting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#enabled GatewayPluginRequestSizeLimiting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,47 +47,47 @@ export interface GatewayPluginRequestSizeLimitingConfig extends cdktf.TerraformM
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#instance_name GatewayPluginRequestSizeLimiting#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#instance_name GatewayPluginRequestSizeLimiting#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#ordering GatewayPluginRequestSizeLimiting#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#ordering GatewayPluginRequestSizeLimiting#ordering}
   */
   readonly ordering?: GatewayPluginRequestSizeLimitingOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#partials GatewayPluginRequestSizeLimiting#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#partials GatewayPluginRequestSizeLimiting#partials}
   */
   readonly partials?: GatewayPluginRequestSizeLimitingPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#protocols GatewayPluginRequestSizeLimiting#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#protocols GatewayPluginRequestSizeLimiting#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#route GatewayPluginRequestSizeLimiting#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#route GatewayPluginRequestSizeLimiting#route}
   */
   readonly route?: GatewayPluginRequestSizeLimitingRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#service GatewayPluginRequestSizeLimiting#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#service GatewayPluginRequestSizeLimiting#service}
   */
   readonly service?: GatewayPluginRequestSizeLimitingService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#tags GatewayPluginRequestSizeLimiting#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#tags GatewayPluginRequestSizeLimiting#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#updated_at GatewayPluginRequestSizeLimiting#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#updated_at GatewayPluginRequestSizeLimiting#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -95,19 +95,19 @@ export interface GatewayPluginRequestSizeLimitingConfigA {
   /**
   * Allowed request payload size in megabytes. Default is `128` megabytes (128000000 bytes). Default: 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#allowed_payload_size GatewayPluginRequestSizeLimiting#allowed_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#allowed_payload_size GatewayPluginRequestSizeLimiting#allowed_payload_size}
   */
   readonly allowedPayloadSize?: number;
   /**
   * Set to `true` to ensure a valid `Content-Length` header exists before reading the request body. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#require_content_length GatewayPluginRequestSizeLimiting#require_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#require_content_length GatewayPluginRequestSizeLimiting#require_content_length}
   */
   readonly requireContentLength?: boolean | cdktf.IResolvable;
   /**
   * Size unit can be set either in `bytes`, `kilobytes`, or `megabytes` (default). This configuration is not available in versions prior to Kong Gateway 1.3 and Kong Gateway (OSS) 2.0. Default: "megabytes"; must be one of ["bytes", "kilobytes", "megabytes"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#size_unit GatewayPluginRequestSizeLimiting#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#size_unit GatewayPluginRequestSizeLimiting#size_unit}
   */
   readonly sizeUnit?: string;
 }
@@ -259,7 +259,7 @@ export class GatewayPluginRequestSizeLimitingConfigAOutputReference extends cdkt
 }
 export interface GatewayPluginRequestSizeLimitingConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -356,7 +356,7 @@ export class GatewayPluginRequestSizeLimitingConsumerOutputReference extends cdk
 }
 export interface GatewayPluginRequestSizeLimitingOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#access GatewayPluginRequestSizeLimiting#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#access GatewayPluginRequestSizeLimiting#access}
   */
   readonly access?: string[];
 }
@@ -450,7 +450,7 @@ export class GatewayPluginRequestSizeLimitingOrderingAfterOutputReference extend
 }
 export interface GatewayPluginRequestSizeLimitingOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#access GatewayPluginRequestSizeLimiting#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#access GatewayPluginRequestSizeLimiting#access}
   */
   readonly access?: string[];
 }
@@ -544,11 +544,11 @@ export class GatewayPluginRequestSizeLimitingOrderingBeforeOutputReference exten
 }
 export interface GatewayPluginRequestSizeLimitingOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#after GatewayPluginRequestSizeLimiting#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#after GatewayPluginRequestSizeLimiting#after}
   */
   readonly after?: GatewayPluginRequestSizeLimitingOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#before GatewayPluginRequestSizeLimiting#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#before GatewayPluginRequestSizeLimiting#before}
   */
   readonly before?: GatewayPluginRequestSizeLimitingOrderingBefore;
 }
@@ -673,7 +673,7 @@ export interface GatewayPluginRequestSizeLimitingPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -682,11 +682,11 @@ export interface GatewayPluginRequestSizeLimitingPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#name GatewayPluginRequestSizeLimiting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#name GatewayPluginRequestSizeLimiting#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#path GatewayPluginRequestSizeLimiting#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#path GatewayPluginRequestSizeLimiting#path}
   */
   readonly path?: string;
 }
@@ -860,7 +860,7 @@ export class GatewayPluginRequestSizeLimitingPartialsList extends cdktf.ComplexL
 }
 export interface GatewayPluginRequestSizeLimitingRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,7 +957,7 @@ export class GatewayPluginRequestSizeLimitingRouteOutputReference extends cdktf.
 }
 export interface GatewayPluginRequestSizeLimitingService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#id GatewayPluginRequestSizeLimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1054,7 +1054,7 @@ export class GatewayPluginRequestSizeLimitingServiceOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting konnect_gateway_plugin_request_size_limiting}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting konnect_gateway_plugin_request_size_limiting}
 */
 export class GatewayPluginRequestSizeLimiting extends cdktf.TerraformResource {
 
@@ -1070,7 +1070,7 @@ export class GatewayPluginRequestSizeLimiting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginRequestSizeLimiting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRequestSizeLimiting to import
-  * @param importFromId The id of the existing GatewayPluginRequestSizeLimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRequestSizeLimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRequestSizeLimiting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1082,7 +1082,7 @@ export class GatewayPluginRequestSizeLimiting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_request_size_limiting konnect_gateway_plugin_request_size_limiting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_request_size_limiting konnect_gateway_plugin_request_size_limiting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1093,8 +1093,8 @@ export class GatewayPluginRequestSizeLimiting extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_request_size_limiting',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

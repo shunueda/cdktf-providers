@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_data_plane_client_certificate
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_data_plane_client_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GatewayDataPlaneClientCertificateConfig extends cdktf.Terraform
   /**
   * JSON escaped string of the certificate. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_data_plane_client_certificate#cert GatewayDataPlaneClientCertificate#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_data_plane_client_certificate#cert GatewayDataPlaneClientCertificate#cert}
   */
   readonly cert: string;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_data_plane_client_certificate#control_plane_id GatewayDataPlaneClientCertificate#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_data_plane_client_certificate#control_plane_id GatewayDataPlaneClientCertificate#control_plane_id}
   */
   readonly controlPlaneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_data_plane_client_certificate konnect_gateway_data_plane_client_certificate}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_data_plane_client_certificate konnect_gateway_data_plane_client_certificate}
 */
 export class GatewayDataPlaneClientCertificate extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GatewayDataPlaneClientCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayDataPlaneClientCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayDataPlaneClientCertificate to import
-  * @param importFromId The id of the existing GatewayDataPlaneClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_data_plane_client_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayDataPlaneClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_data_plane_client_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayDataPlaneClientCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GatewayDataPlaneClientCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_data_plane_client_certificate konnect_gateway_data_plane_client_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_data_plane_client_certificate konnect_gateway_data_plane_client_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GatewayDataPlaneClientCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_data_plane_client_certificate',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

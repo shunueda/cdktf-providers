@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginBotDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#config GatewayPluginBotDetection#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#config GatewayPluginBotDetection#config}
   */
   readonly config?: GatewayPluginBotDetectionConfigA;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#control_plane_id GatewayPluginBotDetection#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#control_plane_id GatewayPluginBotDetection#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#created_at GatewayPluginBotDetection#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#created_at GatewayPluginBotDetection#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#enabled GatewayPluginBotDetection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#enabled GatewayPluginBotDetection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,47 @@ export interface GatewayPluginBotDetectionConfig extends cdktf.TerraformMetaArgu
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#instance_name GatewayPluginBotDetection#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#instance_name GatewayPluginBotDetection#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#ordering GatewayPluginBotDetection#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#ordering GatewayPluginBotDetection#ordering}
   */
   readonly ordering?: GatewayPluginBotDetectionOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#partials GatewayPluginBotDetection#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#partials GatewayPluginBotDetection#partials}
   */
   readonly partials?: GatewayPluginBotDetectionPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#protocols GatewayPluginBotDetection#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#protocols GatewayPluginBotDetection#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#route GatewayPluginBotDetection#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#route GatewayPluginBotDetection#route}
   */
   readonly route?: GatewayPluginBotDetectionRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#service GatewayPluginBotDetection#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#service GatewayPluginBotDetection#service}
   */
   readonly service?: GatewayPluginBotDetectionService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#tags GatewayPluginBotDetection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#tags GatewayPluginBotDetection#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#updated_at GatewayPluginBotDetection#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#updated_at GatewayPluginBotDetection#updated_at}
   */
   readonly updatedAt?: number;
 }
@@ -89,13 +89,13 @@ export interface GatewayPluginBotDetectionConfigA {
   /**
   * An array of regular expressions that should be allowed. The regular expressions will be checked against the `User-Agent` header. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#allow GatewayPluginBotDetection#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#allow GatewayPluginBotDetection#allow}
   */
   readonly allow?: string[];
   /**
   * An array of regular expressions that should be denied. The regular expressions will be checked against the `User-Agent` header. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#deny GatewayPluginBotDetection#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#deny GatewayPluginBotDetection#deny}
   */
   readonly deny?: string[];
 }
@@ -218,7 +218,7 @@ export class GatewayPluginBotDetectionConfigAOutputReference extends cdktf.Compl
 }
 export interface GatewayPluginBotDetectionOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#access GatewayPluginBotDetection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#access GatewayPluginBotDetection#access}
   */
   readonly access?: string[];
 }
@@ -312,7 +312,7 @@ export class GatewayPluginBotDetectionOrderingAfterOutputReference extends cdktf
 }
 export interface GatewayPluginBotDetectionOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#access GatewayPluginBotDetection#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#access GatewayPluginBotDetection#access}
   */
   readonly access?: string[];
 }
@@ -406,11 +406,11 @@ export class GatewayPluginBotDetectionOrderingBeforeOutputReference extends cdkt
 }
 export interface GatewayPluginBotDetectionOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#after GatewayPluginBotDetection#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#after GatewayPluginBotDetection#after}
   */
   readonly after?: GatewayPluginBotDetectionOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#before GatewayPluginBotDetection#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#before GatewayPluginBotDetection#before}
   */
   readonly before?: GatewayPluginBotDetectionOrderingBefore;
 }
@@ -535,7 +535,7 @@ export interface GatewayPluginBotDetectionPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -544,11 +544,11 @@ export interface GatewayPluginBotDetectionPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#name GatewayPluginBotDetection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#name GatewayPluginBotDetection#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#path GatewayPluginBotDetection#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#path GatewayPluginBotDetection#path}
   */
   readonly path?: string;
 }
@@ -722,7 +722,7 @@ export class GatewayPluginBotDetectionPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginBotDetectionRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -819,7 +819,7 @@ export class GatewayPluginBotDetectionRouteOutputReference extends cdktf.Complex
 }
 export interface GatewayPluginBotDetectionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#id GatewayPluginBotDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -916,7 +916,7 @@ export class GatewayPluginBotDetectionServiceOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection konnect_gateway_plugin_bot_detection}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection konnect_gateway_plugin_bot_detection}
 */
 export class GatewayPluginBotDetection extends cdktf.TerraformResource {
 
@@ -932,7 +932,7 @@ export class GatewayPluginBotDetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginBotDetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginBotDetection to import
-  * @param importFromId The id of the existing GatewayPluginBotDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginBotDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginBotDetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -944,7 +944,7 @@ export class GatewayPluginBotDetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_bot_detection konnect_gateway_plugin_bot_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_bot_detection konnect_gateway_plugin_bot_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -955,8 +955,8 @@ export class GatewayPluginBotDetection extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_bot_detection',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

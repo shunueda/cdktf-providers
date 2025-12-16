@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface PortalCustomizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#css PortalCustomization#css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#css PortalCustomization#css}
   */
   readonly css?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#layout PortalCustomization#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#layout PortalCustomization#layout}
   */
   readonly layout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#menu PortalCustomization#menu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#menu PortalCustomization#menu}
   */
   readonly menu?: PortalCustomizationMenu;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#portal_id PortalCustomization#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#portal_id PortalCustomization#portal_id}
   */
   readonly portalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#robots PortalCustomization#robots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#robots PortalCustomization#robots}
   */
   readonly robots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#spec_renderer PortalCustomization#spec_renderer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#spec_renderer PortalCustomization#spec_renderer}
   */
   readonly specRenderer?: PortalCustomizationSpecRenderer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#theme PortalCustomization#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#theme PortalCustomization#theme}
   */
   readonly theme?: PortalCustomizationTheme;
 }
@@ -42,25 +42,25 @@ export interface PortalCustomizationMenuFooterBottom {
   /**
   * When clicked, open the link in a new window. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#external PortalCustomization#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#external PortalCustomization#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * The absolute path of a page in a portal with a leading slash. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#path PortalCustomization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#path PortalCustomization#path}
   */
   readonly path?: string;
   /**
   * The link display text. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#title PortalCustomization#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#title PortalCustomization#title}
   */
   readonly title?: string;
   /**
   * Whether a menu item is public or private. Private menu items are only accessible to authenticated users. Not Null; must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#visibility PortalCustomization#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#visibility PortalCustomization#visibility}
   */
   readonly visibility?: string;
 }
@@ -265,25 +265,25 @@ export interface PortalCustomizationMenuFooterSectionsItems {
   /**
   * When clicked, open the link in a new window. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#external PortalCustomization#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#external PortalCustomization#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * The absolute path of a page in a portal with a leading slash. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#path PortalCustomization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#path PortalCustomization#path}
   */
   readonly path?: string;
   /**
   * The link display text. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#title PortalCustomization#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#title PortalCustomization#title}
   */
   readonly title?: string;
   /**
   * Whether a menu item is public or private. Private menu items are only accessible to authenticated users. Not Null; must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#visibility PortalCustomization#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#visibility PortalCustomization#visibility}
   */
   readonly visibility?: string;
 }
@@ -488,13 +488,13 @@ export interface PortalCustomizationMenuFooterSections {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#items PortalCustomization#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#items PortalCustomization#items}
   */
   readonly items?: PortalCustomizationMenuFooterSectionsItems[] | cdktf.IResolvable;
   /**
   * The footer menu section title. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#title PortalCustomization#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#title PortalCustomization#title}
   */
   readonly title?: string;
 }
@@ -641,25 +641,25 @@ export interface PortalCustomizationMenuMain {
   /**
   * When clicked, open the link in a new window. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#external PortalCustomization#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#external PortalCustomization#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * The absolute path of a page in a portal with a leading slash. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#path PortalCustomization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#path PortalCustomization#path}
   */
   readonly path?: string;
   /**
   * The link display text. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#title PortalCustomization#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#title PortalCustomization#title}
   */
   readonly title?: string;
   /**
   * Whether a menu item is public or private. Private menu items are only accessible to authenticated users. Not Null; must be one of ["public", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#visibility PortalCustomization#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#visibility PortalCustomization#visibility}
   */
   readonly visibility?: string;
 }
@@ -862,15 +862,15 @@ export class PortalCustomizationMenuMainList extends cdktf.ComplexList {
 }
 export interface PortalCustomizationMenu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#footer_bottom PortalCustomization#footer_bottom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#footer_bottom PortalCustomization#footer_bottom}
   */
   readonly footerBottom?: PortalCustomizationMenuFooterBottom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#footer_sections PortalCustomization#footer_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#footer_sections PortalCustomization#footer_sections}
   */
   readonly footerSections?: PortalCustomizationMenuFooterSections[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#main PortalCustomization#main}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#main PortalCustomization#main}
   */
   readonly main?: PortalCustomizationMenuMain[] | cdktf.IResolvable;
 }
@@ -1024,43 +1024,43 @@ export interface PortalCustomizationSpecRenderer {
   /**
   * Let users define a custom server URL for endpoints. This will be used to generate code snippets and to test the API. The URL is client-side only and is not saved. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#allow_custom_server_urls PortalCustomization#allow_custom_server_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#allow_custom_server_urls PortalCustomization#allow_custom_server_urls}
   */
   readonly allowCustomServerUrls?: boolean | cdktf.IResolvable;
   /**
   * Manage visibility of deprecated endpoints and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#hide_deprecated PortalCustomization#hide_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#hide_deprecated PortalCustomization#hide_deprecated}
   */
   readonly hideDeprecated?: boolean | cdktf.IResolvable;
   /**
   * Manage visibility of internal endpoints and models. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#hide_internal PortalCustomization#hide_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#hide_internal PortalCustomization#hide_internal}
   */
   readonly hideInternal?: boolean | cdktf.IResolvable;
   /**
   * Display the full spec on a single, scrollable page. If disabled, documentation, endpoints, and schemas appear on separate pages. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#infinite_scroll PortalCustomization#infinite_scroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#infinite_scroll PortalCustomization#infinite_scroll}
   */
   readonly infiniteScroll?: boolean | cdktf.IResolvable;
   /**
   * Control whether schemas are visible in your API specs. When enabled, schemas appear in the side navigation below the endpoints. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#show_schemas PortalCustomization#show_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#show_schemas PortalCustomization#show_schemas}
   */
   readonly showSchemas?: boolean | cdktf.IResolvable;
   /**
   * Enables users to open the API spec in Insomnia to explore and send requests with the native client. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#try_it_insomnia PortalCustomization#try_it_insomnia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#try_it_insomnia PortalCustomization#try_it_insomnia}
   */
   readonly tryItInsomnia?: boolean | cdktf.IResolvable;
   /**
   * Enable in-browser testing for your APIs. All linked gateways must have the CORS plugin configured. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#try_it_ui PortalCustomization#try_it_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#try_it_ui PortalCustomization#try_it_ui}
   */
   readonly tryItUi?: boolean | cdktf.IResolvable;
 }
@@ -1328,7 +1328,7 @@ export class PortalCustomizationSpecRendererOutputReference extends cdktf.Comple
 }
 export interface PortalCustomizationThemeColors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#primary PortalCustomization#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#primary PortalCustomization#primary}
   */
   readonly primary?: string;
 }
@@ -1422,17 +1422,17 @@ export class PortalCustomizationThemeColorsOutputReference extends cdktf.Complex
 }
 export interface PortalCustomizationTheme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#colors PortalCustomization#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#colors PortalCustomization#colors}
   */
   readonly colors?: PortalCustomizationThemeColors;
   /**
   * must be one of ["light", "dark", "system"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#mode PortalCustomization#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#mode PortalCustomization#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#name PortalCustomization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#name PortalCustomization#name}
   */
   readonly name?: string;
 }
@@ -1584,7 +1584,7 @@ export class PortalCustomizationThemeOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization konnect_portal_customization}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization konnect_portal_customization}
 */
 export class PortalCustomization extends cdktf.TerraformResource {
 
@@ -1600,7 +1600,7 @@ export class PortalCustomization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalCustomization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalCustomization to import
-  * @param importFromId The id of the existing PortalCustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalCustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalCustomization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1612,7 +1612,7 @@ export class PortalCustomization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_customization konnect_portal_customization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_customization konnect_portal_customization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1623,8 +1623,8 @@ export class PortalCustomization extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_customization',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

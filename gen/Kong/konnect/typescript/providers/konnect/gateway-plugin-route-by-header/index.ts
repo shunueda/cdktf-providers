@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface GatewayPluginRouteByHeaderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#config GatewayPluginRouteByHeader#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#config GatewayPluginRouteByHeader#config}
   */
   readonly config?: GatewayPluginRouteByHeaderConfigA;
   /**
   * If set, the plugin will activate only for requests where the specified has been authenticated. (Note that some plugins can not be restricted to consumers this way.). Leave unset for the plugin to activate regardless of the authenticated Consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#consumer GatewayPluginRouteByHeader#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#consumer GatewayPluginRouteByHeader#consumer}
   */
   readonly consumer?: GatewayPluginRouteByHeaderConsumer;
   /**
   * The UUID of your control plane. This variable is available in the Konnect manager. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#control_plane_id GatewayPluginRouteByHeader#control_plane_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#control_plane_id GatewayPluginRouteByHeader#control_plane_id}
   */
   readonly controlPlaneId: string;
   /**
   * Unix epoch when the resource was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#created_at GatewayPluginRouteByHeader#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#created_at GatewayPluginRouteByHeader#created_at}
   */
   readonly createdAt?: number;
   /**
   * Whether the plugin is applied. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#enabled GatewayPluginRouteByHeader#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#enabled GatewayPluginRouteByHeader#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,59 +47,59 @@ export interface GatewayPluginRouteByHeaderConfig extends cdktf.TerraformMetaArg
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#instance_name GatewayPluginRouteByHeader#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#instance_name GatewayPluginRouteByHeader#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#ordering GatewayPluginRouteByHeader#ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#ordering GatewayPluginRouteByHeader#ordering}
   */
   readonly ordering?: GatewayPluginRouteByHeaderOrdering;
   /**
   * A list of partials to be used by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#partials GatewayPluginRouteByHeader#partials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#partials GatewayPluginRouteByHeader#partials}
   */
   readonly partials?: GatewayPluginRouteByHeaderPartials[] | cdktf.IResolvable;
   /**
   * A set of strings representing HTTP protocols. Default: ["grpc","grpcs","http","https"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#protocols GatewayPluginRouteByHeader#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#protocols GatewayPluginRouteByHeader#protocols}
   */
   readonly protocols?: string[];
   /**
   * If set, the plugin will only activate when receiving requests via the specified route. Leave unset for the plugin to activate regardless of the route being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#route GatewayPluginRouteByHeader#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#route GatewayPluginRouteByHeader#route}
   */
   readonly route?: GatewayPluginRouteByHeaderRoute;
   /**
   * If set, the plugin will only activate when receiving requests via one of the routes belonging to the specified Service. Leave unset for the plugin to activate regardless of the Service being matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#service GatewayPluginRouteByHeader#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#service GatewayPluginRouteByHeader#service}
   */
   readonly service?: GatewayPluginRouteByHeaderService;
   /**
   * An optional set of strings associated with the Plugin for grouping and filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#tags GatewayPluginRouteByHeader#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#tags GatewayPluginRouteByHeader#tags}
   */
   readonly tags?: string[];
   /**
   * Unix epoch when the resource was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#updated_at GatewayPluginRouteByHeader#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#updated_at GatewayPluginRouteByHeader#updated_at}
   */
   readonly updatedAt?: number;
 }
 export interface GatewayPluginRouteByHeaderConfigRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#condition GatewayPluginRouteByHeader#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#condition GatewayPluginRouteByHeader#condition}
   */
   readonly condition?: { [key: string]: string };
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#upstream_name GatewayPluginRouteByHeader#upstream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#upstream_name GatewayPluginRouteByHeader#upstream_name}
   */
   readonly upstreamName?: string;
 }
@@ -246,7 +246,7 @@ export interface GatewayPluginRouteByHeaderConfigA {
   /**
   * Route by header rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#rules GatewayPluginRouteByHeader#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#rules GatewayPluginRouteByHeader#rules}
   */
   readonly rules?: GatewayPluginRouteByHeaderConfigRules[] | cdktf.IResolvable;
 }
@@ -340,7 +340,7 @@ export class GatewayPluginRouteByHeaderConfigAOutputReference extends cdktf.Comp
 }
 export interface GatewayPluginRouteByHeaderConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -437,7 +437,7 @@ export class GatewayPluginRouteByHeaderConsumerOutputReference extends cdktf.Com
 }
 export interface GatewayPluginRouteByHeaderOrderingAfter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#access GatewayPluginRouteByHeader#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#access GatewayPluginRouteByHeader#access}
   */
   readonly access?: string[];
 }
@@ -531,7 +531,7 @@ export class GatewayPluginRouteByHeaderOrderingAfterOutputReference extends cdkt
 }
 export interface GatewayPluginRouteByHeaderOrderingBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#access GatewayPluginRouteByHeader#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#access GatewayPluginRouteByHeader#access}
   */
   readonly access?: string[];
 }
@@ -625,11 +625,11 @@ export class GatewayPluginRouteByHeaderOrderingBeforeOutputReference extends cdk
 }
 export interface GatewayPluginRouteByHeaderOrdering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#after GatewayPluginRouteByHeader#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#after GatewayPluginRouteByHeader#after}
   */
   readonly after?: GatewayPluginRouteByHeaderOrderingAfter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#before GatewayPluginRouteByHeader#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#before GatewayPluginRouteByHeader#before}
   */
   readonly before?: GatewayPluginRouteByHeaderOrderingBefore;
 }
@@ -754,7 +754,7 @@ export interface GatewayPluginRouteByHeaderPartials {
   /**
   * A string representing a UUID (universally unique identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,11 +763,11 @@ export interface GatewayPluginRouteByHeaderPartials {
   /**
   * A unique string representing a UTF-8 encoded name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#name GatewayPluginRouteByHeader#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#name GatewayPluginRouteByHeader#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#path GatewayPluginRouteByHeader#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#path GatewayPluginRouteByHeader#path}
   */
   readonly path?: string;
 }
@@ -941,7 +941,7 @@ export class GatewayPluginRouteByHeaderPartialsList extends cdktf.ComplexList {
 }
 export interface GatewayPluginRouteByHeaderRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1038,7 +1038,7 @@ export class GatewayPluginRouteByHeaderRouteOutputReference extends cdktf.Comple
 }
 export interface GatewayPluginRouteByHeaderService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#id GatewayPluginRouteByHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1135,7 +1135,7 @@ export class GatewayPluginRouteByHeaderServiceOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header konnect_gateway_plugin_route_by_header}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header konnect_gateway_plugin_route_by_header}
 */
 export class GatewayPluginRouteByHeader extends cdktf.TerraformResource {
 
@@ -1151,7 +1151,7 @@ export class GatewayPluginRouteByHeader extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayPluginRouteByHeader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayPluginRouteByHeader to import
-  * @param importFromId The id of the existing GatewayPluginRouteByHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayPluginRouteByHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayPluginRouteByHeader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1163,7 +1163,7 @@ export class GatewayPluginRouteByHeader extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/gateway_plugin_route_by_header konnect_gateway_plugin_route_by_header} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/gateway_plugin_route_by_header konnect_gateway_plugin_route_by_header} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1174,8 +1174,8 @@ export class GatewayPluginRouteByHeader extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_gateway_plugin_route_by_header',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

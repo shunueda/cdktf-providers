@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MongodbClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Connection string to connect to MongoDB. It will include default user details if available. Password may be out of date if the user has changed this since cluster creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#connection_string MongodbClusterV2#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#connection_string MongodbClusterV2#connection_string}
   */
   readonly connectionString?: string;
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#current_cluster_operation_status MongodbClusterV2#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#current_cluster_operation_status MongodbClusterV2#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#description MongodbClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#description MongodbClusterV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface MongodbClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * List of command objects to run against the admin database on cluster creation. Equivalent to running db.adminCommand()
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#mongodb_init_commands MongodbClusterV2#mongodb_init_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#mongodb_init_commands MongodbClusterV2#mongodb_init_commands}
   */
   readonly mongodbInitCommands?: string[];
   /**
   * Version of MongoDB to run on the cluster. Available versions: <ul> <li>`6.0.6`</li> <li>`6.0.8`</li> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#mongodb_version MongodbClusterV2#mongodb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#mongodb_version MongodbClusterV2#mongodb_version}
   */
   readonly mongodbVersion: string;
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#name MongodbClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#name MongodbClusterV2#name}
   */
   readonly name: string;
   /**
   * Creates a PCI compliant cluster, see [PCI Compliance](https://www.instaclustr.com/support/documentation/useful-information/pci-compliance/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#pci_compliance_mode MongodbClusterV2#pci_compliance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#pci_compliance_mode MongodbClusterV2#pci_compliance_mode}
   */
   readonly pciComplianceMode: boolean | cdktf.IResolvable;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#private_network_cluster MongodbClusterV2#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#private_network_cluster MongodbClusterV2#private_network_cluster}
   */
   readonly privateNetworkCluster: boolean | cdktf.IResolvable;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#sla_tier MongodbClusterV2#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#sla_tier MongodbClusterV2#sla_tier}
   */
   readonly slaTier: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#data_centre MongodbClusterV2#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#data_centre MongodbClusterV2#data_centre}
   */
   readonly dataCentre: MongodbClusterV2DataCentre[] | cdktf.IResolvable;
   /**
   * mongodb_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#mongodb_configuration MongodbClusterV2#mongodb_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#mongodb_configuration MongodbClusterV2#mongodb_configuration}
   */
   readonly mongodbConfiguration?: MongodbClusterV2MongodbConfiguration[] | cdktf.IResolvable;
   /**
   * resize_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#resize_settings MongodbClusterV2#resize_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#resize_settings MongodbClusterV2#resize_settings}
   */
   readonly resizeSettings?: MongodbClusterV2ResizeSettings[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#timeouts MongodbClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#timeouts MongodbClusterV2#timeouts}
   */
   readonly timeouts?: MongodbClusterV2Timeouts;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#two_factor_delete MongodbClusterV2#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#two_factor_delete MongodbClusterV2#two_factor_delete}
   */
   readonly twoFactorDelete?: MongodbClusterV2TwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -109,13 +109,13 @@ export interface MongodbClusterV2DataCentreAwsSettings {
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#custom_virtual_network_id MongodbClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#custom_virtual_network_id MongodbClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#ebs_encryption_key MongodbClusterV2#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#ebs_encryption_key MongodbClusterV2#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -262,19 +262,19 @@ export interface MongodbClusterV2DataCentreAzureSettings {
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#custom_virtual_network_id MongodbClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#custom_virtual_network_id MongodbClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#resource_group MongodbClusterV2#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#resource_group MongodbClusterV2#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#storage_network MongodbClusterV2#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#storage_network MongodbClusterV2#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -450,13 +450,13 @@ export interface MongodbClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNod
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
   */
   readonly created?: string;
   /**
   * Operation id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -465,17 +465,17 @@ export interface MongodbClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNod
   /**
   * Timestamp of the last modification of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#modified MongodbClusterV2#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#modified MongodbClusterV2#modified}
   */
   readonly modified?: string;
   /**
   * ID of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_id MongodbClusterV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_id MongodbClusterV2#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
 }
@@ -709,19 +709,19 @@ export interface MongodbClusterV2DataCentreCurrentOperationsDeleteNodes {
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#cdc_id MongodbClusterV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#cdc_id MongodbClusterV2#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
   */
   readonly created?: string;
   /**
   * Operation id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,23 +730,23 @@ export interface MongodbClusterV2DataCentreCurrentOperationsDeleteNodes {
   /**
   * Timestamp of the last modification of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#modified MongodbClusterV2#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#modified MongodbClusterV2#modified}
   */
   readonly modified?: string;
   /**
   * Number of nodes set to delete in the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#number_of_nodes_to_delete MongodbClusterV2#number_of_nodes_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#number_of_nodes_to_delete MongodbClusterV2#number_of_nodes_to_delete}
   */
   readonly numberOfNodesToDelete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
   /**
   * delete_node_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#delete_node_operations MongodbClusterV2#delete_node_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#delete_node_operations MongodbClusterV2#delete_node_operations}
   */
   readonly deleteNodeOperations?: MongodbClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNodeOperations[] | cdktf.IResolvable;
 }
@@ -1038,13 +1038,13 @@ export interface MongodbClusterV2DataCentreCurrentOperationsResizeOperationsRepl
   /**
   * Timestamp of the creation of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
   */
   readonly created?: string;
   /**
   * ID of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1053,19 +1053,19 @@ export interface MongodbClusterV2DataCentreCurrentOperationsResizeOperationsRepl
   /**
   * ID of the new node in the replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#new_node_id MongodbClusterV2#new_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#new_node_id MongodbClusterV2#new_node_id}
   */
   readonly newNodeId?: string;
   /**
   * ID of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_id MongodbClusterV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_id MongodbClusterV2#node_id}
   */
   readonly nodeId?: string;
   /**
   * Status of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
 }
@@ -1299,25 +1299,25 @@ export interface MongodbClusterV2DataCentreCurrentOperationsResizeOperations {
   /**
   * Timestamp of the completion of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#completed MongodbClusterV2#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#completed MongodbClusterV2#completed}
   */
   readonly completed?: string;
   /**
   * Number of nodes that can be concurrently resized at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#concurrent_resizes MongodbClusterV2#concurrent_resizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#concurrent_resizes MongodbClusterV2#concurrent_resizes}
   */
   readonly concurrentResizes?: number;
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#created MongodbClusterV2#created}
   */
   readonly created?: string;
   /**
   * ID of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1326,31 +1326,31 @@ export interface MongodbClusterV2DataCentreCurrentOperationsResizeOperations {
   /**
   * Timestamp of when Instaclustr Support has been alerted to the resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#instaclustr_support_alerted MongodbClusterV2#instaclustr_support_alerted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#instaclustr_support_alerted MongodbClusterV2#instaclustr_support_alerted}
   */
   readonly instaclustrSupportAlerted?: string;
   /**
   * New size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#new_node_size MongodbClusterV2#new_node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#new_node_size MongodbClusterV2#new_node_size}
   */
   readonly newNodeSize?: string;
   /**
   * Purpose of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_purpose MongodbClusterV2#node_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_purpose MongodbClusterV2#node_purpose}
   */
   readonly nodePurpose?: string;
   /**
   * Status of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
   /**
   * replace_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#replace_operations MongodbClusterV2#replace_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#replace_operations MongodbClusterV2#replace_operations}
   */
   readonly replaceOperations?: MongodbClusterV2DataCentreCurrentOperationsResizeOperationsReplaceOperations[] | cdktf.IResolvable;
 }
@@ -1700,7 +1700,7 @@ export interface MongodbClusterV2DataCentreCurrentOperationsResize {
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#operations MongodbClusterV2#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#operations MongodbClusterV2#operations}
   */
   readonly operations?: MongodbClusterV2DataCentreCurrentOperationsResizeOperations[] | cdktf.IResolvable;
 }
@@ -1818,13 +1818,13 @@ export interface MongodbClusterV2DataCentreCurrentOperations {
   /**
   * delete_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#delete_nodes MongodbClusterV2#delete_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#delete_nodes MongodbClusterV2#delete_nodes}
   */
   readonly deleteNodes?: MongodbClusterV2DataCentreCurrentOperationsDeleteNodes[] | cdktf.IResolvable;
   /**
   * resize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#resize MongodbClusterV2#resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#resize MongodbClusterV2#resize}
   */
   readonly resize?: MongodbClusterV2DataCentreCurrentOperationsResize[] | cdktf.IResolvable;
 }
@@ -1971,13 +1971,13 @@ export interface MongodbClusterV2DataCentreDeletedNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#deletion_time MongodbClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#deletion_time MongodbClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1986,43 +1986,43 @@ export interface MongodbClusterV2DataCentreDeletedNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_roles MongodbClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_roles MongodbClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_size MongodbClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_size MongodbClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#private_address MongodbClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#private_address MongodbClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#public_address MongodbClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#public_address MongodbClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#rack MongodbClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#rack MongodbClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#start_time MongodbClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#start_time MongodbClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
 }
@@ -2381,7 +2381,7 @@ export interface MongodbClusterV2DataCentreGcpSettings {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#custom_virtual_network_id MongodbClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#custom_virtual_network_id MongodbClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -2499,13 +2499,13 @@ export interface MongodbClusterV2DataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#deletion_time MongodbClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#deletion_time MongodbClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2514,43 +2514,43 @@ export interface MongodbClusterV2DataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_roles MongodbClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_roles MongodbClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_size MongodbClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_size MongodbClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#private_address MongodbClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#private_address MongodbClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#public_address MongodbClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#public_address MongodbClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#rack MongodbClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#rack MongodbClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#start_time MongodbClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#start_time MongodbClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
 }
@@ -2900,13 +2900,13 @@ export interface MongodbClusterV2DataCentreTag {
   /**
   * Key of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#key MongodbClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#key MongodbClusterV2#key}
   */
   readonly key: string;
   /**
   * Value of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#value MongodbClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#value MongodbClusterV2#value}
   */
   readonly value?: string;
 }
@@ -3050,13 +3050,13 @@ export interface MongodbClusterV2DataCentre {
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#cloud_provider MongodbClusterV2#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#cloud_provider MongodbClusterV2#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#id MongodbClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3065,97 +3065,97 @@ export interface MongodbClusterV2DataCentre {
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#name MongodbClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#name MongodbClusterV2#name}
   */
   readonly name: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#network MongodbClusterV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#network MongodbClusterV2#network}
   */
   readonly network: string;
   /**
   * Size of the nodes provisioned in the Data Centre. --AVAILABLE_NODE_SIZES_MARKER_V2_MONGODB--
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#node_size MongodbClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#node_size MongodbClusterV2#node_size}
   */
   readonly nodeSize: string;
   /**
   * Total number of MongoDB nodes in the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#number_of_nodes MongodbClusterV2#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#number_of_nodes MongodbClusterV2#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#provider_account_name MongodbClusterV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#provider_account_name MongodbClusterV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#region MongodbClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#region MongodbClusterV2#region}
   */
   readonly region: string;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#status MongodbClusterV2#status}
   */
   readonly status?: string;
   /**
   * (Optional) Enable tag management for the data centre, allowing you to create, update and delete custom tags on the data centre via Instaclustr Terraform Provider v2, Cluster Management API or Management Console. Tag management is only available for RIYOA clusters and cannot be disabled once enabled. If not specified, the current value will remain unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#tag_management_enabled MongodbClusterV2#tag_management_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#tag_management_enabled MongodbClusterV2#tag_management_enabled}
   */
   readonly tagManagementEnabled?: boolean | cdktf.IResolvable;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#zero_inbound_access MongodbClusterV2#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#zero_inbound_access MongodbClusterV2#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#aws_settings MongodbClusterV2#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#aws_settings MongodbClusterV2#aws_settings}
   */
   readonly awsSettings?: MongodbClusterV2DataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#azure_settings MongodbClusterV2#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#azure_settings MongodbClusterV2#azure_settings}
   */
   readonly azureSettings?: MongodbClusterV2DataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * current_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#current_operations MongodbClusterV2#current_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#current_operations MongodbClusterV2#current_operations}
   */
   readonly currentOperations?: MongodbClusterV2DataCentreCurrentOperations[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#deleted_nodes MongodbClusterV2#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#deleted_nodes MongodbClusterV2#deleted_nodes}
   */
   readonly deletedNodes?: MongodbClusterV2DataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#gcp_settings MongodbClusterV2#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#gcp_settings MongodbClusterV2#gcp_settings}
   */
   readonly gcpSettings?: MongodbClusterV2DataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#nodes MongodbClusterV2#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#nodes MongodbClusterV2#nodes}
   */
   readonly nodes?: MongodbClusterV2DataCentreNodes[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#tag MongodbClusterV2#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#tag MongodbClusterV2#tag}
   */
   readonly tag?: MongodbClusterV2DataCentreTag[] | cdktf.IResolvable;
 }
@@ -3746,11 +3746,11 @@ export class MongodbClusterV2DataCentreList extends cdktf.ComplexList {
 }
 export interface MongodbClusterV2MongodbConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#key MongodbClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#key MongodbClusterV2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#value MongodbClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#value MongodbClusterV2#value}
   */
   readonly value?: string;
 }
@@ -3897,13 +3897,13 @@ export interface MongodbClusterV2ResizeSettings {
   /**
   * Number of concurrent nodes to resize during a resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#concurrency MongodbClusterV2#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#concurrency MongodbClusterV2#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Setting this property to `true` will notify the Instaclustr Account's designated support contacts on resize completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#notify_support_contacts MongodbClusterV2#notify_support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#notify_support_contacts MongodbClusterV2#notify_support_contacts}
   */
   readonly notifySupportContacts?: boolean | cdktf.IResolvable;
 }
@@ -4048,15 +4048,15 @@ export class MongodbClusterV2ResizeSettingsList extends cdktf.ComplexList {
 }
 export interface MongodbClusterV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#create MongodbClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#create MongodbClusterV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#default MongodbClusterV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#default MongodbClusterV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#update MongodbClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#update MongodbClusterV2#update}
   */
   readonly update?: string;
 }
@@ -4210,13 +4210,13 @@ export interface MongodbClusterV2TwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#confirmation_email MongodbClusterV2#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#confirmation_email MongodbClusterV2#confirmation_email}
   */
   readonly confirmationEmail: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#confirmation_phone_number MongodbClusterV2#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#confirmation_phone_number MongodbClusterV2#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -4358,7 +4358,7 @@ export class MongodbClusterV2TwoFactorDeleteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2 instaclustr_mongodb_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2 instaclustr_mongodb_cluster_v2}
 */
 export class MongodbClusterV2 extends cdktf.TerraformResource {
 
@@ -4374,7 +4374,7 @@ export class MongodbClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbClusterV2 to import
-  * @param importFromId The id of the existing MongodbClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4386,7 +4386,7 @@ export class MongodbClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/mongodb_cluster_v2 instaclustr_mongodb_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/mongodb_cluster_v2 instaclustr_mongodb_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4397,8 +4397,8 @@ export class MongodbClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_mongodb_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.36',
-        providerVersionConstraint: '2.1.36'
+        providerVersion: '2.1.37',
+        providerVersionConstraint: '2.1.37'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

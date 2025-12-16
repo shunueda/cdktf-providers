@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CmekConfig extends cdktf.TerraformMetaArguments {
   /**
   * An optional description of the CMEK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek#description Cmek#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek#description Cmek#description}
   */
   readonly description?: string;
   /**
   * Customer Managed Encryption Key identifier. This ID is selected from a predefined, Konnect-specific list of allowed values and uniquely identifies a CMEK configuration within a given organization and Konnect region. While not global in function, these IDs behave like scoped namespaces with enforced uniqueness and enumeration constraints. Default: "default"; must be "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek#id Cmek#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek#id Cmek#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface CmekConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the Key Management Service (KMS) key to use for encryption and decryption. We recommend using one multi-region key (MRK) per Konnect region to enhance security and compliance, while also supporting failover to other AWS regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek#key_arn Cmek#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek#key_arn Cmek#key_arn}
   */
   readonly keyArn: string;
   /**
   * The name of the CMEK. We recommend you match the key's name used in KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek#name Cmek#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek#name Cmek#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek konnect_cmek}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek konnect_cmek}
 */
 export class Cmek extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class Cmek extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cmek resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cmek to import
-  * @param importFromId The id of the existing Cmek that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cmek that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cmek to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class Cmek extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/cmek konnect_cmek} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/cmek konnect_cmek} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class Cmek extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_cmek',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

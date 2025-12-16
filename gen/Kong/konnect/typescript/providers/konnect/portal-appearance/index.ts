@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PortalAppearanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Font selections to render text in the portal user interface. Must set use_custom_fonts to true to enable using custom font values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#custom_fonts PortalAppearance#custom_fonts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#custom_fonts PortalAppearance#custom_fonts}
   */
   readonly customFonts?: PortalAppearanceCustomFonts;
   /**
   * Groups of variables for configuring visual details of the portal user interface. Set theme_name to 'custom' to use custom values for theme variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#custom_theme PortalAppearance#custom_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#custom_theme PortalAppearance#custom_theme}
   */
   readonly customTheme?: PortalAppearanceCustomTheme;
   /**
   * A collection of binary image data to customize images in the portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#images PortalAppearance#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#images PortalAppearance#images}
   */
   readonly images?: PortalAppearanceImages;
   /**
   * The Portal identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#portal_id PortalAppearance#portal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#portal_id PortalAppearance#portal_id}
   */
   readonly portalId: string;
   /**
   * Values to display for customizable text in the portal user interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#text PortalAppearance#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#text PortalAppearance#text}
   */
   readonly text?: PortalAppearanceText;
   /**
   * Select a pre-existing default theme or specify 'custom' to use custom_theme variables. must be one of ["mint_rocket", "dark_mode", "custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#theme_name PortalAppearance#theme_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#theme_name PortalAppearance#theme_name}
   */
   readonly themeName?: string;
   /**
   * If true, fonts in custom_fonts will be used over the theme's default fonts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#use_custom_fonts PortalAppearance#use_custom_fonts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#use_custom_fonts PortalAppearance#use_custom_fonts}
   */
   readonly useCustomFonts?: boolean | cdktf.IResolvable;
 }
@@ -54,19 +54,19 @@ export interface PortalAppearanceCustomFonts {
   /**
   * The name of the font to render in the browser. must be one of ["Roboto", "Inter", "Open Sans", "Lato", "Slabo 27px", "Slabo 13px", "Oswald", "Source Sans Pro", "Montserrat", "Raleway", "PT Sans", "Lora", "Roboto Mono", "Inconsolata", "Source Code Pro", "PT Mono", "Ubuntu Mono", "IBM Plex Mono"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#base PortalAppearance#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#base PortalAppearance#base}
   */
   readonly base: string;
   /**
   * The name of the font to render in the browser. must be one of ["Roboto", "Inter", "Open Sans", "Lato", "Slabo 27px", "Slabo 13px", "Oswald", "Source Sans Pro", "Montserrat", "Raleway", "PT Sans", "Lora", "Roboto Mono", "Inconsolata", "Source Code Pro", "PT Mono", "Ubuntu Mono", "IBM Plex Mono"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#code PortalAppearance#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#code PortalAppearance#code}
   */
   readonly code: string;
   /**
   * The name of the font to render in the browser. must be one of ["Roboto", "Inter", "Open Sans", "Lato", "Slabo 27px", "Slabo 13px", "Oswald", "Source Sans Pro", "Montserrat", "Raleway", "PT Sans", "Lora", "Roboto Mono", "Inconsolata", "Source Code Pro", "PT Mono", "Ubuntu Mono", "IBM Plex Mono"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#headings PortalAppearance#headings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#headings PortalAppearance#headings}
   */
   readonly headings: string;
 }
@@ -209,11 +209,11 @@ export class PortalAppearanceCustomFontsOutputReference extends cdktf.ComplexObj
 }
 export interface PortalAppearanceCustomThemeColorsButtonPrimaryFill {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -323,11 +323,11 @@ export class PortalAppearanceCustomThemeColorsButtonPrimaryFillOutputReference e
 }
 export interface PortalAppearanceCustomThemeColorsButtonPrimaryText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -437,11 +437,11 @@ export class PortalAppearanceCustomThemeColorsButtonPrimaryTextOutputReference e
 }
 export interface PortalAppearanceCustomThemeColorsButton {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#primary_fill PortalAppearance#primary_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#primary_fill PortalAppearance#primary_fill}
   */
   readonly primaryFill: PortalAppearanceCustomThemeColorsButtonPrimaryFill;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#primary_text PortalAppearance#primary_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#primary_text PortalAppearance#primary_text}
   */
   readonly primaryText: PortalAppearanceCustomThemeColorsButtonPrimaryText;
 }
@@ -548,11 +548,11 @@ export class PortalAppearanceCustomThemeColorsButtonOutputReference extends cdkt
 }
 export interface PortalAppearanceCustomThemeColorsSectionAccent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -662,11 +662,11 @@ export class PortalAppearanceCustomThemeColorsSectionAccentOutputReference exten
 }
 export interface PortalAppearanceCustomThemeColorsSectionBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -776,11 +776,11 @@ export class PortalAppearanceCustomThemeColorsSectionBodyOutputReference extends
 }
 export interface PortalAppearanceCustomThemeColorsSectionFooter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -890,11 +890,11 @@ export class PortalAppearanceCustomThemeColorsSectionFooterOutputReference exten
 }
 export interface PortalAppearanceCustomThemeColorsSectionHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1004,11 +1004,11 @@ export class PortalAppearanceCustomThemeColorsSectionHeaderOutputReference exten
 }
 export interface PortalAppearanceCustomThemeColorsSectionHero {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1118,11 +1118,11 @@ export class PortalAppearanceCustomThemeColorsSectionHeroOutputReference extends
 }
 export interface PortalAppearanceCustomThemeColorsSectionStroke {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1232,11 +1232,11 @@ export class PortalAppearanceCustomThemeColorsSectionStrokeOutputReference exten
 }
 export interface PortalAppearanceCustomThemeColorsSectionTertiary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1346,31 +1346,31 @@ export class PortalAppearanceCustomThemeColorsSectionTertiaryOutputReference ext
 }
 export interface PortalAppearanceCustomThemeColorsSection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#accent PortalAppearance#accent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#accent PortalAppearance#accent}
   */
   readonly accent: PortalAppearanceCustomThemeColorsSectionAccent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#body PortalAppearance#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#body PortalAppearance#body}
   */
   readonly body: PortalAppearanceCustomThemeColorsSectionBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#footer PortalAppearance#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#footer PortalAppearance#footer}
   */
   readonly footer: PortalAppearanceCustomThemeColorsSectionFooter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#header PortalAppearance#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#header PortalAppearance#header}
   */
   readonly header: PortalAppearanceCustomThemeColorsSectionHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#hero PortalAppearance#hero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#hero PortalAppearance#hero}
   */
   readonly hero: PortalAppearanceCustomThemeColorsSectionHero;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#stroke PortalAppearance#stroke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#stroke PortalAppearance#stroke}
   */
   readonly stroke: PortalAppearanceCustomThemeColorsSectionStroke;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#tertiary PortalAppearance#tertiary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#tertiary PortalAppearance#tertiary}
   */
   readonly tertiary: PortalAppearanceCustomThemeColorsSectionTertiary;
 }
@@ -1607,11 +1607,11 @@ export class PortalAppearanceCustomThemeColorsSectionOutputReference extends cdk
 }
 export interface PortalAppearanceCustomThemeColorsTextAccent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1721,11 +1721,11 @@ export class PortalAppearanceCustomThemeColorsTextAccentOutputReference extends 
 }
 export interface PortalAppearanceCustomThemeColorsTextFooter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1835,11 +1835,11 @@ export class PortalAppearanceCustomThemeColorsTextFooterOutputReference extends 
 }
 export interface PortalAppearanceCustomThemeColorsTextHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -1949,11 +1949,11 @@ export class PortalAppearanceCustomThemeColorsTextHeaderOutputReference extends 
 }
 export interface PortalAppearanceCustomThemeColorsTextHeadings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -2063,11 +2063,11 @@ export class PortalAppearanceCustomThemeColorsTextHeadingsOutputReference extend
 }
 export interface PortalAppearanceCustomThemeColorsTextHero {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -2177,11 +2177,11 @@ export class PortalAppearanceCustomThemeColorsTextHeroOutputReference extends cd
 }
 export interface PortalAppearanceCustomThemeColorsTextLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -2291,11 +2291,11 @@ export class PortalAppearanceCustomThemeColorsTextLinkOutputReference extends cd
 }
 export interface PortalAppearanceCustomThemeColorsTextPrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -2405,11 +2405,11 @@ export class PortalAppearanceCustomThemeColorsTextPrimaryOutputReference extends
 }
 export interface PortalAppearanceCustomThemeColorsTextSecondary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#description PortalAppearance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#description PortalAppearance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#value PortalAppearance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#value PortalAppearance#value}
   */
   readonly value: string;
 }
@@ -2519,35 +2519,35 @@ export class PortalAppearanceCustomThemeColorsTextSecondaryOutputReference exten
 }
 export interface PortalAppearanceCustomThemeColorsText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#accent PortalAppearance#accent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#accent PortalAppearance#accent}
   */
   readonly accent: PortalAppearanceCustomThemeColorsTextAccent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#footer PortalAppearance#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#footer PortalAppearance#footer}
   */
   readonly footer: PortalAppearanceCustomThemeColorsTextFooter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#header PortalAppearance#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#header PortalAppearance#header}
   */
   readonly header: PortalAppearanceCustomThemeColorsTextHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#headings PortalAppearance#headings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#headings PortalAppearance#headings}
   */
   readonly headings: PortalAppearanceCustomThemeColorsTextHeadings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#hero PortalAppearance#hero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#hero PortalAppearance#hero}
   */
   readonly hero: PortalAppearanceCustomThemeColorsTextHero;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#link PortalAppearance#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#link PortalAppearance#link}
   */
   readonly link: PortalAppearanceCustomThemeColorsTextLink;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#primary PortalAppearance#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#primary PortalAppearance#primary}
   */
   readonly primary: PortalAppearanceCustomThemeColorsTextPrimary;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#secondary PortalAppearance#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#secondary PortalAppearance#secondary}
   */
   readonly secondary: PortalAppearanceCustomThemeColorsTextSecondary;
 }
@@ -2810,15 +2810,15 @@ export class PortalAppearanceCustomThemeColorsTextOutputReference extends cdktf.
 }
 export interface PortalAppearanceCustomThemeColors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#button PortalAppearance#button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#button PortalAppearance#button}
   */
   readonly button: PortalAppearanceCustomThemeColorsButton;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#section PortalAppearance#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#section PortalAppearance#section}
   */
   readonly section: PortalAppearanceCustomThemeColorsSection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#text PortalAppearance#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#text PortalAppearance#text}
   */
   readonly text: PortalAppearanceCustomThemeColorsText;
 }
@@ -2951,7 +2951,7 @@ export class PortalAppearanceCustomThemeColorsOutputReference extends cdktf.Comp
 }
 export interface PortalAppearanceCustomTheme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#colors PortalAppearance#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#colors PortalAppearance#colors}
   */
   readonly colors: PortalAppearanceCustomThemeColors;
 }
@@ -3044,11 +3044,11 @@ export interface PortalAppearanceImagesCatalogCover {
   /**
   * must be a data URL with base64 image data, e.g., data:image/jpeg;base64,<BASE64_IMAGE_DATA>. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#data PortalAppearance#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#data PortalAppearance#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#filename PortalAppearance#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#filename PortalAppearance#filename}
   */
   readonly filename?: string;
 }
@@ -3173,11 +3173,11 @@ export interface PortalAppearanceImagesFavicon {
   /**
   * must be a data URL with base64 image data, e.g., data:image/jpeg;base64,<BASE64_IMAGE_DATA>. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#data PortalAppearance#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#data PortalAppearance#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#filename PortalAppearance#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#filename PortalAppearance#filename}
   */
   readonly filename?: string;
 }
@@ -3302,11 +3302,11 @@ export interface PortalAppearanceImagesLogo {
   /**
   * must be a data URL with base64 image data, e.g., data:image/jpeg;base64,<BASE64_IMAGE_DATA>. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#data PortalAppearance#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#data PortalAppearance#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#filename PortalAppearance#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#filename PortalAppearance#filename}
   */
   readonly filename?: string;
 }
@@ -3431,19 +3431,19 @@ export interface PortalAppearanceImages {
   /**
   * The image data to upload, along with an optional filename. Images must be a data URL with binary image data in base 64 format. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#catalog_cover PortalAppearance#catalog_cover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#catalog_cover PortalAppearance#catalog_cover}
   */
   readonly catalogCover?: PortalAppearanceImagesCatalogCover;
   /**
   * The image data to upload, along with an optional filename. Images must be a data URL with binary image data in base 64 format. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#favicon PortalAppearance#favicon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#favicon PortalAppearance#favicon}
   */
   readonly favicon?: PortalAppearanceImagesFavicon;
   /**
   * The image data to upload, along with an optional filename. Images must be a data URL with binary image data in base 64 format. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#logo PortalAppearance#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#logo PortalAppearance#logo}
   */
   readonly logo?: PortalAppearanceImagesLogo;
 }
@@ -3595,11 +3595,11 @@ export class PortalAppearanceImagesOutputReference extends cdktf.ComplexObject {
 }
 export interface PortalAppearanceTextCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#primary_header PortalAppearance#primary_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#primary_header PortalAppearance#primary_header}
   */
   readonly primaryHeader: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#welcome_message PortalAppearance#welcome_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#welcome_message PortalAppearance#welcome_message}
   */
   readonly welcomeMessage: string;
 }
@@ -3706,7 +3706,7 @@ export class PortalAppearanceTextCatalogOutputReference extends cdktf.ComplexObj
 }
 export interface PortalAppearanceText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#catalog PortalAppearance#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#catalog PortalAppearance#catalog}
   */
   readonly catalog: PortalAppearanceTextCatalog;
 }
@@ -3797,7 +3797,7 @@ export class PortalAppearanceTextOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance konnect_portal_appearance}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance konnect_portal_appearance}
 */
 export class PortalAppearance extends cdktf.TerraformResource {
 
@@ -3813,7 +3813,7 @@ export class PortalAppearance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalAppearance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalAppearance to import
-  * @param importFromId The id of the existing PortalAppearance that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalAppearance that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalAppearance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3825,7 +3825,7 @@ export class PortalAppearance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/portal_appearance konnect_portal_appearance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/portal_appearance konnect_portal_appearance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3836,8 +3836,8 @@ export class PortalAppearance extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_portal_appearance',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

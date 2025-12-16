@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key
+// https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CentralizedConsumerKeyConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the of the consumer. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key#consumer_id CentralizedConsumerKey#consumer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key#consumer_id CentralizedConsumerKey#consumer_id}
   */
   readonly consumerId: string;
   /**
   * ID of the realm. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key#realm_id CentralizedConsumerKey#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key#realm_id CentralizedConsumerKey#realm_id}
   */
   readonly realmId: string;
   /**
   * secret to be created. Must be unique within the realm. If not specified a secret will be automatically generated. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key#secret CentralizedConsumerKey#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key#secret CentralizedConsumerKey#secret}
   */
   readonly secret?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key#tags CentralizedConsumerKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key#tags CentralizedConsumerKey#tags}
   */
   readonly tags?: string[];
   /**
   * Default: "legacy"; must be one of ["new", "legacy"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key#type CentralizedConsumerKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key#type CentralizedConsumerKey#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key konnect_centralized_consumer_key}
+* Represents a {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key konnect_centralized_consumer_key}
 */
 export class CentralizedConsumerKey extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class CentralizedConsumerKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CentralizedConsumerKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CentralizedConsumerKey to import
-  * @param importFromId The id of the existing CentralizedConsumerKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CentralizedConsumerKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CentralizedConsumerKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CentralizedConsumerKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.2/docs/resources/centralized_consumer_key konnect_centralized_consumer_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kong/konnect/3.4.3/docs/resources/centralized_consumer_key konnect_centralized_consumer_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CentralizedConsumerKey extends cdktf.TerraformResource {
       terraformResourceType: 'konnect_centralized_consumer_key',
       terraformGeneratorMetadata: {
         providerName: 'konnect',
-        providerVersion: '3.4.2',
-        providerVersionConstraint: '3.4.2'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
